@@ -1,0 +1,12 @@
+<project name="presentation" ID="167C9EEEB173S90SL3SR0G49EDI00WOMIW8T" version="docear 1.0">
+<folder type="library" name="Library">
+<link type="literature_annotations" name="Literature &amp; Annotations" path="project://167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/_data/167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/default_files/literature_and_annotations.mm"/>
+<link type="file" name="Temp" path="project://167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/_data/167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/default_files/temp.mm" system="true"/>
+<link type="file" name="Trash" path="project://167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/_data/167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/default_files/trash.mm" system="true"/>
+</folder>
+<folder type="physical" name="My drafts" path="project://167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/_data/167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/My%20Drafts/"/>
+<folder type="literature_repository" name="Literature repository" system="true">
+<folder type="repository_path" name="default" path="../../literature_repository"/>
+</folder>
+<link type="references" name="References" path="project://167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/_data/167C9EEEB173S90SL3SR0G49EDI00WOMIW8T/default_files/presentation.bib" system="true"/>
+</project>

@@ -1,0 +1,35 @@
+% This file was created with JabRef 2.7.1.
+% Encoding: UTF8
+
+@ARTICLE{li2014shengbte,
+  author = {Li, Wu and Carrete, Jes{\'u}s and Katcho, Nebil A and Mingo, Natalio},
+  title = {ShengBTE: A solver of the Boltzmann transport equation for phonons},
+  journal = {Computer Physics Communications},
+  year = {2014},
+  volume = {185},
+  pages = {1747--1758},
+  number = {6},
+  publisher = {Elsevier}
+}
+
+@INBOOK{Mingo2014,
+  pages = {137--173},
+  title = {Ab Initio Thermal Transport},
+  publisher = {Springer New York},
+  year = {2014},
+  editor = {Shind{\'e}, Subhash L. and Srivastava, Gyaneshwar P.},
+  author = {Mingo, N. and Stewart, D. A. and Broido, D. A. and Lindsay, L. and
+	Li, W.},
+  address = {New York, NY},
+  abstract = {Ab initio (or first principles) approaches are able to predict materials
+	properties without the use of any adjustable parameters. This chapter
+	presents some of our recently developed techniques for the ab initio
+	evaluation of the lattice thermal conductivity of crystalline bulk
+	materials and alloys, and nanoscale materials including embedded
+	nanoparticle composites.},
+  booktitle = {Length-Scale Dependent Phonon Interactions},
+  doi = {10.1007/978-1-4614-8651-0_5},
+  isbn = {978-1-4614-8651-0},
+  url = {https://doi.org/10.1007/978-1-4614-8651-0_5}
+}
+
