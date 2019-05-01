@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Group Theory" LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_791498638" CREATED="1556345032019" MODIFIED="1556423100729"><hook NAME="MapStyle">
+<node TEXT="Group Theory" LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_791498638" CREATED="1556345032019" MODIFIED="1556423100729"><hook NAME="MapStyle" zoom="1.331">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -159,8 +159,19 @@
 <node TEXT="&#x5728;&#x7ebf;&#x6027;&#x7a7a;&#x95f4;&#x7684;&#x4e00;&#x7ec4;&#x57fa;&#x4e0b;,&#x53ef;&#x8fdb;&#x884c;&#x77e9;&#x9635;&#x8868;&#x793a;" ID="ID_392571178" CREATED="1556587518412" MODIFIED="1556587549644"/>
 <node TEXT="&#x8fdb;&#x4e00;&#x6b65;&#x5b9a;&#x4e49;&#x5176;&#x4e58;&#x6cd5;&#x4e3a;&#x4e24;&#x4e2a;&#x7ebf;&#x6027;&#x53d8;&#x6362;&#x76f8;&#x7ee7;&#x4f5c;&#x7528;,&#x5219;n&#x7ef4;&#x590d;&#x7ebf;&#x6027;&#x7a7a;&#x95f4;V&#x4e0a;&#x7684;&#x5168;&#x90e8;&#x975e;&#x5947;&#x5f02;&#x7ebf;&#x6027;&#x53d8;&#x6362;&#x5728;&#x6b64;&#x4e58;&#x6cd5;&#x4e0b;&#x6784;&#x6210;&#x4e00;&#x4e2a;&#x7fa4;,&#x79f0;&#x4e3a;n&#x7ef4;&#x590d;&#x4e00;&#x822c;&#x7ebf;&#x6027;&#x7fa4;GL(V,C),&#x5176;&#x5b50;&#x7fa4;L(V,C)&#x79f0;&#x4e3a;V&#x4e0a;&#x7684;&#x7ebf;&#x6027;&#x53d8;&#x6362;&#x7fa4;(&#x7c7b;&#x6bd4;&#x5b8c;&#x5168;&#x5bf9;&#x79f0;&#x7fa4;&#x4e0e;&#x53d8;&#x6362;&#x7fa4;) (&#x975e;&#x5947;&#x5f02;&#x662f;&#x4e3a;&#x4e86;&#x4fdd;&#x8bc1;&#x4e58;&#x6cd5;&#x7684;&#x9006;&#x5143;&#x5b58;&#x5728;&#x6027;)" ID="ID_205779311" CREATED="1556587549954" MODIFIED="1556587753277"/>
 </node>
+<node TEXT="\latex &#x76f4;&#x548c;: $\forall \vec x\in V,\  \exists \vec y \in W,\  \vec z\in W^\prime:\ \vec x=\vec y+\vec z$(&#x5206;&#x89e3;&#x5fc5;&#x987b;&#x552f;&#x4e00;) &#xa;\\ $V=W\oplus W^\prime$, &#x552f;&#x4e00;&#x5206;&#x89e3;$\rightarrow \ W \cap W^\prime =\{0 \}$" ID="ID_1001120214" CREATED="1556595883442" MODIFIED="1556596204878"/>
 </node>
-<node TEXT="\latex &#x540c;&#x6001;&#x6620;&#x5c04;$A:G\rightarrow L(V,C)$ \\&#xa;A&#x79f0;&#x4e3a;G&#x7684;&#x4e00;&#x4e2a;&#x7ebf;&#x6027;&#x8868;&#x793a;,V&#x4e3a;&#x8868;&#x793a;&#x7a7a;&#x95f4;,n&#x4e3a;&#x8868;&#x793a;&#x7ef4;&#x6570;" ID="ID_555865802" CREATED="1556587805261" MODIFIED="1556587892314"/>
+<node TEXT="\latex &#x540c;&#x6001;&#x6620;&#x5c04;$A:G\rightarrow L(V,C)$ \\&#xa;A&#x79f0;&#x4e3a;G&#x7684;&#x4e00;&#x4e2a;&#x7ebf;&#x6027;&#x8868;&#x793a;,V&#x4e3a;&#x8868;&#x793a;&#x7a7a;&#x95f4;,n&#x4e3a;&#x8868;&#x793a;&#x7ef4;&#x6570;" ID="ID_555865802" CREATED="1556587805261" MODIFIED="1556587892314">
+<node TEXT="&#x82e5;&#x66f4;&#x8fdb;&#x4e00;&#x6b65;,&#x53d8;&#x4e3a;&#x540c;&#x6784;&#x6620;&#x5c04;,&#xa;&#x76f8;&#x5e94;&#x8868;&#x793a;&#x5c31;&#x53d8;&#x6210;&#x5fe0;&#x5b9e;&#x8868;&#x793a;" ID="ID_512609900" CREATED="1556590945215" MODIFIED="1556590987506"/>
+<node TEXT="&#x4e00;&#x7ef4;&#x6052;&#x7b49;&#x8868;&#x793a;: &#x4efb;&#x4f55;&#x7fa4;G&#xa;&#x90fd;&#x4e0e;&#x6052;&#x7b49;&#x53d8;&#x6362;&#x540c;&#x6001;" ID="ID_164570443" CREATED="1556591165899" MODIFIED="1556591215106"/>
+</node>
+<node TEXT="\latex &#x7b49;&#x4ef7;&#x8868;&#x793a;: &#x4e24;&#x4e2a;&#x8868;&#x793a;&#x5bf9;&#x5e94;&#x7684;&#x8868;&#x793a;&#x77e9;&#x9635;&#x7fa4;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x4e00;&#x4e2a;&#x4e0d;&#x4f9d;&#x8d56;&#x4e8e;$g_\alpha$\\&#x7684;&#xa;&#x975e;&#x5947;&#x5f02;&#x77e9;&#x9635;P,&#x7531;$P^{-1}\{A(g_\alpha)  \}P$&#x8054;&#x7cfb;&#x8d77;&#x6765;&#x65f6;,&#x5b83;&#x4eec;&#x4e3a;&#x7b49;&#x4ef7;&#x8868;&#x793a;\\&#xa;(&#x7b49;&#x4ef7;&#x8868;&#x793a;&#x7684;&#x8868;&#x793a;&#x7a7a;&#x95f4;&#x53ef;&#x4ee5;&#x4e0d;&#x4e00;&#x6837;)" ID="ID_1096766805" CREATED="1556592374750" MODIFIED="1556592769573">
+<node TEXT="&#x7b49;&#x4ef7;&#x8868;&#x793a;&#x7c7b;&#x4f3c;&#x4e8e;&#x77e9;&#x9635;&#x7684;&#x76f8;&#x4f3c;&#x53d8;&#x6362;,&#x56e0;&#x6b64;&#x7c7b;&#x6bd4;&#x77e9;&#x9635;&#x5bf9;&#x89d2;&#x5316;(&#x7ea6;&#x5316;&#x77e9;&#x9635;)&#xa;&#x5f15;&#x5165;&#x53ef;&#x7ea6;&#x8868;&#x793a;" ID="ID_1636172960" CREATED="1556592925104" MODIFIED="1556593565816">
+<node TEXT="\latex &#x53ef;&#x7ea6;&#x8868;&#x793a;: A&#x662f;G&#x5728;V&#x4e0a;&#x7684;&#x4e00;&#x4e2a;&#x8868;&#x793a;, &#x82e5;V&#x5b58;&#x5728;&#x4e00;&#x4e2a;G&#x4e0d;&#x53d8;&#x771f;&#x5b50;&#x7a7a;&#x95f4;W, &#x5219;A&#x4e3a;&#x53ef;&#x7ea6;&#x8868;&#x793a;,&#x6b64;&#x65f6;&#x77e9;&#x9635;&#x8868;&#x793a;&#x53ef;&#x4ee5;&#x8868;&#x793a;&#x4e3a;&#x5982;&#x4e0b;&#x5206;&#x5757;&#x5f62;&#x5f0f;" ID="ID_1350487891" CREATED="1556593725780" MODIFIED="1556594664192">
+<hook EQUATION="A(g_\alpha)=\begin{pmatrix}&#xa;C_\alpha &amp; N_\alpha\\&#xa;0&amp; B_\alpha&#xa;\end{pmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
