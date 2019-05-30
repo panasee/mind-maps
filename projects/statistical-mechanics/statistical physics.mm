@@ -1,22 +1,26 @@
-<map version="docear 1.1" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
-<!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
-<node TEXT="statistical physics" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1548936546128"><hook NAME="MapStyle">
-    <properties show_note_icons="true"/>
+<map version="freeplane 1.7.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1559185490209"><hook NAME="MapStyle" zoom="1.771">
+    <properties show_note_icons="true" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,21 +54,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x5185;&#x5bb9;&#x5212;&#x5206;" POSITION="right" ID="ID_1663783621" CREATED="1548936648551" MODIFIED="1548936653845">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x5e73;&#x8861;&#x6001;&#x7edf;&#x8ba1;&#x7406;&#x8bba;" ID="ID_528805222" CREATED="1548936655114" MODIFIED="1549023634105"/>
 <node TEXT="&#x975e;&#x5e73;&#x8861;&#x6001;&#x7edf;&#x8ba1;&#x7406;&#x8bba;" ID="ID_574597458" CREATED="1548936661845" MODIFIED="1548936689172"/>
 <node TEXT="&#x6da8;&#x843d;&#x7406;&#x8bba;" ID="ID_1297237613" CREATED="1548936669157" MODIFIED="1548936684242"/>
-</node>
-<node TEXT="&#x7edf;&#x8ba1;&#x89c4;&#x5f8b;&#x6027;:&#x5728;&#x4e00;&#x5b9a;&#x7684;&#x5b8f;&#x89c2;&#x6761;&#x4ef6;&#x4e0b;,&#x67d0;&#x4e00;&#x65f6;&#x523b;&#x7cfb;&#x7edf;&#x4ee5;&#x4e00;&#x5b9a;&#x7684;&#x51e0;&#x7387;&#x5904;&#x4e8e;&#x67d0;&#x4e00;&#x5fae;&#x89c2;&#x8fd0;&#x52a8;&#x72b6;&#x6001;" POSITION="right" ID="ID_203023222" CREATED="1548939072972" MODIFIED="1548939196507">
-<edge COLOR="#ff00ff"/>
-<node TEXT="&#x5b8f;&#x89c2;&#x72b6;&#x6001;&#x4e0e;&#x5fae;&#x89c2;&#x72b6;&#x6001;&#x4e4b;&#x95f4;&#x7684;&#x8054;&#x7cfb;&#x662f;&#x51e0;&#x7387;&#x6027;&#x7684;,&#x4e0d;&#x662f;&#x51b3;&#x5b9a;&#x6027;&#x7684;" ID="ID_486742094" CREATED="1548939200623" MODIFIED="1548939227565"/>
-<node TEXT="&#x51e0;&#x7387;&#x6027;&#x6765;&#x6e90;:1,&#x5b8f;&#x89c2;&#x72b6;&#x6001;&#x7684;&#x72b6;&#x6001;&#x53d8;&#x91cf;&#x4e0d;&#x8db3;&#x4ee5;&#x786e;&#x5b9a;&#x6240;&#x6709;&#x5fae;&#x89c2;&#x72b6;&#x6001;;2,&#x5916;&#x754c;&#x4f5c;&#x7528;&#x867d;&#x7136;&#x5bf9;&#x5e73;&#x8861;&#x540e;&#x7684;&#x5b8f;&#x89c2;&#x72b6;&#x6001;&#x65e0;&#x5f71;&#x54cd;,&#x4f46;&#x4f1a;&#x5f71;&#x54cd;&#x5fae;&#x89c2;&#x72b6;&#x6001;,&#x8fd9;&#x79cd;&#x4f5c;&#x7528;&#x5e26;&#x6709;&#x968f;&#x673a;&#x6027;" ID="ID_1656315796" CREATED="1548939266774" MODIFIED="1548939366066"/>
-</node>
-<node TEXT="&#x7c92;&#x5b50;&#x6309;&#x80fd;&#x7ea7;&#x7684;&#x5206;&#x5e03;&#x5e76;&#x4e0d;&#x7b49;&#x540c;&#x4e8e;&#x5fae;&#x89c2;&#x72b6;&#x6001;(&#x5206;&#x5e03;&#x5bf9;&#x5e94;&#x4e8b;&#x4ef6;(&#x57fa;&#x672c;&#x4e8b;&#x4ef6;&#x7684;&#x96c6;&#x5408;),&#x800c;&#x5fae;&#x89c2;&#x72b6;&#x6001;&#x5bf9;&#x5e94;&#x57fa;&#x672c;&#x4e8b;&#x4ef6;) (W&#x8868;&#x793a;&#x5fae;&#x89c2;&#x72b6;&#x6001;&#x6570;)" POSITION="right" ID="ID_1961411675" CREATED="1548940398936" MODIFIED="1549014740669">
-<edge COLOR="#ffff00"/>
-<hook EQUATION="P(\{a_\lambda\})\propto W(\{a_\lambda\})" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="&#x5b9a;&#x57df;&#x5b50;&#x7cfb;----Maxwell-Boltzmann Distribution" POSITION="left" ID="ID_1308663839" CREATED="1548940824101" MODIFIED="1548941137330">
 <edge COLOR="#7c0000"/>
@@ -106,39 +101,30 @@
 </node>
 <node TEXT="&#x975e;&#x5b9a;&#x57df;&#x5b50;&#x7cfb;&#x7684;&#x5168;&#x540c;&#x7c92;&#x5b50;&#x7cfb;&#x7edf;(&#x5b58;&#x5728;&#x7c92;&#x5b50;&#x5168;&#x540c;&#x6027;&#x539f;&#x7406;)" POSITION="left" ID="ID_1254702285" CREATED="1549100095586" MODIFIED="1549102850883">
 <edge COLOR="#7c007c"/>
+<node TEXT="" ID="ID_1579047750" CREATED="1559182804026" MODIFIED="1559182804026">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="&#x5168;&#x540c;&#x8d39;&#x7c73;&#x5b50;" ID="ID_140147214" CREATED="1549107734521" MODIFIED="1549161565546">
 <hook EQUATION="W_{FD}(\{ a_\lambda  \})=\prod_\lambda \frac{g_\lambda!}{a_\lambda!(g_\lambda-a_\lambda)!}\\&#xa;\tilde a_\lambda =\bar a_\lambda=\frac {g_\lambda}{e^{\alpha+\beta\epsilon_\lambda}+1}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<hook NAME="FirstGroupNode"/>
 </node>
 <node TEXT="&#x5168;&#x540c;&#x73bb;&#x8272;&#x5b50;" ID="ID_1730749206" CREATED="1549107745146" MODIFIED="1549161523461">
 <hook EQUATION="W_{BE}(\{ a_\lambda  \})=\prod_\lambda \frac{(g_\lambda+a_\lambda-1)}{a_\lambda!(g_\lambda-1)!}\\&#xa;\tilde a_\lambda =\bar a_\lambda=\frac{g_\lambda}{e^{\alpha+\beta\epsilon_\lambda}-1}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="&#x62c9;&#x683c;&#x6717;&#x65e5;&#x4e58;&#x5b50;" ID="ID_664745775" CREATED="1549161565540" MODIFIED="1549161608768">
+<node TEXT="" ID="ID_1994189565" CREATED="1559182804046" MODIFIED="1559182804046">
 <hook NAME="SummaryNode"/>
+<node TEXT="&#x62c9;&#x683c;&#x6717;&#x65e5;&#x4e58;&#x5b50;" ID="ID_664745775" CREATED="1549161565540" MODIFIED="1549161608768">
 <hook EQUATION="\beta=\frac1{kT}\\&#xa;\alpha=-\frac\mu{kT}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
+</node>
 <node TEXT="&#x7406;&#x60f3;&#x6c14;&#x4f53;(&#x8fd1;&#x72ec;&#x7acb;&#x7684;&#x975e;&#x5b9a;&#x57df;&#x5b50;&#x7cfb;)" ID="ID_927996481" CREATED="1549161885121" MODIFIED="1549161914926">
-<node TEXT="&#x5de8;&#x914d;&#x5206;&#x51fd;&#x6570;(&#x901a;&#x8fc7;&#x80fd;&#x7ea7;&#x80fd;&#x91cf;&#x5bf9;&#x73af;&#x5883;&#x53c2;&#x6570;&#x4ea7;&#x751f;&#x4f9d;&#x8d56;)" ID="ID_590511386" CREATED="1549161939611" MODIFIED="1549162718820" HGAP="50" VSHIFT="10" MOVED="1549162658707">
+<node TEXT="&#x5de8;&#x914d;&#x5206;&#x51fd;&#x6570;(&#x901a;&#x8fc7;&#x80fd;&#x7ea7;&#x80fd;&#x91cf;&#x5bf9;&#x73af;&#x5883;&#x53c2;&#x6570;&#x4ea7;&#x751f;&#x4f9d;&#x8d56;)" ID="ID_590511386" CREATED="1549161939611" MODIFIED="1549162718820" HGAP_QUANTITY="50.0 px" VSHIFT_QUANTITY="10.0 px" MOVED="1549162658707">
 <hook EQUATION="\Xi=\prod_\lambda(1\pm e^{-\alpha-\beta\epsilon_\lambda})^{\pm g_\lambda}=\Xi(\alpha,\beta,\{y_\lambda\})" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x7edf;&#x8ba1;&#x5e73;&#x5747;&#x8ba1;&#x7b97;" POSITION="right" ID="ID_1139214853" CREATED="1548995750113" MODIFIED="1548995757889">
-<edge COLOR="#00007c"/>
-<node TEXT="&#x7edf;&#x8ba1;&#x5e73;&#x5747;&#x6cd5;(&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;)" ID="ID_1140088919" CREATED="1548995759025" MODIFIED="1548995845548">
-<hook EQUATION="\bar a_\lambda=\sum_{\{ a_\lambda \}}a_\lambda P(\{a_\lambda\})" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="&#x6700;&#x53ef;&#x51e0;&#x5206;&#x5e03;&#x6cd5;:(&#x524d;&#x63d0;:&#x7c92;&#x5b50;&#x6570;&#x76ee;&#x975e;&#x5e38;&#x5927;)&#x6982;&#x7387;&#x6700;&#x5927;&#x7684;&#x5206;&#x5e03;&#x5c31;&#x662f;&#x5e73;&#x5747;&#x5206;&#x5e03;(&#x5927;&#x6570;&#x5b9a;&#x7406;)" ID="ID_1537774169" CREATED="1548995850624" MODIFIED="1549161461502">
-<hook EQUATION="\delta lnW(\{ a_\lambda \})=0\Rightarrow \tilde a_\lambda" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-</node>
-<node TEXT=" &#x5206;&#x5e03;&#x53ef;&#x4ee5;&#x7edf;&#x4e00;&#x4e3a;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1720072434" CREATED="1549162329832" MODIFIED="1549162588026" HGAP="-222" VSHIFT="110" MOVED="1549162588020">
+<node TEXT=" &#x5206;&#x5e03;&#x53ef;&#x4ee5;&#x7edf;&#x4e00;&#x4e3a;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1720072434" CREATED="1549162329832" MODIFIED="1549162588026" HGAP_QUANTITY="-222.0 px" VSHIFT_QUANTITY="110.0 px" MOVED="1549162588020">
 <hook NAME="FreeNode"/>
 <hook EQUATION="\tilde a_\lambda=\frac{g_\lambda}{e^{\alpha+\beta\epsilon_\lambda}+\eta}" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="&#x57fa;&#x672c;&#x5047;&#x8bbe;:&#x7b49;&#x51e0;&#x7387;&#x539f;&#x7406;:&#x5904;&#x4e8e;&#x5e73;&#x8861;&#x6001;&#x4e0b;&#x7684;&#x5b64;&#x7acb;&#x7cfb;,&#x7cfb;&#x7edf;&#x5404;&#x4e2a;&#x53ef;&#x80fd;&#x7684;&#x5fae;&#x89c2;&#x6001;&#x51fa;&#x73b0;&#x7684;&#x6982;&#x7387;&#x76f8;&#x7b49;" POSITION="right" ID="ID_1444964731" CREATED="1548939433656" MODIFIED="1548939531989" MOVED="1549683692037">
-<edge COLOR="#00ffff"/>
-<node TEXT="????&#x5c1a;&#x65e0;&#x6cd5;&#x4ece;&#x66f4;&#x57fa;&#x672c;&#x7684;&#x539f;&#x7406;&#x63a8;&#x5bfc;&#x800c;&#x51fa;" ID="ID_615567166" CREATED="1548939554633" MODIFIED="1548939596068"/>
 </node>
 <node TEXT="&#x70ed;&#x8f90;&#x5c04;&#x7406;&#x8bba;" POSITION="right" ID="ID_1281528057" CREATED="1549037236330" MODIFIED="1549037249605" MOVED="1549683699602">
 <edge COLOR="#007c00"/>
@@ -156,6 +142,44 @@
 <node TEXT="&#x53ef;&#x7528;&#x7b49;&#x80fd;&#x91cf;&#x7ebf;&#x6c42;&#x51fa;&#x5404;&#x4e2a;&#x80fd;&#x7ea7;&#x95f4;&#x9694;&#x9762;&#x79ef;" ID="ID_1380189602" CREATED="1548937701864" MODIFIED="1548937729185"/>
 </node>
 <node TEXT="&#x5b9a;&#x57df;&#x5b50;&#x7cfb;:&#x5168;&#x540c;&#x591a;&#x7c92;&#x5b50;&#x7cfb;&#x7edf;,&#x5f53;&#x6ce2;&#x51fd;&#x6570;&#x65e0;&#x91cd;&#x53e0;&#x65f6;,&#x53ef;&#x4ece;&#x4f4d;&#x7f6e;&#x533a;&#x5206;&#x7c92;&#x5b50;,&#x5168;&#x540c;&#x6027;&#x539f;&#x7406;&#x4e0d;&#x8d77;&#x4f5c;&#x7528;,&#x9075;&#x4ece;&#x73bb;&#x5c14;&#x5179;&#x66fc;&#x7edf;&#x8ba1;(&#x65e0;&#x8bba;&#x8d39;&#x7c73;&#x5b50;&#x8fd8;&#x662f;&#x73bb;&#x8272;&#x5b50;)(&#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a;&#x591a;&#x4e2a;&#x5b64;&#x7acb;&#x7cfb;&#x7edf;&#x5171;&#x7528;&#x91cf;&#x5b50;&#x6001;)" ID="ID_700349716" CREATED="1548938399943" MODIFIED="1548938975056"/>
+</node>
+<node TEXT="&#x7edf;&#x8ba1;&#x7269;&#x7406;&#x5b66;&#x57fa;&#x672c;&#x539f;&#x7406;" POSITION="right" ID="ID_273677250" CREATED="1559185737360" MODIFIED="1559185749982">
+<edge COLOR="#808080"/>
+<node TEXT="&#x7edf;&#x8ba1;&#x89c4;&#x5f8b;&#x6027;" ID="ID_1231133404" CREATED="1559184073409" MODIFIED="1559185776746">
+<node TEXT="&#x5728;&#x4e00;&#x5b9a;&#x7684;&#x5b8f;&#x89c2;&#x6761;&#x4ef6;&#x4e0b;,&#x67d0;&#x4e00;&#x65f6;&#x523b;&#x7cfb;&#x7edf;&#x4ee5;&#x4e00;&#x5b9a;&#x7684;&#x51e0;&#x7387;&#x5904;&#x4e8e;&#x67d0;&#x4e00;&#x5fae;&#x89c2;&#x8fd0;&#x52a8;&#x72b6;&#x6001;(&#x5373;&#x76f8;&#x7a7a;&#x95f4;&#x4e2d;&#x4e00;&#x70b9;)(&#x4fe1;&#x606f;&#x4e0d;&#x8db3;&#x4ee5;&#x786e;&#x5b9a;&#x7cfb;&#x7edf;&#x6070;&#x597d;&#x5904;&#x4e8e;&#x4e00;&#x4e2a;&#x5fae;&#x89c2;&#x72b6;&#x6001;)" ID="ID_203023222" CREATED="1548939072972" MODIFIED="1559184101330">
+<node TEXT="&#x5b8f;&#x89c2;&#x72b6;&#x6001;&#x4e0e;&#x5fae;&#x89c2;&#x72b6;&#x6001;&#x4e4b;&#x95f4;&#x7684;&#x8054;&#x7cfb;&#x662f;&#x51e0;&#x7387;&#x6027;&#x7684;,&#x4e0d;&#x662f;&#x51b3;&#x5b9a;&#x6027;&#x7684;" ID="ID_486742094" CREATED="1548939200623" MODIFIED="1548939227565"/>
+<node TEXT="&#x51e0;&#x7387;&#x6027;&#x6765;&#x6e90;:1,&#x5b8f;&#x89c2;&#x72b6;&#x6001;&#x7684;&#x72b6;&#x6001;&#x53d8;&#x91cf;&#x4e0d;&#x8db3;&#x4ee5;&#x786e;&#x5b9a;&#x6240;&#x6709;&#x5fae;&#x89c2;&#x72b6;&#x6001;;2,&#x5916;&#x754c;&#x4f5c;&#x7528;&#x867d;&#x7136;&#x5bf9;&#x5e73;&#x8861;&#x540e;&#x7684;&#x5b8f;&#x89c2;&#x72b6;&#x6001;&#x65e0;&#x5f71;&#x54cd;,&#x4f46;&#x4f1a;&#x5f71;&#x54cd;&#x5fae;&#x89c2;&#x72b6;&#x6001;,&#x8fd9;&#x79cd;&#x4f5c;&#x7528;&#x5e26;&#x6709;&#x968f;&#x673a;&#x6027; (&#x4e0d;&#x662f;&#x7269;&#x4f53;&#x7684;&#x56fa;&#x6709;&#x5c5e;&#x6027;,&#x8fd9;&#x70b9;&#x4e0e;&#x91cf;&#x5b50;&#x529b;&#x5b66;&#x6709;&#x672c;&#x8d28;&#x4e0d;&#x540c;)" ID="ID_1656315796" CREATED="1548939266774" MODIFIED="1559184369865"/>
+<node TEXT="&#x7c92;&#x5b50;&#x6309;&#x80fd;&#x7ea7;&#x7684;&#x5206;&#x5e03;&#x5e76;&#x4e0d;&#x7b49;&#x540c;&#x4e8e;&#x5fae;&#x89c2;&#x72b6;&#x6001;(&#x5206;&#x5e03;&#x5bf9;&#x5e94;&#x4e8b;&#x4ef6;(&#x57fa;&#x672c;&#x4e8b;&#x4ef6;&#x7684;&#x96c6;&#x5408;),&#x800c;&#x5fae;&#x89c2;&#x72b6;&#x6001;&#x5bf9;&#x5e94;&#x57fa;&#x672c;&#x4e8b;&#x4ef6;) (W&#x8868;&#x793a;&#x5fae;&#x89c2;&#x72b6;&#x6001;&#x6570;)" ID="ID_1961411675" CREATED="1548940398936" MODIFIED="1559185546860">
+<hook EQUATION="P(\{a_\lambda\})\propto W(\{a_\lambda\})" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="&#x7edf;&#x8ba1;&#x5e73;&#x5747;&#x5b8c;&#x5168;&#x7b49;&#x4ef7;&#x4e8e;&#x65f6;&#x95f4;&#x5e73;&#x5747;&#xa;(&#x6ce8;&#x610f;&#x7814;&#x7a76;&#x5bf9;&#x8c61;&#x662f;&#x5e73;&#x8861;&#x6001;)" ID="ID_1039049321" CREATED="1559184124024" MODIFIED="1559185508573">
+<node TEXT="&#x7528;&#x76f8;&#x7a7a;&#x95f4;&#x5206;&#x5e03;&#x51fd;&#x6570;&#x6765;&#x6c42;&#x5e73;&#x5747;(&#x7edf;&#x8ba1;&#x5e73;&#x5747;)&#x53ef;&#x4ee5;&#x907f;&#x514d;&#x4e3a;&#x4e86;&#x786e;&#x5b9a;&#x7269;&#x7406;&#x91cf;&#x7684;&#x5e73;&#x5747;&#x503c;&#x800c;&#x53bb;&#x8ffd;&#x8e2a;&#x5176;&#x968f;&#x65f6;&#x95f4;&#x53d8;&#x5316;" ID="ID_651119365" CREATED="1559184242827" MODIFIED="1559184301412"/>
+</node>
+</node>
+<node TEXT="&#x57fa;&#x672c;&#x5047;&#x8bbe;:&#x7b49;&#x51e0;&#x7387;&#x539f;&#x7406;:&#x5904;&#x4e8e;&#x5e73;&#x8861;&#x6001;&#x4e0b;&#x7684;&#x5b64;&#x7acb;&#x7cfb;,&#x7cfb;&#x7edf;&#x5404;&#x4e2a;&#x53ef;&#x80fd;&#x7684;&#x5fae;&#x89c2;&#x6001;&#x51fa;&#x73b0;&#x7684;&#x6982;&#x7387;&#x76f8;&#x7b49;" ID="ID_1444964731" CREATED="1548939433656" MODIFIED="1559185785909" MOVED="1549683692037">
+<node TEXT="????&#x5c1a;&#x65e0;&#x6cd5;&#x4ece;&#x66f4;&#x57fa;&#x672c;&#x7684;&#x539f;&#x7406;&#x63a8;&#x5bfc;&#x800c;&#x51fa;" ID="ID_615567166" CREATED="1548939554633" MODIFIED="1548939596068"/>
+</node>
+<node TEXT="&#x7edf;&#x8ba1;&#x5e73;&#x5747;&#x8ba1;&#x7b97;" ID="ID_1139214853" CREATED="1548995750113" MODIFIED="1559185795502">
+<node TEXT="&#x7edf;&#x8ba1;&#x5e73;&#x5747;&#x6cd5;(&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;)" ID="ID_1140088919" CREATED="1548995759025" MODIFIED="1548995845548">
+<hook EQUATION="\bar a_\lambda=\sum_{\{ a_\lambda \}}a_\lambda P(\{a_\lambda\})" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="&#x6700;&#x53ef;&#x51e0;&#x5206;&#x5e03;&#x6cd5;:(&#x524d;&#x63d0;:&#x7c92;&#x5b50;&#x6570;&#x76ee;&#x975e;&#x5e38;&#x5927;)&#x6982;&#x7387;&#x6700;&#x5927;&#x7684;&#x5206;&#x5e03;&#x5c31;&#x662f;&#x5e73;&#x5747;&#x5206;&#x5e03;(&#x5927;&#x6570;&#x5b9a;&#x7406;)" ID="ID_1537774169" CREATED="1548995850624" MODIFIED="1549161461502">
+<hook EQUATION="\delta lnW(\{ a_\lambda \})=0\Rightarrow \tilde a_\lambda" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+</node>
+<node TEXT="&#x51c6;&#x5c01;&#x95ed;&#x6027;:&#x5b50;&#x7cfb;&#x7edf;&#x8db3;&#x591f;&#x5927;&#x65f6;,&#x5728;&#x4e0d;&#x592a;&#x957f;&#x7684;&#x65f6;&#x95f4;&#x95f4;&#x9694;&#x5185;,&#x53ef;&#x8fd1;&#x4f3c;&#x8ba4;&#x4e3a;&#x95ed;&#x5408;&#x7cfb;&#x7edf;" ID="ID_823638495" CREATED="1559185846933" MODIFIED="1559187392108">
+<node TEXT="" ID="ID_315786048" CREATED="1559187432524" MODIFIED="1559187432526">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="&#x5927;&#x591a;&#x6570;&#x6709;&#x7269;&#x7406;&#x610f;&#x4e49;&#x7684;&#x91cf;&#x90fd;&#x662f;&#x53ef;&#x52a0;&#x91cf;:&#xa;&#x7269;&#x4f53;&#x7684;&#x5404;&#x5b8f;&#x89c2;&#x91cf;&#x7b49;&#x4e8e;&#x5176;&#x5404;&#x5b8f;&#x89c2;&#x90e8;&#x5206;&#x5b8f;&#x89c2;&#x91cf;&#x4e4b;&#x548c;" ID="ID_1416579652" CREATED="1559185963955" MODIFIED="1559186263790"/>
+<node TEXT="&#x8fd1;&#x4f3c;&#x8ba4;&#x4e3a;&#x5404;&#x4e2a;&#x5b50;&#x7cfb;&#x7edf;&#x662f;&#x7edf;&#x8ba1;&#x72ec;&#x7acb;&#x7684;" ID="ID_397010005" CREATED="1559187393840" MODIFIED="1559187407686"/>
+<node TEXT="" ID="ID_1250890185" CREATED="1559187432521" MODIFIED="1559187444468">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex &#x7269;&#x7406;&#x91cf;&#x7684;&#x76f8;&#x5bf9;&#x6da8;&#x843d;&#x968f;&#x7740;&#x5176;&#x6240;&#x4ece;&#x5c5e;&#x7684;&#x7269;&#x4f53;&#x5c3a;&#x5ea6;&#x589e;&#x52a0;&#x800c;&#x8fc5;&#x901f;&#x51cf;&#x5c0f; \\&#xa;$\frac{\sqrt{\langle (\Delta f)^2\rangle}}{\bar f}\propto \frac1{\sqrt{N}}$" ID="ID_1101616074" CREATED="1559187432528" MODIFIED="1559187444460" HGAP_QUANTITY="22.249999754130847 pt" VSHIFT_QUANTITY="-7.499999776482589 pt"/>
+</node>
+</node>
 </node>
 </node>
 </map>
