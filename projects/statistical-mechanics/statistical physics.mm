@@ -1,7 +1,7 @@
 <map version="freeplane 1.7.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1559185490209"><hook NAME="MapStyle" zoom="1.771">
-    <properties show_note_icons="true" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x5185;&#x5bb9;&#x5212;&#x5206;" POSITION="right" ID="ID_1663783621" CREATED="1548936648551" MODIFIED="1548936653845">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x5e73;&#x8861;&#x6001;&#x7edf;&#x8ba1;&#x7406;&#x8bba;" ID="ID_528805222" CREATED="1548936655114" MODIFIED="1549023634105"/>
@@ -168,7 +168,8 @@
 <hook EQUATION="\delta lnW(\{ a_\lambda \})=0\Rightarrow \tilde a_\lambda" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="&#x51c6;&#x5c01;&#x95ed;&#x6027;:&#x5b50;&#x7cfb;&#x7edf;&#x8db3;&#x591f;&#x5927;&#x65f6;,&#x5728;&#x4e0d;&#x592a;&#x957f;&#x7684;&#x65f6;&#x95f4;&#x95f4;&#x9694;&#x5185;,&#x53ef;&#x8fd1;&#x4f3c;&#x8ba4;&#x4e3a;&#x95ed;&#x5408;&#x7cfb;&#x7edf;" ID="ID_823638495" CREATED="1559185846933" MODIFIED="1559187392108">
+<node TEXT="&#x51c6;&#x5c01;&#x95ed;&#x6027;:&#x5b50;&#x7cfb;&#x7edf;&#x8db3;&#x591f;&#x5927;&#x65f6;,&#x5728;&#x4e0d;&#x592a;&#x957f;&#x7684;&#x65f6;&#x95f4;&#x95f4;&#x9694;&#x5185;,&#x53ef;&#x8fd1;&#x4f3c;&#x8ba4;&#x4e3a;&#x95ed;&#x5408;&#x7cfb;&#x7edf;" ID="ID_823638495" CREATED="1559185846933" MODIFIED="1559531551079">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-14;16;" ENDINCLINATION="19;-15;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="" ID="ID_315786048" CREATED="1559187432524" MODIFIED="1559187432526">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -179,6 +180,21 @@
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex &#x7269;&#x7406;&#x91cf;&#x7684;&#x76f8;&#x5bf9;&#x6da8;&#x843d;&#x968f;&#x7740;&#x5176;&#x6240;&#x4ece;&#x5c5e;&#x7684;&#x7269;&#x4f53;&#x5c3a;&#x5ea6;&#x589e;&#x52a0;&#x800c;&#x8fc5;&#x901f;&#x51cf;&#x5c0f; \\&#xa;$\frac{\sqrt{\langle (\Delta f)^2\rangle}}{\bar f}\propto \frac1{\sqrt{N}}$" ID="ID_1101616074" CREATED="1559187432528" MODIFIED="1559187444460" HGAP_QUANTITY="22.249999754130847 pt" VSHIFT_QUANTITY="-7.499999776482589 pt"/>
 </node>
+</node>
+<node TEXT="\latex &#x5218;&#x7ef4;&#x5c14;&#x5b9a;&#x7406;: &#x6cbf;&#x7740;&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x76f8;&#x8f68;&#x9053;,&#x5206;&#x5e03;&#x51fd;&#x6570;&#x4fdd;&#x6301;&#x6052;&#x5b9a;\\&#xa;$\frac{d\rho}{dt}=0$ (&#x4ea6;&#x5373;&#x4e3a;&#x8fd0;&#x52a8;&#x65b9;&#x7a0b;&#x5f0f;&#x7684;&#x7b2c;&#x4e00;&#x79ef;&#x5206;)" ID="ID_824636605" CREATED="1559529876219" MODIFIED="1559531557954">
+<node TEXT="\latex &#x8003;&#x8651;&#x5230;&#x7edf;&#x8ba1;&#x72ec;&#x7acb;&#x6027;\\&#xa;$\rho_{12}=\rho_1\rho_2\Rightarrow \ln\rho_{12}=\ln\rho_1+\ln\rho_2$ \\&#xa;&#x6240;&#x4ee5;&#x5206;&#x5e03;&#x51fd;&#x6570;&#x7684;&#x5bf9;&#x6570;&#x4e3a;&#x53ef;&#x52a0;&#x6027;&#x7684;&#x8fd0;&#x52a8;&#x79ef;&#x5206;" ID="ID_1883784278" CREATED="1559531343801" MODIFIED="1559531557948" HGAP_QUANTITY="33.499999418854735 pt" VSHIFT_QUANTITY="4.499999865889553 pt">
+<node TEXT="\latex &#x7ebf;&#x6027;&#x72ec;&#x7acb;&#x7684;&#x8fd0;&#x52a8;&#x79ef;&#x5206;&#x4e3a;$\{E,\vec p,\vec M\}$,&#x5176;&#x7ebf;&#x6027;&#x7ec4;&#x5408;&#x53ef;&#x8868;&#x793a;&#x5176;&#x4ed6;&#x79ef;&#x5206;(&#x5bf9;&#x4e8e;&#x5b50;&#x7cfb;&#x7edf;a):\\&#xa;$\ln \rho_a=\alpha_a+\beta E_a(p,q)+\vec\gamma\cdot\vec P_a(p,q)+\vec\delta\cdot \vec M_a(p,q) $ &#xa;\\&#x5176;&#x4e2d;$\alpha_a$&#x4e3a;&#x5f52;&#x4e00;&#x5316;&#x5e38;&#x6570;,&#x5176;&#x4ed6;&#x4e03;&#x4e2a;&#x5e38;&#x6570;&#x5373;&#x4e3a;&#x7ebf;&#x6027;&#x7ec4;&#x5408;&#x7cfb;&#x6570;\\(&#x6240;&#x6709;&#x5b50;&#x7cfb;&#x7edf;&#x5171;&#x7528;&#x540c;&#x4e00;&#x7ebf;&#x6027;&#x7ec4;&#x5408;,&#x7ebf;&#x6027;&#x7cfb;&#x6570;&#x76f8;&#x540c;)" ID="ID_126099304" CREATED="1559531641866" MODIFIED="1559532707273">
+<node TEXT="\latex &#x4e03;&#x4e2a;&#x53ef;&#x52a0;&#x6027;&#x7684;&#x8fd0;&#x52a8;&#x79ef;&#x5206;&#x7684;&#x503c;&#x5b8c;&#x5168;&#x786e;&#x5b9a;&#x4e86;&#x95ed;&#x5408;&#x7cfb;&#x7edf;&#x7684;&#x7edf;&#x8ba1;&#x6027;&#x8d28;$\rho$,\\&#xa;&#x4ea6;&#x5373;&#x5b8c;&#x5168;&#x786e;&#x5b9a;&#x4e86;&#x5b83;&#x7684;&#x4efb;&#x4f55;&#x5b50;&#x7cfb;&#x7edf;&#x7684;&#x7edf;&#x8ba1;&#x5206;&#x5e03; \\&#xa;&#x4ece;&#x800c;&#x4e0d;&#x518d;&#x9700;&#x8981;&#x666e;&#x901a;&#x529b;&#x5b66;&#x65b9;&#x6cd5;&#x6240;&#x9700;&#x7684;&#x5de8;&#x91cf;&#x6570;&#x636e;" ID="ID_1622174329" CREATED="1559532345242" MODIFIED="1559532746605">
+<node TEXT="&#x7cfb;&#x7edf;&#x7684;&#x52a8;&#x91cf;&#x548c;&#x89d2;&#x52a8;&#x91cf;&#x4e0e;&#x6574;&#x4f53;&#x8fd0;&#x52a8;&#x76f8;&#x5173;,&#x56e0;&#x6b64;&#xa;&#x5bf9;&#x4e8e;&#x7ed9;&#x5b9a;&#x8fd0;&#x52a8;&#x72b6;&#x6001;&#x7684;&#x7cfb;&#x7edf;,&#x7edf;&#x8ba1;&#x72b6;&#x6001;&#x53ea;&#x4e0e;&#x80fd;&#x91cf;&#x6709;&#x5173;" ID="ID_1538447863" CREATED="1559533756218" MODIFIED="1559533811782"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x5206;&#x5e03;" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
+<edge COLOR="#808080"/>
+<node TEXT="&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;" ID="ID_217324042" CREATED="1559533519444" MODIFIED="1559533526393">
+<node TEXT="\latex &#x53d6;&#x4e03;&#x4e2a;&#x53ef;&#x52a0;&#x8fd0;&#x52a8;&#x79ef;&#x5206;&#x90fd;&#x4e3a;&#x5e38;&#x6570;,&#x5f97;&#x5230;&#x5206;&#x5e03;&#x51fd;&#x6570;:\\&#xa;$\rho = Const \cdot \delta(E-E_0)\delta(\vec P-\vec P_0)\delta(\vec M-\vec M_0) $" ID="ID_930214946" CREATED="1559533545180" MODIFIED="1559533691449"/>
 </node>
 </node>
 </node>
