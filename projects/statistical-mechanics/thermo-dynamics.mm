@@ -1,22 +1,26 @@
-<map version="docear 1.1" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548408974962_cx6d3w6wg6dmmge0tkas6om8z">
-<!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
+<map version="freeplane 1.7.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548408974962_cx6d3w6wg6dmmge0tkas6om8z">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x70ed;&#x529b;&#x5b66;" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1551755091421"><hook NAME="MapStyle" zoom="1.334">
-    <properties show_note_icons="true"/>
+    <properties show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <font NAME="SansSerif" SIZE="13"/>
 <node TEXT="Maxwell&#x5173;&#x7cfb;,&#x7531;&#x5fae;&#x5206;&#x65b9;&#x7a0b;&#x4e0e;&#x5168;&#x5fae;&#x5206;&#x5173;&#x7cfb;&#x5f97;&#x51fa;&#x7684;&#x5173;&#x7cfb;" POSITION="right" ID="ID_1200737466" CREATED="1548409072567" MODIFIED="1551755091424">
 <font NAME="SansSerif" SIZE="13"/>
@@ -111,7 +115,7 @@
 </node>
 </node>
 </node>
-<node TEXT=" (&#x7ea6;&#x5b9a;:&#x5728;&#x4f7f;&#x7528;&#x5e7f;&#x4e49;&#x529b;&#x548c;&#x4f4d;&#x79fb;&#x65f6;,&#x529f;&#x8868;&#x793a;&#x5916;&#x754c;&#x5bf9;&#x7cfb;&#x7edf;&#x505a;&#x529f;)" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1927819517" CREATED="1549784257172" MODIFIED="1551963341726" HGAP="119" VSHIFT="-303" MOVED="1551963341711">
+<node TEXT=" (&#x7ea6;&#x5b9a;:&#x5728;&#x4f7f;&#x7528;&#x5e7f;&#x4e49;&#x529b;&#x548c;&#x4f4d;&#x79fb;&#x65f6;,&#x529f;&#x8868;&#x793a;&#x5916;&#x754c;&#x5bf9;&#x7cfb;&#x7edf;&#x505a;&#x529f;)" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1927819517" CREATED="1549784257172" MODIFIED="1551963341726" HGAP_QUANTITY="119.0 px" VSHIFT_QUANTITY="-303.0 px" MOVED="1551963341711">
 <hook NAME="FreeNode"/>
 <font NAME="SansSerif" SIZE="13"/>
 </node>
@@ -194,8 +198,10 @@
 </node>
 <node TEXT="&#x5e73;&#x8861;&#x6761;&#x4ef6;" ID="ID_1207248566" CREATED="1548728263995" MODIFIED="1551755091573">
 <font NAME="SansSerif" SIZE="13"/>
-<node TEXT="&#x70ed;&#x5e73;&#x8861;&#x6761;&#x4ef6; (&#x5185;&#x90e8;&#x65e0;&#x70ed;&#x91cf;&#x4ea4;&#x6362;&#xff0c;&#x4ea6;&#x5373;&#x65e0;&#x51c0;&#x70ed;&#x6d41;)" ID="ID_305625257" CREATED="1548728272073" MODIFIED="1551755091577">
+<node TEXT="" ID="ID_276815441" CREATED="1559729603484" MODIFIED="1559729603484">
 <hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="&#x70ed;&#x5e73;&#x8861;&#x6761;&#x4ef6; (&#x5185;&#x90e8;&#x65e0;&#x70ed;&#x91cf;&#x4ea4;&#x6362;&#xff0c;&#x4ea6;&#x5373;&#x65e0;&#x51c0;&#x70ed;&#x6d41;)" ID="ID_305625257" CREATED="1548728272073" MODIFIED="1551755091577">
 <font NAME="SansSerif" SIZE="13"/>
 </node>
 <node TEXT="&#x529b;&#x5b66;&#x5e73;&#x8861;&#x6761;&#x4ef6;(&#x5185;&#x90e8;&#x65e0;&#x5b8f;&#x89c2;&#x4f4d;&#x79fb;)" ID="ID_1310274608" CREATED="1548728276767" MODIFIED="1551755091580">
@@ -207,10 +213,12 @@
 <node TEXT="&#x5316;&#x5b66;&#x5e73;&#x8861;&#x6761;&#x4ef6;(&#x5316;&#x5b66;&#x53cd;&#x5e94;&#x8fbe;&#x5230;&#x5e73;&#x8861;)" ID="ID_1340369142" CREATED="1548728298430" MODIFIED="1551755091596">
 <font NAME="SansSerif" SIZE="13"/>
 </node>
-<node TEXT="&#x5e73;&#x8861;&#x6761;&#x4ef6;" ID="ID_805077466" CREATED="1548728499996" MODIFIED="1551755091600">
+<node TEXT="" ID="ID_99319789" CREATED="1559729603486" MODIFIED="1559729603486">
 <hook NAME="SummaryNode"/>
+<node TEXT="&#x5e73;&#x8861;&#x6761;&#x4ef6;" ID="ID_805077466" CREATED="1548728499996" MODIFIED="1551755091600">
 <hook EQUATION="n=Const\Rightarrow T_1=T_2;\, p_1=p_2;\, \mu_1=\mu_2 \\&#xa;n\neq Const \Rightarrow T_1=T_2;\, p_1=p_2;\, \mu_1=\mu_2=0" NAME="plugins/latex/LatexNodeHook.properties"/>
 <font NAME="SansSerif" SIZE="13"/>
+</node>
 </node>
 <node TEXT="&#x5316;&#x5b66;&#x52bf;&#x7684;&#x5e73;&#x8861;&#x6761;&#x4ef6;&#x53ef;&#x4ee5;&#x5f97;&#x51fa;&#x76f8;&#x56fe;" ID="ID_1783189963" CREATED="1548766715537" MODIFIED="1551755091603">
 <font NAME="SansSerif" SIZE="13"/>
@@ -221,7 +229,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5173;&#x4e8e;&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;&#x5e73;&#x8861;&#x6027;&#x8d28;&#x7684;&#x552f;&#x8c61;&#x7406;&#x8bba;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1240820091" CREATED="1549594524366" MODIFIED="1551755091614" HGAP="74" VSHIFT="69" MOVED="1549685587215">
+<node TEXT="&#x5173;&#x4e8e;&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;&#x5e73;&#x8861;&#x6027;&#x8d28;&#x7684;&#x552f;&#x8c61;&#x7406;&#x8bba;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1240820091" CREATED="1549594524366" MODIFIED="1551755091614" HGAP_QUANTITY="74.0 px" VSHIFT_QUANTITY="69.0 px" MOVED="1549685587215">
 <hook NAME="FreeNode"/>
 <font NAME="SansSerif" SIZE="13"/>
 </node>
@@ -356,8 +364,8 @@
 </node>
 </node>
 <node TEXT="&#x70ed;&#x529b;&#x5b66;&#x6d41;&#x548c;&#x529b;&#x7684;&#x9009;&#x62e9;--&#x4ece;&#x71b5;&#x4ea7;&#x751f;&#x7387;&#x4e2d;&#x5206;&#x89e3;" ID="ID_1199552316" CREATED="1548934869375" MODIFIED="1551755091724">
-<font NAME="SansSerif" SIZE="13"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_446315445" STARTINCLINATION="273;0;" ENDINCLINATION="-184;45;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="SansSerif" SIZE="13"/>
 </node>
 </node>
 <node TEXT="&#x76f8;&#x5173;&#x53c2;&#x6570;(&#x6bd4;&#x4f8b;&#x5e38;&#x6570;&#x7b49;)&#x65e0;&#x6cd5;&#x4ece;&#x8be5;&#x7406;&#x8bba;&#x76f4;&#x63a5;&#x8ba1;&#x7b97;,&#x975e;&#x5e73;&#x8861;&#x6001;&#x7edf;&#x8ba1;&#x7269;&#x7406;&#x53ef;&#x4ee5;&#x5728;&#x7b80;&#x5316;&#x6761;&#x4ef6;&#x4e0b;&#x8ba1;&#x7b97;&#x8fd9;&#x4e9b;&#x53c2;&#x6570;" ID="ID_1297497058" CREATED="1548936363847" MODIFIED="1551755091727">
@@ -367,7 +375,7 @@
 <node TEXT="&#x529f;" POSITION="left" ID="ID_1795163282" CREATED="1549682848040" MODIFIED="1551755091732" MOVED="1549682864177">
 <edge COLOR="#ff0000"/>
 <font NAME="SansSerif" SIZE="13"/>
-<node TEXT="&#x529b;&#x5b66;&#x4e0a;&#x4e60;&#x60ef;&#x8868;&#x793a;&#x529f;&#x4e3a;&quot;&#x5916;&#x754c;&#x5bf9;&#x7814;&#x7a76;&#x5bf9;&#x8c61;&#x505a;&#x529f;&quot;,&#x4f53;&#x79ef;&#x529f;&#x6ce8;&#x610f;&#x7b26;&#x53f7;&#x53d8;&#x5316;" ID="ID_70681723" CREATED="1548842756527" MODIFIED="1551755091736" MOVED="1549682868500" HGAP="15">
+<node TEXT="&#x529b;&#x5b66;&#x4e0a;&#x4e60;&#x60ef;&#x8868;&#x793a;&#x529f;&#x4e3a;&quot;&#x5916;&#x754c;&#x5bf9;&#x7814;&#x7a76;&#x5bf9;&#x8c61;&#x505a;&#x529f;&quot;,&#x4f53;&#x79ef;&#x529f;&#x6ce8;&#x610f;&#x7b26;&#x53f7;&#x53d8;&#x5316;" ID="ID_70681723" CREATED="1548842756527" MODIFIED="1551755091736" HGAP_QUANTITY="15.0 px" MOVED="1549682868500">
 <edge COLOR="#007c7c"/>
 <font NAME="SansSerif" SIZE="13"/>
 </node>
