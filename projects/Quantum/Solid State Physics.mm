@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1558923110346" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.464">
+<hook NAME="MapStyle" zoom="1.789">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,12 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x683c;&#x6ce2;-&#x58f0;&#x5b50;" POSITION="right" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1558923736978">
 <edge COLOR="#ff0000"/>
-<node TEXT="\latex &#x957f;&#x6ce2;&#x6781;&#x9650;\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(&#x5373;&#x683c;&#x70b9;&#x5185;&#x90e8;&#x5f39;&#x6027;&#x6ce2;)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(&#x5373;&#x4e0d;&#x540c;&#x539f;&#x5b50;&#x683c;&#x70b9;&#x76f8;&#x5bf9;&#x632f;&#x52a8;)" ID="ID_1970611014" CREATED="1558923737488" MODIFIED="1558923977545">
-<node TEXT="" ID="ID_1413530517" CREATED="1558923993283" MODIFIED="1558923993283"/>
-</node>
+<node TEXT="\latex &#x957f;&#x6ce2;&#x6781;&#x9650;\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(&#x5373;&#x683c;&#x70b9;&#x5185;&#x90e8;&#x5f39;&#x6027;&#x6ce2;)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(&#x5373;&#x4e0d;&#x540c;&#x539f;&#x5b50;&#x683c;&#x70b9;&#x76f8;&#x5bf9;&#x632f;&#x52a8;)" ID="ID_1970611014" CREATED="1558923737488" MODIFIED="1558923977545"/>
+<node TEXT="\latex &#x7b80;&#x8c10;&#x8fd1;&#x4f3c;&#xa;$V = V_0+\underbrace{\sum_{i=1}^{3N}(\frac{\partial V}{\partial \mu_i})_0\mu_i}_{\@ minimum =0 }+\frac12\sum_{i,j=1}^{3N}(\frac{\partial^2 V}{\partial\mu_i \partial \mu_j})_0\mu_i\mu_j+o $" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1563175507415"/>
+<node TEXT="&#x7b80;&#x6b63;&#x5750;&#x6807;" ID="ID_445018664" CREATED="1563175099808" MODIFIED="1563175109557"/>
 </node>
 <node TEXT="&#x6676;&#x4f53;&#x7ed3;&#x6784;" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
@@ -168,6 +168,29 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="&#x975e;&#x6676;&#x6001;&#x6750;&#x6599;&#x7ed3;&#x6784;" POSITION="right" ID="ID_1686897932" CREATED="1563171716142" MODIFIED="1563171773802">
+<edge COLOR="#7c0000"/>
+<node TEXT="" ID="ID_1246377506" CREATED="1563172599581" MODIFIED="1563172599583">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="&#x77ed;&#x7a0b;&#x5e8f;" ID="ID_1242307422" CREATED="1563171774306" MODIFIED="1563171787731"/>
+<node TEXT="&#x539f;&#x5b50;&#x8fde;&#x7ed3;&#x4e2d;&#x7684;&#x62d3;&#x6251;&#x89c4;&#x5f8b;" ID="ID_957403740" CREATED="1563171787945" MODIFIED="1563171807828"/>
+<node TEXT="" ID="ID_942817310" CREATED="1563172599568" MODIFIED="1563172599581">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="&#x5f84;&#x5411;&#x5206;&#x5e03;&#x51fd;&#x6570;" ID="ID_452158713" CREATED="1563172599586" MODIFIED="1563172606119"/>
+</node>
+</node>
+<node TEXT="&#x884d;&#x5c04;&#x56fe;&#x6837;" POSITION="right" ID="ID_1094541757" CREATED="1563172724116" MODIFIED="1563172732747">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x6676;&#x4f53;(&#x539f;&#x5b50;&#x5468;&#x671f;&#x6027;&#x6392;&#x5217;&#x51b3;&#x5b9a;&#x4e86;&#x53ef;&#x4ee5;&#x4f5c;&#x4e3a;&#x884d;&#x5c04;&#x5149;&#x6805;): &#x884d;&#x5c04;&#x56fe;&#x6837;&#x4e3a;&#x4e00;&#x7ec4;&#x7ec4;&#x6e05;&#x6670;&#x7684;&#x6591;&#x70b9;,&#x6591;&#x70b9;&#x56fe;&#x6837;&#x663e;&#x793a;&#x51fa;&#x6676;&#x4f53;&#x5bf9;&#x79f0;&#x6027;" ID="ID_1829365936" CREATED="1563172766754" MODIFIED="1563172860988"/>
+<node TEXT="&#x975e;&#x6676;&#x6001;&#x6750;&#x6599;,&#x884d;&#x5c04;&#x56fe;&#x6837;&#x4e3a;&#x5f25;&#x6563;&#x7684;&#x73af;,&#x6ca1;&#x6709;&#x8868;&#x5f81;&#x6676;&#x6001;&#x7684;&#x6591;&#x70b9;" ID="ID_759557068" CREATED="1563172873820" MODIFIED="1563172906374"/>
+</node>
+<node TEXT="&#x51c6;&#x6676;&#x6001;&#x7ed3;&#x6784;:&#x5177;&#x6709;&#x957f;&#x7a0b;&#x53d6;&#x5411;&#x5e8f;&#xa;&#x800c;&#x6ca1;&#x6709;&#x957f;&#x7a0b;&#x5e73;&#x79fb;&#x5bf9;&#x79f0;&#x5e8f;" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
+<edge COLOR="#007c00"/>
+<node TEXT="&#x53d6;&#x5411;&#x5e8f;&#x5177;&#x6709;&#x6676;&#x4f53;&#x5468;&#x671f;&#x6027;&#x4e0d;&#x80fd;&#x5bb9;&#x8bb8;&#x7684;&#x70b9;&#x7fa4;&#x5bf9;&#x79f0;&#x6027;" ID="ID_141004109" CREATED="1563173204985" MODIFIED="1563173248202"/>
+<node TEXT="&#x6cbf;&#x53d6;&#x5411;&#x5e8f;&#x5bf9;&#x79f0;&#x8f74;&#x7684;&#x65b9;&#x5411;&#x5177;&#x6709;&#x51c6;&#x5468;&#x671f;&#x6027;" ID="ID_1204023620" CREATED="1563173261633" MODIFIED="1563173279242"/>
 </node>
 </node>
 </map>
