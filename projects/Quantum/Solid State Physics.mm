@@ -67,7 +67,7 @@
 <node TEXT="&#x683c;&#x6ce2;-&#x58f0;&#x5b50;" POSITION="right" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1563176271926">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex &#x957f;&#x6ce2;&#x6781;&#x9650;\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(&#x5373;&#x683c;&#x70b9;&#x5185;&#x90e8;&#x5f39;&#x6027;&#x6ce2;)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(&#x5373;&#x4e0d;&#x540c;&#x539f;&#x5b50;&#x683c;&#x70b9;&#x76f8;&#x5bf9;&#x632f;&#x52a8;)" ID="ID_1970611014" CREATED="1558923737488" MODIFIED="1558923977545"/>
-<node TEXT="\latex &#x7b80;&#x8c10;&#x8fd1;&#x4f3c;&#xa;$V = V_0+\underbrace{\sum_{i=1}^{3N}(\frac{\partial V}{\partial \mu_i})_0\mu_i}_{\@ minimum =0 }+\frac12\sum_{i,j=1}^{3N}(\frac{\partial^2 V}{\partial\mu_i \partial \mu_j})_0\mu_i\mu_j+o $\\&#xa;&#x6216;&#x8005;$\phi =\phi_0+\sum\limits_{\alpha,l}\phi_\alpha(l)u^\alpha_l+\sum_{\alpha,\beta,l,l^\prime}\phi_{\alpha,\beta}(l,l^\prime)u_l^\alpha u_{l^\prime}^\beta+o,(\phi_\alpha(l)\equiv\frac{\partial \phi}{\partial u^\alpha_l})$" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1564393344937">
+<node TEXT="\latex &#x7b80;&#x8c10;&#x8fd1;&#x4f3c;&#xa;$V = V_0+\underbrace{\sum_{i=1}^{3N}(\frac{\partial V}{\partial \mu_i})_0\mu_i}_{\@ minimum =0 }+\frac12\sum_{i,j=1}^{3N}(\frac{\partial^2 V}{\partial\mu_i \partial \mu_j})_0\mu_i\mu_j+o $\\&#xa;&#x6216;&#x8005;$\phi =\phi_0+\sum\limits_{\alpha,l}\phi_\alpha(l)u^\alpha_l+\sum_{\alpha,\beta,l,l^\prime}\phi_{\alpha,\beta}(l,l^\prime)u_l^\alpha u_{l^\prime}^\beta+o,(\phi_\alpha(l)\equiv\frac{\partial \phi}{\partial u^\alpha_l})$" FOLDED="true" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1564393344937">
 <node TEXT="\latex &#x529b;&#x5e38;&#x6570;: $\phi_{\alpha,\beta}(l,l^\prime)$\\&#xa;$\phi_{\alpha,\beta}(l,l^\prime)=\frac{\partial}{\partial u_{l^\prime}^\beta}\frac{\partial \phi}{\partial u_l^\alpha}$&#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a;$l$&#x539f;&#x5b50;$\alpha$&#x65b9;&#x5411;&#x4e0a;&#x7684;&#x53d7;&#x529b;&#x5bf9;&#x4e8e;\\&#xa;$l^\prime$&#x539f;&#x5b50;$\beta$&#x65b9;&#x5411;&#x4f4d;&#x79fb;&#x7684;&#x5bfc;&#x6570;" ID="ID_262072807" CREATED="1564393698070" MODIFIED="1564394030014"/>
 </node>
 <node TEXT="&#x7b80;&#x6b63;&#x5750;&#x6807;" ID="ID_445018664" CREATED="1563175099808" MODIFIED="1563175109557">
@@ -217,11 +217,14 @@
 <node TEXT="&#x96c6;&#x4f53;&#x6fc0;&#x53d1;&#x7684;&#x51c6;&#x7c92;&#x5b50;: &#x58f0;&#x5b50;,&#x78c1;&#x632f;&#x5b50;, &#x6fc0;&#x5b50;, &#x6781;&#x5316;&#x6fc0;&#x5143;" ID="ID_897847914" CREATED="1563180190494" MODIFIED="1563180536416"/>
 <node TEXT="&#x5355;&#x7c92;&#x5b50;&#x6fc0;&#x53d1;&#x7684;&#x51c6;&#x7c92;&#x5b50;: &#x91d1;&#x5c5e;&#x7684;&#x7535;&#x5b50;&#x4e0e;&#x5c4f;&#x853d;&#x7535;&#x8377;&#x4e91;&#x4e00;&#x8d77;&#x6784;&#x6210;&#x51c6;&#x7535;&#x5b50;,&#x7a7a;&#x7a74;&#x540c;&#x7406;" ID="ID_1933468944" CREATED="1563180199809" MODIFIED="1563180414836"/>
 </node>
-<node TEXT="&#x7a7a;&#x95f4;&#x81ea;&#x7531;&#x5ea6;&#x53d8;&#x91cf;&#x4f53;&#x7cfb;" FOLDED="true" POSITION="left" ID="ID_501438982" CREATED="1564384533869" MODIFIED="1564384606149">
+<node TEXT="&#x7a7a;&#x95f4;&#x81ea;&#x7531;&#x5ea6;&#x53d8;&#x91cf;&#x4f53;&#x7cfb;" POSITION="left" ID="ID_501438982" CREATED="1564384533869" MODIFIED="1564384606149">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x5bf9;&#x4e8e;&#x603b;&#x5171;&#x542b;&#x6709;N&#x4e2a;&#x539f;&#x80de;&#x7684;&#x4f53;&#x7cfb;,&#xa;&#x5047;&#x8bbe;&#x6bcf;&#x4e2a;&#x539f;&#x80de;&#x53ea;&#x5305;&#x542b;&#x4e00;&#x4e2a;&#x539f;&#x5b50;" ID="ID_122411580" CREATED="1564384607102" MODIFIED="1564384646882">
 <node TEXT="\latex $3N$&#x4e2a;&#x81ea;&#x7531;&#x5ea6;,&#x76f4;&#x63a5;&#x8bb0;&#x4e3a;$u_{i},\, i=1,2,\cdots, 3N$" ID="ID_1510948624" CREATED="1564384655903" MODIFIED="1564384721944"/>
 <node TEXT="\latex &#x5206;&#x539f;&#x80de;&#x81ea;&#x7531;&#x5ea6;&#x548c;&#x65b9;&#x5411;&#x81ea;&#x7531;&#x5ea6;&#x4e24;&#x4e2a;&#x7cfb;&#x5217;&#xa;$u_l^\alpha,(l=1,\cdots,N;\alpha=1,2,3)$" ID="ID_1999689841" CREATED="1564384726910" MODIFIED="1564384891463"/>
+</node>
+<node TEXT="&#x590d;&#x5f0f;&#x6676;&#x683c;: &#x6bcf;&#x4e2a;&#x539f;&#x80de;&#x542b;&#x591a;&#x4e2a;&#x4e0d;&#x7b49;&#x4ef7;&#x539f;&#x5b50;" ID="ID_538941133" CREATED="1564474967045" MODIFIED="1564475039147">
+<node TEXT="\latex &#x5c06;&#x539f;&#x80de;&#x5185;&#x81ea;&#x7531;&#x5ea6;&#x6269;&#x5145;&#x5373;&#x53ef;,\\&#xa;$u_l^\alpha \rightarrow u_l^\alpha(s) $,&#x5177;&#x6709;$\underbrace2_{s}\times\underbrace3_{\alpha}=6$&#x4e2a;&#x81ea;&#x7531;&#x5ea6;" ID="ID_689052795" CREATED="1564475042421" MODIFIED="1564475275576"/>
 </node>
 </node>
 </node>
