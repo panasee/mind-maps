@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;(&#x5206;&#x5e03;&#x7a33;&#x5b9a;&#x4e0d;&#x53d8;)&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1559702528819"><hook NAME="MapStyle" zoom="2.362">
+<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;(&#x5206;&#x5e03;&#x7a33;&#x5b9a;&#x4e0d;&#x53d8;)&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1565232637760"><hook NAME="MapStyle" zoom="1.213">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -55,7 +55,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="&#x5b9a;&#x57df;&#x5b50;&#x7cfb;----Maxwell-Boltzmann Distribution" POSITION="left" ID="ID_1308663839" CREATED="1548940824101" MODIFIED="1548941137330">
+<node TEXT="&#x5b9a;&#x57df;&#x5b50;&#x7cfb;----Maxwell-Boltzmann Distribution" FOLDED="true" POSITION="left" ID="ID_1308663839" CREATED="1548940824101" MODIFIED="1548941137330">
 <edge COLOR="#7c0000"/>
 <hook EQUATION="W(\{a_\lambda\})=\frac{N!}{\prod_\lambda a_\lambda!}\prod_\lambda g_\lambda^{a_\lambda}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="&#x62c9;&#x683c;&#x6717;&#x65e5;&#x4e58;&#x5b50;&#x6c42;lnW&#x6761;&#x4ef6;&#x6781;&#x5927;&#x503c;,&#x5f97;&#x5230;MB&#x5206;&#x5e03;" ID="ID_1708863923" CREATED="1549011318017" MODIFIED="1549011743782">
@@ -93,7 +93,7 @@
 <node TEXT="&#x5b9e;&#x73b0;&#x6761;&#x4ef6;:1,&#x7cfb;&#x7edf;&#x80fd;&#x91cf;&#x6709;&#x4e0a;&#x9650;;2,&#x7cfb;&#x7edf;&#x5185;&#x90e8;&#x76f8;&#x4e92;&#x4f5c;&#x7528;&#x5f1b;&#x8c6b;&#x65f6;&#x95f4;&#x8db3;&#x591f;&#x77ed;;3,&#x7cfb;&#x7edf;&#x4e0e;&#x73af;&#x5883;&#x81f3;&#x5c11;&#x4e00;&#x6bb5;&#x65f6;&#x95f4;&#x5185;&#x9694;&#x7edd;(1&#x4fdd;&#x8bc1;&#x5f53;T&#x589e;&#x5927;,&#x7cfb;&#x7edf;&#x80fd;&#x91cf;&#x4e0d;&#x4f1a;&#x65e0;&#x9650;&#x589e;&#x957f;,&#x4f7f;&#x5f97;&#x7cfb;&#x7edf;&#x53ef;&#x4ee5;&#x4e0a;&#x5347;&#x5230;&#x6bd4;&#x6b63;&#x65e0;&#x7a77;&#x66f4;&#x5927;&#x7684;&#x8d1f;&#x6e29;&#x533a;)(2,3&#x662f;&#x4fdd;&#x8bc1;&#x7cfb;&#x7edf;&#x5185;&#x90e8;&#x6bd4;&#x7cfb;&#x7edf;&#x4e0e;&#x73af;&#x5883;&#x5148;&#x8fbe;&#x5230;&#x5e73;&#x8861;,&#x4ece;&#x800c;&#x5b58;&#x5728;&#x6e29;&#x5ea6;&#x7684;&#x5b9a;&#x4e49;)" ID="ID_1404395937" CREATED="1549098221712" MODIFIED="1549099581266"/>
 </node>
 </node>
-<node TEXT="&#x975e;&#x5b9a;&#x57df;&#x5b50;&#x7cfb;&#x7684;&#x5168;&#x540c;&#x7c92;&#x5b50;&#x7cfb;&#x7edf;(&#x5b58;&#x5728;&#x7c92;&#x5b50;&#x5168;&#x540c;&#x6027;&#x539f;&#x7406;)" POSITION="left" ID="ID_1254702285" CREATED="1549100095586" MODIFIED="1549102850883">
+<node TEXT="&#x975e;&#x5b9a;&#x57df;&#x5b50;&#x7cfb;&#x7684;&#x5168;&#x540c;&#x7c92;&#x5b50;&#x7cfb;&#x7edf;(&#x5b58;&#x5728;&#x7c92;&#x5b50;&#x5168;&#x540c;&#x6027;&#x539f;&#x7406;)" FOLDED="true" POSITION="left" ID="ID_1254702285" CREATED="1549100095586" MODIFIED="1549102850883">
 <edge COLOR="#7c007c"/>
 <node TEXT="" ID="ID_1579047750" CREATED="1559182804026" MODIFIED="1559182804026">
 <hook NAME="FirstGroupNode"/>
@@ -116,11 +116,7 @@
 </node>
 </node>
 </node>
-<node TEXT=" &#x5206;&#x5e03;&#x53ef;&#x4ee5;&#x7edf;&#x4e00;&#x4e3a;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1720072434" CREATED="1549162329832" MODIFIED="1549162588026" HGAP_QUANTITY="-222.0 px" VSHIFT_QUANTITY="110.0 px" MOVED="1549162588020">
-<hook NAME="FreeNode"/>
-<hook EQUATION="\tilde a_\lambda=\frac{g_\lambda}{e^{\alpha+\beta\epsilon_\lambda}+\eta}" NAME="plugins/latex/LatexNodeHook.properties"/>
-</node>
-<node TEXT="&#x70ed;&#x8f90;&#x5c04;&#x7406;&#x8bba;" POSITION="right" ID="ID_1281528057" CREATED="1549037236330" MODIFIED="1549037249605" MOVED="1549683699602">
+<node TEXT="&#x70ed;&#x8f90;&#x5c04;&#x7406;&#x8bba;" FOLDED="true" POSITION="right" ID="ID_1281528057" CREATED="1549037236330" MODIFIED="1549037249605" MOVED="1549683699602">
 <edge COLOR="#007c00"/>
 <node TEXT="&#x6ce2;&#x7684;&#x89c2;&#x70b9;:&#x5c06;&#x5c0f;&#x5b54;&#x5185;&#x7535;&#x78c1;&#x573a;&#x5206;&#x89e3;&#x4e3a;&#x7b80;&#x6b63;&#x6a21;,&#x76f8;&#x5f53;&#x4e8e;&#x591a;&#x4e2a;&#x7b80;&#x8c10;&#x632f;&#x5b50;,&#x6bcf;&#x4e00;&#x4e2a;&#x7b80;&#x6b63;&#x6a21;&#x529b;&#x5b66;&#x4e0a;&#x7b49;&#x4ef7;&#x4e8e;&#x4e00;&#x4e2a;&#x632f;&#x52a8;&#x81ea;&#x7531;&#x5ea6;" ID="ID_893121289" CREATED="1549037250817" MODIFIED="1549038140099">
 <node TEXT="planck&quot;&#x91cf;&#x5b50;&quot;&#x7406;&#x8bba;---&#x632f;&#x5b50;&#x80fd;&#x91cf;&#x53d6;&#x79bb;&#x6563;&#x503c;&#x5bfc;&#x81f4;&#x80fd;&#x91cf;&#x5747;&#x5206;&#x5b9a;&#x7406;&#x4e0d;&#x518d;&#x6210;&#x7acb;" ID="ID_1651508732" CREATED="1549042618460" MODIFIED="1549042916781">
@@ -128,6 +124,10 @@
 </node>
 </node>
 <node TEXT="&#x7c92;&#x5b50;&#x7684;&#x89c2;&#x70b9;:&#x5c06;&#x8f90;&#x5c04;&#x573a;&#x770b;&#x6210;&#x5149;&#x5b50;&#x6c14;&#x4f53;" ID="ID_216320094" CREATED="1549037299515" MODIFIED="1549037329770"/>
+</node>
+<node TEXT=" &#x5206;&#x5e03;&#x53ef;&#x4ee5;&#x7edf;&#x4e00;&#x4e3a;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1720072434" CREATED="1549162329832" MODIFIED="1565232637756" HGAP_QUANTITY="25.0 px" VSHIFT_QUANTITY="90.0 px" MOVED="1549162588020">
+<hook NAME="FreeNode"/>
+<hook EQUATION="\tilde a_\lambda=\frac{g_\lambda}{e^{\alpha+\beta\epsilon_\lambda}+\eta}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="&#x91cf;&#x5b50;&#x529b;&#x5b66;&#x4e2d;&quot;&#x72b6;&#x6001;&quot;&#x7684;&#x4ea7;&#x751f;,&#x662f;&#x7531;&#x4e8e;&#x4e00;&#x4e2a;&#x7cfb;&#x7edf;&#x540c;&#x53e6;&#x4e00;&#x4e2a;&#x8db3;&#x591f;&#x7cbe;&#x786e;&#x5730;&#xa;&#x670d;&#x4ece;&#x7ecf;&#x5178;&#x529b;&#x5b66;&#x89c4;&#x5f8b;&#x7684;&#x7cfb;&#x7edf;&#x4e4b;&#x95f4;&#x67d0;&#x79cd;&#x76f8;&#x4e92;&#x4f5c;&#x7528;&#x7684;&#x7ed3;&#x679c;" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_46353058" CREATED="1559628449478" MODIFIED="1559702528807" HGAP_QUANTITY="1152.749965645374 pt" VSHIFT_QUANTITY="97.49999709427365 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1331717681" STARTINCLINATION="120;0;" ENDINCLINATION="120;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -222,17 +222,32 @@
 <node TEXT="&#x5b9a;&#x57df;&#x5b50;&#x7cfb;:&#x5168;&#x540c;&#x591a;&#x7c92;&#x5b50;&#x7cfb;&#x7edf;,&#x5f53;&#x6ce2;&#x51fd;&#x6570;&#x65e0;&#x91cd;&#x53e0;&#x65f6;,&#x53ef;&#x4ece;&#x4f4d;&#x7f6e;&#x533a;&#x5206;&#x7c92;&#x5b50;,&#x5168;&#x540c;&#x6027;&#x539f;&#x7406;&#x4e0d;&#x8d77;&#x4f5c;&#x7528;,&#x9075;&#x4ece;&#x73bb;&#x5c14;&#x5179;&#x66fc;&#x7edf;&#x8ba1;(&#x65e0;&#x8bba;&#x8d39;&#x7c73;&#x5b50;&#x8fd8;&#x662f;&#x73bb;&#x8272;&#x5b50;)(&#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a;&#x591a;&#x4e2a;&#x5b64;&#x7acb;&#x7cfb;&#x7edf;&#x5171;&#x7528;&#x91cf;&#x5b50;&#x6001;)" ID="ID_700349716" CREATED="1548938399943" MODIFIED="1548938975056"/>
 </node>
 </node>
-<node TEXT="\latex &#x8bbe;&#x60f3;&#x7cfb;&#x7edf;&#x5305;&#x85cf;&#x5728;&#x9759;&#x6b62;&#x7684;&#x521a;&#x4f53;&#x5bb9;&#x5668;&#x4e2d;&#xa;\\&#x4ece;&#x800c;&#x80fd;&#x91cf;&#x6210;&#x4e3a;&#x552f;&#x4e00;&#x7684;&#x53ef;&#x52a0;&#x6027;&#x8fd0;&#x52a8;&#x79ef;&#x5206;&#xa;\\$\ln \rho_a=\alpha_a+\beta E_a(p,q)$&#xa;\\&#x4ece;&#x800c;&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;$\rho=Const\cdot \delta(E-E_0)$ &#xa;\\&#x6216;&#x91cf;&#x5b50;&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;$dw = Const\cdot \delta(E-E_0)\prod\limits_{a}d\Gamma_a\,\,,(d\Gamma=\prod\limits_ad\Gamma_a)$" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1388697910" CREATED="1559558306043" MODIFIED="1559637227995" HGAP_QUANTITY="35.99999892711641 pt" VSHIFT_QUANTITY="179.99999463558214 pt">
+<node TEXT="\latex &#x8bbe;&#x60f3;&#x7cfb;&#x7edf;&#x5305;&#x85cf;&#x5728;&#x9759;&#x6b62;&#x7684;&#x521a;&#x4f53;&#x5bb9;&#x5668;&#x4e2d;&#xa;\\&#x4ece;&#x800c;&#x80fd;&#x91cf;&#x6210;&#x4e3a;&#x552f;&#x4e00;&#x7684;&#x53ef;&#x52a0;&#x6027;&#x8fd0;&#x52a8;&#x79ef;&#x5206;&#xa;\\$\ln \rho_a=\alpha_a+\beta E_a(p,q)$&#xa;\\&#x800c;&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;$\rho=Const\cdot \delta(E-E_0)$ &#xa;\\&#x6216;&#x91cf;&#x5b50;&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;$dw = Const\cdot \delta(E-E_0)\prod\limits_{a}d\Gamma_a\,\,,(d\Gamma=\prod\limits_ad\Gamma_a)$" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1388697910" CREATED="1559558306043" MODIFIED="1565232787519" HGAP_QUANTITY="35.99999892711641 pt" VSHIFT_QUANTITY="179.99999463558214 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="32;-24;" ENDINCLINATION="-131;-42;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 </node>
 <node TEXT="&#x5206;&#x5e03;" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;" ID="ID_217324042" CREATED="1559533519444" MODIFIED="1559533526393">
+<node TEXT="&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;&#x72b6;&#x6001;" ID="ID_1451058132" CREATED="1565233561591" MODIFIED="1565233572305">
+<node TEXT="&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;(&#x95ed;&#x5408;&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;)" ID="ID_217324042" CREATED="1559533519444" MODIFIED="1565232992059">
 <node TEXT="\latex &#x53d6;&#x4e03;&#x4e2a;&#x53ef;&#x52a0;&#x8fd0;&#x52a8;&#x79ef;&#x5206;&#x90fd;&#x4e3a;&#x5e38;&#x6570;,&#x5f97;&#x5230;&#x5206;&#x5e03;&#x51fd;&#x6570;:\\&#xa;$\rho = Const \cdot \delta(E-E_0)\delta(\vec P-\vec P_0)\delta(\vec M-\vec M_0) $" ID="ID_930214946" CREATED="1559533545180" MODIFIED="1559533691449"/>
 </node>
 </node>
-<node TEXT="&#x70ed;&#x529b;&#x5b66;&#x91cf;&#xa;(&#x4e00;&#x7c7b;&#x4e0d;&#x4ec5;&#x5177;&#x6709;&#x70ed;&#x529b;&#x5b66;&#x610f;&#x4e49;,&#x4e5f;&#x6709;&#x529b;&#x5b66;&#x610f;&#x4e49;;&#xa;&#x53e6;&#x4e00;&#x7c7b;&#x4ec5;&#x6709;&#x70ed;&#x529b;&#x5b66;&#x610f;&#x4e49;)" POSITION="right" ID="ID_1769235707" CREATED="1559703139700" MODIFIED="1559703229418">
+<node TEXT="&#x5fae;&#x89c2;&#x6001;" ID="ID_631736929" CREATED="1565233573947" MODIFIED="1565233579953">
+<node TEXT=" Gibbs&#x5206;&#x5e03;(&#x7269;&#x4f53;&#x4e0e;&#x4ecb;&#x8d28;)" ID="ID_1114527678" CREATED="1565232805316" MODIFIED="1565233009006">
+<node TEXT="\latex $w_n=Ae^{-E_n/T}$(&#x5f52;&#x4e00;&#x5316;$\sum w_n=1$) \\&#xa;$dw_n(p,q)=Ae^{-E_n(p,q)/T}dp_{cl}dq_{cl}$" ID="ID_1217775411" CREATED="1565233606452" MODIFIED="1565234361559"/>
+</node>
+</node>
+<node TEXT="&#x901f;&#x5ea6;(&#x52a8;&#x91cf;)&#x5206;&#x5e03;" ID="ID_1135556005" CREATED="1565233921055" MODIFIED="1565233935584">
+<node TEXT="Maxwell&#x5206;&#x5e03;" ID="ID_1825598624" CREATED="1565233936508" MODIFIED="1565233942740">
+<node TEXT="\latex $dw_p=\frac{1}{(2\pi mT)^{3/2}}e^{-\boldsymbol p^2/2mT}\boldsymbol{dp}$\\&#xa;$dw_v=(\frac{m}{2\pi T})^{3/2}e^{-m\boldsymbol v^2/2T}\boldsymbol{dv}$" ID="ID_336144518" CREATED="1565233973340" MODIFIED="1565234897363">
+<node TEXT="&#x5c06;&#x77e2;&#x91cf;&#x5e73;&#x65b9;&#x5c55;&#x5f00;&#x53ef;&#x4ee5;&#x5f97;&#x5230;&#x4e0d;&#x540c;&#xa;&#x65b9;&#x5411;&#x5206;&#x91cf;&#x7684;&#x5355;&#x72ec;&#x5206;&#x5e03;" ID="ID_1852403259" CREATED="1565234961867" MODIFIED="1565235126686"/>
+<node TEXT="\latex $I_n=\int_o^\infty e^{-ax^2}x^ndx=\limits^{\alpha x^2=y}\frac12\alpha^{-\frac{n+1}{2}}\int_0^\infty e^{-y}y^{\frac{n-1}2}dy=\frac12\alpha^{-\frac{n+1}2}\Gamma(\frac{n+1}{2})$" ID="ID_301885541" CREATED="1565235579617" MODIFIED="1565235922475"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x70ed;&#x529b;&#x5b66;&#x91cf;&#xa;(&#x4e00;&#x7c7b;&#x4e0d;&#x4ec5;&#x5177;&#x6709;&#x70ed;&#x529b;&#x5b66;&#x610f;&#x4e49;,&#x4e5f;&#x6709;&#x529b;&#x5b66;&#x610f;&#x4e49;;&#xa;&#x53e6;&#x4e00;&#x7c7b;&#x4ec5;&#x6709;&#x70ed;&#x529b;&#x5b66;&#x610f;&#x4e49;)" FOLDED="true" POSITION="right" ID="ID_1769235707" CREATED="1559703139700" MODIFIED="1559703229418">
 <edge COLOR="#808080"/>
 <node TEXT="\latex &#x6e29;&#x5ea6;: &#x70ed;&#x5e73;&#x8861;&#x7684;&#x4e24;&#x7269;&#x4f53;&#x71b5;&#x6781;&#x5927;\\&#xa;$\frac{dS_1}{dE_1} = \frac{dS_2}{dE_2}\Rightarrow \frac1T=\limits^{def}\frac{dS}{dE}$" ID="ID_395338244" CREATED="1559703234538" MODIFIED="1559703431434">
 <node TEXT="\latex &#x80fd;&#x91cf;&#x4ece;&#x9ad8;&#x6e29;&#x7269;&#x4f53;&#x5230;&#x4f4e;&#x6e29;&#x7269;&#x4f53;&#xa;\\&#x4e24;&#x4e0d;&#x5e73;&#x8861;&#x7269;&#x4f53;&#x8d8b;&#x4e8e;&#x5e73;&#x8861;&#x8fc7;&#x7a0b;&#x71b5;&#x589e;&#x5927;&#xa;\\$\frac{dS}{dt} = (\frac{1}{T_1}-\frac1{T_2})\frac{dE_1}{dt}$" ID="ID_18605429" CREATED="1559703637684" MODIFIED="1559703742199"/>
