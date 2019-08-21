@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;(&#x5206;&#x5e03;&#x7a33;&#x5b9a;&#x4e0d;&#x53d8;)&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1565232637760"><hook NAME="MapStyle" zoom="1.213">
+<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;(&#x5206;&#x5e03;&#x7a33;&#x5b9a;&#x4e0d;&#x53d8;)&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1565232637760"><hook NAME="MapStyle" zoom="2.362">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -236,6 +236,9 @@
 <node TEXT="&#x5fae;&#x89c2;&#x6001;" ID="ID_631736929" CREATED="1565233573947" MODIFIED="1565233579953">
 <node TEXT=" Gibbs&#x5206;&#x5e03;(&#x7269;&#x4f53;&#x4e0e;&#x4ecb;&#x8d28;)" ID="ID_1114527678" CREATED="1565232805316" MODIFIED="1565233009006">
 <node TEXT="\latex $w_n=Ae^{-E_n/T}$(&#x5f52;&#x4e00;&#x5316;$\sum w_n=1$) \\&#xa;$dw_n(p,q)=Ae^{-E_n(p,q)/T}dp_{cl}dq_{cl}$" ID="ID_1217775411" CREATED="1565233606452" MODIFIED="1565234361559"/>
+<node TEXT="\latex $S=-\langle \ln w_n \rangle=-\ln A+\frac{\bar E}T$ \\&#xa;$\Rightarrow w_n=\exp \frac{F-E_n}T\Rightarrow\limits^{normalize}F=-T\ln \sum\limits_ne^{-\frac{E_n}{T}}$" ID="ID_1896623234" CREATED="1566265785417" MODIFIED="1566268347071">
+<node TEXT="\latex &#x914d;&#x5206;&#x51fd;&#x6570;:$Z\equiv \sum_n e^{-E_n/T}=Tr(e^{-\hat H/T})$" ID="ID_325721729" CREATED="1566268388522" MODIFIED="1566268459928"/>
+</node>
 </node>
 </node>
 <node TEXT="&#x901f;&#x5ea6;(&#x52a8;&#x91cf;)&#x5206;&#x5e03;" ID="ID_1135556005" CREATED="1565233921055" MODIFIED="1565233935584">
