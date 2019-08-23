@@ -226,7 +226,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="32;-24;" ENDINCLINATION="-131;-42;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 </node>
-<node TEXT="&#x5206;&#x5e03;" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
+<node TEXT="&#x5206;&#x5e03;" FOLDED="true" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
 <edge COLOR="#808080"/>
 <node TEXT="&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;&#x72b6;&#x6001;" ID="ID_1451058132" CREATED="1565233561591" MODIFIED="1565233572305">
 <node TEXT="&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;(&#x95ed;&#x5408;&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;)" ID="ID_217324042" CREATED="1559533519444" MODIFIED="1565232992059">
@@ -239,6 +239,7 @@
 <node TEXT="\latex $S=-\langle \ln w_n \rangle=-\ln A+\frac{\bar E}T$ \\&#xa;$\Rightarrow w_n=\exp \frac{F-E_n}T\Rightarrow\limits^{normalize}F=-T\ln \sum\limits_ne^{-\frac{E_n}{T}}$" ID="ID_1896623234" CREATED="1566265785417" MODIFIED="1566268347071">
 <node TEXT="\latex &#x914d;&#x5206;&#x51fd;&#x6570;:$Z\equiv \sum_n e^{-E_n/T}=Tr(e^{-\hat H/T})$" ID="ID_325721729" CREATED="1566268388522" MODIFIED="1566268459928"/>
 </node>
+<node TEXT="\latex &#x7c92;&#x5b50;&#x6570;&#x53ef;&#x53d8;Gibbs&#x5206;&#x5e03;(&#x5de8;&#x6b63;&#x5219;&#x5206;&#x5e03;)\\&#xa;$w_{nN}=\exp\frac{\Omega+\mu N-E_{nN}}{T}$" ID="ID_1687406436" CREATED="1566536404198" MODIFIED="1566536548110"/>
 </node>
 </node>
 <node TEXT="&#x901f;&#x5ea6;(&#x52a8;&#x91cf;)&#x5206;&#x5e03;" ID="ID_1135556005" CREATED="1565233921055" MODIFIED="1565233935584">
@@ -246,6 +247,21 @@
 <node TEXT="\latex $dw_p=\frac{1}{(2\pi mT)^{3/2}}e^{-\boldsymbol p^2/2mT}\boldsymbol{dp}$\\&#xa;$dw_v=(\frac{m}{2\pi T})^{3/2}e^{-m\boldsymbol v^2/2T}\boldsymbol{dv}$" ID="ID_336144518" CREATED="1565233973340" MODIFIED="1565234897363">
 <node TEXT="&#x5c06;&#x77e2;&#x91cf;&#x5e73;&#x65b9;&#x5c55;&#x5f00;&#x53ef;&#x4ee5;&#x5f97;&#x5230;&#x4e0d;&#x540c;&#xa;&#x65b9;&#x5411;&#x5206;&#x91cf;&#x7684;&#x5355;&#x72ec;&#x5206;&#x5e03;" ID="ID_1852403259" CREATED="1565234961867" MODIFIED="1565235126686"/>
 <node TEXT="\latex $I_n=\int_o^\infty e^{-ax^2}x^ndx=\limits^{\alpha x^2=y}\frac12\alpha^{-\frac{n+1}{2}}\int_0^\infty e^{-y}y^{\frac{n-1}2}dy=\frac12\alpha^{-\frac{n+1}2}\Gamma(\frac{n+1}{2})$" ID="ID_301885541" CREATED="1565235579617" MODIFIED="1565235922475"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x7406;&#x60f3;&#x6c14;&#x4f53;" ID="ID_1281028438" CREATED="1566537137222" MODIFIED="1566537140713">
+<node TEXT="\latex &#x5e73;&#x5747;&#x5360;&#x6709;&#x6570;&#x5f88;&#x5c0f;\\&#xa;$\bar n_k &lt;&lt;1$" ID="ID_538753663" CREATED="1566538725306" MODIFIED="1566538749591">
+<node TEXT="Boltzmann&#x5206;&#x5e03;" ID="ID_1464275801" CREATED="1566537270177" MODIFIED="1566538756326">
+<node TEXT="\latex $\bar n_k=ae^{-\epsilon_k/T}=\exp \frac{\mu-\epsilon_k}{T}$" ID="ID_226974336" CREATED="1566537299118" MODIFIED="1566538563033"/>
+</node>
+</node>
+<node TEXT="\latex $\bar n_k \sim 1$" ID="ID_1180104539" CREATED="1566538766213" MODIFIED="1566538796122">
+<node TEXT="Fermi&#x5206;&#x5e03;(&#x4ea4;&#x6362;&#x53cd;&#x5bf9;&#x79f0;)" ID="ID_1624754419" CREATED="1566538824178" MODIFIED="1566538891543">
+<node TEXT="\latex $\bar n_k= \frac1{e^{(\epsilon_k-\mu)/T}+1}$" ID="ID_405850369" CREATED="1566538937827" MODIFIED="1566538993398"/>
+</node>
+<node TEXT="Bose&#x5206;&#x5e03;(&#x4ea4;&#x6362;&#x5bf9;&#x79f0;)" ID="ID_1312355240" CREATED="1566538844583" MODIFIED="1566538898179">
+<node TEXT="\latex $\bar n_k= \frac1{e^{(\epsilon_k-\mu)/T}-1}$" ID="ID_1142624973" CREATED="1566539092548" MODIFIED="1566539119921"/>
 </node>
 </node>
 </node>
