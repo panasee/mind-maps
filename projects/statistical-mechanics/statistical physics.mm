@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;(&#x5206;&#x5e03;&#x7a33;&#x5b9a;&#x4e0d;&#x53d8;)&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1565232637760"><hook NAME="MapStyle" zoom="2.362">
+<node TEXT="statistical physics&#xa;(&#x7814;&#x7a76;&#x5e73;&#x8861;&#x6001;(&#x5206;&#x5e03;&#x7a33;&#x5b9a;&#x4e0d;&#x53d8;)&#x7cfb;&#x7edf;)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1565232637760"><hook NAME="MapStyle" zoom="2.147">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -226,7 +226,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="32;-24;" ENDINCLINATION="-131;-42;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 </node>
-<node TEXT="&#x5206;&#x5e03;" FOLDED="true" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
+<node TEXT="&#x5206;&#x5e03;" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
 <edge COLOR="#808080"/>
 <node TEXT="&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;&#x72b6;&#x6001;" ID="ID_1451058132" CREATED="1565233561591" MODIFIED="1565233572305">
 <node TEXT="&#x5fae;&#x6b63;&#x5219;&#x5206;&#x5e03;(&#x95ed;&#x5408;&#x5b8f;&#x89c2;&#x7cfb;&#x7edf;)" ID="ID_217324042" CREATED="1559533519444" MODIFIED="1565232992059">
@@ -234,7 +234,7 @@
 </node>
 </node>
 <node TEXT="&#x5fae;&#x89c2;&#x6001;" ID="ID_631736929" CREATED="1565233573947" MODIFIED="1565233579953">
-<node TEXT=" Gibbs&#x5206;&#x5e03;(&#x7269;&#x4f53;&#x4e0e;&#x4ecb;&#x8d28;)" ID="ID_1114527678" CREATED="1565232805316" MODIFIED="1565233009006">
+<node TEXT=" Gibbs&#x5206;&#x5e03;(&#x7269;&#x4f53;&#x4e0e;&#x4ecb;&#x8d28;)&#xa;(&#x5927;&#x7684;&#x95ed;&#x5408;&#x7cfb;&#x7edf;&#x4e2d;&#x8f83;&#x5c0f;&#x7684;&#x5b8f;&#x89c2;(&#x51c6;&#x95ed;&#x5408;)&#x90e8;&#x5206;)" ID="ID_1114527678" CREATED="1565232805316" MODIFIED="1566978496330">
 <node TEXT="\latex $w_n=Ae^{-E_n/T}$(&#x5f52;&#x4e00;&#x5316;$\sum w_n=1$) \\&#xa;$dw_n(p,q)=Ae^{-E_n(p,q)/T}dp_{cl}dq_{cl}$" ID="ID_1217775411" CREATED="1565233606452" MODIFIED="1565234361559"/>
 <node TEXT="\latex $S=-\langle \ln w_n \rangle=-\ln A+\frac{\bar E}T$ \\&#xa;$\Rightarrow w_n=\exp \frac{F-E_n}T\Rightarrow\limits^{normalize}F=-T\ln \sum\limits_ne^{-\frac{E_n}{T}}$" ID="ID_1896623234" CREATED="1566265785417" MODIFIED="1566268347071">
 <node TEXT="\latex &#x914d;&#x5206;&#x51fd;&#x6570;:$Z\equiv \sum_n e^{-E_n/T}=Tr(e^{-\hat H/T})$" ID="ID_325721729" CREATED="1566268388522" MODIFIED="1566268459928"/>
@@ -251,7 +251,7 @@
 </node>
 </node>
 <node TEXT="&#x7406;&#x60f3;&#x6c14;&#x4f53;" ID="ID_1281028438" CREATED="1566537137222" MODIFIED="1566537140713">
-<node TEXT="\latex &#x5e73;&#x5747;&#x5360;&#x6709;&#x6570;&#x5f88;&#x5c0f;\\&#xa;$\bar n_k &lt;&lt;1$" ID="ID_538753663" CREATED="1566538725306" MODIFIED="1566538749591">
+<node TEXT="\latex &#x5e73;&#x5747;&#x5360;&#x6709;&#x6570;&#x5f88;&#x5c0f;\\&#xa;$\bar n_k &lt;&lt;1$(&#x5ffd;&#x7565;&#x4ea4;&#x6362;&#x6548;&#x5e94;)" ID="ID_538753663" CREATED="1566538725306" MODIFIED="1566977388400">
 <node TEXT="Boltzmann&#x5206;&#x5e03;" ID="ID_1464275801" CREATED="1566537270177" MODIFIED="1566538756326">
 <node TEXT="\latex $\bar n_k=ae^{-\epsilon_k/T}=\exp \frac{\mu-\epsilon_k}{T}$" ID="ID_226974336" CREATED="1566537299118" MODIFIED="1566538563033"/>
 </node>
