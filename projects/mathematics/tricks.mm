@@ -63,14 +63,47 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $\nabla$" POSITION="right" ID="ID_1713858765" CREATED="1567909873501" MODIFIED="1567909923639">
 <edge COLOR="#ff0000"/>
+<node TEXT="&#x590d;&#x5408;&#x8fd0;&#x7b97;" ID="ID_981798918" CREATED="1567935479872" MODIFIED="1567935488405">
 <node TEXT="\latex $\nabla\times(\boldsymbol E+\boldsymbol F)=\nabla\times \boldsymbol E +\nabla\times \boldsymbol F$&#xa;\\(&#x6570;&#x4e58;,&#x70b9;&#x4e58;,&#x53c9;&#x4e58;&#x90fd;&#x662f;&#x7ebf;&#x6027;&#x8fd0;&#x7b97;)" ID="ID_1836897514" CREATED="1567909925219" MODIFIED="1567910191949"/>
 <node TEXT="\latex $\nabla\cdot(u\boldsymbol E)=(\nabla u)\cdot\boldsymbol E+u(\nabla\cdot \boldsymbol E)$" ID="ID_405173705" CREATED="1567910194020" MODIFIED="1567910336650"/>
 <node TEXT="\latex $\nabla\times(u\boldsymbol E)=(\nabla u)\times\boldsymbol E+u(\nabla\times\boldsymbol E)$" ID="ID_1449506492" CREATED="1567910338075" MODIFIED="1567910384564"/>
 <node TEXT="\latex $\nabla\cdot(\boldsymbol   E \times \boldsymbol F)= \boldsymbol F\cdot(\nabla\times\boldsymbol E)-\boldsymbol E\cdot(\nabla\times\boldsymbol F)$" ID="ID_1105677800" CREATED="1567910444140" MODIFIED="1567910582852"/>
-<node TEXT="\latex $\nabla\times(\boldsymbol E\times \boldsymbol F)=(\boldsymbol F \cdot\nabla)\boldsymbol E-\boldsymbol F(\nabla\cdot\boldsymbol E)-(\boldsymbol E\cdot \nabla)  $" ID="ID_885291927" CREATED="1567910622102" MODIFIED="1567922289766"/>
+<node TEXT="\latex $\nabla\times(\boldsymbol E\times \boldsymbol F)=(\boldsymbol F \cdot\nabla)\boldsymbol E-\boldsymbol F(\nabla\cdot\boldsymbol E)-(\boldsymbol E\cdot \nabla)\boldsymbol F+\boldsymbol E(\nabla\cdot \boldsymbol F)  $" ID="ID_885291927" CREATED="1567910622102" MODIFIED="1567929381053"/>
+<node TEXT="\latex $\nabla(\boldsymbol E\cdot \boldsymbol F)=(\boldsymbol F\cdot \nabla)\boldsymbol E+(\boldsymbol E\cdot\nabla)\boldsymbol F+\boldsymbol F\times(\nabla\times\boldsymbol E)+\boldsymbol E\times(\nabla\times\boldsymbol F)$" ID="ID_1651113707" CREATED="1567930327658" MODIFIED="1567930584928"/>
+<node TEXT="\latex $\nabla\times(\nabla u)=0$" ID="ID_888435512" CREATED="1567930910038" MODIFIED="1567930977676"/>
+<node TEXT="\latex $\nabla\cdot(\nabla\times\boldsymbol E)=0$" ID="ID_880020635" CREATED="1567930982706" MODIFIED="1567931013697"/>
+<node TEXT="\latex $\nabla\times(\nabla\times\boldsymbol E)=\nabla(\nabla\cdot \boldsymbol E)-\nabla^2\boldsymbol E$" ID="ID_1570809047" CREATED="1567931018581" MODIFIED="1567931082380"/>
+</node>
+<node TEXT="&#x5750;&#x6807;&#x53d8;&#x6362;" ID="ID_1038678354" CREATED="1567935511537" MODIFIED="1567935522262">
+<node TEXT="\latex &#x7b1b;&#x5361;&#x5c14;&#x5750;&#x6807;&#x7cfb;$(x,y,z) $" ID="ID_1008424276" CREATED="1567935533686" MODIFIED="1567935615671"/>
+<node TEXT="\latex &#x67f1;&#x5750;&#x6807;&#x7cfb;$(r,\theta,z)$" ID="ID_274156450" CREATED="1567935547680" MODIFIED="1567935636802">
+<node TEXT="\latex $\nabla=(\frac{\partial}{\partial r},\frac1r\frac\partial{\partial\theta},\frac\partial{\partial z})" ID="ID_1274581176" CREATED="1567935577608" MODIFIED="1567935717005"/>
+<node TEXT="\latex $\nabla^2=\frac{\partial^2}{\partial r^2}+\frac1r\frac\partial{\partial r}+\frac1{r^2}\frac{\partial^2}{\partial \theta^2}+\frac{\partial^2}{\partial z^2}\\&#xa;=\frac1r\frac\partial{\partial r}(r\frac\partial{\partial r})+\frac1{r^2}\frac{\partial^2}{\partial \theta^2}+\frac{\partial^2}{\partial z^2}$" ID="ID_638522561" CREATED="1567935722133" MODIFIED="1567936065589"/>
+</node>
+<node TEXT="\latex &#x7403;&#x5750;&#x6807;&#x7cfb;$(r,\phi,\theta)$" ID="ID_250103378" CREATED="1567935554241" MODIFIED="1567935657718">
+<node TEXT="\latex $\nabla=(\frac\partial{\partial r},\frac1r\frac\partial{\partial \phi},\frac1r\frac\partial{\partial\theta})$" ID="ID_535876361" CREATED="1567936134741" MODIFIED="1567936230307"/>
+<node TEXT="\latex $\nabla^2=\frac1{r^2}\frac\partial{\partial r}(r^2\frac\partial{\partial r})+\frac1{r^2\sin\theta}\frac\partial{\partial\theta}(\sin\theta\frac\partial{\partial\theta})+&#xa;\frac1{r^2\sin^2\theta}\frac{\partial^2}{\partial\phi^2}$" ID="ID_1478976100" CREATED="1567936233829" MODIFIED="1567936438442"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex Levi-Civita symbol \\&#xa;$\epsilon_{i_1i_2\cdots i_n}=(-1)^p\epsilon_{12\cdots n}$" POSITION="left" ID="ID_41972444" CREATED="1567932971866" MODIFIED="1567933443153">
+<edge COLOR="#0000ff"/>
+<node TEXT="\latex $\det(A)=\epsilon_{i_1i_2\cdots i_n}A_{1i_1}\cdots A_{ni_n} $ \\&#xa;$\det(A)=\sum_{\sigma\in S_n}\text{sgn}(\sigma)\prod_{i=1}^{n}a_{i,\sigma(i)}$" ID="ID_1176172171" CREATED="1567933574463" MODIFIED="1567934856182"/>
+<node TEXT="\latex $\boldsymbol a\times \boldsymbol b=\epsilon_{ijk}\boldsymbol x_i a_j b_k$" ID="ID_1352174980" CREATED="1567934223363" MODIFIED="1567934324515"/>
+</node>
+<node TEXT="Fourier&#x53d8;&#x6362;" POSITION="right" ID="ID_1018783350" CREATED="1568449654373" MODIFIED="1568449662344">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Fourier&#x7ea7;&#x6570;&#x6536;&#x655b;&#x6027;" ID="ID_1293661979" CREATED="1568449681445" MODIFIED="1568449691469">
+<node TEXT="Dirichlet&#x5b9a;&#x7406;(&#x5145;&#x5206;&#x975e;&#x5fc5;&#x8981;)" ID="ID_1662748674" CREATED="1568449691836" MODIFIED="1568449984317">
+<node TEXT="&#x9664;&#x4e86;&#x6709;&#x9650;&#x4e2a;&#x70b9;&#x5916;&#x6709;&#x5b9a;&#x4e49;&#x4e14;&#x4e3a;&#x5355;&#x503c;" ID="ID_138884159" CREATED="1568449787947" MODIFIED="1568449817112"/>
+<node TEXT="&#x5468;&#x671f;&#x51fd;&#x6570;" ID="ID_1200810785" CREATED="1568449817610" MODIFIED="1568449829112"/>
+<node TEXT="\latex $f(x),f^\prime(x)$&#x5206;&#x6bb5;&#x8fde;&#x7eed;\\&#xa;(&#x95f4;&#x65ad;&#x70b9;&#x7ea7;&#x6570;&#x6536;&#x655b;&#x4e8e;&#x5de6;&#x53f3;&#x6781;&#x9650;&#x7684;&#x5e73;&#x5747;)" ID="ID_362302554" CREATED="1568449829582" MODIFIED="1568452776131"/>
+</node>
+<node TEXT="&#x5145;&#x8981;&#x6761;&#x4ef6;&#x5c1a;&#x672a;&#x77e5;(2012)" ID="ID_1124195073" CREATED="1568449712832" MODIFIED="1568449775781"/>
+</node>
 </node>
 </node>
 </map>
