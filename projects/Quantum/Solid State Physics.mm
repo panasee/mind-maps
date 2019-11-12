@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1558923110346" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.626">
+<hook NAME="MapStyle" zoom="2.882">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="&#x683c;&#x6ce2;-&#x58f0;&#x5b50;" POSITION="right" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1563176271926">
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="&#x683c;&#x6ce2;-&#x58f0;&#x5b50;" FOLDED="true" POSITION="right" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1563176271926">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex &#x957f;&#x6ce2;&#x6781;&#x9650;\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(&#x5373;&#x683c;&#x70b9;&#x5185;&#x90e8;&#x5f39;&#x6027;&#x6ce2;)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(&#x5373;&#x4e0d;&#x540c;&#x539f;&#x5b50;&#x683c;&#x70b9;&#x76f8;&#x5bf9;&#x632f;&#x52a8;)" ID="ID_1970611014" CREATED="1558923737488" MODIFIED="1558923977545"/>
 <node TEXT="\latex &#x7b80;&#x8c10;&#x8fd1;&#x4f3c;&#xa;$V = V_0+\underbrace{\sum_{i=1}^{3N}(\frac{\partial V}{\partial \mu_i})_0\mu_i}_{\@ minimum =0 }+\frac12\sum_{i,j=1}^{3N}(\frac{\partial^2 V}{\partial\mu_i \partial \mu_j})_0\mu_i\mu_j+o $\\&#xa;&#x6216;&#x8005;$\phi =\phi_0+\sum\limits_{\alpha,l}\phi_\alpha(l)u^\alpha_l+\sum_{\alpha,\beta,l,l^\prime}\phi_{\alpha,\beta}(l,l^\prime)u_l^\alpha u_{l^\prime}^\beta+o,(\phi_\alpha(l)\equiv\frac{\partial \phi}{\partial u^\alpha_l})$" FOLDED="true" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1564393344937">
@@ -232,6 +232,18 @@
 </node>
 <node TEXT="&#x590d;&#x5f0f;&#x6676;&#x683c;: &#x6bcf;&#x4e2a;&#x539f;&#x80de;&#x542b;&#x591a;&#x4e2a;&#x4e0d;&#x7b49;&#x4ef7;&#x539f;&#x5b50;" ID="ID_538941133" CREATED="1564474967045" MODIFIED="1564475039147">
 <node TEXT="\latex &#x81ea;&#x7531;&#x5ea6;&#x6269;&#x5145;&#x5373;&#x53ef;,&#xa;$u_l^\alpha \rightarrow u_l^\alpha(s) $,\\&#x5177;&#x6709;$\underbrace N_{l}\times\underbrace2_{s}\times\underbrace3_{\alpha}=6$&#x4e2a;&#x81ea;&#x7531;&#x5ea6;" ID="ID_689052795" CREATED="1564475042421" MODIFIED="1564551804841"/>
+</node>
+</node>
+<node TEXT="&#x80fd;&#x5e26;&#x7406;&#x8bba;" POSITION="left" ID="ID_591590288" CREATED="1573207258372" MODIFIED="1573207501899">
+<edge COLOR="#0000ff"/>
+<node TEXT="&#x51fa;&#x53d1;&#x70b9;:(&#x4ef7;)&#x7535;&#x5b50;&#x4e0d;&#x518d;&#x675f;&#x7f1a;&#x4e8e;&#x4e2a;&#x522b;&#x539f;&#x5b50;,&#x800c;&#x662f;&#x5728;&#x6574;&#x4e2a;&#x56fa;&#x4f53;&#x8fd0;&#x52a8;,&#x79f0;&#x4e3a;&#x5171;&#x6709;&#x5316;&#x7535;&#x5b50;, &#x8ba8;&#x8bba;&#x7535;&#x5b50;&#x8fd0;&#x52a8;&#x65f6;&#x5047;&#x5b9a;&#x79bb;&#x5b50;&#x5b9e;&#x5904;&#x4e8e;&#x5e73;&#x8861;&#x4f4d;&#x7f6e;, &#x5c06;&#x79bb;&#x5b50;&#x5b9e;&#x504f;&#x79bb;&#x5e73;&#x8861;&#x4f4d;&#x7f6e;&#x7684;&#x5f71;&#x54cd;&#x89c6;&#x4e3a;&#x5fae;&#x6270;." FOLDED="true" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1573208288680">
+<node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
+</node>
+<node TEXT="&#x4ef7;&#x7535;&#x5b50;&#x7684;&#x7b49;&#x6548;&#x52bf;&#x573a;" ID="ID_1772320872" CREATED="1573207522575" MODIFIED="1573207542005">
+<node TEXT="&#x79bb;&#x5b50;&#x5b9e;&#x7684;&#x52bf;&#x573a;,&#x5176;&#x4ed6;&#x4ef7;&#x7535;&#x5b50;&#x7684;&#x5e73;&#x5747;&#x52bf;&#x573a;&#x4ee5;&#x53ca;&#x8003;&#x8651;&#x7535;&#x5b50;&#x6ce2;&#x51fd;&#x6570;&#x53cd;&#x5bf9;&#x79f0;&#x6027;&#x800c;&#x5e26;&#x6765;&#x7684;&#x4ea4;&#x6362;&#x4f5c;&#x7528;" ID="ID_357366762" CREATED="1573207544074" MODIFIED="1573207596953"/>
+</node>
+<node TEXT="\latex Bloch Theorem: under periodic potential \\&#xa;$\psi(\vec r+ \vec R_n)=e^{i\vec k\cdot \vec R_n}\psi(\vec r)\ (\vec R_n\ \text{is lattice vector}) $" ID="ID_430552448" CREATED="1573208932367" MODIFIED="1573209384686">
+<node TEXT="\latex $\Rightarrow\psi(\vec r)=e^{i\vec k\cdot \vec r}u(\vec r)$ &#xa;\\$(u(\vec r+\vec R_n)=u(\vec r))$" ID="ID_1131693196" CREATED="1573209466106" MODIFIED="1573209630511"/>
 </node>
 </node>
 </node>
