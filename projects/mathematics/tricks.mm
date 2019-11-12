@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $\nabla$" POSITION="right" ID="ID_1713858765" CREATED="1567909873501" MODIFIED="1567909923639">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x590d;&#x5408;&#x8fd0;&#x7b97;" ID="ID_981798918" CREATED="1567935479872" MODIFIED="1567935488405">
@@ -77,7 +77,7 @@
 <node TEXT="\latex $\nabla\cdot(\nabla\times\boldsymbol E)=0$" ID="ID_880020635" CREATED="1567930982706" MODIFIED="1567931013697"/>
 <node TEXT="\latex $\nabla\times(\nabla\times\boldsymbol E)=\nabla(\nabla\cdot \boldsymbol E)-\nabla^2\boldsymbol E$" ID="ID_1570809047" CREATED="1567931018581" MODIFIED="1567931082380"/>
 </node>
-<node TEXT="&#x5750;&#x6807;&#x53d8;&#x6362;" ID="ID_1038678354" CREATED="1567935511537" MODIFIED="1567935522262">
+<node TEXT="&#x5750;&#x6807;&#x7cfb;" ID="ID_1038678354" CREATED="1567935511537" MODIFIED="1573201882423">
 <node TEXT="\latex &#x7b1b;&#x5361;&#x5c14;&#x5750;&#x6807;&#x7cfb;$(x,y,z) $" ID="ID_1008424276" CREATED="1567935533686" MODIFIED="1567935615671"/>
 <node TEXT="\latex &#x67f1;&#x5750;&#x6807;&#x7cfb;$(r,\theta,z)$" ID="ID_274156450" CREATED="1567935547680" MODIFIED="1567935636802">
 <node TEXT="\latex $\nabla=(\frac{\partial}{\partial r},\frac1r\frac\partial{\partial\theta},\frac\partial{\partial z})" ID="ID_1274581176" CREATED="1567935577608" MODIFIED="1567935717005"/>
@@ -104,6 +104,17 @@
 </node>
 <node TEXT="&#x5145;&#x8981;&#x6761;&#x4ef6;&#x5c1a;&#x672a;&#x77e5;(2012)" ID="ID_1124195073" CREATED="1568449712832" MODIFIED="1568449775781"/>
 </node>
+</node>
+<node TEXT="coordinate and vector calculation" POSITION="left" ID="ID_1505847399" CREATED="1573201054764" MODIFIED="1573201375985">
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex &#x5411;&#x91cf;&#x7684;&#x6570;&#x5b57;&#x8868;&#x793a;&#x76f8;&#x5173;&#x6cd5;&#x5219;&#x90fd;&#x4e0e;&#x5750;&#x6807;&#x7cfb;&#x6709;&#x5173;\\&#xa;$$\vec a \cdot \vec b = a_i b_i$$ &#x53ea;&#x9650;&#x4e8e;Cartesian&#x5750;&#x6807;&#x7cfb;" ID="ID_1890731029" CREATED="1573201376370" MODIFIED="1573201738787"/>
+</node>
+<node TEXT="&#x5750;&#x6807;&#x53d8;&#x6362;" POSITION="left" ID="ID_1426772472" CREATED="1573201887536" MODIFIED="1573201897081">
+<edge COLOR="#7c0000"/>
+<node TEXT="\latex $\frac{\partial}{\partial y}=\frac{\partial z_i}{\partial y}\frac{\partial}{\partial z_i}\neq \frac{\frac{\partial}{\partial z_i}}{\frac{\partial y}{\partial z_i}} $" ID="ID_613147524" CREATED="1573201897851" MODIFIED="1573202031903"/>
+</node>
+<node TEXT="\latex &#x5b88;&#x6052;&#x8fde;&#x7eed;&#x6027;&#x65b9;&#x7a0b;\\&#xa;$\text{\alpha\ conserves}\Rightarrow -\oint \vec j_\alpha\cdot\vec{dS}-\int\dot\rho_\alpha dV+\int O_\alpha dV=0 $ \\&#xa;$\Leftrightarrow\oint k\nabla\phi_\alpha\cdot \vec{dS}-\int\dot\rho_\alpha dV+\int O_\alpha dV=0$\\&#xa;$(j_\alpha\rightarrow flow;\ \rho_\alpha\rightarrow density;\ O_\alpha\rightarrow input)$" POSITION="right" ID="ID_1949046605" CREATED="1573202176620" MODIFIED="1573202693546">
+<edge COLOR="#00007c"/>
 </node>
 </node>
 </map>
