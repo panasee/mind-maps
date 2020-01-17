@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="among fundamental interactions of quasiparticles in solids" POSITION="right" ID="ID_846200825" CREATED="1578628851365" MODIFIED="1578630034619">
 <edge COLOR="#ff0000"/>
 <font NAME="TSCu_Times" SIZE="16"/>
@@ -122,6 +122,18 @@
 </node>
 <node TEXT="polaron" POSITION="left" ID="ID_1693500911" CREATED="1578647185707" MODIFIED="1578647204062">
 <edge COLOR="#007c00"/>
+</node>
+<node TEXT="Calculation" POSITION="right" ID="ID_532461848" CREATED="1578660879961" MODIFIED="1578660887528">
+<edge COLOR="#7c007c"/>
+<node TEXT="using a stochastic force in Al&#xa;non-equilibrium molecular dynamics method" ID="ID_1353165708" CREATED="1578660968883" MODIFIED="1578661908443">
+<node TEXT="Thermal interface conductance between aluminum and silicon by molecular dynamics simulations. Journal of Computational and Theoretical Nanoscience, 12(2), pp.168-174." ID="ID_1387207144" CREATED="1578660889400" MODIFIED="1578660951005">
+<icon BUILTIN="stop"/>
+</node>
+<node TEXT="\latex describing the energy loss via a friction term with coefficient and the energy gain from electrons via a stochastic force term with random magnitude and orientation\\&#xa;\[ m_i\frac{d^2r_i}{dt^2}=-\nabla_r_i V(r_i)-\gamma_i \frac{dr_i}{dt}+\tilde F(t) \] \\&#xa;$$\gamma_i=\frac{gm_i\Delta V}{3Nk_B}$$" ID="ID_130203416" CREATED="1578663100041" MODIFIED="1578664976781">
+<node TEXT="g is the electron-phonon coupling constant, calculated by ab-initio methods" ID="ID_403953216" CREATED="1578665246040" MODIFIED="1578665311275"/>
+<node TEXT="" ID="ID_1741170240" CREATED="1578667332519" MODIFIED="1578667332519"/>
+</node>
+</node>
 </node>
 </node>
 </map>
