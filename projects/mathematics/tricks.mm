@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Tricks for Math" FOLDED="false" ID="ID_1535341287" CREATED="1567909846452" MODIFIED="1567909871994" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.143">
+<hook NAME="MapStyle" zoom="1.771">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $\nabla$" POSITION="right" ID="ID_1713858765" CREATED="1567909873501" MODIFIED="1567909923639">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x590d;&#x5408;&#x8fd0;&#x7b97;" ID="ID_981798918" CREATED="1567935479872" MODIFIED="1567935488405">
@@ -115,6 +115,10 @@
 </node>
 <node TEXT="\latex &#x5b88;&#x6052;&#x8fde;&#x7eed;&#x6027;&#x65b9;&#x7a0b;\\&#xa;$\text{\alpha\ conserves}\Rightarrow -\oint \vec j_\alpha\cdot\vec{dS}-\int\dot\rho_\alpha dV+\int O_\alpha dV=0 $ \\&#xa;$\Leftrightarrow\oint k\nabla\phi_\alpha\cdot \vec{dS}-\int\dot\rho_\alpha dV+\int O_\alpha dV=0$\\&#xa;$(j_\alpha\rightarrow flow;\ \rho_\alpha\rightarrow density;\ O_\alpha\rightarrow input)$" POSITION="right" ID="ID_1949046605" CREATED="1573202176620" MODIFIED="1573202693546">
 <edge COLOR="#00007c"/>
+</node>
+<node TEXT="&#x53d8;&#x91cf;&#x4ee3;&#x6362;" POSITION="left" ID="ID_1968524742" CREATED="1582191911576" MODIFIED="1582191931438">
+<edge COLOR="#007c00"/>
+<node TEXT="\latex &#x96c5;&#x5404;&#x6bd4;&#x884c;&#x5217;&#x5f0f;&#x975e;&#x96f6;&#x8868;&#x793a;\\&#xa;&#x4e24;&#x4e2a;&#x65b0;&#x53d8;&#x91cf;&#x7ebf;&#x6027;&#x65e0;&#x5173; \\&#xa;$\frac{\partial(\xi, \eta)}{\partial(x, y)}\ne0$" ID="ID_1688054303" CREATED="1582191945937" MODIFIED="1582192072322"/>
 </node>
 </node>
 </map>
