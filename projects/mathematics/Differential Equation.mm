@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex &#x4e8c;&#x9636;&#x504f;&#x5fae;&#x5206;&#x65b9;&#x7a0b;\\&#xa;$\sum\limits^n_{j=1}\sum^n_{i=1}a_{ij}u_{x_ix_j}+\sum^n_{i=1}b_iu_{x_i}+cu+f=0 $" POSITION="right" ID="ID_170575284" CREATED="1582171510613" MODIFIED="1582259656098" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-2.2499999329447764 pt">
 <edge COLOR="#ff0000"/>
 <font NAME="SimSun" SIZE="16"/>
@@ -106,7 +106,45 @@
 <node TEXT="&#x7531;&#x4e8e;&#x7cfb;&#x6570;&#x53ef;&#x4ee5;&#x662f;xy&#x7684;&#x51fd;&#x6570;,&#x56e0;&#x6b64;&#x5728;&#x4e0d;&#x540c;&#x533a;&#x57df;&#x4e0a;&#xa;&#x7684;&#x65b9;&#x7a0b;&#x7c7b;&#x578b;&#x53ef;&#x80fd;&#x4e0d;&#x4e00;&#x6837;" ID="ID_114234663" CREATED="1582259492695" MODIFIED="1582259638651">
 <font NAME="SimSun" BOLD="false"/>
 </node>
+<node TEXT="\latex &#x53cc;&#x66f2;&#x578b;&#x65b9;&#x7a0b;:&#x7279;&#x5f81;&#x65b9;&#x7a0b;&#x7ed9;&#x51fa;&#x4e24;&#x65cf;&#x5b9e;&#x7279;&#x5f81;&#x7ebf;\\&#xa;\[\xi(x,y)=Const,\ \eta(x,y)=Const  \] &#xa;&#x65b9;&#x7a0b;&#x53d8;&#x4e3a;$u_{\xi\eta}=-\frac1{2A_{12}}[B_1u_\xi+B_2u_\eta+Cu+F]$(&#x6807;&#x51c6;&#x5f62;&#x5f0f;1)" ID="ID_102660620" CREATED="1582261697531" MODIFIED="1582266710266">
+<node TEXT="\latex &#x518d;&#x505a;&#x4ee3;&#x6362;:$\left\{\begin{aligned}&amp;\xi=\alpha+\beta,\\&amp;\eta=\alpha-\beta,\end{aligned}\right.$\\&#xa;&#x5373;$\left\{\begin{aligned}&amp;\alpha=\frac12(\xi+\eta),\\&amp;\beta=\frac12(\xi-\eta),\end{aligned}\right.$ \\&#xa;&#x5316;&#x4e3a;$u_{\alpha\alpha}-u_{\beta\beta}=-\frac1{A_{12}}[(B_1+B_2)u_\alpha+(B_1-B_2)u_\beta+2Cu+2F]$ (&#x6807;&#x51c6;&#x5f62;&#x5f0f;2)" ID="ID_1511657460" CREATED="1582262092830" MODIFIED="1582266699647">
+<node TEXT="&#x4e00;&#x7ef4;&#x6ce2;&#x52a8;&#x65b9;&#x7a0b;" ID="ID_224109878" CREATED="1582268690414" MODIFIED="1582268713355"/>
 </node>
+</node>
+<node TEXT="\latex &#x629b;&#x7269;&#x578b;&#x65b9;&#x7a0b;:&#x7279;&#x5f81;&#x65b9;&#x7a0b;&#x7ed9;&#x51fa;&#x4e00;&#x65cf;&#x5b9e;&#x7279;&#x5f81;&#x7ebf;\\&#xa;$\xi(x,y)=Const$, \\&#xa;&#x8ba1;&#x7b97;&#x53d1;&#x73b0;&#x6b64;&#x65f6;$A_{11}=A_{12}=0$,&#x56e0;&#x6b64;&#x4e0d;&#x80fd;&#x53d6;$\eta$&#x4e3a;&#x7279;&#x89e3;,\\&#xa;&#x5426;&#x5219;&#x65b9;&#x7a0b;&#x4f1a;&#x9000;&#x5316;&#x4e3a;&#x4e00;&#x9636;&#x65b9;&#x7a0b;" ID="ID_432844960" CREATED="1582266712111" MODIFIED="1582267484429">
+<node TEXT="\latex &#x65b9;&#x7a0b;&#x5316;&#x4e3a;&#xa;\[ u_{\eta\eta}=-\frac{1}{A_{22}}[B_1u_\xi+B_2u_\eta+Cu+F]\text{(&#x6807;&#x51c6;&#x5f62;&#x5f0f;)} \]" ID="ID_595812806" CREATED="1582267487478" MODIFIED="1582267586272">
+<node TEXT="&#x4e00;&#x7ef4;&#x8f93;&#x8fd0;&#x65b9;&#x7a0b;" ID="ID_520888999" CREATED="1582268715664" MODIFIED="1582268733498"/>
+</node>
+</node>
+<node TEXT="\latex &#x692d;&#x5706;&#x578b;&#x65b9;&#x7a0b;:&#x7279;&#x5f81;&#x65b9;&#x7a0b;&#x7ed9;&#x51fa;&#x4e24;&#x65cf;&#x590d;&#x6570;&#x7279;&#x5f81;&#x7ebf;\\&#xa;\[\xi(x,y)=Const,\ \eta(x,y)=Const  \] \\&#xa;&#x53d6;$\xi$&#x548c;$\eta$&#x4e3a;&#x4e24;&#x4e2a;&#x7279;&#x89e3;,&#x6709;$\xi=\eta^*$,&#x65b9;&#x7a0b;&#x5316;&#x4e3a;:\\&#xa;\[ u_{\xi\eta}=-\frac1{2A_{12}}[B_1u_\xi+B_2u_\eta+Cu+F]  \](&#x6807;&#x51c6;&#x5f62;&#x5f0f;1)" ID="ID_1670976081" CREATED="1582267704189" MODIFIED="1582268625025">
+<node TEXT="\latex &#x518d;&#x505a;&#x4ee3;&#x6362;:$\left\{\begin{aligned}&amp;\xi=\alpha+i\beta,\\&amp;\eta=\alpha-i\beta,\end{aligned}\right.$\\&#xa;&#x5373;$\left\{\begin{aligned}&amp;\alpha=\mathrm{Re}\ \xi=\frac12(\xi+\eta),\\&amp;\beta=\mathrm{Im}\ \xi=\frac1{2i}(\xi-\eta),\end{aligned}\right.$ \\&#xa;&#x5316;&#x4e3a;$u_{\alpha\alpha}+u_{\beta\beta}=-\frac1{A_{12}}[(B_1+B_2)u_\alpha+i(B_2-B_1)u_\beta+2Cu+2F]$ (&#x6807;&#x51c6;&#x5f62;&#x5f0f;2)" ID="ID_821099690" CREATED="1582268413882" MODIFIED="1582268677504">
+<node TEXT="&#x5e73;&#x9762;&#x7a33;&#x5b9a;&#x573a;&#x65b9;&#x7a0b;" ID="ID_1358145736" CREATED="1582268735040" MODIFIED="1582268745964"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex &#x591a;&#x5143;&#x4e8c;&#x9636;&#x504f;&#x5fae;&#x5206;&#x65b9;&#x7a0b;&#x5206;&#x7c7b;: \\&#xa;\[  \left\{\begin{aligned}&#xa;&amp;\text{&#x8d85;&#x53cc;&#x66f2;&#x578b;:&#x5bf9;&#x89d2;&#x7ebf;&#x6240;&#x6709;&#x5143;&#x7d20;&#x4e0d;&#x4e3a;&#x96f6;&#x4e14;&#x4e24;&#x79cd;&#x7b26;&#x53f7;&#x90fd;&#x4e0d;&#x6b62;&#x4e00;&#x4e2a;}\\&#xa;&amp;\text{&#x53cc;&#x66f2;&#x578b;:&#x5bf9;&#x89d2;&#x7ebf;&#x6240;&#x6709;&#x5143;&#x7d20;&#x4e0d;&#x4e3a;&#x96f6;&#x4e14;(n-1)&#x540c;&#x53f7;,1&#x53cd;&#x53f7;}\\&#xa;&amp;\text{&#x629b;&#x7269;&#x578b;:&#x5bf9;&#x89d2;&#x7ebf;&#x5b58;&#x5728;&#x96f6;&#x5143;&#x7d20;}\\&#xa;&amp;\text{&#x692d;&#x5706;&#x578b;:&#x5bf9;&#x89d2;&#x7ebf;&#x6240;&#x6709;&#x5143;&#x7d20;&#x4e0d;&#x4e3a;&#x96f6;&#x4e14;&#x540c;&#x53f7;}&#xa;\end{aligned}\right. \]" ID="ID_456923931" CREATED="1582268797150" MODIFIED="1582269247285">
+<node TEXT="\latex &#x692d;&#x5706;&#x578b;:&#xa;\[\sum\limits^n_{i=1}u_{x_ix_i}+\sum\limits^n_{i=1}B_iu_{x_i}+Cu+F=0 \]" ID="ID_353665848" CREATED="1582269418295" MODIFIED="1582269529262">
+<node TEXT="&#x7a33;&#x5b9a;&#x573a;&#x65b9;&#x7a0b;" ID="ID_1131319605" CREATED="1582269800657" MODIFIED="1582269812390"/>
+</node>
+<node TEXT="\latex &#x629b;&#x7269;&#x578b;:&#xa;\[\sum\limits^{n-m}_{i=1}u_{x_ix_i}+\sum\limits^n_{i=1}B_iu_{x_i}+Cu+F=0 \]" ID="ID_1687330686" CREATED="1582269418295" MODIFIED="1582269572511">
+<node TEXT="&#x8f93;&#x8fd0;&#x65b9;&#x7a0b;, &#x859b;&#x5b9a;&#x8c14;&#x65b9;&#x7a0b;&#x662f;&#x629b;&#x7269;&#x578b;&#x65b9;&#x7a0b;,&#x4f46;&#xa;&#x7531;&#x4e8e;&#x7cfb;&#x6570;&#x51fa;&#x73b0;&#x4e86;&#x865a;&#x6570;,&#x6240;&#x4ee5;&#x4ee3;&#x8868;&#x6ce2;&#x52a8;" ID="ID_1048210221" CREATED="1582269817858" MODIFIED="1582270438457"/>
+</node>
+<node TEXT="" ID="ID_1035528053" CREATED="1582270362656" MODIFIED="1582270362657">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex &#x53cc;&#x66f2;&#x578b;:&#xa;\[u_{x_1x_1}-\sum\limits^n_{i=2}u_{x_ix_i}+\sum\limits^n_{i=1}B_iu_{x_i}+Cu+F=0 \]" ID="ID_620648221" CREATED="1582269418295" MODIFIED="1582269639387"/>
+<node TEXT="\latex &#x8d85;&#x53cc;&#x66f2;&#x578b;:&#xa;\[\sum\limits^m_{i=1}u_{x_ix_i}-\sum\limits^n_{i=m+1}u_{x_ix_i}+\sum\limits^n_{i=1}B_iu_{x_i}+Cu+F=0 \]" ID="ID_644996952" CREATED="1582269418295" MODIFIED="1582269704209"/>
+<node TEXT="" ID="ID_1266875494" CREATED="1582270362654" MODIFIED="1582270374931">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="&#x6ce2;&#x52a8;&#x65b9;&#x7a0b;" ID="ID_1514886181" CREATED="1582270362658" MODIFIED="1582270374929" HGAP_QUANTITY="29.749999530613437 pt" VSHIFT_QUANTITY="-5.999999821186071 pt"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x65b9;&#x7a0b;&#x5206;&#x7c7b;" POSITION="left" ID="ID_1021466859" CREATED="1582269717739" MODIFIED="1582269749467">
+<edge COLOR="#0000ff"/>
+<node TEXT="&#x6570;&#x7406;&#x65b9;&#x7a0b;(&#x5305;&#x542b;&#x5b9a;&#x89e3;&#x6761;&#x4ef6;)" ID="ID_552200464" CREATED="1582269750276" MODIFIED="1582269770117"/>
+<node TEXT="&#x6cdb;&#x5b9a;&#x65b9;&#x7a0b;(&#x4e0d;&#x542b;&#x5b9a;&#x89e3;&#x6761;&#x4ef6;)" ID="ID_824599595" CREATED="1582269756629" MODIFIED="1582269784314"/>
 </node>
 </node>
 </map>
