@@ -84,10 +84,11 @@
 </node>
 <node TEXT="\latex &#x4e8c;&#x5143;&#x4e8c;&#x9636;&#x7ebf;&#x6027;&#x504f;&#x5fae;&#x5206;&#x65b9;&#x7a0b;&#x7c7b;&#x578b;:\\&#xa;\[  \left\{\begin{aligned}&#xa;&amp;a_{12}^2-a_{11}a_{22}&gt;0,\;\text{&#x53cc;&#x66f2;&#x578b;}\\&#xa;&amp;a_{12}^2-a_{11}a_{22}=0,\;\text{&#x629b;&#x7269;&#x578b;}\\&#xa;&amp;a_{12}^2-a_{11}a_{22}&lt;0,\;\text{&#x692d;&#x5706;&#x578b;}&#xa;\end{aligned}\right. \]" ID="ID_1808031213" CREATED="1582257751652" MODIFIED="1582259656107">
 <font NAME="SimSun"/>
+<node TEXT="&#x63a8;&#x5bfc;&#x8fc7;&#x7a0b;&#x4ee5;&#x53ca;&#x7406;&#x89e3;" ID="ID_1476795334" CREATED="1582366229919" MODIFIED="1582366242331">
 <node TEXT="\latex &#x4e8c;&#x5143;&#x4e8c;&#x9636;&#x7ebf;&#x6027;&#x504f;&#x5fae;&#x5206;&#x65b9;&#x7a0b;:\\&#xa;$a_{11}u_{xx}+2a_{12}u_{xy}+a_{22}u_{yy}+b_1u_x+b_2u_y+cu+f=0$&#xa;\\&#x5f15;&#x5165;&#x65b0;&#x53d8;&#x91cf;$(\xi, \eta)$,\\&#xa;&#x4fdd;&#x8bc1;&#x96c5;&#x5404;&#x6bd4;&#x884c;&#x5217;&#x5f0f;&#x975e;&#x96f6; \\&#xa;&#x6709;\[  \left\{  \begin{aligned}&#xa;&amp;u_x=u_\xi\xi_x+u_\eta\eta_x ,\\&#xa;&amp;u_y=u_\xi\xi_y+u_\eta\eta_y ,&#xa;\end{aligned}   \right.  \]" ID="ID_1750606951" CREATED="1582192358720" MODIFIED="1582259656091">
 <font NAME="SimSun"/>
-<node TEXT="\latex &#x65b9;&#x7a0b;&#x5316;&#x4e3a;:\\&#xa;\[ A_{11}u_{\xi\xi}+2A_{12}u_{\xi\eta}+A_{22}u_{\eta\eta}+B_1u_\xi+B_2u_\eta+Cu+F=0 \] &#xa;\[\left\{\begin{aligned} &#xa;&amp;A_{11}=a_{11}\xi^2_x+2a_{12}\xi_x\xi_y+a_{22}\xi^2_y,\\&#xa;&amp;A_{12}=a_{11}\xi_x\eta_x+a_{12}(\xi_x\eta_y+\xi_y\eta_x)+a_{22}\xi_y\eta_y,\\&#xa;&amp;A_{22}=a_{11}\eta_x^2+2a_{12}\eta_x\eta_y+a_{22}\eta_y^2,\\&#xa;&amp;B_1=a_{11}\xi_{xx}+2a_{12}\xi_{xy}+a_{22}\xi_{yy}+b_1\xi_x+b_2\xi_y,\\&#xa;&amp;B_2=a_{11}\eta_{xx}+2a_{12}\eta_{xy}+a_{22}\eta_{yy}+b_1\eta_x+b_2\eta_y,\\&#xa;&amp;C=c,\\&#xa;&amp;F=f.&#xa;  \end{aligned} \right.\]" ID="ID_431856626" CREATED="1582195465323" MODIFIED="1582259656108">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-109;103;" ENDINCLINATION="403;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex &#x65b9;&#x7a0b;&#x5316;&#x4e3a;:\\&#xa;\[ A_{11}u_{\xi\xi}+2A_{12}u_{\xi\eta}+A_{22}u_{\eta\eta}+B_1u_\xi+B_2u_\eta+Cu+F=0 \] &#xa;\[\left\{\begin{aligned} &#xa;&amp;A_{11}=a_{11}\xi^2_x+2a_{12}\xi_x\xi_y+a_{22}\xi^2_y,\\&#xa;&amp;A_{12}=a_{11}\xi_x\eta_x+a_{12}(\xi_x\eta_y+\xi_y\eta_x)+a_{22}\xi_y\eta_y,\\&#xa;&amp;A_{22}=a_{11}\eta_x^2+2a_{12}\eta_x\eta_y+a_{22}\eta_y^2,\\&#xa;&amp;B_1=a_{11}\xi_{xx}+2a_{12}\xi_{xy}+a_{22}\xi_{yy}+b_1\xi_x+b_2\xi_y,\\&#xa;&amp;B_2=a_{11}\eta_{xx}+2a_{12}\eta_{xy}+a_{22}\eta_{yy}+b_1\eta_x+b_2\eta_y,\\&#xa;&amp;C=c,\\&#xa;&amp;F=f.&#xa;  \end{aligned} \right.\]" ID="ID_431856626" CREATED="1582195465323" MODIFIED="1582367392014">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-130;82;" ENDINCLINATION="433;21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SimSun"/>
 <node TEXT="\latex &#x5c06;$a_{11}z^2_x+2a_{12}z_xz_y+a_{22}z^2_y$&#xa;&#x7684;&#x4e00;&#x4e2a;\\&#x7279;&#x89e3;&#x4f5c;&#x4e3a;$\xi$, &#x53ef;&#x4ee5;&#x4f7f;$A_{11}=0$ \\&#xa;&#x540c;&#x7406;&#x8bbe;&#x7f6e;$\eta$&#x4f7f;$A_{22}=0$" ID="ID_1030845026" CREATED="1582251551891" MODIFIED="1582259656110">
 <font NAME="SimSun"/>
@@ -97,6 +98,12 @@
 <font NAME="SimSun"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="\latex &#x8003;&#x5bdf;&#x51fd;&#x6570;&#x4e8c;&#x9636;&#x5bfc;&#x6570;\\&#xa;\[\left\{\begin{aligned}&#xa;&amp;a_{11}u_{xx}+2a_{12}u_{xy}+a_{22}u_{yy}+b_1u_x+b_2u_y+cu+f=0\\&#xa;&amp;du_{x}=u_{xx}dx+u_{xy}dy\\&#xa;&amp;du_{y}=u_{yx}dx+u_{yy}dy&#xa;\end{aligned}\right.\]" ID="ID_393482515" CREATED="1582366256728" MODIFIED="1582366507182">
+<node TEXT="\latex &#x53ef;&#x4ee5;&#x7528;&#x77e9;&#x9635;&#x8868;&#x793a;&#x4e8c;&#x9636;&#x5bfc;&#x6570;&#x7684;&#x8fd0;&#x7b97;\\&#xa;\[\begin{bmatrix}a_{11}&amp;2a_{12}&amp;a_{22}\\&#xa;dx&amp;dy&amp;0\\0&amp;dx&amp;dy\end{bmatrix}&#xa;\begin{bmatrix}u_{xx}\\u_{xy}\\u_{yy}\end{bmatrix}=\begin{bmatrix}-b_1u_x-b_2u_y-cu-f\\du_x\\du_y\end{bmatrix}\]" ID="ID_1341786135" CREATED="1582366455579" MODIFIED="1582366887612">
+<node TEXT="\latex &#x5728;&#x7279;&#x5f81;&#x7ebf;&#x4e0a;&#x4e8c;&#x9636;&#x5bfc;&#x6570;&#x591a;&#x503c;&#x6216;&#x8005;&#x4e0d;&#x8fde;&#x7eed;\\,&#x56e0;&#x6b64;&#x53d8;&#x6362;&#x77e9;&#x9635;&#x884c;&#x5217;&#x5f0f;&#x5e94;&#x5f53;&#x4e3a;&#x96f6;.&#x4ece;&#x800c;&#x5f97;&#x5230;\\&#xa;\[ a_{11}(\frac{dy}{dx})^2-2a_{12}(\frac{dy}{dx})+a_{22}=0 \]" ID="ID_611130491" CREATED="1582367397706" MODIFIED="1582368006996"/>
 </node>
 </node>
 </node>

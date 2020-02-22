@@ -119,6 +119,7 @@
 <node TEXT="&#x53d8;&#x91cf;&#x4ee3;&#x6362;" POSITION="left" ID="ID_1968524742" CREATED="1582191911576" MODIFIED="1582191931438">
 <edge COLOR="#007c00"/>
 <node TEXT="\latex &#x96c5;&#x5404;&#x6bd4;&#x884c;&#x5217;&#x5f0f;&#x975e;&#x96f6;&#x8868;&#x793a;\\&#xa;&#x4e24;&#x4e2a;&#x65b0;&#x53d8;&#x91cf;&#x7ebf;&#x6027;&#x65e0;&#x5173; \\&#xa;$\frac{\partial(\xi, \eta)}{\partial(x, y)}\ne0$" ID="ID_1688054303" CREATED="1582191945937" MODIFIED="1582192072322"/>
+<node TEXT="\latex &#x5bf9;&#x4e8e;&#x4e8c;&#x5143;&#x65b9;&#x7a0b;,&#x5982;&#x679c;&#x964d;&#x7ef4;(&#x4e24;&#x4e2a;&#x53d8;&#x91cf;&#x4e4b;&#x95f4;&#x5efa;&#x7acb;&#x5173;&#x7cfb;)&#x9700;&#x6ce8;&#x610f;&#x504f;&#x5fae;&#x5206;\\&#x4e0e;&#x5168;&#x5fae;&#x5206;&#x7684;&#x533a;&#x5206;&#x4ee5;&#x53ca;&#x540c;&#x7ec4;&#x53d8;&#x91cf;&#x4e4b;&#x95f4;&#x504f;&#x5fae;&#x5206;&#x4e0d;&#x80fd;&#x76f8;&#x4e92;&#x4ee3;&#x6362;.\\&#xa;\[ \frac{d}{dx_i}=\frac{\partial}{\partial x_i}+\Sigma^\prime\frac{\partial}{\partial x_j}\frac{dx_j}{dx_i},\;\frac\partial{\partial x}\ne\frac\partial{\partial y}\frac{dy}{dx} \]" ID="ID_1451971717" CREATED="1582346345062" MODIFIED="1582352732196"/>
 </node>
 </node>
 </map>
