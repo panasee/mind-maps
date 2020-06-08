@@ -95,7 +95,7 @@
 <node TEXT="将其中心定为倒易空间原点,得到的区域&#xa;即为第一布里渊区(BZ)/简约区" ID="ID_1234203452" CREATED="1561813263234" MODIFIED="1561813363322"/>
 </node>
 </node>
-<node TEXT="晶格周期性" FOLDED="true" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
+<node TEXT="晶格周期性" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
 <node TEXT="\latex primitive cell/basis: 晶格最小的周期性单元(contain only one lattice point/basis)\\&#xa;lattice: the set of mathematical points to which basis is attached&#xa;\\基矢: \textbf{原胞的边矢量}" ID="ID_1286885399" CREATED="1561848744495" MODIFIED="1591507696469">
 <node TEXT="简单晶格: 每个原胞只有一个原子&#xa;即所有原子都是完全等价的" ID="ID_1681010389" CREATED="1561851881369" MODIFIED="1561851970662"/>
 <node TEXT="复式晶格: 每个原胞包含多于一个原子&#xa;原子的几何位置或者化学性质等不等价" ID="ID_956461377" CREATED="1561851905106" MODIFIED="1561851992489">
@@ -104,7 +104,7 @@
 </node>
 <node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
 <node TEXT="\latex 晶体表示\\&#xa;$\vec r_a + l_i \vec a_i \ (i=1,2,3) $&#xa;可表示晶体的所有原子" ID="ID_693941364" CREATED="1561863877060" MODIFIED="1561863925532"/>
-<node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" FOLDED="true" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
+<node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
 <node TEXT="2-d: 5 types" FOLDED="true" ID="ID_1403896316" CREATED="1591492669032" MODIFIED="1591493039423">
 <node TEXT="oblique lattice" ID="ID_735256376" CREATED="1591492872536" MODIFIED="1591492880183"/>
 <node TEXT="square lattice" ID="ID_60971156" CREATED="1591492880740" MODIFIED="1591492887725"/>
@@ -112,7 +112,7 @@
 <node TEXT="hexagonal lattice" ID="ID_1223123016" CREATED="1591492894072" MODIFIED="1591492900462"/>
 <node TEXT="centered rectangular lattice" ID="ID_348810765" CREATED="1591492900814" MODIFIED="1591492909305"/>
 </node>
-<node TEXT="3-d: 14 types in 7 systems&#xa;(根据cell(not primitive)来分类)" FOLDED="true" ID="ID_1429511000" CREATED="1591492867304" MODIFIED="1591493482612">
+<node TEXT="3-d: 14 types in 7 systems&#xa;(根据cell(not primitive)来分类)" ID="ID_1429511000" CREATED="1591492867304" MODIFIED="1591493482612">
 <node TEXT="triclinic system 1 type" ID="ID_1449607159" CREATED="1591492926701" MODIFIED="1591493181751"/>
 <node TEXT="monoclinic system 2 types" ID="ID_1558812715" CREATED="1591492933147" MODIFIED="1591493197491"/>
 <node TEXT="orthorhombic system 4 types" ID="ID_1205732394" CREATED="1591492940704" MODIFIED="1591493218741"/>
@@ -165,7 +165,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="a simple hexagonal lattice with&#xa;a basis of two atoms" ID="ID_718208826" CREATED="1591509949403" MODIFIED="1591509989198"/>
 </node>
