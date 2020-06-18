@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1558923110346" STYLE="oval">
+<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1592480041284" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.626">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
@@ -64,6 +64,16 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1592480124648" HGAP_QUANTITY="-43.49999870359901 pt" VSHIFT_QUANTITY="-123.7499963119627 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<hook NAME="FreeNode"/>
+<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
+<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
+</node>
+<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
+<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
+</node>
+</node>
 <node TEXT="格波-声子" FOLDED="true" POSITION="right" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1563176271926">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex 长波极限\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(即格点内部弹性波)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(即不同原子格点相对振动)" ID="ID_1970611014" CREATED="1558923737488" MODIFIED="1558923977545"/>
@@ -87,15 +97,15 @@
 </node>
 <node TEXT="晶体结构" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
-<node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
+<node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
 <node TEXT="具有所属点阵点群的全部对称性" ID="ID_138178734" CREATED="1561811582217" MODIFIED="1561811599122"/>
 </node>
-<node TEXT="\latex 倒点阵:&#xa;$\vec{a}_i\cdot \vec{b}_i = 2\pi \delta_{ij}, \ (i,j=1,2,3)$\\&#xa;$\Rightarrow \vec b_1=2\pi \frac{\vec a_2\times \vec a_3}{\vec a_1\cdot (\vec a_2\times \vec a_3)}$ 得到倒格子基矢" ID="ID_238264124" CREATED="1561811716371" MODIFIED="1562380891748">
+<node TEXT="\latex 倒点阵(Reciprocal Lattice):&#xa;$\vec{a}_i\cdot \vec{b}_i = 2\pi \delta_{ij}, \ (i,j=1,2,3)$\\&#xa;$\Rightarrow \vec b_1=2\pi \frac{\vec a_2\times \vec a_3}{\vec a_1\cdot (\vec a_2\times \vec a_3)}$ 得到倒格子基矢" ID="ID_238264124" CREATED="1561811716371" MODIFIED="1592479624221">
 <node TEXT="通常取倒点阵中相应的W-S元胞作为倒点阵的元胞边界面&#xa;上任意一点可由其上另一点作一个倒格矢的平移得到" ID="ID_1500763306" CREATED="1561812708702" MODIFIED="1561813255648">
 <node TEXT="将其中心定为倒易空间原点,得到的区域&#xa;即为第一布里渊区(BZ)/简约区" ID="ID_1234203452" CREATED="1561813263234" MODIFIED="1561813363322"/>
 </node>
 </node>
-<node TEXT="晶格周期性" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
+<node TEXT="晶格周期性" FOLDED="true" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
 <node TEXT="\latex primitive cell/basis: 晶格最小的周期性单元(contain only one lattice point/basis)\\&#xa;lattice: the set of mathematical points to which basis is attached&#xa;\\基矢: \textbf{原胞的边矢量}" ID="ID_1286885399" CREATED="1561848744495" MODIFIED="1591507696469">
 <node TEXT="简单晶格: 每个原胞只有一个原子&#xa;即所有原子都是完全等价的" ID="ID_1681010389" CREATED="1561851881369" MODIFIED="1561851970662"/>
 <node TEXT="复式晶格: 每个原胞包含多于一个原子&#xa;原子的几何位置或者化学性质等不等价" ID="ID_956461377" CREATED="1561851905106" MODIFIED="1561851992489">
@@ -139,7 +149,7 @@
 <node TEXT="晶胞的三个棱矢量称为晶胞基矢" ID="ID_798926395" CREATED="1561958019366" MODIFIED="1561958211453"/>
 </node>
 </node>
-<node TEXT="球密铺(close-packed)" ID="ID_1956489241" CREATED="1562384718986" MODIFIED="1591509436836">
+<node TEXT="球密铺(close-packed)" FOLDED="true" ID="ID_1956489241" CREATED="1562384718986" MODIFIED="1591509436836">
 <node TEXT="2-d(single layer)" ID="ID_116595330" CREATED="1562384732701" MODIFIED="1591509450871">
 <node TEXT="hexagonal lattice&#xa;(single closest-packed layer)" ID="ID_480508431" CREATED="1591509327399" MODIFIED="1591512215504">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1202509876" STARTINCLINATION="126;65;" ENDINCLINATION="85;17;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
@@ -255,10 +265,13 @@
 <node TEXT="不满足能斯特定理&#xa;(绝对零度时处于单一基态,熵为零)" ID="ID_199814155" CREATED="1566983738688" MODIFIED="1566983777624"/>
 </node>
 </node>
-<node TEXT="衍射图样" FOLDED="true" POSITION="right" ID="ID_1094541757" CREATED="1563172724116" MODIFIED="1563172732747">
+<node TEXT="衍射图样&#xa;(diffraction pattern)" POSITION="right" ID="ID_1094541757" CREATED="1563172724116" MODIFIED="1592479711634">
 <edge COLOR="#00007c"/>
 <node TEXT="晶体(原子周期性排列决定了可以作为衍射光栅): 衍射图样为一组组清晰的斑点,斑点图样显示出晶体对称性" ID="ID_1829365936" CREATED="1563172766754" MODIFIED="1563172860988"/>
 <node TEXT="非晶态材料,衍射图样为弥散的环,没有表征晶态的斑点" ID="ID_759557068" CREATED="1563172873820" MODIFIED="1563172906374"/>
+<node TEXT="a map of reciprocal lattice" ID="ID_798451015" CREATED="1592479816195" MODIFIED="1592479825868">
+<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0$" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592493180382"/>
+</node>
 </node>
 <node TEXT="准晶态结构:具有长程取向序&#xa;而没有长程平移对称序" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
 <edge COLOR="#007c00"/>
