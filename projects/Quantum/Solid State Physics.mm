@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1592480124648" HGAP_QUANTITY="-43.49999870359901 pt" VSHIFT_QUANTITY="-123.7499963119627 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
@@ -95,7 +95,7 @@
 </node>
 <node TEXT="力常数" ID="ID_594124719" CREATED="1564392888763" MODIFIED="1564392903109"/>
 </node>
-<node TEXT="晶体结构" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
+<node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
 <node TEXT="具有所属点阵点群的全部对称性" ID="ID_138178734" CREATED="1561811582217" MODIFIED="1561811599122"/>
@@ -105,14 +105,14 @@
 <node TEXT="将其中心定为倒易空间原点,得到的区域&#xa;即为第一布里渊区(BZ)/简约区" ID="ID_1234203452" CREATED="1561813263234" MODIFIED="1561813363322"/>
 </node>
 </node>
-<node TEXT="晶格周期性" FOLDED="true" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
+<node TEXT="晶格周期性" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
 <node TEXT="\latex primitive cell/basis: 晶格最小的周期性单元(contain only one lattice point/basis)\\&#xa;lattice: the set of mathematical points to which basis is attached&#xa;\\基矢: \textbf{原胞的边矢量}" ID="ID_1286885399" CREATED="1561848744495" MODIFIED="1591507696469">
 <node TEXT="简单晶格: 每个原胞只有一个原子&#xa;即所有原子都是完全等价的" ID="ID_1681010389" CREATED="1561851881369" MODIFIED="1561851970662"/>
 <node TEXT="复式晶格: 每个原胞包含多于一个原子&#xa;原子的几何位置或者化学性质等不等价" ID="ID_956461377" CREATED="1561851905106" MODIFIED="1561851992489">
 <node TEXT="复式晶格可看成由不同等价原子&#xa;形成的简单晶格相互穿套形成" ID="ID_1754024537" CREATED="1561855316219" MODIFIED="1561855393348"/>
 </node>
 </node>
-<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
+<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" FOLDED="true" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
 <node TEXT="\latex 晶体表示\\&#xa;$\vec r_a + l_i \vec a_i \ (i=1,2,3) $&#xa;可表示晶体的所有原子" ID="ID_693941364" CREATED="1561863877060" MODIFIED="1561863925532"/>
 <node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
 <node TEXT="2-d: 5 types" FOLDED="true" ID="ID_1403896316" CREATED="1591492669032" MODIFIED="1591493039423">
@@ -130,7 +130,9 @@
 <node TEXT="cubic system 3 types" ID="ID_76999142" CREATED="1591493237096" MODIFIED="1591493244550">
 <node TEXT="sc(simple cubic)" ID="ID_893146541" CREATED="1591493291191" MODIFIED="1591493298711"/>
 <node TEXT="bcc(body centered cubic)" ID="ID_1813923059" CREATED="1591493299528" MODIFIED="1591493310262"/>
-<node TEXT="fcc(face centered cubic)" ID="ID_26347828" CREATED="1591493310808" MODIFIED="1591493319028"/>
+<node TEXT="fcc(face centered cubic)" ID="ID_26347828" CREATED="1591493310808" MODIFIED="1592539284495">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="122;25;" ENDINCLINATION="111;-23;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+</node>
 </node>
 <node TEXT="trigonal system 1 type" ID="ID_336659783" CREATED="1591493245487" MODIFIED="1591493277874"/>
 <node TEXT="hexagonal system 1 type" ID="ID_1709971355" CREATED="1591493260247" MODIFIED="1591493276085"/>
@@ -249,7 +251,7 @@
 </node>
 </node>
 </node>
-<node TEXT="非晶态材料结构" POSITION="right" ID="ID_1686897932" CREATED="1563171716142" MODIFIED="1563171773802">
+<node TEXT="非晶态材料结构" FOLDED="true" POSITION="right" ID="ID_1686897932" CREATED="1563171716142" MODIFIED="1563171773802">
 <edge COLOR="#7c0000"/>
 <node TEXT="" ID="ID_1246377506" CREATED="1563172599581" MODIFIED="1563172599583">
 <hook NAME="FirstGroupNode"/>
@@ -265,15 +267,17 @@
 <node TEXT="不满足能斯特定理&#xa;(绝对零度时处于单一基态,熵为零)" ID="ID_199814155" CREATED="1566983738688" MODIFIED="1566983777624"/>
 </node>
 </node>
-<node TEXT="衍射图样&#xa;(diffraction pattern)" POSITION="right" ID="ID_1094541757" CREATED="1563172724116" MODIFIED="1592479711634">
+<node TEXT="衍射图样&#xa;(diffraction pattern)" FOLDED="true" POSITION="right" ID="ID_1094541757" CREATED="1563172724116" MODIFIED="1592479711634">
 <edge COLOR="#00007c"/>
 <node TEXT="晶体(原子周期性排列决定了可以作为衍射光栅): 衍射图样为一组组清晰的斑点,斑点图样显示出晶体对称性" ID="ID_1829365936" CREATED="1563172766754" MODIFIED="1563172860988"/>
 <node TEXT="非晶态材料,衍射图样为弥散的环,没有表征晶态的斑点" ID="ID_759557068" CREATED="1563172873820" MODIFIED="1563172906374"/>
 <node TEXT="a map of reciprocal lattice" ID="ID_798451015" CREATED="1592479816195" MODIFIED="1592479825868">
-<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0$" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592493180382"/>
+<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0 \&amp; 2\mathbf k\cdot \mathbf G=G^2$\\&#xa;$\Rightarrow \mathbf k \cdot (\frac \mathbf G2)=(\frac G2)^2$" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592535919318">
+<node TEXT="即k在G/2上的投影等于G/2的模，因此所有落在Brillouin区（第n都可以）边界上的k都满足衍射条件" ID="ID_1171573099" CREATED="1592535931820" MODIFIED="1592536128071"/>
 </node>
 </node>
-<node TEXT="准晶态结构:具有长程取向序&#xa;而没有长程平移对称序" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
+</node>
+<node TEXT="准晶态结构:具有长程取向序&#xa;而没有长程平移对称序" FOLDED="true" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
 <edge COLOR="#007c00"/>
 <node TEXT="取向序具有晶体周期性不能容许的点群对称性" ID="ID_141004109" CREATED="1563173204985" MODIFIED="1563173248202"/>
 <node TEXT="沿取向序对称轴的方向具有准周期性" ID="ID_1204023620" CREATED="1563173261633" MODIFIED="1563173279242"/>
@@ -302,7 +306,7 @@
 <node TEXT="\latex 自由度扩充即可,&#xa;$u_l^\alpha \rightarrow u_l^\alpha(s) $,\\具有$\underbrace N_{l}\times\underbrace2_{s}\times\underbrace3_{\alpha}=6$个自由度" ID="ID_689052795" CREATED="1564475042421" MODIFIED="1564551804841"/>
 </node>
 </node>
-<node TEXT="能带理论" POSITION="left" ID="ID_591590288" CREATED="1573207258372" MODIFIED="1573207501899">
+<node TEXT="能带理论" FOLDED="true" POSITION="left" ID="ID_591590288" CREATED="1573207258372" MODIFIED="1573207501899">
 <edge COLOR="#0000ff"/>
 <node TEXT="出发点:(价)电子不再束缚于个别原子,而是在整个固体运动,称为共有化电子, 讨论电子运动时假定离子实处于平衡位置, 将离子实偏离平衡位置的影响视为微扰." FOLDED="true" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1573208288680">
 <node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
@@ -312,6 +316,24 @@
 </node>
 <node TEXT="\latex Bloch Theorem: under periodic potential \\&#xa;$\psi(\vec r+ \vec R_n)=e^{i\vec k\cdot \vec R_n}\psi(\vec r)\ (\vec R_n\ \text{is lattice vector}) $" ID="ID_430552448" CREATED="1573208932367" MODIFIED="1573209384686">
 <node TEXT="\latex $\Rightarrow\psi(\vec r)=e^{i\vec k\cdot \vec r}u(\vec r)$ &#xa;\\$(u(\vec r+\vec R_n)=u(\vec r))$" ID="ID_1131693196" CREATED="1573209466106" MODIFIED="1573209630511"/>
+</node>
+</node>
+<node TEXT="crystal binding" POSITION="left" ID="ID_1315203738" CREATED="1592636369766" MODIFIED="1592636392722">
+<edge COLOR="#00ff00"/>
+<node TEXT="terms" ID="ID_1154537946" CREATED="1592639837733" MODIFIED="1592648267941">
+<node TEXT="" ID="ID_982009042" CREATED="1592649473128" MODIFIED="1592649473132">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="cohesive energy: the energy needed to separate the crystal into neutral free atoms at rest at infinite separation" ID="ID_1372789339" CREATED="1592648269555" MODIFIED="1592649368642"/>
+<node TEXT="lattice energy(ionic crystals): the energy needed to separate the crystal into free ions at rest at infinite separation" ID="ID_551060410" CREATED="1592649184272" MODIFIED="1592649287362"/>
+<node TEXT="" ID="ID_1242598028" CREATED="1592649473124" MODIFIED="1592649473128">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="energy needed for separation" ID="ID_1299329451" CREATED="1592649473136" MODIFIED="1592649487862"/>
+</node>
+<node TEXT="f" ID="ID_302294401" CREATED="1592649393447" MODIFIED="1592657566899">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1299329451" MIDDLE_LABEL="可通过二者对比判断成键种类&#xa;(结合能是否能对原子&#xa;电子云产生足够大的干扰)" STARTINCLINATION="389;0;" ENDINCLINATION="287;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+</node>
 </node>
 </node>
 </node>
