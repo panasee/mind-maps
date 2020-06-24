@@ -335,7 +335,9 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1299329451" MIDDLE_LABEL="可通过二者对比判断成键种类&#xa;(结合能是否能对原子&#xa;电子云产生足够大的干扰)" STARTINCLINATION="389;0;" ENDINCLINATION="287;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="Van der Waals-London Interaction" ID="ID_524058935" CREATED="1592712566021" MODIFIED="1592712578308"/>
+<node TEXT="Van der Waals-London Interaction" ID="ID_524058935" CREATED="1592712566021" MODIFIED="1592712578308">
+<node TEXT="\latex for 2 harmonic dipole oscillators:&#xa;\\related cohesive energy:$\Delta U=-\hbar \omega_0\frac{e^4}{2C^2 R^6}=-\frac A{R^6}$\\&#xa;\because\  $\hbar\rightarrow 0 \Rightarrow \Delta U \rightarrow 0$,\therefore \ it&apos;s a quantum effect" ID="ID_540189401" CREATED="1592795837921" MODIFIED="1592834063307"/>
+</node>
 </node>
 <node TEXT="crystal example" POSITION="left" ID="ID_459607581" CREATED="1592711684712" MODIFIED="1592711745048">
 <edge COLOR="#ff00ff"/>
