@@ -335,13 +335,23 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1299329451" MIDDLE_LABEL="可通过二者对比判断成键种类&#xa;(结合能是否能对原子&#xa;电子云产生足够大的干扰)" STARTINCLINATION="389;0;" ENDINCLINATION="287;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1985150712" CREATED="1593157300205" MODIFIED="1593157300207">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="Van der Waals-London Interaction" ID="ID_524058935" CREATED="1592712566021" MODIFIED="1592712578308">
-<node TEXT="\latex for 2 harmonic dipole oscillators:&#xa;\\related cohesive energy:$\Delta U=-\hbar \omega_0\frac{e^4}{2C^2 R^6}=-\frac A{R^6}$\\&#xa;\because\  $\hbar\rightarrow 0 \Rightarrow \Delta U \rightarrow 0$,\therefore \ it&apos;s a quantum effect" ID="ID_540189401" CREATED="1592795837921" MODIFIED="1592834063307">
+<node TEXT="\latex for 2 harmonic dipole oscillators:&#xa;\\related cohesive energy:$\Delta U=-\hbar \omega_0\frac{e^4}{2C^2 R^6}=-\frac A{R^6}$\\&#xa;\because\  $\hbar\rightarrow 0 \Rightarrow \Delta U \rightarrow 0$,\therefore \ it&apos;s a quantum effect" FOLDED="true" ID="ID_540189401" CREATED="1592795837921" MODIFIED="1592834063307">
 <node TEXT="\latex $\omega_0$ corresponds to the strongest \\&#xa;optical absorption line" ID="ID_1381880128" CREATED="1593143194533" MODIFIED="1593143251117"/>
 </node>
 </node>
 <node TEXT="Repulsive Interaction" ID="ID_1973751273" CREATED="1593143297775" MODIFIED="1593143307424">
-<node TEXT="Pauli exclusion principle" ID="ID_368298841" CREATED="1593143309217" MODIFIED="1593143317580"/>
+<node TEXT="Pauli exclusion principle" ID="ID_368298841" CREATED="1593143309217" MODIFIED="1593143317580">
+<node TEXT="\latex complicated to calculate$\rightarrow$ e&#xa;\\mpirical repulsive potentials e.g.&#xa;\\$\frac B{R^{12}}(B&gt;0)$(based on inert gas)\&amp; $\lambda \mathrm{exp}(-R/\rho)$(easy to handle analytically)" ID="ID_1036435986" CREATED="1593152766598" MODIFIED="1593161926687"/>
+</node>
+</node>
+<node TEXT="" ID="ID_949360922" CREATED="1593157300203" MODIFIED="1593157300205">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex total potential energy(Lennard-Jones potential)\\&#xa;$U(R)=4\epsilon[(\frac\sigma R)^{12}-(\frac\sigma R)^6]$&#xa;\\这里用曲线的几何参数$\epsilon$和$\sigma$代替了原先的A和B" ID="ID_743977329" CREATED="1593157300208" MODIFIED="1593157684234"/>
 </node>
 </node>
 <node TEXT="crystal example" POSITION="left" ID="ID_459607581" CREATED="1592711684712" MODIFIED="1592711745048">
