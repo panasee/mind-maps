@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1592480041284" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.626">
+<hook NAME="MapStyle" zoom="1.789">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -352,6 +352,18 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex total potential energy(Lennard-Jones potential)\\&#xa;$U(R)=4\epsilon[(\frac\sigma R)^{12}-(\frac\sigma R)^6]$&#xa;\\这里用曲线的几何参数$\epsilon$和$\sigma$代替了原先的A和B" ID="ID_743977329" CREATED="1593157300208" MODIFIED="1593157684234"/>
+</node>
+<node TEXT="Madelung(electrostatic) energy --- ionic bond&#xa;(main contribution to the binding energy of ionic crystals)" ID="ID_240986152" CREATED="1593313917711" MODIFIED="1593421879185">
+<node TEXT="\latex for ionic crystal(only consider \\&#xa;the Pauli exclusion with nearest ions)\\&#xa;$U_{tot}=NU_i=N\sum^\prime_jU_{ij}=N(\mathcal z\lambda e^{-R/\rho}-\frac{\alpha q^2}{R})$\\&#xa;$\mathcal z$ is the No. of nearest neighbors" ID="ID_1011820905" CREATED="1593332003441" MODIFIED="1593336759677">
+<node TEXT="\latex $\alpha\equiv \sum_j^\prime \frac{(\pm)}{p_{ij}}$\\&#xa;$\rightarrow$ \textbf{Madelung constant}" ID="ID_1144199044" CREATED="1593332487334" MODIFIED="1593332596311"/>
+<node TEXT="\latex $U_{Ma}=-\frac{N\alpha q^2}{R_0}$\\&#xa;$\rightarrow$ \textbf{Madelung energy}" ID="ID_210444637" CREATED="1593351795398" MODIFIED="1593352341347"/>
+</node>
+</node>
+<node TEXT="covalent bond" ID="ID_1042255687" CREATED="1593418493107" MODIFIED="1593421978146">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-105;4;" ENDINCLINATION="-217;5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="formed from 2 electrons with antiparallel spin" ID="ID_998045080" CREATED="1593420254065" MODIFIED="1593420272570">
+<node TEXT="exchange interaction:&#xa;spin-dependent coulomb energy" ID="ID_386690767" CREATED="1593420303137" MODIFIED="1593420340342"/>
+</node>
 </node>
 </node>
 <node TEXT="crystal example" POSITION="left" ID="ID_459607581" CREATED="1592711684712" MODIFIED="1592711745048">
