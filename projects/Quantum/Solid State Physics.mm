@@ -3,7 +3,7 @@
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1592480041284" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.789">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1592480124648" HGAP_QUANTITY="-43.49999870359901 pt" VSHIFT_QUANTITY="-123.7499963119627 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
@@ -192,6 +192,10 @@
 </node>
 </node>
 </node>
+<node TEXT="radii approximation" ID="ID_854591466" CREATED="1593590504672" MODIFIED="1593590521440">
+<node TEXT="严格意义上并不存在所谓的原子半径/边界,&#xa;但引入相关概念可以用来估计未知结构的参数" ID="ID_1668940768" CREATED="1593590524244" MODIFIED="1593590693977"/>
+<node TEXT="standard radii表格可以针对不同结构就进行估算" ID="ID_1433274427" CREATED="1593590700147" MODIFIED="1593590835030"/>
+</node>
 </node>
 <node TEXT="\latex 玻恩-卡门循环边界条件: 各个基矢方向上构造环实现平移对称\\&#xa;数学上等价于$N_i \vec a_i\ (i=1,2,3)$平移操作为恒等操作" POSITION="right" ID="ID_1766935485" CREATED="1561814828350" MODIFIED="1564384950829">
 <edge COLOR="#ff00ff"/>
@@ -291,10 +295,24 @@
 </node>
 </node>
 </node>
-<node TEXT="元激发(准粒子): 使复杂的多体问题简化为接近理想气体的准粒子系统,从而将粒子物理的场论方法应用到固体物理的多体系统" FOLDED="true" POSITION="right" ID="ID_1745555232" CREATED="1563180008367" MODIFIED="1563180180656">
+<node TEXT="元激发(准粒子): 使复杂的多体问题简化为接近理想气体的准粒子系统,从而将粒子物理的场论方法应用到固体物理的多体系统" POSITION="right" ID="ID_1745555232" CREATED="1563180008367" MODIFIED="1563180180656">
 <edge COLOR="#7c7c00"/>
+<node TEXT="" ID="ID_1182406176" CREATED="1593614916492" MODIFIED="1593614916494">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="集体激发的准粒子: 声子,磁振子, 激子, 极化激元" ID="ID_897847914" CREATED="1563180190494" MODIFIED="1563180536416"/>
 <node TEXT="单粒子激发的准粒子: 金属的电子与屏蔽电荷云一起构成准电子,空穴同理" ID="ID_1933468944" CREATED="1563180199809" MODIFIED="1563180414836"/>
+<node TEXT="" ID="ID_1366370069" CREATED="1593614916491" MODIFIED="1593614916492">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="electron" ID="ID_874817387" CREATED="1593614916495" MODIFIED="1593614932194"/>
+<node TEXT="photon ~ electromagnetic wave" ID="ID_314628165" CREATED="1593614932590" MODIFIED="1593614944953"/>
+<node TEXT="phonon ~ elastic wave" ID="ID_507556036" CREATED="1593614945781" MODIFIED="1593614956534"/>
+<node TEXT="plasmon ~ collective electron wave" ID="ID_25157898" CREATED="1593614957741" MODIFIED="1593614970702"/>
+<node TEXT="magnon ~ magnetization wave" ID="ID_1511934213" CREATED="1593614971870" MODIFIED="1593614986352"/>
+<node TEXT="polaron ~ electron + elastic deformation" ID="ID_813509328" CREATED="1593614986789" MODIFIED="1593615004500"/>
+<node TEXT="exciton ~ polarization wave" ID="ID_1715047767" CREATED="1593615004872" MODIFIED="1593615015933"/>
+</node>
 </node>
 <node TEXT="空间自由度变量体系" FOLDED="true" POSITION="left" ID="ID_501438982" CREATED="1564384533869" MODIFIED="1564384606149">
 <edge COLOR="#ff0000"/>
@@ -318,7 +336,7 @@
 <node TEXT="\latex $\Rightarrow\psi(\vec r)=e^{i\vec k\cdot \vec r}u(\vec r)$ &#xa;\\$(u(\vec r+\vec R_n)=u(\vec r))$" ID="ID_1131693196" CREATED="1573209466106" MODIFIED="1573209630511"/>
 </node>
 </node>
-<node TEXT="crystal binding" POSITION="left" ID="ID_1315203738" CREATED="1592636369766" MODIFIED="1592636392722">
+<node TEXT="crystal binding" FOLDED="true" POSITION="left" ID="ID_1315203738" CREATED="1592636369766" MODIFIED="1592636392722">
 <edge COLOR="#00ff00"/>
 <node TEXT="terms" ID="ID_1154537946" CREATED="1592639837733" MODIFIED="1592648267941">
 <node TEXT="" ID="ID_982009042" CREATED="1592649473128" MODIFIED="1592649473132">
@@ -363,12 +381,41 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-105;4;" ENDINCLINATION="-217;5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="formed from 2 electrons with antiparallel spin" ID="ID_998045080" CREATED="1593420254065" MODIFIED="1593420272570">
 <node TEXT="exchange interaction:&#xa;spin-dependent coulomb energy" ID="ID_386690767" CREATED="1593420303137" MODIFIED="1593420340342"/>
+<node TEXT="directional: loosely-packed structure (diamond, et.c.)" ID="ID_316039582" CREATED="1593586027314" MODIFIED="1593586107526"/>
 </node>
 </node>
+<node TEXT="metallic binding" ID="ID_1672454122" CREATED="1593573462502" MODIFIED="1593573467140">
+<node TEXT="interaction of the ion cores with the conduction electrons&#xa;(while for transition metals there is additional binding from inner electron shells)" ID="ID_88433148" CREATED="1593585863683" MODIFIED="1593586182559"/>
+<node TEXT="not strong(alkali metal crystal &lt;&lt; alkali halide crystal)" ID="ID_381626283" CREATED="1593586206247" MODIFIED="1593586280293"/>
 </node>
-<node TEXT="crystal example" POSITION="left" ID="ID_459607581" CREATED="1592711684712" MODIFIED="1592711745048">
-<edge COLOR="#ff00ff"/>
-<node TEXT="inert gas crystal" ID="ID_60506394" CREATED="1592711755493" MODIFIED="1592712381187"/>
+<node TEXT="hydrogen bond" ID="ID_1758341989" CREATED="1593586331588" MODIFIED="1593586350062">
+<node TEXT="largely ionic, formed only between the most electronegative atoms (F, O, N,...)" ID="ID_246538689" CREATED="1593586363749" MODIFIED="1593586420002"/>
+<node TEXT="hydrogen atom (ionic) works as a &quot;bridge&quot; to connect two electronegative atoms" ID="ID_1246190055" CREATED="1593586625296" MODIFIED="1593586737490"/>
+</node>
+</node>
+<node TEXT="wave motion in a crystal" FOLDED="true" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1593614563928">
+<edge COLOR="#00ffff"/>
+<node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
+<node TEXT="longitudinal wave" ID="ID_1593070891" CREATED="1593614571534" MODIFIED="1593614665408"/>
+<node ID="ID_884941229" CREATED="1593614600289" MODIFIED="1593615262353"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      transverse (shear) wave x2
+    </p>
+    <p>
+      (the bases of plane normal to <b>k</b>)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
