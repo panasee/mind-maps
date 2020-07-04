@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1592480124648" HGAP_QUANTITY="-43.49999870359901 pt" VSHIFT_QUANTITY="-123.7499963119627 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
@@ -393,7 +393,7 @@
 <node TEXT="hydrogen atom (ionic) works as a &quot;bridge&quot; to connect two electronegative atoms" ID="ID_1246190055" CREATED="1593586625296" MODIFIED="1593586737490"/>
 </node>
 </node>
-<node TEXT="wave motion in a crystal" FOLDED="true" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1593614563928">
+<node TEXT="wave motion in a crystal" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1593614563928">
 <edge COLOR="#00ffff"/>
 <node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
 <node TEXT="longitudinal wave" ID="ID_1593070891" CREATED="1593614571534" MODIFIED="1593614665408"/>
@@ -412,10 +412,17 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+<node TEXT="the meaning of the amplitude of electromagnetic waves exists only in the space between atoms; while the meaning of the amplitude of elastic waves exists only at atoms." ID="ID_557019070" CREATED="1593855597115" MODIFIED="1593855866736"/>
+</node>
+<node TEXT="Brillouin Zone" POSITION="left" ID="ID_462244645" CREATED="1593853223856" MODIFIED="1593853229865">
+<edge COLOR="#7c0000"/>
+<node TEXT="First Brillouin Zone" ID="ID_1032624713" CREATED="1593853349906" MODIFIED="1593853376192">
+<node TEXT="对于波矢超出1BZ的波来说由于其一个周期在最小单元(晶格)内完成,因此其信息并不比对应的1BZ内的波多." ID="ID_1600696305" CREATED="1593853405880" MODIFIED="1593853492656"/>
+</node>
+<node TEXT="standing waves correspond to the edge of BZs&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593855201064"/>
 </node>
 </node>
 </map>
