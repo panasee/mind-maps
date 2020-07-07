@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1592480041284" STYLE="oval">
+<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1593957307509" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.789">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.626">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1592480124648" HGAP_QUANTITY="-43.49999870359901 pt" VSHIFT_QUANTITY="-123.7499963119627 pt">
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" FOLDED="true" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1593957307504" HGAP_QUANTITY="15.749999530613433 pt" VSHIFT_QUANTITY="-176.24999474734082 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 <node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
@@ -73,27 +73,6 @@
 <node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
 <node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
 </node>
-</node>
-<node TEXT="格波-声子" FOLDED="true" POSITION="right" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1563176271926">
-<edge COLOR="#ff0000"/>
-<node TEXT="\latex 长波极限\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(即格点内部弹性波)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(即不同原子格点相对振动)" ID="ID_1970611014" CREATED="1558923737488" MODIFIED="1558923977545"/>
-<node TEXT="\latex 简谐近似&#xa;$V = V_0+\underbrace{\sum_{i=1}^{3N}(\frac{\partial V}{\partial \mu_i})_0\mu_i}_{\@ minimum =0 }+\frac12\sum_{i,j=1}^{3N}(\frac{\partial^2 V}{\partial\mu_i \partial \mu_j})_0\mu_i\mu_j+o $\\&#xa;或者$\phi =\phi_0+\sum\limits_{\alpha,l}\phi_\alpha(l)u^\alpha_l+\sum_{\alpha,\beta,l,l^\prime}\phi_{\alpha,\beta}(l,l^\prime)u_l^\alpha u_{l^\prime}^\beta+o,(\phi_\alpha(l)\equiv\frac{\partial \phi}{\partial u^\alpha_l})$" FOLDED="true" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1564393344937">
-<node TEXT="\latex 力常数: $\phi_{\alpha,\beta}(l,l^\prime)$\\&#xa;$\phi_{\alpha,\beta}(l,l^\prime)=\frac{\partial}{\partial u_{l^\prime}^\beta}\frac{\partial \phi}{\partial u_l^\alpha}$可以理解为$l$原子$\alpha$方向上的受力对于\\&#xa;$l^\prime$原子$\beta$方向位移的导数" ID="ID_262072807" CREATED="1564393698070" MODIFIED="1564394030014"/>
-</node>
-<node TEXT="\latex 简正坐标$Q_{k\sigma}(\in C)$与简正模$(NM)^{-\frac12}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l}$\\&#xa;$\boldsymbol u_l = (NM)^{-\frac12}\sum\limits_{k,\sigma}Q_{k\sigma}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l} $" ID="ID_445018664" CREATED="1563175099808" MODIFIED="1564573974720">
-<node TEXT="\latex 简正坐标$Q_i$与位移坐标$\mu_i$正交变换 &#xa;$\sqrt{m_i}\mu_i = \sum_{j=1}^{3N}a_{ij}Q_j$" ID="ID_1771490988" CREATED="1563176278418" MODIFIED="1563176665168"/>
-<node TEXT="\latex 引入目的:使系统动能和晶格振动势能具简单形式 \\&#xa;$T=\frac12\sum_{k,\sigma} \dot Q_{k,\sigma}^*  \dot Q_{k,\sigma} ,\; \Delta \phi=\frac12 \sum_{k,\sigma}\omega_\sigma^2(\boldsymbol k)Q^*_{k\sigma}Q_{k\sigma}$" ID="ID_302510640" CREATED="1563176390148" MODIFIED="1564574254248">
-<node TEXT="\latex 利用正则方程得到$\ddot Q_i+\omega^2Q_i=0$\\&#xa;即每个简正坐标各自独立地满足简谐方程 \\&#xa;(所以也可把正则坐标看成解耦的方法或者哈密顿量对角化)" ID="ID_643211299" CREATED="1563179313845" MODIFIED="1563180595501">
-<node TEXT="简谐近似下声子之间无相互作用,&#xa;之后N次近似会带来N声子散射" ID="ID_1998710808" CREATED="1563179474302" MODIFIED="1563179549515"/>
-<node TEXT="正则坐标和动量可直接过渡到量子力学,从而&#xa;简谐振动的能量子即为声子" ID="ID_159280873" CREATED="1563179556429" MODIFIED="1563179613287"/>
-</node>
-</node>
-<node TEXT="声学模与光学模" ID="ID_1748955861" CREATED="1564554026795" MODIFIED="1564554040719">
-<node TEXT="\latex 声学模:$\omega_\sigma=0(when\ \vec{k}=0)$ \\&#xa;$\Rightarrow \frac{\boldsymbol e^\alpha_{\Gamma\sigma}(s)}{\sqrt{M_s}}=\frac{\boldsymbol e^\alpha_{\Gamma\sigma}(s^\prime)}{\sqrt{M_{s^\prime}}}$ 体现为原胞内各原子同向运动,亦即质心运动" ID="ID_195231179" CREATED="1564554055481" MODIFIED="1564554462265"/>
-<node TEXT="\latex 光学模: $\omega_\sigma\ne 0(when\ \vec k=0)$\\&#xa;$\Rightarrow \sqrt{M_1}\boldsymbol e_{\Gamma\sigma^\prime}(1)=-\sqrt{M_2}\boldsymbol e_{\Gamma\sigma^\prime}(2)$ 体现为原胞内原子相对质心运动,质心不动" ID="ID_390863021" CREATED="1564554465856" MODIFIED="1564555478335"/>
-</node>
-</node>
-<node TEXT="力常数" ID="ID_594124719" CREATED="1564392888763" MODIFIED="1564392903109"/>
 </node>
 <node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
@@ -276,7 +255,7 @@
 <node TEXT="晶体(原子周期性排列决定了可以作为衍射光栅): 衍射图样为一组组清晰的斑点,斑点图样显示出晶体对称性" ID="ID_1829365936" CREATED="1563172766754" MODIFIED="1563172860988"/>
 <node TEXT="非晶态材料,衍射图样为弥散的环,没有表征晶态的斑点" ID="ID_759557068" CREATED="1563172873820" MODIFIED="1563172906374"/>
 <node TEXT="a map of reciprocal lattice" ID="ID_798451015" CREATED="1592479816195" MODIFIED="1592479825868">
-<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0 \&amp; 2\mathbf k\cdot \mathbf G=G^2$\\&#xa;$\Rightarrow \mathbf k \cdot (\frac \mathbf G2)=(\frac G2)^2$" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592535919318">
+<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0 \&amp; 2\mathbf k\cdot \mathbf G=G^2$\\&#xa;$\Rightarrow \mathbf k \cdot (\frac \mathbf G2)=(\frac G2)^2$" FOLDED="true" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592535919318">
 <node TEXT="即k在G/2上的投影等于G/2的模，因此所有落在Brillouin区（第n都可以）边界上的k都满足衍射条件" ID="ID_1171573099" CREATED="1592535931820" MODIFIED="1592536128071"/>
 </node>
 </node>
@@ -286,10 +265,10 @@
 <node TEXT="取向序具有晶体周期性不能容许的点群对称性" ID="ID_141004109" CREATED="1563173204985" MODIFIED="1563173248202"/>
 <node TEXT="沿取向序对称轴的方向具有准周期性" ID="ID_1204023620" CREATED="1563173261633" MODIFIED="1563173279242"/>
 </node>
-<node TEXT="研究的问题与能级关系" FOLDED="true" POSITION="right" ID="ID_1484601152" CREATED="1563179620629" MODIFIED="1563179807050">
+<node TEXT="研究的问题与能级关系" FOLDED="true" POSITION="right" ID="ID_1484601152" CREATED="1563179620629" MODIFIED="1593957551765">
 <edge COLOR="#007c7c"/>
 <node TEXT="基态: 结构,结合能,磁有序结构" ID="ID_1787881121" CREATED="1563179807760" MODIFIED="1563179833391"/>
-<node TEXT="激发态: 具体物理行为,如热学性质,弹性,导电行为" ID="ID_1957503304" CREATED="1563179834042" MODIFIED="1563179875847">
+<node TEXT="激发态: 具体物理行为,如热学性质,弹性,导电行为" ID="ID_1957503304" CREATED="1563179834042" MODIFIED="1593957551765">
 <node TEXT="能量靠近基态的低激发态,可看成是独立的&#xa;基本激发单元的集合,由此引入元激发" ID="ID_170386216" CREATED="1563179894961" MODIFIED="1563180185913">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-188;-66;" ENDINCLINATION="542;-124;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -393,9 +372,13 @@
 <node TEXT="hydrogen atom (ionic) works as a &quot;bridge&quot; to connect two electronegative atoms" ID="ID_1246190055" CREATED="1593586625296" MODIFIED="1593586737490"/>
 </node>
 </node>
-<node TEXT="wave motion in a crystal" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1593614563928">
+<node TEXT="wave motion in a crystal" FOLDED="true" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1594009381784">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-17;12;" ENDINCLINATION="3;-26;" STARTARROW="NONE" ENDARROW="NONE"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
+<node TEXT="" ID="ID_1021518422" CREATED="1593937443926" MODIFIED="1593937443928">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="longitudinal wave" ID="ID_1593070891" CREATED="1593614571534" MODIFIED="1593614665408"/>
 <node ID="ID_884941229" CREATED="1593614600289" MODIFIED="1593615262353"><richcontent TYPE="NODE">
 
@@ -414,15 +397,62 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="" ID="ID_664645065" CREATED="1593937443919" MODIFIED="1593937443926">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="only in special propagation directions [100]&amp;[110]&amp;[111]&#xa;the modes can be classified into&#xa;2 exactly T and 1 exactly L waves." ID="ID_1461607561" CREATED="1593937443928" MODIFIED="1593937743497"/>
+</node>
 </node>
 <node TEXT="the meaning of the amplitude of electromagnetic waves exists only in the space between atoms; while the meaning of the amplitude of elastic waves exists only at atoms." ID="ID_557019070" CREATED="1593855597115" MODIFIED="1593855866736"/>
+<node TEXT="Group Velocity: transmission velocity of&#xa;wave package/energy/information" ID="ID_1999099990" CREATED="1593909808439" MODIFIED="1593910482828">
+<node TEXT="\latex $\mathbf v_g = \nabla_\mathbf k \omega (\mathbf K)$" ID="ID_1980586759" CREATED="1593910493684" MODIFIED="1593910745287"/>
 </node>
-<node TEXT="Brillouin Zone" POSITION="left" ID="ID_462244645" CREATED="1593853223856" MODIFIED="1593853229865">
+<node TEXT="\latex long wavelength limit:\\&#xa;$Ka\ll 1 (applicable\ for\ sound)\rightarrow \omega\propto K$&#xa;\\ that means the sound speed is a constant" ID="ID_4702338" CREATED="1593911234890" MODIFIED="1593919342400"/>
+<node TEXT="\latex acoustical \&amp; optical mode(长波极限)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(即格点内部弹性波)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(即不同原子格点相对振动)" ID="ID_1748955861" CREATED="1564554026795" MODIFIED="1594095077472">
+<node TEXT="" ID="ID_1292528706" CREATED="1593956119838" MODIFIED="1593956119842">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex acoustical mode:$\omega_\sigma=0(when\ \vec{k}=0)$ \\&#xa;$\Rightarrow \frac{\boldsymbol e^\alpha_{\Gamma\sigma}(s)}{\sqrt{M_s}}=\frac{\boldsymbol e^\alpha_{\Gamma\sigma}(s^\prime)}{\sqrt{M_{s^\prime}}}$ 体现为原胞内各原子同向运动,亦即质心运动\\&#xa;与长波声学振动相同，因此得名" ID="ID_195231179" CREATED="1564554055481" MODIFIED="1593963450469"/>
+<node TEXT="\latex optical mode: $\omega_\sigma\ne 0(when\ \vec k=0)$\\&#xa;$\Rightarrow \sqrt{M_1}\boldsymbol e_{\Gamma\sigma^\prime}(1)=-\sqrt{M_2}\boldsymbol e_{\Gamma\sigma^\prime}(2)$ 体现为原胞内原子相对质心运动,质心不动\\&#xa;若元胞内有相反电荷离子，会激发出光波的电场，因此得名。" ID="ID_390863021" CREATED="1564554465856" MODIFIED="1593960055875"/>
+<node TEXT="" ID="ID_677508523" CREATED="1593956119834" MODIFIED="1593956119838">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="png_8223625001080873177.png" ID="ID_28965613" CREATED="1593956125930" MODIFIED="1593956125930">
+<hook URI="Solid%20State%20Physics_files/png_8223625001080873177.png" SIZE="0.46942824" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="phonon" POSITION="left" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1594009417359">
+<edge COLOR="#ff0000"/>
+<node TEXT="derivation" FOLDED="true" ID="ID_851343863" CREATED="1594094988391" MODIFIED="1594094994785">
+<node TEXT="\latex 简正坐标$Q_{k\sigma}(\in C)$与简正模$(NM)^{-\frac12}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l}$\\&#xa;$\boldsymbol u_l = (NM)^{-\frac12}\sum\limits_{k,\sigma}Q_{k\sigma}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l} $" ID="ID_445018664" CREATED="1563175099808" MODIFIED="1564573974720">
+<node TEXT="\latex 简正坐标$Q_i$与位移坐标$\mu_i$正交变换 &#xa;$\sqrt{m_i}\mu_i = \sum_{j=1}^{3N}a_{ij}Q_j$" ID="ID_1771490988" CREATED="1563176278418" MODIFIED="1563176665168"/>
+<node TEXT="\latex 引入目的:使系统动能和晶格振动势能具简单形式 \\&#xa;$T=\frac12\sum_{k,\sigma} \dot Q_{k,\sigma}^*  \dot Q_{k,\sigma} ,\; \Delta \phi=\frac12 \sum_{k,\sigma}\omega_\sigma^2(\boldsymbol k)Q^*_{k\sigma}Q_{k\sigma}$" ID="ID_302510640" CREATED="1563176390148" MODIFIED="1564574254248">
+<node TEXT="\latex 利用正则方程得到$\ddot Q_i+\omega^2Q_i=0$\\&#xa;即每个简正坐标各自独立地满足简谐方程 \\&#xa;(所以也可把正则坐标看成解耦的方法或者哈密顿量对角化)" ID="ID_643211299" CREATED="1563179313845" MODIFIED="1563180595501">
+<node TEXT="简谐近似下声子之间无相互作用,&#xa;之后N次近似会带来N声子散射" ID="ID_1998710808" CREATED="1563179474302" MODIFIED="1563179549515"/>
+<node TEXT="正则坐标和动量可直接过渡到量子力学,从而&#xa;简谐振动的能量子即为声子" ID="ID_159280873" CREATED="1563179556429" MODIFIED="1563179613287"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex 简谐近似&#xa;$V = V_0+\underbrace{\sum_{i=1}^{3N}(\frac{\partial V}{\partial \mu_i})_0\mu_i}_{\@ minimum =0 }+\frac12\sum_{i,j=1}^{3N}(\frac{\partial^2 V}{\partial\mu_i \partial \mu_j})_0\mu_i\mu_j+o $\\&#xa;或者$\phi =\phi_0+\sum\limits_{\alpha,l}\phi_\alpha(l)u^\alpha_l+\sum_{\alpha,\beta,l,l^\prime}\phi_{\alpha,\beta}(l,l^\prime)u_l^\alpha u_{l^\prime}^\beta+o,(\phi_\alpha(l)\equiv\frac{\partial \phi}{\partial u^\alpha_l})$" FOLDED="true" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1564393344937">
+<node TEXT="\latex 力常数: $\phi_{\alpha,\beta}(l,l^\prime)$\\&#xa;$\phi_{\alpha,\beta}(l,l^\prime)=\frac{\partial}{\partial u_{l^\prime}^\beta}\frac{\partial \phi}{\partial u_l^\alpha}$可以理解为$l$原子$\alpha$方向上的受力对于\\&#xa;$l^\prime$原子$\beta$方向位移的导数" ID="ID_262072807" CREATED="1564393698070" MODIFIED="1564394030014"/>
+</node>
+</node>
+<node TEXT="\latex \textbf{energy}(same as photon)$\rightarrow$\\&#xa;harmonic oscillator$\epsilon=(n+\frac12)\hbar \omega$\\&#xa;$\Rightarrow$ the quanta of energy is $\hbar\omega$" ID="ID_137800202" CREATED="1594009421822" MODIFIED="1594103026683">
+<node TEXT="\latex 声子占据数(能级)为n的粒子振动的振幅为:\\&#xa;$u_0^2=4(n+\frac12)\hbar/\rho V\omega$" ID="ID_1363091834" CREATED="1594015765954" MODIFIED="1594015862108"/>
+</node>
+<node TEXT="\latex \textbf{momentum}, a phonon of wavevector $K$ can\\ interact with other particles as if it had a momentum $\hbar K$,\\ but it can&apos;t carry physical momentum!" ID="ID_809511298" CREATED="1594016930735" MODIFIED="1594017183565">
+<node TEXT="the phonon coordinate involves relative coordinate&#xa;which can&apos;t carry linear momentum" ID="ID_571855857" CREATED="1594019485872" MODIFIED="1594019552966"/>
+</node>
+<node TEXT="heat capacity (usually refer to the one at constant volume,&#xa;which is more fundamental than that at constant pressure)" ID="ID_779045439" CREATED="1594103028722" MODIFIED="1594103094819"/>
+</node>
+<node TEXT="Brillouin Zone" FOLDED="true" POSITION="left" ID="ID_462244645" CREATED="1593853223856" MODIFIED="1593853229865">
 <edge COLOR="#7c0000"/>
 <node TEXT="First Brillouin Zone" ID="ID_1032624713" CREATED="1593853349906" MODIFIED="1593853376192">
 <node TEXT="对于波矢超出1BZ的波来说由于其一个周期在最小单元(晶格)内完成,因此其信息并不比对应的1BZ内的波多." ID="ID_1600696305" CREATED="1593853405880" MODIFIED="1593853492656"/>
 </node>
-<node TEXT="standing waves correspond to the edge of BZs&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593855201064"/>
+<node TEXT="standing waves correspond to the edge of BZs(0 group velocity)&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593910920844"/>
 </node>
 </node>
 </map>
