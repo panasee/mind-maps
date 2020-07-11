@@ -372,7 +372,7 @@
 <node TEXT="hydrogen atom (ionic) works as a &quot;bridge&quot; to connect two electronegative atoms" ID="ID_1246190055" CREATED="1593586625296" MODIFIED="1593586737490"/>
 </node>
 </node>
-<node TEXT="wave motion in a crystal" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1594009381784">
+<node TEXT="wave motion in a crystal" FOLDED="true" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1594009381784">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-17;12;" ENDINCLINATION="3;-26;" STARTARROW="NONE" ENDARROW="NONE"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
@@ -418,7 +418,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -443,7 +442,7 @@
 </node>
 </node>
 </node>
-<node TEXT="phonon" FOLDED="true" POSITION="left" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1594009417359">
+<node TEXT="phonon" POSITION="left" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1594009417359">
 <edge COLOR="#ff0000"/>
 <node TEXT="derivation" FOLDED="true" ID="ID_851343863" CREATED="1594094988391" MODIFIED="1594094994785">
 <node TEXT="\latex 简正坐标$Q_{k\sigma}(\in C)$与简正模$(NM)^{-\frac12}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l}$\\&#xa;$\boldsymbol u_l = (NM)^{-\frac12}\sum\limits_{k,\sigma}Q_{k\sigma}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l} $" ID="ID_445018664" CREATED="1563175099808" MODIFIED="1564573974720">
@@ -469,6 +468,11 @@
 <node TEXT="\latex $U_{lat}=\sum_{k,p}\langle n_{k,p}\rangle \hbar \omega_{k,p}$ (p means polarization)\\&#xa;$\langle n_{k,p}\rangle$ is the thermal equilibrium occupancy, given by the Planck distribution&#xa;\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$\\&#xa;(derived from $N_{n+1}/N_n=\exp{(-\hbar \omega/k_BT)}$)" ID="ID_413043942" CREATED="1594254780120" MODIFIED="1594266941200">
 <node TEXT="\latex $\sum_k$ can be replaced with&#xa; an integral\\ $\int d\omega D_p(\omega)$ (D is density of states(modes))" ID="ID_1424045360" CREATED="1594280325398" MODIFIED="1594280462282"/>
 </node>
+</node>
+<node TEXT="DOS" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
+<node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1594350785036"/>
+<node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977"/>
+<node TEXT="Debye approximation: the velocity of sound is taken as constant for each polarization type" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594394200566"/>
 </node>
 </node>
 <node TEXT="Brillouin Zone" FOLDED="true" POSITION="left" ID="ID_462244645" CREATED="1593853223856" MODIFIED="1593853229865">
