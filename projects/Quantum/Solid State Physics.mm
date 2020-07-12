@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1593957307509" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.344">
+<hook NAME="MapStyle" zoom="1.968">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -465,17 +465,25 @@
 <node TEXT="the phonon coordinate involves relative coordinate&#xa;which can&apos;t carry linear momentum" ID="ID_571855857" CREATED="1594019485872" MODIFIED="1594019552966"/>
 </node>
 <node TEXT="\latex heat capacity (usually refer to the one at constant volume,&#xa;which is more fundamental than that at constant pressure) &#xa;$C_V\equiv (\frac{\partial U}{\partial T})_V$" ID="ID_779045439" CREATED="1594103028722" MODIFIED="1594193846190">
-<node TEXT="\latex $U_{lat}=\sum_{k,p}\langle n_{k,p}\rangle \hbar \omega_{k,p}$ (p means polarization)\\&#xa;$\langle n_{k,p}\rangle$ is the thermal equilibrium occupancy, given by the Planck distribution&#xa;\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$\\&#xa;(derived from $N_{n+1}/N_n=\exp{(-\hbar \omega/k_BT)}$)" ID="ID_413043942" CREATED="1594254780120" MODIFIED="1594266941200">
+<node TEXT="\latex $U_{lat}=\sum_{k,p}\langle n_{k,p}\rangle \hbar \omega_{k,p}$ (p means polarization)\\&#xa;$\langle n_{k,p}\rangle$ is the thermal equilibrium occupancy,\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$&#xa;\\given by the Planck distribution" ID="ID_413043942" CREATED="1594254780120" MODIFIED="1594551883512">
 <node TEXT="\latex $\sum_k$ can be replaced with&#xa; an integral\\ $\int d\omega D_p(\omega)$ (D is density of states(modes))" ID="ID_1424045360" CREATED="1594280325398" MODIFIED="1594280462282"/>
 </node>
 </node>
 <node TEXT="DOS" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
 <node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1594350785036"/>
 <node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977"/>
-<node TEXT="Debye approximation: the velocity of sound is taken as constant for each polarization type&#xa;(Debye temperature seems to be the highest temperature a crystal can be(similar to Fermi energy))" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594547058902">
+<node TEXT="\latex Planck distribution\\&#xa;$N_{n+1}/N_n=\exp{(-\hbar \omega/k_BT)}$\\&#xa;(giving the relation\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$)" ID="ID_1556790233" CREATED="1594551807239" MODIFIED="1594551949924"/>
+</node>
+<node TEXT="model at low temperature" ID="ID_916422846" CREATED="1594551520645" MODIFIED="1594551533492">
+<node TEXT="Debye model (acoustic modes): the velocity of sound is taken as constant for each polarization type&#xa;(Debye temperature corresponds to a crystal&apos;s highest normal mode of vibration(similar to Fermi surface))" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594551562224">
 <node TEXT="\latex $C_v$ of a solid:\\&#xa;$T\ll \theta(T&lt;0.1\theta)$: $T^3$ law\\&#xa;$T\gg \theta$: $T\rightarrow 3Nk_B$(classical value)" ID="ID_527401996" CREATED="1594482682817" MODIFIED="1594527099198">
 <hook URI="Solid%20State%20Physics_files/png_2088694140115473807.png" SIZE="0.496336" NAME="ExternalObject"/>
 <node TEXT="\latex $T\rightarrow 0$: only long wavelength acoustic modes thermally excited(the linear part near (0,0))\\&#xa;which can be treated as an elastic continuum with macroscopic elastic constants" ID="ID_417683725" CREATED="1594537165688" MODIFIED="1594542248416"/>
+</node>
+</node>
+<node TEXT="Einstein model (optical modes): N oscillators of the same frequency" ID="ID_747622256" CREATED="1594551564357" MODIFIED="1594552536848">
+<node TEXT="\latex $C_v$ of a solid:\\&#xa;$T\ll \theta(T&lt;0.1\theta)$: decreases as\ $\exp(-\hbar\omega/k_BT)$\\&#xa;$T\gg \theta$: $T\rightarrow 3Nk_B$(classical value)" ID="ID_23415228" CREATED="1594557126668" MODIFIED="1594557329977">
+<hook URI="Solid%20State%20Physics_files/png321321.png" SIZE="0.36792558" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
