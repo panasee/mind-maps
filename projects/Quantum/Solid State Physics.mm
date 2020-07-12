@@ -3,7 +3,7 @@
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1593957307509" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.344">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -472,10 +472,10 @@
 <node TEXT="DOS" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
 <node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1594350785036"/>
 <node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977"/>
-<node TEXT="Debye approximation: the velocity of sound is taken as constant for each polarization type" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594394200566">
+<node TEXT="Debye approximation: the velocity of sound is taken as constant for each polarization type&#xa;(Debye temperature seems to be the highest temperature a crystal can be(similar to Fermi energy))" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594547058902">
 <node TEXT="\latex $C_v$ of a solid:\\&#xa;$T\ll \theta(T&lt;0.1\theta)$: $T^3$ law\\&#xa;$T\gg \theta$: $T\rightarrow 3Nk_B$(classical value)" ID="ID_527401996" CREATED="1594482682817" MODIFIED="1594527099198">
 <hook URI="Solid%20State%20Physics_files/png_2088694140115473807.png" SIZE="0.496336" NAME="ExternalObject"/>
-<node TEXT="" ID="ID_417683725" CREATED="1594537165688" MODIFIED="1594537165688"/>
+<node TEXT="\latex $T\rightarrow 0$: only long wavelength acoustic modes thermally excited(the linear part near (0,0))\\&#xa;which can be treated as an elastic continuum with macroscopic elastic constants" ID="ID_417683725" CREATED="1594537165688" MODIFIED="1594542248416"/>
 </node>
 </node>
 </node>
