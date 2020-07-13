@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1593957307509" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.968">
+<hook NAME="MapStyle" zoom="1.789">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" FOLDED="true" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1593957307504" HGAP_QUANTITY="15.749999530613433 pt" VSHIFT_QUANTITY="-176.24999474734082 pt">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
@@ -442,7 +442,7 @@
 </node>
 </node>
 </node>
-<node TEXT="phonon" POSITION="left" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1594009417359">
+<node TEXT="phonon" FOLDED="true" POSITION="left" ID="ID_1307783455" CREATED="1558923590167" MODIFIED="1594009417359">
 <edge COLOR="#ff0000"/>
 <node TEXT="derivation" FOLDED="true" ID="ID_851343863" CREATED="1594094988391" MODIFIED="1594094994785">
 <node TEXT="\latex 简正坐标$Q_{k\sigma}(\in C)$与简正模$(NM)^{-\frac12}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l}$\\&#xa;$\boldsymbol u_l = (NM)^{-\frac12}\sum\limits_{k,\sigma}Q_{k\sigma}\boldsymbol e_{k\sigma}e^{i\boldsymbol{k}\cdot \boldsymbol{R}_l} $" ID="ID_445018664" CREATED="1563175099808" MODIFIED="1564573974720">
@@ -471,10 +471,14 @@
 </node>
 <node TEXT="DOS" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
 <node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1594350785036"/>
-<node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977"/>
+<node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977">
+<node TEXT="\latex $D(\omega)d\omega\equiv dN=(\frac{L}{2\pi})^3\int_{shell}d^3K$\\&#xa;$\Rightarrow D(\omega)=\frac V{(2\pi)^3}\int_{shell} \frac{dS_{\omega}}{v_g}$ \\&#xa;积分区域是$\omega=Const$曲面" ID="ID_714666228" CREATED="1594603714710" MODIFIED="1594603999934">
+<node TEXT="\latex \textbf{Van Hove singularities}: it&apos;s noteworthy that when $v_g=0$,&#xa;\\ we get singularities at these critical points" ID="ID_483405299" CREATED="1594604014290" MODIFIED="1594606028836"/>
+</node>
+</node>
 <node TEXT="\latex Planck distribution\\&#xa;$N_{n+1}/N_n=\exp{(-\hbar \omega/k_BT)}$\\&#xa;(giving the relation\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$)" ID="ID_1556790233" CREATED="1594551807239" MODIFIED="1594551949924"/>
 </node>
-<node TEXT="model at low temperature" ID="ID_916422846" CREATED="1594551520645" MODIFIED="1594551533492">
+<node TEXT="model at low temperature" FOLDED="true" ID="ID_916422846" CREATED="1594551520645" MODIFIED="1594551533492">
 <node TEXT="Debye model (acoustic modes): the velocity of sound is taken as constant for each polarization type&#xa;(Debye temperature corresponds to a crystal&apos;s highest normal mode of vibration(similar to Fermi surface))" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594551562224">
 <node TEXT="\latex $C_v$ of a solid:\\&#xa;$T\ll \theta(T&lt;0.1\theta)$: $T^3$ law\\&#xa;$T\gg \theta$: $T\rightarrow 3Nk_B$(classical value)" ID="ID_527401996" CREATED="1594482682817" MODIFIED="1594527099198">
 <hook URI="Solid%20State%20Physics_files/png_2088694140115473807.png" SIZE="0.496336" NAME="ExternalObject"/>
@@ -494,6 +498,27 @@
 <node TEXT="对于波矢超出1BZ的波来说由于其一个周期在最小单元(晶格)内完成,因此其信息并不比对应的1BZ内的波多." ID="ID_1600696305" CREATED="1593853405880" MODIFIED="1593853492656"/>
 </node>
 <node TEXT="standing waves correspond to the edge of BZs(0 group velocity)&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593910920844"/>
+</node>
+<node TEXT="harmonic &amp; anharmonic" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1594606424240">
+<edge COLOR="#007c00"/>
+<node TEXT="consequence of purely harmonic theory" ID="ID_830338349" CREATED="1594606425418" MODIFIED="1594606438077">
+<node TEXT="lattice waves don&apos;t interact &amp; don&apos;t decay or change form with time" ID="ID_1250829539" CREATED="1594606438542" MODIFIED="1594606477951"/>
+<node TEXT="no thermal expansion" ID="ID_1996677323" CREATED="1594606480302" MODIFIED="1594606485461">
+<node TEXT="comparison" ID="ID_538264442" CREATED="1594613188936" MODIFIED="1594613260801">
+<hook URI="Solid%20State%20Physics_files/png1241233.png" SIZE="0.42194584" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="adiabatic and isothermal elastic constants are equal" ID="ID_1002957419" CREATED="1594606486080" MODIFIED="1594606510553"/>
+<node TEXT="elastic constants are independent of pressure and temperature" ID="ID_1541477444" CREATED="1594606510808" MODIFIED="1594606533667"/>
+<node TEXT="heat capacity becomes constant at high temperatures" ID="ID_370878152" CREATED="1594606537398" MODIFIED="1594606555801"/>
+</node>
+</node>
+<node TEXT="thermal conductivity" POSITION="right" ID="ID_866292908" CREATED="1594612095996" MODIFIED="1594612101127">
+<edge COLOR="#7c007c"/>
+<node TEXT="\latex $j=-k\frac{dT}{dx}$\  it implies that thermal conduction is a \\&#xa;random process instead of ballistic transport.\\&#xa;(for ballistic transport, j should only depend on the difference between 2 ends, not the gradient inside the specimen)" ID="ID_1947716225" CREATED="1594612126711" MODIFIED="1594612285605"/>
+<node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1594614287966">
+<node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$&#xa;\\ $\therefore k=\frac13Cv\mathcal l$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594629866376"/>
+</node>
 </node>
 </node>
 </map>
