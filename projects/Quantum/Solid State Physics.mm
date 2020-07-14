@@ -516,8 +516,16 @@
 <node TEXT="thermal conductivity" POSITION="right" ID="ID_866292908" CREATED="1594612095996" MODIFIED="1594612101127">
 <edge COLOR="#7c007c"/>
 <node TEXT="\latex $j=-k\frac{dT}{dx}$\  it implies that thermal conduction is a \\&#xa;random process instead of ballistic transport.\\&#xa;(for ballistic transport, j should only depend on the difference between 2 ends, not the gradient inside the specimen)" ID="ID_1947716225" CREATED="1594612126711" MODIFIED="1594612285605"/>
-<node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1594614287966">
-<node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$&#xa;\\ $\therefore k=\frac13Cv\mathcal l$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594629866376"/>
+<node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path \\&#xa;($\mathcal l$ is the mean free path only for U processes, \textbf{not including N})" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1594699093468">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="728;0;" ENDINCLINATION="6;-66;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594696319884"/>
+<node TEXT="\latex at high temperature: $\mathcal l \propto \frac1T$\\&#xa;while $C_v\rightarrow Const\Rightarrow k\propto \frac1T$" ID="ID_993754144" CREATED="1594696465920" MODIFIED="1594699757715"/>
+<node TEXT="to obtain equilibrium, the distribution of phonons must be brought locally, so the drifting must be limited" ID="ID_1951731573" CREATED="1594697014829" MODIFIED="1594697075098">
+<node TEXT="in the N(normal) processes, total momentum of the phonon gas conserves, so there is no thermal resistance" ID="ID_1727227216" CREATED="1594697083628" MODIFIED="1594698316615"/>
+<node TEXT="in the U(umklapp) processes, the &quot;lattice momentum&quot; doesn&apos;t conserve, so they are the source of resistance" ID="ID_235408541" CREATED="1594698294696" MODIFIED="1594698987700"/>
+</node>
+<node TEXT="\latex size effect: the $k$ of \textbf{pure crystals} at \textbf{low temperature}\\&#xa; is a  function of dimensions of specimen($k\approx C_vvD\propto T^3$)" ID="ID_31336528" CREATED="1594699168328" MODIFIED="1594699707716"/>
+<node TEXT="isotope scattering (destruction of periodicity): important in some materials" ID="ID_385186976" CREATED="1594699876923" MODIFIED="1594699919659"/>
 </node>
 </node>
 </node>
