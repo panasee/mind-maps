@@ -91,9 +91,9 @@
 <node TEXT="复式晶格可看成由不同等价原子&#xa;形成的简单晶格相互穿套形成" ID="ID_1754024537" CREATED="1561855316219" MODIFIED="1561855393348"/>
 </node>
 </node>
-<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" FOLDED="true" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
+<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
 <node TEXT="\latex 晶体表示\\&#xa;$\vec r_a + l_i \vec a_i \ (i=1,2,3) $&#xa;可表示晶体的所有原子" ID="ID_693941364" CREATED="1561863877060" MODIFIED="1561863925532"/>
-<node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
+<node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" FOLDED="true" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
 <node TEXT="2-d: 5 types" FOLDED="true" ID="ID_1403896316" CREATED="1591492669032" MODIFIED="1591493039423">
 <node TEXT="oblique lattice" ID="ID_735256376" CREATED="1591492872536" MODIFIED="1591492880183"/>
 <node TEXT="square lattice" ID="ID_60971156" CREATED="1591492880740" MODIFIED="1591492887725"/>
@@ -179,7 +179,7 @@
 <node TEXT="\latex 玻恩-卡门循环边界条件: 各个基矢方向上构造环实现平移对称\\&#xa;数学上等价于$N_i \vec a_i\ (i=1,2,3)$平移操作为恒等操作" POSITION="right" ID="ID_1766935485" CREATED="1561814828350" MODIFIED="1564384950829">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="宏观对称性" FOLDED="true" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1562383125854">
+<node TEXT="宏观对称性" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1562383125854">
 <edge COLOR="#00ffff"/>
 <node TEXT="几何外形" ID="ID_243476682" CREATED="1562383126963" MODIFIED="1562383150069"/>
 <node TEXT="晶体参数张量形式" ID="ID_1488082666" CREATED="1562383206717" MODIFIED="1562383262220">
@@ -188,7 +188,7 @@
 <node TEXT="\latex 六角对称晶体中,坐标轴选取在六角轴方向以及正交面内 \\&#xa;$\begin{pmatrix} \epsilon_\parallel &amp;0&amp;0\\0&amp;\epsilon_\perp&amp;0\\0&amp;0&amp;\epsilon_\perp \end{pmatrix},\, \left\{ \begin{matrix} D_\parallel =\epsilon_\parallel E_\parallel\\ D_\perp =\epsilon_\perp E_\perp  \end{matrix} \right.$ \\&#xa;介电性在平行与垂直六角轴方向的差别导致了晶体的双折射现象" ID="ID_469741703" CREATED="1562383976344" MODIFIED="1562384576983"/>
 </node>
 </node>
-<node TEXT="对称性: 考查在一定几何变换(正交变换:保持两点距离不变)下物体的不变性(即晶体对称群)" ID="ID_573270806" CREATED="1562385384105" MODIFIED="1562395608094">
+<node TEXT="对称性: 考查在一定几何变换(正交变换:保持两点距离不变)下物体的不变性(即晶体对称群)" FOLDED="true" ID="ID_573270806" CREATED="1562385384105" MODIFIED="1562395608094">
 <node TEXT="旋转加中心反演即可涵盖所有变换(镜像反射为组合变换)" ID="ID_1472076842" CREATED="1562385923609" MODIFIED="1562385969904"/>
 <node TEXT="对称素" ID="ID_20325093" CREATED="1562387259841" MODIFIED="1562387517921">
 <node TEXT="\latex 布拉伐格子密铺性限制十个对称素\\ &#xa;$1,2,3,4,6,\bar1,\bar2,\bar3,\bar4,\bar6$&#xa;\\(n表示n次旋转轴,上标为中心反演)" ID="ID_1367217298" CREATED="1562387518898" MODIFIED="1562387683973"/>
@@ -231,6 +231,68 @@
 <node TEXT="\latex 复杂空间群/非点空间群: $(R|t)$ 但t不一定为平移操作" ID="ID_1570670417" CREATED="1562395697314" MODIFIED="1562398045597">
 <node TEXT="复式晶格中存在性质相同的原子" ID="ID_2781076" CREATED="1562397935620" MODIFIED="1562397951547"/>
 </node>
+</node>
+</node>
+<node TEXT="notations for group" ID="ID_178164634" CREATED="1594961950424" MODIFIED="1594963868116">
+<node TEXT="Schoenflies notation:&#xa;a letter symbol with a subscript" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1594962034290">
+<node TEXT="\latex $C_{n(h)(v)}$(Cyclic)$\sim$ n-fold rotation axis \\&#xa;$(h)\sim$mirror plane perpendicular to the axis of rotation\\&#xa;$(v)\sim$mirror planes parallel to the axis of rotation" ID="ID_883109701" CREATED="1594962054900" MODIFIED="1594972253290"/>
+<node TEXT="\latex $S_{2n}$(German &quot;Spiegel&quot;(mirror))$\sim$only a 2n-fold rotation-reflection axis" ID="ID_1414899821" CREATED="1594963802223" MODIFIED="1594966786560"/>
+<node TEXT="\latex $D_{n(h)(d)}$(Dihedral)$\sim$an n-fold rotation axis plus n two-fold axes perpendicular to it\\&#xa;$(h)\sim$a mirror plane perpendicular to the n-fold axis\\&#xa;$(d)\sim$mirror planes parallel to the n-fold axis" ID="ID_120738040" CREATED="1594963911673" MODIFIED="1594965797389"/>
+<node TEXT="" ID="ID_1778420623" CREATED="1594966241162" MODIFIED="1594966241163">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $T_{(d)(h)}$(Tetrahedron)$\sim$symmetry of a tetrahedron\\&#xa;$(d)\sim$includes improper rotation\\&#xa;$(h)\sim$T with the addition of an inversion" ID="ID_312149797" CREATED="1594964128543" MODIFIED="1594966167117"/>
+<node TEXT="\latex $O_{(h)}$(Octahedron)$\sim$symmetry of an octahedron/cube \\&#xa;$(h)\sim$O with improper operations" ID="ID_643448198" CREATED="1594965820234" MODIFIED="1594966234472"/>
+<node TEXT="" ID="ID_1274716379" CREATED="1594966241160" MODIFIED="1594966241162">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="improper operations: those that change handedness" ID="ID_832229921" CREATED="1594966241164" MODIFIED="1594966257376"/>
+</node>
+</node>
+<node TEXT="Hermann-Mauguin(H-M) notation:" FOLDED="true" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1594966568065">
+<node TEXT="Lattice types" ID="ID_1213438539" CREATED="1594966600819" MODIFIED="1594966635982">
+<node TEXT="\latex P---Primitive \\&#xa;I(German &quot;Innenzentriert&quot;)---Body centered\\&#xa;F(German &quot;Fl\&quot;achenzentriert&quot;)---Face centered\\&#xa;A/B/C---Base centered on A/B/C faces only\\&#xa;R---Rhombohedral" ID="ID_1617280131" CREATED="1594966606201" MODIFIED="1594966763158"/>
+</node>
+<node ID="ID_1161187499" CREATED="1594966878088" MODIFIED="1594973071879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Point groups
+    </p>
+    <p>
+      (of the crystals, <b>not the lattice</b>)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex rotation axes are denoted by a number n (order)" ID="ID_795970600" CREATED="1594966882892" MODIFIED="1594967194470"/>
+<node TEXT="\latex rotoinversion(rotation+inversion), denoted by \bar n \\&#xa;(rotation order \&amp; $\bar n=n+\bar 1$)" ID="ID_1600622405" CREATED="1594967122708" MODIFIED="1594967248728">
+<node TEXT="\latex one rotation must be followed by one inversion\\&#xa;$\bar n \neq \frac nm$" ID="ID_211654534" CREATED="1594967693070" MODIFIED="1594972073011"/>
+</node>
+<node TEXT="\latex mirror planes are denoted by m" ID="ID_1735103177" CREATED="1594967462035" MODIFIED="1594967481830">
+<node TEXT="\latex if rotation axis n is perpendicular to mirror plane m, \\then they are denoted as $\frac nm$" ID="ID_596676050" CREATED="1594967486058" MODIFIED="1594967542451"/>
+</node>
+<node TEXT="position arrangement" ID="ID_897613541" CREATED="1594972470702" MODIFIED="1594972483187">
+<node TEXT="\latex groups without higher-order($&gt;2$) axes:\\&#xa;denote symmetry elements in the x,y,z direction respectively" ID="ID_334850249" CREATED="1594972486641" MODIFIED="1594975153058"/>
+<node TEXT="\latex groups with one higher-order axis:\\&#xa;primary direction (z direction) assigned to the higher-order axis \\&#xa;$\rightarrow$ secondary directions, perpendicular to the z-axis \\&#xa;$\rightarrow$ tertiary directions, passing between secondary directions" ID="ID_1337343038" CREATED="1594972559111" MODIFIED="1594975199602"/>
+<node TEXT="\latex with several higher-order axes(all contain diagonal 3-fold axes):\\&#xa;symmetrically equivalent directions x,y,z(due to presence of diagonal 3-fold axes)\\&#xa;$\rightarrow$ diagonal 3/\bar 3 axes\\&#xa;$\rightarrow$ diagonal directions any two of (x,y,z)(can be $2,m,\frac2m$)" ID="ID_592118795" CREATED="1594975030550" MODIFIED="1594975378461"/>
+</node>
+</node>
+<node TEXT="Group(with translation)" ID="ID_1848156392" CREATED="1595029398957" MODIFIED="1595029434959">
+<node TEXT="\latex Screw axes: noted by $n_l$\\&#xa;n-fold rotation followed by $\frac ln$ lattice constant translation" ID="ID_1460321468" CREATED="1595029445971" MODIFIED="1595031515775"/>
+<node TEXT="\latex Glide planes" ID="ID_52179857" CREATED="1595029452150" MODIFIED="1595031578197">
+<node TEXT="\latex a,b,c$\rightarrow$depending on which axis the glide is along\\&#xa;glide translation along half the lattice vector of this face" ID="ID_1625627785" CREATED="1595031622102" MODIFIED="1595031750570"/>
+<node TEXT="\latex n $\rightarrow$ glide translation along with half a face diagonal" ID="ID_247847565" CREATED="1595031751662" MODIFIED="1595031781312"/>
+<node TEXT="\latex d$\rightarrow$glide planes with translation along a quarter of a face diagonal" ID="ID_1864609487" CREATED="1595031782289" MODIFIED="1595031820388"/>
+<node TEXT="\latex e$\rightarrow$two glides with the same glide plane and translation along two different half-lattice vectors" ID="ID_618415394" CREATED="1595031821096" MODIFIED="1595031869196"/>
+</node>
+</node>
+<node TEXT="Plane groups:&#xa;start with lowercase p(primitive)/c(centered)&#xa;--&gt; rotational symmetry&#xa;--&gt; m(mirror planes/axes) &amp; g(glide reflections)" ID="ID_539248337" CREATED="1594975429470" MODIFIED="1594975602709"/>
 </node>
 </node>
 </node>
