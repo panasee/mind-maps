@@ -91,9 +91,9 @@
 <node TEXT="复式晶格可看成由不同等价原子&#xa;形成的简单晶格相互穿套形成" ID="ID_1754024537" CREATED="1561855316219" MODIFIED="1561855393348"/>
 </node>
 </node>
-<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
+<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" FOLDED="true" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
 <node TEXT="\latex 晶体表示\\&#xa;$\vec r_a + l_i \vec a_i \ (i=1,2,3) $&#xa;可表示晶体的所有原子" ID="ID_693941364" CREATED="1561863877060" MODIFIED="1561863925532"/>
-<node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" FOLDED="true" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
+<node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
 <node TEXT="2-d: 5 types" FOLDED="true" ID="ID_1403896316" CREATED="1591492669032" MODIFIED="1591493039423">
 <node TEXT="oblique lattice" ID="ID_735256376" CREATED="1591492872536" MODIFIED="1591492880183"/>
 <node TEXT="square lattice" ID="ID_60971156" CREATED="1591492880740" MODIFIED="1591492887725"/>
@@ -102,10 +102,6 @@
 <node TEXT="centered rectangular lattice" ID="ID_348810765" CREATED="1591492900814" MODIFIED="1591492909305"/>
 </node>
 <node TEXT="3-d: 14 types in 7 systems&#xa;(根据cell(not primitive)来分类)" ID="ID_1429511000" CREATED="1591492867304" MODIFIED="1591493482612">
-<node TEXT="triclinic system 1 type" ID="ID_1449607159" CREATED="1591492926701" MODIFIED="1591493181751"/>
-<node TEXT="monoclinic system 2 types" ID="ID_1558812715" CREATED="1591492933147" MODIFIED="1591493197491"/>
-<node TEXT="orthorhombic system 4 types" ID="ID_1205732394" CREATED="1591492940704" MODIFIED="1591493218741"/>
-<node TEXT="tetragonal system 2 types" ID="ID_1327442943" CREATED="1591493219225" MODIFIED="1591493236532"/>
 <node TEXT="cubic system 3 types" ID="ID_76999142" CREATED="1591493237096" MODIFIED="1591493244550">
 <node TEXT="sc(simple cubic)" ID="ID_893146541" CREATED="1591493291191" MODIFIED="1591493298711"/>
 <node TEXT="bcc(body centered cubic)" ID="ID_1813923059" CREATED="1591493299528" MODIFIED="1591493310262"/>
@@ -113,8 +109,7 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="122;25;" ENDINCLINATION="111;-23;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="trigonal system 1 type" ID="ID_336659783" CREATED="1591493245487" MODIFIED="1591493277874"/>
-<node TEXT="hexagonal system 1 type" ID="ID_1709971355" CREATED="1591493260247" MODIFIED="1591493276085"/>
+<node TEXT="\latex &#xa;\begin{tabular}{llll}&#xa;\hline\\&#xa;Crystal\ System&amp;#&amp;Cell\ Parameters&amp;Symmetry\\&#xa;\hline\\&#xa;Triclinic&amp;1&amp;$a\neq b\neq c;\alpha\neq \beta\neq \gamma$&amp;\bar1\\&#xa;Monoclinic&amp;2&amp;$a\neq b\neq c;\alpha=\gamma=90^\circ\neq\beta$&amp;$\frac2m$\\&#xa;Orthorhombic&amp;4&amp;$a\neq b\neq c;\alpha=\beta=\gamma=90^\circ$&amp;mmm\\&#xa;Tetragonal&amp;2&amp;$a= b\neq c;\alpha=\beta=\gamma=90^\circ$&amp;$\frac4m,\frac4mmm$\\&#xa;Trigonal&amp;1 &amp;a=b=c;\alpha=\beta=\gamma&lt;120^\circ,\neq90^\circ &amp;\ \\&#xa;Hexagonal &amp;1&amp;$a= b\neq c;\alpha=\beta=90^\circ,\gamma=120^\circ$&amp;$\frac6m,\frac6mmm$\\&#xa;Cubic&amp;3&amp;$a= b= c;\alpha=\beta=\gamma=90^\circ$&amp;$\frac2m\bar3,m\bar3m$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1951376339" CREATED="1595076970543" MODIFIED="1595084411623"/>
 </node>
 </node>
 <node TEXT="布拉伐格子格点可看成分列在一系列平行的直线系列上,这些直线系列---晶列, 每一个晶列定义了一个方向---晶向&#xa;晶向的index直接采用基矢坐标表示为[xyz]" FOLDED="true" ID="ID_1466964470" CREATED="1561963440217" MODIFIED="1591497410341">
@@ -234,7 +229,7 @@
 </node>
 </node>
 <node TEXT="notations for group" ID="ID_178164634" CREATED="1594961950424" MODIFIED="1594963868116">
-<node TEXT="Schoenflies notation:&#xa;a letter symbol with a subscript" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1594962034290">
+<node TEXT="Schoenflies notation:&#xa;a letter symbol with a subscript" FOLDED="true" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1594962034290">
 <node TEXT="\latex $C_{n(h)(v)}$(Cyclic)$\sim$ n-fold rotation axis \\&#xa;$(h)\sim$mirror plane perpendicular to the axis of rotation\\&#xa;$(v)\sim$mirror planes parallel to the axis of rotation" ID="ID_883109701" CREATED="1594962054900" MODIFIED="1594972253290"/>
 <node TEXT="\latex $S_{2n}$(German &quot;Spiegel&quot;(mirror))$\sim$only a 2n-fold rotation-reflection axis" ID="ID_1414899821" CREATED="1594963802223" MODIFIED="1594966786560"/>
 <node TEXT="\latex $D_{n(h)(d)}$(Dihedral)$\sim$an n-fold rotation axis plus n two-fold axes perpendicular to it\\&#xa;$(h)\sim$a mirror plane perpendicular to the n-fold axis\\&#xa;$(d)\sim$mirror planes parallel to the n-fold axis" ID="ID_120738040" CREATED="1594963911673" MODIFIED="1594965797389"/>
@@ -249,9 +244,10 @@
 <node TEXT="improper operations: those that change handedness" ID="ID_832229921" CREATED="1594966241164" MODIFIED="1594966257376"/>
 </node>
 </node>
-<node TEXT="Hermann-Mauguin(H-M) notation:" FOLDED="true" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1594966568065">
-<node TEXT="Lattice types" ID="ID_1213438539" CREATED="1594966600819" MODIFIED="1594966635982">
+<node TEXT="Hermann-Mauguin(H-M) notation:" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1594966568065">
+<node TEXT="Lattice types&#xa;(not correspond to 7 Bravais lattices)" ID="ID_1213438539" CREATED="1594966600819" MODIFIED="1595075769992">
 <node TEXT="\latex P---Primitive \\&#xa;I(German &quot;Innenzentriert&quot;)---Body centered\\&#xa;F(German &quot;Fl\&quot;achenzentriert&quot;)---Face centered\\&#xa;A/B/C---Base centered on A/B/C faces only\\&#xa;R---Rhombohedral" ID="ID_1617280131" CREATED="1594966606201" MODIFIED="1594966763158"/>
+<node TEXT="\latex Bravais Lattice $\sim$ Lattice Type\\&#xa;Triclinic $\sim$ P1, P\bar1\\&#xa;Monoclinic $\sim$ P2, Pm, P$\frac2m$\\&#xa;Orthorhombic $\sim$ P222,Pmm2/Pm2m/P2mm,Pmmm\\&#xa;Tetragonal $\sim$ P4,P\bar4,P$\frac4m$,P422,P4mm,P\bar42m/P\bar4m2,P$\frac4m$mm\\&#xa;Trigonal\&amp;Rhomobohedral $\sim$ P3,P\bar3,P321,P312,P3m1,P31m,P\bar3m1,P\bar31m\\&#xa;Hexagonal $\sim$ P6,P\bar6,P$\frac6m$,P622,P6mm,P\bar62m/P\bar6m2,P$\frac6m$mm\\&#xa;Cubic $\sim$ P23,Pm\bar3,P432,P\bar43m,Pm3m" ID="ID_1831104811" CREATED="1595075775108" MODIFIED="1595076219764"/>
 </node>
 <node ID="ID_1161187499" CREATED="1594966878088" MODIFIED="1594973071879"><richcontent TYPE="NODE">
 
@@ -268,7 +264,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex rotation axes are denoted by a number n (order)" ID="ID_795970600" CREATED="1594966882892" MODIFIED="1594967194470"/>
 <node TEXT="\latex rotoinversion(rotation+inversion), denoted by \bar n \\&#xa;(rotation order \&amp; $\bar n=n+\bar 1$)" ID="ID_1600622405" CREATED="1594967122708" MODIFIED="1594967248728">
