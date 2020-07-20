@@ -3,7 +3,7 @@
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1593957307509" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.789">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -74,7 +74,7 @@
 <node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
 </node>
 </node>
-<node TEXT="晶体结构" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
+<node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
 <node TEXT="具有所属点阵点群的全部对称性" ID="ID_138178734" CREATED="1561811582217" MODIFIED="1561811599122"/>
@@ -177,10 +177,10 @@
 <node TEXT="\latex 玻恩-卡门循环边界条件: 各个基矢方向上构造环实现平移对称\\&#xa;数学上等价于$N_i \vec a_i\ (i=1,2,3)$平移操作为恒等操作" POSITION="right" ID="ID_1766935485" CREATED="1561814828350" MODIFIED="1564384950829">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="宏观对称性" FOLDED="true" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1562383125854">
+<node TEXT="宏观对称性" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1562383125854">
 <edge COLOR="#00ffff"/>
 <node TEXT="几何外形" ID="ID_243476682" CREATED="1562383126963" MODIFIED="1562383150069"/>
-<node TEXT="晶体参数张量形式" ID="ID_1488082666" CREATED="1562383206717" MODIFIED="1562383262220">
+<node TEXT="晶体参数张量形式" FOLDED="true" ID="ID_1488082666" CREATED="1562383206717" MODIFIED="1562383262220">
 <node TEXT="\latex 介电常数$\epsilon_{\alpha \beta}(\alpha,\beta=x,y,z)$为例 &#xa;\\ $D_\alpha=\sum_\beta \epsilon_{\alpha\beta} E_\beta$" ID="ID_746438011" CREATED="1562383263484" MODIFIED="1562383403676">
 <node TEXT="\latex 立方对称晶体中,为对角张量\\&#xa;$\epsilon_{\alpha\beta}=\epsilon_0\delta_{\alpha\beta} $ &#xa;$\,\;\,D=\epsilon_0 E$ 表现为一个标量" ID="ID_567470672" CREATED="1562383446111" MODIFIED="1562383974409"/>
 <node TEXT="\latex 六角对称晶体中,坐标轴选取在六角轴方向以及正交面内 \\&#xa;$\begin{pmatrix} \epsilon_\parallel &amp;0&amp;0\\0&amp;\epsilon_\perp&amp;0\\0&amp;0&amp;\epsilon_\perp \end{pmatrix},\, \left\{ \begin{matrix} D_\parallel =\epsilon_\parallel E_\parallel\\ D_\perp =\epsilon_\perp E_\perp  \end{matrix} \right.$ \\&#xa;介电性在平行与垂直六角轴方向的差别导致了晶体的双折射现象" ID="ID_469741703" CREATED="1562383976344" MODIFIED="1562384576983"/>
@@ -188,15 +188,21 @@
 </node>
 <node TEXT="对称性: 考查在一定几何变换(正交变换:保持两点距离不变)下物体的不变性(即晶体对称群)" FOLDED="true" ID="ID_573270806" CREATED="1562385384105" MODIFIED="1562395608094">
 <node TEXT="旋转加中心反演即可涵盖所有变换(镜像反射为组合变换)" ID="ID_1472076842" CREATED="1562385923609" MODIFIED="1562385969904"/>
-<node TEXT="对称素" ID="ID_20325093" CREATED="1562387259841" MODIFIED="1562387517921">
-<node TEXT="\latex 布拉伐格子密铺性限制十个对称素\\ &#xa;$1,2,3,4,6,\bar1,\bar2,\bar3,\bar4,\bar6$&#xa;\\(n表示n次旋转轴,上标为中心反演)" ID="ID_1367217298" CREATED="1562387518898" MODIFIED="1562387683973"/>
+<node TEXT="对称素(Schoenflies notation)" FOLDED="true" ID="ID_20325093" CREATED="1562387259841" MODIFIED="1595229300056">
+<node TEXT="\latex 布拉伐格子密铺性限制十个对称素\\ &#xa;$C_n,iC_n(n=1,2,3,4,6)$&#xa;\\($C_n$表示n阶旋转,i为中心反演)" ID="ID_1367217298" CREATED="1562387518898" MODIFIED="1595229462456">
+<node TEXT="\latex $\sigma=iC_2$:\:reflection in a plane(mirror)" ID="ID_125639456" CREATED="1595229486055" MODIFIED="1595229662099">
+<node TEXT="\latex $\sigma_h$:\; &quot;horizontal&quot; plane(perpendicular to the \\&#xa;axis of highest rotational symmetry)" ID="ID_1821939313" CREATED="1595229561210" MODIFIED="1595229649705"/>
+<node TEXT="\latex $\sigma_v$:\; &quot;vertical&quot; plane contains the \\&#xa;axis of highest rotational symmetry)" ID="ID_1960775167" CREATED="1595229655694" MODIFIED="1595229684807"/>
+<node TEXT="\latex $\sigma_d$:\; &quot;dihedral/diagonal&quot; plane(a vertical&#xa;plane(&quot;vertical&quot; means containing the axis of highest rotational symmetry) bisecting the angle between the 2 twofold axes perpendicular to the principal symmetry axis)" ID="ID_1529386565" CREATED="1595229708716" MODIFIED="1595230736612"/>
+</node>
+</node>
 <node TEXT="对称素组合时受到严格限制,&#xa;由10种对称素只组成32个不同点群" ID="ID_660419848" CREATED="1562387804003" MODIFIED="1562395424978">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_76974380" STARTINCLINATION="-64;8;" ENDINCLINATION="112;-56;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex 最多只包含一个高阶$(n\ge 3)$对称轴" ID="ID_302951149" CREATED="1562389191950" MODIFIED="1562389233479">
 <node TEXT="" ID="ID_443770978" CREATED="1562388291314" MODIFIED="1562388291318">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="\latex 不动操作群$C_1$,回转群$C_n(n=2,3,4,6)$,只有一个n次对称轴" ID="ID_40757971" CREATED="1562387894108" MODIFIED="1562388181648"/>
+<node TEXT="\latex 不动操作群$C_1$,回转群$C_n(n=2,3,4,6)$,只有一个n次对称轴" ID="ID_40757971" CREATED="1562387894108" MODIFIED="1595229231220"/>
 <node TEXT="\latex 双面群$D_n$, 一个n次对称轴和n个与之垂直的二次轴" ID="ID_1169389863" CREATED="1562387894108" MODIFIED="1562388223870"/>
 <node TEXT="" ID="ID_1535989657" CREATED="1562388291312" MODIFIED="1562388291313">
 <hook NAME="SummaryNode"/>
@@ -231,10 +237,10 @@
 </node>
 </node>
 </node>
-<node TEXT="notations for group" ID="ID_178164634" CREATED="1594961950424" MODIFIED="1594963868116">
-<node TEXT="Schoenflies notation:&#xa;a letter symbol with a subscript" FOLDED="true" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1594962034290">
+<node TEXT="point group notations" ID="ID_178164634" CREATED="1594961950424" MODIFIED="1595227865777">
+<node TEXT="Schoenflies symmetry notation:&#xa;a letter symbol with a subscript" FOLDED="true" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1595228240005">
 <node TEXT="\latex $C_{n(h)(v)}$(Cyclic)$\sim$ n-fold rotation axis \\&#xa;$(h)\sim$mirror plane perpendicular to the axis of rotation\\&#xa;$(v)\sim$mirror planes parallel to the axis of rotation" ID="ID_883109701" CREATED="1594962054900" MODIFIED="1594972253290"/>
-<node TEXT="\latex $S_{2n}$(German &quot;Spiegel&quot;(mirror))$\sim$only a 2n-fold rotation-reflection axis" ID="ID_1414899821" CREATED="1594963802223" MODIFIED="1594966786560"/>
+<node TEXT="\latex $S_{2n}$(German &quot;Spiegel&quot;(mirror))$\sim$only a 2n/n-fold rotation-reflection axis" ID="ID_1414899821" CREATED="1594963802223" MODIFIED="1595228475737"/>
 <node TEXT="\latex $D_{n(h)(d)}$(Dihedral)$\sim$an n-fold rotation axis plus n two-fold axes perpendicular to it\\&#xa;$(h)\sim$a mirror plane perpendicular to the n-fold axis\\&#xa;$(d)\sim$mirror planes parallel to the n-fold axis" ID="ID_120738040" CREATED="1594963911673" MODIFIED="1594965797389"/>
 <node TEXT="" ID="ID_1778420623" CREATED="1594966241162" MODIFIED="1594966241163">
 <hook NAME="FirstGroupNode"/>
@@ -246,8 +252,12 @@
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="improper operations: those that change handedness" ID="ID_832229921" CREATED="1594966241164" MODIFIED="1594966257376"/>
 </node>
+<node TEXT="Groups" ID="ID_1754615410" CREATED="1595228942040" MODIFIED="1595228944604"/>
+<node TEXT="Operations" ID="ID_1740401472" CREATED="1595228946180" MODIFIED="1595228949908">
+<node TEXT="\latex $E\sim$ identity" ID="ID_292559768" CREATED="1595227921255" MODIFIED="1595227948249"/>
 </node>
-<node TEXT="Hermann-Mauguin(H-M) notation:" FOLDED="true" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1594966568065">
+</node>
+<node TEXT="Hermann-Mauguin(H-M) symmetry notation&#xa;(international notation):" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1595228279660">
 <node TEXT="Lattice types&#xa;(not correspond to 7 Bravais lattices)" ID="ID_1213438539" CREATED="1594966600819" MODIFIED="1595075769992">
 <node TEXT="\latex P---Primitive \\&#xa;I(German &quot;Innenzentriert&quot;)---Body centered\\&#xa;F(German &quot;Fl\&quot;achenzentriert&quot;)---Face centered\\&#xa;A/B/C---Base centered on A/B/C faces only\\&#xa;R---Rhombohedral" ID="ID_1617280131" CREATED="1594966606201" MODIFIED="1594966763158"/>
 <node TEXT="\latex Bravais Lattice $\sim$ Lattice Type\\&#xa;Triclinic $\sim$ P1, P\bar1\\&#xa;Monoclinic $\sim$ P2, Pm, P$\frac2m$\\&#xa;Orthorhombic $\sim$ P222,Pmm2/Pm2m/P2mm,Pmmm\\&#xa;Tetragonal $\sim$ P4,P\bar4,P$\frac4m$,P422,P4mm,P\bar42m/P\bar4m2,P$\frac4m$mm\\&#xa;Trigonal\&amp;Rhomobohedral $\sim$ P3,P\bar3,P321,P312,P3m1,P31m,P\bar3m1,P\bar31m\\&#xa;Hexagonal $\sim$ P6,P\bar6,P$\frac6m$,P622,P6mm,P\bar62m/P\bar6m2,P$\frac6m$mm\\&#xa;Cubic $\sim$ P23,Pm\bar3,P432,P\bar43m,Pm3m" ID="ID_1831104811" CREATED="1595075775108" MODIFIED="1595076219764"/>
@@ -268,10 +278,8 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="\latex rotation axes are denoted by a number n (order)" ID="ID_795970600" CREATED="1594966882892" MODIFIED="1594967194470"/>
-<node TEXT="\latex rotoinversion(rotation+inversion), denoted by \bar n \\&#xa;(rotation order \&amp; $\bar n=n+\bar 1$)" ID="ID_1600622405" CREATED="1594967122708" MODIFIED="1594967248728">
-<node TEXT="\latex one rotation must be followed by one inversion\\&#xa;$\bar n \neq \frac nm$" ID="ID_211654534" CREATED="1594967693070" MODIFIED="1594972073011"/>
-</node>
+<node TEXT="\latex&#xa;\begin{tabular}{llcc}&#xa;\hline\\&#xa;Schoenflies&amp;Hermann-Mauguin\\&#xa;\hline\\&#xa;proper rotations&amp;rotation&amp;$C_n$&amp;$n$\\&#xa;~&amp;~&amp;$C_n^{-1}$&amp;$n_{n-1}$\\&#xa;improper rotations&amp;rotoinversion&amp;$iC_n$&amp;$\bar n$\\&#xa;~&amp;mirror\ plane&amp;$\sigma$&amp;$m$\\&#xa;~&amp;horizontal\ reflection\ plane&amp;$\sigma_h$&amp;$n/m$\\&#xa;~&amp;vertical\ reflection\ plane&amp;$\sigma_v$&amp;$nm$\\&#xa;~&amp;2\ non-equivalent $\sigma_v$&amp;$\sigma_{v^\prime}$&amp;$nmm$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_795970600" CREATED="1594966882892" MODIFIED="1595237215869"/>
+<node TEXT="\latex rotoinversion(rotation-inversion), denoted by \bar n" ID="ID_1600622405" CREATED="1594967122708" MODIFIED="1595231008702"/>
 <node TEXT="\latex mirror planes are denoted by m" ID="ID_1735103177" CREATED="1594967462035" MODIFIED="1594967481830">
 <node TEXT="\latex if rotation axis n is perpendicular to mirror plane m, \\then they are denoted as $\frac nm$" ID="ID_596676050" CREATED="1594967486058" MODIFIED="1594967542451"/>
 </node>
