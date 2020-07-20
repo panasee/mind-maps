@@ -74,24 +74,24 @@
 <node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
 </node>
 </node>
-<node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
+<node TEXT="晶体结构" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
 <node TEXT="具有所属点阵点群的全部对称性" ID="ID_138178734" CREATED="1561811582217" MODIFIED="1561811599122"/>
 </node>
-<node TEXT="\latex 倒点阵(Reciprocal Lattice):&#xa;$\vec{a}_i\cdot \vec{b}_i = 2\pi \delta_{ij}, \ (i,j=1,2,3)$\\&#xa;$\Rightarrow \vec b_1=2\pi \frac{\vec a_2\times \vec a_3}{\vec a_1\cdot (\vec a_2\times \vec a_3)}$ 得到倒格子基矢" ID="ID_238264124" CREATED="1561811716371" MODIFIED="1592479624221">
+<node TEXT="\latex 倒点阵(Reciprocal Lattice):&#xa;$\vec{a}_i\cdot \vec{b}_i = 2\pi \delta_{ij}, \ (i,j=1,2,3)$\\&#xa;$\Rightarrow \vec b_1=2\pi \frac{\vec a_2\times \vec a_3}{\vec a_1\cdot (\vec a_2\times \vec a_3)}$ 得到倒格子基矢" FOLDED="true" ID="ID_238264124" CREATED="1561811716371" MODIFIED="1592479624221">
 <node TEXT="通常取倒点阵中相应的W-S元胞作为倒点阵的元胞边界面&#xa;上任意一点可由其上另一点作一个倒格矢的平移得到" ID="ID_1500763306" CREATED="1561812708702" MODIFIED="1561813255648">
 <node TEXT="将其中心定为倒易空间原点,得到的区域&#xa;即为第一布里渊区(BZ)/简约区" ID="ID_1234203452" CREATED="1561813263234" MODIFIED="1561813363322"/>
 </node>
 </node>
 <node TEXT="晶格周期性" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
-<node TEXT="\latex primitive cell/basis: 晶格最小的周期性单元(contain only one lattice point/basis)\\&#xa;lattice: the set of mathematical points to which basis is attached&#xa;\\基矢: \textbf{原胞的边矢量}" ID="ID_1286885399" CREATED="1561848744495" MODIFIED="1591507696469">
+<node TEXT="\latex primitive cell/basis: 晶格最小的周期性单元(contain only one lattice point/basis)\\&#xa;lattice: the set of mathematical points to which basis is attached&#xa;\\基矢: \textbf{原胞的边矢量}" FOLDED="true" ID="ID_1286885399" CREATED="1561848744495" MODIFIED="1591507696469">
 <node TEXT="简单晶格: 每个原胞只有一个原子&#xa;即所有原子都是完全等价的" ID="ID_1681010389" CREATED="1561851881369" MODIFIED="1561851970662"/>
 <node TEXT="复式晶格: 每个原胞包含多于一个原子&#xa;原子的几何位置或者化学性质等不等价" ID="ID_956461377" CREATED="1561851905106" MODIFIED="1561851992489">
 <node TEXT="复式晶格可看成由不同等价原子&#xa;形成的简单晶格相互穿套形成" ID="ID_1754024537" CREATED="1561855316219" MODIFIED="1561855393348"/>
 </node>
 </node>
-<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" FOLDED="true" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
+<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
 <node TEXT="\latex 晶体表示\\&#xa;$\vec r_a + l_i \vec a_i \ (i=1,2,3) $&#xa;可表示晶体的所有原子" ID="ID_693941364" CREATED="1561863877060" MODIFIED="1561863925532"/>
 <node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
 <node TEXT="2-d: 5 types" FOLDED="true" ID="ID_1403896316" CREATED="1591492669032" MODIFIED="1591493039423">
@@ -109,7 +109,10 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="122;25;" ENDINCLINATION="111;-23;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
-<node TEXT="\latex &#xa;\begin{tabular}{llll}&#xa;\hline\\&#xa;Crystal\ System&amp;#&amp;Cell\ Parameters&amp;Symmetry\\&#xa;\hline\\&#xa;Triclinic&amp;1&amp;$a\neq b\neq c;\alpha\neq \beta\neq \gamma$&amp;\bar1\\&#xa;Monoclinic&amp;2&amp;$a\neq b\neq c;\alpha=\gamma=90^\circ\neq\beta$&amp;$\frac2m$\\&#xa;Orthorhombic&amp;4&amp;$a\neq b\neq c;\alpha=\beta=\gamma=90^\circ$&amp;mmm\\&#xa;Tetragonal&amp;2&amp;$a= b\neq c;\alpha=\beta=\gamma=90^\circ$&amp;$\frac4m,\frac4mmm$\\&#xa;Trigonal&amp;1 &amp;a=b=c;\alpha=\beta=\gamma&lt;120^\circ,\neq90^\circ &amp;\ \\&#xa;Hexagonal &amp;1&amp;$a= b\neq c;\alpha=\beta=90^\circ,\gamma=120^\circ$&amp;$\frac6m,\frac6mmm$\\&#xa;Cubic&amp;3&amp;$a= b= c;\alpha=\beta=\gamma=90^\circ$&amp;$\frac2m\bar3,m\bar3m$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1951376339" CREATED="1595076970543" MODIFIED="1595084411623"/>
+<node TEXT="\latex &#xa;\begin{tabular}{lll}&#xa;\hline\\&#xa;Crystal\ System&amp;#&amp;Cell\ Parameters\\&#xa;\hline\\&#xa;Triclinic&amp;1&amp;$a\neq b\neq c;\alpha\neq \beta\neq \gamma$\\&#xa;Monoclinic&amp;2&amp;$a\neq b\neq c;\alpha=\gamma=90^\circ\neq\beta(or\ \gamma)$(2 subtypes)\\&#xa;Orthorhombic&amp;4&amp;$a\neq b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Tetragonal&amp;2&amp;$a= b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Trigonal&amp;1 &amp;a=b=c;\alpha=\beta=\gamma&lt;120^\circ,\neq90^\circ \\&#xa;Hexagonal &amp;1&amp;$a= b\neq c;\alpha=\beta=90^\circ,\gamma=120^\circ$\\&#xa;Cubic&amp;3&amp;$a= b= c;\alpha=\beta=\gamma=90^\circ$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1951376339" CREATED="1595076970543" MODIFIED="1595212357718"/>
+<node TEXT="characteristic directions under H-M notation" ID="ID_1210751992" CREATED="1595211986068" MODIFIED="1595212148150">
+<node TEXT="\latex&#xa;\begin{tabular}{lll}&#xa;\hline\\&#xa;Crystal\ System&amp;Charac.\ Direc.(Cartesian)&amp;Lattice\ type\\&#xa;\hline\\&#xa;Triclinic&amp;[100]&amp;P\\&#xa;Monoclinic&amp;[001]($\gamma\neq 90^\circ$)/[010]($\beta\cdots$)&amp;P,B($\gamma$)/P,C($\beta$)\\&#xa;Orthorhombic&amp;[100][010][001]&amp;P,C,I,F\\&#xa;Tetragonal&amp;[001][100][110]&amp;P,I\\&#xa;Trigonal&amp;[111][110] &amp; R\\&#xa;Hexagonal &amp;[001][100][210]&amp;P\\&#xa;Cubic&amp;[001][111][110]&amp;P,I,F\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1139946114" CREATED="1595212023192" MODIFIED="1595213325157"/>
+</node>
 </node>
 </node>
 <node TEXT="布拉伐格子格点可看成分列在一系列平行的直线系列上,这些直线系列---晶列, 每一个晶列定义了一个方向---晶向&#xa;晶向的index直接采用基矢坐标表示为[xyz]" FOLDED="true" ID="ID_1466964470" CREATED="1561963440217" MODIFIED="1591497410341">
@@ -120,7 +123,7 @@
 </node>
 </node>
 </node>
-<node TEXT="晶体学单胞(晶胞): (原胞只能反映周期性,不一定能反映出对称性)&#xa;为了反映对称性,选取较大的周期单元---晶胞" ID="ID_1372501257" CREATED="1561957703625" MODIFIED="1561957924646">
+<node TEXT="晶体学单胞(晶胞): (原胞只能反映周期性,不一定能反映出对称性)&#xa;为了反映对称性,选取较大的周期单元---晶胞" FOLDED="true" ID="ID_1372501257" CREATED="1561957703625" MODIFIED="1561957924646">
 <node TEXT="晶胞与原胞可能相同也可能不同" ID="ID_1070173090" CREATED="1561958003382" MODIFIED="1561958015268"/>
 <node TEXT="晶胞的三个棱矢量称为晶胞基矢" ID="ID_798926395" CREATED="1561958019366" MODIFIED="1561958211453"/>
 </node>
@@ -166,7 +169,7 @@
 </node>
 </node>
 </node>
-<node TEXT="radii approximation" ID="ID_854591466" CREATED="1593590504672" MODIFIED="1593590521440">
+<node TEXT="radii approximation" FOLDED="true" ID="ID_854591466" CREATED="1593590504672" MODIFIED="1593590521440">
 <node TEXT="严格意义上并不存在所谓的原子半径/边界,&#xa;但引入相关概念可以用来估计未知结构的参数" ID="ID_1668940768" CREATED="1593590524244" MODIFIED="1593590693977"/>
 <node TEXT="standard radii表格可以针对不同结构就进行估算" ID="ID_1433274427" CREATED="1593590700147" MODIFIED="1593590835030"/>
 </node>
@@ -174,7 +177,7 @@
 <node TEXT="\latex 玻恩-卡门循环边界条件: 各个基矢方向上构造环实现平移对称\\&#xa;数学上等价于$N_i \vec a_i\ (i=1,2,3)$平移操作为恒等操作" POSITION="right" ID="ID_1766935485" CREATED="1561814828350" MODIFIED="1564384950829">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="宏观对称性" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1562383125854">
+<node TEXT="宏观对称性" FOLDED="true" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1562383125854">
 <edge COLOR="#00ffff"/>
 <node TEXT="几何外形" ID="ID_243476682" CREATED="1562383126963" MODIFIED="1562383150069"/>
 <node TEXT="晶体参数张量形式" ID="ID_1488082666" CREATED="1562383206717" MODIFIED="1562383262220">
@@ -244,7 +247,7 @@
 <node TEXT="improper operations: those that change handedness" ID="ID_832229921" CREATED="1594966241164" MODIFIED="1594966257376"/>
 </node>
 </node>
-<node TEXT="Hermann-Mauguin(H-M) notation:" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1594966568065">
+<node TEXT="Hermann-Mauguin(H-M) notation:" FOLDED="true" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1594966568065">
 <node TEXT="Lattice types&#xa;(not correspond to 7 Bravais lattices)" ID="ID_1213438539" CREATED="1594966600819" MODIFIED="1595075769992">
 <node TEXT="\latex P---Primitive \\&#xa;I(German &quot;Innenzentriert&quot;)---Body centered\\&#xa;F(German &quot;Fl\&quot;achenzentriert&quot;)---Face centered\\&#xa;A/B/C---Base centered on A/B/C faces only\\&#xa;R---Rhombohedral" ID="ID_1617280131" CREATED="1594966606201" MODIFIED="1594966763158"/>
 <node TEXT="\latex Bravais Lattice $\sim$ Lattice Type\\&#xa;Triclinic $\sim$ P1, P\bar1\\&#xa;Monoclinic $\sim$ P2, Pm, P$\frac2m$\\&#xa;Orthorhombic $\sim$ P222,Pmm2/Pm2m/P2mm,Pmmm\\&#xa;Tetragonal $\sim$ P4,P\bar4,P$\frac4m$,P422,P4mm,P\bar42m/P\bar4m2,P$\frac4m$mm\\&#xa;Trigonal\&amp;Rhomobohedral $\sim$ P3,P\bar3,P321,P312,P3m1,P31m,P\bar3m1,P\bar31m\\&#xa;Hexagonal $\sim$ P6,P\bar6,P$\frac6m$,P622,P6mm,P\bar62m/P\bar6m2,P$\frac6m$mm\\&#xa;Cubic $\sim$ P23,Pm\bar3,P432,P\bar43m,Pm3m" ID="ID_1831104811" CREATED="1595075775108" MODIFIED="1595076219764"/>
