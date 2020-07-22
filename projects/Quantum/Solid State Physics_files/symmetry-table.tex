@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage[paperheight=15cm,paperwidth=25cm,margin=4mm]{geometry}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\begin{tabular}{| c| c| c| c| c| c| l|}
+    \hline
+    Crystal family(6)&Crystal system(7)&Required symmetries&Point groups&Space groups&Bravais lattices&Lattice system\\
+    \hline
+     \multicolumn{2}{|c|}{Triclinic} & None & 2 & 2 & 1 &{Triclinic} \\
+     \hline
+     \multicolumn{2}{|c|}{Monoclinic} & 1 twofold or 1 mirror & 3 & 13 & 2 & {monoclinic} \\\hline
+     \multicolumn{2}{|c|}{Orthorhombic} & 3 or 1 twofold \& 2 mirror & 3 & 59 & 4 & {Orthorhombic} \\\hline
+     \multicolumn{2}{|c|}{Tetragonal} & 1 fourfold & 7 & 68 & 2 &  {Tetragonal}\\\hline
+    \multirow{3}{*}{Hexagonal} & \multirow{2}{*}{Trigonal} &\multirow{2}{*}{ 1 threefold  }& \multirow{2}{*}{5} & 7 & 1 & Rhombohedral\\ \cline{5-7}
+    &&&&18&\multirow{2}{*}{1}&\multirow{2}{*}{Hexagonal}\\\cline{2-5}
+    &Hexagonal & 1 sixfold  & 7 & 27 && \\\hline
+    \multicolumn{2}{|c|}{Cubic} & 3 fourfold & 5 & 36 & 3 &  {Cubic}\\\hline
+    6 & 7 & \textbf{Total} & 32 & 230 & 14 & 7\\
+    \hline
+    \end{tabular}
+    
+\end{document}}
