@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1595401344633" STYLE="oval">
+<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1600865116102" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.626">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.478">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,17 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" FOLDED="true" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1595401344625" HGAP_QUANTITY="-18.749999441206477 pt" VSHIFT_QUANTITY="-692.2499793693429 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
-<hook NAME="FreeNode"/>
-<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
-<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
-</node>
-<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
-<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
-</node>
-</node>
+<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
@@ -179,7 +169,7 @@
 <node TEXT="\latex 玻恩-卡门循环边界条件: 各个基矢方向上构造环实现平移对称\\&#xa;数学上等价于$N_i \vec a_i\ (i=1,2,3)$平移操作为恒等操作" POSITION="right" ID="ID_1766935485" CREATED="1561814828350" MODIFIED="1564384950829">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="\latex Symmetry Group" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1595389294244">
+<node TEXT="\latex Symmetry Group" FOLDED="true" POSITION="left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1595389294244">
 <edge COLOR="#00ffff"/>
 <hook URI="Solid%20State%20Physics_files/crystall-cata.png" SIZE="0.36785886" NAME="ExternalObject"/>
 <node TEXT="几何外形" ID="ID_243476682" CREATED="1562383126963" MODIFIED="1562383150069"/>
@@ -347,6 +337,16 @@
 </node>
 </node>
 </node>
+<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" FOLDED="true" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1600865116100" HGAP_QUANTITY="27.749999172985575 pt" VSHIFT_QUANTITY="-294.7499912157657 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<hook NAME="FreeNode"/>
+<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
+<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
+</node>
+<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
+<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
+</node>
+</node>
 <node TEXT="准晶态结构:具有长程取向序&#xa;而没有长程平移对称序" FOLDED="true" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
 <edge COLOR="#007c00"/>
 <node TEXT="取向序具有晶体周期性不能容许的点群对称性" ID="ID_141004109" CREATED="1563173204985" MODIFIED="1563173248202"/>
@@ -361,7 +361,7 @@
 </node>
 </node>
 </node>
-<node TEXT="元激发(准粒子): 使复杂的多体问题简化为接近理想气体的准粒子系统,从而将粒子物理的场论方法应用到固体物理的多体系统" POSITION="right" ID="ID_1745555232" CREATED="1563180008367" MODIFIED="1563180180656">
+<node TEXT="元激发(准粒子): 使复杂的多体问题简化为接近理想气体的准粒子系统,从而将粒子物理的场论方法应用到固体物理的多体系统" FOLDED="true" POSITION="right" ID="ID_1745555232" CREATED="1563180008367" MODIFIED="1563180180656">
 <edge COLOR="#7c7c00"/>
 <node TEXT="" ID="ID_1182406176" CREATED="1593614916492" MODIFIED="1593614916494">
 <hook NAME="FirstGroupNode"/>
@@ -557,7 +557,7 @@
 </node>
 </node>
 <node TEXT="DOS" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
-<node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1594350785036"/>
+<node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,2\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1600865178784"/>
 <node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977">
 <node TEXT="\latex $D(\omega)d\omega\equiv dN=(\frac{L}{2\pi})^3\int_{shell}d^3K$\\&#xa;$\Rightarrow D(\omega)=\frac V{(2\pi)^3}\int_{shell} \frac{dS_{\omega}}{v_g}$ \\&#xa;积分区域是$\omega=Const$曲面" ID="ID_714666228" CREATED="1594603714710" MODIFIED="1594603999934">
 <node TEXT="\latex \textbf{Van Hove singularities}: it&apos;s noteworthy that when $v_g=0$,&#xa;\\ we get singularities at these critical points" ID="ID_483405299" CREATED="1594604014290" MODIFIED="1594606028836"/>
@@ -586,9 +586,9 @@
 </node>
 <node TEXT="standing waves correspond to the edge of BZs(0 group velocity)&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593910920844"/>
 </node>
-<node TEXT="harmonic &amp; anharmonic" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1594606424240">
+<node TEXT="lattice dynamics" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1600868921917">
 <edge COLOR="#007c00"/>
-<node TEXT="consequence of purely harmonic theory" ID="ID_830338349" CREATED="1594606425418" MODIFIED="1594606438077">
+<node TEXT="consequence of purely harmonic theory" FOLDED="true" ID="ID_830338349" CREATED="1594606425418" MODIFIED="1594606438077">
 <node TEXT="lattice waves don&apos;t interact &amp; don&apos;t decay or change form with time" ID="ID_1250829539" CREATED="1594606438542" MODIFIED="1594606477951"/>
 <node TEXT="no thermal expansion" ID="ID_1996677323" CREATED="1594606480302" MODIFIED="1594606485461">
 <node TEXT="comparison" ID="ID_538264442" CREATED="1594613188936" MODIFIED="1594613260801">
@@ -599,11 +599,23 @@
 <node TEXT="elastic constants are independent of pressure and temperature" ID="ID_1541477444" CREATED="1594606510808" MODIFIED="1594606533667"/>
 <node TEXT="heat capacity becomes constant at high temperatures" ID="ID_370878152" CREATED="1594606537398" MODIFIED="1594606555801"/>
 </node>
+<node TEXT="Force Constants" ID="ID_1569146299" CREATED="1600865330814" MODIFIED="1600868895753">
+<node TEXT="\latex (Effective) Potential\\&#xa;$\Omega=\Omega_0+\Phi_{i\alpha}u_{i\alpha}+\frac12\Phi_{\alpha\beta,ij}u_{i\alpha}u_{j\beta}+\cdots$" ID="ID_206712675" CREATED="1600865396117" MODIFIED="1600865689129">
+<node TEXT="\latex $\Phi$ is the derivative of $\Omega$ \textbf{in the reference configuration(at designated zero point)}, so the first-order $\Phi$ is zero when the equilibrium configuration is chosen" ID="ID_298923298" CREATED="1600865761931" MODIFIED="1600866046199"/>
 </node>
-<node TEXT="thermal conductivity" POSITION="right" ID="ID_866292908" CREATED="1594612095996" MODIFIED="1594612101127">
+<node TEXT="\latex Physical meaning: only a single ion at site i is displaced from the equilibrium position by $u_{ia}$, then the force \textbf{felt by atom j}\  is:\;\;\;\;\;&#xa;$F_{j\beta}=-\Phi_{\alpha\beta,ij}u_{ia}$" ID="ID_485037232" CREATED="1600866891644" MODIFIED="1600867109341">
+<node TEXT="a linear(for harmonic specifically) relationship between displacement and resulting force" ID="ID_809085526" CREATED="1600867176059" MODIFIED="1600867462265"/>
+</node>
+<node TEXT="\latex the Fourier transform of the fc-matrix is related to the dynamical matrix\\&#xa;$D_{k\alpha k^\prime\beta}(\mathbf{q})=\frac1{\sqrt{M_kM_{k^\prime}}}\sum\limits_l\Phi_{\alpha\beta(lk,0k^\prime)}e^{-i\mathbf{q}(\mathbf R^0_{lk}-\mathbf R^0_{0k^\prime})}$" ID="ID_306579822" CREATED="1600867526423" MODIFIED="1600869650559">
+<node TEXT="\latex Eigenvalue equation($\mathbf e$is polarization vector):\\&#xa;$\mathbf{D}(\mathbf q)\mathbf e(\mathbf q,\nu) = \omega^2(\mathbf q,\nu)\mathbf e(\mathbf q,\nu)$" ID="ID_922494665" CREATED="1600868112710" MODIFIED="1600868239103"/>
+</node>
+</node>
+<node TEXT="\latex a complete characterization of the harmonic vibrational spectrum requires the knowledge of:\\&#xa;the \mathbf{normal modes} for the \mathbf{whole} Brillouin zone\\&#xa;the \mathbf{force constants} for \mathbf{all} atom bonds" ID="ID_163982854" CREATED="1600868931316" MODIFIED="1600871148728"/>
+</node>
+<node TEXT="thermal conductivity" FOLDED="true" POSITION="right" ID="ID_866292908" CREATED="1594612095996" MODIFIED="1594612101127">
 <edge COLOR="#7c007c"/>
 <node TEXT="\latex $j=-k\frac{dT}{dx}$\  it implies that thermal conduction is a \\&#xa;random process instead of ballistic transport.\\&#xa;(for ballistic transport, j should only depend on the difference between 2 ends, not the gradient inside the specimen)" ID="ID_1947716225" CREATED="1594612126711" MODIFIED="1594612285605"/>
-<node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path \\&#xa;($\mathcal l$ is the mean free path only for U processes, \textbf{not including N})" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1594699093468">
+<node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path \\&#xa;($\mathcal l$ is the mean free path only for U processes, \textbf{not including N})" FOLDED="true" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1594699093468">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="728;0;" ENDINCLINATION="6;-66;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594696319884"/>
 <node TEXT="\latex at high temperature: $\mathcal l \propto \frac1T$\\&#xa;while $C_v\rightarrow Const\Rightarrow k\propto \frac1T$" ID="ID_993754144" CREATED="1594696465920" MODIFIED="1594699757715"/>
