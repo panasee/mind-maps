@@ -599,8 +599,12 @@
 <node TEXT="elastic constants are independent of pressure and temperature" ID="ID_1541477444" CREATED="1594606510808" MODIFIED="1594606533667"/>
 <node TEXT="heat capacity becomes constant at high temperatures" ID="ID_370878152" CREATED="1594606537398" MODIFIED="1594606555801"/>
 </node>
+<node TEXT="\latex Effective Potential\\&#xa;$\Omega(\mathbf R) = V_{ii}(\mathbf R)+E_0(\mathbf R)$" ID="ID_23429166" CREATED="1600948504236" MODIFIED="1600948560166">
+<node TEXT="first term is Coulomb interaction among the&#xa;ions, which can be readily obtained" ID="ID_383291146" CREATED="1600948604134" MODIFIED="1600948643407"/>
+<node TEXT="second term represents the electronic contribution, incorporating all important physical properties, requiring a sophisticated and accurate treatment of the electronic system" ID="ID_776426543" CREATED="1600948644816" MODIFIED="1600948733326"/>
+</node>
 <node TEXT="Force Constants" ID="ID_1569146299" CREATED="1600865330814" MODIFIED="1600868895753">
-<node TEXT="\latex (Effective) Potential\\&#xa;$\Omega=\Omega_0+\Phi_{i\alpha}u_{i\alpha}+\frac12\Phi_{\alpha\beta,ij}u_{i\alpha}u_{j\beta}+\cdots$" ID="ID_206712675" CREATED="1600865396117" MODIFIED="1600865689129">
+<node TEXT="\latex Taylor Expansion of Potential\\&#xa;$\Omega=\Omega_0+\Phi_{i\alpha}u_{i\alpha}+\frac12\Phi_{\alpha\beta,ij}u_{i\alpha}u_{j\beta}+\cdots$" ID="ID_206712675" CREATED="1600865396117" MODIFIED="1600948586336">
 <node TEXT="\latex $\Phi$ is the derivative of $\Omega$ \textbf{in the reference configuration(at designated zero point)}, so the first-order $\Phi$ is zero when the equilibrium configuration is chosen" ID="ID_298923298" CREATED="1600865761931" MODIFIED="1600866046199"/>
 </node>
 <node TEXT="\latex Physical meaning: only a single ion at site i is displaced from the equilibrium position by $u_{ia}$, then the force \textbf{felt by atom j}\  is:\;\;\;\;\;&#xa;$F_{j\beta}=-\Phi_{\alpha\beta,ij}u_{ia}$" ID="ID_485037232" CREATED="1600866891644" MODIFIED="1600867109341">
@@ -611,6 +615,7 @@
 </node>
 </node>
 <node TEXT="\latex a complete characterization of the harmonic vibrational spectrum requires the knowledge of:\\&#xa;the \mathbf{normal modes} for the \mathbf{whole} Brillouin zone\\&#xa;the \mathbf{force constants} for \mathbf{all} atom bonds" ID="ID_163982854" CREATED="1600868931316" MODIFIED="1600871148728"/>
+<node TEXT="\latex Second Quantization: (with $A_{k\alpha}^{qj} = \frac{\eta_{k\alpha}(qj)}{\sqrt{2M_k\omega_{qj}}})$\\&#xa;$u_{lk\alpha} = e^{iqR^0_{lk}}\frac1{\sqrt{N_q}}\sum_{qj}A_{k\alpha}^{qj}(b_{qj}+b^\dagger_{-qj})$" ID="ID_1073556409" CREATED="1600947941307" MODIFIED="1600948216908"/>
 </node>
 <node TEXT="thermal conductivity" FOLDED="true" POSITION="right" ID="ID_866292908" CREATED="1594612095996" MODIFIED="1594612101127">
 <edge COLOR="#7c007c"/>

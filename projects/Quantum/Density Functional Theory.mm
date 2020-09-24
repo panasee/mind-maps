@@ -1,22 +1,26 @@
-<map version="docear 1.1" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1553567811253_8iwbzs6majysaakoduqi4bbn7">
-<!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
-<node TEXT="Density Functional Theory" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1553567823592"><hook NAME="MapStyle" zoom="1.331">
-    <properties show_note_icons="true"/>
+<map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1553567811253_8iwbzs6majysaakoduqi4bbn7">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Density Functional Theory" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1553567823592"><hook NAME="MapStyle" zoom="1.464">
+    <properties fit_to_viewport="false" show_note_icons="true"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="calculation for electrons in matter" POSITION="right" ID="ID_1635731102" CREATED="1553568098467" MODIFIED="1554723256611">
 <edge COLOR="#ff0000"/>
 <hook EQUATION="\hat H \psi(\vec r_1,\cdots,\vec r_N) =(\hat T+\hat V+\hat U)\psi(\vec r_1,\cdots,\vec r_N)=[\sum_i^N(-\frac{\hbar^2}{2m_i}\nabla^2_i)+\sum_i^NV(\vec r_i)+\sum_{i&lt;j}^NU(\vec r_i,\vec r_j)]\psi \\&#xa;V\rightarrow background\, field\, caused\, by\, nuclei\;\;U\rightarrow interaction\, between\, electrons" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -76,17 +80,23 @@
 <node TEXT="T &amp; U are universal functionals(form is independent of specific properties), while V is non-universal functional(form depends on specific properties)" ID="ID_983068617" CREATED="1553569545514" MODIFIED="1553569677783"/>
 </node>
 </node>
-<node TEXT="energy" POSITION="left" ID="ID_1300265343" CREATED="1553569710682" MODIFIED="1553569882020">
+<node TEXT="\latex energy functional:\\&#xa;$E[n]=\langle \hat H\rangle =F[n]+\int d^3r v_{ext}(\vec r)n(\vec r)$\\&#xa;$F[n] = T_s[n]+E_H[n]+E_{xc}[n]$" POSITION="left" ID="ID_1300265343" CREATED="1553569710682" MODIFIED="1600955149427">
 <edge COLOR="#00ff00"/>
-<hook EQUATION="E[n]=\langle \hat H\rangle =T[n]+U[n]+\int V(\vec r)n(\vec r) d^3 r" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="use variational methods to minimize the energy functional(usually the Lagrangian method of undetermined multipliers)" ID="ID_1294247719" CREATED="1553569885218" MODIFIED="1553570450501"/>
+<node TEXT="\latex single-particle representation of the density:\\&#xa;$n(\mathbf r) = \sum_i f_i|\psi_i(\mathbf r)|^2 $,\; $f_i$ denotes the occupation number" ID="ID_1373391725" CREATED="1600955596960" MODIFIED="1600956043632"/>
+<node TEXT="\latex kinetic energy: $T_s[n] = \sum_if_i\int d^3r\psi_i^*(\mathbf r)(-\nabla^2)\psi_i(\mathbf r)$\\&#xa;Hartree energy: $E_H[n] = \int d^3r\int d^3r^\prime \frac{n(\mathbf r)n(\mathbf r^\prime)}{|\mathbf r- \mathbf r^\prime|}$\\" ID="ID_1094033490" CREATED="1600955365566" MODIFIED="1600955577573"/>
+<node TEXT="\latex fictitious electrons obey a single-particle equation:\\&#xa;${-\nabla^2+v_{eff}(\mathbf r)}\psi_i(\mathbf r) = \epsilon_i\psi_i(\mathbf r)$\\&#xa;$v_{eff}[n] = v_{ext}+v_{scr}[n] = v_{ext} + v_H[n]+ v_{XC}[n]$" ID="ID_392516547" CREATED="1600957720163" MODIFIED="1600957863315">
+<node TEXT="the screening potential - obtained via funtional derivatives of corresponding total energy functional" ID="ID_98121114" CREATED="1600957884257" MODIFIED="1600957926063"/>
+</node>
 </node>
 <node TEXT="main problem: exact functionals for exchange and correlation are not known except for the free electron gas" POSITION="left" ID="ID_1918429657" CREATED="1554723314298" MODIFIED="1554723363942">
 <edge COLOR="#ffff00"/>
 <node TEXT="auxiliary noninteracting system" ID="ID_1021910286" CREATED="1553570577286" MODIFIED="1554723369275" MOVED="1554723369285">
+<node TEXT="" ID="ID_567308511" CREATED="1600953245456" MODIFIED="1600953245456">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="Kohn-Sham equation" ID="ID_1322231379" CREATED="1553570432856" MODIFIED="1554577043958" MOVED="1553570583021">
 <hook EQUATION="(without\; U)\;\; E_s[n]=\langle \psi_s[n]| \hat T_s+\hat V_s| \psi_s[n]\rangle\\&#xa;\Rightarrow [-\frac{\hbar^2}{2m}\nabla^2+V_s(\vec r)]\phi_i(\vec r)=\epsilon_i \phi_i(\vec r)" NAME="plugins/latex/LatexNodeHook.properties"/>
-<hook NAME="FirstGroupNode"/>
 </node>
 <node TEXT="no interaction means all electrons are independent" ID="ID_1196969900" CREATED="1553570586377" MODIFIED="1553570675354">
 <hook EQUATION="n(\vec r)=n_s(\vec r)=\sum_i | \phi_i(\vec r) |^2" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -97,9 +107,11 @@
 <hook EQUATION="functionals:\ \ \ LDA(local-density\ approximation):\ functional\ depends\ only\ on\ the\ density\ at\ the\ coordinate\ where\ the\ functional\ is\ evaluted\\%\ pretend\ that\ an\ inhomogeneous\ electronic\ density\ locally\ behaves\ like\ a\ homogeneous\ electron\ gas\\&#xa; others: LDA\ GGA\ meta-GGA\ van-der-Waals\ functionals,\ etc\ etc\ " NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="these can&apos;t be solved analytically, only to do this with self-consistent iteration" ID="ID_207382754" CREATED="1553571222931" MODIFIED="1553571526464">
+<node TEXT="" ID="ID_1044439154" CREATED="1600953245468" MODIFIED="1600953245468">
 <hook NAME="SummaryNode"/>
+<node TEXT="these can&apos;t be solved analytically, only to do this with self-consistent iteration" ID="ID_207382754" CREATED="1553571222931" MODIFIED="1553571526464">
 <hook EQUATION="V_s=V_s(n_s(\vec r))\leftrightarrow n_s=n_s(\phi_i(\vec r))\leftrightarrow \phi=\phi_i(V_s(\vec r))" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 </node>
 </node>
 </node>
