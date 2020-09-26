@@ -1,22 +1,26 @@
-<map version="docear 1.1" dcr_id="1545451599867_5wk952hx1ku7ngdzo1a97bb37" project="1679BFC17676PTVR852659XS9KNG757E4RY5">
-<!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
-<node TEXT="shengBTE" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545454705510"><hook NAME="MapStyle">
-    <properties show_note_icons="true" show_icon_for_attributes="true"/>
+<map version="freeplane 1.8.0" dcr_id="1545451599867_5wk952hx1ku7ngdzo1a97bb37" project="1679BFC17676PTVR852659XS9KNG757E4RY5">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="lattice dynamics cal" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1600872154695"><hook NAME="MapStyle" zoom="1.331">
+    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,12 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4"/>
-<attribute NAME="key" VALUE="li2014shengbte"/>
-<attribute NAME="journal" VALUE="Computer Physics Communications"/>
-<attribute NAME="year" VALUE="2014"/>
-<attribute NAME="title" VALUE="ShengBTE: A solver of the Boltzmann transport equation for phonons"/>
-<attribute NAME="authors" VALUE="Li, Wu and Carrete, Jes{\&apos;u}s and Katcho, Nebil A and Mingo, Natalio"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="semi-conductor&amp;insulator" POSITION="right" ID="ID_510978494" CREATED="1545451663755" MODIFIED="1545451675255">
 <edge COLOR="#ff0000"/>
 <node TEXT="the phonon takes the major part of heat transfer" ID="ID_1519603907" CREATED="1545451676430" MODIFIED="1545451690379"/>
@@ -71,12 +70,14 @@
 <edge COLOR="#00ff00"/>
 <hook EQUATION="frequency\ \nu \ \ velocity\ u \ \ scattering\ rate" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT=" BTE" ID="ID_832612124" CREATED="1545451880242" MODIFIED="1545451949041">
-<node TEXT="many solutions to BTE conventionally rely on the RTA(relaxation time approximation) along with the Debye approximation, neglecting the true phonon Dispersions and introducing several Parameters to treat different scattering mechanisms" ID="ID_1456650047" CREATED="1545451981603" MODIFIED="1545452854246">
+<node TEXT="" ID="ID_1400733807" CREATED="1600872101738" MODIFIED="1600872101738">
 <hook NAME="FirstGroupNode"/>
 </node>
+<node TEXT="many solutions to BTE conventionally rely on the RTA(relaxation time approximation) along with the Debye approximation, neglecting the true phonon Dispersions and introducing several Parameters to treat different scattering mechanisms" ID="ID_1456650047" CREATED="1545451981603" MODIFIED="1545452854246"/>
 <node TEXT="Callaway model treats the quasimomentum-conserving normal processes and the non-quasimomentum-conserving Umklapp processes" ID="ID_697827298" CREATED="1545452747164" MODIFIED="1545452839348" MOVED="1545452845018"/>
-<node TEXT="all these involve parameters from experiments and thus lack predictive power" ID="ID_1150260521" CREATED="1545452854240" MODIFIED="1545452898455">
+<node TEXT="" ID="ID_1524997284" CREATED="1600872101742" MODIFIED="1600872101742">
 <hook NAME="SummaryNode"/>
+<node TEXT="all these involve parameters from experiments and thus lack predictive power" ID="ID_1150260521" CREATED="1545452854240" MODIFIED="1545452898455"/>
 </node>
 <node TEXT="ab-inito calcuations" ID="ID_1690210707" CREATED="1545453074065" MODIFIED="1545453090325">
 <node TEXT="DFPT(density functional perturbation theory) to perform a pioneering first-principles calculation of 3-order IFCs" ID="ID_1446205551" CREATED="1545452941920" MODIFIED="1545453020979" MOVED="1545453879497"/>
@@ -93,9 +94,6 @@
 <node TEXT="in addition to ShengBTE, script thirdorder.py, which implements a real-space supercell approach to anharmonic IFC calculations" ID="ID_598909508" CREATED="1545456021926" MODIFIED="1545456098176">
 <node TEXT="thirdorder.py: analyze the symmetries of the crystal and reduce the enormous number of DFT runs" ID="ID_1253208924" CREATED="1545457774722" MODIFIED="1545457817180"/>
 </node>
-</node>
-<node TEXT="" ID="ID_1204014306" CREATED="1545457975038" MODIFIED="1545457990800">
-<hook URI="project://1679BFC17676PTVR852659XS9KNG757E4RY5/../../../Pictures/Screenshot%20from%202018-12-22%2013-51-24.png" SIZE="0.77220076" NAME="ExternalObject"/>
 </node>
 <node TEXT="input" ID="ID_770466724" CREATED="1545458132569" MODIFIED="1545458134558">
 <node TEXT="2-order: harmonic" ID="ID_574960160" CREATED="1545458134842" MODIFIED="1545458144166">
@@ -115,6 +113,35 @@
 <node TEXT="with them(2) a long-range correction can be added to the dynamical matrix in order to account for long-range electrostatic interactions in polar compounds" ID="ID_943496107" CREATED="1545458539205" MODIFIED="1545458614583"/>
 </node>
 </node>
+</node>
+<node TEXT="Delta function(used when integrating over Brillouin-zone)" POSITION="right" ID="ID_1250879894" CREATED="1600872217727" MODIFIED="1600872272149">
+<edge COLOR="#808080"/>
+<node TEXT="" ID="ID_32351598" CREATED="1600872444680" MODIFIED="1600872444682">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex Lorentzian func\\&#xa;$\delta(\omega) \approx \frac1\pi \frac{\epsilon^2}{\omega^2+\epsilon^2}$" ID="ID_737818363" CREATED="1600872278364" MODIFIED="1600872351590"/>
+<node TEXT="\latex Gaussian func\\&#xa;$\delta(\omega)\approx \frac1{\sqrt{\pi}\epsilon}\exp{(-\omega^2/\epsilon^2)}$" ID="ID_216307330" CREATED="1600872354446" MODIFIED="1600872421997"/>
+<node TEXT="" ID="ID_1895161534" CREATED="1600872444677" MODIFIED="1600872444680">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex the $\epsilon$ need to be chosen carefully so as to\\&#xa;\star be large enough to avoid unscientific oscillations\\&#xa;\star be small enough to capture detailed phonon structures" ID="ID_1474911246" CREATED="1600872444683" MODIFIED="1600872536813"/>
+</node>
+</node>
+<node POSITION="left" ID="ID_1178684342" CREATED="1600872606477" MODIFIED="1600872634680"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>SCPH(Self-Consistent PHonon calculation)</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#808080"/>
 </node>
 </node>
 </map>
