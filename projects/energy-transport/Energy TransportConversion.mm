@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
+<hook NAME="MapStyle" zoom="2.852">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -123,7 +123,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -132,6 +131,16 @@
 <node TEXT="Fourier law(heat transfer), Fick law(mass diffusion), Ohm law(electrical conduction)" ID="ID_1360679759" CREATED="1602495794895" MODIFIED="1602495859784">
 <node TEXT="results of averaging the microscopic phenomena, so no longer valid when the conditions for averaging fail" ID="ID_1890508194" CREATED="1602495862452" MODIFIED="1602495930302"/>
 </node>
+</node>
+</node>
+<node TEXT="Kinetic Theory" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
+<edge COLOR="#7c007c"/>
+<node TEXT="Crude version" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1602580699455">
+<node TEXT="\latex thermal conduc: &#xa;$q_x = \frac12(nEv_x)|_{x-v_x\tau}-\frac12(nEv_x)|_{x+v_x\tau}$\\&#xa;$= -(\frac{Cv^2\tau}3)\frac{dT}{dx}\Rightarrow k = \frac{Cv^2\tau}3=\frac{Cv\Lambda}3=\frac{\rho cv\Lambda}3$" ID="ID_1827217491" CREATED="1602579946661" MODIFIED="1602580736568"/>
+<node TEXT="\latex mean free path:" ID="ID_683141782" CREATED="1602580550943" MODIFIED="1602580761731"/>
+</node>
+<node TEXT="definitions" ID="ID_1053107331" CREATED="1602580833721" MODIFIED="1602580838383">
+<node TEXT="Cross-Section: measure of probability that a specific process will take place in a collision of two particles" ID="ID_1353676405" CREATED="1602580839153" MODIFIED="1602580951959"/>
 </node>
 </node>
 </node>
