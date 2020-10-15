@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.852">
+<hook NAME="MapStyle" zoom="1.771">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -137,10 +137,36 @@
 <edge COLOR="#7c007c"/>
 <node TEXT="Crude version" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1602580699455">
 <node TEXT="\latex thermal conduc: &#xa;$q_x = \frac12(nEv_x)|_{x-v_x\tau}-\frac12(nEv_x)|_{x+v_x\tau}$\\&#xa;$= -(\frac{Cv^2\tau}3)\frac{dT}{dx}\Rightarrow k = \frac{Cv^2\tau}3=\frac{Cv\Lambda}3=\frac{\rho cv\Lambda}3$" ID="ID_1827217491" CREATED="1602579946661" MODIFIED="1602580736568"/>
-<node TEXT="\latex mean free path:" ID="ID_683141782" CREATED="1602580550943" MODIFIED="1602580761731"/>
+<node TEXT="\latex mean free path: particel diameter $d \rightarrow$Cross-Section:$\pi(2d)^2/4$\\&#xa;\Lambda =\frac LN =  \frac L {n\pi d^2L} = \frac m {\pi\rho d^2} (collide with N atoms in L)" ID="ID_683141782" CREATED="1602580550943" MODIFIED="1602742527665">
+<node TEXT="\latex it assumes that only one atom&apos;s moving while others&apos; stationary, or it should be:&#xa;$\Lambda = \frac{m}{\pi\sqrt 2 \rho d^2}$" ID="ID_890755552" CREATED="1602742688695" MODIFIED="1602742774990">
+<node TEXT="\latex e.g. ideal gas has $P = \rho k_BT/m$,so\\&#xa;$\Lambda = \frac{k_BT}{\pi\sqrt2Pd^2}$ (used for approx)" ID="ID_730494981" CREATED="1602743187175" MODIFIED="1602743270687"/>
+</node>
+</node>
+<node TEXT="rarified gas flow(the mean free path is comparable to the scale of system)" ID="ID_1907859153" CREATED="1602744134885" MODIFIED="1602744171335"/>
 </node>
 <node TEXT="definitions" ID="ID_1053107331" CREATED="1602580833721" MODIFIED="1602580838383">
-<node TEXT="Cross-Section: measure of probability that a specific process will take place in a collision of two particles" ID="ID_1353676405" CREATED="1602580839153" MODIFIED="1602580951959"/>
+<node ID="ID_1353676405" CREATED="1602580839153" MODIFIED="1602742256043"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Cross-Section</b>: measure of probability that a specific process will take place in a collision of two particles
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="attachments/cross-section.png" SIZE="0.5012998" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Micro/Nano-scale Transport" POSITION="right" ID="ID_1612655917" CREATED="1602746750790" MODIFIED="1602746762323">
+<edge COLOR="#007c7c"/>
+<node TEXT="Quantum Size Effect" ID="ID_1572612978" CREATED="1602746762806" MODIFIED="1602746772373">
+<node TEXT="alter the wave characteristics, e.g. create new modes that don&apos;t exist in bulk materials" ID="ID_1989676397" CREATED="1602746797901" MODIFIED="1602746923054"/>
 </node>
 </node>
 </node>
