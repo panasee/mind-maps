@@ -172,6 +172,9 @@
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_738534283" STARTINCLINATION="167;0;" ENDINCLINATION="167;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font SIZE="14"/>
 </node>
+<node TEXT="the 2-dimensional material should be located in the middle of z axis --especially when it&apos;s polarized" ID="ID_844317260" CREATED="1602595765135" MODIFIED="1602596204658">
+<node TEXT="far from the boundary to avoid the influence of boundary conditions" ID="ID_1185630355" CREATED="1602596209719" MODIFIED="1602596231983"/>
+</node>
 </node>
 <node TEXT="ALAMODE" POSITION="left" ID="ID_864864065" CREATED="1602511884113" MODIFIED="1602512759325">
 <edge COLOR="#00ff00"/>
@@ -209,8 +212,11 @@
 <node TEXT="thermal conductivity" POSITION="left" ID="ID_936162818" CREATED="1602512131677" MODIFIED="1602512759334">
 <edge COLOR="#7c0000"/>
 <font SIZE="14"/>
-<node TEXT="RTA is convenient but will underestimate" ID="ID_1665467465" CREATED="1602512141119" MODIFIED="1602512759334">
+<node TEXT="RTA is convenient but too strong" ID="ID_1665467465" CREATED="1602512141119" MODIFIED="1602596280014">
 <font SIZE="14"/>
+<node TEXT="it supposes densities of phonons are irrelevant to each other" ID="ID_1842701950" CREATED="1602596280547" MODIFIED="1602596330206">
+<node TEXT="fails when the normal scattering gets too strong, e.g. in high-thermal conductivity materials" ID="ID_1311913429" CREATED="1602596331232" MODIFIED="1602596367676"/>
+</node>
 </node>
 <node TEXT="iterative BTE more accurate" ID="ID_1207524718" CREATED="1602512172981" MODIFIED="1602512759334">
 <font SIZE="14"/>
@@ -221,6 +227,12 @@
 <font SIZE="14"/>
 <node TEXT="harmonic approximation not enough" ID="ID_600006962" CREATED="1602512648110" MODIFIED="1602512759272">
 <font SIZE="14"/>
+</node>
+<node TEXT="\latex consider harmonic oscillator as a simplified case:$\omega^2 = k/m$\\&#xa;so a minus k(minus recovery force) can introduce imaginary freq" ID="ID_253401878" CREATED="1602819102733" MODIFIED="1602819233461">
+<node TEXT="at saddle point, usually seen in the highest energy of a Minimum Energy Pathway" ID="ID_920054915" CREATED="1602819235354" MODIFIED="1602819374013">
+<hook URI="pics/saddle.jpeg" SIZE="0.70409954" NAME="ExternalObject"/>
+</node>
+<node TEXT="non-equilibrium state" ID="ID_1661502130" CREATED="1602819246274" MODIFIED="1602819263205"/>
 </node>
 </node>
 </node>
