@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1600865116102" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.478">
+<hook NAME="MapStyle" zoom="0.918">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
@@ -388,18 +388,6 @@
 <node TEXT="\latex 自由度扩充即可,&#xa;$u_l^\alpha \rightarrow u_l^\alpha(s) $,\\具有$\underbrace N_{l}\times\underbrace2_{s}\times\underbrace3_{\alpha}=6$个自由度" ID="ID_689052795" CREATED="1564475042421" MODIFIED="1564551804841"/>
 </node>
 </node>
-<node TEXT="能带理论" FOLDED="true" POSITION="left" ID="ID_591590288" CREATED="1573207258372" MODIFIED="1573207501899">
-<edge COLOR="#0000ff"/>
-<node TEXT="出发点:(价)电子不再束缚于个别原子,而是在整个固体运动,称为共有化电子, 讨论电子运动时假定离子实处于平衡位置, 将离子实偏离平衡位置的影响视为微扰." FOLDED="true" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1573208288680">
-<node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
-</node>
-<node TEXT="价电子的等效势场" ID="ID_1772320872" CREATED="1573207522575" MODIFIED="1573207542005">
-<node TEXT="离子实的势场,其他价电子的平均势场以及考虑电子波函数反对称性而带来的交换作用" ID="ID_357366762" CREATED="1573207544074" MODIFIED="1573207596953"/>
-</node>
-<node TEXT="\latex Bloch Theorem: under periodic potential \\&#xa;$\psi(\vec r+ \vec R_n)=e^{i\vec k\cdot \vec R_n}\psi(\vec r)\ (\vec R_n\ \text{is lattice vector}) $" ID="ID_430552448" CREATED="1573208932367" MODIFIED="1573209384686">
-<node TEXT="\latex $\Rightarrow\psi(\vec r)=e^{i\vec k\cdot \vec r}u(\vec r)$ &#xa;\\$(u(\vec r+\vec R_n)=u(\vec r))$" ID="ID_1131693196" CREATED="1573209466106" MODIFIED="1573209630511"/>
-</node>
-</node>
 <node TEXT="crystal binding" FOLDED="true" POSITION="left" ID="ID_1315203738" CREATED="1592636369766" MODIFIED="1592636392722">
 <edge COLOR="#00ff00"/>
 <node TEXT="terms" ID="ID_1154537946" CREATED="1592639837733" MODIFIED="1592648267941">
@@ -691,7 +679,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="scattering by crystalline defects&#xa;(e.g. impurity atoms, isotope, vacancies)" ID="ID_882594313" CREATED="1603010185505" MODIFIED="1603010263515"/>
@@ -707,10 +694,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="e.g. in low-d systems, high freq optical phonons can decay by creating electron-hole pair near the Fermi level&#xa;(in this case, photoexcitation can prolong their lifetime)" ID="ID_1343720794" CREATED="1603010378718" MODIFIED="1603010465854"/>
 </node>
+</node>
+<node TEXT="Debye cutoff frequency" ID="ID_1404406663" CREATED="1603088701773" MODIFIED="1603088798743">
+<node TEXT="to ensure the physical meaning of phonons, the wave length shouldn&apos;t be shorter than the interatomic distance, thus a frequency cutoff need to be set" ID="ID_1982221851" CREATED="1603089601729" MODIFIED="1603089701436"/>
 </node>
 </node>
 <node TEXT="Brillouin Zone" FOLDED="true" POSITION="left" ID="ID_462244645" CREATED="1593853223856" MODIFIED="1593853229865">
@@ -765,6 +754,9 @@
 <node TEXT="\latex size effect: the $k$ of \textbf{pure crystals} at \textbf{low temperature}\\&#xa; is a  function of dimensions of specimen($k\approx C_vvD\propto T^3$)" ID="ID_31336528" CREATED="1594699168328" MODIFIED="1594699707716"/>
 <node TEXT="isotope scattering (destruction of periodicity): important in some materials" ID="ID_385186976" CREATED="1594699876923" MODIFIED="1594699919659"/>
 </node>
+</node>
+<node TEXT="Band Theory" POSITION="right" ID="ID_1798700126" CREATED="1603077254849" MODIFIED="1603077304156" LINK="Band%20Theory.mm">
+<edge COLOR="#7c7c00"/>
 </node>
 </node>
 </map>

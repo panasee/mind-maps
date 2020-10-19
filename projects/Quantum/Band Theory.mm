@@ -1,8 +1,8 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="sundry" FOLDED="false" ID="ID_1966285183" CREATED="1603094616216" MODIFIED="1603094674369" STYLE="oval">
+<node TEXT="Band Theory" FOLDED="false" ID="ID_452789050" CREATED="1603077282276" MODIFIED="1603077287444" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.21">
+<hook NAME="MapStyle" zoom="1.33">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,19 +63,33 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="integer &amp; fraction QHE trans" POSITION="right" ID="ID_348767186" CREATED="1545044736220" MODIFIED="1545044782139">
-<edge COLOR="#ff0000"/>
-<node TEXT="disorder" ID="ID_1903830335" CREATED="1545044782773" MODIFIED="1545044785874"/>
-<node TEXT="whether or not to consider electrons&apos; interaction" ID="ID_721765652" CREATED="1545044786514" MODIFIED="1545044858876"/>
-</node>
-<node TEXT="non-Abelian factor" POSITION="right" ID="ID_273331536" CREATED="1545045261516" MODIFIED="1545045272156">
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="出发点:(价)电子不再束缚于个别原子,而是在整个固体运动,称为共有化电子, 讨论电子运动时假定离子实处于平衡位置, 将离子实偏离平衡位置的影响视为微扰." FOLDED="true" POSITION="left" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1603077360086">
 <edge COLOR="#0000ff"/>
-<node TEXT="degenerate ground state" ID="ID_877594823" CREATED="1545045272753" MODIFIED="1545045286191"/>
+<node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
 </node>
-<node TEXT="the complex representation of sine&amp;cosine funcs&#xa;(exponential func is much easier to manipulate)" POSITION="left" ID="ID_1110336731" CREATED="1603094669248" MODIFIED="1603094757677">
-<edge COLOR="#0000ff"/>
-<node TEXT="either the real / imaginary part of the final solution is the true solution, which one to choose depends on whether the input is sine or cosine" ID="ID_1803992104" CREATED="1603094763278" MODIFIED="1603094833851"/>
+<node TEXT="价电子的等效势场" POSITION="left" ID="ID_1772320872" CREATED="1573207522575" MODIFIED="1603077360096">
+<edge COLOR="#00ff00"/>
+<node TEXT="离子实的势场,其他价电子的平均势场以及考虑电子波函数反对称性而带来的交换作用" ID="ID_357366762" CREATED="1573207544074" MODIFIED="1573207596953"/>
+</node>
+<node TEXT="\latex Bloch Theorem: under periodic potential \\&#xa;$\psi(\vec r+ \vec R_n)=e^{i\vec k\cdot \vec R_n}\psi(\vec r)\ (\vec R_n\ \text{is lattice vector}) $" POSITION="left" ID="ID_430552448" CREATED="1573208932367" MODIFIED="1603077360100">
+<edge COLOR="#ff00ff"/>
+<node TEXT="\latex $\Rightarrow\psi(\vec r)=e^{i\vec k\cdot \vec r}u(\vec r)$ &#xa;\\$(u(\vec r+\vec R_n)=u(\vec r))$" ID="ID_1131693196" CREATED="1573209466106" MODIFIED="1573209630511"/>
+</node>
+<node TEXT="band gap" POSITION="right" ID="ID_879836075" CREATED="1603077752055" MODIFIED="1603077758032">
+<edge COLOR="#7c0000"/>
+<node TEXT="Pererls distortion" ID="ID_230576241" CREATED="1603077389785" MODIFIED="1603077765493">
+<node TEXT="a 1-d equally spaced chain with&#xa;one electron per ion is unstable" ID="ID_1238939321" CREATED="1603077871478" MODIFIED="1603077945682">
+<hook URI="Solid%20State%20Physics_files/Peierl&apos;sDistortion1-D.png" SIZE="0.74245435" NAME="ExternalObject"/>
+<node TEXT="before distortion" ID="ID_549780914" CREATED="1603078026227" MODIFIED="1603078043875">
+<hook URI="Solid%20State%20Physics_files/Peierls_instability_before.jpg" SIZE="0.6324379" NAME="ExternalObject"/>
+</node>
+<node TEXT="after distortion" ID="ID_88741914" CREATED="1603078033994" MODIFIED="1603078050178">
+<hook URI="Solid%20State%20Physics_files/220px-Peierls_instability_after.jpg" SIZE="0.64094716" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="periodicity can creates band gaps at the edge of the Brillouin zone" ID="ID_506789827" CREATED="1603077824655" MODIFIED="1603077867226"/>
 </node>
 </node>
 </map>

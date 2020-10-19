@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
+<hook NAME="MapStyle" zoom="1.331">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -157,7 +157,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="attachments/cross-section.png" SIZE="0.5012998" NAME="ExternalObject"/>
 </node>
@@ -167,6 +166,34 @@
 <edge COLOR="#007c7c"/>
 <node TEXT="Quantum Size Effect" ID="ID_1572612978" CREATED="1602746762806" MODIFIED="1602746772373">
 <node TEXT="alter the wave characteristics, e.g. create new modes that don&apos;t exist in bulk materials" ID="ID_1989676397" CREATED="1602746797901" MODIFIED="1602746923054"/>
+</node>
+</node>
+<node TEXT="Fast Transport Phenomena (at short time scale):&#xa;processes shorter than the characteristic time" POSITION="right" ID="ID_145302109" CREATED="1603087321070" MODIFIED="1603090065327">
+<edge COLOR="#7c7c00"/>
+<node TEXT="the classical Fourier diffusion law no longer holds true" ID="ID_1629767981" CREATED="1603089796729" MODIFIED="1603089822996">
+<node TEXT="diffusion process is established on the fact that the carriers motion is almost random" ID="ID_1656129933" CREATED="1603089823633" MODIFIED="1603090047514"/>
+</node>
+<node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
+</node>
+<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<edge COLOR="#ff0000"/>
+<node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex wave regime($D&lt;O(l_p); D&lt;O(l_c)$)\\&#xa;phase info is considered and transport is coherent\\&#xa;(Quantum mechanics)" ID="ID_1226830343" CREATED="1603090931331" MODIFIED="1603092066288"/>
+<node TEXT="\latex transition regime ($D\sim O(l_p); D\sim O(l_c)$)\\&#xa;partially coherent transport\\&#xa;(Quantum Boltzmann equation)" ID="ID_1242913855" CREATED="1603090934809" MODIFIED="1603092178681"/>
+<node TEXT="\latex particle regime($D&gt;O(l_p); D&gt;O(l_c)$)\\&#xa;phase info is neglected and transport is incoherent" ID="ID_1625594483" CREATED="1603090940161" MODIFIED="1603092133867">
+<node TEXT="\latex ballistic($D&lt;O(\Lambda)$) \\&#xa;(Ballistic transport for electron;\\&#xa;Ray tracing for phonon)" ID="ID_1941831739" CREATED="1603091744003" MODIFIED="1603091930598"/>
+<node TEXT="\latex quasi-diffusive($D\sim O(\Lambda)$)\\&#xa;(Boltzmann Transport Equation)" ID="ID_1498138429" CREATED="1603091822477" MODIFIED="1603091954760"/>
+<node TEXT="\latex diffusive($D&gt;O(\Lambda)$) \\&#xa;(Ohm&apos;s law / Fourier&apos;s law)" ID="ID_797206989" CREATED="1603091846862" MODIFIED="1603091974456"/>
+</node>
+<node TEXT="" ID="ID_1746244523" CREATED="1603092699455" MODIFIED="1603092702994">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \gsim$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603093016657">
+<node TEXT="Phase-breaking length --- distance needed to completely destroy the phase of heat carriers through various collision processes(usually comparable to or slightly longer than MFP)" ID="ID_275254574" CREATED="1603092715743" MODIFIED="1603093063695"/>
+<node TEXT="Coherence length --- distance beyond which waves from the same source can be imposed without considering phase info" ID="ID_1090624043" CREATED="1603093096637" MODIFIED="1603093144117"/>
+</node>
 </node>
 </node>
 </node>

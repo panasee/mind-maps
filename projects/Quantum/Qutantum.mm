@@ -1,7 +1,7 @@
-<map version="freeplane 1.7.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
+<map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Qutantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1544943419265"><hook NAME="MapStyle">
-    <properties show_note_icons="true" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,22 +54,22 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="QHE" POSITION="right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="secular equation(&#x4e45;&#x671f;&#x65b9;&#x7a0b;)" POSITION="left" ID="ID_510894036" CREATED="1544943567606" MODIFIED="1544943669963">
+<node TEXT="secular equation(久期方程)" POSITION="left" ID="ID_510894036" CREATED="1544943567606" MODIFIED="1544943669963">
 <edge COLOR="#0000ff"/>
 <node TEXT="namely the characteristic polynomial" ID="ID_1883610095" CREATED="1544943839641" MODIFIED="1544943855188"/>
 </node>
 <node TEXT="pertubation theory" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1545021401910">
 <edge COLOR="#00ff00"/>
-<node TEXT="&#x5fae;&#x6270;&#x7406;&#x8bba;&#x5bf9;&#x80fd;&#x91cf;&#x7684;&#x8fd1;&#x4f3c;&#x5f88;&#x7cbe;&#x786e;,&#x4f46;&#x5bf9;&#x4e8e;&#x6ce2;&#x51fd;&#x6570;&#x8fd1;&#x4f3c;&#x4e0d;&#x592a;&#x7406;&#x60f3;" ID="ID_1710819061" CREATED="1545021402789" MODIFIED="1545021435659"/>
-<node TEXT="&#x5fae;&#x6270;&#x8bba;&#x901a;&#x8fc7;&#x5fae;&#x6270;&#x5c55;&#x5f00;&#x7136;&#x540e;&#x820d;&#x53bb;&#x9ad8;&#x9636;&#x9879;&#x5f97;&#x5230;(&#x6ce8;&#x610f;Hamiltonian&#x672c;&#x8eab;&#x5fae;&#x6270;&#x662f;&#x786e;&#x5b9a;&#x7684;,&#x53ea;&#x6709;&#x4e00;&#x9636;)" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
+<node TEXT="微扰理论对能量的近似很精确,但对于波函数近似不太理想" ID="ID_1710819061" CREATED="1545021402789" MODIFIED="1545021435659"/>
+<node TEXT="微扰论通过微扰展开然后舍去高阶项得到(注意Hamiltonian本身微扰是确定的,只有一阶)" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
 <hook EQUATION="(H+H^\prime)(\psi+\psi^\prime+ \psi^{\prime\prime} + \dots)=(E+E^\prime+ E^{\prime\prime} + \dots)(\psi+\psi^\prime+ \psi^{\prime\prime} + \dots)" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="sundry" POSITION="left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1545044912353" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/sundry.mm">
+<node TEXT="sundry" POSITION="left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1603094601040" LINK="sundry.mm">
 <edge COLOR="#ff00ff"/>
 </node>
 <node TEXT="two-state quantum system" POSITION="right" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1545045683487">
@@ -80,7 +80,7 @@
 <font NAME="TSCu_Times" SIZE="16"/>
 </node>
 </node>
-<node TEXT="many-particle wavefunction" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
+<node TEXT="many-particle wavefunction" FOLDED="true" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
 <edge COLOR="#ffff00"/>
 <node TEXT="Slater determinant" ID="ID_1154585874" CREATED="1545050399328" MODIFIED="1553566839983">
 <hook EQUATION="\psi(x_i)=\begin{vmatrix} \psi_1(x_1) &amp; \psi_1(x_2) &amp; \cdots &amp; \psi_1(x_N) \\&#xa;                          \psi_2(x_1) &amp; \psi_2(x_2) &amp; \cdots &amp; \psi_2(x_N) \\   &#xa;                           \vdots     &amp;  \vdots     &amp;        &amp; \vdots      \\&#xa;                          \psi_N(x_1) &amp; \psi_N(x_2) &amp; \cdots &amp; \psi_N(x_N)&#xa;\end{vmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -96,6 +96,10 @@
 <edge COLOR="#808080"/>
 <node TEXT="Continuous symmetry(e.g. Lorentz invariance)" ID="ID_1529360401" CREATED="1555986892596" MODIFIED="1555987009119"/>
 <node TEXT="Discrete symmetry(e.g. PT symmetry)" ID="ID_398097461" CREATED="1555987010194" MODIFIED="1555987041219"/>
+</node>
+<node TEXT="Solid State Physics" POSITION="right" ID="ID_591703259" CREATED="1603076188109" MODIFIED="1603076202181" LINK="Solid%20State%20Physics.mm">
+<edge COLOR="#808080"/>
+<node TEXT="Band Theory" ID="ID_1741423531" CREATED="1603077243351" MODIFIED="1603077316154" LINK="Band%20Theory.mm"/>
 </node>
 </node>
 </map>
