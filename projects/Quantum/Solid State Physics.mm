@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1600865116102" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.918">
+<hook NAME="MapStyle" zoom="1.626">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -595,7 +595,11 @@
 </richcontent>
 <node TEXT="non-resonant photoexcitation: the light energy is not sufficient to cause electronic transition (the energy difference is given as phonons)" ID="ID_327793082" CREATED="1603005675910" MODIFIED="1603006033665">
 <node TEXT="atoms start to move from equilibrium,&#xa;which means it&apos;s a sine function" ID="ID_675819870" CREATED="1603005769645" MODIFIED="1603005909806"/>
-<node TEXT="the amplitude of the induced oscillation varies&#xa;with the polarization of the light,&#xa;following the Raman selection rule" ID="ID_1794617305" CREATED="1603005944409" MODIFIED="1603005992171"/>
+<node TEXT="the amplitude of the induced oscillation varies&#xa;with the polarization of the light,&#xa;following the Raman selection rule" ID="ID_1794617305" CREATED="1603005944409" MODIFIED="1603005992171">
+<node TEXT="\latex selection rule \\&#xa;$\Delta \nu_{photon} = \pm 1\cdot \nu_0$" ID="ID_1511098462" CREATED="1603274954669" MODIFIED="1603275053433">
+<node TEXT="that means the photon of absorption/emission share the same frequency with the characteristic freq of solid" ID="ID_840547480" CREATED="1603275107448" MODIFIED="1603275254904"/>
+</node>
+</node>
 </node>
 <node ID="ID_1962368428" CREATED="1603006015896" MODIFIED="1603008850273"><richcontent TYPE="NODE">
 
