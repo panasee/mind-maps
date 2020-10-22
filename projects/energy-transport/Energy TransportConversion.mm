@@ -190,7 +190,7 @@
 <node TEXT="" ID="ID_1746244523" CREATED="1603092699455" MODIFIED="1603092702994">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \gsim$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603093016657">
+<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \ge$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603344890194">
 <node TEXT="Phase-breaking length --- distance needed to completely destroy the phase of heat carriers through various collision processes(usually comparable to or slightly longer than MFP)" ID="ID_275254574" CREATED="1603092715743" MODIFIED="1603093063695"/>
 <node TEXT="Coherence length --- distance beyond which waves from the same source can be imposed without considering phase info" ID="ID_1090624043" CREATED="1603093096637" MODIFIED="1603093144117"/>
 </node>
