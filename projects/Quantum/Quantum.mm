@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Qutantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1544943419265"><hook NAME="MapStyle" zoom="1.61">
+<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.61">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -127,6 +127,10 @@
 <node TEXT="energy not affected by m, so it&apos;s&#xa;(2l+1)-fold degenerate" ID="ID_1926961656" CREATED="1603344769520" MODIFIED="1603344811534"/>
 </node>
 </node>
+</node>
+<node TEXT="Hydrogen atom" POSITION="right" ID="ID_1486183753" CREATED="1603352087597" MODIFIED="1603352092818">
+<edge COLOR="#808080"/>
+<node TEXT="\latex $\psi_{nlm} = R_{nl}(r)Y_l^m(\theta,\phi)$ \\&#xa;R is radial wavefunc, while Y is spherical harmonic" ID="ID_1851564051" CREATED="1603352094728" MODIFIED="1603352176869"/>
 </node>
 </node>
 </map>
