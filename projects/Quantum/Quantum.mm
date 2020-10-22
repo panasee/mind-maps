@@ -121,7 +121,7 @@
 <node TEXT="Quantization" POSITION="right" ID="ID_1993487371" CREATED="1603344453639" MODIFIED="1603344457948">
 <edge COLOR="#808080"/>
 <node TEXT="infinite potential well" ID="ID_826106204" CREATED="1603344486734" MODIFIED="1603344492607"/>
-<node TEXT="rotation" ID="ID_863293869" CREATED="1603344459893" MODIFIED="1603344473938">
+<node TEXT="rotation(spherical harmonic)" ID="ID_863293869" CREATED="1603344459893" MODIFIED="1603355146959">
 <node TEXT="\latex for a rigid rotor(two atom with constant distance) \\&#xa;$E_l=\frac{\hbar^2}{2I}l(l+1)\equiv hBl(l+1),\ (|m|\le l,\ l\in N)$" ID="ID_369017596" CREATED="1603344581595" MODIFIED="1603344710258">
 <node TEXT="B is called the rotational constant&#xa;( [B] is &quot;Hz&quot;)" ID="ID_38425197" CREATED="1603344722114" MODIFIED="1603344761546"/>
 <node TEXT="energy not affected by m, so it&apos;s&#xa;(2l+1)-fold degenerate" ID="ID_1926961656" CREATED="1603344769520" MODIFIED="1603344811534"/>
@@ -131,6 +131,11 @@
 <node TEXT="Hydrogen atom" POSITION="right" ID="ID_1486183753" CREATED="1603352087597" MODIFIED="1603352092818">
 <edge COLOR="#808080"/>
 <node TEXT="\latex $\psi_{nlm} = R_{nl}(r)Y_l^m(\theta,\phi)$ \\&#xa;R is radial wavefunc, while Y is spherical harmonic" ID="ID_1851564051" CREATED="1603352094728" MODIFIED="1603352176869"/>
+<node TEXT="\latex $E_n^{el} = -\frac{\mu e^4}{8h^2\epsilon_0^2}\frac1n=-\frac{13.6eV}{n^2}&#xa;,\ (n\ge l+1,|m|\le l,l\in N)$" ID="ID_1670580299" CREATED="1603355190295" MODIFIED="1603356426091">
+<node TEXT="n: principle quantum number&#xa;l: quantum number of total angular momentum&#xa;m: magnetic quantum number&#xa;(s: spin)" ID="ID_28341225" CREATED="1603356432292" MODIFIED="1603356516059"/>
+</node>
+<node TEXT="lifting of the degeneracy: for multi-electron atoms, elec-elec interaction&#xa;can seperate the energy of different states with the same n apart" ID="ID_1945703512" CREATED="1603356557505" MODIFIED="1603356648077"/>
+<node TEXT="the inert atom: energy gap between states of different n is much larger&#xa;than thermal fluctuation(26 meV at RT)" ID="ID_301192667" CREATED="1603356668855" MODIFIED="1603356730430"/>
 </node>
 </node>
 </map>
