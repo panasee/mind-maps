@@ -595,9 +595,24 @@
 </richcontent>
 <node TEXT="non-resonant photoexcitation: the light energy is not sufficient to cause electronic transition (the energy difference is given as phonons)" ID="ID_327793082" CREATED="1603005675910" MODIFIED="1603006033665">
 <node TEXT="atoms start to move from equilibrium,&#xa;which means it&apos;s a sine function" ID="ID_675819870" CREATED="1603005769645" MODIFIED="1603005909806"/>
-<node TEXT="the amplitude of the induced oscillation varies&#xa;with the polarization of the light,&#xa;following the Raman selection rule" ID="ID_1794617305" CREATED="1603005944409" MODIFIED="1603005992171">
-<node TEXT="\latex selection rule \\&#xa;$\Delta \nu_{photon} = \pm 1\cdot \nu_0$" ID="ID_1511098462" CREATED="1603274954669" MODIFIED="1603275053433">
+<node TEXT="\latex the amplitude of the induced oscillation varies\\&#xa;with the polarization of the light, following the Raman\\ selection rule $\hbar \nu_p = (\Delta E)$(only 1 level jumped)" ID="ID_1794617305" CREATED="1603005944409" MODIFIED="1603347256891">
+<node TEXT="" ID="ID_1864137274" CREATED="1603349779121" MODIFIED="1603349779126">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex harmonic oscillator \\&#xa;$\Delta \nu_{photon} = \pm 1\cdot \nu_0$" ID="ID_1511098462" CREATED="1603274954669" MODIFIED="1603347274016">
 <node TEXT="that means the photon of absorption/emission share the same frequency with the characteristic freq of solid" ID="ID_840547480" CREATED="1603275107448" MODIFIED="1603275254904"/>
+</node>
+<node TEXT="\latex rigid rotor \\&#xa;$\Delta v_p = 2B(l+1),\ (absorption)$\\&#xa;$\Delta v_p = 2Bl,\ (emission)$" ID="ID_275312899" CREATED="1603347275169" MODIFIED="1603347729995">
+<node TEXT="\latex $B\sim 100\mu m$ for hydrogen molecules, too long for heat conduction,\\&#xa; but important in the microwave range" ID="ID_9219131" CREATED="1603347334626" MODIFIED="1603347415001"/>
+</node>
+<node TEXT="" ID="ID_330703151" CREATED="1603349779113" MODIFIED="1603349785373">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex these two kinds modes often bind with each other\\&#xa;$\Delta \nu_p = \nu_0 \pm 2B(l+1)$" FOLDED="true" ID="ID_863247386" CREATED="1603349779130" MODIFIED="1603349961643" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-0.7499999776482589 pt">
+<node TEXT="molecular rotations can bring fine structures, causing spectral lines surrounding fundamental vibrational freqs" ID="ID_1360431521" CREATED="1603350202421" MODIFIED="1603350679260">
+<node TEXT="these lines often overlap due to various broadening and interaction mechanisms(e.g. thermal vibrations)&#xa;SO, the absorption is usually over certain bandwidths (&quot;bands&quot;), rather than only sharp discrete lines" ID="ID_932369996" CREATED="1603351036595" MODIFIED="1603351150778"/>
+</node>
+</node>
 </node>
 </node>
 </node>
