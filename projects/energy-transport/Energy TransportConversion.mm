@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
+<hook NAME="MapStyle" zoom="1.61">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -246,7 +246,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex Molecular crystals: dipole-dipole interaction \\&#xa;$U_A = -\frac A{r^6}$(Van der Waals potential)" ID="ID_1049259845" CREATED="1603698321430" MODIFIED="1603698422291"/>
 <node TEXT="\latex ionic crystals: metallic bonds(Coulomb potential)\\&#xa;$U_{i,A} = \sum\limits_{i\ne j}\frac{\pm q^2}{4\pi \epsilon_0r_{ij}} = -\frac{\alpha q^2}{4\pi \epsilon_0 r_0} $($\alpha$ is Madelung constant)" ID="ID_1361539426" CREATED="1603698601720" MODIFIED="1603699089242">
@@ -254,6 +253,44 @@
 </node>
 <node TEXT="\latex covalent crystals: covalent bonds, strongly directional\\&#xa;hard to get simple expression, many empirical potentials" ID="ID_548277275" CREATED="1603698837767" MODIFIED="1603699064970">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1361539426" MIDDLE_LABEL="extreme case" STARTINCLINATION="106;0;" ENDINCLINATION="76;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="electron energy states" ID="ID_854700416" CREATED="1603708486322" MODIFIED="1603708493164">
+<node TEXT="energy levels become more continuous&#xa;(broadening of the energy levels of individual atoms)" ID="ID_128796878" CREATED="1603708500538" MODIFIED="1603708557691">
+<node TEXT="to avoid the overlapping of wavefunctions" ID="ID_1509145029" CREATED="1603708569731" MODIFIED="1603708589126"/>
+</node>
+<node TEXT="Kronig-Penney model" ID="ID_523163389" CREATED="1603708661103" MODIFIED="1603708670967">
+<node TEXT="" ID="ID_1170660002" CREATED="1603709405591" MODIFIED="1603709405594">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="one-electron assumption" ID="ID_131191272" CREATED="1603708671188" MODIFIED="1603708680028"/>
+<node TEXT="rectangular periodic potential" ID="ID_1006715599" CREATED="1603708681109" MODIFIED="1603708701874"/>
+<node TEXT="" ID="ID_1129578900" CREATED="1603709405583" MODIFIED="1603709405591">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="band(dashed lines are free electron energy levels)" ID="ID_278517636" CREATED="1603709405595" MODIFIED="1603713418063">
+<hook URI="../../../../Pictures/Screenshot%20from%202020-10-26%2018-50-12.png" SIZE="0.4513916" NAME="ExternalObject"/>
+<node ID="ID_1900475747" CREATED="1603713571115" MODIFIED="1603713634481"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the energy gap usually occurs at the <b>BZ boundaries</b>:
+    </p>
+    <p>
+      results from the interference effects of electrons in periodic structures
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="upon contrast to free electron bands, the main effect of the periodic potential is to modify the band structure near BZ boundary, as a result of the diffraction of the electron waves" ID="ID_1648938108" CREATED="1603713693930" MODIFIED="1603713755652"/>
+</node>
 </node>
 </node>
 </node>
