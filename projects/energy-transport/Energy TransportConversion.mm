@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
+<hook NAME="MapStyle" zoom="1.771">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -72,7 +72,7 @@
 <edge COLOR="#00ff00"/>
 <node TEXT="collide more frequently with the boundaries/interfaces than with each other" ID="ID_944569803" CREATED="1602486218620" MODIFIED="1602486273180"/>
 </node>
-<node TEXT="phonon" POSITION="left" ID="ID_356010713" CREATED="1602488956379" MODIFIED="1602488958883">
+<node TEXT="phonon" FOLDED="true" POSITION="left" ID="ID_356010713" CREATED="1602488956379" MODIFIED="1602488958883">
 <edge COLOR="#ff00ff"/>
 <node TEXT="\latex a phonon at a specific $f$ and $\lambda$ is a wave \\&#xa;that extends through the entire crystal" ID="ID_1395722781" CREATED="1602488959306" MODIFIED="1602489242393">
 <node TEXT="\latex superposition of phonons of multiple $f$ forms wave packets having a narrow spatial extent" ID="ID_1492686595" CREATED="1602489384400" MODIFIED="1602489445972"/>
@@ -82,7 +82,7 @@
 <edge COLOR="#00ffff"/>
 <node TEXT="electron bands are typically approximated by a parabolic relationship whereas phonon bands by linear" ID="ID_1190658572" CREATED="1602490925436" MODIFIED="1602490989628"/>
 </node>
-<node TEXT="statistical distribution" POSITION="left" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1602491633232">
+<node TEXT="statistical distribution" FOLDED="true" POSITION="left" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1602491633232">
 <edge COLOR="#7c0000"/>
 <node TEXT="continuous energy levels" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1602495421023">
 <node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = Be^{-E/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1602492632862">
@@ -99,7 +99,7 @@
 <node TEXT="\latex Bose-Einstein Dist:\\&#xa;$f(E) = \frac1{\exp(\frac{h\nu}{k_BT}-1)}$" ID="ID_720086756" CREATED="1602495494404" MODIFIED="1602495535158"/>
 </node>
 </node>
-<node TEXT="classical" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
+<node TEXT="classical" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
 <edge COLOR="#00007c"/>
 <node TEXT="classical definitions" ID="ID_1858058677" CREATED="1602481934241" MODIFIED="1602495786704">
 <node TEXT="" ID="ID_186144771" CREATED="1602482213525" MODIFIED="1602482213528">
@@ -133,7 +133,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Kinetic Theory" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
+<node TEXT="Kinetic Theory" FOLDED="true" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
 <edge COLOR="#7c007c"/>
 <node TEXT="Crude version" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1602580699455">
 <node TEXT="\latex thermal conduc: &#xa;$q_x = \frac12(nEv_x)|_{x-v_x\tau}-\frac12(nEv_x)|_{x+v_x\tau}$\\&#xa;$= -(\frac{Cv^2\tau}3)\frac{dT}{dx}\Rightarrow k = \frac{Cv^2\tau}3=\frac{Cv\Lambda}3=\frac{\rho cv\Lambda}3$" ID="ID_1827217491" CREATED="1602579946661" MODIFIED="1602580736568"/>
@@ -175,7 +175,7 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
@@ -193,6 +193,68 @@
 <node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \ge$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603344890194">
 <node TEXT="Phase-breaking length --- distance needed to completely destroy the phase of heat carriers through various collision processes(usually comparable to or slightly longer than MFP)" ID="ID_275254574" CREATED="1603092715743" MODIFIED="1603093063695"/>
 <node TEXT="Coherence length --- distance beyond which waves from the same source can be imposed without considering phase info" ID="ID_1090624043" CREATED="1603093096637" MODIFIED="1603093144117"/>
+</node>
+</node>
+</node>
+<node TEXT="Solids" POSITION="right" ID="ID_1311303223" CREATED="1603697352342" MODIFIED="1603697366644">
+<edge COLOR="#0000ff"/>
+<node TEXT="SSP" ID="ID_18809256" CREATED="1603697368759" MODIFIED="1603697382381" LINK="../Quantum/Solid%20State%20Physics.mm"/>
+<node TEXT="defects" ID="ID_1631037501" CREATED="1603697383660" MODIFIED="1603697387595">
+<node TEXT="points" ID="ID_1525912175" CREATED="1603697388053" MODIFIED="1603697391305">
+<node TEXT="vacancies" ID="ID_1327717115" CREATED="1603697405822" MODIFIED="1603697426137"/>
+<node TEXT="impurities" ID="ID_1694965950" CREATED="1603697426349" MODIFIED="1603697428871"/>
+<node TEXT="interstitial defect" ID="ID_1548583671" CREATED="1603697437597" MODIFIED="1603697456829">
+<node TEXT="additional atom is inserted in the space not belonging to any allowed atomic site" ID="ID_97124419" CREATED="1603697465842" MODIFIED="1603697497103"/>
+</node>
+</node>
+<node TEXT="lines" ID="ID_95347615" CREATED="1603697391606" MODIFIED="1603697392867">
+<node TEXT="dislocations" ID="ID_805516298" CREATED="1603697502139" MODIFIED="1603697684725">
+<hook URI="attachments/dislocation.png" SIZE="0.32659152" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1544755600" CREATED="1603697703904" MODIFIED="1603697703904">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="edge dislocation" ID="ID_389967231" CREATED="1603697508698" MODIFIED="1603697514297"/>
+<node TEXT="screw dislocation" ID="ID_769840593" CREATED="1603697514434" MODIFIED="1603697519575"/>
+<node TEXT="" ID="ID_810239112" CREATED="1603697703900" MODIFIED="1603697703904">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="like vortices, they can only form loops or be terminated at the surfaces/interfaces" ID="ID_1794653055" CREATED="1603697703905" MODIFIED="1603697759291"/>
+</node>
+</node>
+</node>
+<node TEXT="planes/planar defects" ID="ID_1725733641" CREATED="1603697394148" MODIFIED="1603697918352">
+<node TEXT="grain boundaries between two small&#xa;crystalline regions inside a crystal" ID="ID_379527600" CREATED="1603697908877" MODIFIED="1603697954609"/>
+</node>
+</node>
+<node TEXT="force interaction between atoms" ID="ID_1490530150" CREATED="1603698110288" MODIFIED="1603698128420">
+<node TEXT="repulsive potential&#xa;empirical expressions" ID="ID_1213040898" CREATED="1603698128505" MODIFIED="1603698148075">
+<node TEXT="\latex Lennard-Jones potential \\&#xa;$U_R(r) = \frac B{r^{12}}$" ID="ID_888027068" CREATED="1603698151255" MODIFIED="1603698189148"/>
+<node TEXT="\latex Born-Mayer potential\\&#xa;$U_R(r) = U_0e^{-r/\zeta}$" ID="ID_400344214" CREATED="1603698190959" MODIFIED="1603698230814"/>
+</node>
+<node ID="ID_31580609" CREATED="1603698274973" MODIFIED="1603698311738"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      long-range attractive interaction
+    </p>
+    <p>
+      <b>differences between various crystals</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex Molecular crystals: dipole-dipole interaction \\&#xa;$U_A = -\frac A{r^6}$(Van der Waals potential)" ID="ID_1049259845" CREATED="1603698321430" MODIFIED="1603698422291"/>
+<node TEXT="\latex ionic crystals: metallic bonds(Coulomb potential)\\&#xa;$U_{i,A} = \sum\limits_{i\ne j}\frac{\pm q^2}{4\pi \epsilon_0r_{ij}} = -\frac{\alpha q^2}{4\pi \epsilon_0 r_0} $($\alpha$ is Madelung constant)" ID="ID_1361539426" CREATED="1603698601720" MODIFIED="1603699089242">
+<node TEXT="Free electrons:&#xa;electrons are delocalized" ID="ID_1493590368" CREATED="1603699126882" MODIFIED="1603699153950"/>
+</node>
+<node TEXT="\latex covalent crystals: covalent bonds, strongly directional\\&#xa;hard to get simple expression, many empirical potentials" ID="ID_548277275" CREATED="1603698837767" MODIFIED="1603699064970">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1361539426" MIDDLE_LABEL="extreme case" STARTINCLINATION="106;0;" ENDINCLINATION="76;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
 </node>
 </node>
 </node>
