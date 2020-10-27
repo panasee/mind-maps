@@ -269,8 +269,8 @@
 <node TEXT="" ID="ID_1129578900" CREATED="1603709405583" MODIFIED="1603709405591">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="band(dashed lines are free electron energy levels)" ID="ID_278517636" CREATED="1603709405595" MODIFIED="1603713418063">
-<hook URI="../../../../Pictures/Screenshot%20from%202020-10-26%2018-50-12.png" SIZE="0.4513916" NAME="ExternalObject"/>
+<node TEXT="\latex band(dashed lines-&gt;free electron),due to Bloch\\ theorem, the right is reduced-zone representation\\&#xa;$b \rightarrow 0, U_0\rightarrow +\infty$(meaning inserting infinite potential with infinitesmall width)" ID="ID_278517636" CREATED="1603709405595" MODIFIED="1603775800412">
+<hook URI="attachments/bands-KP.png" SIZE="0.405914" NAME="ExternalObject"/>
 <node ID="ID_1900475747" CREATED="1603713571115" MODIFIED="1603713634481"><richcontent TYPE="NODE">
 
 <html>
@@ -286,10 +286,57 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="upon contrast to free electron bands, the main effect of the periodic potential is to modify the band structure near BZ boundary, as a result of the diffraction of the electron waves" ID="ID_1648938108" CREATED="1603713693930" MODIFIED="1603713755652"/>
+<node TEXT="electron is delocalized, but the scattering due to the distortion of potential can reduce the spatial extension" ID="ID_1669555612" CREATED="1603776472004" MODIFIED="1603776522292">
+<node TEXT="yet still the MFP can be thousands of angs,&#xa;so often treat electrons as a gas and neglect the ions" ID="ID_1316686677" CREATED="1603778319020" MODIFIED="1603778361031"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Born-von Karman periodic boundary condition&#xa;(two end points are overlapped to form a lattice loop)" ID="ID_1998327376" CREATED="1603775943598" MODIFIED="1603775987372">
+<node TEXT="\latex $\Psi(x)=\Psi(x)\exp[ikN(a+b)]$\\&#xa;$k = \frac{2\pi n}{N(a+b)} = \frac{2\pi n}L (n=0,\pm1,\pm2,\cdots)$" ID="ID_1276653131" CREATED="1603776096020" MODIFIED="1603776216806">
+<node TEXT="\latex $\lambda = \frac{2\pi}k = \frac Ln \ge \frac LN$(as to the symmetry, n is usually positive)\\&#xa;$k$ has only N diff values $\Rightarrow$ \textbf{each band can contain upto $2N$ electrons(1-D case)}" LOCALIZED_STYLE_REF="default" ID="ID_158540337" CREATED="1603778450943" MODIFIED="1603778857833">
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="topmost energy level (not band) filled with electrons at 0K is Fermi level" ID="ID_129463336" CREATED="1603778866000" MODIFIED="1603778891687"/>
+</node>
+</node>
+</node>
+<node TEXT="the meaning of the k in Bloch theorem" ID="ID_1736777452" CREATED="1603776259964" MODIFIED="1603776271224">
+<node TEXT="\latex $\hbar k$ is not the momentum\\&#xa;momentum should be calculated from $\hat P$" ID="ID_1042178964" CREATED="1603776299971" MODIFIED="1603776355958"/>
+<node TEXT="\latex in many ways $\hbar k$ behaves as the momentum,&#xa;\\ thus it&apos;s called the \textbf{crystal momentum}" ID="ID_1111403881" CREATED="1603776380204" MODIFIED="1603776427453"/>
+</node>
+<node TEXT="the categorization of materials(gap diff between insulator and semiconductor is 3eV)" ID="ID_258218813" CREATED="1603776629854" MODIFIED="1603778978763">
+<hook URI="attachments/categorization.png" SIZE="0.51591414" NAME="ExternalObject"/>
+</node>
+<node TEXT="real materials(multiple dimensions)" ID="ID_1637705697" CREATED="1603779097295" MODIFIED="1603779120118">
+<node TEXT="the potential and periodicity is diff in each direction, so the bands in each direction are diff, so they are plotted along diff directions, especially major directions" ID="ID_1549290741" CREATED="1603779151509" MODIFIED="1603779316872"/>
+<node TEXT="the values and locations of energy gap" ID="ID_1752454715" CREATED="1603779568106" MODIFIED="1603779593935">
+<node TEXT="" ID="ID_1167997876" CREATED="1603780145743" MODIFIED="1603780145743">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="direct gap" ID="ID_475906067" CREATED="1603779594522" MODIFIED="1603779598398">
+<node TEXT="the minima of the conduction and valence&#xa;bands occur at the same wavevector" ID="ID_470466282" CREATED="1603780067688" MODIFIED="1603780113139"/>
+</node>
+<node TEXT="indirect gap" ID="ID_40876489" CREATED="1603779598610" MODIFIED="1603779601726">
+<node TEXT="two minima do not occur at&#xa;the same wavevector" ID="ID_1977203801" CREATED="1603780117695" MODIFIED="1603780134908"/>
+</node>
+<node TEXT="" ID="ID_325882275" CREATED="1603780145739" MODIFIED="1603780145742">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="major affect their optical properties" ID="ID_1264132122" CREATED="1603780145744" MODIFIED="1603780163033">
+<node TEXT="direct bandgap semiconductors are&#xa;more efficient photon emitters" ID="ID_661157001" CREATED="1603780204204" MODIFIED="1603780232865"/>
+<node TEXT="most electronic devices are built on indirect&#xa;bandgap semiconductors(Silicon)" ID="ID_1339602425" CREATED="1603780233540" MODIFIED="1603780273073"/>
+</node>
+</node>
+</node>
+<node TEXT="for semiconductors, most electrons are close to the minimum of the conduction band while holes close to the maximum of the valence band" ID="ID_1607063291" CREATED="1603780410498" MODIFIED="1603780478191">
+<node TEXT="\latex could express the band structure\\&#xa;near the minima analytically like\\&#xa;$E-E_c = \frac{\hbar^2}2(\frac{k_x^2}{m_{11}}+\frac{k_y^2}{m_{22}}+\frac{k_z^2}{m_{33}})$\\&#xa;(this is a simplified version, as the $m_{ij}$ is a tensor)" ID="ID_1956797996" CREATED="1603780489071" MODIFIED="1603782288603">
+<node TEXT="\latex effective mass: $m_{ij} = \frac{\hbar^2}{(\partial^2 E/\partial k_i\partial k_j)}$\\&#xa;(the name comes from $E=\hbar^2k^2/2m$) \\&#xa;using it, can \textbf{treat the motion of electrons/holes in the conduction/valence band as free ones}" ID="ID_920648057" CREATED="1603781998839" MODIFIED="1603782429010"/>
+<node TEXT="by setting E as a constant, we could plot the constant energy surface in k-space" ID="ID_1131976700" CREATED="1603782440099" MODIFIED="1603782523331">
+<hook URI="attachments/constant-energy-k-space.png" SIZE="0.19911376" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 </node>
