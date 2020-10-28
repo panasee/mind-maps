@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.61">
+<hook NAME="MapStyle" zoom="1.464">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -297,9 +297,10 @@
 </node>
 <node TEXT="Born-von Karman periodic boundary condition&#xa;(two end points are overlapped to form a lattice loop)" ID="ID_1998327376" CREATED="1603775943598" MODIFIED="1603775987372">
 <node TEXT="\latex $\Psi(x)=\Psi(x)\exp[ikN(a+b)]$\\&#xa;$k = \frac{2\pi n}{N(a+b)} = \frac{2\pi n}L (n=0,\pm1,\pm2,\cdots)$" ID="ID_1276653131" CREATED="1603776096020" MODIFIED="1603776216806">
-<node TEXT="\latex $\lambda = \frac{2\pi}k = \frac Ln \ge \frac LN$(as to the symmetry, n is usually positive)\\&#xa;$k$ has only N diff values $\Rightarrow$ \textbf{each band can contain upto $2N$ electrons(1-D case)}" LOCALIZED_STYLE_REF="default" ID="ID_158540337" CREATED="1603778450943" MODIFIED="1603778857833">
+<node TEXT="\latex $\lambda = \frac{2\pi}k = \frac Ln \ge \frac L{N/2}$(can&apos;t be smaller than twice the spacing)\\&#xa;also understood as $k$ must in the 1st BZ: $|k|=\frac{2\pi |n|}L &lt;/\le \frac12\frac{2\pi}{L/N}$\\&#xa;$k$ has only N diff values $\Rightarrow$ \textbf{each band can contain upto $2N$ electrons(1-D case)}" LOCALIZED_STYLE_REF="default" ID="ID_158540337" CREATED="1603778450943" MODIFIED="1603870433923">
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="topmost energy level (not band) filled with electrons at 0K is Fermi level" ID="ID_129463336" CREATED="1603778866000" MODIFIED="1603778891687"/>
+<node TEXT="\latex the state volume is \frac{2\pi}{L}" ID="ID_1138553529" CREATED="1603875944443" MODIFIED="1603875989242"/>
 </node>
 </node>
 </node>
@@ -336,8 +337,81 @@
 <node TEXT="\latex effective mass: $m_{ij} = \frac{\hbar^2}{(\partial^2 E/\partial k_i\partial k_j)}$\\&#xa;(the name comes from $E=\hbar^2k^2/2m$) \\&#xa;using it, can \textbf{treat the motion of electrons/holes in the conduction/valence band as free ones}" ID="ID_920648057" CREATED="1603781998839" MODIFIED="1603782429010"/>
 <node TEXT="by setting E as a constant, we could plot the constant energy surface in k-space" ID="ID_1131976700" CREATED="1603782440099" MODIFIED="1603782523331">
 <hook URI="attachments/constant-energy-k-space.png" SIZE="0.19911376" NAME="ExternalObject"/>
+<node TEXT="this could be used to cal DOS" ID="ID_106434521" CREATED="1603876287377" MODIFIED="1603876297795"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="degeneracy" ID="ID_1046549083" CREATED="1603875807210" MODIFIED="1603875814284">
+<node TEXT="\latex for the symmetry of $\pm k$\\&#xa;and the symmetry of spin $\pm \frac12$\\&#xa;the degeneracy for electrons energy level is \textbf4" ID="ID_1112798139" CREATED="1603875814538" MODIFIED="1603875924322"/>
+</node>
+<node ID="ID_1636787215" CREATED="1603876735357" MODIFIED="1603878510942"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      electron-DOS: defined as the no. of states
+    </p>
+    <p>
+      per unit interval of xx and <b>per unit volume</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex consider a spherical parabolic band\\&#xa;$E-E_c = \frac{\hbar^2}{2m^*}(k_x^2+k_y^2+k_z^2) = \frac{\hbar^2 k^2}{2m^*}$" ID="ID_904589409" CREATED="1603876878595" MODIFIED="1603877020642">
+<node TEXT="\latex the no. of states between $k$ and $k+dk$ is\\&#xa;$2\times\frac{4\pi k^2dk}{(2\pi/L)^3} = \frac{Vk^2dk}{\pi^2} \equiv VD(k)dk$ (2 is from the spin)" ID="ID_1568410929" CREATED="1603876746028" MODIFIED="1603878122899">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_683482714" STARTINCLINATION="54;11;" ENDINCLINATION="56;1;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="here lies a continuous assumption, which is valid as long as the no. of atoms is large enough" ID="ID_1970826724" CREATED="1603877039617" MODIFIED="1603877071700"/>
+<node TEXT="\latex $D(k) = \frac{k^2}{\pi^2}$\\&#xa;note: the $k$ here is the magnitude" ID="ID_852325707" CREATED="1603877349476" MODIFIED="1603877409626"/>
+</node>
+<node TEXT="\latex put  $E-E_c= \frac{\hbar^2 k^2}{2m^*}$ into it,\\&#xa;get: $D(E) = \frac1{2\pi^2}(\frac{2m^*}{\hbar^2})^{3/2}(E-E_c)^{1/2}$" ID="ID_683482714" CREATED="1603877450049" MODIFIED="1603878098268">
+<node TEXT="\latex to evaluate fermi level, (usually set $E_c = 0$)\\&#xa;$n = \int_{E_c}^{E_f}D(E)dE=\frac1{3\pi^2}(\frac{2m^*}{\hbar^2})^{3/2}(E_f-E_c)^{3/2}$\\&#xa;so the \textbf{electron density}\ and \textbf{effective mass}\  are needed" ID="ID_1752829072" CREATED="1603878207274" MODIFIED="1603878446067"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="lattice vibration and phonon" ID="ID_1580014273" CREATED="1603869396206" MODIFIED="1603869412706">
+<node TEXT="\latex $m\frac{d^2u_j}{dt^2} = K(u_{j+1}+u_{j-1}-2u_j)$\\&#xa;special form of the differential wave equation\\&#xa;$m\frac{\partial^2 u}{\partial t^2} = Ka^2\frac{\partial^2 u}{\partial x^2}$" ID="ID_1898796583" CREATED="1603869419215" MODIFIED="1603869531675">
+<node TEXT="when using Schrodinger Equation to solve this, the dispersion is the same, but the energy is quantized" ID="ID_202235945" CREATED="1603871030218" MODIFIED="1603871066327"/>
+</node>
+<node TEXT="\latex similar to electrons, $k = \frac{2\pi n}{Na}(n=0,\pm1,\cdots,\pm \frac N2; N\ values)$" ID="ID_1762692575" CREATED="1603870448922" MODIFIED="1603870660491"/>
+<node TEXT="Debye approximation:&#xa;assumes a linear dispersion relation" ID="ID_528273222" CREATED="1603870920548" MODIFIED="1603870946384">
+<node TEXT="valid at low frequencies" ID="ID_1557660941" CREATED="1603870974386" MODIFIED="1603870985961"/>
+</node>
+<node TEXT="analogy between phonons and photons" ID="ID_972783468" CREATED="1603874405200" MODIFIED="1603874419730">
+<node TEXT="in most cases, the phonon scattering is so strong,&#xa;so the MFP is short" ID="ID_858406401" CREATED="1603874440918" MODIFIED="1603874474075"/>
+<node TEXT="in low temp/very thin films, internal scattering doesn&apos;t occur as often, can cal heat conduc as radiation" ID="ID_1116214707" CREATED="1603874500237" MODIFIED="1603874550442"/>
+</node>
+<node TEXT="like photons, no mass at rest" ID="ID_424282190" CREATED="1603874759612" MODIFIED="1603874790585"/>
+<node TEXT="diatomic 1-D model" ID="ID_1005586679" CREATED="1603874896047" MODIFIED="1603874904809">
+<node TEXT="long wavelength limit -&gt; the vibration of 2 atoms&#xa;can be in-phase/out-of-phase" ID="ID_135573219" CREATED="1603874909616" MODIFIED="1603874984415">
+<node TEXT="the out-of-phase vib need more energy" ID="ID_1455599772" CREATED="1603874984974" MODIFIED="1603874996118">
+<node TEXT="the high-frequency phonons can interact with electromagnetic wave more easily --&gt; optical branch" ID="ID_629283793" CREATED="1603875021166" MODIFIED="1603875066767"/>
+</node>
+</node>
+</node>
+<node TEXT="phonon waves category" ID="ID_1199423952" CREATED="1603875171246" MODIFIED="1603875185269">
+<node TEXT="acoustical modes" ID="ID_794306141" CREATED="1603875185852" MODIFIED="1603875196840">
+<node TEXT="transverse mode x2" ID="ID_471276173" CREATED="1603875197461" MODIFIED="1603875310562"/>
+<node TEXT="longitudinal mode x1" ID="ID_1031894507" CREATED="1603875209637" MODIFIED="1603875312638"/>
+</node>
+<node TEXT="optical modes" ID="ID_923915834" CREATED="1603875227107" MODIFIED="1603875230616">
+<node TEXT="transverse modes x2(m-1)" ID="ID_559814453" CREATED="1603875231187" MODIFIED="1603875314182"/>
+<node TEXT="longitudinal modes x(m-1)" ID="ID_663220955" CREATED="1603875246659" MODIFIED="1603875316359"/>
+</node>
+</node>
+<node TEXT="phonon-DOS" ID="ID_1152471972" CREATED="1603878551881" MODIFIED="1603878556385">
+<node TEXT="diff from electron-DOS:&#xa;no spins, polarizations/branches instead" ID="ID_204209922" CREATED="1603878560017" MODIFIED="1603878586144"/>
+<node TEXT="\latex  Debye approximation\\&#xa;$\omega = v_D|\vec k| = v_Dk$" ID="ID_1856202740" CREATED="1603878594833" MODIFIED="1603878636636">
+<node TEXT="the state volume is the same with that of electrons" ID="ID_424843207" CREATED="1603878789374" MODIFIED="1603878807430"/>
+<node TEXT="constructed isotropic crystal(the same v_D):&#xa;if the original one is anisotropic, then use diff constant for diff directions(equivalent lattice constant)" ID="ID_1342930111" CREATED="1603879074495" MODIFIED="1603879184474">
+<node TEXT="the total no. of states in the isotropic crystal&#xa; should equal that of a real crystal" ID="ID_1200326939" CREATED="1603879229124" MODIFIED="1603879269562"/>
+</node>
+<node TEXT="\latex $D(\omega) = \frac{dN}{Vd\omega}=3\frac{4\pi k^2dk/(2\pi/L)^3}{Vd\omega} = \frac{3\omega^2}{2\pi^2v_D^3}$\\&#xa;3 means polarizations for acoustic phonons" ID="ID_356864295" CREATED="1603878809420" MODIFIED="1603878943091"/>
 </node>
 </node>
 </node>

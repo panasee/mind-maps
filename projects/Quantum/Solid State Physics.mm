@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1600865116102" STYLE="oval">
+<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1603869185469" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.344">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,7 +64,17 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="晶体结构" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
+<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1603869185466" HGAP_QUANTITY="38.2499988600612 pt" VSHIFT_QUANTITY="-154.4999953955413 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<hook NAME="FreeNode"/>
+<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
+<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
+</node>
+<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
+<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
+</node>
+</node>
+<node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
 <node TEXT="具有所属点阵点群的全部对称性" ID="ID_138178734" CREATED="1561811582217" MODIFIED="1561811599122"/>
@@ -333,16 +343,6 @@
 <node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0 \&amp; 2\mathbf k\cdot \mathbf G=G^2$\\&#xa;$\Rightarrow \mathbf k \cdot (\frac \mathbf G2)=(\frac G2)^2$" FOLDED="true" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592535919318">
 <node TEXT="即k在G/2上的投影等于G/2的模，因此所有落在Brillouin区（第n都可以）边界上的k都满足衍射条件" ID="ID_1171573099" CREATED="1592535931820" MODIFIED="1592536128071"/>
 </node>
-</node>
-</node>
-<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1600865116100" HGAP_QUANTITY="27.749999172985575 pt" VSHIFT_QUANTITY="-294.7499912157657 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
-<hook NAME="FreeNode"/>
-<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
-<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
-</node>
-<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
-<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
 </node>
 </node>
 <node TEXT="准晶态结构:具有长程取向序&#xa;而没有长程平移对称序" FOLDED="true" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
