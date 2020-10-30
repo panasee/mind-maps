@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Tricks for Math" FOLDED="false" ID="ID_1535341287" CREATED="1567909846452" MODIFIED="1567909871994" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="1.21">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $\nabla$" POSITION="right" ID="ID_1713858765" CREATED="1567909873501" MODIFIED="1567909923639">
 <edge COLOR="#ff0000"/>
 <node TEXT="复合运算" ID="ID_981798918" CREATED="1567935479872" MODIFIED="1567935488405">
@@ -123,6 +123,9 @@
 </node>
 <node TEXT="\latex Leibniz&apos;s rule(变限积分)\\&#xa;$\frac{d}{dx}\int_{a(x)}^{b(x)}f(x,t)dt=f(x,b(x))\cdot \frac{d}{dx}b(x)-f(x,a(x))\cdot \frac{d}{dx}a(x)\\+\int_{a(x)}^{b(x)}\frac{\partial }{\partial x}f(x,t)dt$" POSITION="left" ID="ID_70083636" CREATED="1594478785091" MODIFIED="1594480553177">
 <edge COLOR="#7c007c"/>
+</node>
+<node TEXT="\latex stirling approximation \\&#xa;$\ln N!\approx N\ln N-N (N\rightarrow +\infty)$" POSITION="right" ID="ID_1089951867" CREATED="1604063407286" MODIFIED="1604063527931">
+<edge COLOR="#007c7c"/>
 </node>
 </node>
 </map>

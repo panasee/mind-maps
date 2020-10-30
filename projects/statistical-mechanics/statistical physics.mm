@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="statistical physics&#xa;(研究平衡态(分布稳定不变)系统)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1601974801116"><hook NAME="MapStyle" zoom="2.147">
+<node TEXT="statistical physics&#xa;(研究平衡态(分布稳定不变)系统)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1601974801116"><hook NAME="MapStyle" zoom="1.213">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="定域子系----Maxwell-Boltzmann Distribution" FOLDED="true" POSITION="left" ID="ID_1308663839" CREATED="1548940824101" MODIFIED="1548941137330">
 <edge COLOR="#7c0000"/>
 <hook EQUATION="W(\{a_\lambda\})=\frac{N!}{\prod_\lambda a_\lambda!}\prod_\lambda g_\lambda^{a_\lambda}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -282,6 +282,45 @@
 <node TEXT="\latex 总动量和角动量守恒下采用lagrange乘子法\\&#xa;$\frac \partial{\partial P}\sum\limits_a [S_a+\vec a\cdot \vec P+\vec b\cdot (\vec r_a\times \vec P)]=0$ \\&#xa;得$\vec v_a =T\vec a+T\vec b\times \vec r_a \equiv \vec u+ \Omega\times \vec r_a$ \\&#xa;(上述仅为必要非充分条件,二阶导数条件给出温度必须为正数)" ID="ID_365792355" CREATED="1559705668577" MODIFIED="1559706385952">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1669423611" STARTINCLINATION="-238;46;" ENDINCLINATION="-146;7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="乘子系数为常数(整个系统共用),因此热力平衡的系统&#xa;只能做匀速直线运动和匀角速度转动" ID="ID_1237980335" CREATED="1559705929706" MODIFIED="1559706068870"/>
+</node>
+</node>
+</node>
+<node TEXT="ensembles(系综):&#xa; 满足系统宏观约束的微观状态的集合&#xa;(这些状态: (simply) accessible quantum states)" POSITION="left" ID="ID_1404148645" CREATED="1604052340557" MODIFIED="1604056767028">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1231133404" STARTINCLINATION="843;0;" ENDINCLINATION="843;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<edge COLOR="#808080"/>
+<node TEXT="系统的时间演化难以计算,因此使用系综进行统计分析" ID="ID_981989250" CREATED="1604052357261" MODIFIED="1604052555611"/>
+<node TEXT="分类" ID="ID_380404074" CREATED="1604053085169" MODIFIED="1604054509766">
+<node TEXT="微正则系综 (Microcanonical Ensemble)&#xa;宏观约束(U,V,N) ---&gt; 孤立系统" ID="ID_1573922568" CREATED="1604054512334" MODIFIED="1604056868923">
+<node TEXT="fundamental postulate(principle of equal probability): 孤立宏观系统所有可能微观状态等概率&#xa;(samples every accessible quantum state with equal probability)" ID="ID_530420616" CREATED="1604054942402" MODIFIED="1604055070505"/>
+<node TEXT="\latex $\langle X\rangle = \sum_{s=1}^\Omega P(s)X(s) = \sum_{s=1}^\Omega X(s)/\Omega$ &#xa;\\(该公式极少用来计算宏观量)" ID="ID_1021835000" CREATED="1604055220379" MODIFIED="1604055457667"/>
+<node TEXT="\latex Boltzmann principle $S=k_B\ln \Omega$\\&#xa;(搭建系综与宏观量的桥梁)" ID="ID_1168842419" CREATED="1604055385894" MODIFIED="1604055482122">
+<node TEXT="\latex $S=S(U,V,N)$ 全微分展开,又有经典热力学公式\\&#xa;$dU=TdS-pdV+\mu dN$,可以得到S与其他量的关系&#xa;\\$\frac1T=(\frac{\partial S}{\partial U})_{V,N},\frac pT=(\frac{\partial S}{\partial V})_{U,N},-\frac\mu T=(\frac{\partial S}{\partial N})_{U,V}$" ID="ID_25951184" CREATED="1604055614455" MODIFIED="1604055808604">
+<node TEXT="所有热力学量可以通过S(U,V,N)/U(S,V,N)导出,&#xa;因此称其为热力学势 (thermodynamic potential)" ID="ID_1512273324" CREATED="1604055850281" MODIFIED="1604057410694"/>
+</node>
+</node>
+</node>
+<node TEXT="正则系综 (Canonical Ensemble)&#xa;宏观约束(T,V,N) ---&gt; 热库 (in contact with a thermal reservoir)" ID="ID_993865292" CREATED="1604054547822" MODIFIED="1604056908310">
+<node TEXT="若将系统与热库结合,可构成微正则系综,由于系统的每个微观状态对应的&#xa;热库微观状态数可能不同,因此正则系综各微观状态不具有等概率性" ID="ID_266048274" CREATED="1604057272950" MODIFIED="1604057342643"/>
+<node TEXT="\latex 能量对应的微观状态概率&#xa;\\$P(E_i) = \exp(\frac F{k_BT})\exp(-\frac{E_i}{k_BT})$" ID="ID_1547380304" CREATED="1604057423482" MODIFIED="1604057546552">
+<node TEXT="F=U-TS=F(T,V,N) 也是一个热力学势,&#xa;称为Helmholtz自由能" ID="ID_292303341" CREATED="1604057551095" MODIFIED="1604057601046"/>
+<node TEXT="\latex 根据概率归一性可得\\&#xa;$F=-k_BT\ln Z ,(Z=\sum_i\exp(-\frac{E_i}{k_BT}))$" ID="ID_1811311117" CREATED="1604057731228" MODIFIED="1604059139623">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="181;-38;" ENDINCLINATION="180;-33;" STARTARROW="NONE" ENDARROW="NONE"/>
+<node TEXT="Z被称为正则配分函数&#xa;(canonical partition function)" ID="ID_1435718267" CREATED="1604057801508" MODIFIED="1604057832892"/>
+<node TEXT="\latex 引入Z后,状态概率表示为\\&#xa;$P(E_i)=e^{-E_i/k_BT}/Z$" ID="ID_234881534" CREATED="1604057874802" MODIFIED="1604057949745">
+<node TEXT="\latex $\exp(-E_i/k_BT)$被称为Boltzmann factor\\&#xa;该因子频繁出现在多个领域当中" ID="ID_291638317" CREATED="1604057987136" MODIFIED="1604058055431"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="巨正则系综 (Grand canonical Ensemble)&#xa;宏观约束(T,V,\mu)" ID="ID_1432860112" CREATED="1604054564188" MODIFIED="1604058132158">
+<node TEXT="\latex 能量和粒子数对应的微观状态概率\\&#xa;$P(E_i,N_i) = \frac{\exp(\frac{N_i\mu-E_i}{k_BT})}{\mathcal Z}$" ID="ID_609385361" CREATED="1604058254811" MODIFIED="1604058356898">
+<node TEXT="\latex $\exp(\frac{N_i\mu-E_i}{k_BT})$被称为\\&#xa;Gibbs factor" ID="ID_257051138" CREATED="1604058406337" MODIFIED="1604058445493"/>
+<node TEXT="\latex 巨正则配分函数 \\&#xa;$\mathcal Z(T,V,\mu) = \sum_{N_i}\sum_{E_i}\exp(\frac{N_i\mu-E_i}{k_BT}) = \sum_{N_i}\gamma^{N_i}Z_i$" ID="ID_1351853437" CREATED="1604058456442" MODIFIED="1604058551274">
+<node TEXT="Z是正则配分函数" ID="ID_759060386" CREATED="1604058834331" MODIFIED="1604058850696"/>
+<node TEXT="\latex $\gamma=\exp(\mu/k_BT)$" ID="ID_1818185339" CREATED="1604058851049" MODIFIED="1604058865635"/>
+</node>
+<node TEXT="\latex $G(T,V,\mu) = U-TS-\mu N = -k_BT\ln \mathcal Z$\\&#xa;也是热力学势,被称为Gibbs自由能\\&#xa;(U,N为\textbf{平均}能量和粒子数)" ID="ID_1296813123" CREATED="1604058596445" MODIFIED="1604058994378"/>
+</node>
 </node>
 </node>
 </node>

@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.464">
+<hook NAME="MapStyle" zoom="1.331">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,43 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
 </node>
-<node TEXT="analog between heat carriers with photons" POSITION="right" ID="ID_1217227979" CREATED="1602486167813" MODIFIED="1602486187233">
-<edge COLOR="#00ff00"/>
-<node TEXT="collide more frequently with the boundaries/interfaces than with each other" ID="ID_944569803" CREATED="1602486218620" MODIFIED="1602486273180"/>
-</node>
-<node TEXT="phonon" FOLDED="true" POSITION="left" ID="ID_356010713" CREATED="1602488956379" MODIFIED="1602488958883">
-<edge COLOR="#ff00ff"/>
-<node TEXT="\latex a phonon at a specific $f$ and $\lambda$ is a wave \\&#xa;that extends through the entire crystal" ID="ID_1395722781" CREATED="1602488959306" MODIFIED="1602489242393">
-<node TEXT="\latex superposition of phonons of multiple $f$ forms wave packets having a narrow spatial extent" ID="ID_1492686595" CREATED="1602489384400" MODIFIED="1602489445972"/>
-</node>
-</node>
-<node TEXT="dispersion" POSITION="right" ID="ID_1540932344" CREATED="1602490922346" MODIFIED="1602490924894">
-<edge COLOR="#00ffff"/>
-<node TEXT="electron bands are typically approximated by a parabolic relationship whereas phonon bands by linear" ID="ID_1190658572" CREATED="1602490925436" MODIFIED="1602490989628"/>
-</node>
-<node TEXT="statistical distribution" FOLDED="true" POSITION="left" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1602491633232">
-<edge COLOR="#7c0000"/>
-<node TEXT="continuous energy levels" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1602495421023">
-<node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = Be^{-E/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1602492632862">
-<node TEXT="for monatomic gas, E is purely kinetic&#xa;then we get Maxwell Dist" ID="ID_1725828615" CREATED="1602492581767" MODIFIED="1602492628847">
-<node TEXT="\latex $\langle E\rangle = \frac32k_BT$" ID="ID_1083533701" CREATED="1602492886321" MODIFIED="1602492910530">
-<node TEXT="\latex equipartition theorem: each quadratic term \\&#xa;of the molecular energy contributes $\frac12k_BT$" ID="ID_819932556" CREATED="1602493079881" MODIFIED="1602493173672"/>
-<node TEXT="\latex could use it to approximate the average velocity\\&#xa;$\frac12mv^2 = \frac32k_BT$ (slightly higher than actual value)" ID="ID_317240968" CREATED="1602495231579" MODIFIED="1602495301817"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="discrete energy levels" ID="ID_1126936035" CREATED="1602495411717" MODIFIED="1602495446334">
-<node TEXT="\latex Fermi-Dirac Dist:\\&#xa;$f(E) = \frac1{\exp(\frac{E-\mu}{k_BT}+1)}$" ID="ID_1362238152" CREATED="1602495447476" MODIFIED="1602495532398"/>
-<node TEXT="\latex Bose-Einstein Dist:\\&#xa;$f(E) = \frac1{\exp(\frac{h\nu}{k_BT}-1)}$" ID="ID_720086756" CREATED="1602495494404" MODIFIED="1602495535158"/>
-</node>
-</node>
-<node TEXT="classical" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
+<node TEXT="classical" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
 <edge COLOR="#00007c"/>
 <node TEXT="classical definitions" ID="ID_1858058677" CREATED="1602481934241" MODIFIED="1602495786704">
 <node TEXT="" ID="ID_186144771" CREATED="1602482213525" MODIFIED="1602482213528">
@@ -196,7 +165,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Solids" POSITION="right" ID="ID_1311303223" CREATED="1603697352342" MODIFIED="1603697366644">
+<node TEXT="Solids" FOLDED="true" POSITION="right" ID="ID_1311303223" CREATED="1603697352342" MODIFIED="1603697366644">
 <edge COLOR="#0000ff"/>
 <node TEXT="SSP" ID="ID_18809256" CREATED="1603697368759" MODIFIED="1603697382381" LINK="../Quantum/Solid%20State%20Physics.mm"/>
 <node TEXT="defects" ID="ID_1631037501" CREATED="1603697383660" MODIFIED="1603697387595">
@@ -256,7 +225,7 @@
 </node>
 </node>
 </node>
-<node TEXT="electron energy states" ID="ID_854700416" CREATED="1603708486322" MODIFIED="1603708493164">
+<node TEXT="electron energy states" FOLDED="true" ID="ID_854700416" CREATED="1603708486322" MODIFIED="1603708493164">
 <node TEXT="energy levels become more continuous&#xa;(broadening of the energy levels of individual atoms)" ID="ID_128796878" CREATED="1603708500538" MODIFIED="1603708557691">
 <node TEXT="to avoid the overlapping of wavefunctions" ID="ID_1509145029" CREATED="1603708569731" MODIFIED="1603708589126"/>
 </node>
@@ -360,7 +329,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex consider a spherical parabolic band\\&#xa;$E-E_c = \frac{\hbar^2}{2m^*}(k_x^2+k_y^2+k_z^2) = \frac{\hbar^2 k^2}{2m^*}$" ID="ID_904589409" CREATED="1603876878595" MODIFIED="1603877020642">
 <node TEXT="\latex the no. of states between $k$ and $k+dk$ is\\&#xa;$2\times\frac{4\pi k^2dk}{(2\pi/L)^3} = \frac{Vk^2dk}{\pi^2} \equiv VD(k)dk$ (2 is from the spin)" ID="ID_1568410929" CREATED="1603876746028" MODIFIED="1603878122899">
@@ -377,6 +345,9 @@
 <node TEXT="lattice vibration and phonon" ID="ID_1580014273" CREATED="1603869396206" MODIFIED="1603869412706">
 <node TEXT="\latex $m\frac{d^2u_j}{dt^2} = K(u_{j+1}+u_{j-1}-2u_j)$\\&#xa;special form of the differential wave equation\\&#xa;$m\frac{\partial^2 u}{\partial t^2} = Ka^2\frac{\partial^2 u}{\partial x^2}$" ID="ID_1898796583" CREATED="1603869419215" MODIFIED="1603869531675">
 <node TEXT="when using Schrodinger Equation to solve this, the dispersion is the same, but the energy is quantized" ID="ID_202235945" CREATED="1603871030218" MODIFIED="1603871066327"/>
+<node TEXT="\latex a phonon at a specific $f$ and $\lambda$ is a wave \\ that extends through the entire crystal" ID="ID_1461088244" CREATED="1604047190085" MODIFIED="1604047205897">
+<node TEXT="\latex superposition of phonons of multiple $f$ forms wave packets having a narrow spatial extent" ID="ID_1920140876" CREATED="1604047208119" MODIFIED="1604047214343"/>
+</node>
 </node>
 <node TEXT="\latex similar to electrons, $k = \frac{2\pi n}{Na}(n=0,\pm1,\cdots,\pm \frac N2; N\ values)$" ID="ID_1762692575" CREATED="1603870448922" MODIFIED="1603870660491"/>
 <node TEXT="Debye approximation:&#xa;assumes a linear dispersion relation" ID="ID_528273222" CREATED="1603870920548" MODIFIED="1603870946384">
@@ -406,13 +377,123 @@
 </node>
 <node TEXT="phonon-DOS" ID="ID_1152471972" CREATED="1603878551881" MODIFIED="1603878556385">
 <node TEXT="diff from electron-DOS:&#xa;no spins, polarizations/branches instead" ID="ID_204209922" CREATED="1603878560017" MODIFIED="1603878586144"/>
-<node TEXT="\latex  Debye approximation\\&#xa;$\omega = v_D|\vec k| = v_Dk$" ID="ID_1856202740" CREATED="1603878594833" MODIFIED="1603878636636">
+<node TEXT="approximations/models" ID="ID_1455216843" CREATED="1604040072567" MODIFIED="1604040237977">
+<hook URI="attachments/debye-einstein-model.png" SIZE="0.41455218" NAME="ExternalObject"/>
+<node TEXT="\latex  Debye approximation(acoustic modes)\\&#xa;$\omega = v_D|\vec k| = v_Dk$ \\&#xa;\small{(not real as the branches ought to be flat at boundary )}" ID="ID_1856202740" CREATED="1603878594833" MODIFIED="1604040482555">
 <node TEXT="the state volume is the same with that of electrons" ID="ID_424843207" CREATED="1603878789374" MODIFIED="1603878807430"/>
 <node TEXT="constructed isotropic crystal(the same v_D):&#xa;if the original one is anisotropic, then use diff constant for diff directions(equivalent lattice constant)" ID="ID_1342930111" CREATED="1603879074495" MODIFIED="1603879184474">
-<node TEXT="the total no. of states in the isotropic crystal&#xa; should equal that of a real crystal" ID="ID_1200326939" CREATED="1603879229124" MODIFIED="1603879269562"/>
+<node TEXT="\latex the total no. of states in the isotropic crystal\\&#xa; should equal that of a real crystal ($N$ ions)\\ &#xa;$3N = 3\times \frac{4\pi k_D^3/3}{(2\pi)^3/V} \Rightarrow k_D = (\frac{6\pi^2N}V)^{1/3}, \omega_D=v_Dk_D$ &#xa;\\$k_D$ is called the Debye cutoff wavevector/frequency" ID="ID_1200326939" CREATED="1603879229124" MODIFIED="1604038528729">
+<node ID="ID_1541692942" CREATED="1604039526383" MODIFIED="1604039576087"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      debye cutoff wavevector is the boundary of the <b>BZ of Debye crystal</b>(not actual one)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 <node TEXT="\latex $D(\omega) = \frac{dN}{Vd\omega}=3\frac{4\pi k^2dk/(2\pi/L)^3}{Vd\omega} = \frac{3\omega^2}{2\pi^2v_D^3}$\\&#xa;3 means polarizations for acoustic phonons" ID="ID_356864295" CREATED="1603878809420" MODIFIED="1603878943091"/>
 </node>
+<node TEXT="\latex Einstein model(approximation)(optic modes)\\&#xa;$\omega=\omega_E$ for all branches" ID="ID_398926825" CREATED="1604039716742" MODIFIED="1604040253205"/>
+</node>
+<node TEXT="van Hove singularity: the singularity caused by the perpendicularity of dispersion curves to zone boundary, at each frequency that phonons intersect the boundary" ID="ID_1178806662" CREATED="1604040491682" MODIFIED="1604040599659"/>
+</node>
+<node TEXT="analog between heat carriers with photons" ID="ID_1217227979" CREATED="1602486167813" MODIFIED="1604052047080">
+<node TEXT="collide more frequently with the boundaries/interfaces than with each other" ID="ID_944569803" CREATED="1602486218620" MODIFIED="1602486273180"/>
+</node>
+</node>
+<node TEXT="Differential DOS" ID="ID_1235395378" CREATED="1604040779927" MODIFIED="1604040787153">
+<node TEXT="\latex define the solid angle $\Omega$ \\&#xa;$d\Omega = \frac{dA_s}{k^2}=\sin\theta d\theta d\varphi$" ID="ID_1718806251" CREATED="1604040814196" MODIFIED="1604041403879"/>
+<node TEXT="\latex $dD(E,\vec k) = \frac{No.\ of\ states\ within\ (E,E+dE) and\ d\Omega}{VdEd\Omega} =\limits^{isotropic} \frac{D(E)}{4\pi}$" ID="ID_1827225763" CREATED="1604042097770" MODIFIED="1604042271543"/>
+</node>
+<node TEXT="Artificial Structures&#xa;(two groups)" ID="ID_1266899337" CREATED="1604042316709" MODIFIED="1604042339426">
+<node TEXT="imposing new boundary conditions&#xa;(as in quantum wells and dots)" ID="ID_1765381400" CREATED="1604042359102" MODIFIED="1604042400813">
+<node TEXT="quantum well(e.g.&#xa;GaAs layer between AlxGa1-xAs layers)" ID="ID_1437107399" CREATED="1604042675115" MODIFIED="1604042839589">
+<hook URI="attachments/quantum-well-GaAs.png" SIZE="0.35851595" NAME="ExternalObject"/>
+<node TEXT="band-edge offset: potential diff&#xa;existing at the interface." ID="ID_348739811" CREATED="1604042862949" MODIFIED="1604042964302"/>
+<node TEXT="conduction band-edge offset --&gt; electron quantum well; valence band-edge offset --&gt; hole quantum well" ID="ID_88186182" CREATED="1604042964547" MODIFIED="1604043010946"/>
+<node TEXT="DOS in infinite high potential hypothesis" ID="ID_1533983065" CREATED="1604044188654" MODIFIED="1604044249190">
+<hook URI="attachments/quantum-well-infinitehigh.png" SIZE="0.40246207" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="quantum wires and dots should have stronger effects due to the extra boundary conditions" ID="ID_1857646097" CREATED="1604044280308" MODIFIED="1604044309700"/>
+<node TEXT="carbon nanotube" ID="ID_407804715" CREATED="1604044395282" MODIFIED="1604044441638">
+<node TEXT="single-walled/multiwalled, diameter, orientation of the major crystallographic directions with the nanotube axis" ID="ID_74380519" CREATED="1604044475177" MODIFIED="1604044511756"/>
+<node TEXT="can be a semiconductor or a metal,&#xa;due to quantum size effects" ID="ID_420667762" CREATED="1604044512408" MODIFIED="1604044535024"/>
+</node>
+</node>
+<node TEXT="creating new periodicity&#xa;(as in superlattices)" ID="ID_105644797" CREATED="1604042372668" MODIFIED="1604042409111">
+<node TEXT="superlattice (periodic structures with the thickness of each layer less than the electron/phonon MFP)" ID="ID_674819386" CREATED="1604044767463" MODIFIED="1604044847354">
+<hook URI="attachments/superlattice.png" SIZE="0.37695295" NAME="ExternalObject"/>
+</node>
+<node TEXT="take Si/Ge superlattice as example, some phonon branches can&apos;t find similar ones in other layers, so they get confined, causing a very flat branch(zero velocity)" ID="ID_1772928049" CREATED="1604045230259" MODIFIED="1604045380338"/>
+</node>
+</node>
+</node>
+<node TEXT="statistical thermodynamics" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
+<edge COLOR="#00ff00"/>
+<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
+<node TEXT="continuous energy levels" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1602495421023">
+<node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = Be^{-E/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1602492632862">
+<node TEXT="for monatomic gas, E is purely kinetic&#xa;then we get Maxwell Dist" ID="ID_1725828615" CREATED="1602492581767" MODIFIED="1602492628847">
+<node TEXT="\latex $\langle E\rangle = \frac32k_BT$" ID="ID_1083533701" CREATED="1602492886321" MODIFIED="1602492910530">
+<node TEXT="\latex equipartition theorem: each quadratic term \\&#xa;of the molecular energy contributes $\frac12k_BT$" ID="ID_819932556" CREATED="1602493079881" MODIFIED="1602493173672"/>
+<node TEXT="\latex could use it to approximate the average velocity\\&#xa;$\frac12mv^2 = \frac32k_BT$ (slightly higher than actual value)" ID="ID_317240968" CREATED="1602495231579" MODIFIED="1602495301817"/>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_228624960" CREATED="1604065023679" MODIFIED="1604066894616"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>take this specific quantum state as the system, and the rest of the accessible quantum states of the original system are grouped into the reservoir </b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex for fermions, since they can jump between diff states, it&apos;s a \textbf{grand canonical ensemble}, also the quantum state&#xa; can only have 0 or 1 occupy\\&#xa;$\mathcal Z = 1+\exp(\frac{\mu-E}{k_BT})$" ID="ID_485202241" CREATED="1604065602206" MODIFIED="1604066979012">
+<node TEXT="\latex $P(E_i=0,N_i=0)=P_0=\frac1{1+\exp(\frac{\mu-E}{k_BT})}$ \\&#xa;$P(E_i=E,N_i=1)=P_1=\frac{\exp(\frac{\mu-E}{k_BT})}{1+\exp(\frac{\mu-E}{k_BT})}$" ID="ID_1048536288" CREATED="1604066219520" MODIFIED="1604066328606">
+<node TEXT="\latex Fermi-Dirac distribution function&#xa;\\$\langle n\rangle\equiv f(E) = 0\times P_0+1\times P_1 = \frac1{\exp(\frac{E-\mu}{k_BT})+1} $ \\&#xa;$\langle E\rangle =Ef(E)$" ID="ID_662490152" CREATED="1604066331318" MODIFIED="1604066577770">
+<hook URI="attachments/fermi-dirac-dist.png" SIZE="0.39713252" NAME="ExternalObject"/>
+<node TEXT="at zero temperature, the chemical&#xa;potential equals the Fermi level&#xa;(in some field, they are used interchangeably)" ID="ID_61627787" CREATED="1604066616898" MODIFIED="1604066698077"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex for bosons, the number of them is \textbf{not conserved,}\\&#xa;so N and \mu are not thermodynamic variables, it&apos;s a \textbf{canonical ensemble}&#xa;$Z(\nu)=\sum_{n=0}^\infty \exp(-\frac{(n+1/2)\hbar\nu}{k_BT})$" ID="ID_1025183531" CREATED="1604066720585" MODIFIED="1604067076348"/>
+</node>
+</node>
+<node TEXT="anharmonicity causes rapid changes of matter from one quantum state to another(even a small anharmonicity)" ID="ID_1809095317" CREATED="1604052104782" MODIFIED="1604052199080"/>
+<node TEXT="molecular systems" ID="ID_165505425" CREATED="1604061572416" MODIFIED="1604061581804">
+<node TEXT="monatomic gas(translation only)" ID="ID_1822080464" CREATED="1604063897459" MODIFIED="1604063983518">
+<node TEXT="\latex a gas molecule in a cubic box&#xa;\\$Z=\sum_{n_x,n_y,n_z =1}^{\infty}\exp(-\frac{\pi^2\hbar^2(n_x^2+n_y^2+n_z^2)}{2mL^2k_BT})$" ID="ID_1632178166" CREATED="1604062464898" MODIFIED="1604062596559">
+<node TEXT="\latex could treat as canonical ensemble,\\&#xa;define $Z=\frac V{\lambda^3}$, then get $\lambda$, which is called\\&#xa;thermal de Broglie wavelength" ID="ID_897462600" CREATED="1604059816219" MODIFIED="1604062635263"/>
+</node>
+<node TEXT="\latex N-molecule system(dilute gaseous)\\&#xa;$Z_N=\sum_{n_{x1},n_{y1},n_{z1}}\sum_{n_{x2},n_{y2},n_{z2}}\cdots\sum_{n_{xN},n_{yN},n_{zN}}\exp(-\frac{E_1+E_2+\cdots+E_N}{k_BT})$" ID="ID_1690075080" CREATED="1604062663766" MODIFIED="1604062819695">
+<node TEXT="\latex if distinguishable (not true)&#xa;\\$Z_N =Z^N$" ID="ID_1266203148" CREATED="1604062868979" MODIFIED="1604063004777"/>
+<node TEXT="\latex indistinguishable (true)\\&#xa;(one state should only be counted once)\\&#xa;(\textbf{dilute-gas assumption})$Z_N = \frac{Z^N}{N!}=\frac1{N!}(\frac{V}{\lambda^3})^N$" ID="ID_1669085240" CREATED="1604063007546" MODIFIED="1604064399690">
+<node TEXT="\latex $F=-\k_BT\ln Z_N$(get familiar expre)\\&#xa;$\Rightarrow p=-(\frac{\partial F}{\partial V})_{T,N}=\frac{k_BTN}{V}$\\&#xa;$U=\sum_i E_iP(E_i) =\frac{3Nk_BT}2$" ID="ID_438685885" CREATED="1604063633697" MODIFIED="1604063811191"/>
+<node TEXT="\latex assumption: the number of quantum states for one molecule\\ is much &#xa;larger than the number of molecules in the box\\&#xa;$\int_0^{3k_BT/2}D(E)dE\gg\frac NV$" ID="ID_1365232892" CREATED="1604064235132" MODIFIED="1604064432265">
+<node TEXT="the thermal de Broglie wavelength must be&#xa;much smaller than the intermolecular distance" ID="ID_1176937244" CREATED="1604064533127" MODIFIED="1604064569455"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="\latex polyatomic gas  $E=E_t+E_v+E_r+E_e$\\&#xa;translational+vibrational+rotational+electronic" ID="ID_1704715775" CREATED="1604063919548" MODIFIED="1604064068266">
+<node TEXT="\latex $Z=\sum e^{-E/k_BT}=Z_tZ_vZ_rZ_e $" ID="ID_1603739680" CREATED="1604064082215" MODIFIED="1604064125169"/>
 </node>
 </node>
 </node>
