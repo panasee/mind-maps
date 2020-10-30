@@ -1,8 +1,8 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="sundry" FOLDED="false" ID="ID_1966285183" CREATED="1603094616216" MODIFIED="1603094674369" STYLE="oval">
+<node TEXT="Statistical" FOLDED="false" ID="ID_984416228" CREATED="1600756473431" MODIFIED="1600756491017" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.21">
+<hook NAME="MapStyle" zoom="2.143">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -64,18 +64,17 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="integer &amp; fraction QHE trans" POSITION="right" ID="ID_348767186" CREATED="1545044736220" MODIFIED="1545044782139">
+<node TEXT="估计量(\hat)" POSITION="right" ID="ID_623627646" CREATED="1600756491769" MODIFIED="1600757007726">
 <edge COLOR="#ff0000"/>
-<node TEXT="disorder" ID="ID_1903830335" CREATED="1545044782773" MODIFIED="1545044785874"/>
-<node TEXT="whether or not to consider electrons&apos; interaction" ID="ID_721765652" CREATED="1545044786514" MODIFIED="1545044858876"/>
+<node TEXT="\latex 有偏和(渐进)无偏估计\\ &#xa;$E(\hat \theta) = \theta$" ID="ID_949320661" CREATED="1600756499979" MODIFIED="1600756850717">
+<node TEXT="无偏性只随着线性运算传递,不随着普遍函数关系传递" ID="ID_971682620" CREATED="1600756700683" MODIFIED="1600756818930"/>
+<node TEXT="可通过将未知参数表示为总体矩的线性函数,然后使用样本矩作为总体矩的无偏估计代入,由线性函数的传递性可以得到无偏估计" ID="ID_1386100954" CREATED="1600757458784" MODIFIED="1600757521703"/>
 </node>
-<node TEXT="non-Abelian factor" POSITION="right" ID="ID_273331536" CREATED="1545045261516" MODIFIED="1545045272156">
-<edge COLOR="#0000ff"/>
-<node TEXT="degenerate ground state" ID="ID_877594823" CREATED="1545045272753" MODIFIED="1545045286191"/>
+<node TEXT="\latex 有效性 \\&#xa;$D(\hat\theta_1)&lt;D(\hat\theta_2)\Leftrightarrow \hat\theta\text{ more\ efficient}$" ID="ID_1645824108" CREATED="1600758177180" MODIFIED="1600758368988">
+<node TEXT="\latex Rao-Cramer(罗-克拉美) 不等式 \\&#xa;$E(\hat \theta)=\theta\Rightarrow D(\hat\theta)\ge \frac1{nE[\frac{\partial}{\partial\theta}\ln p(X,\theta)]^2}=D_0(\theta)$" ID="ID_1867556110" CREATED="1600758881194" MODIFIED="1600759606304">
+<node TEXT="最小信息量&#xa;方差下界(最有效无偏估计)" ID="ID_1513488831" CREATED="1600759073411" MODIFIED="1600759618630"/>
 </node>
-<node TEXT="the complex representation of sine&amp;cosine funcs&#xa;(exponential func is much easier to manipulate)" POSITION="left" ID="ID_1110336731" CREATED="1603094669248" MODIFIED="1603094757677">
-<edge COLOR="#0000ff"/>
-<node TEXT="either the real / imaginary part of the final solution is the true solution, which one to choose depends on whether the input is sine or cosine" ID="ID_1803992104" CREATED="1603094763278" MODIFIED="1603094833851"/>
+</node>
 </node>
 </node>
 </map>

@@ -1,8 +1,8 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1600865116102" STYLE="oval">
+<node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1603869185469" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.968">
+<hook NAME="MapStyle" zoom="1.344">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,17 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1603869185466" HGAP_QUANTITY="38.2499988600612 pt" VSHIFT_QUANTITY="-154.4999953955413 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<hook NAME="FreeNode"/>
+<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
+<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
+</node>
+<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
+<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
+</node>
+</node>
 <node TEXT="晶体结构" FOLDED="true" POSITION="left" ID="ID_1504649718" CREATED="1561811661438" MODIFIED="1561851767272">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex W-S元胞:空间中与这个格点距离小于任何其它格点的点的轨迹&#xa;\\作法:由一个格点与最近邻格点(有时也包括次近邻)的&#xa;连线中垂\\面围成的多面体,\textbf{其中只包含一个格点}(格点不等于原子)" FOLDED="true" ID="ID_1964301541" CREATED="1561811295778" MODIFIED="1561957611931">
@@ -335,16 +345,6 @@
 </node>
 </node>
 </node>
-<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" FOLDED="true" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1600865116100" HGAP_QUANTITY="27.749999172985575 pt" VSHIFT_QUANTITY="-294.7499912157657 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-26;6;" ENDINCLINATION="105;-6;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
-<hook NAME="FreeNode"/>
-<node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
-<node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
-</node>
-<node TEXT="reciprocal lattice" ID="ID_64210669" CREATED="1592479959626" MODIFIED="1592480134960">
-<node TEXT="diffraction pattern" ID="ID_436097788" CREATED="1592480006141" MODIFIED="1592480134961"/>
-</node>
-</node>
 <node TEXT="准晶态结构:具有长程取向序&#xa;而没有长程平移对称序" FOLDED="true" POSITION="right" ID="ID_346194844" CREATED="1563173114401" MODIFIED="1563173234038">
 <edge COLOR="#007c00"/>
 <node TEXT="取向序具有晶体周期性不能容许的点群对称性" ID="ID_141004109" CREATED="1563173204985" MODIFIED="1563173248202"/>
@@ -386,18 +386,6 @@
 </node>
 <node TEXT="复式晶格: 每个原胞含多个不等价原子" ID="ID_538941133" CREATED="1564474967045" MODIFIED="1564475039147">
 <node TEXT="\latex 自由度扩充即可,&#xa;$u_l^\alpha \rightarrow u_l^\alpha(s) $,\\具有$\underbrace N_{l}\times\underbrace2_{s}\times\underbrace3_{\alpha}=6$个自由度" ID="ID_689052795" CREATED="1564475042421" MODIFIED="1564551804841"/>
-</node>
-</node>
-<node TEXT="能带理论" FOLDED="true" POSITION="left" ID="ID_591590288" CREATED="1573207258372" MODIFIED="1573207501899">
-<edge COLOR="#0000ff"/>
-<node TEXT="出发点:(价)电子不再束缚于个别原子,而是在整个固体运动,称为共有化电子, 讨论电子运动时假定离子实处于平衡位置, 将离子实偏离平衡位置的影响视为微扰." FOLDED="true" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1573208288680">
-<node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
-</node>
-<node TEXT="价电子的等效势场" ID="ID_1772320872" CREATED="1573207522575" MODIFIED="1573207542005">
-<node TEXT="离子实的势场,其他价电子的平均势场以及考虑电子波函数反对称性而带来的交换作用" ID="ID_357366762" CREATED="1573207544074" MODIFIED="1573207596953"/>
-</node>
-<node TEXT="\latex Bloch Theorem: under periodic potential \\&#xa;$\psi(\vec r+ \vec R_n)=e^{i\vec k\cdot \vec R_n}\psi(\vec r)\ (\vec R_n\ \text{is lattice vector}) $" ID="ID_430552448" CREATED="1573208932367" MODIFIED="1573209384686">
-<node TEXT="\latex $\Rightarrow\psi(\vec r)=e^{i\vec k\cdot \vec r}u(\vec r)$ &#xa;\\$(u(\vec r+\vec R_n)=u(\vec r))$" ID="ID_1131693196" CREATED="1573209466106" MODIFIED="1573209630511"/>
 </node>
 </node>
 <node TEXT="crystal binding" FOLDED="true" POSITION="left" ID="ID_1315203738" CREATED="1592636369766" MODIFIED="1592636392722">
@@ -543,20 +531,22 @@
 <node TEXT="\latex 力常数: $\phi_{\alpha,\beta}(l,l^\prime)$\\&#xa;$\phi_{\alpha,\beta}(l,l^\prime)=\frac{\partial}{\partial u_{l^\prime}^\beta}\frac{\partial \phi}{\partial u_l^\alpha}$可以理解为$l$原子$\alpha$方向上的受力对于\\&#xa;$l^\prime$原子$\beta$方向位移的导数" ID="ID_262072807" CREATED="1564393698070" MODIFIED="1564394030014"/>
 </node>
 </node>
-<node TEXT="\latex \textbf{energy}(same as photon)$\rightarrow$\\&#xa;harmonic oscillator$\epsilon=(n+\frac12)\hbar \omega$\\&#xa;$\Rightarrow$ the quanta of energy is $\hbar\omega$" ID="ID_137800202" CREATED="1594009421822" MODIFIED="1594103026683">
+<node TEXT="energy &amp; momentum" FOLDED="true" ID="ID_450264239" CREATED="1603010028211" MODIFIED="1603010032974">
+<node TEXT="\latex \textbf{energy}(same as photon)$\rightarrow$\\&#xa;harmonic oscillator$\epsilon=(n+\frac12)\hbar \omega$\\&#xa;$\Rightarrow$ the quanta of energy is $\hbar\omega$" FOLDED="true" ID="ID_137800202" CREATED="1594009421822" MODIFIED="1594103026683">
 <node TEXT="\latex 声子占据数(能级)为n的粒子振动的振幅为:\\&#xa;$u_0^2=4(n+\frac12)\hbar/\rho V\omega$" ID="ID_1363091834" CREATED="1594015765954" MODIFIED="1594015862108"/>
 </node>
-<node TEXT="\latex \textbf{momentum}, a phonon of wavevector $K$ can\\ interact with other particles as if it had a momentum $\hbar K$,\\ but it can&apos;t carry physical momentum!" ID="ID_809511298" CREATED="1594016930735" MODIFIED="1594017183565">
+<node TEXT="\latex \textbf{momentum}, a phonon of wavevector $K$ can\\ interact with other particles as if it had a momentum $\hbar K$,\\ but it can&apos;t carry physical momentum!" FOLDED="true" ID="ID_809511298" CREATED="1594016930735" MODIFIED="1594017183565">
 <node TEXT="the phonon coordinate involves relative coordinate&#xa;which can&apos;t carry linear momentum" ID="ID_571855857" CREATED="1594019485872" MODIFIED="1594019552966"/>
 </node>
-<node TEXT="\latex heat capacity (usually refer to the one at constant volume,&#xa;which is more fundamental than that at constant pressure) &#xa;$C_V\equiv (\frac{\partial U}{\partial T})_V$" ID="ID_779045439" CREATED="1594103028722" MODIFIED="1594193846190">
+</node>
+<node TEXT="\latex heat capacity (usually refer to the one at constant volume,&#xa;which is more fundamental than that at constant pressure) &#xa;$C_V\equiv (\frac{\partial U}{\partial T})_V$" FOLDED="true" ID="ID_779045439" CREATED="1594103028722" MODIFIED="1594193846190">
 <node TEXT="\latex $U_{lat}=\sum_{k,p}\langle n_{k,p}\rangle \hbar \omega_{k,p}$ (p means polarization)\\&#xa;$\langle n_{k,p}\rangle$ is the thermal equilibrium occupancy,\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$&#xa;\\given by the Planck distribution" ID="ID_413043942" CREATED="1594254780120" MODIFIED="1594551883512">
 <node TEXT="\latex $\sum_k$ can be replaced with&#xa; an integral\\ $\int d\omega D_p(\omega)$ (D is density of states(modes))" ID="ID_1424045360" CREATED="1594280325398" MODIFIED="1594280462282"/>
 </node>
 </node>
-<node TEXT="DOS" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
+<node TEXT="DOS" FOLDED="true" ID="ID_849371746" CREATED="1594350186892" MODIFIED="1594350189354">
 <node TEXT="\latex 三角函数和指数函数表示法不同：\\&#xa;三角函数分cos和sin；指数函数分正负；\\&#xa;因此前者总周期为$[0,2\pi]$；后者总周期为$[-\pi,\pi]$" ID="ID_1771406891" CREATED="1594350567401" MODIFIED="1600865178784"/>
-<node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977">
+<node TEXT="\latex $D(\omega)=\frac{dN}{d\omega}$\ \ \  N is the \\&#xa;cumulative distribution function" FOLDED="true" ID="ID_60969074" CREATED="1594374804759" MODIFIED="1594375181977">
 <node TEXT="\latex $D(\omega)d\omega\equiv dN=(\frac{L}{2\pi})^3\int_{shell}d^3K$\\&#xa;$\Rightarrow D(\omega)=\frac V{(2\pi)^3}\int_{shell} \frac{dS_{\omega}}{v_g}$ \\&#xa;积分区域是$\omega=Const$曲面" ID="ID_714666228" CREATED="1594603714710" MODIFIED="1594603999934">
 <node TEXT="\latex \textbf{Van Hove singularities}: it&apos;s noteworthy that when $v_g=0$,&#xa;\\ we get singularities at these critical points" ID="ID_483405299" CREATED="1594604014290" MODIFIED="1594606028836"/>
 </node>
@@ -576,6 +566,160 @@
 </node>
 </node>
 </node>
+<node FOLDED="true" ID="ID_1357279946" CREATED="1602946365982" MODIFIED="1603004231364"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      coherent phonons: collective, <b>in-phase</b>&nbsp;atomic motions in solids when receiving impulsive force from outside(usually excited by femtosecond laser)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="from uncertainty relation, femtosecond laser will have a broadband spectrum" ID="ID_149884484" CREATED="1603003050887" MODIFIED="1603003416686"/>
+<node FOLDED="true" ID="ID_239449919" CREATED="1603000003148" MODIFIED="1603005674955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      generated via <b>impulsive stimulated Raman scattering(ISRS)</b>&nbsp;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="non-resonant photoexcitation: the light energy is not sufficient to cause electronic transition (the energy difference is given as phonons)" ID="ID_327793082" CREATED="1603005675910" MODIFIED="1603006033665">
+<node TEXT="atoms start to move from equilibrium,&#xa;which means it&apos;s a sine function" ID="ID_675819870" CREATED="1603005769645" MODIFIED="1603005909806"/>
+<node TEXT="\latex the amplitude of the induced oscillation varies\\&#xa;with the polarization of the light, following the Raman\\ selection rule $\hbar \nu_p = (\Delta E)$(only 1 level jumped)" ID="ID_1794617305" CREATED="1603005944409" MODIFIED="1603347256891">
+<node TEXT="" ID="ID_1864137274" CREATED="1603349779121" MODIFIED="1603349779126">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex harmonic oscillator \\&#xa;$\Delta \nu_{photon} = \pm 1\cdot \nu_0$" ID="ID_1511098462" CREATED="1603274954669" MODIFIED="1603347274016">
+<node TEXT="that means the photon of absorption/emission share the same frequency with the characteristic freq of solid" ID="ID_840547480" CREATED="1603275107448" MODIFIED="1603275254904"/>
+</node>
+<node TEXT="\latex rigid rotor \\&#xa;$\Delta v_p = 2B(l+1),\ (absorption)$\\&#xa;$\Delta v_p = 2Bl,\ (emission)$" ID="ID_275312899" CREATED="1603347275169" MODIFIED="1603347729995">
+<node TEXT="\latex $B\sim 100\mu m$ for hydrogen molecules, too long for heat conduction,\\&#xa; but important in the microwave range" ID="ID_9219131" CREATED="1603347334626" MODIFIED="1603347415001"/>
+</node>
+<node TEXT="" ID="ID_330703151" CREATED="1603349779113" MODIFIED="1603349785373">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex these two kinds modes often bind with each other\\&#xa;$\Delta \nu_p = \nu_0 \pm 2B(l+1)$" FOLDED="true" ID="ID_863247386" CREATED="1603349779130" MODIFIED="1603349961643" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-0.7499999776482589 pt">
+<node TEXT="molecular rotations can bring fine structures, causing spectral lines surrounding fundamental vibrational freqs" ID="ID_1360431521" CREATED="1603350202421" MODIFIED="1603350679260">
+<node TEXT="these lines often overlap due to various broadening and interaction mechanisms(e.g. thermal vibrations)&#xa;SO, the absorption is usually over certain bandwidths (&quot;bands&quot;), rather than only sharp discrete lines" ID="ID_932369996" CREATED="1603351036595" MODIFIED="1603351150778"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1962368428" CREATED="1603006015896" MODIFIED="1603008850273"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      resonant photoexcitation: excitation creates <b>electron-hole pairs</b>&nbsp;as well as coherent <b>acoustic phonons </b>in the solid
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="3 generation mechanisms&#xa;for electron-hole pairs" ID="ID_38822391" CREATED="1603006227333" MODIFIED="1603008876483">
+<node TEXT="(resonant) ISRS" ID="ID_1349652673" CREATED="1603008091258" MODIFIED="1603009920682">
+<hook URI="Solid%20State%20Physics_files/ISRS-res.jpg" SIZE="0.3391271" NAME="ExternalObject"/>
+</node>
+<node TEXT="Displacive Excitation of Coherent Phonons(DECP):&#xa;excitation shifts the minimum of the PES(Potential Energy Surface) for a mode, whose atomic motion couples with the electronic system strongly through Peierls distortion" ID="ID_401777359" CREATED="1603008100338" MODIFIED="1603009929314">
+<hook URI="Solid%20State%20Physics_files/displacive.jpg" SIZE="0.519876" NAME="ExternalObject"/>
+</node>
+<node TEXT="Transient Depletion Field Screening(TDFS)" ID="ID_1678631477" CREATED="1603008120248" MODIFIED="1603009940945">
+<hook URI="Solid%20State%20Physics_files/TDFS.jpg" SIZE="0.6126413" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="resulting oscillation can be between a sine and cosine function, depending on the relaxation of the electronic excitation (maximum amplitude at time zero)" ID="ID_896709553" CREATED="1603006241439" MODIFIED="1603006300332"/>
+<node TEXT="3 generation mechanisms&#xa;for coherent acoustic phonons" ID="ID_639583837" CREATED="1603008878197" MODIFIED="1603008900355">
+<node ID="ID_1982713464" CREATED="1603008901973" MODIFIED="1603009082616"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Thermoelastic effect:
+    </p>
+    <p>
+      laser heating induces expansion(mainly <b>metals</b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_641311518" CREATED="1603008912669" MODIFIED="1603009087021"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Deformation potential coupling:
+    </p>
+    <p>
+      excitation modifies electronic bands(energies' distribution in the BZ), and thereby causes atomic displacements (mainly <b>semiconductors</b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Piezoelectric screening:&#xa;excited carriers screen the built-in piezoelectric field&#xa;(e.g. [111] polar semiconductor surfaces and interfaces)" ID="ID_157925909" CREATED="1603008923509" MODIFIED="1603009138897"/>
+</node>
+</node>
+</node>
+<node TEXT="optical and acoustic coherent phonons" ID="ID_1513446637" CREATED="1603004311443" MODIFIED="1603005188948">
+<node TEXT="coherent optical phonons: standing waves of in-phase atomic vibrations over macroscopic spatial range" ID="ID_1955974905" CREATED="1603004325291" MODIFIED="1603004361682"/>
+<node TEXT="coherent acoustic phonons: strain/shear wavepackets propagating ballistically in solids" ID="ID_913753994" CREATED="1603004362313" MODIFIED="1603004392960"/>
+</node>
+</node>
+<node TEXT="lifetime &amp; decay:&#xa;(do not live long)" ID="ID_598493963" CREATED="1603010064884" MODIFIED="1603010130162">
+<node ID="ID_202961889" CREATED="1603010132180" MODIFIED="1603010181881"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      in a perfect crystal, <b>anharmonic coupling</b>&nbsp;provides the main path for the decay of phonons
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="scattering by crystalline defects&#xa;(e.g. impurity atoms, isotope, vacancies)" ID="ID_882594313" CREATED="1603010185505" MODIFIED="1603010263515"/>
+<node ID="ID_1663698423" CREATED="1603010266447" MODIFIED="1603010357881"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>electron-phonon coupling</b>&nbsp;dominates the decay of phonons in metals and semimetals in the presence of carriers at high density (under intense photoexcitation / external electric field)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="e.g. in low-d systems, high freq optical phonons can decay by creating electron-hole pair near the Fermi level&#xa;(in this case, photoexcitation can prolong their lifetime)" ID="ID_1343720794" CREATED="1603010378718" MODIFIED="1603010465854"/>
+</node>
+</node>
+<node TEXT="Debye cutoff frequency" ID="ID_1404406663" CREATED="1603088701773" MODIFIED="1603088798743">
+<node TEXT="to ensure the physical meaning of phonons, the wave length shouldn&apos;t be shorter than the interatomic distance, thus a frequency cutoff need to be set" ID="ID_1982221851" CREATED="1603089601729" MODIFIED="1603089701436"/>
+</node>
 </node>
 <node TEXT="Brillouin Zone" FOLDED="true" POSITION="left" ID="ID_462244645" CREATED="1593853223856" MODIFIED="1593853229865">
 <edge COLOR="#7c0000"/>
@@ -584,7 +728,7 @@
 </node>
 <node TEXT="standing waves correspond to the edge of BZs(0 group velocity)&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593910920844"/>
 </node>
-<node TEXT="lattice dynamics" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1600868921917">
+<node TEXT="lattice dynamics" FOLDED="true" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1600868921917">
 <edge COLOR="#007c00"/>
 <node TEXT="consequence of purely harmonic theory" FOLDED="true" ID="ID_830338349" CREATED="1594606425418" MODIFIED="1594606438077">
 <node TEXT="lattice waves don&apos;t interact &amp; don&apos;t decay or change form with time" ID="ID_1250829539" CREATED="1594606438542" MODIFIED="1594606477951"/>
@@ -629,6 +773,9 @@
 <node TEXT="\latex size effect: the $k$ of \textbf{pure crystals} at \textbf{low temperature}\\&#xa; is a  function of dimensions of specimen($k\approx C_vvD\propto T^3$)" ID="ID_31336528" CREATED="1594699168328" MODIFIED="1594699707716"/>
 <node TEXT="isotope scattering (destruction of periodicity): important in some materials" ID="ID_385186976" CREATED="1594699876923" MODIFIED="1594699919659"/>
 </node>
+</node>
+<node TEXT="Band Theory" POSITION="right" ID="ID_1798700126" CREATED="1603077254849" MODIFIED="1603077304156" LINK="Band%20Theory.mm">
+<edge COLOR="#7c7c00"/>
 </node>
 </node>
 </map>
