@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="statistical physics&#xa;(研究平衡态(分布稳定不变)系统)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1601974801116"><hook NAME="MapStyle" zoom="1.213">
+<node TEXT="statistical physics&#xa;(研究平衡态(分布稳定不变)系统)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1601974801116"><hook NAME="MapStyle" zoom="1.103">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -301,15 +301,18 @@
 </node>
 <node TEXT="正则系综 (Canonical Ensemble)&#xa;宏观约束(T,V,N) ---&gt; 热库 (in contact with a thermal reservoir)" ID="ID_993865292" CREATED="1604054547822" MODIFIED="1604056908310">
 <node TEXT="若将系统与热库结合,可构成微正则系综,由于系统的每个微观状态对应的&#xa;热库微观状态数可能不同,因此正则系综各微观状态不具有等概率性" ID="ID_266048274" CREATED="1604057272950" MODIFIED="1604057342643"/>
+<node TEXT="\latex 系统与热库共同构成微正则系综(系统平均能量(内能)是U)\\&#xa;$P(E_i)=\frac{\Omega_r(U_t-E_i)}{\Omega_t(E_t)}=\frac{\exp[S_r(U_t-E_i)/k_B]}{\exp[S_t(U_t)/k_B]}$\\&#xa;$\because S_t(U_t)=S_r(U_t-U)+S(U)\ \&amp;\  S_r(U_t-E_i)=S_r[(U_t-U)+(U-E_i)]$\\&#xa;$\therefore S_r(U_t-E_i)=S_r(U_t-U)+\frac{\partial S_r}{\partial E_r}|_{U_t-U}(U-E_i)=S_r(U_t-U)+\frac{U-E_i}T$\\&#xa;$\therefore P(E_i) = \exp(\frac {U-TS}{k_BT})\exp(-\frac{E_i}{k_BT})$" ID="ID_1987793960" CREATED="1604240396325" MODIFIED="1604241245343">
 <node TEXT="\latex 能量对应的微观状态概率&#xa;\\$P(E_i) = \exp(\frac F{k_BT})\exp(-\frac{E_i}{k_BT})$" ID="ID_1547380304" CREATED="1604057423482" MODIFIED="1604057546552">
 <node TEXT="F=U-TS=F(T,V,N) 也是一个热力学势,&#xa;称为Helmholtz自由能" ID="ID_292303341" CREATED="1604057551095" MODIFIED="1604057601046"/>
-<node TEXT="\latex 根据概率归一性可得\\&#xa;$F=-k_BT\ln Z ,(Z=\sum_i\exp(-\frac{E_i}{k_BT}))$" ID="ID_1811311117" CREATED="1604057731228" MODIFIED="1604059139623">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="181;-38;" ENDINCLINATION="180;-33;" STARTARROW="NONE" ENDARROW="NONE"/>
+<node TEXT="\latex 根据概率归一性可得\\&#xa;$F=-k_BT\ln Z ,(Z=\sum_i\exp(-\frac{E_i}{k_BT}))$" ID="ID_1811311117" CREATED="1604057731228" MODIFIED="1604241196055">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="109;91;" ENDINCLINATION="173;-34;" STARTARROW="NONE" ENDARROW="NONE"/>
 <node TEXT="Z被称为正则配分函数&#xa;(canonical partition function)" ID="ID_1435718267" CREATED="1604057801508" MODIFIED="1604057832892"/>
 <node TEXT="\latex 引入Z后,状态概率表示为\\&#xa;$P(E_i)=e^{-E_i/k_BT}/Z$" ID="ID_234881534" CREATED="1604057874802" MODIFIED="1604057949745">
 <node TEXT="\latex $\exp(-E_i/k_BT)$被称为Boltzmann factor\\&#xa;该因子频繁出现在多个领域当中" ID="ID_291638317" CREATED="1604057987136" MODIFIED="1604058055431"/>
 </node>
 </node>
+</node>
+<node TEXT="注意区分微观状态对应的能量E&#xa;和系统的宏观热力学内能U" ID="ID_1030874741" CREATED="1604241280158" MODIFIED="1604241302399"/>
 </node>
 </node>
 <node TEXT="巨正则系综 (Grand canonical Ensemble)&#xa;宏观约束(T,V,\mu)" ID="ID_1432860112" CREATED="1604054564188" MODIFIED="1604058132158">

@@ -439,9 +439,9 @@
 </node>
 <node TEXT="statistical thermodynamics" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
 <edge COLOR="#00ff00"/>
-<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
-<node TEXT="continuous energy levels" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1602495421023">
-<node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = Be^{-E/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1602492632862">
+<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" FOLDED="true" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
+<node TEXT="\latex classical limit $(E-\mu\gg k_BT)$ of \\&#xa;both Fermions and Bosons \\&#xa;owns continuous energy levels(classical)" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1604239655988">
+<node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = e^{-(E-\mu)/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1604239435411">
 <node TEXT="for monatomic gas, E is purely kinetic&#xa;then we get Maxwell Dist" ID="ID_1725828615" CREATED="1602492581767" MODIFIED="1602492628847">
 <node TEXT="\latex $\langle E\rangle = \frac32k_BT$" ID="ID_1083533701" CREATED="1602492886321" MODIFIED="1602492910530">
 <node TEXT="\latex equipartition theorem: each quadratic term \\&#xa;of the molecular energy contributes $\frac12k_BT$" ID="ID_819932556" CREATED="1602493079881" MODIFIED="1602493173672"/>
@@ -468,7 +468,7 @@
 </node>
 <node TEXT="\latex for fermions, since they can jump between diff states, it&apos;s a \textbf{grand canonical ensemble}, also the quantum state&#xa; can only have 0 or 1 occupy\\&#xa;$\mathcal Z = 1+\exp(\frac{\mu-E}{k_BT})$" ID="ID_485202241" CREATED="1604065602206" MODIFIED="1604066979012">
 <node TEXT="\latex $P(E_i=0,N_i=0)=P_0=\frac1{1+\exp(\frac{\mu-E}{k_BT})}$ \\&#xa;$P(E_i=E,N_i=1)=P_1=\frac{\exp(\frac{\mu-E}{k_BT})}{1+\exp(\frac{\mu-E}{k_BT})}$" ID="ID_1048536288" CREATED="1604066219520" MODIFIED="1604066328606">
-<node TEXT="\latex Fermi-Dirac distribution function&#xa;\\$\langle n\rangle\equiv f(E) = 0\times P_0+1\times P_1 = \frac1{\exp(\frac{E-\mu}{k_BT})+1} $ \\&#xa;$\langle E\rangle =Ef(E)$" ID="ID_662490152" CREATED="1604066331318" MODIFIED="1604066577770">
+<node TEXT="\latex Fermi-Dirac distribution function&#xa;\\$\langle n\rangle\equiv f(E) = 0\times P_0+1\times P_1 = \frac1{\exp(\frac{E-\mu}{k_BT})+1} $ \\&#xa;$\langle E\rangle =Ef(E)$ \small{(n is occupation number)}" ID="ID_662490152" CREATED="1604066331318" MODIFIED="1604239497159">
 <hook URI="attachments/fermi-dirac-dist.png" SIZE="0.39713252" NAME="ExternalObject"/>
 <node TEXT="at zero temperature, the chemical&#xa;potential equals the Fermi level&#xa;(in some field, they are used interchangeably)" ID="ID_61627787" CREATED="1604066616898" MODIFIED="1604066698077"/>
 </node>
@@ -476,7 +476,7 @@
 </node>
 <node TEXT="bosons" ID="ID_1222537186" CREATED="1604231566724" MODIFIED="1604231572502">
 <node TEXT="\latex the number of energy quanta is \textbf{not conserved,}&#xa;so N and \mu are not thermodynamic variables, it&apos;s a \textbf{canonical ensemble}\\&#xa;$Z(\nu)=\sum_{n=0}^\infty \exp(-\frac{(n+1/2)\hbar\nu}{k_BT}) = \frac{\exp(-\frac{\hbar \nu}{2k_BT})}{1-\exp(-\frac{\hbar\nu}{k_BT})}$" ID="ID_1025183531" CREATED="1604066720585" MODIFIED="1604231598932">
-<node TEXT="\latex $P(\nu,n)=\frac{\exp(-\frac{(n+1/2)\hbar \nu}{k_BT})}Z$" ID="ID_427147420" CREATED="1604209839278" MODIFIED="1604209888289">
+<node TEXT="\latex $P(\nu,n)=\frac{\exp(-\frac{(n+1/2)\hbar \nu}{k_BT})}Z$\\&#xa;(n is occupation number, not level)" ID="ID_427147420" CREATED="1604209839278" MODIFIED="1604239130283">
 <node TEXT="\latex Bose-Einstein distribution function\\&#xa;$\langle n\rangle\equiv f(\nu) = \sum_{n=0}^\infty nP(\nu,n) =\frac1{\exp(\frac{\hbar\nu}{k_BT})-1}$ \\&#xa;$\langle E\rangle = \hbar\nu f(\nu)$(the zero-point energy has been neglected)" ID="ID_839817113" CREATED="1604219262021" MODIFIED="1604231533993">
 <hook URI="attachments/bose-einstein-dist.png" SIZE="0.33669248" NAME="ExternalObject"/>
 </node>
@@ -512,6 +512,9 @@
 <node TEXT="\latex polyatomic gas  $E=E_t+E_v+E_r+E_e$\\&#xa;translational+vibrational+rotational+electronic" ID="ID_1704715775" CREATED="1604063919548" MODIFIED="1604064068266">
 <node TEXT="\latex $Z=\sum e^{-E/k_BT}=Z_tZ_vZ_rZ_e $" ID="ID_1603739680" CREATED="1604064082215" MODIFIED="1604064125169"/>
 </node>
+</node>
+<node TEXT="\latex the total number of particles&#xa;per unit volume:\\&#xa;$n = \int_0^\infty f(E,T,\mu)D(E)dE$" ID="ID_372925656" CREATED="1604238699958" MODIFIED="1604238769115">
+<node TEXT="often used to approximate the&#xa;chemical potential (fermi level at 0K)" ID="ID_346694718" CREATED="1604239248024" MODIFIED="1604239294375"/>
 </node>
 </node>
 </node>
