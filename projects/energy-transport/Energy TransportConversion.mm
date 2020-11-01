@@ -395,7 +395,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -463,8 +462,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="" ID="ID_327640029" CREATED="1604231827177" MODIFIED="1604231827179">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="\latex for fermions, since they can jump between diff states, it&apos;s a \textbf{grand canonical ensemble}, also the quantum state&#xa; can only have 0 or 1 occupy\\&#xa;$\mathcal Z = 1+\exp(\frac{\mu-E}{k_BT})$" ID="ID_485202241" CREATED="1604065602206" MODIFIED="1604066979012">
 <node TEXT="\latex $P(E_i=0,N_i=0)=P_0=\frac1{1+\exp(\frac{\mu-E}{k_BT})}$ \\&#xa;$P(E_i=E,N_i=1)=P_1=\frac{\exp(\frac{\mu-E}{k_BT})}{1+\exp(\frac{\mu-E}{k_BT})}$" ID="ID_1048536288" CREATED="1604066219520" MODIFIED="1604066328606">
 <node TEXT="\latex Fermi-Dirac distribution function&#xa;\\$\langle n\rangle\equiv f(E) = 0\times P_0+1\times P_1 = \frac1{\exp(\frac{E-\mu}{k_BT})+1} $ \\&#xa;$\langle E\rangle =Ef(E)$" ID="ID_662490152" CREATED="1604066331318" MODIFIED="1604066577770">
@@ -473,7 +474,23 @@
 </node>
 </node>
 </node>
-<node TEXT="\latex for bosons, the number of them is \textbf{not conserved,}\\&#xa;so N and \mu are not thermodynamic variables, it&apos;s a \textbf{canonical ensemble}&#xa;$Z(\nu)=\sum_{n=0}^\infty \exp(-\frac{(n+1/2)\hbar\nu}{k_BT})$" ID="ID_1025183531" CREATED="1604066720585" MODIFIED="1604067076348"/>
+<node TEXT="bosons" ID="ID_1222537186" CREATED="1604231566724" MODIFIED="1604231572502">
+<node TEXT="\latex the number of energy quanta is \textbf{not conserved,}&#xa;so N and \mu are not thermodynamic variables, it&apos;s a \textbf{canonical ensemble}\\&#xa;$Z(\nu)=\sum_{n=0}^\infty \exp(-\frac{(n+1/2)\hbar\nu}{k_BT}) = \frac{\exp(-\frac{\hbar \nu}{2k_BT})}{1-\exp(-\frac{\hbar\nu}{k_BT})}$" ID="ID_1025183531" CREATED="1604066720585" MODIFIED="1604231598932">
+<node TEXT="\latex $P(\nu,n)=\frac{\exp(-\frac{(n+1/2)\hbar \nu}{k_BT})}Z$" ID="ID_427147420" CREATED="1604209839278" MODIFIED="1604209888289">
+<node TEXT="\latex Bose-Einstein distribution function\\&#xa;$\langle n\rangle\equiv f(\nu) = \sum_{n=0}^\infty nP(\nu,n) =\frac1{\exp(\frac{\hbar\nu}{k_BT})-1}$ \\&#xa;$\langle E\rangle = \hbar\nu f(\nu)$(the zero-point energy has been neglected)" ID="ID_839817113" CREATED="1604219262021" MODIFIED="1604231533993">
+<hook URI="attachments/bose-einstein-dist.png" SIZE="0.33669248" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex other boson systems(e.g. gas molecules), can have a fixed number of particles, grand canonical ensemble is used" ID="ID_1902691127" CREATED="1604231604452" MODIFIED="1604231679609">
+<node TEXT="\latex through the same way, we get \\&#xa;the general Bose-Einstein distribution\\&#xa;$\langle n \rangle\equiv f(E) = \frac1{\exp(\frac{E-\mu}{k_BT})-1}$" ID="ID_1919153105" CREATED="1604231702466" MODIFIED="1604231783243"/>
+</node>
+</node>
+<node TEXT="" ID="ID_575314248" CREATED="1604231827175" MODIFIED="1604231831125">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex in the limit of low occupancy(high energy and high temperature), they both reduce to the Boltzmann distribution\\ &#xa;$f(E,T,\mu) = \exp(-\frac{E-\mu}{k_BT})\;\  or\ f(E) = \exp(-\frac E{k_BT})$" ID="ID_1666981158" CREATED="1604231827180" MODIFIED="1604231958690" HGAP_QUANTITY="45.49999906122687 pt" VSHIFT_QUANTITY="-5.249999843537812 pt"/>
+</node>
 </node>
 </node>
 <node TEXT="anharmonicity causes rapid changes of matter from one quantum state to another(even a small anharmonicity)" ID="ID_1809095317" CREATED="1604052104782" MODIFIED="1604052199080"/>
