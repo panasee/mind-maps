@@ -63,12 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
 </node>
-<node TEXT="classical" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
+<node TEXT="classical" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
 <edge COLOR="#00007c"/>
 <node TEXT="classical definitions" ID="ID_1858058677" CREATED="1602481934241" MODIFIED="1602495786704">
 <node TEXT="" ID="ID_186144771" CREATED="1602482213525" MODIFIED="1602482213528">
@@ -134,7 +134,7 @@
 <node TEXT="Micro/Nano-scale Transport" POSITION="right" ID="ID_1612655917" CREATED="1602746750790" MODIFIED="1602746762323">
 <edge COLOR="#007c7c"/>
 <node TEXT="Quantum Size Effect" ID="ID_1572612978" CREATED="1602746762806" MODIFIED="1602746772373">
-<node TEXT="alter the wave characteristics, e.g. create new modes that don&apos;t exist in bulk materials" ID="ID_1989676397" CREATED="1602746797901" MODIFIED="1602746923054"/>
+<node TEXT="alter the wave characteristics, e.g. create new modes that don&apos;t exist in bulk materials (standing waves)" ID="ID_1989676397" CREATED="1602746797901" MODIFIED="1604305258024"/>
 </node>
 </node>
 <node TEXT="Fast Transport Phenomena (at short time scale):&#xa;processes shorter than the characteristic time" POSITION="right" ID="ID_145302109" CREATED="1603087321070" MODIFIED="1603090065327">
@@ -144,7 +144,7 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
@@ -437,7 +437,7 @@
 </node>
 </node>
 </node>
-<node TEXT="statistical thermodynamics" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
+<node TEXT="statistical thermodynamics" FOLDED="true" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
 <edge COLOR="#00ff00"/>
 <node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" FOLDED="true" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
 <node TEXT="\latex classical limit $(E-\mu\gg k_BT)$ of \\&#xa;both Fermions and Bosons \\&#xa;owns continuous energy levels(classical)" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1604239655988">
@@ -516,6 +516,16 @@
 <node TEXT="\latex the total number of particles&#xa;per unit volume:\\&#xa;$n = \int_0^\infty f(E,T,\mu)D(E)dE$" ID="ID_372925656" CREATED="1604238699958" MODIFIED="1604238769115">
 <node TEXT="often used to approximate the&#xa;chemical potential (fermi level at 0K)" ID="ID_346694718" CREATED="1604239248024" MODIFIED="1604239294375"/>
 </node>
+<node TEXT="\latex electron specific heat $C_v \propto T$\\&#xa;phonon specific heat &amp; $C_v\propto T^3(at\ low\ temperatures)$\\&#xa;&amp; $C_v = Const(at\ high\ temperatures)$" ID="ID_648452043" CREATED="1604298206133" MODIFIED="1604298432034">
+<node TEXT="for nanostructures, there are several reasons invalidating the derivations of the specific heat and emissive power for bulk materials" ID="ID_576799295" CREATED="1604298475132" MODIFIED="1604298521992">
+<node TEXT="energy levels are diff in nanostructures,&#xa;which will change the DOS" ID="ID_11030450" CREATED="1604298527097" MODIFIED="1604298563059"/>
+<node TEXT="energy separation is usually large and&#xa;the replacement of the summation by&#xa;integration over energy is no longer valid" ID="ID_968695233" CREATED="1604298563459" MODIFIED="1604298621624"/>
+</node>
+</node>
+</node>
+<node TEXT="energy transfer by WAVES" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
+<edge COLOR="#ff00ff"/>
+<node TEXT="plane wave:&#xa;has a constant amplitude at any plane perpendicular to the direction of propagation at any fixed time" ID="ID_296670041" CREATED="1604306467097" MODIFIED="1604306516091"/>
 </node>
 </node>
 </map>

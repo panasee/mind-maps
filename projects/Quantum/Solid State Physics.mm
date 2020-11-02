@@ -554,13 +554,13 @@
 <node TEXT="\latex Planck distribution\\&#xa;$N_{n+1}/N_n=\exp{(-\hbar \omega/k_BT)}$\\&#xa;(giving the relation\ $\langle n\rangle = \frac1{\exp{(\hbar \omega/\tau)-1}}$)" ID="ID_1556790233" CREATED="1594551807239" MODIFIED="1594551949924"/>
 </node>
 <node TEXT="model at low temperature" FOLDED="true" ID="ID_916422846" CREATED="1594551520645" MODIFIED="1594551533492">
-<node TEXT="Debye model (acoustic modes): the velocity of sound is taken as constant for each polarization type&#xa;(Debye temperature corresponds to a crystal&apos;s highest normal mode of vibration(similar to Fermi surface))" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1594551562224">
+<node TEXT="Debye model (acoustic modes): the velocity of sound is taken as constant (which means a linear dispersion)&#xa;(Debye temperature corresponds to a crystal&apos;s highest normal mode of vibration(similar to Fermi surface))" ID="ID_1994863259" CREATED="1594390029113" MODIFIED="1604295942613">
 <node TEXT="\latex $C_v$ of a solid:\\&#xa;$T\ll \theta(T&lt;0.1\theta)$: $T^3$ law\\&#xa;$T\gg \theta$: $T\rightarrow 3Nk_B$(classical value)" ID="ID_527401996" CREATED="1594482682817" MODIFIED="1594527099198">
 <hook URI="Solid%20State%20Physics_files/png_2088694140115473807.png" SIZE="0.496336" NAME="ExternalObject"/>
 <node TEXT="\latex $T\rightarrow 0$: only long wavelength acoustic modes thermally excited(the linear part near (0,0))\\&#xa;which can be treated as an elastic continuum with macroscopic elastic constants" ID="ID_417683725" CREATED="1594537165688" MODIFIED="1594542248416"/>
 </node>
 </node>
-<node TEXT="Einstein model (optical modes): N oscillators of the same frequency" ID="ID_747622256" CREATED="1594551564357" MODIFIED="1594552536848">
+<node TEXT="Einstein model (optical modes):&#xa;all phonons have the same frequency" ID="ID_747622256" CREATED="1594551564357" MODIFIED="1604295975690">
 <node TEXT="\latex $C_v$ of a solid:\\&#xa;$T\ll \theta(T&lt;0.1\theta)$: decreases as\ $\exp(-\hbar\omega/k_BT)$\\&#xa;$T\gg \theta$: $T\rightarrow 3Nk_B$(classical value)" ID="ID_23415228" CREATED="1594557126668" MODIFIED="1594557329977">
 <hook URI="Solid%20State%20Physics_files/png321321.png" SIZE="0.36792558" NAME="ExternalObject"/>
 </node>
