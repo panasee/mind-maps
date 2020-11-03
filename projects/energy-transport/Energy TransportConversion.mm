@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
+<hook NAME="MapStyle" zoom="1.771">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -525,7 +525,16 @@
 </node>
 <node TEXT="energy transfer by WAVES" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
 <edge COLOR="#ff00ff"/>
-<node TEXT="plane wave:&#xa;has a constant amplitude at any plane perpendicular to the direction of propagation at any fixed time" ID="ID_296670041" CREATED="1604306467097" MODIFIED="1604306516091"/>
+<node TEXT="plane wave:&#xa;has a constant amplitude at any plane perpendicular to the direction of propagation at any fixed time" ID="ID_296670041" CREATED="1604306467097" MODIFIED="1604306516091">
+<node TEXT="\latex e.g. $\vec F(t,\vec r) = \vec A sin(\omega t-\vec k\cdot\vec r)=\Re(\vec A\exp[-i(\omega t-\vec k\cdot \vec r)])$\\&#xa;$\vec k\cdot\vec r =Const$ gives a plane perpendicular to $\vec k$\\&#xa;and $\vec F$ is a constant on this plane at any $t$" ID="ID_618996427" CREATED="1604323680012" MODIFIED="1604323875064"/>
+<node TEXT="\latex plane electron waves \\&#xa;$\Psi(x,t) = A\exp[-i(\omega t-kx)]$" ID="ID_1244947738" CREATED="1604323986358" MODIFIED="1604324040173">
+<node TEXT="\latex dispersion relation\\&#xa;$k=\sqrt{\frac{2m(E-U)}{\hbar^2}}$" ID="ID_565396560" CREATED="1604324053899" MODIFIED="1604324087005"/>
+<node TEXT="\latex particle current/flux\\&#xa;$\vec J=\frac{i\hbar}{2m}(\Psi\nabla\Psi^*-\Psi^*\nabla\Psi)=\Re[\frac{i\hbar}m\Psi\nabla\Psi^*]$\\&#xa;($\langle v\rangle=\frac{\langle P\rangle}m=\frac{\langle\psi|P|\psi\rangle^*+\langle\psi|P|\psi\rangle}{2m}$)" ID="ID_984443024" CREATED="1604324088842" MODIFIED="1604326625521"/>
+</node>
+<node TEXT="\latex plane electromagnetic waves \\&#xa;Poynting vector $\vec S=\vec E\times\vec H,[S]=[W\cdot m^{-2}]$\\&#xa;represents the instantaneous energy flux" ID="ID_1559865396" CREATED="1604368722634" MODIFIED="1604368891878">
+<node TEXT="\latex as $\vec S$ has twice the frequency, hard to measure, so the time-averaged Poynting vector is used \\&#xa;$\langle \vec S\rangle = \frac1T\int_t^{t+T}\vec S dt^\prime = \frac12 \Re(\vec E_c\times H_c^*)$" ID="ID_637013316" CREATED="1604368943129" MODIFIED="1604369060103"/>
+</node>
+</node>
 </node>
 </node>
 </map>

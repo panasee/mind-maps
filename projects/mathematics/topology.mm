@@ -64,8 +64,8 @@
 <node TEXT="\latex definition: let $X$ be a set of points. A collection of subsets $U=\{ U_\alpha \}$&#xa; forms a topology on $X$(($X,U$)is a topological space) if:\\&#xa;\checkmark \small{Any \textbf{arbitrary}\ union of $U_\alpha$ is another set in collection $U$} \\&#xa;\checkmark \small{The intersection of any finite number of sets $U_\alpha$} is another set in $U$\\&#xa;\checkmark \small{Both the empty set $\phi$ and the whole space $X$ must be in $U$} \\&#xa;\small{(while a \sigma-algebra only needs closure under \textbf{countable}\ union)}" POSITION="right" ID="ID_1064699452" CREATED="1604316243531" MODIFIED="1604318035895">
 <node TEXT="\latex $U_\alpha \in U$ is called \textbf{open sets},&#xa;and\\ a set $C$ is closed if $(X-C)$ is open" ID="ID_1188651495" CREATED="1604318065689" MODIFIED="1604318554040"/>
 <node TEXT="\latex $A\in X$, the induced topology on $A$ is described by&#xa;\\letting the open sets on $A$ be all sets of the form\\&#xa; $U\cap A$($U$ is an open set in $X$)" ID="ID_1332046959" CREATED="1604318244744" MODIFIED="1604318417104"/>
-<node TEXT="\latex a collection $\Sigma=\{ U_\alpha \}$ of open sets is said to be an \textbf{open cover} of a subset $A$ if $A$ is contained in the union of the $U_\alpha$" ID="ID_1767515993" CREATED="1604318642170" MODIFIED="1604318706199"/>
-<node TEXT="\latex $A\in X$, $A$ is compact if given any open cover of $A$,\\&#xa; there is a finite subcover" ID="ID_900735745" CREATED="1604318447465" MODIFIED="1604318500693"/>
+<node TEXT="\latex a collection $\Sigma=\{ U_\alpha \}$ is said to be an \textbf{open cover}\\of a subset $A$, if $A$ is contained in the union of the $U_\alpha$" ID="ID_1767515993" CREATED="1604318642170" MODIFIED="1604321748715"/>
+<node TEXT="\latex $A\in X$ is compact, if given any open cover of $A$,\\&#xa; there is a finite subcover" ID="ID_900735745" CREATED="1604318447465" MODIFIED="1604319851345"/>
 </node>
 </node>
 </map>
