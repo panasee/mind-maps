@@ -532,7 +532,46 @@
 <node TEXT="\latex particle current/flux\\&#xa;$\vec J=\frac{i\hbar}{2m}(\Psi\nabla\Psi^*-\Psi^*\nabla\Psi)=\Re[\frac{i\hbar}m\Psi\nabla\Psi^*]$\\&#xa;($\langle v\rangle=\frac{\langle P\rangle}m=\frac{\langle\psi|P|\psi\rangle^*+\langle\psi|P|\psi\rangle}{2m}$)" ID="ID_984443024" CREATED="1604324088842" MODIFIED="1604326625521"/>
 </node>
 <node TEXT="\latex plane electromagnetic waves \\&#xa;Poynting vector $\vec S=\vec E\times\vec H,[S]=[W\cdot m^{-2}]$\\&#xa;represents the instantaneous energy flux" ID="ID_1559865396" CREATED="1604368722634" MODIFIED="1604368891878">
-<node TEXT="\latex as $\vec S$ has twice the frequency, hard to measure, so the time-averaged Poynting vector is used \\&#xa;$\langle \vec S\rangle = \frac1T\int_t^{t+T}\vec S dt^\prime = \frac12 \Re(\vec E_c\times H_c^*)$" ID="ID_637013316" CREATED="1604368943129" MODIFIED="1604369060103"/>
+<node TEXT="\latex as $\vec S$ has twice the frequency, hard to measure, so the time-averaged Poynting vector is used \\&#xa;$\langle \vec S\rangle = \frac1T\int_t^{t+T}\vec S dt^\prime = \frac12 \Re(\vec E_c\times H_c^*)$\\&#xa;(c is used to emphasize the complex representation)" ID="ID_637013316" CREATED="1604368943129" MODIFIED="1604733092454">
+<node TEXT="\latex e.g. plane-wave x+ direction as\\&#xa;$E_y=E_{ya}\exp[-i\omega(t\mp \frac{Nx}{c_0})]\vec e_y$\\&#xa;$H_z=H_{za}\exp[-i\omega(t\mp \frac{Nx}{c_0})]\vec e_z,\ (H_{za}=\pm\frac{N}{\mu c_0}E_{ya})$\\&#xa;$\Rightarrow \langle \vec S\rangle =\frac12 \frac n{\mu c_0}e^{-\alpha x}E_{ya}^2\vec e_x,\ (\alpha\equiv \frac{4\pi\kappa}{\lambda_0})$" ID="ID_1328414788" CREATED="1604734787333" MODIFIED="1604737230345">
+<node TEXT="\latex $\alpha$ is called the \textbf{absorption coefficient}\\&#xa;$\delta\equiv \frac1\alpha$ is called the \textbf{skin depth}" ID="ID_24018979" CREATED="1604737337320" MODIFIED="1604737411877"/>
+<node TEXT="the energy decays exponentially" ID="ID_22031384" CREATED="1604737421047" MODIFIED="1604737434258"/>
+</node>
+</node>
+<node TEXT="\latex $\vec E,\vec H,\vec k$ may follow right-hand(more usual)\\&#xa;($\vec e_k =\vec e_E\times\vec e_H$) or left-hand rule" ID="ID_188650259" CREATED="1604738513128" MODIFIED="1604738618681">
+<node TEXT="the left-handed materials may have interesting properties (e.g. negative refractive index)" ID="ID_1527687395" CREATED="1604738747268" MODIFIED="1604738790392"/>
+</node>
+</node>
+<node TEXT="\latex plane acoustic waves" ID="ID_1346788192" CREATED="1604738807771" MODIFIED="1604738820828">
+<node TEXT="\latex long wavelength range$\Leftrightarrow$&#xa;\\continuum representation" ID="ID_276066689" CREATED="1604740639177" MODIFIED="1604741296670">
+<node TEXT="\latex the propagation can be described in terms of the local medium displacement $\vec u$, or more often, the velocity $\vec v=\frac{d\vec u}{dt}$" ID="ID_893787088" CREATED="1604741387277" MODIFIED="1604741467564">
+<node TEXT="\latex the displacement is related to the\\&#xa; strain tensor $\mathbb S_{ij}(\vec r,t)=\frac12(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i})$" ID="ID_972444124" CREATED="1604741507244" MODIFIED="1604741638816"/>
+<node TEXT="\latex strain is further related to stress tensor,\\&#xa;through the generalized Hooke law $\vec F=\bar\bar \sigma \vec n$,\\&#xa;$\vec F$ is the force on a surface with norm $\vec n$" ID="ID_883688897" CREATED="1604741648286" MODIFIED="1604747725104">
+<node ID="ID_1278757885" CREATED="1604742498349" MODIFIED="1604742696387"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for an anisotropic medium with damping, the constitutive relationship between stress and strain involves the <b>elastic stiffness </b>and<b>&nbsp;&nbsp;viscosity </b>tensor
+    </p>
+    <p>
+      (both are 4th-rank tensors with 81 components)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex focus on the special case-&gt;isotropic with no damping\\ &#xa;only 2 constants are needed: $\lambda_L,\mu_L\rightarrow$ Lame constants" ID="ID_601937910" CREATED="1604743853727" MODIFIED="1604744901408">
+<node TEXT="Christoffel equation: the eigenvalue equation determining the dispersion relation" ID="ID_1202162529" CREATED="1604745121311" MODIFIED="1604745166114"/>
+<node TEXT="\latex time-averaged power carried by the acoustic wave-&gt;&gt;\\&#xa;\textbf{acoustic Poynting vector}: $\vec J_a=-\frac12\Re(\vec v^*\cdot \bar\bar\sigma)$" ID="ID_1755255539" CREATED="1604747370486" MODIFIED="1604747711768"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
