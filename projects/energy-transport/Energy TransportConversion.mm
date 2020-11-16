@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.331">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -529,7 +529,9 @@
 <node TEXT="\latex e.g. $\vec F(t,\vec r) = \vec A sin(\omega t-\vec k\cdot\vec r)=\Re(\vec A\exp[-i(\omega t-\vec k\cdot \vec r)])$\\&#xa;$\vec k\cdot\vec r =Const$ gives a plane perpendicular to $\vec k$\\&#xa;and $\vec F$ is a constant on this plane at any $t$" ID="ID_618996427" CREATED="1604323680012" MODIFIED="1604323875064"/>
 <node TEXT="\latex plane electron waves \\&#xa;$\Psi(x,t) = A\exp[-i(\omega t-kx)]$" ID="ID_1244947738" CREATED="1604323986358" MODIFIED="1604324040173">
 <node TEXT="\latex dispersion relation\\&#xa;$k=\sqrt{\frac{2m(E-U)}{\hbar^2}}$" ID="ID_565396560" CREATED="1604324053899" MODIFIED="1604324087005"/>
-<node TEXT="\latex particle current/flux\\&#xa;$\vec J=\frac{i\hbar}{2m}(\Psi\nabla\Psi^*-\Psi^*\nabla\Psi)=\Re[\frac{i\hbar}m\Psi\nabla\Psi^*]$\\&#xa;($\langle v\rangle=\frac{\langle P\rangle}m=\frac{\langle\psi|P|\psi\rangle^*+\langle\psi|P|\psi\rangle}{2m}$)" ID="ID_984443024" CREATED="1604324088842" MODIFIED="1604326625521"/>
+<node TEXT="\latex particle current/flux\\&#xa;$\vec J=\frac{i\hbar}{2m}(\Psi\nabla\Psi^*-\Psi^*\nabla\Psi)=\Re[\frac{i\hbar}m\Psi\nabla\Psi^*]$\\&#xa;($\langle v\rangle=\frac{\langle P\rangle}m=\frac{\langle\psi|P|\psi\rangle^*+\langle\psi|P|\psi\rangle}{2m}$)" ID="ID_984443024" CREATED="1604324088842" MODIFIED="1605535008710">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1875171817" STARTINCLINATION="593;0;" ENDINCLINATION="593;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
 </node>
 <node TEXT="\latex plane electromagnetic waves \\&#xa;Poynting vector $\vec S=\vec E\times\vec H,[S]=[W\cdot m^{-2}]$\\&#xa;represents the instantaneous energy flux" ID="ID_1559865396" CREATED="1604368722634" MODIFIED="1604368891878">
 <node TEXT="\latex as $\vec S$ has twice the frequency, hard to measure, so the time-averaged Poynting vector is used \\&#xa;$\langle \vec S\rangle = \frac1T\int_t^{t+T}\vec S dt^\prime = \frac12 \Re(\vec E_c\times H_c^*)$\\&#xa;(c is used to emphasize the complex representation)" ID="ID_637013316" CREATED="1604368943129" MODIFIED="1604733092454">
@@ -562,7 +564,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex focus on the special case-&gt;isotropic with no damping\\ &#xa;only 2 constants are needed: $\lambda_L,\mu_L\rightarrow$ Lame constants" ID="ID_601937910" CREATED="1604743853727" MODIFIED="1604744901408">
@@ -573,6 +574,16 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="interface reflection&amp;refraction&#xa;(of plane waves)" ID="ID_870044229" CREATED="1605532711685" MODIFIED="1605532736681">
+<node TEXT="electron waves&#xa;an electrical potential barrier generally exists at an interface,&#xa;here use step potential for simplicity" ID="ID_1908804855" CREATED="1605532825790" MODIFIED="1605536068026">
+<node TEXT="\latex $\psi_i=A_ie^{-i(\omega t-k_1z)},\ \psi_r=A_re^{-i(\omega t-k_1z)},\ \psi_t=A_te^{-i(\omega t-k_2z)}$\\&#xa;$k_i$ is the electron wavevectors in different media" ID="ID_350889591" CREATED="1605534153980" MODIFIED="1605534353904">
+<node TEXT="\latex use b.c. to obtain the reflection\&amp;transmission coefficients\\&#xa;$r=\frac{A_r}{A_i}=\frac{k_1-k_2}{k_1+k_2},\; t=\frac{A_t}{A_i}=\frac{2k_1}{k_1+k_2}$\\&#xa;corresponding \textbf{reflectivity} and \textbf{transmissivity} of particle flux are\\&#xa;$R=\frac{J_r}{J_i}=|\frac{k_1-k_2}{k_1+k_2}|^2,\; \tau=\frac{J_t}{J_i}=\frac{\Re[k_2^*A_tA_t^*]}{\Re[k_1^*A_iA_i^*]}=\frac{4\Re(k_1k_2^*)}{|k_1+k_2|^2}=1-R$" ID="ID_1875171817" CREATED="1605534509900" MODIFIED="1605534921210"/>
+<node TEXT="\latex when $E&lt;U_0$, $R=1\&amp;\tau=0$ i.e. all electrons reflected \\&#xa;however $\psi_t$ is not zero, it decay exponentially, it&apos;s called \textbf{evanescent wave}, not carrying a net particle flux" ID="ID_1551612015" CREATED="1605535084820" MODIFIED="1605535227309"/>
+<node TEXT="\latex when $E&gt;U_0$, partially reflected and partially transmitted \\&#xa;(whereas classical mechanics would lead to 100\% transmission)" ID="ID_1800934188" CREATED="1605535304469" MODIFIED="1605535361370"/>
+</node>
+</node>
+<node TEXT="\latex acoustic waves\\&#xa;continuity b.c.-&gt; displacement velocity and force at interface&#xa;\\$\sum \vec v_1=\sum \vec v_2$ and $\sum \bar\bar \sigma_1\cdot \hat n=\sum \bar\bar\sigma_2\cdot \hat n$" ID="ID_1679971152" CREATED="1605536030294" MODIFIED="1605536220415"/>
 </node>
 </node>
 </node>
