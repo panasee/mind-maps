@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="2.143">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -583,7 +583,54 @@
 <node TEXT="\latex when $E&gt;U_0$, partially reflected and partially transmitted \\&#xa;(whereas classical mechanics would lead to 100\% transmission)" ID="ID_1800934188" CREATED="1605535304469" MODIFIED="1605535361370"/>
 </node>
 </node>
-<node TEXT="\latex acoustic waves\\&#xa;continuity b.c.-&gt; displacement velocity and force at interface&#xa;\\$\sum \vec v_1=\sum \vec v_2$ and $\sum \bar\bar \sigma_1\cdot \hat n=\sum \bar\bar\sigma_2\cdot \hat n$" ID="ID_1679971152" CREATED="1605536030294" MODIFIED="1605536220415"/>
+<node TEXT="\latex acoustic waves\\&#xa;continuity b.c.-&gt; displacement velocity and force at interface&#xa;\\$\sum \vec v_1=\sum \vec v_2$ and $\sum \bar\bar \sigma_1\cdot \hat n=\sum \bar\bar\sigma_2\cdot \hat n$" ID="ID_1679971152" CREATED="1605536030294" MODIFIED="1605536220415">
+<node TEXT="the displacement velocity b.c. not always true;&#xa;while the force b.c. always stands" ID="ID_1690910816" CREATED="1605571886766" MODIFIED="1605571919405"/>
+<node TEXT="the derivation of acoustic waves is similar to that of electromagnetic waves, but more complex as acoustic waves have 3 polarizations and there are possibilities they can couple with each other" ID="ID_1550259375" CREATED="1605572153834" MODIFIED="1605572242473"/>
+<node TEXT="\latex consider SH(horizontally polarized shear) incident wave for isotropic medium, then only SH transmitted \&amp; reflected waves&#xa;are excited with:\\&#xa;$r_s=\frac{v_r}{v_i}=\frac{Z_1\cos\theta_i-Z_2\cos\theta_t}{Z_1\cos\theta_i+Z_2\cos\theta_t},\; t_s=\frac{v_t}{v_i}=\frac{2Z_1\cos\theta_i}{Z_1\cos\theta_i+Z_2\cos\theta_t}$" ID="ID_717100" CREATED="1605572664453" MODIFIED="1605572953810">
+<node TEXT="\latex $Z=(\rho c_{44})^{1/2}=\rho v_T$ is \textbf{acoustic impedance}\\&#xa;playing a similar role to the optical refractive index" ID="ID_952104407" CREATED="1605572972344" MODIFIED="1605573066214"/>
+</node>
+<node ID="ID_1499206683" CREATED="1605573313062" MODIFIED="1605573445975"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for a transverse wave polarized in the plane of incidence(vertically polarized shear wave or <b>SV</b>&nbsp;wave)
+    </p>
+    <p>
+      or a longitudinally polarized incident wave(<b>L</b>&nbsp;wave)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_328357611" CREATED="1605573446622" MODIFIED="1605573587830"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      in general, an incident wave can excite <b>3</b>&nbsp;reflected waves and <b>3</b>&nbsp;&nbsp;transmitted waves
+    </p>
+    <p>
+      (2 transverse waves are degenerate for isotropic media, leaving 2 reflected and 2 transmitted waves)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex Snell law\\&#xa;$\frac{\sin\theta_i}{v_i}=\frac{\sin\theta_{rL}}{v_{L1}}=\frac{\sin\theta_{rT}}{v_{T1}}=\frac{\sin\theta_{tL}}{v_{L2}}=\frac{\sin\theta_{tT}}{v_{T2}}$" ID="ID_42212397" CREATED="1605573614494" MODIFIED="1605573729487"/>
+</node>
+</node>
+</node>
+<node TEXT="thermal boundary resistance" ID="ID_758776284" CREATED="1605575594270" MODIFIED="1605575605086">
+<node TEXT="Kapitza resistance: first discovered to exist between liquid helium and solid walls" ID="ID_316748654" CREATED="1605576172757" MODIFIED="1605576211602"/>
+<node TEXT="\latex $q_{1\rightarrow 2}=\sum_{p=1}^{3m}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}\hbar\omega\tau_{12}f(\omega,T_{e1})]$" ID="ID_666292041" CREATED="1605576890316" MODIFIED="1605577041307"/>
+</node>
 </node>
 </node>
 </node>
