@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.143">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.771">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -604,7 +604,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_328357611" CREATED="1605573446622" MODIFIED="1605573587830"><richcontent TYPE="NODE">
 
@@ -621,7 +620,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex Snell law\\&#xa;$\frac{\sin\theta_i}{v_i}=\frac{\sin\theta_{rL}}{v_{L1}}=\frac{\sin\theta_{rT}}{v_{T1}}=\frac{\sin\theta_{tL}}{v_{L2}}=\frac{\sin\theta_{tT}}{v_{T2}}$" ID="ID_42212397" CREATED="1605573614494" MODIFIED="1605573729487"/>
 </node>
@@ -629,7 +627,78 @@
 </node>
 <node TEXT="thermal boundary resistance" ID="ID_758776284" CREATED="1605575594270" MODIFIED="1605575605086">
 <node TEXT="Kapitza resistance: first discovered to exist between liquid helium and solid walls" ID="ID_316748654" CREATED="1605576172757" MODIFIED="1605576211602"/>
-<node TEXT="\latex $q_{1\rightarrow 2}=\sum_{p=1}^{3m}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}\hbar\omega\tau_{12}f(\omega,T_{e1})]$" ID="ID_666292041" CREATED="1605576890316" MODIFIED="1605577041307"/>
+<node TEXT="\latex $q_{1\rightarrow 2}=\sum_{p=1}^{3m}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}\hbar\omega\tau_{12}f(\omega,T_{e1})]$\\&#xa;$T_{e1}$ is the temp of phonons coming toward the interface, $f$ is BE dist, $\tau_{12}$ is transmissivity from 1 to 2, \textbf{$k_z$ must be positive so that only phonons coming toward the interface are counted}, m denotes the number of atoms in primitive cell" ID="ID_666292041" CREATED="1605576890316" MODIFIED="1605588564734">
+<node TEXT="\latex $q=q_{1\rightarrow 2}-q_{2\rightarrow 1}$" ID="ID_533206501" CREATED="1605589883259" MODIFIED="1605590000367"/>
+<node TEXT="\latex use principle of detailed balance, \\&#xa;$q=\int_{\Omega_1\ge2\pi}[\int v_1\cos\theta_1\hbar\omega[f(\omega,T_{e1})-f(\omega,T_{e2})]\tau_{12}(\omega,\phi_1,\theta_1)D_1(\omega)/4\pi d\omega]d\Omega_1\rightarrow\limits^{T_{e1}-T_{e2}\rightarrow 0} \frac{T_{e1}-T_{e2}}{\mathscr R_e}$\\&#xa;$\mathscr R_e$ is \textbf{specific thermal boundary resistance}" ID="ID_1685051766" CREATED="1605590016988" MODIFIED="1605590300712">
+<node TEXT="\latex when at low temp and $\tau$ independent of $\omega$ \\&#xa;$\mathscr R_e\propto T_e^{-3}$ (because of the $T^3$ dependence of specific heat)" ID="ID_1868599911" CREATED="1605590381380" MODIFIED="1605590473344"/>
+<node TEXT="\latex at high temp, the scattering at interface no longer specular and elastic (phonon freq changes during scattering)" ID="ID_200575911" CREATED="1605590643844" MODIFIED="1605590697759">
+<node TEXT="no generally accepted way to calculate the&#xa;thermal boundary resistance at higher temp" ID="ID_334654568" CREATED="1605590777084" MODIFIED="1605590806079"/>
+</node>
+</node>
+<node TEXT="note: phonon interface transport is highly nonequilibrium, so strictly no temperature defined near the interface" ID="ID_1888338319" CREATED="1605596450893" MODIFIED="1605596503854">
+<node ID="ID_1444014872" CREATED="1605599542669" MODIFIED="1605599808867"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      diff phonon branches own diff temp--&gt;&quot;<b>equivalent equilibrium temperature</b>&quot;(adiabatically approach equi) as a measure of the local energy density (can't represent spectral characteristics)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="\latex exists even if the interface is perfect (as long as there exists phonon reflection at the interface).&#xa;\\Its order of magnitude $\mathscr R \sim 1/(Cv)$" ID="ID_1475058448" CREATED="1605610204759" MODIFIED="1605610300292">
+<node TEXT="dominant for nanoscale systems with lots of interfaces" ID="ID_1741471534" CREATED="1605610375278" MODIFIED="1605610408248"/>
+<node TEXT="note: its value in a multilayer structure&#xa;differs from that of a single interface" ID="ID_1153345922" CREATED="1605610409013" MODIFIED="1605610455580"/>
+</node>
+</node>
+<node TEXT="wave propagation&#xa;in thin films" ID="ID_157934823" CREATED="1605610829687" MODIFIED="1605610845892">
+<node TEXT="reflected waves can be superimposed on incident wave --&gt; thickness dependence of reflectivity and transmissivity" ID="ID_1206879465" CREATED="1605612026121" MODIFIED="1605612086978"/>
+<node TEXT="new phenomenon --- tunneling,&#xa;making the total reflection disappear" ID="ID_201806202" CREATED="1605612129136" MODIFIED="1605612165612"/>
+<node TEXT="acoustic waves" ID="ID_1721556964" CREATED="1605614749655" MODIFIED="1605614758498">
+<node ID="ID_1259506557" CREATED="1605614759096" MODIFIED="1605614856902"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      superlattices' periodicity leads to <b>folded zone representation</b>&nbsp;and the formation of <b>phonon minibands</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="phonon minigaps formed can be thought of as stop bands generated by multiple reflections and coherent superposition of the lattice waves, as for photons in periodic structures" ID="ID_682040718" CREATED="1605615689688" MODIFIED="1605615747793"/>
+<node ID="ID_1630094187" CREATED="1605615950705" MODIFIED="1605616031053"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for long-wavelength phonons, one can use the <b>transfer matrix method</b>&nbsp;&nbsp;as for optical waves to calculate the transmission
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="evanescent waves" ID="ID_1980350899" CREATED="1605622254633" MODIFIED="1605622260324">
+<node TEXT="\latex for the previous total reflection case ($E&lt;U_0$)\\&#xa;$\psi_t=\frac{2i|k_2|e^{-|k_2|z}}{k_1+i|k_2|}\psi_i,\;\; |k_2|=\sqrt{\frac{2m(U_0-E)}{\hbar^2}}" ID="ID_1989345285" CREATED="1605623087232" MODIFIED="1605623244950"/>
+<node TEXT="\latex penetration depth (defined as the depth at which the\\ wavefunc decays to $e^{-1}$):   $\delta=\frac1{|k_2|}$" ID="ID_643448246" CREATED="1605623337689" MODIFIED="1605623410274"/>
+<node TEXT="optical analog: em wave incident above the critical angle" ID="ID_1874502133" CREATED="1605623560495" MODIFIED="1605623582250"/>
 </node>
 </node>
 </node>
