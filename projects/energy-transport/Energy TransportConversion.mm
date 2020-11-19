@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.331">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -761,8 +761,48 @@
 <node TEXT="\latex phase velocity: $v_{p,x}=\frac{dx}{dt}=\frac\omega k$\\&#xa;as \textbf{the plane wave extends from $-\infty$ to $\infty$ with no start or finish, not represent any meaningful signal}" ID="ID_1660015741" CREATED="1605768076318" MODIFIED="1605768292515">
 <node TEXT="commonly, finite waves are used to pass signals,&#xa;which can be decomposed through Fourier series into&#xa;plane wave with freq from -infty to +infty" ID="ID_312468504" CREATED="1605768686073" MODIFIED="1605768801100">
 <node TEXT="\latex e.g. two em waves with freq\&amp;k around $\omega_0\&amp;k$\\&#xa;$E_y(x,t)=\sum a\cos[(\omega_0\pm\frac{\Delta\omega}2)t-(k_0\pm\frac{\Delta k}2)x]$&#xa;\\$=2a\cos(\Delta\omega t-\Delta kx)\cos(\omega_0t-k_0x)$\\&#xa;two parts:carrier wave with $(\omega_0,k_0)$ \&amp; modulation of it by a wave with $(\Delta\omega,\Delta k)$" ID="ID_1853373762" CREATED="1605770559704" MODIFIED="1605770936412">
-<node TEXT="\latex for $\Delta \omega\ll \omega_0$, Poynting vector time-averaged over a period between $\frac1{\omega_0}$ and $\frac1{\Delta\omega}$ could give the average energy flux as:" ID="ID_1513413409" CREATED="1605770988369" MODIFIED="1605771317046"/>
+<node TEXT="\latex for $\Delta \omega\ll \omega_0$, Poynting vector time-averaged over a period between $\frac1{\omega_0}$ and $\frac1{\Delta\omega}$ could give the average energy flux as:\\&#xa;$S(x,t) = \frac{4a^2n}{c_0\mu}\cos^2(t\Delta \omega-x\Delta k)$, so propagating speed is $v_{g,x}=\frac{\Delta \omega}{\Delta k}$" ID="ID_1513413409" CREATED="1605770988369" MODIFIED="1605772562516"/>
 </node>
+</node>
+</node>
+<node TEXT="group velocity doesn&apos;t always&#xa; repre energy velocity" ID="ID_1987651108" CREATED="1605772915326" MODIFIED="1605773003420">
+<node TEXT="\latex the above demon assumed\\&#xa; that $\Delta \omega \ll \omega_0$" ID="ID_379968257" CREATED="1605773011986" MODIFIED="1605773067157">
+<node TEXT="\latex $v_g$ no longer the energy velocity in the case of\\&#xa;a very large variation in the dispersion relation" ID="ID_402346261" CREATED="1605773075874" MODIFIED="1605773131542">
+<node TEXT="anomalous dispersion in silver: refractive index less than 1&#xa;phase &amp; group velocity both larger than vacuum light speed" ID="ID_1170432668" CREATED="1605773179865" MODIFIED="1605773264991">
+<node TEXT="the signal velocity still less than the speed of light" ID="ID_1413761733" CREATED="1605773409241" MODIFIED="1605773424570"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="the group velocity means the&#xa;actual motion speed of particles" ID="ID_980659425" CREATED="1605774288746" MODIFIED="1605774321156">
+<node TEXT="\latex crystal momentum $p=\hbar k$ is used rather than \\&#xa;normal momentum $p=mv_g$, as the crystal momentum \\&#xa;contains info about the inner field of crystals" ID="ID_1090472559" CREATED="1605774321994" MODIFIED="1605774455253"/>
+</node>
+</node>
+<node TEXT="coherence" ID="ID_1592783120" CREATED="1605774507234" MODIFIED="1605774510268">
+<node TEXT="transport is coherent when the phase&#xa;of the carriers must be considered" ID="ID_892408086" CREATED="1605774553585" MODIFIED="1605774576204">
+<node ID="ID_1446015805" CREATED="1605774605106" MODIFIED="1605774719489"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      in the other limit, it's <b>incoherent</b>;
+    </p>
+    <p>
+      in between the two limits is the <b>partially coherent regime</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="most engineering approaches for transport built on diffusion equations treat particles incoherently" ID="ID_747178486" CREATED="1605778770962" MODIFIED="1605778811016"/>
+</node>
+<node TEXT="criteria" ID="ID_1744053490" CREATED="1605778989034" MODIFIED="1605778992148">
+<node TEXT="em waves" ID="ID_779861661" CREATED="1605778993387" MODIFIED="1605778997845">
+<node TEXT="\latex \textbf{coherence length}: $l_c\approx \frac c{\Delta v}$ (\textbf{inversely}\ proportional to the effective bandwidth of the waves in the system)" ID="ID_430321887" CREATED="1605780660314" MODIFIED="1605785332359"/>
 </node>
 </node>
 </node>
