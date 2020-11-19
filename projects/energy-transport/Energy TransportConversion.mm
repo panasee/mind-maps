@@ -3,7 +3,7 @@
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.771">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -575,7 +575,7 @@
 </node>
 </node>
 </node>
-<node TEXT="interface reflection&amp;refraction&#xa;(of plane waves)" ID="ID_870044229" CREATED="1605532711685" MODIFIED="1605532736681">
+<node TEXT="interface reflection&amp;refraction&#xa;(of plane waves)" FOLDED="true" ID="ID_870044229" CREATED="1605532711685" MODIFIED="1605532736681">
 <node TEXT="electron waves&#xa;an electrical potential barrier generally exists at an interface,&#xa;here use step potential for simplicity" ID="ID_1908804855" CREATED="1605532825790" MODIFIED="1605536068026">
 <node TEXT="\latex $\psi_i=A_ie^{-i(\omega t-k_1z)},\ \psi_r=A_re^{-i(\omega t-k_1z)},\ \psi_t=A_te^{-i(\omega t-k_2z)}$\\&#xa;$k_i$ is the electron wavevectors in different media" ID="ID_350889591" CREATED="1605534153980" MODIFIED="1605534353904">
 <node TEXT="\latex use b.c. to obtain the reflection\&amp;transmission coefficients\\&#xa;$r=\frac{A_r}{A_i}=\frac{k_1-k_2}{k_1+k_2},\; t=\frac{A_t}{A_i}=\frac{2k_1}{k_1+k_2}$\\&#xa;corresponding \textbf{reflectivity} and \textbf{transmissivity} of particle flux are\\&#xa;$R=\frac{J_r}{J_i}=|\frac{k_1-k_2}{k_1+k_2}|^2,\; \tau=\frac{J_t}{J_i}=\frac{\Re[k_2^*A_tA_t^*]}{\Re[k_1^*A_iA_i^*]}=\frac{4\Re(k_1k_2^*)}{|k_1+k_2|^2}=1-R$" ID="ID_1875171817" CREATED="1605534509900" MODIFIED="1605534921210"/>
@@ -705,7 +705,7 @@
 </node>
 <node TEXT="Landauer Formalism" ID="ID_272749129" CREATED="1605709401233" MODIFIED="1605709407308">
 <node TEXT="\latex the heat flux from reservoir to another(not net):&#xa;\\$q_{1\rightarrow 2}=\sum_{p}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}E\tau_{12}f(E,T_{1})]$" ID="ID_446800166" CREATED="1605709493266" MODIFIED="1605709602814">
-<node TEXT="\latex use principle of detailed balance to obtain a relationship between the transmissivity 1--&gt;2 and 2--&gt;1, thus get the net flux\\&#xa;when the temp diff small, $q \approx K\Delta T$ ,\textbf{Landauer formalism}" ID="ID_299789660" CREATED="1605709611249" MODIFIED="1605709750774"/>
+<node TEXT="\latex use principle of detailed balance to obtain a relationship between the transmissivity 1--&gt;2 and 2--&gt;1, thus get the net flux\\&#xa;when the temp diff small, $q \approx K\Delta T$" ID="ID_299789660" CREATED="1605709611249" MODIFIED="1605767702429"/>
 </node>
 <node TEXT="when scattering exists, less useful;&#xa;when ballistic transport, convenient to use" ID="ID_209907400" CREATED="1605709778770" MODIFIED="1605709816174"/>
 </node>
@@ -750,6 +750,18 @@
 </node>
 <node TEXT="they have high energy density near surface&#xa;but decay rapidly away from the surface" ID="ID_1813363008" CREATED="1605710651498" MODIFIED="1605710680980"/>
 </node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="transition to particle description" ID="ID_720393831" CREATED="1605767773203" MODIFIED="1605767783548">
+<node TEXT="in macroscale, often ignore the phase and treat the energy carrier as particles" ID="ID_1829312737" CREATED="1605767886056" MODIFIED="1605767923168"/>
+<node TEXT="wave packet and&#xa;group velocity" ID="ID_1323422858" CREATED="1605768008863" MODIFIED="1605768050860">
+<node TEXT="\latex phase velocity: $v_{p,x}=\frac{dx}{dt}=\frac\omega k$\\&#xa;as \textbf{the plane wave extends from $-\infty$ to $\infty$ with no start or finish, not represent any meaningful signal}" ID="ID_1660015741" CREATED="1605768076318" MODIFIED="1605768292515">
+<node TEXT="commonly, finite waves are used to pass signals,&#xa;which can be decomposed through Fourier series into&#xa;plane wave with freq from -infty to +infty" ID="ID_312468504" CREATED="1605768686073" MODIFIED="1605768801100">
+<node TEXT="\latex e.g. two em waves with freq\&amp;k around $\omega_0\&amp;k$\\&#xa;$E_y(x,t)=\sum a\cos[(\omega_0\pm\frac{\Delta\omega}2)t-(k_0\pm\frac{\Delta k}2)x]$&#xa;\\$=2a\cos(\Delta\omega t-\Delta kx)\cos(\omega_0t-k_0x)$\\&#xa;two parts:carrier wave with $(\omega_0,k_0)$ \&amp; modulation of it by a wave with $(\Delta\omega,\Delta k)$" ID="ID_1853373762" CREATED="1605770559704" MODIFIED="1605770936412">
+<node TEXT="\latex for $\Delta \omega\ll \omega_0$, Poynting vector time-averaged over a period between $\frac1{\omega_0}$ and $\frac1{\Delta\omega}$ could give the average energy flux as:" ID="ID_1513413409" CREATED="1605770988369" MODIFIED="1605771317046"/>
 </node>
 </node>
 </node>
