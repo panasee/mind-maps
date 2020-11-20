@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="2.143">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -795,14 +795,39 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="most engineering approaches for transport built on diffusion equations treat particles incoherently" ID="ID_747178486" CREATED="1605778770962" MODIFIED="1605778811016"/>
 </node>
 <node TEXT="criteria" ID="ID_1744053490" CREATED="1605778989034" MODIFIED="1605778992148">
 <node TEXT="em waves" ID="ID_779861661" CREATED="1605778993387" MODIFIED="1605778997845">
-<node TEXT="\latex \textbf{coherence length}: $l_c\approx \frac c{\Delta v}$ (\textbf{inversely}\ proportional to the effective bandwidth of the waves in the system)" ID="ID_430321887" CREATED="1605780660314" MODIFIED="1605785332359"/>
+<node TEXT="\latex \textbf{coherence length(wave packets)}: $l_c\approx \frac c{\Delta \nu}$ (\textbf{inversely}\ proportional to the effective bandwidth of the waves in the system)" ID="ID_430321887" CREATED="1605780660314" MODIFIED="1605865027716">
+<node TEXT="if size of transport domain much larger than it,&#xa;then can be treated as point-wise particles" ID="ID_1970660682" CREATED="1605864975177" MODIFIED="1605865189105">
+<node ID="ID_104512028" CREATED="1605865371244" MODIFIED="1605866293102"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      however, when meeting interfaces, reflected wave packet has a fixed phase relationship with incoming one(itself), so they can be coherent;
+    </p>
+    <p>
+      so <b>must use wave-wise solution in the interfaces</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="in multiple-interfaces case, the reflected wave packet may encounter another one, so still incoherent" ID="ID_153034784" CREATED="1605866294050" MODIFIED="1605866343210"/>
+</node>
+</node>
+<node TEXT="incoherence means that when the waves meet, they can only produce transient interference, not steady one" ID="ID_1680327747" CREATED="1605859412622" MODIFIED="1605859515340"/>
+<node TEXT="\latex for blackbody thermal radiation/reservoir, &#xa;\\coherence length $l_c \sim \frac{\hbar c}{k_bT},\ \rightarrow$ thermal length" ID="ID_1282172214" CREATED="1605861354090" MODIFIED="1605861550331">
+<node TEXT="close to the peak radiation intensity&#xa;of Wien&apos;s displacement law" ID="ID_908225608" CREATED="1605861575685" MODIFIED="1605861602853"/>
+</node>
 </node>
 </node>
 </node>
