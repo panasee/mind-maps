@@ -818,7 +818,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="in multiple-interfaces case, the reflected wave packet may encounter another one, so still incoherent" ID="ID_153034784" CREATED="1605866294050" MODIFIED="1605866343210"/>
@@ -827,6 +826,16 @@
 <node TEXT="incoherence means that when the waves meet, they can only produce transient interference, not steady one" ID="ID_1680327747" CREATED="1605859412622" MODIFIED="1605859515340"/>
 <node TEXT="\latex for blackbody thermal radiation/reservoir, &#xa;\\coherence length $l_c \sim \frac{\hbar c}{k_bT},\ \rightarrow$ thermal length" ID="ID_1282172214" CREATED="1605861354090" MODIFIED="1605861550331">
 <node TEXT="close to the peak radiation intensity&#xa;of Wien&apos;s displacement law" ID="ID_908225608" CREATED="1605861575685" MODIFIED="1605861602853"/>
+</node>
+<node TEXT="incoherent case for a thin film" ID="ID_1572138965" CREATED="1606112937019" MODIFIED="1606112953243">
+<node TEXT="energy superposition/ray tracing&#xa;(neglect phase info of em field)" ID="ID_1997071474" CREATED="1606112954803" MODIFIED="1606113001214">
+<node TEXT="based on tracing the trajectory of&#xa;photons and their intensity" ID="ID_792653639" CREATED="1606113121251" MODIFIED="1606113148242"/>
+<node TEXT="the resulting transmissivity and reflectivity are&#xa;independent of the film thickness" ID="ID_1017327471" CREATED="1606113229447" MODIFIED="1606113265735"/>
+</node>
+</node>
+<node TEXT="partial coherence" ID="ID_78131064" CREATED="1606114560305" MODIFIED="1606115097133">
+<node TEXT="partial coherence theory" ID="ID_350145763" CREATED="1606115106900" MODIFIED="1606115120018"/>
+<node TEXT="decompose it into monochromatic waves and treat each of them wave-wisely" ID="ID_768969215" CREATED="1606115098824" MODIFIED="1606115104395"/>
 </node>
 </node>
 </node>
