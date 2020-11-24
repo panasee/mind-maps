@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
+<hook NAME="MapStyle" zoom="2.143">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,12 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
 </node>
-<node TEXT="classical" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
+<node TEXT="classical" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
 <edge COLOR="#00007c"/>
 <node TEXT="classical definitions" ID="ID_1858058677" CREATED="1602481934241" MODIFIED="1602495786704">
 <node TEXT="" ID="ID_186144771" CREATED="1602482213525" MODIFIED="1602482213528">
@@ -134,7 +134,7 @@
 <node TEXT="Micro/Nano-scale Transport" POSITION="right" ID="ID_1612655917" CREATED="1602746750790" MODIFIED="1602746762323">
 <edge COLOR="#007c7c"/>
 <node TEXT="Quantum Size Effect" ID="ID_1572612978" CREATED="1602746762806" MODIFIED="1602746772373">
-<node TEXT="alter the wave characteristics, e.g. create new modes that don&apos;t exist in bulk materials" ID="ID_1989676397" CREATED="1602746797901" MODIFIED="1602746923054"/>
+<node TEXT="alter the wave characteristics, e.g. create new modes that don&apos;t exist in bulk materials (standing waves)" ID="ID_1989676397" CREATED="1602746797901" MODIFIED="1604305258024"/>
 </node>
 </node>
 <node TEXT="Fast Transport Phenomena (at short time scale):&#xa;processes shorter than the characteristic time" POSITION="right" ID="ID_145302109" CREATED="1603087321070" MODIFIED="1603090065327">
@@ -144,7 +144,7 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
@@ -395,7 +395,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -438,11 +437,11 @@
 </node>
 </node>
 </node>
-<node TEXT="statistical thermodynamics" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
+<node TEXT="statistical thermodynamics" FOLDED="true" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
 <edge COLOR="#00ff00"/>
-<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
-<node TEXT="continuous energy levels" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1602495421023">
-<node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = Be^{-E/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1602492632862">
+<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" FOLDED="true" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
+<node TEXT="\latex classical limit $(E-\mu\gg k_BT)$ of \\&#xa;both Fermions and Bosons \\&#xa;owns continuous energy levels(classical)" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1604239655988">
+<node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = e^{-(E-\mu)/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1604239435411">
 <node TEXT="for monatomic gas, E is purely kinetic&#xa;then we get Maxwell Dist" ID="ID_1725828615" CREATED="1602492581767" MODIFIED="1602492628847">
 <node TEXT="\latex $\langle E\rangle = \frac32k_BT$" ID="ID_1083533701" CREATED="1602492886321" MODIFIED="1602492910530">
 <node TEXT="\latex equipartition theorem: each quadratic term \\&#xa;of the molecular energy contributes $\frac12k_BT$" ID="ID_819932556" CREATED="1602493079881" MODIFIED="1602493173672"/>
@@ -463,17 +462,35 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="" ID="ID_327640029" CREATED="1604231827177" MODIFIED="1604231827179">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="\latex for fermions, since they can jump between diff states, it&apos;s a \textbf{grand canonical ensemble}, also the quantum state&#xa; can only have 0 or 1 occupy\\&#xa;$\mathcal Z = 1+\exp(\frac{\mu-E}{k_BT})$" ID="ID_485202241" CREATED="1604065602206" MODIFIED="1604066979012">
 <node TEXT="\latex $P(E_i=0,N_i=0)=P_0=\frac1{1+\exp(\frac{\mu-E}{k_BT})}$ \\&#xa;$P(E_i=E,N_i=1)=P_1=\frac{\exp(\frac{\mu-E}{k_BT})}{1+\exp(\frac{\mu-E}{k_BT})}$" ID="ID_1048536288" CREATED="1604066219520" MODIFIED="1604066328606">
-<node TEXT="\latex Fermi-Dirac distribution function&#xa;\\$\langle n\rangle\equiv f(E) = 0\times P_0+1\times P_1 = \frac1{\exp(\frac{E-\mu}{k_BT})+1} $ \\&#xa;$\langle E\rangle =Ef(E)$" ID="ID_662490152" CREATED="1604066331318" MODIFIED="1604066577770">
+<node TEXT="\latex Fermi-Dirac distribution function&#xa;\\$\langle n\rangle\equiv f(E) = 0\times P_0+1\times P_1 = \frac1{\exp(\frac{E-\mu}{k_BT})+1} $ \\&#xa;$\langle E\rangle =Ef(E)$ \small{(n is occupation number)}" ID="ID_662490152" CREATED="1604066331318" MODIFIED="1604239497159">
 <hook URI="attachments/fermi-dirac-dist.png" SIZE="0.39713252" NAME="ExternalObject"/>
 <node TEXT="at zero temperature, the chemical&#xa;potential equals the Fermi level&#xa;(in some field, they are used interchangeably)" ID="ID_61627787" CREATED="1604066616898" MODIFIED="1604066698077"/>
 </node>
 </node>
 </node>
-<node TEXT="\latex for bosons, the number of them is \textbf{not conserved,}\\&#xa;so N and \mu are not thermodynamic variables, it&apos;s a \textbf{canonical ensemble}&#xa;$Z(\nu)=\sum_{n=0}^\infty \exp(-\frac{(n+1/2)\hbar\nu}{k_BT})$" ID="ID_1025183531" CREATED="1604066720585" MODIFIED="1604067076348"/>
+<node TEXT="bosons" ID="ID_1222537186" CREATED="1604231566724" MODIFIED="1604231572502">
+<node TEXT="\latex the number of energy quanta is \textbf{not conserved,}&#xa;so N and \mu are not thermodynamic variables, it&apos;s a \textbf{canonical ensemble}\\&#xa;$Z(\nu)=\sum_{n=0}^\infty \exp(-\frac{(n+1/2)\hbar\nu}{k_BT}) = \frac{\exp(-\frac{\hbar \nu}{2k_BT})}{1-\exp(-\frac{\hbar\nu}{k_BT})}$" ID="ID_1025183531" CREATED="1604066720585" MODIFIED="1604231598932">
+<node TEXT="\latex $P(\nu,n)=\frac{\exp(-\frac{(n+1/2)\hbar \nu}{k_BT})}Z$\\&#xa;(n is occupation number, not level)" ID="ID_427147420" CREATED="1604209839278" MODIFIED="1604239130283">
+<node TEXT="\latex Bose-Einstein distribution function\\&#xa;$\langle n\rangle\equiv f(\nu) = \sum_{n=0}^\infty nP(\nu,n) =\frac1{\exp(\frac{\hbar\nu}{k_BT})-1}$ \\&#xa;$\langle E\rangle = \hbar\nu f(\nu)$(the zero-point energy has been neglected)" ID="ID_839817113" CREATED="1604219262021" MODIFIED="1604231533993">
+<hook URI="attachments/bose-einstein-dist.png" SIZE="0.33669248" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex other boson systems(e.g. gas molecules), can have a fixed number of particles, grand canonical ensemble is used" ID="ID_1902691127" CREATED="1604231604452" MODIFIED="1604231679609">
+<node TEXT="\latex through the same way, we get \\&#xa;the general Bose-Einstein distribution\\&#xa;$\langle n \rangle\equiv f(E) = \frac1{\exp(\frac{E-\mu}{k_BT})-1}$" ID="ID_1919153105" CREATED="1604231702466" MODIFIED="1604231783243"/>
+</node>
+</node>
+<node TEXT="" ID="ID_575314248" CREATED="1604231827175" MODIFIED="1604231831125">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex in the limit of low occupancy(high energy and high temperature), they both reduce to the Boltzmann distribution\\ &#xa;$f(E,T,\mu) = \exp(-\frac{E-\mu}{k_BT})\;\  or\ f(E) = \exp(-\frac E{k_BT})$" ID="ID_1666981158" CREATED="1604231827180" MODIFIED="1604231958690" HGAP_QUANTITY="45.49999906122687 pt" VSHIFT_QUANTITY="-5.249999843537812 pt"/>
+</node>
 </node>
 </node>
 <node TEXT="anharmonicity causes rapid changes of matter from one quantum state to another(even a small anharmonicity)" ID="ID_1809095317" CREATED="1604052104782" MODIFIED="1604052199080"/>
@@ -494,6 +511,347 @@
 </node>
 <node TEXT="\latex polyatomic gas  $E=E_t+E_v+E_r+E_e$\\&#xa;translational+vibrational+rotational+electronic" ID="ID_1704715775" CREATED="1604063919548" MODIFIED="1604064068266">
 <node TEXT="\latex $Z=\sum e^{-E/k_BT}=Z_tZ_vZ_rZ_e $" ID="ID_1603739680" CREATED="1604064082215" MODIFIED="1604064125169"/>
+</node>
+</node>
+<node TEXT="\latex the total number of particles&#xa;per unit volume:\\&#xa;$n = \int_0^\infty f(E,T,\mu)D(E)dE$" ID="ID_372925656" CREATED="1604238699958" MODIFIED="1604238769115">
+<node TEXT="often used to approximate the&#xa;chemical potential (fermi level at 0K)" ID="ID_346694718" CREATED="1604239248024" MODIFIED="1604239294375"/>
+</node>
+<node TEXT="\latex electron specific heat $C_v \propto T$\\&#xa;phonon specific heat &amp; $C_v\propto T^3(at\ low\ temperatures)$\\&#xa;&amp; $C_v = Const(at\ high\ temperatures)$" ID="ID_648452043" CREATED="1604298206133" MODIFIED="1604298432034">
+<node TEXT="for nanostructures, there are several reasons invalidating the derivations of the specific heat and emissive power for bulk materials" ID="ID_576799295" CREATED="1604298475132" MODIFIED="1604298521992">
+<node TEXT="energy levels are diff in nanostructures,&#xa;which will change the DOS" ID="ID_11030450" CREATED="1604298527097" MODIFIED="1604298563059"/>
+<node TEXT="energy separation is usually large and&#xa;the replacement of the summation by&#xa;integration over energy is no longer valid" ID="ID_968695233" CREATED="1604298563459" MODIFIED="1604298621624"/>
+</node>
+</node>
+</node>
+<node TEXT="energy transfer by WAVES" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
+<edge COLOR="#ff00ff"/>
+<node TEXT="plane wave:&#xa;has a constant amplitude at any plane perpendicular to the direction of propagation at any fixed time" ID="ID_296670041" CREATED="1604306467097" MODIFIED="1604306516091">
+<node TEXT="\latex e.g. $\vec F(t,\vec r) = \vec A sin(\omega t-\vec k\cdot\vec r)=\Re(\vec A\exp[-i(\omega t-\vec k\cdot \vec r)])$\\&#xa;$\vec k\cdot\vec r =Const$ gives a plane perpendicular to $\vec k$\\&#xa;and $\vec F$ is a constant on this plane at any $t$" ID="ID_618996427" CREATED="1604323680012" MODIFIED="1604323875064"/>
+<node TEXT="\latex plane electron waves \\&#xa;$\Psi(x,t) = A\exp[-i(\omega t-kx)]$" ID="ID_1244947738" CREATED="1604323986358" MODIFIED="1604324040173">
+<node TEXT="\latex dispersion relation\\&#xa;$k=\sqrt{\frac{2m(E-U)}{\hbar^2}}$" ID="ID_565396560" CREATED="1604324053899" MODIFIED="1604324087005"/>
+<node TEXT="\latex particle current/flux\\&#xa;$\vec J=\frac{i\hbar}{2m}(\Psi\nabla\Psi^*-\Psi^*\nabla\Psi)=\Re[\frac{i\hbar}m\Psi\nabla\Psi^*]$\\&#xa;($\langle v\rangle=\frac{\langle P\rangle}m=\frac{\langle\psi|P|\psi\rangle^*+\langle\psi|P|\psi\rangle}{2m}$)" ID="ID_984443024" CREATED="1604324088842" MODIFIED="1605535008710">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1875171817" STARTINCLINATION="593;0;" ENDINCLINATION="593;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="\latex plane electromagnetic waves \\&#xa;Poynting vector $\vec S=\vec E\times\vec H,[S]=[W\cdot m^{-2}]$\\&#xa;represents the instantaneous energy flux" ID="ID_1559865396" CREATED="1604368722634" MODIFIED="1604368891878">
+<node TEXT="\latex as $\vec S$ has twice the frequency, hard to measure, so the time-averaged Poynting vector is used \\&#xa;$\langle \vec S\rangle = \frac1T\int_t^{t+T}\vec S dt^\prime = \frac12 \Re(\vec E_c\times H_c^*)$\\&#xa;(c is used to emphasize the complex representation)" ID="ID_637013316" CREATED="1604368943129" MODIFIED="1604733092454">
+<node TEXT="\latex e.g. plane-wave x+ direction as\\&#xa;$E_y=E_{ya}\exp[-i\omega(t\mp \frac{Nx}{c_0})]\vec e_y$\\&#xa;$H_z=H_{za}\exp[-i\omega(t\mp \frac{Nx}{c_0})]\vec e_z,\ (H_{za}=\pm\frac{N}{\mu c_0}E_{ya})$\\&#xa;$\Rightarrow \langle \vec S\rangle =\frac12 \frac n{\mu c_0}e^{-\alpha x}E_{ya}^2\vec e_x,\ (\alpha\equiv \frac{4\pi\kappa}{\lambda_0})$" ID="ID_1328414788" CREATED="1604734787333" MODIFIED="1604737230345">
+<node TEXT="\latex $\alpha$ is called the \textbf{absorption coefficient}\\&#xa;$\delta\equiv \frac1\alpha$ is called the \textbf{skin depth}" ID="ID_24018979" CREATED="1604737337320" MODIFIED="1604737411877"/>
+<node TEXT="the energy decays exponentially" ID="ID_22031384" CREATED="1604737421047" MODIFIED="1604737434258"/>
+</node>
+</node>
+<node TEXT="\latex $\vec E,\vec H,\vec k$ may follow right-hand(more usual)\\&#xa;($\vec e_k =\vec e_E\times\vec e_H$) or left-hand rule" ID="ID_188650259" CREATED="1604738513128" MODIFIED="1604738618681">
+<node TEXT="the left-handed materials may have interesting properties (e.g. negative refractive index)" ID="ID_1527687395" CREATED="1604738747268" MODIFIED="1604738790392"/>
+</node>
+</node>
+<node TEXT="\latex plane acoustic waves" ID="ID_1346788192" CREATED="1604738807771" MODIFIED="1604738820828">
+<node TEXT="\latex long wavelength range$\Leftrightarrow$&#xa;\\continuum representation" ID="ID_276066689" CREATED="1604740639177" MODIFIED="1604741296670">
+<node TEXT="\latex the propagation can be described in terms of the local medium displacement $\vec u$, or more often, the velocity $\vec v=\frac{d\vec u}{dt}$" ID="ID_893787088" CREATED="1604741387277" MODIFIED="1604741467564">
+<node TEXT="\latex the displacement is related to the\\&#xa; strain tensor $\mathbb S_{ij}(\vec r,t)=\frac12(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i})$" ID="ID_972444124" CREATED="1604741507244" MODIFIED="1604741638816"/>
+<node TEXT="\latex strain is further related to stress tensor,\\&#xa;through the generalized Hooke law $\vec F=\bar\bar \sigma \vec n$,\\&#xa;$\vec F$ is the force on a surface with norm $\vec n$" ID="ID_883688897" CREATED="1604741648286" MODIFIED="1604747725104">
+<node ID="ID_1278757885" CREATED="1604742498349" MODIFIED="1604742696387"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for an anisotropic medium with damping, the constitutive relationship between stress and strain involves the <b>elastic stiffness </b>and<b>&nbsp;&nbsp;viscosity </b>tensor
+    </p>
+    <p>
+      (both are 4th-rank tensors with 81 components)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex focus on the special case-&gt;isotropic with no damping\\ &#xa;only 2 constants are needed: $\lambda_L,\mu_L\rightarrow$ Lame constants" ID="ID_601937910" CREATED="1604743853727" MODIFIED="1604744901408">
+<node TEXT="Christoffel equation: the eigenvalue equation determining the dispersion relation" ID="ID_1202162529" CREATED="1604745121311" MODIFIED="1604745166114"/>
+<node TEXT="\latex time-averaged power carried by the acoustic wave-&gt;&gt;\\&#xa;\textbf{acoustic Poynting vector}: $\vec J_a=-\frac12\Re(\vec v^*\cdot \bar\bar\sigma)$" ID="ID_1755255539" CREATED="1604747370486" MODIFIED="1604747711768"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="interface reflection&amp;refraction&#xa;(of plane waves)" FOLDED="true" ID="ID_870044229" CREATED="1605532711685" MODIFIED="1605532736681">
+<node TEXT="electron waves&#xa;an electrical potential barrier generally exists at an interface,&#xa;here use step potential for simplicity" ID="ID_1908804855" CREATED="1605532825790" MODIFIED="1605536068026">
+<node TEXT="\latex $\psi_i=A_ie^{-i(\omega t-k_1z)},\ \psi_r=A_re^{-i(\omega t-k_1z)},\ \psi_t=A_te^{-i(\omega t-k_2z)}$\\&#xa;$k_i$ is the electron wavevectors in different media" ID="ID_350889591" CREATED="1605534153980" MODIFIED="1605534353904">
+<node TEXT="\latex use b.c. to obtain the reflection\&amp;transmission coefficients\\&#xa;$r=\frac{A_r}{A_i}=\frac{k_1-k_2}{k_1+k_2},\; t=\frac{A_t}{A_i}=\frac{2k_1}{k_1+k_2}$\\&#xa;corresponding \textbf{reflectivity} and \textbf{transmissivity} of particle flux are\\&#xa;$R=\frac{J_r}{J_i}=|\frac{k_1-k_2}{k_1+k_2}|^2,\; \tau=\frac{J_t}{J_i}=\frac{\Re[k_2^*A_tA_t^*]}{\Re[k_1^*A_iA_i^*]}=\frac{4\Re(k_1k_2^*)}{|k_1+k_2|^2}=1-R$" ID="ID_1875171817" CREATED="1605534509900" MODIFIED="1605534921210"/>
+<node TEXT="\latex when $E&lt;U_0$, $R=1\&amp;\tau=0$ i.e. all electrons reflected \\&#xa;however $\psi_t$ is not zero, it decay exponentially, it&apos;s called \textbf{evanescent wave}, not carrying a net particle flux" ID="ID_1551612015" CREATED="1605535084820" MODIFIED="1605535227309"/>
+<node TEXT="\latex when $E&gt;U_0$, partially reflected and partially transmitted \\&#xa;(whereas classical mechanics would lead to 100\% transmission)" ID="ID_1800934188" CREATED="1605535304469" MODIFIED="1605535361370"/>
+</node>
+</node>
+<node TEXT="\latex acoustic waves\\&#xa;continuity b.c.-&gt; displacement velocity and force at interface&#xa;\\$\sum \vec v_1=\sum \vec v_2$ and $\sum \bar\bar \sigma_1\cdot \hat n=\sum \bar\bar\sigma_2\cdot \hat n$" ID="ID_1679971152" CREATED="1605536030294" MODIFIED="1605536220415">
+<node TEXT="the displacement velocity b.c. not always true;&#xa;while the force b.c. always stands" ID="ID_1690910816" CREATED="1605571886766" MODIFIED="1605571919405"/>
+<node TEXT="the derivation of acoustic waves is similar to that of electromagnetic waves, but more complex as acoustic waves have 3 polarizations and there are possibilities they can couple with each other" ID="ID_1550259375" CREATED="1605572153834" MODIFIED="1605572242473"/>
+<node TEXT="\latex consider SH(horizontally polarized shear) incident wave for isotropic medium, then only SH transmitted \&amp; reflected waves&#xa;are excited with:\\&#xa;$r_s=\frac{v_r}{v_i}=\frac{Z_1\cos\theta_i-Z_2\cos\theta_t}{Z_1\cos\theta_i+Z_2\cos\theta_t},\; t_s=\frac{v_t}{v_i}=\frac{2Z_1\cos\theta_i}{Z_1\cos\theta_i+Z_2\cos\theta_t}$" ID="ID_717100" CREATED="1605572664453" MODIFIED="1605572953810">
+<node TEXT="\latex $Z=(\rho c_{44})^{1/2}=\rho v_T$ is \textbf{acoustic impedance}\\&#xa;playing a similar role to the optical refractive index" ID="ID_952104407" CREATED="1605572972344" MODIFIED="1605573066214"/>
+</node>
+<node ID="ID_1499206683" CREATED="1605573313062" MODIFIED="1605573445975"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for a transverse wave polarized in the plane of incidence(vertically polarized shear wave or <b>SV</b>&nbsp;wave)
+    </p>
+    <p>
+      or a longitudinally polarized incident wave(<b>L</b>&nbsp;wave)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_328357611" CREATED="1605573446622" MODIFIED="1605573587830"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      in general, an incident wave can excite <b>3</b>&nbsp;reflected waves and <b>3</b>&nbsp;&nbsp;transmitted waves
+    </p>
+    <p>
+      (2 transverse waves are degenerate for isotropic media, leaving 2 reflected and 2 transmitted waves)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex Snell law\\&#xa;$\frac{\sin\theta_i}{v_i}=\frac{\sin\theta_{rL}}{v_{L1}}=\frac{\sin\theta_{rT}}{v_{T1}}=\frac{\sin\theta_{tL}}{v_{L2}}=\frac{\sin\theta_{tT}}{v_{T2}}$" ID="ID_42212397" CREATED="1605573614494" MODIFIED="1605573729487"/>
+</node>
+</node>
+</node>
+<node TEXT="thermal boundary resistance" ID="ID_758776284" CREATED="1605575594270" MODIFIED="1605575605086">
+<node TEXT="Kapitza resistance: first discovered to exist between liquid helium and solid walls" ID="ID_316748654" CREATED="1605576172757" MODIFIED="1605576211602"/>
+<node TEXT="\latex $q_{1\rightarrow 2}=\sum_{p=1}^{3m}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}\hbar\omega\tau_{12}f(\omega,T_{e1})]$\\&#xa;$T_{e1}$ is the temp of phonons coming toward the interface, $f$ is BE dist, $\tau_{12}$ is transmissivity from 1 to 2, \textbf{$k_z$ must be positive so that only phonons coming toward the interface are counted}, m denotes the number of atoms in primitive cell" ID="ID_666292041" CREATED="1605576890316" MODIFIED="1605588564734">
+<node TEXT="\latex $q=q_{1\rightarrow 2}-q_{2\rightarrow 1}$" ID="ID_533206501" CREATED="1605589883259" MODIFIED="1605590000367"/>
+<node TEXT="\latex use principle of detailed balance, \\&#xa;$q=\int_{\Omega_1\ge2\pi}[\int v_1\cos\theta_1\hbar\omega[f(\omega,T_{e1})-f(\omega,T_{e2})]\tau_{12}(\omega,\phi_1,\theta_1)D_1(\omega)/4\pi d\omega]d\Omega_1\rightarrow\limits^{T_{e1}-T_{e2}\rightarrow 0} \frac{T_{e1}-T_{e2}}{\mathscr R_e}$\\&#xa;$\mathscr R_e$ is \textbf{specific thermal boundary resistance}" ID="ID_1685051766" CREATED="1605590016988" MODIFIED="1605590300712">
+<node TEXT="\latex when at low temp and $\tau$ independent of $\omega$ \\&#xa;$\mathscr R_e\propto T_e^{-3}$ (because of the $T^3$ dependence of specific heat)" ID="ID_1868599911" CREATED="1605590381380" MODIFIED="1605590473344"/>
+<node TEXT="\latex at high temp, the scattering at interface no longer specular and elastic (phonon freq changes during scattering)" ID="ID_200575911" CREATED="1605590643844" MODIFIED="1605590697759">
+<node TEXT="no generally accepted way to calculate the&#xa;thermal boundary resistance at higher temp" ID="ID_334654568" CREATED="1605590777084" MODIFIED="1605590806079"/>
+</node>
+</node>
+<node TEXT="note: phonon interface transport is highly nonequilibrium, so strictly no temperature defined near the interface" ID="ID_1888338319" CREATED="1605596450893" MODIFIED="1605596503854">
+<node ID="ID_1444014872" CREATED="1605599542669" MODIFIED="1605599808867"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      diff phonon branches own diff temp--&gt;&quot;<b>equivalent equilibrium temperature</b>&quot;(adiabatically approach equi) as a measure of the local energy density (can't represent spectral characteristics)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="\latex exists even if the interface is perfect (as long as there exists phonon reflection at the interface).&#xa;\\Its order of magnitude $\mathscr R \sim 1/(Cv)$" ID="ID_1475058448" CREATED="1605610204759" MODIFIED="1605610300292">
+<node TEXT="dominant for nanoscale systems with lots of interfaces" ID="ID_1741471534" CREATED="1605610375278" MODIFIED="1605610408248"/>
+<node TEXT="note: its value in a multilayer structure&#xa;differs from that of a single interface" ID="ID_1153345922" CREATED="1605610409013" MODIFIED="1605610455580"/>
+</node>
+</node>
+<node TEXT="wave propagation&#xa;in thin films" ID="ID_157934823" CREATED="1605610829687" MODIFIED="1605610845892">
+<node TEXT="reflected waves can be superimposed on incident wave --&gt; thickness dependence of reflectivity and transmissivity" ID="ID_1206879465" CREATED="1605612026121" MODIFIED="1605612086978"/>
+<node TEXT="new phenomenon --- tunneling,&#xa;making the total reflection disappear" ID="ID_201806202" CREATED="1605612129136" MODIFIED="1605612165612"/>
+<node TEXT="acoustic waves" ID="ID_1721556964" CREATED="1605614749655" MODIFIED="1605614758498">
+<node ID="ID_1259506557" CREATED="1605614759096" MODIFIED="1605614856902"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      superlattices' periodicity leads to <b>folded zone representation</b>&nbsp;and the formation of <b>phonon minibands</b>&nbsp;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="phonon minigaps formed can be thought of as stop bands generated by multiple reflections and coherent superposition of the lattice waves, as for photons in periodic structures" ID="ID_682040718" CREATED="1605615689688" MODIFIED="1605615747793"/>
+<node ID="ID_1630094187" CREATED="1605615950705" MODIFIED="1605616031053"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for long-wavelength phonons, one can use the <b>transfer matrix method</b>&nbsp;&nbsp;as for optical waves to calculate the transmission
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="evanescent waves" ID="ID_1980350899" CREATED="1605622254633" MODIFIED="1605622260324">
+<node TEXT="\latex for the previous total reflection case ($E&lt;U_0$)\\&#xa;$\psi_t=\frac{2i|k_2|e^{-|k_2|z}}{k_1+i|k_2|}\psi_i,\;\; |k_2|=\sqrt{\frac{2m(U_0-E)}{\hbar^2}}" ID="ID_1989345285" CREATED="1605623087232" MODIFIED="1605623244950"/>
+<node TEXT="\latex penetration depth (defined as the depth at which the\\ wavefunc decays to $e^{-1}$):   $\delta=\frac1{|k_2|}$" ID="ID_643448246" CREATED="1605623337689" MODIFIED="1605623410274"/>
+<node TEXT="optical analog: em wave incident above the critical angle" ID="ID_1874502133" CREATED="1605623560495" MODIFIED="1605623582250"/>
+</node>
+<node TEXT="tunneling (of the&#xa;evanescent waves)" ID="ID_277805450" CREATED="1605694691452" MODIFIED="1605696243123">
+<node TEXT="occur if a third medium is close to the interface such that the evanescent wave has finite magnitude at the second interface" ID="ID_974130476" CREATED="1605696299574" MODIFIED="1605696453601"/>
+<node TEXT="for phonons, its effect can be seen from" ID="ID_438917697" CREATED="1605708842475" MODIFIED="1605755475145">
+<hook URI="attachments/transmissivity-phonon.png" SIZE="0.4407418" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Landauer Formalism" ID="ID_272749129" CREATED="1605709401233" MODIFIED="1605709407308">
+<node TEXT="\latex the heat flux from reservoir to another(not net):&#xa;\\$q_{1\rightarrow 2}=\sum_{p}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}E\tau_{12}f(E,T_{1})]$" ID="ID_446800166" CREATED="1605709493266" MODIFIED="1605709602814">
+<node TEXT="\latex use principle of detailed balance to obtain a relationship between the transmissivity 1--&gt;2 and 2--&gt;1, thus get the net flux\\&#xa;when the temp diff small, $q \approx K\Delta T$" ID="ID_299789660" CREATED="1605709611249" MODIFIED="1605767702429"/>
+</node>
+<node TEXT="when scattering exists, less useful;&#xa;when ballistic transport, convenient to use" ID="ID_209907400" CREATED="1605709778770" MODIFIED="1605709816174"/>
+</node>
+<node TEXT="heat transfer between two parallel plates,&#xa;separated by small gap of vacuum" ID="ID_45651076" CREATED="1605710120106" MODIFIED="1605710177636">
+<node TEXT="much larger than two blackbodies" ID="ID_1104755157" CREATED="1605710215769" MODIFIED="1605710237813"/>
+<node TEXT="due to tunneling, when gap decreases, the transfer increase" ID="ID_1671802730" CREATED="1605710274169" MODIFIED="1605710295868"/>
+<node ID="ID_347092652" CREATED="1605710329961" MODIFIED="1605710374109"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      not only the tunneling of evanescent waves, but the tunneling of <b>surface waves that decay exponentially on both sides</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="surface waves exist when the dielectric constants of the two sides are equal in magnitude but of opposite signs" ID="ID_44472421" CREATED="1605710393610" MODIFIED="1605710426157">
+<node TEXT="if one side is vacuum, the other side should have a negative dielectric constant close to unit" ID="ID_1631058264" CREATED="1605710475202" MODIFIED="1605710508485">
+<node TEXT="it can occur when the electrons/phonons are&#xa;in resonance with em waves in the medium" ID="ID_566202194" CREATED="1605710509042" MODIFIED="1605710551527">
+<node ID="ID_1690440281" CREATED="1605710569010" MODIFIED="1605710632486"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      these resonant modes of em waves
+    </p>
+    <p>
+      with optical phonons are called <b>phonon-polaritons</b>
+    </p>
+    <p>
+      with electrons are called <b>plasmons</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="they have high energy density near surface&#xa;but decay rapidly away from the surface" ID="ID_1813363008" CREATED="1605710651498" MODIFIED="1605710680980"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="transition to particle description" ID="ID_720393831" CREATED="1605767773203" MODIFIED="1605767783548">
+<node TEXT="in macroscale, often ignore the phase and treat the energy carrier as particles" ID="ID_1829312737" CREATED="1605767886056" MODIFIED="1605767923168"/>
+<node TEXT="wave packet and&#xa;group velocity" ID="ID_1323422858" CREATED="1605768008863" MODIFIED="1605768050860">
+<node TEXT="\latex phase velocity: $v_{p,x}=\frac{dx}{dt}=\frac\omega k$\\&#xa;as \textbf{the plane wave extends from $-\infty$ to $\infty$ with no start or finish, not represent any meaningful signal}" ID="ID_1660015741" CREATED="1605768076318" MODIFIED="1605768292515">
+<node TEXT="commonly, finite waves are used to pass signals,&#xa;which can be decomposed through Fourier series into&#xa;plane wave with freq from -infty to +infty" ID="ID_312468504" CREATED="1605768686073" MODIFIED="1605768801100">
+<node TEXT="\latex e.g. two em waves with freq\&amp;k around $\omega_0\&amp;k$\\&#xa;$E_y(x,t)=\sum a\cos[(\omega_0\pm\frac{\Delta\omega}2)t-(k_0\pm\frac{\Delta k}2)x]$&#xa;\\$=2a\cos(\Delta\omega t-\Delta kx)\cos(\omega_0t-k_0x)$\\&#xa;two parts:carrier wave with $(\omega_0,k_0)$ \&amp; modulation of it by a wave with $(\Delta\omega,\Delta k)$" ID="ID_1853373762" CREATED="1605770559704" MODIFIED="1605770936412">
+<node TEXT="\latex for $\Delta \omega\ll \omega_0$, Poynting vector time-averaged over a period between $\frac1{\omega_0}$ and $\frac1{\Delta\omega}$ could give the average energy flux as:\\&#xa;$S(x,t) = \frac{4a^2n}{c_0\mu}\cos^2(t\Delta \omega-x\Delta k)$, so propagating speed is $v_{g,x}=\frac{\Delta \omega}{\Delta k}$" ID="ID_1513413409" CREATED="1605770988369" MODIFIED="1605772562516"/>
+</node>
+</node>
+</node>
+<node TEXT="group velocity doesn&apos;t always&#xa; repre energy velocity" ID="ID_1987651108" CREATED="1605772915326" MODIFIED="1605773003420">
+<node TEXT="\latex the above demon assumed\\&#xa; that $\Delta \omega \ll \omega_0$" ID="ID_379968257" CREATED="1605773011986" MODIFIED="1605773067157">
+<node TEXT="\latex $v_g$ no longer the energy velocity in the case of\\&#xa;a very large variation in the dispersion relation" ID="ID_402346261" CREATED="1605773075874" MODIFIED="1605773131542">
+<node TEXT="anomalous dispersion in silver: refractive index less than 1&#xa;phase &amp; group velocity both larger than vacuum light speed" ID="ID_1170432668" CREATED="1605773179865" MODIFIED="1605773264991">
+<node TEXT="the signal velocity still less than the speed of light" ID="ID_1413761733" CREATED="1605773409241" MODIFIED="1605773424570"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="the group velocity means the&#xa;actual motion speed of particles" ID="ID_980659425" CREATED="1605774288746" MODIFIED="1605774321156">
+<node TEXT="\latex crystal momentum $p=\hbar k$ is used rather than \\&#xa;normal momentum $p=mv_g$, as the crystal momentum \\&#xa;contains info about the inner field of crystals" ID="ID_1090472559" CREATED="1605774321994" MODIFIED="1605774455253"/>
+</node>
+</node>
+<node TEXT="coherence" ID="ID_1592783120" CREATED="1605774507234" MODIFIED="1605774510268">
+<node TEXT="transport is coherent when the phase&#xa;of the carriers must be considered" ID="ID_892408086" CREATED="1605774553585" MODIFIED="1605774576204">
+<node ID="ID_1446015805" CREATED="1605774605106" MODIFIED="1605774719489"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      in the other limit, it's <b>incoherent</b>;
+    </p>
+    <p>
+      in between the two limits is the <b>partially coherent regime</b>&nbsp;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="most engineering approaches for transport built on diffusion equations treat particles incoherently" ID="ID_747178486" CREATED="1605778770962" MODIFIED="1605778811016"/>
+</node>
+<node TEXT="diff particles/waves" ID="ID_1744053490" CREATED="1605778989034" MODIFIED="1606181178582">
+<node TEXT="em waves" ID="ID_779861661" CREATED="1605778993387" MODIFIED="1605778997845">
+<node TEXT="\latex \textbf{coherence length(wave packets)}: $l_c\approx \frac c{\Delta \nu}$ (\textbf{inversely}\ proportional to the effective bandwidth of the waves in the system)" ID="ID_430321887" CREATED="1605780660314" MODIFIED="1605865027716">
+<node TEXT="if size of transport domain much larger than it,&#xa;then can be treated as point-wise particles" ID="ID_1970660682" CREATED="1605864975177" MODIFIED="1605865189105">
+<node ID="ID_104512028" CREATED="1605865371244" MODIFIED="1605866293102"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      however, when meeting interfaces, reflected wave packet has a fixed phase relationship with incoming one(itself), so they can be coherent;
+    </p>
+    <p>
+      so <b>must use wave-wise solution in the interfaces</b>&nbsp;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="in multiple-interfaces case, the reflected wave packet may encounter another one, so still incoherent" ID="ID_153034784" CREATED="1605866294050" MODIFIED="1605866343210"/>
+</node>
+</node>
+<node TEXT="incoherence means that when the waves meet, they can only produce transient interference, not steady one" ID="ID_1680327747" CREATED="1605859412622" MODIFIED="1605859515340"/>
+<node TEXT="\latex for blackbody thermal radiation/reservoir, &#xa;\\coherence length $l_c \sim \frac{\hbar c}{k_bT},\ \rightarrow$ thermal length" ID="ID_1282172214" CREATED="1605861354090" MODIFIED="1605861550331">
+<node TEXT="close to the peak radiation intensity&#xa;of Wien&apos;s displacement law" ID="ID_908225608" CREATED="1605861575685" MODIFIED="1605861602853"/>
+</node>
+<node TEXT="incoherent case for a thin film" ID="ID_1572138965" CREATED="1606112937019" MODIFIED="1606112953243">
+<node TEXT="energy superposition/ray tracing&#xa;(neglect phase info of em field)" ID="ID_1997071474" CREATED="1606112954803" MODIFIED="1606113001214">
+<node TEXT="based on tracing the trajectory of&#xa;photons and their intensity" ID="ID_792653639" CREATED="1606113121251" MODIFIED="1606113148242"/>
+<node TEXT="the resulting transmissivity and reflectivity are&#xa;independent of the film thickness" ID="ID_1017327471" CREATED="1606113229447" MODIFIED="1606113265735"/>
+</node>
+</node>
+<node TEXT="partial coherence" ID="ID_78131064" CREATED="1606114560305" MODIFIED="1606115097133">
+<node TEXT="partial coherence theory" ID="ID_350145763" CREATED="1606115106900" MODIFIED="1606115120018"/>
+<node TEXT="decompose it into monochromatic waves and treat each of them wave-wisely" ID="ID_768969215" CREATED="1606115098824" MODIFIED="1606115104395"/>
+</node>
+<node TEXT="wave localization" ID="ID_1172962621" CREATED="1606180094003" MODIFIED="1606180102789">
+<node TEXT="induce randomness through surface roughness /nonparallel surfaces/thickness variations, etc" ID="ID_702653391" CREATED="1606180102974" MODIFIED="1606180155166"/>
+<node TEXT="when phases have enough randomness, the superposition of waves can create complete cancellation of waves at certain freq, prohibiting its transportation" ID="ID_1872432972" CREATED="1606180172811" MODIFIED="1606180252606">
+<node TEXT="occurs for all kinds of particles" ID="ID_483629466" CREATED="1606180624703" MODIFIED="1606180666950"/>
+<node TEXT="easily occurs in 1-D &amp; 2-D structures&#xa;and when the number of modes is small&#xa;(much more diffcult in 3-D)" ID="ID_270663443" CREATED="1606180667224" MODIFIED="1606180724340">
+<node TEXT="the surface roughness make the 1-D model into 3-D, so the phase info is no more important. it&apos;s particle-wise (also the coherence length smaller than characteristic length of the surface randomness)" ID="ID_581809599" CREATED="1606180763930" MODIFIED="1606180982241"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="electron waves" ID="ID_530336052" CREATED="1606181181048" MODIFIED="1606181187651">
+<node TEXT="diff fr phot: scattering can be both elastic(only change direction) and inelastic(change direction and energy)" ID="ID_1013932601" CREATED="1606181232078" MODIFIED="1606181688748"/>
+<node TEXT="scattering by impurities and at the boundaries-&gt; elastic, the phase reserve" ID="ID_1867367226" CREATED="1606181669387" MODIFIED="1606181856766"/>
+</node>
+</node>
 </node>
 </node>
 </node>

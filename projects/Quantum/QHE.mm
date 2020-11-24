@@ -1,22 +1,26 @@
-<map version="docear 1.1" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
-<!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
+<map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545267672148"><hook NAME="MapStyle" zoom="1.334">
-    <properties show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -30,7 +34,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -50,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <edge STYLE="sharp_bezier" WIDTH="1"/>
 <node TEXT="IQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1544323094977">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -84,7 +88,7 @@
 <node TEXT="localized electrons don&apos;t contribute to the current, but the current carried by extended states increases to compensate for it" ID="ID_1008139022" CREATED="1545046779392" MODIFIED="1545046857648"/>
 </node>
 </node>
-<node TEXT="    edge modes" ID="ID_1062108373" CREATED="1543643061531" MODIFIED="1544700023218" MOVED="1543647393436" HGAP="33" VSHIFT="-25">
+<node TEXT="    edge modes" ID="ID_1062108373" CREATED="1543643061531" MODIFIED="1544700023218" HGAP_QUANTITY="33.0 px" VSHIFT_QUANTITY="-25.0 px" MOVED="1543647393436">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="classical reckoned as bounce" ID="ID_1724345279" CREATED="1543643845273" MODIFIED="1544323094989">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -94,16 +98,20 @@
 </node>
 <node TEXT="chiral (phenomena only taking place on the boundary of a system)" ID="ID_1980715178" CREATED="1543645752091" MODIFIED="1544323094993">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="chiral anomaly (field theory)" ID="ID_867316079" CREATED="1543645757462" MODIFIED="1544323094996">
+<node TEXT="" ID="ID_363435922" CREATED="1604325187564" MODIFIED="1604325187564">
 <hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="chiral anomaly (field theory)" ID="ID_867316079" CREATED="1543645757462" MODIFIED="1544323094996">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="Nielsen-Ninomiya theorem (condensed matter theory)" ID="ID_443950374" CREATED="1543645767952" MODIFIED="1544323094998">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
-<node TEXT="play a prominent role in TIs" ID="ID_129584046" CREATED="1543646176412" MODIFIED="1544323094999">
+<node TEXT="" ID="ID_1586972747" CREATED="1604325187564" MODIFIED="1604325187564">
 <hook NAME="SummaryNode"/>
+<node TEXT="play a prominent role in TIs" ID="ID_129584046" CREATED="1543646176412" MODIFIED="1544323094999">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+</node>
 </node>
 </node>
 <node TEXT="Hall voltage (caused by electric field)" ID="ID_1964003465" CREATED="1543646395624" MODIFIED="1544323095001">
@@ -141,12 +149,14 @@
 </node>
 </node>
 <node TEXT="second, turn some states from extended to localized" ID="ID_333409284" CREATED="1543649435989" MODIFIED="1545047034673">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="271;-37;" ENDINCLINATION="-111;25;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="the center of the orbit, X drifts along equipotentials" ID="ID_66226761" CREATED="1543650213872" MODIFIED="1544323095020">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="the states are trapped close to extrema" ID="ID_1460138670" CREATED="1543650799559" MODIFIED="1544323095022">
+<node TEXT="" ID="ID_1815022896" CREATED="1604325187567" MODIFIED="1604325187567">
 <hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="the states are trapped close to extrema" ID="ID_1460138670" CREATED="1543650799559" MODIFIED="1544323095022">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="the equipotentials stretch extendedly are guaranteed on the edges" ID="ID_1533655584" CREATED="1543650855378" MODIFIED="1544323095023">
@@ -155,8 +165,9 @@
 <node TEXT="the middle of potential is far from extrema, so it&apos;s also extended" ID="ID_675311979" CREATED="1543650942786" MODIFIED="1544323095026">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
-<node TEXT="only the states close to the centre of the band will be extended" ID="ID_1662789" CREATED="1543651018681" MODIFIED="1544323095028">
+<node TEXT="" ID="ID_1472348015" CREATED="1604325187567" MODIFIED="1604325187567">
 <hook NAME="SummaryNode"/>
+<node TEXT="only the states close to the centre of the band will be extended" ID="ID_1662789" CREATED="1543651018681" MODIFIED="1544323095028">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="when the electrons being filled into localized states, plateaux emerged" ID="ID_470842264" CREATED="1543651217497" MODIFIED="1544323095030">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -166,9 +177,10 @@
 </node>
 </node>
 </node>
+</node>
 <node TEXT="Gauge Invariance" ID="ID_485433445" CREATED="1543651405067" MODIFIED="1545047208900">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-362;-181;" ENDINCLINATION="220;273;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Corbino ring" ID="ID_934640366" CREATED="1545047221026" MODIFIED="1545047228120" MOVED="1545047394846">
 <node TEXT="the gauge transformation can be thought as the changing of flux through the centre of the ring" ID="ID_822295887" CREATED="1545047250560" MODIFIED="1545047365019">
 <node TEXT="Faraday&apos;s Law" ID="ID_1038276327" CREATED="1543651996492" MODIFIED="1544323095034" MOVED="1545047341206">
@@ -346,7 +358,7 @@
 </node>
 </node>
 <node TEXT="excitation" ID="ID_453900492" CREATED="1545053818880" MODIFIED="1545053825236">
-<node TEXT="Quasi-Holes" ID="ID_158696238" CREATED="1545053827778" MODIFIED="1545536428015" HGAP="13" VSHIFT="130">
+<node TEXT="Quasi-Holes" ID="ID_158696238" CREATED="1545053827778" MODIFIED="1545536428015" HGAP_QUANTITY="13.0 px" VSHIFT_QUANTITY="130.0 px">
 <hook EQUATION="\psi_{M-hole}(z;\eta)=\prod_{j=1}^{M}\prod_{i=1}^{N}(z_i-\eta_j)\prod_{k&lt;l}(z_k-z_l)^me^{-\sum_{i=1}^n|z_i|^2/4l_B^2}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="set m quasi-holes at the same place" ID="ID_766330316" CREATED="1545121233008" MODIFIED="1545131616062">
 <hook EQUATION="\psi_{m-hole}(z;\eta)=\prod_{i=1}^{N}(z_i-\eta)^m\prod^{(N)}_{k&lt;l}(z_k-z_l)^me^{-\sum_{i=1}^n|z_i|^2/4l_B^2} \\&#xa;\Leftrightarrow \prod_{k&lt;l}^{(N+1)}(z_k-z_l)^me^{-\sum_{i=1}^n|z|^2 /4l_B^2}(set\,z_{N+1}=\eta)\\&#xa;\psi_{electrons}(z_i)=\psi_{m-hole}(z;\eta)\\&#xa;as\ \eta\ is\ not\ a\ dynamic\ variable\ but\ a\ parameter\ \Rightarrow m\ quasi-holes\ act\ like\ a\ deficit" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -371,7 +383,7 @@
 <hook EQUATION="\rho \uparrow \Leftrightarrow angular\ momentum\, \downarrow \Leftrightarrow \times \prod_iz_i\\&#xa;\rho \downarrow \Leftrightarrow angular\ momentum\, \uparrow \Leftrightarrow  &#xa;    \begin{pmatrix}&#xa;    \div \prod_iz_i &amp; \rightarrow resulting\ wavefunction\ is\ badly\ singular\\&#xa;    \times \prod_i \bar z_i &amp; \rightarrow resulting\ wavefunction\ no\ longer\ sits\ in\ the\ LLL\\&#xa;    \frac \partial {\partial z_i}     &#xa;    \end{pmatrix}&#xa;" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="Anyons : exists because of the special property of 2-D constrains----rotate 2 particles by 2&#x3c0; can&apos;t fully return the original state due to the winding of worldline (in higher-D the worldline can always be continuously turned into the case that nothing happen)" ID="ID_18146218" CREATED="1545178663279" MODIFIED="1545182469688">
+<node TEXT="Anyons : exists because of the special property of 2-D constrains----rotate 2 particles by 2π can&apos;t fully return the original state due to the winding of worldline (in higher-D the worldline can always be continuously turned into the case that nothing happen)" ID="ID_18146218" CREATED="1545178663279" MODIFIED="1545182469688">
 <hook EQUATION="\psi(\vec r_1 ,\vec r_2)= e^{i\pi \alpha}\psi(\vec r_2,\vec r_1)" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="exchange of particles" ID="ID_1437149621" CREATED="1545178820944" MODIFIED="1545178830868">
 <node TEXT="3-D: Permutation group" ID="ID_1829938207" CREATED="1545178832229" MODIFIED="1545178866693"/>
@@ -492,14 +504,14 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="turning on an electric field" ID="ID_26592283" CREATED="1543498321907" MODIFIED="1545046051894">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-160;19;" ENDINCLINATION="-523;362;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="conductivity when some levels are filled" ID="ID_916414675" CREATED="1543643544384" MODIFIED="1544323095128" MOVED="1543643796997">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Berry Phase(the HEART of QHE)" LOCALIZED_STYLE_REF="default" ID="ID_1836697929" CREATED="1543494183872" MODIFIED="1544323095130">
+<node TEXT="Berry Phase(the HEART of QHE)" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_1836697929" CREATED="1543494183872" MODIFIED="1544323095130">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Abelian(no degeneracy)" ID="ID_1154635528" CREATED="1543631526876" MODIFIED="1544323095131">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -562,10 +574,10 @@
 <attribute NAME="year" VALUE="2016"/>
 <attribute NAME="title" VALUE="Classification of topological quantum matter with symmetries"/>
 <attribute NAME="authors" VALUE="Chiu, Ching-Kai and Teo, Jeffrey C. Y. and Schnyder, Andreas P. and Ryu, Shinsei"/>
+<font NAME="TSCu_Times" SIZE="16"/>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="DC15BDDCFE43E9ED1850D7DA74B5274E55DAD52C855AD9EDAB8CE0D84F6FEA">
     <pdf_title>Ching-Kai Chiu</pdf_title>
 </pdf_annotation>
-<font NAME="TSCu_Times" SIZE="16"/>
 <node TEXT="chiral symmetry" ID="ID_1711355427" CREATED="1544777377672" MODIFIED="1544777527640">
 <hook EQUATION="\widetilde S \leftrightarrow \widetilde C  \cdot \widetilde  T" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
