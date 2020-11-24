@@ -799,7 +799,7 @@
 </node>
 <node TEXT="most engineering approaches for transport built on diffusion equations treat particles incoherently" ID="ID_747178486" CREATED="1605778770962" MODIFIED="1605778811016"/>
 </node>
-<node TEXT="criteria" ID="ID_1744053490" CREATED="1605778989034" MODIFIED="1605778992148">
+<node TEXT="diff particles/waves" ID="ID_1744053490" CREATED="1605778989034" MODIFIED="1606181178582">
 <node TEXT="em waves" ID="ID_779861661" CREATED="1605778993387" MODIFIED="1605778997845">
 <node TEXT="\latex \textbf{coherence length(wave packets)}: $l_c\approx \frac c{\Delta \nu}$ (\textbf{inversely}\ proportional to the effective bandwidth of the waves in the system)" ID="ID_430321887" CREATED="1605780660314" MODIFIED="1605865027716">
 <node TEXT="if size of transport domain much larger than it,&#xa;then can be treated as point-wise particles" ID="ID_1970660682" CREATED="1605864975177" MODIFIED="1605865189105">
@@ -837,6 +837,19 @@
 <node TEXT="partial coherence theory" ID="ID_350145763" CREATED="1606115106900" MODIFIED="1606115120018"/>
 <node TEXT="decompose it into monochromatic waves and treat each of them wave-wisely" ID="ID_768969215" CREATED="1606115098824" MODIFIED="1606115104395"/>
 </node>
+<node TEXT="wave localization" ID="ID_1172962621" CREATED="1606180094003" MODIFIED="1606180102789">
+<node TEXT="induce randomness through surface roughness /nonparallel surfaces/thickness variations, etc" ID="ID_702653391" CREATED="1606180102974" MODIFIED="1606180155166"/>
+<node TEXT="when phases have enough randomness, the superposition of waves can create complete cancellation of waves at certain freq, prohibiting its transportation" ID="ID_1872432972" CREATED="1606180172811" MODIFIED="1606180252606">
+<node TEXT="occurs for all kinds of particles" ID="ID_483629466" CREATED="1606180624703" MODIFIED="1606180666950"/>
+<node TEXT="easily occurs in 1-D &amp; 2-D structures&#xa;and when the number of modes is small&#xa;(much more diffcult in 3-D)" ID="ID_270663443" CREATED="1606180667224" MODIFIED="1606180724340">
+<node TEXT="the surface roughness make the 1-D model into 3-D, so the phase info is no more important. it&apos;s particle-wise (also the coherence length smaller than characteristic length of the surface randomness)" ID="ID_581809599" CREATED="1606180763930" MODIFIED="1606180982241"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="electron waves" ID="ID_530336052" CREATED="1606181181048" MODIFIED="1606181187651">
+<node TEXT="diff fr phot: scattering can be both elastic(only change direction) and inelastic(change direction and energy)" ID="ID_1013932601" CREATED="1606181232078" MODIFIED="1606181688748"/>
+<node TEXT="scattering by impurities and at the boundaries-&gt; elastic, the phase reserve" ID="ID_1867367226" CREATED="1606181669387" MODIFIED="1606181856766"/>
 </node>
 </node>
 </node>
