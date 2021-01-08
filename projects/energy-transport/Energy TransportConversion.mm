@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.143">
+<hook NAME="MapStyle" zoom="1.948">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -848,8 +848,36 @@
 </node>
 </node>
 <node TEXT="electron waves" ID="ID_530336052" CREATED="1606181181048" MODIFIED="1606181187651">
-<node TEXT="diff fr phot: scattering can be both elastic(only change direction) and inelastic(change direction and energy)" ID="ID_1013932601" CREATED="1606181232078" MODIFIED="1606181688748"/>
-<node TEXT="scattering by impurities and at the boundaries-&gt; elastic, the phase reserve" ID="ID_1867367226" CREATED="1606181669387" MODIFIED="1606181856766"/>
+<node TEXT="diff fr phot: scattering can be both elastic(only change direction) and inelastic(change direction and energy)" ID="ID_1013932601" CREATED="1606181232078" MODIFIED="1606181688748">
+<node TEXT="phonon-electron scattering -&gt; inelastic&#xa;randomizes the phases as the location and the phase of it change all the time" ID="ID_1937849332" CREATED="1610088970773" MODIFIED="1610089029889"/>
+</node>
+<node TEXT="scattering by impurities and at the boundaries-&gt; elastic, the phase reserve (maybe?)" ID="ID_1867367226" CREATED="1606181669387" MODIFIED="1610088592640">
+<node TEXT="the randomness brought by the locations of the impurities and the surface roughness" ID="ID_911386458" CREATED="1610088592831" MODIFIED="1610088813170">
+<node TEXT="destroy the phase info and make the&#xa;particle approach approximately valid" ID="ID_1579612761" CREATED="1610088814948" MODIFIED="1610088838200"/>
+<node TEXT="create localization of the electron waves" ID="ID_1299908636" CREATED="1610088839031" MODIFIED="1610088857420"/>
+</node>
+</node>
+<node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610117230354">
+<node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
+<node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
+<node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
+</node>
+<node TEXT="" ID="ID_1232332200" CREATED="1610117664241" MODIFIED="1610117664242">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex phase coherence length(Thouless length)\\&#xa;$\Lambda_\varphi=(a\tau_\varphi)^{1/2}$" ID="ID_1914665191" CREATED="1610091835705" MODIFIED="1610097440773">
+<node TEXT="\latex a is electron diffusivity \\&#xa;$a\approx v_F^2\tau$&#xa;\\(implies multiple scattering)" ID="ID_537618173" CREATED="1610097417236" MODIFIED="1610116544175"/>
+<node TEXT="\latex slightly diff from $\Lambda_{in}$" ID="ID_533602961" CREATED="1610099289917" MODIFIED="1610099309435"/>
+</node>
+<node TEXT="\latex thermal length\\ $\Lambda_T=(a\hbar/\kappa_BT)^{1/2}$" ID="ID_1271072690" CREATED="1610091843648" MODIFIED="1610117438891" HGAP_QUANTITY="14.883435603497174 pt" VSHIFT_QUANTITY="1.7668712069943482 pt">
+<node TEXT="\latex thermal broadening of the energy levels of electrons is $\kappa_BT$ \\&#xa;corresponding uncertainty in time is $\hbar/(\kappa_BT)$" ID="ID_1886360011" CREATED="1610117439918" MODIFIED="1610117503802"/>
+</node>
+<node TEXT="" ID="ID_400575012" CREATED="1610117664239" MODIFIED="1610117664240">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex used to judge whether transport is in the wave/particle regime (smaller, more important)\\&#xa;if $\Lambda_T&gt;\Lambda_\varphi$: inelastic scattering is considered as the dominant phase-destroying process \\&#xa;if $\Lambda_T&lt;\Lambda_\varphi$: thermal excitation is considered as the dominant dephasing mechanism" ID="ID_501041415" CREATED="1610117664242" MODIFIED="1610117902308"/>
+</node>
+</node>
 </node>
 </node>
 </node>
