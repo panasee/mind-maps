@@ -857,7 +857,8 @@
 <node TEXT="create localization of the electron waves" ID="ID_1299908636" CREATED="1610088839031" MODIFIED="1610088857420"/>
 </node>
 </node>
-<node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610117230354">
+<node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-560;30;" ENDINCLINATION="-20;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -872,10 +873,87 @@
 <node TEXT="\latex thermal length\\ $\Lambda_T=(a\hbar/\kappa_BT)^{1/2}$" ID="ID_1271072690" CREATED="1610091843648" MODIFIED="1610117438891" HGAP_QUANTITY="14.883435603497174 pt" VSHIFT_QUANTITY="1.7668712069943482 pt">
 <node TEXT="\latex thermal broadening of the energy levels of electrons is $\kappa_BT$ \\&#xa;corresponding uncertainty in time is $\hbar/(\kappa_BT)$" ID="ID_1886360011" CREATED="1610117439918" MODIFIED="1610117503802"/>
 </node>
-<node TEXT="" ID="ID_400575012" CREATED="1610117664239" MODIFIED="1610117664240">
+<node TEXT="" ID="ID_400575012" CREATED="1610117664239" MODIFIED="1610432255905">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex used to judge whether transport is in the wave/particle regime (smaller, more important)\\&#xa;if $\Lambda_T&gt;\Lambda_\varphi$: inelastic scattering is considered as the dominant phase-destroying process \\&#xa;if $\Lambda_T&lt;\Lambda_\varphi$: thermal excitation is considered as the dominant dephasing mechanism" ID="ID_501041415" CREATED="1610117664242" MODIFIED="1610117902308"/>
+<node TEXT="\latex used to judge whether transport is in the wave/particle regime (smaller, more important)\\&#xa;if $\Lambda_T&gt;\Lambda_\varphi$: inelastic scattering is considered as the dominant phase-destroying process \\&#xa;if $\Lambda_T&lt;\Lambda_\varphi$: thermal excitation is considered as the dominant dephasing mechanism" ID="ID_501041415" CREATED="1610117664242" MODIFIED="1610432255904" HGAP_QUANTITY="20.625767026228804 pt" VSHIFT_QUANTITY="-2.6503068104915233 pt">
+<node TEXT="if characteristic length is larger than the dominant &quot;length&quot;, then the phase info is destroyed.&#xa;(e.g. the quantum states as in simple quantum well will not be created)" ID="ID_1787740165" CREATED="1610432928300" MODIFIED="1610433145208"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="phonons" ID="ID_1486408821" CREATED="1610433200913" MODIFIED="1610433217423">
+<node TEXT="the interface roughness is larger than the dominant phonon wavelength despite the elastic boundary &amp; impurity scattering" ID="ID_1321517564" CREATED="1610434685101" MODIFIED="1610434979877">
+<node TEXT="the particle-based treatment is likely to be valid for most practical situations" ID="ID_65857517" CREATED="1610434916391" MODIFIED="1610434944781"/>
+</node>
+<node ID="ID_159549042" CREATED="1610434988873" MODIFIED="1610435008575"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Phonon-phonon scattering is <b>inelastic</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex for structures larger than MFP $\Lambda$, the phase must be ignored. even if smaller, the rough interface scattering most likely can justify the particle treatment as the short wavelength" ID="ID_306486475" CREATED="1610435053297" MODIFIED="1610435175275">
+<node TEXT="especially when the detailed interface structures are not clear, which exclude a full-scale wave treatment" ID="ID_263475701" CREATED="1610435207979" MODIFIED="1610435241379"/>
+</node>
+</node>
+<node TEXT="\latex the thermal coherence length obtained from energy spread $k_BT$, defined as $\sim v/\Delta \nu$, namely $vh/(k_BT)$" ID="ID_449499689" CREATED="1610435439341" MODIFIED="1610435727983">
+<node TEXT="\latex approximately 10\AA at RT" ID="ID_1171393101" CREATED="1610435557945" MODIFIED="1610435584556"/>
+<node TEXT="useful as an indicator of width of the wave packet due to thermal spreading" ID="ID_279711271" CREATED="1610435603879" MODIFIED="1610435630122"/>
+<node TEXT="cannot be applied to periodic structures such as superlattices in deciding whether wave effect can be neglected" ID="ID_1956056652" CREATED="1610435631725" MODIFIED="1610436047153"/>
+</node>
+<node TEXT="superlattice&apos;s thermal conductivity is significantly reduced in comparison with values from Fourier&apos;s law using bulk properties of each layer(under debate)" ID="ID_496329256" CREATED="1610436092020" MODIFIED="1610438131686">
+<node TEXT="diff approaches" ID="ID_411166648" CREATED="1610440781645" MODIFIED="1610440786388">
+<node TEXT="approach 1: treat phonons as particles, having their bulk properties in each individual layer but experiencing incoherent interface scattering" ID="ID_632894092" CREATED="1610438114316" MODIFIED="1610438213116">
+<node TEXT="assume that interface scattering destroys the phase" ID="ID_850288641" CREATED="1610438298319" MODIFIED="1610438322925"/>
+<node TEXT="fit exp data based on the assumption of how many phonons are diffusely scattered at the interfaces" ID="ID_496488029" CREATED="1610438323020" MODIFIED="1610438372169"/>
+</node>
+<node TEXT="approach 2(coherent phonon wave approach): treat superlattices as a new crystal structure with a unit cell spanning over one period of the superlattice, that is, treating phonons as coherent waves extending over the whole structure" FOLDED="true" ID="ID_729262843" CREATED="1610438216748" MODIFIED="1610438391894">
+<node TEXT="based on a pure harmonic lattice dynamics model" ID="ID_1228602704" CREATED="1610438431712" MODIFIED="1610438446412"/>
+<node TEXT="assumes the reduction caused by the spectrum change and associated reduction in group velocity" ID="ID_329406636" CREATED="1610438447255" MODIFIED="1610438515748"/>
+<node TEXT="cannot predict the same order of reduction as exp" ID="ID_540627684" CREATED="1610439695028" MODIFIED="1610439712620"/>
+<node ID="ID_990109525" CREATED="1610439721080" MODIFIED="1610440342938"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>damped lattice waves</b>: some lattice waves&nbsp;donot extend over the whole superlattice but can exist in one layer or over a few periods
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="can capture the same trends as exp" ID="ID_439368438" CREATED="1610440343605" MODIFIED="1610440358868"/>
+</node>
+</node>
+</node>
+<node TEXT="thin period limit --&gt; coherent transport regime&#xa;thick period limit --&gt; particle transport regime" ID="ID_54381320" CREATED="1610440497809" MODIFIED="1610440540019"/>
+<node TEXT="interface specularity parameter p: the fraction of specularly scattered phonons" ID="ID_430896909" CREATED="1610441702636" MODIFIED="1610441772253">
+<node TEXT="the specularly scattered phonons are coherent, while the diffusely scattered phonons are incoherent" ID="ID_734018231" CREATED="1610441772642" MODIFIED="1610441830988"/>
+<node TEXT="p=1, all phonons are specularly reflected and waves extend through the whole superlattice" ID="ID_1142201036" CREATED="1610441844318" MODIFIED="1610441877799">
+<node TEXT="tc independent of period thickness&#xa;until the latter is only 1-5 monolayers" ID="ID_322209047" CREATED="1610442178141" MODIFIED="1610442217089">
+<node TEXT="then tc will increase due to phonon tunneling" ID="ID_829448981" CREATED="1610442226724" MODIFIED="1610442243262"/>
+<node TEXT="\latex above about 10\AA tc stands unchanged\\&#xa;due to thermal broadening" ID="ID_245849243" CREATED="1610442278379" MODIFIED="1610442326481"/>
+</node>
+</node>
+<node TEXT="p&lt;1, phonon waves are damped&#xa;due to diffuse scattering" ID="ID_1496178343" CREATED="1610442347880" MODIFIED="1610442385024">
+<node TEXT="With large period thickness, phonon waves are incoherent over many periods, leaving spectra close to those of bulk phonons" ID="ID_1931440606" CREATED="1610442399048" MODIFIED="1610442554298">
+<node TEXT="the overall tc is dominated by thermal boundary resistances at interfaces until the period &gt;&gt; MFP, then the tc eventually approaches from Fourier&apos;s law" ID="ID_681109209" CREATED="1610442564216" MODIFIED="1610442691404"/>
+</node>
+<node TEXT="in thin period limit, superposition of coherent phonons extending over many periods leads to new phonon band structures and wave phenomena" ID="ID_479772089" CREATED="1610442554971" MODIFIED="1610442768681">
+<node TEXT="e.g. stop bands, interference, tunneling ..." ID="ID_1753844932" CREATED="1610442772502" MODIFIED="1610442796367"/>
+</node>
+</node>
 </node>
 </node>
 </node>
