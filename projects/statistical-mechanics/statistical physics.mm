@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0" project="168845B4B771OKR0M0YSJWPEINANNV7JTPQQ" dcr_id="1548936536751_atjuuaa9zgzmszrh8hhi60eor">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="statistical physics&#xa;(研究平衡态(分布稳定不变)系统)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1601974801116"><hook NAME="MapStyle" zoom="1.103">
+<node TEXT="statistical physics&#xa;(研究平衡态(分布稳定不变)系统)" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1614489368794"><hook NAME="MapStyle" zoom="2.147">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="定域子系----Maxwell-Boltzmann Distribution" FOLDED="true" POSITION="left" ID="ID_1308663839" CREATED="1548940824101" MODIFIED="1548941137330">
 <edge COLOR="#7c0000"/>
 <hook EQUATION="W(\{a_\lambda\})=\frac{N!}{\prod_\lambda a_\lambda!}\prod_\lambda g_\lambda^{a_\lambda}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -135,7 +135,7 @@
 </node>
 <node TEXT="统计物理学基本原理" POSITION="right" ID="ID_273677250" CREATED="1559185737360" MODIFIED="1559185749982">
 <edge COLOR="#808080"/>
-<node TEXT="统计规律性" ID="ID_1231133404" CREATED="1559184073409" MODIFIED="1559185776746">
+<node TEXT="统计规律性" FOLDED="true" ID="ID_1231133404" CREATED="1559184073409" MODIFIED="1559185776746">
 <node TEXT="在一定的宏观条件下,某一时刻系统以一定的几率处于某一微观运动状态(即相空间中一点)(信息不足以确定系统恰好处于一个微观状态)" ID="ID_203023222" CREATED="1548939072972" MODIFIED="1559184101330">
 <node TEXT="宏观状态与微观状态之间的联系是几率性的,不是决定性的" ID="ID_486742094" CREATED="1548939200623" MODIFIED="1548939227565"/>
 <node TEXT="几率性来源:1,宏观状态的状态变量不足以确定所有微观状态;2,外界作用虽然对平衡后的宏观状态无影响,但会影响微观状态,这种作用带有随机性 (不是物体的固有属性,这点与量子力学有本质不同)" ID="ID_1656315796" CREATED="1548939266774" MODIFIED="1559184369865"/>
@@ -159,7 +159,7 @@
 </node>
 </node>
 <node TEXT="准封闭性:子系统足够大时,在不太长的时间间隔内,可近似认为闭合系统" ID="ID_823638495" CREATED="1559185846933" MODIFIED="1559531551079">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-14;16;" ENDINCLINATION="19;-15;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-13;16;" ENDINCLINATION="19;-14;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="" ID="ID_315786048" CREATED="1559187432524" MODIFIED="1559187432526">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -223,14 +223,36 @@
 <node TEXT="定域子系:全同多粒子系统,当波函数无重叠时,可从位置区分粒子,全同性原理不起作用,遵从玻尔兹曼统计(无论费米子还是玻色子)(可以理解为多个孤立系统共用量子态)" ID="ID_700349716" CREATED="1548938399943" MODIFIED="1548938975056"/>
 </node>
 </node>
-<node TEXT="" POSITION="right" ID="ID_1183728508" CREATED="1601976049094" MODIFIED="1601976049108">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="\latex 设想系统包藏在静止的刚体容器中&#xa;\\从而能量成为唯一的可加性运动积分&#xa;\\$\ln \rho_a=\alpha_a+\beta E_a(p,q)$&#xa;\\而微正则分布$\rho=Const\cdot \delta(E-E_0)$ &#xa;\\或量子微正则分布$dw = Const\cdot \delta(E-E_0)\prod\limits_{a}d\Gamma_a\,\,,(d\Gamma=\prod\limits_ad\Gamma_a)$" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1388697910" CREATED="1559558306043" MODIFIED="1601974801098" HGAP_QUANTITY="17.249999485909935 pt" VSHIFT_QUANTITY="139.49999584257617 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="32;-24;" ENDINCLINATION="-131;-42;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<node TEXT="\latex 设想系统包藏在静止的刚体容器中&#xa;\\从而能量成为唯一的可加性运动积分&#xa;\\$\ln \rho_a=\alpha_a+\beta E_a(p,q)$&#xa;\\而微正则分布$\rho=Const\cdot \delta(E-E_0)$ &#xa;\\或量子微正则分布$dw = Const\cdot \delta(E-E_0)\prod\limits_{a}d\Gamma_a\,\,,(d\Gamma=\prod\limits_ad\Gamma_a)$" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1388697910" CREATED="1559558306043" MODIFIED="1614489368780" HGAP_QUANTITY="-68.99999794363983 pt" VSHIFT_QUANTITY="142.4999957531692 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-2;-38;" ENDINCLINATION="-201;-11;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 </node>
-<node TEXT="分布" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
+<node TEXT="Correlations&#xa;&amp; Scattering" POSITION="right" ID="ID_1183728508" CREATED="1601976049094" MODIFIED="1614489446304">
+<edge COLOR="#808080"/>
+<node TEXT="spatial correlation func --&gt;&#xa;based on n-particle densities" ID="ID_1635393378" CREATED="1614489458623" MODIFIED="1614496382548">
+<node TEXT="" ID="ID_642567699" CREATED="1614491894087" MODIFIED="1614491894091">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex the one-body number density\\&#xa; $n_1(\vec r)=\langle\sum_i \delta(\vec r-\vec r_i) \rangle$" ID="ID_770422432" CREATED="1614489630807" MODIFIED="1614490841929">
+<node TEXT="\latex $n_1(\vec r) dV$ is a measure of the probability of \\&#xa;finding a particle inside an infinitesimal volume $dV$" ID="ID_93250233" CREATED="1614490395961" MODIFIED="1614490630623"/>
+<node TEXT="\latex $\int n_1(\vec r)dV = \langle N\rangle$ is the average number of particles" ID="ID_402013516" CREATED="1614490585161" MODIFIED="1614490649993"/>
+<node TEXT="if translationally &amp; rotationally invariant, then independent of position" ID="ID_1445508848" CREATED="1614491720517" MODIFIED="1614491756406"/>
+</node>
+<node TEXT="\latex the two-body number density\\&#xa;$n_2(\vec r,\vec r^\prime) = \langle \sum_{i\ne j}\delta(\vec r-\vec r_i)\delta(\vec r^\prime-\vec r_j) \rangle$" ID="ID_1456183827" CREATED="1614490843788" MODIFIED="1614490921138">
+<node TEXT="\latex $n_1(\vec r) dVdV^\prime$ is a measure of the probability of \\&#xa;finding one particle inside an infinitesimal volume $dV$ at $\vec r$\\&#xa;\textbf{and } another particle inside an infinitesimal volume $dV^\prime$ at $\vec r^\prime$" ID="ID_1253064297" CREATED="1614491011688" MODIFIED="1614491193520">
+<node TEXT="\latex i.e. in dilute classical gas, if far enough,\\&#xa; then $n_2(\vec r,\vec r^\prime)\rightarrow n_1(\vec r)n_1(\vec r^\prime),(|\vec r-\vec r^\prime|\rightarrow \infty)$" ID="ID_1032160183" CREATED="1614491263485" MODIFIED="1614491457151"/>
+</node>
+<node TEXT="\latex $\int n_2(\vec r,\vec r^\prime)dVdV^\prime = \langle N^2\rangle-\langle N\rangle$" ID="ID_633801995" CREATED="1614491543498" MODIFIED="1614491606788"/>
+<node TEXT="if translationally &amp; rotationally invariant, then dependent only&#xa;on the magnitude of the distance between them" ID="ID_454328489" CREATED="1614491760566" MODIFIED="1614491860182"/>
+</node>
+<node TEXT="" ID="ID_395070295" CREATED="1614491894080" MODIFIED="1614491898850">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex when translationally \&amp; rotationally invariant\\&#xa;define the pair correlation func $g(r)$\\&#xa;$n_2(\vec r,\vec r^\prime) = n^2g(|\vec r-\vec r^\prime|)$ ($n$ is number density)" ID="ID_1088338667" CREATED="1614491894094" MODIFIED="1614492098900" HGAP_QUANTITY="23.749999709427364 pt"/>
+</node>
+</node>
+</node>
+<node TEXT="分布" FOLDED="true" POSITION="left" ID="ID_165469415" CREATED="1559533509585" MODIFIED="1559533518411">
 <edge COLOR="#808080"/>
 <node TEXT="宏观系统状态" ID="ID_1451058132" CREATED="1565233561591" MODIFIED="1565233572305">
 <node TEXT="微正则分布(闭合宏观系统)" ID="ID_217324042" CREATED="1559533519444" MODIFIED="1565232992059">
@@ -280,13 +302,13 @@
 <node TEXT="宏观运动:宏观部分作为整体参与的运动&#xa;将物体细分为很小但是宏观的部分(运动质点)&#xa;从而运动参数只有动量P" ID="ID_40807091" CREATED="1559704542224" MODIFIED="1559705601662">
 <node TEXT="\latex 熵只是内能的函数:\\&#xa;$S=\sum\limits_aS_a(E_a-\frac{P_a^2}{2M_a})$" ID="ID_1466467097" CREATED="1559704589912" MODIFIED="1559704678591"/>
 <node TEXT="\latex 总动量和角动量守恒下采用lagrange乘子法\\&#xa;$\frac \partial{\partial P}\sum\limits_a [S_a+\vec a\cdot \vec P+\vec b\cdot (\vec r_a\times \vec P)]=0$ \\&#xa;得$\vec v_a =T\vec a+T\vec b\times \vec r_a \equiv \vec u+ \Omega\times \vec r_a$ \\&#xa;(上述仅为必要非充分条件,二阶导数条件给出温度必须为正数)" ID="ID_365792355" CREATED="1559705668577" MODIFIED="1559706385952">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1669423611" STARTINCLINATION="-238;46;" ENDINCLINATION="-146;7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1669423611" STARTINCLINATION="-237;46;" ENDINCLINATION="-145;7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="乘子系数为常数(整个系统共用),因此热力平衡的系统&#xa;只能做匀速直线运动和匀角速度转动" ID="ID_1237980335" CREATED="1559705929706" MODIFIED="1559706068870"/>
 </node>
 </node>
 </node>
-<node TEXT="ensembles(系综):&#xa; 满足系统宏观约束的微观状态的集合&#xa;(这些状态: (simply) accessible quantum states)" POSITION="left" ID="ID_1404148645" CREATED="1604052340557" MODIFIED="1604056767028">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1231133404" STARTINCLINATION="843;0;" ENDINCLINATION="843;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<node TEXT="ensembles(系综):&#xa; 满足系统宏观约束的微观状态的集合&#xa;(这些状态: (simply) accessible quantum states)" FOLDED="true" POSITION="left" ID="ID_1404148645" CREATED="1604052340557" MODIFIED="1614489344690">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1231133404" STARTINCLINATION="660;-97;" ENDINCLINATION="846;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#808080"/>
 <node TEXT="系统的时间演化难以计算,因此使用系综进行统计分析" ID="ID_981989250" CREATED="1604052357261" MODIFIED="1604052555611"/>
 <node TEXT="分类" ID="ID_380404074" CREATED="1604053085169" MODIFIED="1604054509766">
@@ -305,7 +327,7 @@
 <node TEXT="\latex 能量对应的微观状态概率&#xa;\\$P(E_i) = \exp(\frac F{k_BT})\exp(-\frac{E_i}{k_BT})$" ID="ID_1547380304" CREATED="1604057423482" MODIFIED="1604057546552">
 <node TEXT="F=U-TS=F(T,V,N) 也是一个热力学势,&#xa;称为Helmholtz自由能" ID="ID_292303341" CREATED="1604057551095" MODIFIED="1604057601046"/>
 <node TEXT="\latex 根据概率归一性可得\\&#xa;$F=-k_BT\ln Z ,(Z=\sum_i\exp(-\frac{E_i}{k_BT}))$" ID="ID_1811311117" CREATED="1604057731228" MODIFIED="1604241196055">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="109;91;" ENDINCLINATION="173;-34;" STARTARROW="NONE" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="109;91;" ENDINCLINATION="173;-33;" STARTARROW="NONE" ENDARROW="NONE"/>
 <node TEXT="Z被称为正则配分函数&#xa;(canonical partition function)" ID="ID_1435718267" CREATED="1604057801508" MODIFIED="1604057832892"/>
 <node TEXT="\latex 引入Z后,状态概率表示为\\&#xa;$P(E_i)=e^{-E_i/k_BT}/Z$" ID="ID_234881534" CREATED="1604057874802" MODIFIED="1604057949745">
 <node TEXT="\latex $\exp(-E_i/k_BT)$被称为Boltzmann factor\\&#xa;该因子频繁出现在多个领域当中" ID="ID_291638317" CREATED="1604057987136" MODIFIED="1604058055431"/>
@@ -324,6 +346,20 @@
 </node>
 <node TEXT="\latex $G(T,V,\mu) = U-TS-\mu N = -k_BT\ln \mathcal Z$\\&#xa;也是热力学势,被称为Gibbs自由能\\&#xa;(U,N为\textbf{平均}能量和粒子数)" ID="ID_1296813123" CREATED="1604058596445" MODIFIED="1604058994378"/>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="Method of Quantized Fields&#xa;(相互作用系统)" POSITION="left" ID="ID_1271273692" CREATED="1614481734035" MODIFIED="1614496411752">
+<edge COLOR="#808080"/>
+<node TEXT="\latex field operators $\psi(\vec r)$ and its hermitian conjugates $\psi(\vec r)$\\&#xa;satisfying a set of well-defined commutation rules" ID="ID_1144426039" CREATED="1614482489653" MODIFIED="1614497316744">
+<node TEXT="\latex often expressed as superpositions of a set of single-particle&#xa;\\ wavefunctions$\{ u_\alpha(\vec r) \}$,&#xa;with coefficients $a_\alpha$和$a_\alpha^\dagger$" ID="ID_1775159549" CREATED="1614481825071" MODIFIED="1614497621151"/>
+<node TEXT="\latex operate on a Hilbert space, in which a vector represents\\&#xa; a particular state of the quantized field" ID="ID_631790826" CREATED="1614482299723" MODIFIED="1614497730387"/>
+<node TEXT="\latex the values of $\psi$ and $\psi^\dagger$, at all $\vec r$, &#xa;\\represent the degrees of freedom" ID="ID_98661117" CREATED="1614497799264" MODIFIED="1614497855536">
+<node TEXT="innumerably infinite (as r is continuous)" ID="ID_1973453712" CREATED="1614497865753" MODIFIED="1614497901894"/>
+</node>
+<node TEXT="commutation rules" ID="ID_1922203458" CREATED="1614498340121" MODIFIED="1614498345992">
+<node TEXT="\latex for bosons: $[\psi(\vec r),\psi^\dagger(\vec r^\prime)] = \delta(\vec r-\vec r^\prime)$\\&#xa;$[\psi(\vec r),\psi(\vec r^\prime)]=[\psi^\dagger(\vec r),\psi^\dagger(\vec r^\prime)] = 0$\\&#xa;([A,B]\equiv AB-BA)" ID="ID_1128555458" CREATED="1614498346342" MODIFIED="1614498533458"/>
+<node TEXT="\latex for fermions: $\{\psi(\vec r),\psi^\dagger(\vec r^\prime)\} = \delta(\vec r-\vec r^\prime)$\\&#xa;$\{\psi(\vec r),\psi(\vec r^\prime)]=[\psi^\dagger(\vec r),\psi^\dagger(\vec r^\prime)\} = 0$&#xa;\\(\{A,B\}\equiv AB+BA)" ID="ID_805320758" CREATED="1614498471204" MODIFIED="1614498554977"/>
 </node>
 </node>
 </node>
