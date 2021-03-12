@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Differential Equation" FOLDED="false" ID="ID_92716989" CREATED="1582171368064" MODIFIED="1582259668849" STYLE="oval">
 <font NAME="TSCu_Times" SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.1">
+<hook NAME="MapStyle" zoom="2.593">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="\latex 二阶偏微分方程\\&#xa;$\sum\limits^n_{j=1}\sum^n_{i=1}a_{ij}u_{x_ix_j}+\sum^n_{i=1}b_iu_{x_i}+cu+f=0 $" POSITION="right" ID="ID_170575284" CREATED="1582171510613" MODIFIED="1582259656098" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-2.2499999329447764 pt">
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="\latex 二阶偏微分方程\\&#xa;$\sum\limits^n_{j=1}\sum^n_{i=1}a_{ij}u_{x_ix_j}+\sum^n_{i=1}b_iu_{x_i}+cu+f=0 $" FOLDED="true" POSITION="right" ID="ID_170575284" CREATED="1582171510613" MODIFIED="1582259656098" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-2.2499999329447764 pt">
 <edge COLOR="#ff0000"/>
 <font NAME="SimSun" SIZE="16"/>
 <node TEXT="\latex $a_{ij}, b_i, c, f$是否包含$u$\\&#xa;线性/非线性" ID="ID_1735378438" CREATED="1582190567322" MODIFIED="1582259656100">
@@ -88,7 +88,7 @@
 <node TEXT="\latex 二元二阶线性偏微分方程:\\&#xa;$a_{11}u_{xx}+2a_{12}u_{xy}+a_{22}u_{yy}+b_1u_x+b_2u_y+cu+f=0$&#xa;\\引入新变量$(\xi, \eta)$,\\&#xa;保证雅各比行列式非零 \\&#xa;有\[  \left\{  \begin{aligned}&#xa;&amp;u_x=u_\xi\xi_x+u_\eta\eta_x ,\\&#xa;&amp;u_y=u_\xi\xi_y+u_\eta\eta_y ,&#xa;\end{aligned}   \right.  \]" ID="ID_1750606951" CREATED="1582192358720" MODIFIED="1582259656091">
 <font NAME="SimSun"/>
 <node TEXT="\latex 方程化为:\\&#xa;\[ A_{11}u_{\xi\xi}+2A_{12}u_{\xi\eta}+A_{22}u_{\eta\eta}+B_1u_\xi+B_2u_\eta+Cu+F=0 \] &#xa;\[\left\{\begin{aligned} &#xa;&amp;A_{11}=a_{11}\xi^2_x+2a_{12}\xi_x\xi_y+a_{22}\xi^2_y,\\&#xa;&amp;A_{12}=a_{11}\xi_x\eta_x+a_{12}(\xi_x\eta_y+\xi_y\eta_x)+a_{22}\xi_y\eta_y,\\&#xa;&amp;A_{22}=a_{11}\eta_x^2+2a_{12}\eta_x\eta_y+a_{22}\eta_y^2,\\&#xa;&amp;B_1=a_{11}\xi_{xx}+2a_{12}\xi_{xy}+a_{22}\xi_{yy}+b_1\xi_x+b_2\xi_y,\\&#xa;&amp;B_2=a_{11}\eta_{xx}+2a_{12}\eta_{xy}+a_{22}\eta_{yy}+b_1\eta_x+b_2\eta_y,\\&#xa;&amp;C=c,\\&#xa;&amp;F=f.&#xa;  \end{aligned} \right.\]" ID="ID_431856626" CREATED="1582195465323" MODIFIED="1582367392014">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-130;82;" ENDINCLINATION="433;21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-129;82;" ENDINCLINATION="433;21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SimSun"/>
 <node TEXT="\latex 将$a_{11}z^2_x+2a_{12}z_xz_y+a_{22}z^2_y$&#xa;的一个\\特解作为$\xi$, 可以使$A_{11}=0$ \\&#xa;同理设置$\eta$使$A_{22}=0$" ID="ID_1030845026" CREATED="1582251551891" MODIFIED="1582259656110">
 <font NAME="SimSun"/>
@@ -152,6 +152,18 @@
 <edge COLOR="#0000ff"/>
 <node TEXT="数理方程(包含定解条件)" ID="ID_552200464" CREATED="1582269750276" MODIFIED="1582269770117"/>
 <node TEXT="泛定方程(不含定解条件)" ID="ID_824599595" CREATED="1582269756629" MODIFIED="1582269784314"/>
+</node>
+<node TEXT="张量微分" POSITION="right" ID="ID_503666083" CREATED="1615507357868" MODIFIED="1615507364104">
+<edge COLOR="#00ff00"/>
+<node TEXT="\latex $\nabla\cdot \vec a\neq div(\vec a)$(equal in 1D but require transform in 2D)\\&#xa;$\nabla\phi \equiv \nabla\otimes\phi\neq grad(\phi)$" ID="ID_1896273533" CREATED="1615509511076" MODIFIED="1615511856484">
+<node TEXT="\latex $\nabla\cdot \vec A =\frac{\partial A_{ij}}{\partial x_i}\hat e_j$" ID="ID_935808270" CREATED="1615511439298" MODIFIED="1615511587541"/>
+<node TEXT="\latex $\nabla \vec A\equiv \nabla\otimes \vec A=\nabla_i\otimes\vec A_j$\\&#xa;kron(\nabla,\vec A)" ID="ID_1595801221" CREATED="1615511896509" MODIFIED="1615512056136"/>
+</node>
+<node TEXT="\latex notation: $\frac{\partial a^i}{\partial x_j}\equiv  a^i_j$($\frac{\partial a_i}{\partial x_j}\equiv  a_{i,j} $)" ID="ID_1150475422" CREATED="1615509877921" MODIFIED="1615510682765"/>
+<node TEXT="Kronecker Product is diff from Tensor product, the former will contain the original dimension, while the latter will ladder up by 1" ID="ID_468328678" CREATED="1615511435613" MODIFIED="1615512647071">
+<node TEXT="\latex Tensor P: \begin{pmatrix}1 \\2\\ 3\end{pmatrix}\begin{pmatrix}1 &amp;2\end{pmatrix}&#xa;=\begin{pmatrix}1 &amp;2\\2&amp;4\\3&amp;6\end{pmatrix}" ID="ID_792487948" CREATED="1615512672367" MODIFIED="1615512847578"/>
+<node TEXT="\latex Kron P: \begin{pmatrix}1 \\2\\ 3\end{pmatrix}\begin{pmatrix}1 \\2\end{pmatrix}&#xa;=\begin{pmatrix}1 \\2\\ 2\\4\\3\\6 \end{pmatrix}" ID="ID_178871709" CREATED="1615512749545" MODIFIED="1615512854111"/>
+</node>
 </node>
 </node>
 </map>
