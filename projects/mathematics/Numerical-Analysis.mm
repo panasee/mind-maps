@@ -63,18 +63,40 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="内积空间(函数)" POSITION="right" ID="ID_1401525416" CREATED="1615948013657" MODIFIED="1615948110216">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex $(f,g)=\int_a^b\rho(x)f(x)g(x)dx$ \\&#xa;$\rho(x)$为权函数" ID="ID_1837194801" CREATED="1615948031904" MODIFIED="1615948098851"/>
-<node TEXT="\latex $(f,g)=0\Rightarrow\; f$与$g$在$[a,b]$上带权正交" ID="ID_1270433453" CREATED="1615948126658" MODIFIED="1615948197330">
+<node TEXT="\latex $(\varphi_i,\varphi_k)=C\delta_{ij}\Rightarrow\; $[a,b]$上的标准($C=1$)正交函数族" ID="ID_1270433453" CREATED="1615948126658" MODIFIED="1616065136147">
 <node TEXT="正交函数组--&gt;&#xa;可做空间基" ID="ID_1342843577" CREATED="1615948200415" MODIFIED="1615948232713"/>
 </node>
 <node TEXT="\latex 线性无关:\ $a_i\varphi_i(x)=0,(x\in[a,b])$&#xa;当且仅当$a_i=0$" ID="ID_1517215160" CREATED="1615948357343" MODIFIED="1615949005480">
 <node TEXT="对于Taylor基,可通过在[a,b]上取(n+1)个点，发现成立" ID="ID_941094467" CREATED="1615948456338" MODIFIED="1615948568645"/>
-<node TEXT="\latex 线性无关 $\Leftrightarrow$ Cramer行列式不为零\\&#xa;$A_{n-1} =A(\varphi_0\cdots\varphi_{n-1}) = det([(\varphi_{i-1},\varphi_{j-1})])$" ID="ID_661641192" CREATED="1615948766621" MODIFIED="1615949268537"/>
+<node TEXT="\latex 线性无关 $\Leftrightarrow$ Cramer行列式$G_{n-1}$不为零\\&#xa;$G_{n-1} =G(\varphi_0,\cdots,\varphi_{n-1}) = det([(\varphi_{i-1},\varphi_{j-1})])$" ID="ID_661641192" CREATED="1615948766621" MODIFIED="1616065197276"/>
 </node>
 <node TEXT="\latex $\Phi = \text{span}\{ \varphi_i \}$表示由基函数张成的空间" ID="ID_912223427" CREATED="1615948670133" MODIFIED="1615948724270"/>
+</node>
+<node TEXT="Condition number(条件数)" POSITION="left" ID="ID_334308393" CREATED="1616066558048" MODIFIED="1616067096044">
+<edge COLOR="#0000ff"/>
+<node TEXT="measure how sensitive a function is to&#xa;changes or errors in the input" ID="ID_1645034484" CREATED="1616067121737" MODIFIED="1616067134621"/>
+<node ID="ID_1594606171" CREATED="1616067242604" MODIFIED="1616067277548"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      a problem with <b>low/high condition number</b>&nbsp;is
+    </p>
+    <p>
+      said to be <b>well/ill-conditioned</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </map>
