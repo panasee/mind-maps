@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="出发点:(价)电子不再束缚于个别原子,而是在整个固体运动,称为共有化电子, 讨论电子运动时假定离子实处于平衡位置, 将离子实偏离平衡位置的影响视为微扰." FOLDED="true" POSITION="left" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1603077360086">
 <edge COLOR="#0000ff"/>
 <node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
@@ -90,6 +90,13 @@
 </node>
 </node>
 <node TEXT="periodicity can creates band gaps at the edge of the Brillouin zone" ID="ID_506789827" CREATED="1603077824655" MODIFIED="1603077867226"/>
+</node>
+<node TEXT="band gap" POSITION="right" ID="ID_574883981" CREATED="1616481193448" MODIFIED="1616481320287">
+<edge COLOR="#00007c"/>
+<node TEXT="phonon band gap" ID="ID_138447459" CREATED="1616482871167" MODIFIED="1616482878008">
+<node TEXT="formed out of the mass diff between diff atoms" ID="ID_556238406" CREATED="1616482878396" MODIFIED="1616482893593"/>
+<node TEXT="could hinder some scattering processes" ID="ID_480668230" CREATED="1616482995071" MODIFIED="1616483310244"/>
+</node>
 </node>
 </node>
 </map>
