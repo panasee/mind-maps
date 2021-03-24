@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="内积空间(函数)" POSITION="right" ID="ID_1401525416" CREATED="1615948013657" MODIFIED="1615948110216">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex $(f,g)=\int_a^b\rho(x)f(x)g(x)dx$ \\&#xa;$\rho(x)$为权函数" ID="ID_1837194801" CREATED="1615948031904" MODIFIED="1615948098851"/>
@@ -72,9 +72,9 @@
 </node>
 <node TEXT="\latex 线性无关:\ $a_i\varphi_i(x)=0,(x\in[a,b])$&#xa;当且仅当$a_i=0$" ID="ID_1517215160" CREATED="1615948357343" MODIFIED="1615949005480">
 <node TEXT="对于Taylor基,可通过在[a,b]上取(n+1)个点，发现成立" ID="ID_941094467" CREATED="1615948456338" MODIFIED="1615948568645"/>
-<node TEXT="\latex 线性无关 $\Leftrightarrow$ Cramer行列式$G_{n-1}$不为零\\&#xa;$G_{n-1} =G(\varphi_0,\cdots,\varphi_{n-1}) = det([(\varphi_{i-1},\varphi_{j-1})])$" ID="ID_661641192" CREATED="1615948766621" MODIFIED="1616065197276"/>
+<node TEXT="\latex 线性无关 $\Leftrightarrow$ Cramer行列式$G_{n-1}$不为零\\&#xa;$G_{n-1} =G(\varphi_0,\cdots,\varphi_{n-1}) = det([A_{ij}=(\varphi_{i-1},\varphi_{j-1})])$" ID="ID_661641192" CREATED="1615948766621" MODIFIED="1616553954677"/>
 </node>
-<node TEXT="\latex $\Phi = \text{span}\{ \varphi_i \}$表示由基函数张成的空间" ID="ID_912223427" CREATED="1615948670133" MODIFIED="1615948724270"/>
+<node TEXT="\latex $\Phi = \text{span}\{ \varphi_i \}$表示由基函数张成的空间, 属于Hilbert空间" ID="ID_912223427" CREATED="1615948670133" MODIFIED="1616554919191"/>
 </node>
 <node TEXT="Condition number(条件数)" POSITION="left" ID="ID_334308393" CREATED="1616066558048" MODIFIED="1616067096044">
 <edge COLOR="#0000ff"/>
@@ -94,8 +94,56 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="\latex $cond(B)_\infty = ||B||_\infty \times||B^{-1}||_\infty $" ID="ID_447442053" CREATED="1616553160833" MODIFIED="1616553204544">
+<node TEXT="\latex 无穷范数$||B||_\infty$为Ｂ每一行元素绝对值求和的最大值" ID="ID_1636591802" CREATED="1616553212280" MODIFIED="1616553252202"/>
+</node>
+</node>
+<node TEXT="\latex approximation theory \\&#xa;$E_n \equiv ||f-p_n||_n$为偏差函数(n范数)" POSITION="right" ID="ID_1834936246" CREATED="1616552048549" MODIFIED="1616556573464">
+<edge COLOR="#00ff00"/>
+<node TEXT="\latex minimize: $E_\infty(a_0,a_1) = \max\{ |y_i-(a_1x_i+a_0)| \}$ \\&#xa;(minimax problem最佳一致逼近)" ID="ID_739598691" CREATED="1616552110873" MODIFIED="1616556228444">
+<node TEXT="cannot be handled by elementary techniques" ID="ID_1411053574" CREATED="1616552208007" MODIFIED="1616552219296"/>
+<node TEXT="generally assigns too much weight to a bit of data that is badly in error" ID="ID_344182311" CREATED="1616552429550" MODIFIED="1616552563048">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1633944256" STARTINCLINATION="107;0;" ENDINCLINATION="107;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="\latex minimize: $E_1(a_0,a_1) = \sum|y_i-(a_1x_i+a_0)|$ \\&#xa;(absolute deviation)" ID="ID_979531652" CREATED="1616552229180" MODIFIED="1616552342006">
+<node TEXT="absolute-value func is not differentiable at zero" ID="ID_364054070" CREATED="1616552346427" MODIFIED="1616552360745"/>
+<node TEXT="doesn&apos;t give sufficient weight to a point that is considerably out of line with the approx" ID="ID_1833129151" CREATED="1616552458182" MODIFIED="1616552573117">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1633944256" STARTINCLINATION="46;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="\latex minimize: $E_2(a_0,a_1) = \sum|y_i-(a_1x_i+a_0)|^2$ \\&#xa;(least squares)" ID="ID_726274259" CREATED="1616552362189" MODIFIED="1616552417144">
+<node TEXT="puts substantially more weight on a point that is out of line with the rest but not allow it to completely dominate the approx" ID="ID_1633944256" CREATED="1616552502603" MODIFIED="1616552604796"/>
+<node TEXT="\latex $I(a_0,\cdots,a_n) = \int_a^b\rho(x)[f(x)-\sum a_i\varphi_i(x)]^2dx$ \\&#xa;set it at minimum $\Rightarrow \frac{\partial I}{\partial a_k}=0, (\text{for all}\ k)$ \\&#xa;$\Rightarrow \sum_j (\varphi_j,\varphi_k)a_j=(f,\varphi_k)$ 该方程组为法方程组" ID="ID_394157006" CREATED="1616554077227" MODIFIED="1616556358367">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="18;39;" ENDINCLINATION="10;-46;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="该方程的系数行列式即Cramer行列式, 由于&#xa;线性无关不为0,因此该方程有唯一解" ID="ID_829002417" CREATED="1616554521264" MODIFIED="1616554658888"/>
+<node TEXT="\latex if set $\varphi_k(x)=x^k,\rho(x)=1,f(x)\in C[0,1]$, 在n维\\&#xa;Hilbert空间$H_n$中求最佳平方逼近的系数矩阵称为Hilbert矩阵 \\&#xa;\begin{bmatrix}&#xa;1&amp;\frac12&amp;\cdots&amp;\frac1{n+1}\\&#xa;\frac12&amp;\frac13&amp;\cdots&amp;\frac1{n+2}\\&#xa;\vdots&amp;\vdots&amp;&amp;\vdots\\&#xa;\frac1{n+1}&amp;\frac1{n+2}&amp;\cdots&amp;\frac1{2n+1}&#xa;\end{bmatrix}" ID="ID_906413774" CREATED="1616554680503" MODIFIED="1616555349328">
+<node TEXT="该矩阵条件数会随着维度&#xa;急速增大,成为病态矩阵" ID="ID_1790853867" CREATED="1616555194888" MODIFIED="1616555229076"/>
+<node TEXT="为了规避病态矩阵的弊端,&#xa;一般采用正交基" ID="ID_943391043" CREATED="1616555260815" MODIFIED="1616555311037"/>
+</node>
+<node TEXT="\latex 取正交基$\{\varphi_i\}$(权函数和区间要对应该正交基),\\&#xa;法方程组退耦合成为$(\varphi_i,\varphi_i)a_i = (f,\varphi_i)$ \\&#xa;(可类比Cartesian线性向量空间)" ID="ID_445751212" CREATED="1616555650008" MODIFIED="1616555983583">
+<node TEXT="\latex 相应的基展开称为广义Fourier级数" ID="ID_755072687" CREATED="1616555893938" MODIFIED="1616555935540"/>
+</node>
+</node>
+<node TEXT="曲线最小二乘拟合&#xa;(离散情形下的最佳平方逼近)" ID="ID_1436153510" CREATED="1616556132247" MODIFIED="1616556174234">
+<node TEXT="\latex 法方程组形式不变 \\&#xa;$\sum_j (\varphi_k,\varphi_j)a_j=(y,\varphi_k)$" ID="ID_1860362950" CREATED="1616556756674" MODIFIED="1616557565866">
+<node TEXT="\latex 内积离散化写成矩阵形式\\&#xa;$\textbf{A^TWAa = A^TWY}$" ID="ID_1069594931" CREATED="1616557155702" MODIFIED="1616557635580"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="正交多项式" POSITION="left" ID="ID_850833952" CREATED="1616552843021" MODIFIED="1616552847210">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Legendre Polynomial" ID="ID_1738728149" CREATED="1616552847629" MODIFIED="1616555421621">
+<node TEXT="\latex $\{ x^i \}$在$[-1,1]$上以$\rho(x) = 1$正交归一化" ID="ID_824797497" CREATED="1616552886179" MODIFIED="1616555444735"/>
+</node>
+<node TEXT="Chebyshev Polynomial" ID="ID_1710451350" CREATED="1616552871148" MODIFIED="1616552878831">
+<node TEXT="\latex $\{ x^i \}$在$[-1,1]$上以$\rho(x)=\frac1{\sqrt{1-x^2}}$正交归一化" ID="ID_1735190286" CREATED="1616552933949" MODIFIED="1616555460810"/>
+</node>
+<node TEXT="Hermite Polynomial" ID="ID_1481780298" CREATED="1616555487224" MODIFIED="1616555492659">
+<node TEXT="\latex $\{ x^i \}$在$[-\infty,\infty]$上以$\rho(x)=e^{-x^2}$正交归一化" ID="ID_11547322" CREATED="1616555493456" MODIFIED="1616555546991"/>
 </node>
 </node>
 </node>
