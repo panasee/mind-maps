@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="sundry" FOLDED="false" ID="ID_1966285183" CREATED="1603094616216" MODIFIED="1603094674369" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.852">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.61">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -89,9 +89,14 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="\latex for harmonic oscillator: $\frac12\hbar \omega$" ID="ID_68060267" CREATED="1616721935496" MODIFIED="1616721960755"/>
 </node>
-<node TEXT="BE dist" POSITION="left" ID="ID_1531070174" CREATED="1616722575337" MODIFIED="1616722579535">
+<node TEXT="Bose-Einstein dist" POSITION="left" ID="ID_1531070174" CREATED="1616722575337" MODIFIED="1616742646078">
 <edge COLOR="#00ffff"/>
 <node TEXT="the temperature must be well-defined&#xa;(local thermal dynamical equilibrium)" ID="ID_62467051" CREATED="1616722580015" MODIFIED="1616722608529"/>
+<node TEXT="\latex BEC could never be achieved if $\mu=0$" ID="ID_854239164" CREATED="1616742651723" MODIFIED="1616742678298">
+<node TEXT="e.g. phonons in crystal, the number of particles doesn&apos;t conserve, so when the temperature gets lower, they will disappear instead of condensing on lowest level" ID="ID_1070788811" CREATED="1616742687693" MODIFIED="1616742761709"/>
+<node TEXT="\latex $f(\omega) = \frac1{e^{\frac{\hbar \omega-\mu}{k_BT}}-1}$ when $\mu\equiv 0$\\&#xa;all f(\omega) decreases with decreasing temperature" ID="ID_482994494" CREATED="1616742832717" MODIFIED="1616743032904"/>
+<node TEXT="\latex however, we could perturb the system out of equilibrium\\&#xa;then $\mu$ could be non-zero to make BEC possible" ID="ID_958772197" CREATED="1616743052168" MODIFIED="1616743119110"/>
+</node>
 </node>
 </node>
 </map>
