@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="sundry" FOLDED="false" ID="ID_1966285183" CREATED="1603094616216" MODIFIED="1603094674369" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.21">
+<hook NAME="MapStyle" zoom="2.852">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="integer &amp; fraction QHE trans" POSITION="right" ID="ID_348767186" CREATED="1545044736220" MODIFIED="1545044782139">
 <edge COLOR="#ff0000"/>
 <node TEXT="disorder" ID="ID_1903830335" CREATED="1545044782773" MODIFIED="1545044785874"/>
@@ -76,6 +76,22 @@
 <node TEXT="the complex representation of sine&amp;cosine funcs&#xa;(exponential func is much easier to manipulate)" POSITION="left" ID="ID_1110336731" CREATED="1603094669248" MODIFIED="1603094757677">
 <edge COLOR="#0000ff"/>
 <node TEXT="either the real / imaginary part of the final solution is the true solution, which one to choose depends on whether the input is sine or cosine" ID="ID_1803992104" CREATED="1603094763278" MODIFIED="1603094833851"/>
+</node>
+<node TEXT="calculate 2nd force constants" POSITION="left" ID="ID_773239508" CREATED="1616720388707" MODIFIED="1616720853122">
+<edge COLOR="#00ff00"/>
+<node TEXT="\latex $F_\alpha(lk) = -\sum \Phi_{\alpha\beta}(lk,l^\prime k^\prime)u_\beta(l^\prime k^\prime)$" ID="ID_1434959391" CREATED="1616720405570" MODIFIED="1616720494321">
+<node TEXT="\latex 每次位移一个原子,　遍历所有$u_\beta(l^\prime k^\prime)$" ID="ID_758985085" CREATED="1616720503382" MODIFIED="1616720544166"/>
+<node TEXT="考虑周期性，只需要计算一个原胞内所有原子的力" ID="ID_1277804914" CREATED="1616720560372" MODIFIED="1616720575371"/>
+<node TEXT="\latex 对于每一个原子，每一个位形可以建立一个力方程，最后反推出$\Phi$" ID="ID_1891176475" CREATED="1616720691723" MODIFIED="1616720790792"/>
+</node>
+</node>
+<node TEXT="zero energy" POSITION="right" ID="ID_1792878771" CREATED="1616721926641" MODIFIED="1616721933122">
+<edge COLOR="#ff00ff"/>
+<node TEXT="\latex for harmonic oscillator: $\frac12\hbar \omega$" ID="ID_68060267" CREATED="1616721935496" MODIFIED="1616721960755"/>
+</node>
+<node TEXT="BE dist" POSITION="left" ID="ID_1531070174" CREATED="1616722575337" MODIFIED="1616722579535">
+<edge COLOR="#00ffff"/>
+<node TEXT="the temperature must be well-defined&#xa;(local thermal dynamical equilibrium)" ID="ID_62467051" CREATED="1616722580015" MODIFIED="1616722608529"/>
 </node>
 </node>
 </map>
