@@ -117,7 +117,7 @@
 <node TEXT="\latex minimize: $E_2(a_0,a_1) = \sum|y_i-(a_1x_i+a_0)|^2$ \\&#xa;(least squares)" ID="ID_726274259" CREATED="1616552362189" MODIFIED="1616552417144">
 <node TEXT="puts substantially more weight on a point that is out of line with the rest but not allow it to completely dominate the approx" ID="ID_1633944256" CREATED="1616552502603" MODIFIED="1616552604796"/>
 <node TEXT="\latex $I(a_0,\cdots,a_n) = \int_a^b\rho(x)[f(x)-\sum a_i\varphi_i(x)]^2dx$ \\&#xa;set it at minimum $\Rightarrow \frac{\partial I}{\partial a_k}=0, (\text{for all}\ k)$ \\&#xa;$\Rightarrow \sum_j (\varphi_j,\varphi_k)a_j=(f,\varphi_k)$ 该方程组为法方程组" ID="ID_394157006" CREATED="1616554077227" MODIFIED="1616556358367">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="18;39;" ENDINCLINATION="10;-46;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="18;39;" ENDINCLINATION="10;-45;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="该方程的系数行列式即Cramer行列式, 由于&#xa;线性无关不为0,因此该方程有唯一解" ID="ID_829002417" CREATED="1616554521264" MODIFIED="1616554658888"/>
 <node TEXT="\latex if set $\varphi_k(x)=x^k,\rho(x)=1,f(x)\in C[0,1]$, 在n维\\&#xa;Hilbert空间$H_n$中求最佳平方逼近的系数矩阵称为Hilbert矩阵 \\&#xa;\begin{bmatrix}&#xa;1&amp;\frac12&amp;\cdots&amp;\frac1{n+1}\\&#xa;\frac12&amp;\frac13&amp;\cdots&amp;\frac1{n+2}\\&#xa;\vdots&amp;\vdots&amp;&amp;\vdots\\&#xa;\frac1{n+1}&amp;\frac1{n+2}&amp;\cdots&amp;\frac1{2n+1}&#xa;\end{bmatrix}" ID="ID_906413774" CREATED="1616554680503" MODIFIED="1616555349328">
 <node TEXT="该矩阵条件数会随着维度&#xa;急速增大,成为病态矩阵" ID="ID_1790853867" CREATED="1616555194888" MODIFIED="1616555229076"/>
@@ -129,7 +129,9 @@
 </node>
 <node TEXT="曲线最小二乘拟合&#xa;(离散情形下的最佳平方逼近)" ID="ID_1436153510" CREATED="1616556132247" MODIFIED="1616556174234">
 <node TEXT="\latex 法方程组形式不变 \\&#xa;$\sum_j (\varphi_k,\varphi_j)a_j=(y,\varphi_k)$" ID="ID_1860362950" CREATED="1616556756674" MODIFIED="1616557565866">
-<node TEXT="\latex 内积离散化写成矩阵形式\\&#xa;$\textbf{A^TWAa = A^TWY}$" ID="ID_1069594931" CREATED="1616557155702" MODIFIED="1616557635580"/>
+<node TEXT="\latex 内积离散化($(\varphi_i,\varphi_j)=\mathbf{A^TWA}$)后写成矩阵形式\\&#xa;$\mathbf{A^TWAa = A^TWY}$" ID="ID_1069594931" CREATED="1616557155702" MODIFIED="1616984598142">
+<node TEXT="\latex $A_{ij}=\varphi_j(x_i)$\\&#xa;$\mathbf W=\text{diag}(w_1,\cdots,w_N)(w_i=w(x_i))$" ID="ID_1558038901" CREATED="1616984359872" MODIFIED="1616984523811"/>
+</node>
 </node>
 </node>
 </node>
