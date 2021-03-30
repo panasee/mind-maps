@@ -65,7 +65,7 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1603869185466" HGAP_QUANTITY="38.2499988600612 pt" VSHIFT_QUANTITY="-154.4999953955413 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-22;6;" ENDINCLINATION="105;-2;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-21;6;" ENDINCLINATION="105;-1;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 <node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
 <node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
@@ -106,7 +106,7 @@
 <node TEXT="sc(simple cubic)" ID="ID_893146541" CREATED="1591493291191" MODIFIED="1591493298711"/>
 <node TEXT="bcc(body centered cubic)" ID="ID_1813923059" CREATED="1591493299528" MODIFIED="1591493310262"/>
 <node TEXT="fcc(face centered cubic)" ID="ID_26347828" CREATED="1591493310808" MODIFIED="1592539284495">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="122;25;" ENDINCLINATION="111;-19;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="122;25;" ENDINCLINATION="111;-18;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex &#xa;\begin{tabular}{lll}&#xa;\hline\\&#xa;Crystal\ System&amp;#&amp;Cell\ Parameters\\&#xa;\hline\\&#xa;Triclinic&amp;1&amp;$a\neq b\neq c;\alpha\neq \beta\neq \gamma$\\&#xa;Monoclinic&amp;2&amp;$a\neq b\neq c;\alpha=\gamma=90^\circ\neq\beta(or\ \gamma)$(2 subtypes)\\&#xa;Orthorhombic&amp;4&amp;$a\neq b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Tetragonal&amp;2&amp;$a= b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Trigonal&amp;1 &amp;a=b=c;\alpha=\beta=\gamma&lt;120^\circ,\neq90^\circ \\&#xa;Hexagonal &amp;1&amp;$a= b\neq c;\alpha=\beta=90^\circ,\gamma=120^\circ$\\&#xa;Cubic&amp;3&amp;$a= b= c;\alpha=\beta=\gamma=90^\circ$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1951376339" CREATED="1595076970543" MODIFIED="1595212357718">
@@ -259,7 +259,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex 14 lattice types&#xa;\begin{tabular}{clcc}&#xa;\hline&#xa;No.&amp;Crystal System&amp;Lattice Centering&amp;Lattice Symbol\\&#xa;\hline&#xa;1&amp;Triclinic&amp;P&amp;aP\\&#xa;2&amp;Monoclinic&amp;P&amp;mP\\&#xa;3&amp;Monoclinic&amp;C&amp;mC\\&#xa;4&amp;Orthorhombic&amp;P&amp;oP\\&#xa;5&amp;Orthorhombic&amp;C&amp;oC\\&#xa;6&amp;Orthorhombic&amp;F&amp;oF\\&#xa;7&amp;Orthorhombic&amp;I&amp;oI\\&#xa;8&amp;Tetragonal&amp;P&amp;tP\\&#xa;9&amp;Tetragonal&amp;I&amp;tI\\&#xa;10&amp;Trigonal&amp;R&amp;hR\\&#xa;11&amp;Hexagonal\&amp;Trigonal&amp;P&amp;hP\\&#xa;12&amp;Cubic&amp;P&amp;cP\\&#xa;13&amp;Cubic&amp;F&amp;cF\\&#xa;14&amp;Cubic&amp;I&amp;cI\\&#xa;\end{tabular}" ID="ID_454638489" CREATED="1595383132570" MODIFIED="1595385353890" HGAP_QUANTITY="37.999999284744284 pt" VSHIFT_QUANTITY="-2.9999999105930355 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_478594298" MIDDLE_LABEL="6 Crystal Families &amp; 7 Crystal Systems &amp; 7 Lattice Systems&#xa;(Hexagonal family contains trigonal &amp; hexagonal systems)&#xa;(Hexagonal family contains rhombohedral &amp; hexagonal lattice systems)" STARTINCLINATION="560;-385;" ENDINCLINATION="43;609;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_478594298" MIDDLE_LABEL="6 Crystal Families &amp; 7 Crystal Systems &amp; 7 Lattice Systems&#xa;(Hexagonal family contains trigonal &amp; hexagonal systems)&#xa;(Hexagonal family contains rhombohedral &amp; hexagonal lattice systems)" STARTINCLINATION="560;-384;" ENDINCLINATION="43;609;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -340,7 +340,7 @@
 <node TEXT="晶体(原子周期性排列决定了可以作为衍射光栅): 衍射图样为一组组清晰的斑点,斑点图样显示出晶体对称性" ID="ID_1829365936" CREATED="1563172766754" MODIFIED="1563172860988"/>
 <node TEXT="非晶态材料,衍射图样为弥散的环,没有表征晶态的斑点" ID="ID_759557068" CREATED="1563172873820" MODIFIED="1563172906374"/>
 <node TEXT="a map of reciprocal lattice" ID="ID_798451015" CREATED="1592479816195" MODIFIED="1592479825868">
-<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\mathbf k\cdot \mathbf G+G^2=0 \&amp; 2\mathbf k\cdot \mathbf G=G^2$\\&#xa;$\Rightarrow \mathbf k \cdot (\frac \mathbf G2)=(\frac G2)^2$" FOLDED="true" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1592535919318">
+<node TEXT="\latex diffraction condition(elastic scattering)\\&#xa;$2\boldsymbol k\cdot \boldsymbol G+G^2=0 \&amp; 2\boldsymbol k\cdot \boldsymbol G=G^2$\\&#xa;$\Rightarrow \boldsymbol k \cdot (\frac \boldsymbol G2)=(\frac G2)^2$" FOLDED="true" ID="ID_1433083586" CREATED="1592492889149" MODIFIED="1617088403465">
 <node TEXT="即k在G/2上的投影等于G/2的模，因此所有落在Brillouin区（第n都可以）边界上的k都满足衍射条件" ID="ID_1171573099" CREATED="1592535931820" MODIFIED="1592536128071"/>
 </node>
 </node>
@@ -355,7 +355,7 @@
 <node TEXT="基态: 结构,结合能,磁有序结构" ID="ID_1787881121" CREATED="1563179807760" MODIFIED="1563179833391"/>
 <node TEXT="激发态: 具体物理行为,如热学性质,弹性,导电行为" ID="ID_1957503304" CREATED="1563179834042" MODIFIED="1593957551765">
 <node TEXT="能量靠近基态的低激发态,可看成是独立的&#xa;基本激发单元的集合,由此引入元激发" ID="ID_170386216" CREATED="1563179894961" MODIFIED="1563180185913">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-184;-62;" ENDINCLINATION="542;-120;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-183;-61;" ENDINCLINATION="542;-119;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -430,7 +430,7 @@
 </node>
 </node>
 <node TEXT="covalent bond" ID="ID_1042255687" CREATED="1593418493107" MODIFIED="1593421978146">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-101;4;" ENDINCLINATION="-213;5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-100;4;" ENDINCLINATION="-212;5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="formed from 2 electrons with antiparallel spin" ID="ID_998045080" CREATED="1593420254065" MODIFIED="1593420272570">
 <node TEXT="exchange interaction:&#xa;spin-dependent coulomb energy" ID="ID_386690767" CREATED="1593420303137" MODIFIED="1593420340342"/>
 <node TEXT="directional: loosely-packed structure (diamond, et.c.)" ID="ID_316039582" CREATED="1593586027314" MODIFIED="1593586107526"/>
@@ -446,7 +446,7 @@
 </node>
 </node>
 <node TEXT="wave motion in a crystal" FOLDED="true" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1594009381784">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-13;12;" ENDINCLINATION="3;-22;" STARTARROW="NONE" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-12;12;" ENDINCLINATION="3;-21;" STARTARROW="NONE" ENDARROW="NONE"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
 <node TEXT="" ID="ID_1021518422" CREATED="1593937443926" MODIFIED="1593937443928">
@@ -497,10 +497,10 @@
 </node>
 <node TEXT="the meaning of the amplitude of electromagnetic waves exists only in the space between atoms; while the meaning of the amplitude of elastic waves exists only at atoms." ID="ID_557019070" CREATED="1593855597115" MODIFIED="1593855866736"/>
 <node TEXT="Group Velocity: transmission velocity of&#xa;wave package/energy/information" ID="ID_1999099990" CREATED="1593909808439" MODIFIED="1593910482828">
-<node TEXT="\latex $\mathbf v_g = \nabla_\mathbf k \omega (\mathbf K)$" ID="ID_1980586759" CREATED="1593910493684" MODIFIED="1593910745287"/>
+<node TEXT="\latex $\boldsymbol v_g = \nabla_\boldsymbol k \omega (\boldsymbol K)$" ID="ID_1980586759" CREATED="1593910493684" MODIFIED="1617088403466"/>
 </node>
 <node TEXT="\latex long wavelength limit:\\&#xa;$Ka\ll 1 (applicable\ for\ sound)\rightarrow \omega\propto K$&#xa;\\ that means the sound speed is a constant" ID="ID_4702338" CREATED="1593911234890" MODIFIED="1593919342400"/>
-<node TEXT="\latex acoustical \&amp; optical mode(长波极限)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow0$(即格点内部弹性波)\\&#xa;$\mathbf k \rightarrow0: \omega \rightarrow C(C\neq0)$(即不同原子格点相对振动)" ID="ID_1748955861" CREATED="1564554026795" MODIFIED="1594095077472">
+<node TEXT="\latex acoustical \&amp; optical mode(长波极限)\\&#xa;$\boldsymbol k \rightarrow0: \omega \rightarrow0$(即格点内部弹性波)\\&#xa;$\boldsymbol k \rightarrow0: \omega \rightarrow C(C\neq0)$(即不同原子格点相对振动)" ID="ID_1748955861" CREATED="1564554026795" MODIFIED="1617088403467">
 <node TEXT="" ID="ID_1292528706" CREATED="1593956119838" MODIFIED="1593956119842">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -534,8 +534,8 @@
 </node>
 </node>
 </node>
-<node TEXT="energy &amp; momentum" FOLDED="true" ID="ID_450264239" CREATED="1603010028211" MODIFIED="1603010032974">
-<node TEXT="\latex \textbf{energy}(same as photon)$\rightarrow$\\&#xa;harmonic oscillator$\epsilon=(n+\frac12)\hbar \omega$\\&#xa;$\Rightarrow$ the quanta of energy is $\hbar\omega$" FOLDED="true" ID="ID_137800202" CREATED="1594009421822" MODIFIED="1594103026683">
+<node TEXT="energy &amp; momentum" ID="ID_450264239" CREATED="1603010028211" MODIFIED="1603010032974">
+<node TEXT="\latex \textbf{energy}(same as photon)$\rightarrow$\\&#xa;harmonic oscillator$\epsilon=(n+\frac12)\hbar \omega$\\&#xa;$\Rightarrow$ the quanta of energy is $\hbar\omega$" ID="ID_137800202" CREATED="1594009421822" MODIFIED="1594103026683">
 <node TEXT="\latex 声子占据数(能级)为n的粒子振动的振幅为:\\&#xa;$u_0^2=4(n+\frac12)\hbar/\rho V\omega$" ID="ID_1363091834" CREATED="1594015765954" MODIFIED="1594015862108"/>
 </node>
 <node TEXT="\latex \textbf{momentum}, a phonon of wavevector $K$ can\\ interact with other particles as if it had a momentum $\hbar K$,\\ but it can&apos;t carry physical momentum!" FOLDED="true" ID="ID_809511298" CREATED="1594016930735" MODIFIED="1594017183565">
@@ -745,7 +745,7 @@
 <node TEXT="elastic constants are independent of pressure and temperature" ID="ID_1541477444" CREATED="1594606510808" MODIFIED="1594606533667"/>
 <node TEXT="heat capacity becomes constant at high temperatures" ID="ID_370878152" CREATED="1594606537398" MODIFIED="1594606555801"/>
 </node>
-<node TEXT="\latex Effective Potential\\&#xa;$\Omega(\mathbf R) = V_{ii}(\mathbf R)+E_0(\mathbf R)$" ID="ID_23429166" CREATED="1600948504236" MODIFIED="1600948560166">
+<node TEXT="\latex Effective Potential\\&#xa;$\Omega(\boldsymbol R) = V_{ii}(\boldsymbol R)+E_0(\boldsymbol R)$" ID="ID_23429166" CREATED="1600948504236" MODIFIED="1617088403468">
 <node TEXT="first term is Coulomb interaction among the&#xa;ions, which can be readily obtained" ID="ID_383291146" CREATED="1600948604134" MODIFIED="1600948643407"/>
 <node TEXT="second term represents the electronic contribution, incorporating all important physical properties, requiring a sophisticated and accurate treatment of the electronic system" ID="ID_776426543" CREATED="1600948644816" MODIFIED="1600948733326"/>
 </node>
@@ -756,19 +756,26 @@
 <node TEXT="\latex Physical meaning: only a single ion at site i is displaced from the equilibrium position by $u_{ia}$, then the force \textbf{felt by atom j}\  is:\;\;\;\;\;&#xa;$F_{j\beta}=-\Phi_{\alpha\beta,ij}u_{ia}$" ID="ID_485037232" CREATED="1600866891644" MODIFIED="1600867109341">
 <node TEXT="a linear(for harmonic specifically) relationship between displacement and resulting force" ID="ID_809085526" CREATED="1600867176059" MODIFIED="1600867462265"/>
 </node>
-<node TEXT="\latex the Fourier transform of the fc-matrix is related to the dynamical matrix\\&#xa;$D_{k\alpha k^\prime\beta}(\mathbf{q})=\frac1{\sqrt{M_kM_{k^\prime}}}\sum\limits_l\Phi_{\alpha\beta(lk,0k^\prime)}e^{-i\mathbf{q}(\mathbf R^0_{lk}-\mathbf R^0_{0k^\prime})}$" ID="ID_306579822" CREATED="1600867526423" MODIFIED="1600869650559">
-<node TEXT="\latex Eigenvalue equation($\mathbf e$is polarization vector):\\&#xa;$\mathbf{D}(\mathbf q)\mathbf e(\mathbf q,\nu) = \omega^2(\mathbf q,\nu)\mathbf e(\mathbf q,\nu)$" ID="ID_922494665" CREATED="1600868112710" MODIFIED="1600868239103"/>
+<node TEXT="\latex the Fourier transform of the fc-matrix is related to the dynamical matrix\\&#xa;$D_{k\alpha k^\prime\beta}(\boldsymbol{q})=\frac1{\sqrt{M_kM_{k^\prime}}}\sum\limits_l\Phi_{\alpha\beta(lk,0k^\prime)}e^{-i\boldsymbol{q}(\boldsymbol R^0_{lk}-\boldsymbol R^0_{0k^\prime})}$" ID="ID_306579822" CREATED="1600867526423" MODIFIED="1617088403476">
+<node TEXT="\latex Eigenvalue equation($\boldsymbol e$ is polarization vector):\\&#xa;$\boldsymbol{D}(\boldsymbol q)\boldsymbol e(\boldsymbol q,\nu) = \omega^2(\boldsymbol q,\nu)\boldsymbol e(\boldsymbol q,\nu)$" ID="ID_922494665" CREATED="1600868112710" MODIFIED="1617088403487">
+<node TEXT="\latex $\boldsymbol e$ could be complex as $re^{i\phi}$ so $re^{i\phi}e^{-i\omega t}$(real: $r\cos(\phi-\omega t)$) \\&#xa;corresponding to harmonic oscillator(real projection)\\&#xa;(so $\boldsymbol e$ is the initial oscillating vector)" ID="ID_652461691" CREATED="1617088346551" MODIFIED="1617089675385"/>
+</node>
 <node TEXT="\latex \begin{bmatrix}&#xa;\begin{pmatrix}&#xa;D_{ij}(l_0k_0,l_0 k_0)&#xa;\end{pmatrix}_{3\times3} &amp;&#xa;\begin{pmatrix}&#xa;D_{ij}(l_0k_0,l_1 k_1)&#xa;\end{pmatrix}_{3\times3}\\&#xa;\begin{pmatrix}&#xa;D_{ij}(l_1k_1,l_0 k_0)&#xa;\end{pmatrix}_{3\times3}&amp;&#xa;\begin{pmatrix}&#xa;D_{ij}(l_1k_1,l_1 k_1)&#xa;\end{pmatrix}_{3\times3}&#xa;\end{bmatrix}" ID="ID_98774400" CREATED="1616719076515" MODIFIED="1616719353363"/>
 </node>
+<node TEXT="renormalization: utilize higher-order fcs to renormalize lower-order fcs under finite temperature" ID="ID_505907850" CREATED="1617085282327" MODIFIED="1617085366790"/>
+<node TEXT="Acoustic Sum Rule:&#xa;to ensure the Invariance" ID="ID_1212697999" CREATED="1617085897431" MODIFIED="1617086089777">
+<node TEXT="\latex Translational Invariance: $D_{\alpha\beta}^{kk}=-\sum_{k^\prime \neq k}D_{\alpha\beta}^{kk^\prime}(q=0)$" ID="ID_10838342" CREATED="1617085926072" MODIFIED="1617086110616"/>
+<node TEXT="Rotational/Huang Invariance(in low-D materials)&#xa;(related to the imaginary freq of ZA)" ID="ID_336406157" CREATED="1617086112462" MODIFIED="1617086395723"/>
 </node>
-<node TEXT="\latex a complete characterization of the harmonic vibrational spectrum requires the knowledge of:\\&#xa;the \mathbf{normal modes} for the \mathbf{whole} Brillouin zone\\&#xa;the \mathbf{force constants} for \mathbf{all} atom bonds" ID="ID_163982854" CREATED="1600868931316" MODIFIED="1600871148728"/>
+</node>
+<node TEXT="\latex a complete characterization of the harmonic vibrational spectrum requires the knowledge of:\\&#xa;the \boldsymbol{normal modes} for the \boldsymbol{whole} Brillouin zone\\&#xa;the \boldsymbol{force constants} for \boldsymbol{all} atom bonds" ID="ID_163982854" CREATED="1600868931316" MODIFIED="1617088403501"/>
 <node TEXT="\latex Second Quantization: (with $A_{k\alpha}^{qj} = \frac{\eta_{k\alpha}(qj)}{\sqrt{2M_k\omega_{qj}}})$\\&#xa;$u_{lk\alpha} = e^{iqR^0_{lk}}\frac1{\sqrt{N_q}}\sum_{qj}A_{k\alpha}^{qj}(b_{qj}+b^\dagger_{-qj})$" ID="ID_1073556409" CREATED="1600947941307" MODIFIED="1600948216908"/>
 </node>
 <node TEXT="thermal conductivity" FOLDED="true" POSITION="right" ID="ID_866292908" CREATED="1594612095996" MODIFIED="1594612101127">
 <edge COLOR="#7c007c"/>
 <node TEXT="\latex $j=-k\frac{dT}{dx}$\  it implies that thermal conduction is a \\&#xa;random process instead of ballistic transport.\\&#xa;(for ballistic transport, j should only depend on the difference between 2 ends, not the gradient inside the specimen)" ID="ID_1947716225" CREATED="1594612126711" MODIFIED="1594612285605"/>
 <node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path \\&#xa;($\mathcal l$ is the mean free path only for U processes, \textbf{not including N})" FOLDED="true" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1615877500881">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="463;-115;" ENDINCLINATION="-174;-155;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="463;-114;" ENDINCLINATION="-173;-154;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594696319884"/>
 <node TEXT="\latex at high temperature: $\mathcal l \propto \frac1T$\\&#xa;while $C_v\rightarrow Const\Rightarrow k\propto \frac1T$" ID="ID_993754144" CREATED="1594696465920" MODIFIED="1594699757715"/>
 <node TEXT="to obtain equilibrium, the distribution of phonons must be brought locally, so the drifting must be limited" ID="ID_1951731573" CREATED="1594697014829" MODIFIED="1594697075098">
@@ -785,18 +792,18 @@
 </node>
 <node TEXT="Continuum" FOLDED="true" POSITION="right" ID="ID_1861195868" CREATED="1615874531030" MODIFIED="1615874536579">
 <edge COLOR="#ff0000"/>
-<node TEXT="\latex Cauchy Momentum Eq \\&#xa;$  \frac{D\vec v}{Dt}\equiv\rho [\frac{\partial \vec v}{\partial t}+(\vec v\cdot \nabla)\vec v] = \nabla\cdot \mathbf \sigma +\vec f $" FOLDED="true" ID="ID_557386947" CREATED="1615874540583" MODIFIED="1615874786512">
-<node TEXT="\latex $\text{div}(\mathbf\sigma)=\nabla \cdot {\boldsymbol {\sigma }}={\begin{bmatrix}{\dfrac {\partial \sigma _{xx}}{\partial x}}+{\dfrac {\partial \sigma _{yx}}{\partial y}}+{\dfrac {\partial \sigma _{zx}}{\partial z}}\\{\dfrac {\partial \sigma _{xy}}{\partial x}}+{\dfrac {\partial \sigma _{yy}}{\partial y}}+{\dfrac {\partial \sigma _{zy}}{\partial z}}\\{\dfrac {\partial \sigma _{xz}}{\partial x}}+{\dfrac {\partial \sigma _{yz}}{\partial y}}+{\dfrac {\partial \sigma _{zz}}{\partial z}}\\\end{bmatrix}}$\\&#xa;could get analog from Python($\mathbf \sigma=[[],[],[]]$)" ID="ID_948844876" CREATED="1615874914961" MODIFIED="1615875641333"/>
-<node TEXT="\latex $\rho (\frac{\partial v_i}{\partial t}+v_j \frac{\partial v_i}{\partial x_j}) = \frac{\partial\mathbf\sigma_{ji}}{\partial x_j}+\rho b_i$" ID="ID_307468281" CREATED="1615875750948" MODIFIED="1615876088662"/>
-<node TEXT="\latex for phonons, simplification is applied&#xa;\\$\vec f\equiv \vec 0$, $\mathbf \sigma \equiv \mathbf T(\mathbf P \equiv \mathbf 0)$,$\frac{\partial \vec v}{\partial \vec r}\equiv \vec 0$&#xa;\\(travelling wave&apos;s group velocity is constant spatially)\\&#xa;$\Rightarrow \rho \frac{\partial v_i}{\partial t}=\rho \frac{\partial^2 u_i}{\partial t^2}= \frac{\partial\mathbf\sigma_{ji}}{\partial x_j}$\; ($\rho\frac{\partial ^2\mathbf u}{\partial t^2} =\nabla \cdot \mathbf \sigma $)" ID="ID_707069773" CREATED="1615876039982" MODIFIED="1615877606224"/>
+<node TEXT="\latex Cauchy Momentum Eq \\&#xa;$  \frac{D\vec v}{Dt}\equiv\rho [\frac{\partial \vec v}{\partial t}+(\vec v\cdot \nabla)\vec v] = \nabla\cdot \boldsymbol \sigma +\vec f $" FOLDED="true" ID="ID_557386947" CREATED="1615874540583" MODIFIED="1617088403506">
+<node TEXT="\latex $\text{div}(\boldsymbol\sigma)=\nabla \cdot {\boldsymbol {\sigma }}={\begin{bmatrix}{\dfrac {\partial \sigma _{xx}}{\partial x}}+{\dfrac {\partial \sigma _{yx}}{\partial y}}+{\dfrac {\partial \sigma _{zx}}{\partial z}}\\{\dfrac {\partial \sigma _{xy}}{\partial x}}+{\dfrac {\partial \sigma _{yy}}{\partial y}}+{\dfrac {\partial \sigma _{zy}}{\partial z}}\\{\dfrac {\partial \sigma _{xz}}{\partial x}}+{\dfrac {\partial \sigma _{yz}}{\partial y}}+{\dfrac {\partial \sigma _{zz}}{\partial z}}\\\end{bmatrix}}$\\&#xa;could get analog from Python($\boldsymbol \sigma=[[],[],[]]$)" ID="ID_948844876" CREATED="1615874914961" MODIFIED="1617088403506"/>
+<node TEXT="\latex $\rho (\frac{\partial v_i}{\partial t}+v_j \frac{\partial v_i}{\partial x_j}) = \frac{\partial\boldsymbol\sigma_{ji}}{\partial x_j}+\rho b_i$" ID="ID_307468281" CREATED="1615875750948" MODIFIED="1617088403507"/>
+<node TEXT="\latex for phonons, simplification is applied&#xa;\\$\vec f\equiv \vec 0$, $\boldsymbol \sigma \equiv \boldsymbol T(\boldsymbol P \equiv \boldsymbol 0)$,$\frac{\partial \vec v}{\partial \vec r}\equiv \vec 0$&#xa;\\(travelling wave&apos;s group velocity is constant spatially)\\&#xa;$\Rightarrow \rho \frac{\partial v_i}{\partial t}=\rho \frac{\partial^2 u_i}{\partial t^2}= \frac{\partial\boldsymbol\sigma_{ji}}{\partial x_j}$\; ($\rho\frac{\partial ^2\boldsymbol u}{\partial t^2} =\nabla \cdot \boldsymbol \sigma $)" ID="ID_707069773" CREATED="1615876039982" MODIFIED="1617088403508"/>
 <node TEXT="\latex elastic wave" ID="ID_1297748176" CREATED="1615877894438" MODIFIED="1615877915452">
-<node TEXT="\latex $\mathbf\sigma_{ij}\approx \frac{\partial \sigma_{ij}}{\partial \epsilon_{kl}}\epsilon_{kl} \equiv C_{ijkl}\epsilon_{kl} $" ID="ID_848929007" CREATED="1615877915972" MODIFIED="1615878493237">
-<node TEXT="\latex $\mathbf C$ is 3x3x3x3 tensor \\&#xa;after applying symmetry, 21 independent factors left\\&#xa;\rightarrow 6x6 matrix (corresponding to flatten $\epsilon$)" ID="ID_1190728943" CREATED="1615878134549" MODIFIED="1615878383506">
+<node TEXT="\latex $\boldsymbol\sigma_{ij}\approx \frac{\partial \sigma_{ij}}{\partial \epsilon_{kl}}\epsilon_{kl} \equiv C_{ijkl}\epsilon_{kl} $" ID="ID_848929007" CREATED="1615877915972" MODIFIED="1617088403508">
+<node TEXT="\latex $\boldsymbol C$ is 3x3x3x3 tensor \\&#xa;after applying symmetry, 21 independent factors left\\&#xa;\rightarrow 6x6 matrix (corresponding to flatten $\epsilon$)" ID="ID_1190728943" CREATED="1615878134549" MODIFIED="1617088403509">
 <node TEXT="\latex $\epsilon_1 = \epsilon_{xx}=\frac{\partial u_1}{\partial x}$ \\&#xa;$\epsilon_2 = \epsilon_{yy}=\frac{\partial u_2}{\partial y}$\\&#xa;$\epsilon_3 = \epsilon_{zz}=\frac{\partial u_3}{\partial z}$\\&#xa;$\epsilon_4 = \epsilon_{yz}=\frac{\partial u_2}{\partial z}＋\frac{\partial u_3}{\partial y}$\\&#xa;$\epsilon_5 = \epsilon_{xz}=\frac{\partial u_1}{\partial z}+\frac{\partial u_3}{\partial x}$\\&#xa;$\epsilon_6 = \epsilon_{xy}=\frac{\partial u_2}{\partial x}+\frac{\partial u_1}{\partial y}$" ID="ID_725701010" CREATED="1615878435941" MODIFIED="1615879156627"/>
-<node TEXT="\latex $\vec\sigma_{6\times1} = \mathbf C_{6\times6}\vec\epsilon_{6\times1} $ \\&#xa;the correspondence is the same between $\sigma$ and $\epsilon$" ID="ID_383570943" CREATED="1615879175376" MODIFIED="1615879276848"/>
+<node TEXT="\latex $\vec\sigma_{6\times1} = \boldsymbol C_{6\times6}\vec\epsilon_{6\times1} $ \\&#xa;the correspondence is the same between $\sigma$ and $\epsilon$" ID="ID_383570943" CREATED="1615879175376" MODIFIED="1617088403509"/>
 </node>
 </node>
-<node TEXT="\latex expand the Cauchy momentum eq. with $\mathbf{\sigma,C,\epsilon}$" ID="ID_1448475346" CREATED="1616112928753" MODIFIED="1616113079995">
+<node TEXT="\latex expand the Cauchy momentum eq. with $\boldsymbol{\sigma,C,\epsilon}$" ID="ID_1448475346" CREATED="1616112928753" MODIFIED="1617088403509">
 <node TEXT="use travelling wave assumption to solve" ID="ID_1310460919" CREATED="1616112981435" MODIFIED="1616112998087"/>
 </node>
 </node>
