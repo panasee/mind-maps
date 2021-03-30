@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.357">
+<hook NAME="MapStyle" zoom="1.771">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,14 +63,14 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
 <node TEXT="ML: Ability to learn without&#xa;explicitly being programmed" ID="ID_1487168141" CREATED="1617000610357" MODIFIED="1617000629495"/>
 <node TEXT="DL: Extract patterns from data&#xa;using neural networks" ID="ID_1194596429" CREATED="1617000635111" MODIFIED="1617000655054"/>
 </node>
-<node TEXT="Perceptron" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
+<node TEXT="Perceptron" FOLDED="true" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
 <edge COLOR="#0000ff"/>
 <node TEXT="\latex Forward Propagation\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1617006159785">
 <hook URI="pix/perceptron.png" SIZE="0.46967137" NAME="ExternalObject"/>
@@ -96,7 +96,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="pix/denselayers.png" SIZE="0.49309602" NAME="ExternalObject"/>
 </node>
@@ -104,6 +103,7 @@
 </node>
 <node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
 <edge COLOR="#00ff00"/>
+<node TEXT="Feed-forward Neural Network&#xa;(simplest)" FOLDED="true" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1617112287395">
 <node TEXT="Single Layer Neural Network&#xa;(one hidden(unobservable) layer)" ID="ID_10080375" CREATED="1617003448692" MODIFIED="1617003549465">
 <hook URI="pix/SLNN.png" SIZE="0.4076826" NAME="ExternalObject"/>
 </node>
@@ -111,7 +111,21 @@
 <hook URI="pix/DNN.png" SIZE="0.3256422" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
+<node TEXT="Recurrent Neural Networks(RNNs)" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1617112540744">
+<hook URI="pix/RNN.png" SIZE="0.23023456" NAME="ExternalObject"/>
+<node TEXT="the &quot;green boxes&quot; is a simpler&#xa;notation of Neural Networks" ID="ID_1413376057" CREATED="1617112400126" MODIFIED="1617112654531">
+<node TEXT="left side is RNNs,&#xa;right side is feedforward NNs" ID="ID_49192677" CREATED="1617112655805" MODIFIED="1617112678853"/>
+</node>
+<node TEXT="\latex Update \textbf{Hidden}\ State\\&#xa;$h_t=f_W(x_t,h_{t-1})$\\&#xa;$h_t$ is cell state at moment $t$\\&#xa;$f_W$ is func with weights $W$\\&#xa;$x_t$ is input at moment $t$" ID="ID_36814448" CREATED="1617112742505" MODIFIED="1617113262354">
+<node TEXT="\latex e.g. $h_t=\tanh(\boldsymbol W_{hh}^Th_{t-1}+\boldsymbol W_{xh}^Tx_t)$" ID="ID_872451519" CREATED="1617113070523" MODIFIED="1617113122404"/>
+<node TEXT="\latex the same func $f_W$ and set of paras (weight matrices)\\&#xa;$\boldsymbol W^T_\cdots$ are used at every time step" ID="ID_540258824" CREATED="1617113194094" MODIFIED="1617113434555"/>
+</node>
+<node TEXT="\latex Output Vector\\&#xa;$\hat y_t = \boldsymbol W_{hy}^Th_t$" ID="ID_1597761115" CREATED="1617113272665" MODIFIED="1617113299715"/>
+<node TEXT="\latex Loss Computation: \\sum loss from every&#xa;step $L = \sum_i L_i$" ID="ID_1553858454" CREATED="1617113475832" MODIFIED="1617113636684"/>
+<node TEXT="Backpropagation Through Time(BPTT)" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737"/>
+</node>
+</node>
+<node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" FOLDED="true" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Empirical Loss Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1617006068247">
 <node TEXT="\latex Binary Cross Entropy Loss \\&#xa;(soft max cross entropy loss)\\&#xa;$J(\boldsymbol W)=-\frac1n\sum_{i=1}^ny^{(i)}\log(f(x^{(i)};\boldsymbol W))\\+(1-y^{(i)})\log(1-f(x^{(i)};\boldsymbol W))$" ID="ID_1011783194" CREATED="1617004556948" MODIFIED="1617006084123">
@@ -132,7 +146,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex Initialize randomly $\rightarrow$ \\&#xa;Update weights ($\boldsymbol W\leftarrow\boldsymbol W-\eta\frac{\partial J(\boldsymbol W)}{\partial \boldsymbol W}$)" ID="ID_377196011" CREATED="1617005606350" MODIFIED="1617006191625">
 <node TEXT="\latex scaling factor $\eta$ is \\&#xa;\textbf{learning rate}" ID="ID_31455875" CREATED="1617006196153" MODIFIED="1617006229617">
@@ -169,7 +182,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1141687396" CREATED="1617008158415" MODIFIED="1617008224127"><richcontent TYPE="NODE">
 
@@ -186,7 +198,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="to avoid overfit upon&#xa;some certain pathways" ID="ID_1588227776" CREATED="1617008281774" MODIFIED="1617008303481"/>
 </node>
@@ -205,10 +216,57 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="TensorFlow" FOLDED="true" POSITION="left" ID="ID_1240074261" CREATED="1617113698850" MODIFIED="1617113702848">
+<edge COLOR="#00007c"/>
+<node TEXT="the Neural Network Cell is inherited from (tf.keras.layers.Layer) class" ID="ID_1805704982" CREATED="1617113705998" MODIFIED="1617113820588">
+<node TEXT="the weight matrices and other paras are to&#xa;be defined in (__init__) func" ID="ID_352407182" CREATED="1617113841958" MODIFIED="1617113891098"/>
+<node TEXT="the state update and output func is to&#xa;be defined in (call) func" ID="ID_737348499" CREATED="1617113882694" MODIFIED="1617113976625"/>
+</node>
+</node>
+<node TEXT="Modeling Circums" FOLDED="true" POSITION="right" ID="ID_620118645" CREATED="1617114150905" MODIFIED="1617114171605">
+<edge COLOR="#007c00"/>
+<node TEXT="Sequential Modeling&#xa;(temporal/sequential data e.g. sentences)" ID="ID_528819167" CREATED="1617109363294" MODIFIED="1617114226233">
+<node TEXT="criteria" ID="ID_666420193" CREATED="1617114380255" MODIFIED="1617114383086">
+<node TEXT="Handle variable-length sequences" ID="ID_79166293" CREATED="1617114231281" MODIFIED="1617114245700">
+<node TEXT="feedforward NNs couldn&apos;t handle this as&#xa;it needs a fixed number of inputs" ID="ID_1483517851" CREATED="1617114974584" MODIFIED="1617115011295"/>
+<node TEXT="the length diff is just diff in time steps for RNNs" ID="ID_1722598103" CREATED="1617115056535" MODIFIED="1617115083400"/>
+</node>
+<node TEXT="Track long-term dependencies" ID="ID_945509503" CREATED="1617114250826" MODIFIED="1617114258003"/>
+<node TEXT="Maintain info about order" ID="ID_1415585814" CREATED="1617114261612" MODIFIED="1617114268445"/>
+<node TEXT="Share paras across the sequence" ID="ID_1932210215" CREATED="1617114268861" MODIFIED="1617114279483"/>
+</node>
+<node ID="ID_868632567" CREATED="1617114397843" MODIFIED="1617114527418"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Encoding</b>&nbsp;Language for a NN
+    </p>
+    <p>
+      (math func can't handle words)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Embedding: transform indexes into&#xa;a vector of fixed size&#xa;(1.Vocabulary(Corpus of words)&#xa; 2.Indexing(Word to index)&#xa; 3.Embedding(Index to fixed-sized vector)" ID="ID_1569884739" CREATED="1617114549821" MODIFIED="1617114686560">
+<node TEXT="One-hot embedding(sparse and binary vectors)&#xa;(e.g. &quot;cat&quot;=[0,1,0,0,0,0])" ID="ID_1943527773" CREATED="1617114691472" MODIFIED="1617114760323"/>
+<node TEXT="Learned embedding&#xa;(similar words have similar embeddings)" ID="ID_1710171297" CREATED="1617114771319" MODIFIED="1617114872375">
+<hook URI="pix/LearnedEmbedding.png" SIZE="0.8019968" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
