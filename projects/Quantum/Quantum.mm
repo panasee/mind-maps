@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.61">
+<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="2.852">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="QHE" POSITION="right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
@@ -140,6 +140,10 @@
 <node TEXT="dimension problem" POSITION="left" ID="ID_450095409" CREATED="1604325703434" MODIFIED="1604325708191">
 <edge COLOR="#808080"/>
 <node TEXT="\latex $\varphi$ is different in concrete or continuous systems.\\&#xa;in concrete systems, $|\varphi|^2$ is simply possibility, $[\varphi]=[1]$\\&#xa;in continuous systems,$|\varphi|^2$ is pdf, so $[\varphi]=[m^{-\frac n2}]$" ID="ID_1018717122" CREATED="1604325708675" MODIFIED="1604325880000"/>
+</node>
+<node TEXT="Matrix" POSITION="right" ID="ID_1554068979" CREATED="1617102865846" MODIFIED="1617102869200">
+<edge COLOR="#808080"/>
+<node TEXT="\latex $\mathcal O_{mn}\equiv \langle \psi_m |\hat\mathcal O|\psi_n\rangle$: Matrix element corresponding to \\&#xa;transition from $|\psi_m\rangle$ to $|\psi_n\rangle$" ID="ID_1379995881" CREATED="1617102870707" MODIFIED="1617104675765"/>
 </node>
 </node>
 </map>
