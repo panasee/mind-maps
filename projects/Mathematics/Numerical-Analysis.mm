@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="内积空间(函数)" POSITION="right" ID="ID_1401525416" CREATED="1615948013657" MODIFIED="1615948110216">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex $(f,g)=\int_a^b\rho(x)f(x)g(x)dx$ \\&#xa;$\rho(x)$为权函数" ID="ID_1837194801" CREATED="1615948031904" MODIFIED="1615948098851"/>
@@ -117,7 +117,7 @@
 <node TEXT="\latex minimize: $E_2(a_0,a_1) = \sum|y_i-(a_1x_i+a_0)|^2$ \\&#xa;(least squares)" ID="ID_726274259" CREATED="1616552362189" MODIFIED="1616552417144">
 <node TEXT="puts substantially more weight on a point that is out of line with the rest but not allow it to completely dominate the approx" ID="ID_1633944256" CREATED="1616552502603" MODIFIED="1616552604796"/>
 <node TEXT="\latex $I(a_0,\cdots,a_n) = \int_a^b\rho(x)[f(x)-\sum a_i\varphi_i(x)]^2dx$ \\&#xa;set it at minimum $\Rightarrow \frac{\partial I}{\partial a_k}=0, (\text{for all}\ k)$ \\&#xa;$\Rightarrow \sum_j (\varphi_j,\varphi_k)a_j=(f,\varphi_k)$ 该方程组为法方程组" ID="ID_394157006" CREATED="1616554077227" MODIFIED="1616556358367">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="18;39;" ENDINCLINATION="10;-45;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="18;39;" ENDINCLINATION="10;-44;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="该方程的系数行列式即Cramer行列式, 由于&#xa;线性无关不为0,因此该方程有唯一解" ID="ID_829002417" CREATED="1616554521264" MODIFIED="1616554658888"/>
 <node TEXT="\latex if set $\varphi_k(x)=x^k,\rho(x)=1,f(x)\in C[0,1]$, 在n维\\&#xa;Hilbert空间$H_n$中求最佳平方逼近的系数矩阵称为Hilbert矩阵 \\&#xa;\begin{bmatrix}&#xa;1&amp;\frac12&amp;\cdots&amp;\frac1{n+1}\\&#xa;\frac12&amp;\frac13&amp;\cdots&amp;\frac1{n+2}\\&#xa;\vdots&amp;\vdots&amp;&amp;\vdots\\&#xa;\frac1{n+1}&amp;\frac1{n+2}&amp;\cdots&amp;\frac1{2n+1}&#xa;\end{bmatrix}" ID="ID_906413774" CREATED="1616554680503" MODIFIED="1616555349328">
 <node TEXT="该矩阵条件数会随着维度&#xa;急速增大,成为病态矩阵" ID="ID_1790853867" CREATED="1616555194888" MODIFIED="1616555229076"/>
@@ -146,6 +146,56 @@
 </node>
 <node TEXT="Hermite Polynomial" ID="ID_1481780298" CREATED="1616555487224" MODIFIED="1616555492659">
 <node TEXT="\latex $\{ x^i \}$在$[-\infty,\infty]$上以$\rho(x)=e^{-x^2}$正交归一化" ID="ID_11547322" CREATED="1616555493456" MODIFIED="1616555546991"/>
+</node>
+</node>
+<node TEXT="数值积分&#xa;(Numerical Integration)" POSITION="right" ID="ID_48973110" CREATED="1617156657724" MODIFIED="1617156727085">
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex numerical quadrature(求积公式) \\&#xa;$\int_a^b f(x)dx\approx \sum A_if(x_i)$" ID="ID_790815440" CREATED="1617157312449" MODIFIED="1617157714245">
+<node TEXT="中矩公式" ID="ID_313926728" CREATED="1617157239147" MODIFIED="1617157247592"/>
+<node ID="ID_937504178" CREATED="1617157461501" MODIFIED="1617157499893"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      methods of quadrature're based
+    </p>
+    <p>
+      on <b>interpolation polynomials</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex first Lagrange polynomials with equally spaced nodes \\ give \textbf{Trapezoidal rule(梯形公式)}:($h=b-a$) $\int_{x_0}^{x_1}f(x)dx=\frac h2[f(x_0)+f(x_1)]-\frac{h^3}{12}f^{\prime\prime}(\xi)$" ID="ID_1532182233" CREATED="1617157853125" MODIFIED="1617158398175"/>
+<node TEXT="\latex second Lagrange polynomials with equally spaced nodes \\ give \textbf{Simpson&apos;s rule}:($h=\frac{b-a}{2}=x_1-x_0=x_2-x_1$)\\ $\int_{x_0}^{x_2}f(x)dx=\frac h3[f(x_0)+4f(x_1)+f(x_2)]-\frac{h^5}{90}f^{(4)}(\xi)$" ID="ID_564058832" CREATED="1617157853125" MODIFIED="1617158450072"/>
+</node>
+<node TEXT="代数精度(precision/degree of accuracy):&#xa;使公式精确成立的最高多项式次数" ID="ID_1983136799" CREATED="1617157716928" MODIFIED="1617158582851"/>
+<node TEXT="(n+1)-point Newton-Cotes formulas&#xa;(a class of methods)&#xa;使用等距均分的(n+1)个节点" ID="ID_1364658569" CREATED="1617158858731" MODIFIED="1617159081201">
+<node TEXT="\latex open type, endpoints are\\&#xa;excluded as ($x_0=a+h,x_n=b-h$)\\&#xa;(denote as $x_{-1}=a,x_{n+1}=b$)" ID="ID_1333382469" CREATED="1617158880729" MODIFIED="1617160098429">
+<node TEXT="\latex n=0: Midpoint rule\\&#xa;$\int_{x_{-1}}^{x_1}f(x)dx=2hf(x_0)+\frac{h^3}3f^{\prime\prime}(\xi)$" ID="ID_838309786" CREATED="1617160029304" MODIFIED="1617160136647"/>
+<node TEXT="\latex n=1:&#xa;$\int_{x_{-1}}^{x_2}f(x)dx=\frac{3h}{2}[f(x_0)+f(x_1)]+\frac{3h^3}4f^{\prime\prime}(\xi)$" ID="ID_1500055139" CREATED="1617160147569" MODIFIED="1617160219121"/>
+<node TEXT="\latex n=2: $\int_{x_{-1}}^{x_3}f(x)dx=\frac{4h}{3}[2f(x_0)-f(x_1)+2f(x_2)]+\frac{14h^5}{45}f^{4}(\xi)$" ID="ID_222658708" CREATED="1617160221470" MODIFIED="1617160280660"/>
+<node TEXT="\latex n=3: $\int_{x_{-1}}^{x_4}f(x)dx=\frac{5h}{24}[11f(x_0)+f(x_1)$\\                  $+f(x_2)+11f(x_3)]+\frac{95h^5}{144}f^{4}(\xi)$" ID="ID_1232937096" CREATED="1617160281937" MODIFIED="1617160362121"/>
+</node>
+<node TEXT="\latex closed type, endpoints are\\&#xa;included as ($x_0=a,x_n=b)" ID="ID_1705194361" CREATED="1617158883751" MODIFIED="1617159671742">
+<node TEXT="" ID="ID_1880614440" CREATED="1617162096112" MODIFIED="1617162096120">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex n=1: Trapezoidal rule&#xa;\\$\int_{x_0}^{x_1}f(x)dx=\frac h2[f(x_0)+f(x_1)]-\frac{h^3}{12}f^{\prime\prime}(\xi)$" ID="ID_1101784721" CREATED="1617159096852" MODIFIED="1617159242331"/>
+<node TEXT="\latex n=2: Simpson&apos;s rule&#xa;\\$\int_{x_0}^{x_2}f(x)dx=\frac h3[f(x_0)+4f(x_1)+f(x_2)]-\frac{h^5}{90}f^{(4)}(\xi)$" ID="ID_420320323" CREATED="1617159107005" MODIFIED="1617159264397"/>
+<node TEXT="\latex n=3: Simpson&apos;s Three-Eighths rule&#xa;\\$\int_{x_0}^{x_3}f(x)dx=\frac {3h}8[f(x_0)+3f(x_1)+3f(x_2)+f(x_3)]-\frac{3h^5}{80}f^{(4)}(\xi)$" ID="ID_32676052" CREATED="1617159115029" MODIFIED="1617159326829"/>
+<node TEXT="\latex n=4: Cotes Rule\\&#xa; $\int_{x_0}^{x_4}f(x)dx=\frac {2h}{45}[7f(x_0)+32f(x_1)+12f(x_2)$&#xa;\\                $+32f(x_3)+7f(x_4)]-\frac{8h^7}{945}f^{(6)}(\xi)$" ID="ID_1293561401" CREATED="1617159406891" MODIFIED="1617162079635"/>
+<node TEXT="" ID="ID_632963980" CREATED="1617162096105" MODIFIED="1617162096111">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="for odd n, precision is n&#xa;for even n, precision is n+1" ID="ID_1598948521" CREATED="1617162096125" MODIFIED="1617162119592"/>
+</node>
+</node>
+<node TEXT="\latex precision is n \textbf{at least }" ID="ID_1003022678" CREATED="1617159353950" MODIFIED="1617159385251"/>
+</node>
 </node>
 </node>
 </node>
