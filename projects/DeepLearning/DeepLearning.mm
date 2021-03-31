@@ -122,10 +122,84 @@
 </node>
 <node TEXT="\latex Output Vector\\&#xa;$\hat y_t = \boldsymbol W_{hy}^Th_t$" ID="ID_1597761115" CREATED="1617113272665" MODIFIED="1617113299715"/>
 <node TEXT="\latex Loss Computation: \\sum loss from every&#xa;step $L = \sum_i L_i$" ID="ID_1553858454" CREATED="1617113475832" MODIFIED="1617113636684"/>
-<node TEXT="Backpropagation Through Time(BPTT)" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737"/>
+<node TEXT="Backpropagation Through Time(BPTT)" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737">
+<node TEXT="not only backpropagate within each time step, but also backpropagate through time steps" ID="ID_379544961" CREATED="1617163720327" MODIFIED="1617163761705"/>
+<node TEXT="\latex time steps are connected&#xa;\\with $\boldsymbol W_{hh}$&apos;s multiplication" ID="ID_619947489" CREATED="1617163877227" MODIFIED="1617164060526">
+<node TEXT="\latex if many values $&gt;1$ , the gradients are&#xa;\\very large, i.e. \textbf{exploding gradients}" ID="ID_673951650" CREATED="1617164064724" MODIFIED="1617164289345">
+<node TEXT="hard to converge" ID="ID_560058100" CREATED="1617164265296" MODIFIED="1617164274360"/>
+<node TEXT="Trick: Gradient clipping:&#xa;to scale big gradients" ID="ID_221980817" CREATED="1617164018298" MODIFIED="1617164446788"/>
+</node>
+<node TEXT="\latex if many values $&lt;1$ , the gradients are \\very small, i.e. \textbf{vanishing gradients}" ID="ID_1466875931" CREATED="1617164071357" MODIFIED="1617164130645">
+<node ID="ID_899459021" CREATED="1617164260323" MODIFIED="1617164500427"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Errors due to <b>further back time steps</b>&nbsp;have
+    </p>
+    <p>
+      smaller and smaller gradients, causing Bias
+    </p>
+    <p>
+      paras to capture <b>short-term</b>&nbsp;dependencies
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Tricks" ID="ID_1451264778" CREATED="1617164167751" MODIFIED="1617164532627">
+<node TEXT="Activation function:&#xa;use ReLU(Rectified Linear Unit)" ID="ID_1147257920" CREATED="1617164516581" MODIFIED="1617164706393">
+<node TEXT="\latex 导数是阶梯函数$\Theta(x)$" ID="ID_757302513" CREATED="1617169346222" MODIFIED="1617169373043"/>
+</node>
+<node TEXT="Para initialization" ID="ID_421323208" CREATED="1617164523825" MODIFIED="1617169995365">
+<node TEXT="Initialize weights to identity matrix&#xa;Initialize biases to zero&#xa;(helps prevent the weights from shrinking to zero)" ID="ID_710922798" CREATED="1617169995780" MODIFIED="1617170039494"/>
+</node>
+<node ID="ID_631384505" CREATED="1617164527913" MODIFIED="1617164527913"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Network architecture
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Gated Cells: a more complex recurrent unit with gates&#xa;(control what info is passed through)" ID="ID_1780832735" CREATED="1617170068164" MODIFIED="1617170105789">
+<node ID="ID_1987494514" CREATED="1617170161930" MODIFIED="1617170232109"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Long Short Term Memory(LSTMs) networks <b>rely on</b>&nbsp;
+    </p>
+    <p>
+      a gated cell to track info throughout many ts
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
-<node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" FOLDED="true" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Empirical Loss Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1617006068247">
 <node TEXT="\latex Binary Cross Entropy Loss \\&#xa;(soft max cross entropy loss)\\&#xa;$J(\boldsymbol W)=-\frac1n\sum_{i=1}^ny^{(i)}\log(f(x^{(i)};\boldsymbol W))\\+(1-y^{(i)})\log(1-f(x^{(i)};\boldsymbol W))$" ID="ID_1011783194" CREATED="1617004556948" MODIFIED="1617006084123">
@@ -254,7 +328,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Embedding: transform indexes into&#xa;a vector of fixed size&#xa;(1.Vocabulary(Corpus of words)&#xa; 2.Indexing(Word to index)&#xa; 3.Embedding(Index to fixed-sized vector)" ID="ID_1569884739" CREATED="1617114549821" MODIFIED="1617114686560">
 <node TEXT="One-hot embedding(sparse and binary vectors)&#xa;(e.g. &quot;cat&quot;=[0,1,0,0,0,0])" ID="ID_1943527773" CREATED="1617114691472" MODIFIED="1617114760323"/>
