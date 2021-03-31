@@ -1,7 +1,7 @@
 <map version="freeplane 1.8.0" dcr_id="1545451599867_5wk952hx1ku7ngdzo1a97bb37" project="1679BFC17676PTVR852659XS9KNG757E4RY5">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="lattice dynamics cal" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1600872154695"><hook NAME="MapStyle" zoom="1.331">
-    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="semi-conductor&amp;insulator" POSITION="right" ID="ID_510978494" CREATED="1545451663755" MODIFIED="1545451675255">
 <edge COLOR="#ff0000"/>
 <node TEXT="the phonon takes the major part of heat transfer" ID="ID_1519603907" CREATED="1545451676430" MODIFIED="1545451690379"/>
@@ -139,9 +139,38 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge COLOR="#808080"/>
+</node>
+<node TEXT="calculate forces" POSITION="right" ID="ID_1126398164" CREATED="1616845021712" MODIFIED="1616845560053">
+<edge COLOR="#808080"/>
+<node TEXT="Frozen-Phonon method:&#xa;calculate fc matrix by explicitly displacing atoms" ID="ID_418896951" CREATED="1616845565379" MODIFIED="1616845611681">
+<node TEXT="get forces from Hellman-Feynman theorem" ID="ID_1312067722" CREATED="1616847610396" MODIFIED="1616847625649"/>
+<node TEXT="quicker and computationally cheaper" ID="ID_1269836731" CREATED="1616847710935" MODIFIED="1616847723523"/>
+<node TEXT="drawback: large supercells are needed&#xa;&amp; periodic b.c. in DFT cause problems" ID="ID_42336885" CREATED="1616847726345" MODIFIED="1616847824702">
+<node TEXT="the supercell need to be large enough that fcs between distant atoms go to zero" ID="ID_1486221870" CREATED="1616848732360" MODIFIED="1616848757157"/>
+<node TEXT="displacement create forces on both atoms in the same unitcell and its periodic images" ID="ID_148253577" CREATED="1616848164841" MODIFIED="1616848201991"/>
+</node>
+</node>
+<node TEXT="Linear Response method" ID="ID_1859589622" CREATED="1616847655042" MODIFIED="1616847663279">
+<node TEXT="utilize density functional perturbation&#xa;theory to cal forces" ID="ID_220010" CREATED="1616847677006" MODIFIED="1616847700723"/>
+</node>
+<node TEXT="Pulay Stress" ID="ID_1704005086" CREATED="1616852276696" MODIFIED="1616852282166">
+<node TEXT="arise from the fact that the plane wave basis set is not complete wrt. changes of the volume" ID="ID_1694957280" CREATED="1616852288283" MODIFIED="1616852326368">
+<node TEXT="diagonal components of Stress Tensor are incorrect --&gt; this error is Pulay Stress" ID="ID_1077380796" CREATED="1616853060847" MODIFIED="1616853100554"/>
+</node>
+<node TEXT="the error is almost isotropic(same for each diagonal component)" ID="ID_526256578" CREATED="1616853155135" MODIFIED="1616853183652"/>
+<node TEXT="for a finite basis set: it tends to decrease volume&#xa;(compared to fully converged calculations)" ID="ID_61211380" CREATED="1616853225451" MODIFIED="1616853252713">
+<node TEXT="ENMAX=1.3*default is usually&#xa;a safe setting to get reliable output" ID="ID_967602406" CREATED="1616854654840" MODIFIED="1616854733042"/>
+</node>
+<node TEXT="to reduce related problems, cutoff energy conserving relaxation is preferable to basis set conserving one" ID="ID_795339129" CREATED="1616855153378" MODIFIED="1616855197194">
+<node TEXT="if keep basis set unchanged, when the direct/reciprocal lattice vector changes, the shape of cutoff region changes" ID="ID_815249676" CREATED="1616854745496" MODIFIED="1616855367059">
+<node TEXT="cutoff region changes from sphere to ellipse&#xa;so VASP start with a new spherical basis set" ID="ID_1570625983" CREATED="1616854823974" MODIFIED="1616855388434">
+<node TEXT="energy changes discontinuously" ID="ID_854413453" CREATED="1616854936793" MODIFIED="1616854946002"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

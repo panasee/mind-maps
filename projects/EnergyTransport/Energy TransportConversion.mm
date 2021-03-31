@@ -800,7 +800,7 @@
 <node TEXT="most engineering approaches for transport built on diffusion equations treat particles incoherently" ID="ID_747178486" CREATED="1605778770962" MODIFIED="1605778811016"/>
 </node>
 <node TEXT="diff particles/waves" ID="ID_1744053490" CREATED="1605778989034" MODIFIED="1606181178582">
-<node TEXT="em waves" ID="ID_779861661" CREATED="1605778993387" MODIFIED="1605778997845">
+<node TEXT="em waves" FOLDED="true" ID="ID_779861661" CREATED="1605778993387" MODIFIED="1605778997845">
 <node TEXT="\latex \textbf{coherence length(wave packets)}: $l_c\approx \frac c{\Delta \nu}$ (\textbf{inversely}\ proportional to the effective bandwidth of the waves in the system)" ID="ID_430321887" CREATED="1605780660314" MODIFIED="1605865027716">
 <node TEXT="if size of transport domain much larger than it,&#xa;then can be treated as point-wise particles" ID="ID_1970660682" CREATED="1605864975177" MODIFIED="1605865189105">
 <node ID="ID_104512028" CREATED="1605865371244" MODIFIED="1605866293102"><richcontent TYPE="NODE">
@@ -858,7 +858,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-560;30;" ENDINCLINATION="-20;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-559;30;" ENDINCLINATION="-19;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -898,7 +898,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex for structures larger than MFP $\Lambda$, the phase must be ignored. even if smaller, the rough interface scattering most likely can justify the particle treatment as the short wavelength" ID="ID_306486475" CREATED="1610435053297" MODIFIED="1610435175275">
 <node TEXT="especially when the detailed interface structures are not clear, which exclude a full-scale wave treatment" ID="ID_263475701" CREATED="1610435207979" MODIFIED="1610435241379"/>
@@ -931,7 +930,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="can capture the same trends as exp" ID="ID_439368438" CREATED="1610440343605" MODIFIED="1610440358868"/>
 </node>
