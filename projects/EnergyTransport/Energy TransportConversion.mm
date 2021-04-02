@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.948">
+<hook NAME="MapStyle" zoom="2.357">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -104,7 +104,14 @@
 </node>
 <node TEXT="Kinetic Theory" FOLDED="true" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
 <edge COLOR="#7c007c"/>
-<node TEXT="Crude version" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1602580699455">
+<node TEXT="crude version&#xa;(ideal phonon gas)" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1617324458709">
+<node TEXT="a finite small volume is needed instead of a infinitesmall one to ensure enough collisions within" ID="ID_308034271" CREATED="1617325124729" MODIFIED="1617325163844">
+<node TEXT="\latex $q_x=-\frac{\partial(n\epsilon v_x)}{\partial x}\Delta x \Rightarrow \limits^\text{assump} - \frac{\partial(n\epsilon)}{\partial x} v_x^2\tau=-\frac13v^2\tau \frac{\partial E}{\partial T}\frac{\partial T}{\partial x}=-\frac13c_vv^2\tau\frac{\partial T}{\partial x} $\\&#xa;assump:(also assump for \mathscr{Fourier}&apos;s Law) \\&#xa;1.local thermaldynamical equilibrium in $\Delta V$(definition of $T$) \\&#xa;$\Rightarrow \frac12m|v|^2=\frac12mv_iv_i \&amp; \frac12mv_iv_i=\frac12k_BT$ \\&#xa;2.$v_x$&apos;s constant within volume $\Delta V$ \\&#xa;(the energy from $\nabla T$ is dissipated by scattering)" ID="ID_951123602" CREATED="1617325959610" MODIFIED="1617327174362">
+<node TEXT="\latex relaxation time $\tau$: the time needed for\\ eliminating the energy from $\Delta T$" ID="ID_1317458933" CREATED="1617326811168" MODIFIED="1617326857768"/>
+<node TEXT="\latex $v$ is drifting velocity" ID="ID_488705005" CREATED="1617327019488" MODIFIED="1617327043546"/>
+<node TEXT="\latex $\lambda=v\tau$ is relaxation length(definition is the same as  $\tau$), also called &quot;meanfreepath&quot;(\textbf{note the diff in physical meaning})" ID="ID_1085804587" CREATED="1617327183310" MODIFIED="1617327330123"/>
+</node>
+</node>
 <node TEXT="\latex thermal conduc: &#xa;$q_x = \frac12(nEv_x)|_{x-v_x\tau}-\frac12(nEv_x)|_{x+v_x\tau}$\\&#xa;$= -(\frac{Cv^2\tau}3)\frac{dT}{dx}\Rightarrow k = \frac{Cv^2\tau}3=\frac{Cv\Lambda}3=\frac{\rho cv\Lambda}3$" ID="ID_1827217491" CREATED="1602579946661" MODIFIED="1602580736568"/>
 <node TEXT="\latex mean free path: particel diameter $d \rightarrow$Cross-Section:$\pi(2d)^2/4$\\&#xa;\Lambda =\frac LN =  \frac L {n\pi d^2L} = \frac m {\pi\rho d^2} (collide with N atoms in L)" ID="ID_683141782" CREATED="1602580550943" MODIFIED="1602742527665">
 <node TEXT="\latex it assumes that only one atom&apos;s moving while others&apos; stationary, or it should be:&#xa;$\Lambda = \frac{m}{\pi\sqrt 2 \rho d^2}$" ID="ID_890755552" CREATED="1602742688695" MODIFIED="1602742774990">
@@ -144,22 +151,24 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
 </node>
 <node TEXT="\latex wave regime($D&lt;O(l_p); D&lt;O(l_c)$)\\&#xa;phase info is considered and transport is coherent\\&#xa;(Quantum mechanics)" ID="ID_1226830343" CREATED="1603090931331" MODIFIED="1603092066288"/>
 <node TEXT="\latex transition regime ($D\sim O(l_p); D\sim O(l_c)$)\\&#xa;partially coherent transport\\&#xa;(Quantum Boltzmann equation)" ID="ID_1242913855" CREATED="1603090934809" MODIFIED="1603092178681"/>
-<node TEXT="\latex particle regime($D&gt;O(l_p); D&gt;O(l_c)$)\\&#xa;phase info is neglected and transport is incoherent" ID="ID_1625594483" CREATED="1603090940161" MODIFIED="1603092133867">
+<node TEXT="\latex particle regime($D&gt;O(l_p); D&gt;O(l_c)$)\\&#xa;phase info is neglected and transport is incoherent" FOLDED="true" ID="ID_1625594483" CREATED="1603090940161" MODIFIED="1603092133867">
 <node TEXT="\latex ballistic($D&lt;O(\Lambda)$) \\&#xa;(Ballistic transport for electron;\\&#xa;Ray tracing for phonon)" ID="ID_1941831739" CREATED="1603091744003" MODIFIED="1603091930598"/>
-<node TEXT="\latex quasi-diffusive($D\sim O(\Lambda)$)\\&#xa;(Boltzmann Transport Equation)" ID="ID_1498138429" CREATED="1603091822477" MODIFIED="1603091954760"/>
+<node TEXT="\latex quasi-diffusive($D\sim O(\Lambda)$)\\&#xa;(Boltzmann Transport Equation)" ID="ID_1498138429" CREATED="1603091822477" MODIFIED="1603091954760">
+<node TEXT="\latex $\frac{d f}{dt}=(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_922404584" CREATED="1617323451693" MODIFIED="1617323789899"/>
+</node>
 <node TEXT="\latex diffusive($D&gt;O(\Lambda)$) \\&#xa;(Ohm&apos;s law / Fourier&apos;s law)" ID="ID_797206989" CREATED="1603091846862" MODIFIED="1603091974456"/>
 </node>
 <node TEXT="" ID="ID_1746244523" CREATED="1603092699455" MODIFIED="1603092702994">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \ge$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603344890194">
+<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \ge$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" FOLDED="true" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603344890194">
 <node TEXT="Phase-breaking length --- distance needed to completely destroy the phase of heat carriers through various collision processes(usually comparable to or slightly longer than MFP)" ID="ID_275254574" CREATED="1603092715743" MODIFIED="1603093063695"/>
 <node TEXT="Coherence length --- distance beyond which waves from the same source can be imposed without considering phase info" ID="ID_1090624043" CREATED="1603093096637" MODIFIED="1603093144117"/>
 </node>
@@ -523,7 +532,7 @@
 </node>
 </node>
 </node>
-<node TEXT="energy transfer by WAVES" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
+<node TEXT="energy transfer by WAVES" FOLDED="true" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
 <edge COLOR="#ff00ff"/>
 <node TEXT="plane wave:&#xa;has a constant amplitude at any plane perpendicular to the direction of propagation at any fixed time" ID="ID_296670041" CREATED="1604306467097" MODIFIED="1604306516091">
 <node TEXT="\latex e.g. $\vec F(t,\vec r) = \vec A sin(\omega t-\vec k\cdot\vec r)=\Re(\vec A\exp[-i(\omega t-\vec k\cdot \vec r)])$\\&#xa;$\vec k\cdot\vec r =Const$ gives a plane perpendicular to $\vec k$\\&#xa;and $\vec F$ is a constant on this plane at any $t$" ID="ID_618996427" CREATED="1604323680012" MODIFIED="1604323875064"/>
@@ -858,7 +867,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-559;30;" ENDINCLINATION="-19;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-558;30;" ENDINCLINATION="-18;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
