@@ -148,7 +148,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Tricks" ID="ID_1451264778" CREATED="1617164167751" MODIFIED="1617164532627">
@@ -156,7 +155,7 @@
 <node TEXT="\latex 导数是阶梯函数$\Theta(x)$" ID="ID_757302513" CREATED="1617169346222" MODIFIED="1617169373043"/>
 </node>
 <node TEXT="Para initialization" ID="ID_421323208" CREATED="1617164523825" MODIFIED="1617169995365">
-<node TEXT="Initialize weights to identity matrix&#xa;Initialize biases to zero&#xa;(helps prevent the weights from shrinking to zero)" ID="ID_710922798" CREATED="1617169995780" MODIFIED="1617170039494"/>
+<node TEXT="Initialize weights to identity matrix&#xa;(Initialize biases to zero)&#xa;(helps prevent the weights from shrinking to zero)" ID="ID_710922798" CREATED="1617169995780" MODIFIED="1617604210356"/>
 </node>
 <node ID="ID_631384505" CREATED="1617164527913" MODIFIED="1617164527913"><richcontent TYPE="NODE">
 
@@ -170,10 +169,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Gated Cells: a more complex recurrent unit with gates&#xa;(control what info is passed through)" ID="ID_1780832735" CREATED="1617170068164" MODIFIED="1617170105789">
-<node ID="ID_1987494514" CREATED="1617170161930" MODIFIED="1617170232109"><richcontent TYPE="NODE">
+<node ID="ID_1987494514" CREATED="1617170161930" MODIFIED="1617604305484"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -184,7 +182,10 @@
       Long Short Term Memory(LSTMs) networks <b>rely on</b>&nbsp;
     </p>
     <p>
-      a gated cell to track info throughout many ts
+      a gated cell to track info throughout many time steps
+    </p>
+    <p>
+      (better at containing long term memories)
     </p>
   </body>
 </html>
@@ -195,6 +196,55 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="standard RNN, repeating modules&#xa;contain a simple computation node" ID="ID_795062513" CREATED="1617604446909" MODIFIED="1617604543663">
+<hook URI="pix/stdrnn.png" SIZE="0.23743348" NAME="ExternalObject"/>
+</node>
+<node TEXT="LSTM Networks&#xa;(popular for sequential processing)" FOLDED="true" ID="ID_1417909872" CREATED="1617604352808" MODIFIED="1617604717289">
+<hook URI="pix/lstmmodule.png" SIZE="0.23439033" NAME="ExternalObject"/>
+<node ID="ID_306254003" CREATED="1617605491121" MODIFIED="1617605697794"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      info is added/removed through <b>gates </b>
+    </p>
+    <p>
+      (which optionally let info through)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="pix/lstmGates.png" SIZE="0.29711965" NAME="ExternalObject"/>
+</node>
+<node TEXT="workflow" ID="ID_124412704" CREATED="1617605715116" MODIFIED="1617605722296">
+<node TEXT="1) Forget: forget irrelevant parts of the previous state" ID="ID_3126005" CREATED="1617605722858" MODIFIED="1617605796711">
+<hook URI="pix/lstmForget.png" SIZE="0.34738824" NAME="ExternalObject"/>
+</node>
+<node TEXT="2) Store: store relevant new info into the cell state" ID="ID_1795490125" CREATED="1617605729279" MODIFIED="1617605887233">
+<hook URI="pix/lstmStore.png" SIZE="0.2613141" NAME="ExternalObject"/>
+</node>
+<node TEXT="3) Update: LSTMs selectively update cell state values" ID="ID_140287370" CREATED="1617605733147" MODIFIED="1617605965966">
+<hook URI="pix/lstmUpdate.png" SIZE="0.38540405" NAME="ExternalObject"/>
+<node TEXT="\latex note the $c_t$ is additional to $h_t$$\rightarrow$ \textbf{two}\  cell states\\&#xa; diff: $c_t$ is updated \textbf{selectively}" ID="ID_1145534718" CREATED="1617605992370" MODIFIED="1617606132244"/>
+</node>
+<node TEXT="4) Output: output gate controls what info is&#xa;sent to the next time step&#xa;(return a filtered version of the cell state)" ID="ID_1477052698" CREATED="1617605737099" MODIFIED="1617606321919">
+<hook URI="pix/lstmOutput.png" SIZE="0.4090634" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="\latex the seperate cell state $c_t$ allows for BPTT \\with \textbf{uninterrupted gradient flow}" ID="ID_898964774" CREATED="1617606338807" MODIFIED="1617606400089"/>
+</node>
+<node TEXT="Attention Mechanisms&#xa;(for large scale sequential models)" ID="ID_194181490" CREATED="1617607025629" MODIFIED="1617607294132">
+<hook URI="pix/Attention.png" SIZE="0.37297374" NAME="ExternalObject"/>
+<node TEXT="provide learnable memory access&#xa;(avoid BPTT which is expensive)" ID="ID_1300216972" CREATED="1617607200985" MODIFIED="1617607234240"/>
+<node TEXT="corresponding classical models&#xa;----&gt; Transformers" ID="ID_1246357516" CREATED="1617607303571" MODIFIED="1617607513878">
+<hook URI="pix/MachineTrans.png" SIZE="0.28110248" NAME="ExternalObject"/>
+<node TEXT="use state vector to transport info&#xa;from encoder to decoder" ID="ID_1232914451" CREATED="1617607532523" MODIFIED="1617607551262"/>
 </node>
 </node>
 </node>
