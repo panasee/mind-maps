@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -102,13 +102,15 @@
 </node>
 </node>
 </node>
-<node TEXT="Kinetic Theory" FOLDED="true" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
+<node TEXT="Kinetic Theory" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
 <edge COLOR="#7c007c"/>
-<node TEXT="crude version&#xa;(ideal phonon gas)" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1617324458709">
+<node TEXT="crude version&#xa;(ideal phonon gas)" FOLDED="true" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1617324458709">
 <node TEXT="a finite small volume is needed instead of a infinitesmall one to ensure enough collisions within" ID="ID_308034271" CREATED="1617325124729" MODIFIED="1617325163844">
-<node TEXT="\latex $q_x=-\frac{\partial(n\epsilon v_x)}{\partial x}\Delta x \Rightarrow \limits^\text{assump} - \frac{\partial(n\epsilon)}{\partial x} v_x^2\tau=-\frac13v^2\tau \frac{\partial E}{\partial T}\frac{\partial T}{\partial x}=-\frac13c_vv^2\tau\frac{\partial T}{\partial x} $\\&#xa;assump:(also assump for \mathscr{Fourier}&apos;s Law) \\&#xa;1.local thermaldynamical equilibrium in $\Delta V$(definition of $T$) \\&#xa;$\Rightarrow \frac12m|v|^2=\frac12mv_iv_i \&amp; \frac12mv_iv_i=\frac12k_BT$ \\&#xa;2.$v_x$&apos;s constant within volume $\Delta V$ \\&#xa;(the energy from $\nabla T$ is dissipated by scattering)" ID="ID_951123602" CREATED="1617325959610" MODIFIED="1617327174362">
-<node TEXT="\latex relaxation time $\tau$: the time needed for\\ eliminating the energy from $\Delta T$" ID="ID_1317458933" CREATED="1617326811168" MODIFIED="1617326857768"/>
-<node TEXT="\latex $v$ is drifting velocity" ID="ID_488705005" CREATED="1617327019488" MODIFIED="1617327043546"/>
+<node TEXT="\latex $q_x=-\frac{\partial(n\epsilon v_x)}{\partial x}\Delta x \Rightarrow \limits^\text{assump} - \frac{\partial(n\epsilon)}{\partial x} v_x^2\tau=-\frac13v^2\tau \frac{\partial E}{\partial T}\frac{\partial T}{\partial x}=-\frac13c_vv^2\tau\frac{\partial T}{\partial x} $\\&#xa;assump:(also assump for \mathscr{Fourier}&apos;s Law) \\&#xa;1.local thermaldynamical equilibrium in $\Delta V$(definition of $T$) \\&#xa;$\Rightarrow \frac12m|v|^2=\frac12mv_iv_i \&amp; \frac12mv_iv_i=\frac12k_BT$ \\&#xa;2.$v_x$&apos;s constant within volume $\Delta V$\\&#xa;(the energy from $\nabla T$ is dissipated by scattering)" ID="ID_951123602" CREATED="1617325959610" MODIFIED="1617689461673">
+<node TEXT="\latex relaxation time $\tau$: the time needed for\\ eliminating the energy from $\Delta T$" ID="ID_1317458933" CREATED="1617326811168" MODIFIED="1617326857768">
+<node TEXT="\latex in metals, $\tau_{ph}$ could be tackled as constant" ID="ID_1880968143" CREATED="1617689501033" MODIFIED="1617689552744"/>
+</node>
+<node TEXT="\latex $\boldsymbol v$ is drifting velocity the \textbf{same}\ as group velocity" ID="ID_488705005" CREATED="1617327019488" MODIFIED="1617689475277"/>
 <node TEXT="\latex $\lambda=v\tau$ is relaxation length(definition is the same as  $\tau$), also called &quot;meanfreepath&quot;(\textbf{note the diff in physical meaning})" ID="ID_1085804587" CREATED="1617327183310" MODIFIED="1617327330123"/>
 </node>
 </node>
@@ -136,6 +138,9 @@
 </richcontent>
 <hook URI="attachments/cross-section.png" SIZE="0.5012998" NAME="ExternalObject"/>
 </node>
+</node>
+<node TEXT="thermal properties" ID="ID_1319711859" CREATED="1617690157601" MODIFIED="1617690173470">
+<node TEXT="\latex capacity: $C\equiv \frac{\partial E}{\partial T}$" ID="ID_1802662552" CREATED="1617690189516" MODIFIED="1617690328195"/>
 </node>
 </node>
 <node TEXT="Micro/Nano-scale Transport" POSITION="right" ID="ID_1612655917" CREATED="1602746750790" MODIFIED="1602746762323">
@@ -867,7 +872,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-558;30;" ENDINCLINATION="-18;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-557;30;" ENDINCLINATION="-17;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -966,6 +971,19 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Boltamann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1617688911791">
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|H&apos;|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1617690097686">
+<node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
+</node>
+<node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1617690591704">
+<node TEXT="\latex intro: to convert a huge summation to integration \\&#xa;$\sum(n_i+\frac12)\hbar\omega_i = \int(n+\frac12)\hbar\omega\cdot D(\omega)d\omega$" ID="ID_1701330853" CREATED="1617690359088" MODIFIED="1617690444409">
+<node TEXT="\latex $D(\omega)d\omega$ is the no. of states at $\omega$ (on $[\omega,\omega+d\omega]$)" ID="ID_126573710" CREATED="1617690631232" MODIFIED="1617691013366"/>
+</node>
+<node TEXT="practical: to count the no of state on every freq" ID="ID_1846642151" CREATED="1617691049243" MODIFIED="1617691068316"/>
+<node TEXT="\latex theoretical: \\&#xa;1.approx the volumic fraction occupied by a state of 1st-BZ \\&#xa;2. $\mathcal N(\omega) = \int_0^\omega D(\omega)d\omega \Rightarrow \frac{d\mathcal N}{dq} = \frac{d\omega}{dq} D(\omega)\Rightarrow D(\omega) = \frac{d\mathcal N}{dq}\frac1{v_{ph}}$\\&#xa;3. $D(\omega) = \frac V{(2\pi)^n}\iint \frac1{\nabla \omega}dS$" ID="ID_142178043" CREATED="1617691070206" MODIFIED="1617694241534"/>
 </node>
 </node>
 </node>
