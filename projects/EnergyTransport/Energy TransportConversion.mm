@@ -121,6 +121,7 @@
 </node>
 </node>
 <node TEXT="rarified gas flow(the mean free path is comparable to the scale of system)" ID="ID_1907859153" CREATED="1602744134885" MODIFIED="1602744171335"/>
+<node TEXT="NOTE: the Equipartition Theorem is a strong hypothesis&#xa;which only stands under classical ideal gas limit" ID="ID_318743676" CREATED="1618295671791" MODIFIED="1618295741419"/>
 </node>
 <node TEXT="definitions" ID="ID_1053107331" CREATED="1602580833721" MODIFIED="1602580838383">
 <node ID="ID_1353676405" CREATED="1602580839153" MODIFIED="1602742256043"><richcontent TYPE="NODE">
@@ -872,7 +873,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-557;30;" ENDINCLINATION="-17;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-556;30;" ENDINCLINATION="-16;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -973,7 +974,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Boltamann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1617688911791">
+<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1618293797858">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|H&apos;|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1617690097686">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
