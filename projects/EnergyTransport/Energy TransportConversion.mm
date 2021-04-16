@@ -68,7 +68,7 @@
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
 </node>
-<node TEXT="classical" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
+<node TEXT="\latex classical limit (MD simulation e.g.)&#xa;\\ solids:Mean thermal wavelength $\lambda_{th}\ll \Delta x$ vibrational displacement\;\; ($\lambda_{th}=\frac h{\sqrt{2\pi mk_BT}}$)  \\&#xa;gas:$\lambda_{th}\ll D$  mean distance between moleculars\\&#xa;all: distribution downgrade to Maxwell-Boltzmann DIST&#xa;$\epsilon-\mu \gg k_BT (3k_BT \;\text{in prac})$" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1618536031192">
 <edge COLOR="#00007c"/>
 <node TEXT="classical definitions" ID="ID_1858058677" CREATED="1602481934241" MODIFIED="1602495786704">
 <node TEXT="" ID="ID_186144771" CREATED="1602482213525" MODIFIED="1602482213528">
@@ -157,19 +157,27 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
 </node>
 <node TEXT="\latex wave regime($D&lt;O(l_p); D&lt;O(l_c)$)\\&#xa;phase info is considered and transport is coherent\\&#xa;(Quantum mechanics)" ID="ID_1226830343" CREATED="1603090931331" MODIFIED="1603092066288"/>
 <node TEXT="\latex transition regime ($D\sim O(l_p); D\sim O(l_c)$)\\&#xa;partially coherent transport\\&#xa;(Quantum Boltzmann equation)" ID="ID_1242913855" CREATED="1603090934809" MODIFIED="1603092178681"/>
-<node TEXT="\latex particle regime($D&gt;O(l_p); D&gt;O(l_c)$)\\&#xa;phase info is neglected and transport is incoherent" FOLDED="true" ID="ID_1625594483" CREATED="1603090940161" MODIFIED="1603092133867">
-<node TEXT="\latex ballistic($D&lt;O(\Lambda)$) \\&#xa;(Ballistic transport for electron;\\&#xa;Ray tracing for phonon)" ID="ID_1941831739" CREATED="1603091744003" MODIFIED="1603091930598"/>
+<node TEXT="\latex particle regime($D&gt;O(l_p); D&gt;O(l_c)$)\\&#xa;phase info is neglected and transport is incoherent" ID="ID_1625594483" CREATED="1603090940161" MODIFIED="1603092133867">
+<node TEXT="\latex ballistic($D&lt;O(\Lambda)$) \\&#xa;(Ballistic transport for electron;\\&#xa;Ray tracing for phonon)" ID="ID_1941831739" CREATED="1603091744003" MODIFIED="1603091930598">
+<node TEXT="\latex the temperature is&#xa;\\not defined midway" ID="ID_852409993" CREATED="1618532046539" MODIFIED="1618532099377"/>
+<node TEXT="\latex phonons behave like photons, so\\&#xa; analog can be introduced" ID="ID_39289738" CREATED="1618532154556" MODIFIED="1618532193239">
+<node TEXT="\latex e.g. Equation of Phonon Radiation Transport(EPRT)\\&#xa;energy from Debye model($T\ll \Theta_D$) $I_q=n\epsilon v_g\propto T^4$\\(similar to Stefan-Boltzmann)" ID="ID_571207594" CREATED="1618532198728" MODIFIED="1618533096870"/>
+</node>
+</node>
 <node TEXT="\latex quasi-diffusive($D\sim O(\Lambda)$)\\&#xa;(Boltzmann Transport Equation)" ID="ID_1498138429" CREATED="1603091822477" MODIFIED="1603091954760">
 <node TEXT="\latex $\frac{d f}{dt}=(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_922404584" CREATED="1617323451693" MODIFIED="1617323789899"/>
 </node>
-<node TEXT="\latex diffusive($D&gt;O(\Lambda)$) \\&#xa;(Ohm&apos;s law / Fourier&apos;s law)" ID="ID_797206989" CREATED="1603091846862" MODIFIED="1603091974456"/>
+<node TEXT="\latex diffusive($D&gt;O(\Lambda)$) \\&#xa;(Ohm&apos;s law / Fourier&apos;s law)" ID="ID_797206989" CREATED="1603091846862" MODIFIED="1603091974456">
+<node TEXT="\latex the energy from $\nabla T$ could&#xa;\\be dissipated by scattering" ID="ID_713340448" CREATED="1618531676848" MODIFIED="1618531715737"/>
+</node>
+<node TEXT="\latex diffusive-ballistic" ID="ID_205852808" CREATED="1618533259723" MODIFIED="1618533272601"/>
 </node>
 <node TEXT="" ID="ID_1746244523" CREATED="1603092699455" MODIFIED="1603092702994">
 <hook NAME="SummaryNode"/>
@@ -452,9 +460,9 @@
 </node>
 </node>
 </node>
-<node TEXT="statistical thermodynamics" FOLDED="true" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
+<node TEXT="statistical thermodynamics" FOLDED="true" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1618535934007" LINK="../StatisticalMechanics/statistical%20physics.mm">
 <edge COLOR="#00ff00"/>
-<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" FOLDED="true" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
+<node TEXT="\latex statistical distribution,\\&#xa;(consider the probability of particles\\&#xa;occupying a specific quantum state)\\&#xa;$f_i = \frac{g_i}{\exp{\frac{\epsilon_i-\mu}{k_BT}}+\alpha}$" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1618535597098">
 <node TEXT="\latex classical limit $(E-\mu\gg k_BT)$ of \\&#xa;both Fermions and Bosons \\&#xa;owns continuous energy levels(classical)" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1604239655988">
 <node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = e^{-(E-\mu)/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1604239435411">
 <node TEXT="for monatomic gas, E is purely kinetic&#xa;then we get Maxwell Dist" ID="ID_1725828615" CREATED="1602492581767" MODIFIED="1602492628847">
@@ -873,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-556;30;" ENDINCLINATION="-16;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-555;30;" ENDINCLINATION="-15;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -974,7 +982,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1618293797858">
+<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1618536119155">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|H&apos;|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1617690097686">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
