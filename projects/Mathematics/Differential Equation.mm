@@ -88,7 +88,7 @@
 <node TEXT="\latex 二元二阶线性偏微分方程:\\&#xa;$a_{11}u_{xx}+2a_{12}u_{xy}+a_{22}u_{yy}+b_1u_x+b_2u_y+cu+f=0$&#xa;\\引入新变量$(\xi, \eta)$,\\&#xa;保证雅各比行列式非零 \\&#xa;有\[  \left\{  \begin{aligned}&#xa;&amp;u_x=u_\xi\xi_x+u_\eta\eta_x ,\\&#xa;&amp;u_y=u_\xi\xi_y+u_\eta\eta_y ,&#xa;\end{aligned}   \right.  \]" ID="ID_1750606951" CREATED="1582192358720" MODIFIED="1582259656091">
 <font NAME="SimSun"/>
 <node TEXT="\latex 方程化为:\\&#xa;\[ A_{11}u_{\xi\xi}+2A_{12}u_{\xi\eta}+A_{22}u_{\eta\eta}+B_1u_\xi+B_2u_\eta+Cu+F=0 \] &#xa;\[\left\{\begin{aligned} &#xa;&amp;A_{11}=a_{11}\xi^2_x+2a_{12}\xi_x\xi_y+a_{22}\xi^2_y,\\&#xa;&amp;A_{12}=a_{11}\xi_x\eta_x+a_{12}(\xi_x\eta_y+\xi_y\eta_x)+a_{22}\xi_y\eta_y,\\&#xa;&amp;A_{22}=a_{11}\eta_x^2+2a_{12}\eta_x\eta_y+a_{22}\eta_y^2,\\&#xa;&amp;B_1=a_{11}\xi_{xx}+2a_{12}\xi_{xy}+a_{22}\xi_{yy}+b_1\xi_x+b_2\xi_y,\\&#xa;&amp;B_2=a_{11}\eta_{xx}+2a_{12}\eta_{xy}+a_{22}\eta_{yy}+b_1\eta_x+b_2\eta_y,\\&#xa;&amp;C=c,\\&#xa;&amp;F=f.&#xa;  \end{aligned} \right.\]" ID="ID_431856626" CREATED="1582195465323" MODIFIED="1582367392014">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-128;82;" ENDINCLINATION="433;21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-127;82;" ENDINCLINATION="433;21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SimSun"/>
 <node TEXT="\latex 将$a_{11}z^2_x+2a_{12}z_xz_y+a_{22}z^2_y$&#xa;的一个\\特解作为$\xi$, 可以使$A_{11}=0$ \\&#xa;同理设置$\eta$使$A_{22}=0$" ID="ID_1030845026" CREATED="1582251551891" MODIFIED="1582259656110">
 <font NAME="SimSun"/>
@@ -170,6 +170,7 @@
 <node TEXT="离散化方法" ID="ID_1776394031" CREATED="1618370036697" MODIFIED="1618370044371">
 <node TEXT="差商逼近法:&#xa;用适当差商逼近导数" ID="ID_1626059545" CREATED="1618370044687" MODIFIED="1618370074136">
 <node TEXT="一阶微分方程" ID="ID_1344223178" CREATED="1618371346801" MODIFIED="1618371352709">
+<node TEXT="\latex 单步递推法　$y_{n+1} = y_n+h\varphi(x_n,y_n,y_{n+1},h)$" ID="ID_1849878957" CREATED="1618799051080" MODIFIED="1618801631975">
 <node TEXT="" ID="ID_527695563" CREATED="1618371090507" MODIFIED="1618371090514">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -186,7 +187,14 @@
 </node>
 <node TEXT="\latex Midpoint formula(两步欧拉公式)\\&#xa;$y_{n+1} = y_{n-1}+2hf(x_n,y_n)$" ID="ID_586691891" CREATED="1618371272888" MODIFIED="1618371319091"/>
 <node TEXT="\latex modified Euler Method(改进欧拉法)/predictor-corrector method(预测校正法):\\&#xa;先用显式预测$\bar y_{n+1} =y_n+hf(x_n,y_n)$\\&#xa;再代入梯形公式右边校正$y_{n+1} =y_n+\frac h2(f(x_n,y_n)+f(x_{n+1},\bar y_{n+1}))$" ID="ID_1977852488" CREATED="1618371373183" MODIFIED="1618371693517">
-<node TEXT="2阶精度" ID="ID_159833061" CREATED="1618371547884" MODIFIED="1618371556289"/>
+<node TEXT="\latex 2阶精度 $\text{Err}\sim \Omicron(h^3)$" ID="ID_159833061" CREATED="1618371547884" MODIFIED="1618803063915"/>
+</node>
+<node TEXT="\latex Runge-Kutta Method\\&#xa;$\left\{ \begin{aligned} &amp;y_{n+1}=y_n+h\sum_{i=1}^sb_ik_i, \sum^s_{i=1}b_i=1\\&#xa;&amp;k_1=f(t_n,y_n)\\&#xa;&amp;k_2 = f(t_n+c_2h,y_n+h(a_{21}k_1))\\&#xa;&amp;\vdots\,\; (\sum_{j=1}^{i-1}a_{ij}=c_i, for\, i=2,\cdots,s)\\&#xa;&amp;k_s = f(t_n+c_sh,y_n+h(a_{s1}k_1+a_{s2}k_2+\cdots+a_{s,s-1}k_{s-1}))&#xa;&#xa; \end{aligned}  \right.$" ID="ID_914980908" CREATED="1618801650424" MODIFIED="1618803905867">
+<node TEXT="\latex 2-nd order Runge-Kutta Method with 2 stages:\\&#xa;$\lambda_1+\lambda_2=1, \lambda_2p=\frac12$ (2级２阶)" ID="ID_1737645890" CREATED="1618802639888" MODIFIED="1618803321681">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1977852488" MIDDLE_LABEL="special case" STARTINCLINATION="97;13;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="\latex Runge-Kutta Method with 2 stages(2级) \\&#xa;$\left\{ \begin{aligned} &amp;y_{n+1}=y_n+h[\lambda_1K_1+\lambda_2K_2], \lambda_1+\lambda_2=1\\&#xa;&amp;K_1=f(x_n,y_n)\\&#xa;&amp;K_2 = f(x_n+ph,y_n+phK_1), p\in (0,1] \end{aligned}  \right.$" ID="ID_1456559021" CREATED="1618803144108" MODIFIED="1618803304257"/>
+</node>
 </node>
 </node>
 </node>
