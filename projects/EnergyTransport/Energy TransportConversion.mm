@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-555;30;" ENDINCLINATION="-15;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-554;30;" ENDINCLINATION="-14;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -982,11 +982,30 @@
 </node>
 </node>
 </node>
-<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1618536119155">
+<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|H&apos;|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1617690097686">
+<node TEXT="\latex a refinement of Liouville theorem&#xa;(introducing scattering) \\&#xa;$\frac{d f}{d t} = -(\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p) + (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}\equiv (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619137062643">
+<node TEXT="" ID="ID_473297782" CREATED="1619137460617" MODIFIED="1619137460622">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex phonons aren&apos;t driven by any field&#xa;except Temperature field $(\frac{\partial f}{\partial t})_\text{force}=0$ (NOTE: there might be minor errors)" ID="ID_343761601" CREATED="1619137079211" MODIFIED="1619137226469"/>
+<node TEXT="\latex the diffusion is only caused by $\nabla T$" ID="ID_691599181" CREATED="1619137239579" MODIFIED="1619137452811"/>
+<node TEXT="" ID="ID_1871563782" CREATED="1619137460611" MODIFIED="1619137460616">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex  $\frac{df}{dt} = -\frac{\partial f}{\partial \vec T}\vec v\cdot \nabla T+(\frac{\partial f}{\partial t})_{coll}$" ID="ID_1329520853" CREATED="1619137460625" MODIFIED="1619137469794"/>
+</node>
+<node TEXT="\latex collision term is got from perturbation theory\\&#xa;$\mathcal H =\mathcal H_0+\mathcal H^\prime_\text{scat}$" ID="ID_1726438286" CREATED="1619137477184" MODIFIED="1619137649177"/>
+</node>
+<node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619137774323">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
+<node TEXT="\latex $\rho(E_f)$ is DOS" ID="ID_587593010" CREATED="1619137917902" MODIFIED="1619137931475"/>
+<node TEXT="\latex $M_{if}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619138036068"/>
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619138671304">
+<node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380"/>
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
+</node>
 </node>
 <node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1617690591704">
 <node TEXT="\latex intro: to convert a huge summation to integration \\&#xa;$\sum(n_i+\frac12)\hbar\omega_i = \int(n+\frac12)\hbar\omega\cdot D(\omega)d\omega$" ID="ID_1701330853" CREATED="1617690359088" MODIFIED="1617690444409">
@@ -995,6 +1014,12 @@
 <node TEXT="practical: to count the no of state on every freq" ID="ID_1846642151" CREATED="1617691049243" MODIFIED="1617691068316"/>
 <node TEXT="\latex theoretical: \\&#xa;1.approx the volumic fraction occupied by a state of 1st-BZ \\&#xa;2. $\mathcal N(\omega) = \int_0^\omega D(\omega)d\omega \Rightarrow \frac{d\mathcal N}{dq} = \frac{d\omega}{dq} D(\omega)\Rightarrow D(\omega) = \frac{d\mathcal N}{dq}\frac1{v_{ph}}$\\&#xa;3. $D(\omega) = \frac V{(2\pi)^n}\iint \frac1{\nabla \omega}dS$" ID="ID_142178043" CREATED="1617691070206" MODIFIED="1617694241534"/>
 </node>
+<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
+<node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
+<node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
+</node>
+</node>
+<node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
 </node>
 </node>
 </map>
