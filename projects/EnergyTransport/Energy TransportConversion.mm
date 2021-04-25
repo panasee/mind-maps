@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
+<hook NAME="MapStyle" zoom="2.143">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -157,7 +157,7 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-552;30;" ENDINCLINATION="-12;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-551;30;" ENDINCLINATION="-11;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -985,7 +985,7 @@
 <node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p) = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619340991358">
+<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p) = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619340991358">
 <node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
 <node TEXT="only valid when interactions are infrequent,&#xa;i.e. dilute systems such as xxx gases" ID="ID_1676513662" CREATED="1619340454649" MODIFIED="1619340653201"/>
 </node>
@@ -1004,7 +1004,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1018,13 +1017,6 @@
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
 </node>
 </node>
-<node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1617690591704">
-<node TEXT="\latex intro: to convert a huge summation to integration \\&#xa;$\sum(n_i+\frac12)\hbar\omega_i = \int(n+\frac12)\hbar\omega\cdot D(\omega)d\omega$" ID="ID_1701330853" CREATED="1617690359088" MODIFIED="1617690444409">
-<node TEXT="\latex $D(\omega)d\omega$ is the no. of states at $\omega$ (on $[\omega,\omega+d\omega]$)" ID="ID_126573710" CREATED="1617690631232" MODIFIED="1617691013366"/>
-</node>
-<node TEXT="practical: to count the no of state on every freq" ID="ID_1846642151" CREATED="1617691049243" MODIFIED="1617691068316"/>
-<node TEXT="\latex theoretical: \\&#xa;1.approx the volumic fraction occupied by a state of 1st-BZ \\&#xa;2. $\mathcal N(\omega) = \int_0^\omega D(\omega)d\omega \Rightarrow \frac{d\mathcal N}{dq} = \frac{d\omega}{dq} D(\omega)\Rightarrow D(\omega) = \frac{d\mathcal N}{dq}\frac1{v_{ph}}$\\&#xa;3. $D(\omega) = \frac V{(2\pi)^n}\iint \frac1{\nabla \omega}dS$" ID="ID_142178043" CREATED="1617691070206" MODIFIED="1617694241534"/>
-</node>
 <node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
 <node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
 <node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
@@ -1032,6 +1024,24 @@
 </node>
 <node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
+</node>
+<node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
+<edge COLOR="#7c0000"/>
+<node TEXT="\latex intro: to convert a huge summation to integration \\&#xa;$\sum(n_i+\frac12)\hbar\omega_i = \int(n+\frac12)\hbar\omega\cdot D(\omega)d\omega$" ID="ID_1701330853" CREATED="1617690359088" MODIFIED="1617690444409">
+<node TEXT="\latex $D(\omega)d\omega$ is the no. of states at $\omega$ (on $[\omega,\omega+d\omega]$)" ID="ID_126573710" CREATED="1617690631232" MODIFIED="1617691013366"/>
+</node>
+<node TEXT="\latex practical: to count the no of state on every freq\\&#xa;$D(\omega)=\text{lim}\limits_{\Delta\omega\rightarrow0}\frac{\Delta N}{\Delta \omega}$ || $D(E)=\frac1V\sum_{i=1}^N\delta(E-E(k_i))$\\&#xa;(can also approx the volumic fraction occupied by states of the same energy of 1st-BZ)" ID="ID_1846642151" CREATED="1617691049243" MODIFIED="1619355279438">
+<node TEXT="\latex smallest allowed change of $k$ is $(\Delta k)^d=(\frac{2\pi}L)^d$, when $L\rightarrow \infty$\\&#xa;the $k$ become discrete and turn summation into integral:\\&#xa;$D(E)=\int_{R^d}\frac{d^dk}{(2\pi)^d}\cdot \delta(E-E(k))$" ID="ID_98502436" CREATED="1619352407007" MODIFIED="1619352631502"/>
+<node TEXT="\latex DOS also is the derivative of microcanonical partition func\\&#xa;$D(E)=\frac1V\cdot\frac{dZ_m(E)}{dE}$" ID="ID_321906882" CREATED="1619353269426" MODIFIED="1619353323262"/>
+<node TEXT="\latex degree of degeneracy on Energy $E_0$ is\\&#xa;$g(E_0)=\text{lim}\limits_{\Delta E\rightarrow0}\int_{E_0}^{E_0+\Delta E}D(E)dE=\text{lim}\limits_{\Delta E\rightarrow0}D(E_0)\Delta E$\\&#xa;(for \textbf{discrete } levels, DOS is the degeneracy)" ID="ID_292119542" CREATED="1619353407783" MODIFIED="1619353632643"/>
+<node TEXT="\latex Calculation:($D_n(E)dE=\frac{V}{(2\pi)^d}d\Omega_n(E)$) $D_n(E)\propto\frac{d\Omega_n(E)}{dE}=\left.\frac{\frac{d\Omega_n(k(E))}{dk}}{\frac{dE}{dk}}\right|_{k=k(E)}\rightarrow\frac{equal-energy\ surface}{group\ velocity}$&#xa;\\ NOTE: the inverse of dispersion $E(k)$ is applicable only when $E(k)$ is \textbf{monotonic}&#xa;\\(monotonic: ensure the inverse mapping is single-valued)" ID="ID_1942832321" CREATED="1619355713503" MODIFIED="1619359805846">
+<node TEXT="\latex often assume $E(k)$ is \textbf{spherically symmetric } to simplify $d\Omega_n$\\&#xa;this way the equal-energy surface can be easily handled\\&#xa;otherwise use numerical methods(\textbf{not analytical, just count})" ID="ID_765588275" CREATED="1619358439431" MODIFIED="1619359153927"/>
+</node>
+</node>
+<node TEXT="\latex differential DOS\\&#xa;$dD(E,\boldsymbol k)=\frac{\text{No. of States}\in(E,E+dE)\&amp; d\Omega}{VdEd\Omega}\Rightarrow\limits^{isotropic}\frac{D(E)}{4\pi}$\\&#xa;($d\Omega$ here is solid angle, not reciprocal volume)\\&#xa;($dD$ here is just an abbr. not mathematical differential)" ID="ID_614714114" CREATED="1619347366233" MODIFIED="1619360660416">
+<node TEXT="\latex rate of energy propagating along this direction per unit solid angle: $I(t,E,k)=Ev_g(k)f(t,r,k)dD(E,k)$" ID="ID_1645167372" CREATED="1619347836583" MODIFIED="1619360530050"/>
+<node TEXT="basically intro momentum&apos;s direction info into DOS&#xa;to analyse directional transport" ID="ID_178691140" CREATED="1619360867203" MODIFIED="1619360927413"/>
+</node>
 </node>
 </node>
 </map>
