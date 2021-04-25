@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.357">
+<hook NAME="MapStyle" zoom="1.771">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-554;30;" ENDINCLINATION="-14;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-552;30;" ENDINCLINATION="-12;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -985,20 +985,31 @@
 <node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex a refinement of Liouville theorem&#xa;(introducing scattering) \\&#xa;$\frac{d f}{d t} = -(\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p) + (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}\equiv (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619137062643">
-<node TEXT="" ID="ID_473297782" CREATED="1619137460617" MODIFIED="1619137460622">
-<hook NAME="FirstGroupNode"/>
+<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p) = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619340991358">
+<node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
+<node TEXT="only valid when interactions are infrequent,&#xa;i.e. dilute systems such as xxx gases" ID="ID_1676513662" CREATED="1619340454649" MODIFIED="1619340653201"/>
 </node>
-<node TEXT="\latex phonons aren&apos;t driven by any field&#xa;except Temperature field $(\frac{\partial f}{\partial t})_\text{force}=0$ (NOTE: there might be minor errors)" ID="ID_343761601" CREATED="1619137079211" MODIFIED="1619137226469"/>
-<node TEXT="\latex the diffusion is only caused by $\nabla T$" ID="ID_691599181" CREATED="1619137239579" MODIFIED="1619137452811"/>
-<node TEXT="" ID="ID_1871563782" CREATED="1619137460611" MODIFIED="1619137460616">
-<hook NAME="SummaryNode"/>
-<hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex  $\frac{df}{dt} = -\frac{\partial f}{\partial \vec T}\vec v\cdot \nabla T+(\frac{\partial f}{\partial t})_{coll}$" ID="ID_1329520853" CREATED="1619137460625" MODIFIED="1619137469794"/>
+<node ID="ID_831663304" CREATED="1619340736500" MODIFIED="1619341072496"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      no wave effects e.g. interference and tunneling
+    </p>
+    <p>
+      (to quantum wave pic needs <b>Wigner function</b>)
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="\latex collision term is got from perturbation theory\\&#xa;$\mathcal H =\mathcal H_0+\mathcal H^\prime_\text{scat}$" ID="ID_1726438286" CREATED="1619137477184" MODIFIED="1619137649177"/>
 </node>
-<node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619137774323">
+<node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
+<node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" FOLDED="true" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619137774323">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
 <node TEXT="\latex $\rho(E_f)$ is DOS" ID="ID_587593010" CREATED="1619137917902" MODIFIED="1619137931475"/>
 <node TEXT="\latex $M_{if}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619138036068"/>
@@ -1014,12 +1025,13 @@
 <node TEXT="practical: to count the no of state on every freq" ID="ID_1846642151" CREATED="1617691049243" MODIFIED="1617691068316"/>
 <node TEXT="\latex theoretical: \\&#xa;1.approx the volumic fraction occupied by a state of 1st-BZ \\&#xa;2. $\mathcal N(\omega) = \int_0^\omega D(\omega)d\omega \Rightarrow \frac{d\mathcal N}{dq} = \frac{d\omega}{dq} D(\omega)\Rightarrow D(\omega) = \frac{d\mathcal N}{dq}\frac1{v_{ph}}$\\&#xa;3. $D(\omega) = \frac V{(2\pi)^n}\iint \frac1{\nabla \omega}dS$" ID="ID_142178043" CREATED="1617691070206" MODIFIED="1617694241534"/>
 </node>
-<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
+<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
 <node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
 <node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
 </node>
 </node>
 <node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
+<node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
 </node>
 </node>
 </map>

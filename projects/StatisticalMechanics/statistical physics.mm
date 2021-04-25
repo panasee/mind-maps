@@ -158,8 +158,8 @@
 <hook EQUATION="\delta lnW(\{ a_\lambda \})=0\Rightarrow \tilde a_\lambda" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="准封闭性:子系统足够大时,在不太长的时间间隔内,可近似认为闭合系统" ID="ID_823638495" CREATED="1559185846933" MODIFIED="1559531551079">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-12;16;" ENDINCLINATION="19;-13;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="准封闭性:子系统足够大时,在不太长的时间间隔内,可近似认为闭合系统" ID="ID_823638495" CREATED="1559185846933" MODIFIED="1619270793147">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-27;12;" ENDINCLINATION="-18;-31;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="" ID="ID_315786048" CREATED="1559187432524" MODIFIED="1559187432526">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -171,12 +171,32 @@
 <node TEXT="\latex 物理量的相对涨落随着其所从属的物体尺度增加而迅速减小 \\&#xa;$\frac{\sqrt{\langle (\Delta f)^2\rangle}}{\bar f}\propto \frac1{\sqrt{N}}$" ID="ID_1101616074" CREATED="1559187432528" MODIFIED="1559187444460" HGAP_QUANTITY="22.249999754130847 pt" VSHIFT_QUANTITY="-7.499999776482589 pt"/>
 </node>
 </node>
-<node TEXT="\latex 刘维尔定理: 沿着子系统的相轨道,分布函数保持恒定\\&#xa;$\frac{d\rho}{dt}=0$ (亦即为运动方程式的第一积分)\\&#xa;(该结论由哈密顿方程结合连续性方程给出)" ID="ID_824636605" CREATED="1559529876219" MODIFIED="1618903811150">
-<node TEXT="\latex 考虑到统计独立性\\&#xa;$\rho_{12}=\rho_1\rho_2\Rightarrow \ln\rho_{12}=\ln\rho_1+\ln\rho_2$ \\&#xa;所以分布函数的对数为可加性的运动积分" ID="ID_1883784278" CREATED="1559531343801" MODIFIED="1559531557948" HGAP_QUANTITY="33.499999418854735 pt" VSHIFT_QUANTITY="4.499999865889553 pt">
+<node TEXT="\latex Liouville Theorem: 沿着子系统的相轨道,系统的分布函数(相密度)保持恒定\\&#xa;$\frac{d\rho}{dt}=0$ (亦即为运动方程式的第一积分)\\&#xa;\textbf{必须为&quot;孤立&quot;系统的整体分布函数}" ID="ID_824636605" CREATED="1559529876219" MODIFIED="1619338657093">
+<node TEXT="\latex 考虑到统计独立性\\&#xa;$\rho_{12}=\rho_1\rho_2\Rightarrow \ln\rho_{12}=\ln\rho_1+\ln\rho_2$ \\&#xa;所以分布函数的对数为可加性的运动积分" ID="ID_1883784278" CREATED="1559531343801" MODIFIED="1619262246763" HGAP_QUANTITY="33.499999418854735 pt" VSHIFT_QUANTITY="4.499999865889553 pt">
 <node TEXT="\latex 线性独立的运动积分为$\{E,\vec p,\vec M\}$,其线性组合可表示其他积分(对于子系统a):\\&#xa;$\ln \rho_a=\alpha_a+\beta E_a(p,q)+\vec\gamma\cdot\vec P_a(p,q)+\vec\delta\cdot \vec M_a(p,q) $ &#xa;\\其中$\alpha_a$为归一化常数,其他七个常数即为线性组合系数\\(所有子系统共用同一线性组合,线性系数相同)" ID="ID_126099304" CREATED="1559531641866" MODIFIED="1559532707273">
 <node TEXT="\latex 七个可加性的运动积分的值完全确定了闭合系统的统计性质$\rho$,\\&#xa;亦即完全确定了它的任何子系统的统计分布 \\&#xa;从而不再需要普通力学方法所需的巨量数据" ID="ID_1622174329" CREATED="1559532345242" MODIFIED="1559532746605">
 <node TEXT="系统的动量和角动量与整体运动相关,因此&#xa;对于给定运动状态的系统,统计状态只与能量有关" ID="ID_1538447863" CREATED="1559533756218" MODIFIED="1559533811782"/>
 </node>
+</node>
+</node>
+<node TEXT="" ID="ID_215362073" CREATED="1619275069046" MODIFIED="1619275069047">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex simp proof with Hamilton eq: $\frac{d\rho}{dt}=\frac{\partial \rho}{\partial t}+\nabla_\boldsymbol p\rho\cdot \dot \boldsymbol p+\nabla_\boldsymbol q\rho\cdot\dot \boldsymbol q $\\&#xa;$=\underbrace{\frac{\partial \rho}{\partial t}+\nabla_\boldsymbol p(\rho\dot \boldsymbol p)+\nabla_\boldsymbol q(\rho\dot \boldsymbol q)}_{Continuity Eq}-\underbrace{\rho\nabla_\boldsymbol p\cdot\dot \boldsymbol p-\rho\nabla_\boldsymbol q\cdot\dot \boldsymbol q}_{Hamilton Eq}$\\&#xa;$=Source$, (no source for normal phase space)" ID="ID_64246419" CREATED="1619262262781" MODIFIED="1619274270371"/>
+<node TEXT="\latex general proof: $\boldsymbol \Gamma=(\boldsymbol q,\boldsymbol p)$\\&#xa;Continuity eq:$\frac{\partial f}{\partial t}=-\frac{\partial}{\partial\boldsymbol\Gamma}\cdot(f\dot \boldsymbol\Gamma)+S(ource)$\\&#xa;$\frac{df}{dt}=\frac{\partial f}{\partial t}+\dot \boldsymbol\Gamma\cdot\frac{\partial f}{\partial\boldsymbol\Gamma}=-f\frac\partial{\partial \boldsymbol\Gamma}\cdot\dot\boldsymbol\Gamma+S\equiv-f\Lambda(\boldsymbol\Gamma)+S$\\&#xa;if $S=0$, rewrite as $\frac d {dt}\ln f=-\Lambda(\boldsymbol\Gamma)$" ID="ID_1031864385" CREATED="1619274087790" MODIFIED="1619275257653">
+<node TEXT="\latex $\Lambda(\boldsymbol\Gamma)$ is called the \textbf{phase space compression factor}" ID="ID_1770856725" CREATED="1619274730467" MODIFIED="1619274763403"/>
+<node TEXT="\latex $\Lambda(\boldsymbol\Gamma)=0\, \Leftarrow$  Hamiltonian System" ID="ID_1652838362" CREATED="1619274873211" MODIFIED="1619275031596">
+<node TEXT="sufficient but not necessary" ID="ID_115217601" CREATED="1619275033385" MODIFIED="1619275040697"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1894064620" CREATED="1619275069045" MODIFIED="1619275069046">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="(Condition 1) Hamilton eq./more generally, incompressible phase space" ID="ID_1979202942" CREATED="1619270814675" MODIFIED="1619275309693">
+<node TEXT="(Violation 1) sources or sinks of particles" ID="ID_292322173" CREATED="1619272865945" MODIFIED="1619272878944"/>
+</node>
+<node TEXT="(Condition 2) no Source (can be modified)" ID="ID_1397980467" CREATED="1619270896939" MODIFIED="1619270903620">
+<node TEXT="\latex (Violation 2)existence of collisional, dissipative, \\or other forces causing $\nabla_v\cdot\boldsymbol F\neq 0$" ID="ID_637781710" CREATED="1619270975871" MODIFIED="1619316150664"/>
 </node>
 </node>
 </node>
@@ -224,7 +244,7 @@
 </node>
 </node>
 <node TEXT="\latex 设想系统包藏在静止的刚体容器中&#xa;\\从而能量成为唯一的可加性运动积分&#xa;\\$\ln \rho_a=\alpha_a+\beta E_a(p,q)$&#xa;\\而微正则分布$\rho=Const\cdot \delta(E-E_0)$ &#xa;\\或量子微正则分布$dw = Const\cdot \delta(E-E_0)\prod\limits_{a}d\Gamma_a\,\,,(d\Gamma=\prod\limits_ad\Gamma_a)$" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1388697910" CREATED="1559558306043" MODIFIED="1614489368780" HGAP_QUANTITY="-68.99999794363983 pt" VSHIFT_QUANTITY="142.4999957531692 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="-1;-37;" ENDINCLINATION="-200;-10;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_824636605" STARTINCLINATION="0;-35;" ENDINCLINATION="-198;-8;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 </node>
 <node TEXT="Correlations&#xa;&amp; Scattering" POSITION="right" ID="ID_1183728508" CREATED="1601976049094" MODIFIED="1614489446304">
@@ -302,13 +322,13 @@
 <node TEXT="宏观运动:宏观部分作为整体参与的运动&#xa;将物体细分为很小但是宏观的部分(运动质点)&#xa;从而运动参数只有动量P" ID="ID_40807091" CREATED="1559704542224" MODIFIED="1559705601662">
 <node TEXT="\latex 熵只是内能的函数:\\&#xa;$S=\sum\limits_aS_a(E_a-\frac{P_a^2}{2M_a})$" ID="ID_1466467097" CREATED="1559704589912" MODIFIED="1559704678591"/>
 <node TEXT="\latex 总动量和角动量守恒下采用lagrange乘子法\\&#xa;$\frac \partial{\partial P}\sum\limits_a [S_a+\vec a\cdot \vec P+\vec b\cdot (\vec r_a\times \vec P)]=0$ \\&#xa;得$\vec v_a =T\vec a+T\vec b\times \vec r_a \equiv \vec u+ \Omega\times \vec r_a$ \\&#xa;(上述仅为必要非充分条件,二阶导数条件给出温度必须为正数)" ID="ID_365792355" CREATED="1559705668577" MODIFIED="1559706385952">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1669423611" STARTINCLINATION="-236;46;" ENDINCLINATION="-144;7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1669423611" STARTINCLINATION="-234;46;" ENDINCLINATION="-142;7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="乘子系数为常数(整个系统共用),因此热力平衡的系统&#xa;只能做匀速直线运动和匀角速度转动" ID="ID_1237980335" CREATED="1559705929706" MODIFIED="1559706068870"/>
 </node>
 </node>
 </node>
 <node TEXT="ensembles(系综):&#xa; 满足系统宏观约束的微观状态的集合&#xa;(这些状态: (simply) accessible quantum states)" POSITION="left" ID="ID_1404148645" CREATED="1604052340557" MODIFIED="1618902690572">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1231133404" STARTINCLINATION="660;-96;" ENDINCLINATION="846;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1231133404" STARTINCLINATION="660;-94;" ENDINCLINATION="846;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#808080"/>
 <node TEXT="系统的时间演化难以计算,因此使用系综进行统计分析" ID="ID_981989250" CREATED="1604052357261" MODIFIED="1604052555611"/>
 <node TEXT="分类" ID="ID_380404074" CREATED="1604053085169" MODIFIED="1604054509766">
@@ -327,7 +347,7 @@
 <node TEXT="\latex 能量对应的微观状态概率&#xa;\\$P(E_i) = \exp(\frac F{k_BT})\exp(-\frac{E_i}{k_BT})$" ID="ID_1547380304" CREATED="1604057423482" MODIFIED="1604057546552">
 <node TEXT="F=U-TS=F(T,V,N) 也是一个热力学势,&#xa;称为Helmholtz自由能" ID="ID_292303341" CREATED="1604057551095" MODIFIED="1604057601046"/>
 <node TEXT="\latex 根据概率归一性可得\\&#xa;$F=-k_BT\ln Z ,(Z=\sum_i\exp(-\frac{E_i}{k_BT}))$" ID="ID_1811311117" CREATED="1604057731228" MODIFIED="1604241196055">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="109;91;" ENDINCLINATION="173;-32;" STARTARROW="NONE" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1296813123" MIDDLE_LABEL="可见从配分函数出发可以得到热力学势,&#xa;进而获取系统全部性质" STARTINCLINATION="109;91;" ENDINCLINATION="173;-30;" STARTARROW="NONE" ENDARROW="NONE"/>
 <node TEXT="Z被称为正则配分函数&#xa;(canonical partition function)" ID="ID_1435718267" CREATED="1604057801508" MODIFIED="1604057832892"/>
 <node TEXT="\latex 引入Z后,状态概率表示为\\&#xa;$P(E_i)=e^{-E_i/k_BT}/Z$" ID="ID_234881534" CREATED="1604057874802" MODIFIED="1604057949745">
 <node TEXT="\latex $\exp(-E_i/k_BT)$被称为Boltzmann factor\\&#xa;该因子频繁出现在多个领域当中" ID="ID_291638317" CREATED="1604057987136" MODIFIED="1604058055431"/>
