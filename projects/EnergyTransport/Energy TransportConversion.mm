@@ -1008,6 +1008,14 @@
 </node>
 </node>
 <node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
+<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
+<node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
+<node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
+</node>
+</node>
+<node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
+<node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
+<node TEXT="Scattering" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1619400777321">
 <node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" FOLDED="true" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619137774323">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
 <node TEXT="\latex $\rho(E_f)$ is DOS" ID="ID_587593010" CREATED="1619137917902" MODIFIED="1619137931475"/>
@@ -1017,15 +1025,10 @@
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
 </node>
 </node>
-<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
-<node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
-<node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
+<node TEXT="rigorous way: solve time-dependent Schrodinger eq. for the combined system of participating particles&#xa;simpler way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy" ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619401667555"/>
 </node>
 </node>
-<node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
-<node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
-</node>
-<node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
+<node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
 <edge COLOR="#7c0000"/>
 <node TEXT="\latex intro: to convert a huge summation to integration \\&#xa;$\sum(n_i+\frac12)\hbar\omega_i = \int(n+\frac12)\hbar\omega\cdot D(\omega)d\omega$" ID="ID_1701330853" CREATED="1617690359088" MODIFIED="1617690444409">
 <node TEXT="\latex $D(\omega)d\omega$ is the no. of states at $\omega$ (on $[\omega,\omega+d\omega]$)" ID="ID_126573710" CREATED="1617690631232" MODIFIED="1617691013366"/>
@@ -1039,7 +1042,9 @@
 </node>
 </node>
 <node TEXT="\latex differential DOS\\&#xa;$dD(E,\boldsymbol k)=\frac{\text{No. of States}\in(E,E+dE)\&amp; d\Omega}{VdEd\Omega}\Rightarrow\limits^{isotropic}\frac{D(E)}{4\pi}$\\&#xa;($d\Omega$ here is solid angle, not reciprocal volume)\\&#xa;($dD$ here is just an abbr. not mathematical differential)" ID="ID_614714114" CREATED="1619347366233" MODIFIED="1619360660416">
-<node TEXT="\latex rate of energy propagating along this direction per unit solid angle: $I(t,E,k)=Ev_g(k)f(t,r,k)dD(E,k)$" ID="ID_1645167372" CREATED="1619347836583" MODIFIED="1619360530050"/>
+<node TEXT="\latex rate of energy propagating along this direction per unit solid angle: $I(t,E,k)=Ev_g(k)f(t,r,k)dD(E,k)$" ID="ID_1645167372" CREATED="1619347836583" MODIFIED="1619360530050">
+<node TEXT="\latex $I_\nu = \frac\text{Power}{dA_\perp d\Omega d\nu}$" ID="ID_1038883197" CREATED="1619400501056" MODIFIED="1619400605560"/>
+</node>
 <node TEXT="basically intro momentum&apos;s direction info into DOS&#xa;to analyse directional transport" ID="ID_178691140" CREATED="1619360867203" MODIFIED="1619360927413"/>
 </node>
 </node>
