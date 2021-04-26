@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-551;30;" ENDINCLINATION="-11;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-550;30;" ENDINCLINATION="-10;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -1016,6 +1016,24 @@
 <node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
 <node TEXT="Scattering" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1619400777321">
+<node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>rigorous</b>&nbsp;way: solve time-dependent Schrodinger eq. for the combined system of participating particles
+    </p>
+    <p>
+      <b>simpler</b>&nbsp;way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" FOLDED="true" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619137774323">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
 <node TEXT="\latex $\rho(E_f)$ is DOS" ID="ID_587593010" CREATED="1619137917902" MODIFIED="1619137931475"/>
@@ -1025,7 +1043,6 @@
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
 </node>
 </node>
-<node TEXT="rigorous way: solve time-dependent Schrodinger eq. for the combined system of participating particles&#xa;simpler way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy" ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619401667555"/>
 </node>
 </node>
 <node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
