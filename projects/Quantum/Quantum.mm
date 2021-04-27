@@ -1,7 +1,7 @@
 <map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.948">
-    <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -62,11 +62,27 @@
 <edge COLOR="#0000ff"/>
 <node TEXT="namely the characteristic polynomial" ID="ID_1883610095" CREATED="1544943839641" MODIFIED="1544943855188"/>
 </node>
-<node TEXT="pertubation theory" FOLDED="true" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1545021401910">
+<node TEXT="pertubation theory" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1545021401910">
 <edge COLOR="#00ff00"/>
 <node TEXT="微扰理论对能量的近似很精确,但对于波函数近似不太理想" ID="ID_1710819061" CREATED="1545021402789" MODIFIED="1545021435659"/>
 <node TEXT="微扰论通过微扰展开然后舍去高阶项得到(注意Hamiltonian本身微扰是确定的,只有一阶)" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
 <hook EQUATION="(H+H^\prime)(\psi+\psi^\prime+ \psi^{\prime\prime} + \dots)=(E+E^\prime+ E^{\prime\prime} + \dots)(\psi+\psi^\prime+ \psi^{\prime\prime} + \dots)" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="\latex Time-independent perturbation theory\\&#xa;$H=H_0+\lambda V,\; (H_0+\lambda V)|n\rangle = E_n|n\rangle$\\&#xa;($E_n=\lambda^i E_n^{(i)},\; |n\rangle=\lambda^i |n^{(i)}\rangle$)" ID="ID_1625330088" CREATED="1619426419588" MODIFIED="1619426586923">
+<node TEXT="\latex $E_n^{(i)}=\frac1{i!}\frac{d^iE_n}{d\lambda^i}|_{\lambda=0}$\\&#xa;$|n^{(i)}\rangle=\frac1{i!}\frac{d^i |n\rangle}{d\lambda^i}|_{\lambda=0}$" ID="ID_1594666339" CREATED="1619426600366" MODIFIED="1619426699470">
+<node TEXT="\latex as it&apos;s small perturbation:\\&#xa;$\langle n^{(0)}| n^{(0)}\rangle= \langle n | n\rangle = 1=\langle n^{(0)}| n^{(0)}\rangle+\lambda \langle n^{(0)}| n^{(1)}\rangle +\lambda \langle n^{(1)}| n^{(0)}\rangle +\lambda^2\langle n^{(1)}| n^{(1)}\rangle$\\&#xa;the overall phase is not determined in time-independent theory, so\\&#xa;$\langle n^{(0)}| n^{(1)}\rangle=0$ is a real number" ID="ID_1771358305" CREATED="1619438898819" MODIFIED="1619438900829"/>
+</node>
+<node TEXT="\latex $(H+\lambda V)(\lambda^i|n^{(i)}\rangle)=(\lambda^j E_n^{(j)})(\lambda^k|n^{(k)}\rangle)$\\&#xa;expand according to the power of $\lambda$ to extract nth-order eq." ID="ID_1805065596" CREATED="1619431757330" MODIFIED="1619432038233">
+<node TEXT="\latex first-order: $H_0|n^{(1)}\rangle+V|n^{(0)}\rangle = E_n^{(0)}|n^{(1)}\rangle +E_n^{(1)}|n^{(0)}\rangle$\\&#xa;operating through by $\langle n^{(0)}|$: $E_n^{(1)}=\langle n^{(0)} |V|n^{(0)}\rangle$" ID="ID_1682919374" CREATED="1619432160204" MODIFIED="1619438912373">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="125;0;" ENDINCLINATION="125;0;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex Time-dependent perturbation theory\\&#xa;$H=H_0+V(t), |j(t)\rangle=e^{-iE_jt/\hbar}|j\rangle$\\&#xa;$H|\psi(t)\rangle=i\hbar\frac\partial{\partial t}|\psi(t)\rangle$\\&#xa;$|\psi(t)\rangle=\sum_nc_n(t)e^{-iE_nt/\hbar}|n\rangle$" ID="ID_1961161609" CREATED="1619439328417" MODIFIED="1619441109570">
+<node TEXT="\latex plug $|\psi(t)\rangle$ into S.E.:&#xa;$\sum_i(i\hbar\frac{dc_i}{dt}-c_i(t)V(t))e^{-iE_it/\hbar}|i\rangle=0$\\&#xa;multiply through by bra $\langle n |$:&#xa;$\frac{dc_n}{dt}=\frac{-i}{\hbar}\sum_k\langle n|V(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;this is an \textbf{exact } solution, difficult to find with many levels(many $c_k(t)$)" ID="ID_169184873" CREATED="1619442120341" MODIFIED="1619443349524">
+<node TEXT="\latex rewrite into: $c_n(t)=c_n(0)-\frac i\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k(t^\prime)e^{-i(E_k-E_n)t^\prime/\hbar}$\\&#xa;use iterative solution: $c_n(t)=c_n^{(0)}(t)+c_n^{(1)}(t)+c_n^{(2)}(t)+\cdots$\\&#xa;(e.g. $c_n^{(1)}(t)=c_n(0)+\frac{-i}\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k^{(0)}e^{-i(E_k-E_n)t^\prime/\hbar}$)" ID="ID_81193065" CREATED="1619443362471" MODIFIED="1619443896590"/>
+<node TEXT="other simplifications such as&#xa;Fermi&apos;s Golden Rule (relate the state transitions to DOS)&#xa;Dyson series (apply the iterative method to the time evolution operator)&#xa;(also one of the starting points for Feynman diagrams)" ID="ID_829748089" CREATED="1619444811321" MODIFIED="1619445110981"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="sundry" POSITION="left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1603094601040" LINK="sundry.mm">

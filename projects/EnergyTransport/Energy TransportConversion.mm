@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
-<font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.143">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
+<font NAME="Microsoft YaHei UI" SIZE="18"/>
+<hook NAME="MapStyle" zoom="2.42">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1008,7 +1008,7 @@
 </node>
 </node>
 <node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
-<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
+<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
 <node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
 <node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
 </node>
@@ -1033,14 +1033,16 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="\latex Fermi&apos;s Golden Rule\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619137774323">
+<node TEXT="\latex Fermi&apos;s Golden Rule \\&#xa;(simplified Time-dependent perturbation theory)\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619444504079">
 <node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
 <node TEXT="\latex $\rho(E_f)$ is DOS" ID="ID_587593010" CREATED="1619137917902" MODIFIED="1619137931475"/>
 <node TEXT="\latex $M_{if}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619138036068"/>
-<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619138671304">
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619424584611">
+<font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380"/>
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
 </node>
+<node TEXT="\latex perturbation theory gives:\\&#xa;$\frac{dc_n(t)}{dt}=\frac{-i}{\hbar}\sum_k\langle n|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;if $H^\prime=0\Rightarrow a_i(t)=\delta_{i,n}\Rightarrow \frac{dc_k(t)}{dt}=\frac{-i}{\hbar}\langle k|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$" ID="ID_1862765249" CREATED="1619445618398" MODIFIED="1619447354320"/>
 </node>
 </node>
 </node>
