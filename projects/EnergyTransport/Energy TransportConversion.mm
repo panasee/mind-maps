@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-548;30;" ENDINCLINATION="-8;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-547;30;" ENDINCLINATION="-7;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -1042,7 +1042,11 @@
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380"/>
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
 </node>
-<node TEXT="\latex perturbation theory gives:\\&#xa;$\frac{dc_n(t)}{dt}=\frac{-i}{\hbar}\sum_k\langle n|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;if $H^\prime=0\Rightarrow a_i(t)=\delta_{i,n}\Rightarrow \frac{dc_k(t)}{dt}=\frac{-i}{\hbar}\langle k|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$" ID="ID_1862765249" CREATED="1619445618398" MODIFIED="1619447354320"/>
+<node TEXT="\latex perturbation theory gives:\\&#xa;$\frac{dc_n(t)}{dt}=\frac{-i}{\hbar}\sum_k\langle n|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;initial state is eigenstate $|i\rangle$, to final state $|f\rangle$\\&#xa;and for weak perturbation $H^\prime\sim0\Rightarrow c_k(t)\approx \delta_{k,i}$ then: $i\hbar\frac{dc_f}{dt}=H^\prime_{fi}(t)c_i(t)e^{-i\omega_{if}t}\Rightarrow c_f(t)=\frac1{i\hbar}\int_0^t dt^\prime H^\prime_{fi}(t^\prime)e^{-i\omega_{if}t^\prime}$\\&#xa;for constant perturbation $H^\prime(t)=H^\prime\Theta(t)$:\\&#xa;$c_f(t)=\frac1{i\hbar} H^\prime_{fi}\frac1{i\omega_{fi}}(e^{i\omega_{fi}t}-1)=-\frac2\hbar H^\prime_{fi}e^{i\omega_{fi}t/2}\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}}$\\&#xa;Probability: $\mathscr P_f = |c_f(t)|^2=\frac1{\hbar^2}|H^\prime_{fi}|^2|\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2}|^2$\\&#xa;\therefore, transition rate: $\Gamma_{i\rightarrow f}=\frac d{dt}\mathscr P_f(t)=\frac{2|H^\prime_{fi}|^2}{\hbar^2}\frac{\sin \omega_{fi} t}{\omega_{fi}}$" ID="ID_1862765249" CREATED="1619445618398" MODIFIED="1619573421035">
+<node TEXT="\latex $t\rightarrow \infty$, use the \textbf{asymptotic relation of delta func}\\&#xa;$\delta(x)=\lim\limits_{t\rightarrow \infty}\frac{\sin^2(xt)}{\pi x^2t}$, and $\delta(\omega_{fi}/2)=2\hbar\delta(\hbar\omega_{fi})=2\hbar\delta(E_{fi})$ \\&#xa;so $(\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2})^2=2\pi\hbar\delta(E_{fi})$\\&#xa;thus: $\Gamma_{i\rightarrow f}=\frac{2\pi}\hbar |H^\prime_{fi}|^2\delta(E_{fi})$" ID="ID_695389312" CREATED="1619573000248" MODIFIED="1619574072078">
+<node TEXT="\latex for continuum state, total transition rate: $R_{i\rightarrow f}=\int \Gamma_{i\rightarrow f}\rho(E_f)dE_f=\frac{2\pi}\hbar|H^\prime_{fi}|^2\rho(E_i)$" ID="ID_550348248" CREATED="1619574107170" MODIFIED="1619574234043"/>
+</node>
+</node>
 </node>
 </node>
 </node>
