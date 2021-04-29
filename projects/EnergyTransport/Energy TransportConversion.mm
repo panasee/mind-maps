@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.503">
+<hook NAME="MapStyle" zoom="2.2">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-546;30;" ENDINCLINATION="-6;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-545;30;" ENDINCLINATION="-5;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -1018,6 +1018,16 @@
 <node TEXT="valid only for elastic scattering" ID="ID_34482060" CREATED="1619663424899" MODIFIED="1619663435403"/>
 <node TEXT="\latex for isotropic scattering, $\tau=\tau(E)$" ID="ID_337844766" CREATED="1619664306746" MODIFIED="1619664327969"/>
 <node TEXT="\latex $\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f$" ID="ID_990057422" CREATED="1619681738434" MODIFIED="1619681746189"/>
+<node TEXT="\latex $J_{qx}(x)=\sum_s [\frac1V\sum_{k_x,k_y,k_z}v_x\hbar\omega f] $\\&#xa;$=\frac1V\sum_s\iiint v_x\hbar\omega fdk_xdk_ydk_z/(2\pi/L)^3$ \\&#xa;$=\int\limits_0^{\omega_{max}}d\omega  \int\limits_0^{2\pi}d\varphi \int\limits_0^\pi d\theta v\cos\theta\hbar \omega f\frac{D(\omega)}{4\pi}\sin\theta  $" ID="ID_687106759" CREATED="1619695598292" MODIFIED="1619696022837">
+<node TEXT="\latex after substituting dist func into $f$:\\&#xa;$J_{qx}=-k\frac{dT}{dx},\; k=\frac13\int\tau v^2 C_\omega d\omega$ \\&#xa;$C_\omega = \hbar\omega D(\omega)df_0/dT$(specific heat per unit freq at $\omega$) \\&#xa;if $\tau$ and $v$ is independent of $\omega$, then:\\&#xa;$k=\frac13 Cv\Lambda$" ID="ID_1019251007" CREATED="1619696045776" MODIFIED="1619696254825">
+<node TEXT="\latex at high temperature, ph-ph is dominant\\&#xa;$k\propto \frac1T$ (in practice,$k\propto T^{-n}, n=1\sim 1.5$)" ID="ID_235387297" CREATED="1619696648961" MODIFIED="1619696763078"/>
+<node TEXT="\latex at low temperature, boundary dominates \\&#xa;$k\propto T^3$ (due to specific heat&apos;s dependency)" ID="ID_1979472980" CREATED="1619696665938" MODIFIED="1619696822427"/>
+<node TEXT="the exp fitting has arbitrariness wrt. the treatment of DOS, phonon group velocity, and dispersion" ID="ID_242542763" CREATED="1619697045401" MODIFIED="1619697100671"/>
+</node>
+</node>
+<node TEXT="\latex \textbf{NOTE:} although the 3-ph N-process doesn&apos;t create resistance, it can redistribute phonons and thus indirectly affect the U-process" ID="ID_523832914" CREATED="1619697371591" MODIFIED="1619697503038">
+<node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
+</node>
 </node>
 <node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
@@ -1051,7 +1061,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619660559221">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-12;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-11;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -1073,7 +1083,9 @@
 <node TEXT="" ID="ID_1503518293" CREATED="1619674534872" MODIFIED="1619674534873">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619674648402"/>
+<node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619696566759">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1019251007" MIDDLE_LABEL="used for semi-exp predict" STARTINCLINATION="656;0;" ENDINCLINATION="656;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
 </node>
 </node>
 <node TEXT="electron scattering" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
