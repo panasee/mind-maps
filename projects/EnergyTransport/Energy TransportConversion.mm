@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.653">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="1.503">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-547;30;" ENDINCLINATION="-7;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-546;30;" ENDINCLINATION="-6;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -985,7 +985,7 @@
 <node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p) = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619340991358">
+<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
 <node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
 <node TEXT="only valid when interactions are infrequent,&#xa;i.e. dilute systems such as xxx gases" ID="ID_1676513662" CREATED="1619340454649" MODIFIED="1619340653201"/>
 </node>
@@ -1006,12 +1006,18 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="\latex BTE:\\&#xa;$\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f&#xa;=\frac{V^3}{(2\pi)^9}(\iiint W[f(\boldsymbol r,\boldsymbol k^\prime,t)f(\boldsymbol r,\boldsymbol k_1^\prime,t)\\&#xa;- f(\boldsymbol r,\boldsymbol k,t)f(\boldsymbol r,\boldsymbol k_1,t)]d^3\boldsymbol k_1d^3\boldsymbol k^\prime d^3\boldsymbol k_1^\prime$" ID="ID_1105920280" CREATED="1619660818253" MODIFIED="1619661299259">
+<node TEXT="\latex integral-differential equation with 7 variables $(t,\boldsymbol r,\boldsymbol k)$\\&#xa;extremely tough to solve" ID="ID_610181137" CREATED="1619660866718" MODIFIED="1619661331922"/>
+</node>
 </node>
 <node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
-<node TEXT="\latex RTA\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0}{\tau}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619139692606">
-<node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{df}{dt} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619141614318">
+<node TEXT="\latex RTA(BGK approximation)\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0(T,E,\mu)}{\tau(\boldsymbol r,\boldsymbol k)}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619663408615">
+<node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{\partial f}{\partial t} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619664280441">
 <node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
 </node>
+<node TEXT="valid only for elastic scattering" ID="ID_34482060" CREATED="1619663424899" MODIFIED="1619663435403"/>
+<node TEXT="\latex for isotropic scattering, $\tau=\tau(E)$" ID="ID_337844766" CREATED="1619664306746" MODIFIED="1619664327969"/>
+<node TEXT="\latex $\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f$" ID="ID_990057422" CREATED="1619681738434" MODIFIED="1619681746189"/>
 </node>
 <node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
@@ -1044,11 +1050,39 @@
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619424584611">
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
-<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619139628193"/>
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619660559221">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-12;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
+</node>
 </node>
 <node TEXT="\latex scattering term in the BTE is the net \\gain of particles in one quantum state" ID="ID_719726187" CREATED="1619587263938" MODIFIED="1619587297611"/>
-<node TEXT="\latex reciprocity relation $W(k_1,k_2\rightarrow k_1^\prime,k_2^\prime)=W( k_1^\prime,k_2^\prime\rightarrow k_1,k_2)$" ID="ID_1790040997" CREATED="1619587607030" MODIFIED="1619587716869"/>
+<node TEXT="\latex reciprocity relation $W(k_1,k_2\rightarrow k_1^\prime,k_2^\prime)=W( k_1^\prime,k_2^\prime\rightarrow k_1,k_2)$" ID="ID_1790040997" CREATED="1619587607030" MODIFIED="1619587716869">
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W[f(r,k_1^\prime,t)f(r,k_2^\prime,t)\\&#xa;- f(r,k_1,t)f(r,k_2,t)]d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_1531438706" CREATED="1619659859249" MODIFIED="1619660849356">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1105920280" STARTINCLINATION="1486;0;" ENDINCLINATION="1486;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="phonon scattering" ID="ID_773152946" CREATED="1619665599834" MODIFIED="1619672575595">
+<node TEXT="" ID="ID_555673179" CREATED="1619674534873" MODIFIED="1619674534874">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex approximation for relaxtion time\\&#xa;3-phonon U process: $\tau_u^{-1}=Be^{-\theta_D/bT}T^3\omega^2$ \\&#xa;$B$ and $b$ are constants from experimental fitting" ID="ID_1172281664" CREATED="1619672621910" MODIFIED="1619672770112"/>
+<node TEXT="\latex for impurities, scattering obeys the Rayleigh law:\\&#xa;$\tau_I^{-1}=A\omega^4$" ID="ID_1553154070" CREATED="1619674192723" MODIFIED="1619674240039"/>
+<node TEXT="\latex boundary scattering:$\tau_b^{-1}=b_sv/L$\\&#xa;($b_s$ is shape factor modeled similarly to radiation shape factor)" ID="ID_357810965" CREATED="1619674248117" MODIFIED="1619674349139"/>
+<node TEXT="" ID="ID_1503518293" CREATED="1619674534872" MODIFIED="1619674534873">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619674648402"/>
+</node>
+</node>
+<node TEXT="electron scattering" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
+<node TEXT="predominantly scattered by phonon, elec-elec scattering is typically much weaker" ID="ID_323045696" CREATED="1619676762573" MODIFIED="1619676789801"/>
+<node TEXT="process can also be normal/umklapp" ID="ID_1878607689" CREATED="1619676822258" MODIFIED="1619676849560">
+<node TEXT="in most cases the dominant scattering&#xa;process is Normal process" ID="ID_1954542124" CREATED="1619676906516" MODIFIED="1619680928412"/>
+</node>
+<node TEXT="\latex in metals, when $T&gt;T_{Debye}$, the no. of phonons is  proportional to $T$ $\Rightarrow$ $\frac1\tau\propto T$" ID="ID_1129521248" CREATED="1619681192678" MODIFIED="1619681298648"/>
+<node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
 </node>
 </node>
 </node>
