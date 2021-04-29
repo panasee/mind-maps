@@ -1,8 +1,8 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1602479965069" STYLE="oval">
-<font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.948">
+<node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
+<font NAME="Microsoft YaHei UI" SIZE="18"/>
+<hook NAME="MapStyle" zoom="2.2">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,12 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
 </node>
-<node TEXT="classical" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1602495784494">
+<node TEXT="\latex classical limit (MD simulation e.g.)&#xa;\\ solids:Mean thermal wavelength $\lambda_{th}\ll \Delta x$ vibrational displacement\;\; ($\lambda_{th}=\frac h{\sqrt{2\pi mk_BT}}$)  \\&#xa;gas:$\lambda_{th}\ll D$  mean distance between moleculars\\&#xa;all: distribution downgrade to Maxwell-Boltzmann DIST&#xa;$\epsilon-\mu \gg k_BT (3k_BT \;\text{in prac})$" FOLDED="true" POSITION="right" ID="ID_1505485271" CREATED="1602495782136" MODIFIED="1618536031192">
 <edge COLOR="#00007c"/>
 <node TEXT="classical definitions" ID="ID_1858058677" CREATED="1602481934241" MODIFIED="1602495786704">
 <node TEXT="" ID="ID_186144771" CREATED="1602482213525" MODIFIED="1602482213528">
@@ -102,9 +102,18 @@
 </node>
 </node>
 </node>
-<node TEXT="Kinetic Theory" FOLDED="true" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
+<node TEXT="Kinetic Theory" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
 <edge COLOR="#7c007c"/>
-<node TEXT="Crude version" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1602580699455">
+<node TEXT="crude version&#xa;(ideal phonon gas)" FOLDED="true" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1617324458709">
+<node TEXT="a finite small volume is needed instead of a infinitesmall one to ensure enough collisions within" ID="ID_308034271" CREATED="1617325124729" MODIFIED="1617325163844">
+<node TEXT="\latex $q_x=-\frac{\partial(n\epsilon v_x)}{\partial x}\Delta x \Rightarrow \limits^\text{assump} - \frac{\partial(n\epsilon)}{\partial x} v_x^2\tau=-\frac13v^2\tau \frac{\partial E}{\partial T}\frac{\partial T}{\partial x}=-\frac13c_vv^2\tau\frac{\partial T}{\partial x} $\\&#xa;assump:(also assump for \mathscr{Fourier}&apos;s Law) \\&#xa;1.local thermaldynamical equilibrium in $\Delta V$(definition of $T$) \\&#xa;$\Rightarrow \frac12m|v|^2=\frac12mv_iv_i \&amp; \frac12mv_iv_i=\frac12k_BT$ \\&#xa;2.$v_x$&apos;s constant within volume $\Delta V$\\&#xa;(the energy from $\nabla T$ is dissipated by scattering)" ID="ID_951123602" CREATED="1617325959610" MODIFIED="1617689461673">
+<node TEXT="\latex relaxation time $\tau$: the time needed for\\ eliminating the energy from $\Delta T$" ID="ID_1317458933" CREATED="1617326811168" MODIFIED="1617326857768">
+<node TEXT="\latex in metals, $\tau_{ph}$ could be tackled as constant" ID="ID_1880968143" CREATED="1617689501033" MODIFIED="1617689552744"/>
+</node>
+<node TEXT="\latex $\boldsymbol v$ is drifting velocity the \textbf{same}\ as group velocity" ID="ID_488705005" CREATED="1617327019488" MODIFIED="1617689475277"/>
+<node TEXT="\latex $\lambda=v\tau$ is relaxation length(definition is the same as  $\tau$), also called &quot;meanfreepath&quot;(\textbf{note the diff in physical meaning})" ID="ID_1085804587" CREATED="1617327183310" MODIFIED="1617327330123"/>
+</node>
+</node>
 <node TEXT="\latex thermal conduc: &#xa;$q_x = \frac12(nEv_x)|_{x-v_x\tau}-\frac12(nEv_x)|_{x+v_x\tau}$\\&#xa;$= -(\frac{Cv^2\tau}3)\frac{dT}{dx}\Rightarrow k = \frac{Cv^2\tau}3=\frac{Cv\Lambda}3=\frac{\rho cv\Lambda}3$" ID="ID_1827217491" CREATED="1602579946661" MODIFIED="1602580736568"/>
 <node TEXT="\latex mean free path: particel diameter $d \rightarrow$Cross-Section:$\pi(2d)^2/4$\\&#xa;\Lambda =\frac LN =  \frac L {n\pi d^2L} = \frac m {\pi\rho d^2} (collide with N atoms in L)" ID="ID_683141782" CREATED="1602580550943" MODIFIED="1602742527665">
 <node TEXT="\latex it assumes that only one atom&apos;s moving while others&apos; stationary, or it should be:&#xa;$\Lambda = \frac{m}{\pi\sqrt 2 \rho d^2}$" ID="ID_890755552" CREATED="1602742688695" MODIFIED="1602742774990">
@@ -112,6 +121,7 @@
 </node>
 </node>
 <node TEXT="rarified gas flow(the mean free path is comparable to the scale of system)" ID="ID_1907859153" CREATED="1602744134885" MODIFIED="1602744171335"/>
+<node TEXT="NOTE: the Equipartition Theorem is a strong hypothesis&#xa;which only stands under classical ideal gas limit" ID="ID_318743676" CREATED="1618295671791" MODIFIED="1618295741419"/>
 </node>
 <node TEXT="definitions" ID="ID_1053107331" CREATED="1602580833721" MODIFIED="1602580838383">
 <node ID="ID_1353676405" CREATED="1602580839153" MODIFIED="1602742256043"><richcontent TYPE="NODE">
@@ -130,6 +140,9 @@
 <hook URI="attachments/cross-section.png" SIZE="0.5012998" NAME="ExternalObject"/>
 </node>
 </node>
+<node TEXT="thermal properties" ID="ID_1319711859" CREATED="1617690157601" MODIFIED="1617690173470">
+<node TEXT="\latex capacity: $C\equiv \frac{\partial E}{\partial T}$" ID="ID_1802662552" CREATED="1617690189516" MODIFIED="1617690328195"/>
+</node>
 </node>
 <node TEXT="Micro/Nano-scale Transport" POSITION="right" ID="ID_1612655917" CREATED="1602746750790" MODIFIED="1602746762323">
 <edge COLOR="#007c7c"/>
@@ -144,7 +157,7 @@
 </node>
 <node TEXT="the characteristic times include:&#xa;relaxation time, time characterizing the energy exchange between different particles, etc" ID="ID_327701658" CREATED="1603090066325" MODIFIED="1603090142211"/>
 </node>
-<node TEXT="transport regime&#xa;(phonons/electrons)" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
+<node TEXT="transport regime&#xa;(phonons/electrons)" FOLDED="true" POSITION="left" ID="ID_1104112605" CREATED="1603090798501" MODIFIED="1603091497643">
 <edge COLOR="#ff0000"/>
 <node TEXT="" ID="ID_1184459535" CREATED="1603092699459" MODIFIED="1603092699462">
 <hook NAME="FirstGroupNode"/>
@@ -152,14 +165,24 @@
 <node TEXT="\latex wave regime($D&lt;O(l_p); D&lt;O(l_c)$)\\&#xa;phase info is considered and transport is coherent\\&#xa;(Quantum mechanics)" ID="ID_1226830343" CREATED="1603090931331" MODIFIED="1603092066288"/>
 <node TEXT="\latex transition regime ($D\sim O(l_p); D\sim O(l_c)$)\\&#xa;partially coherent transport\\&#xa;(Quantum Boltzmann equation)" ID="ID_1242913855" CREATED="1603090934809" MODIFIED="1603092178681"/>
 <node TEXT="\latex particle regime($D&gt;O(l_p); D&gt;O(l_c)$)\\&#xa;phase info is neglected and transport is incoherent" ID="ID_1625594483" CREATED="1603090940161" MODIFIED="1603092133867">
-<node TEXT="\latex ballistic($D&lt;O(\Lambda)$) \\&#xa;(Ballistic transport for electron;\\&#xa;Ray tracing for phonon)" ID="ID_1941831739" CREATED="1603091744003" MODIFIED="1603091930598"/>
-<node TEXT="\latex quasi-diffusive($D\sim O(\Lambda)$)\\&#xa;(Boltzmann Transport Equation)" ID="ID_1498138429" CREATED="1603091822477" MODIFIED="1603091954760"/>
-<node TEXT="\latex diffusive($D&gt;O(\Lambda)$) \\&#xa;(Ohm&apos;s law / Fourier&apos;s law)" ID="ID_797206989" CREATED="1603091846862" MODIFIED="1603091974456"/>
+<node TEXT="\latex ballistic($D&lt;O(\Lambda)$) \\&#xa;(Ballistic transport for electron;\\&#xa;Ray tracing for phonon)" ID="ID_1941831739" CREATED="1603091744003" MODIFIED="1603091930598">
+<node TEXT="\latex the temperature is&#xa;\\not defined midway" ID="ID_852409993" CREATED="1618532046539" MODIFIED="1618532099377"/>
+<node TEXT="\latex phonons behave like photons, so\\&#xa; analog can be introduced" ID="ID_39289738" CREATED="1618532154556" MODIFIED="1618532193239">
+<node TEXT="\latex e.g. Equation of Phonon Radiation Transport(EPRT)\\&#xa;energy from Debye model($T\ll \Theta_D$) $I_q=n\epsilon v_g\propto T^4$\\(similar to Stefan-Boltzmann)" ID="ID_571207594" CREATED="1618532198728" MODIFIED="1618533096870"/>
+</node>
+</node>
+<node TEXT="\latex quasi-diffusive($D\sim O(\Lambda)$)\\&#xa;(Boltzmann Transport Equation)" ID="ID_1498138429" CREATED="1603091822477" MODIFIED="1603091954760">
+<node TEXT="\latex $\frac{d f}{dt}=(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_922404584" CREATED="1617323451693" MODIFIED="1617323789899"/>
+</node>
+<node TEXT="\latex diffusive($D&gt;O(\Lambda)$) \\&#xa;(Ohm&apos;s law / Fourier&apos;s law)" ID="ID_797206989" CREATED="1603091846862" MODIFIED="1603091974456">
+<node TEXT="\latex the energy from $\nabla T$ could&#xa;\\be dissipated by scattering" ID="ID_713340448" CREATED="1618531676848" MODIFIED="1618531715737"/>
+</node>
+<node TEXT="\latex diffusive-ballistic" ID="ID_205852808" CREATED="1618533259723" MODIFIED="1618533272601"/>
 </node>
 <node TEXT="" ID="ID_1746244523" CREATED="1603092699455" MODIFIED="1603092702994">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \ge$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603344890194">
+<node TEXT="\latex Coherence length $\mathcal l_c \sim 10\AA / 100\AA$ \\&#xa;Phase-breaking length $\mathcal l_p \ge$ mean free path\\&#xa;Mean free path $\Lambda: \ 100-1000\AA$" FOLDED="true" ID="ID_134290592" CREATED="1603091021037" MODIFIED="1603344890194">
 <node TEXT="Phase-breaking length --- distance needed to completely destroy the phase of heat carriers through various collision processes(usually comparable to or slightly longer than MFP)" ID="ID_275254574" CREATED="1603092715743" MODIFIED="1603093063695"/>
 <node TEXT="Coherence length --- distance beyond which waves from the same source can be imposed without considering phase info" ID="ID_1090624043" CREATED="1603093096637" MODIFIED="1603093144117"/>
 </node>
@@ -437,9 +460,9 @@
 </node>
 </node>
 </node>
-<node TEXT="statistical thermodynamics" FOLDED="true" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1604059575343" LINK="../statistical-mechanics/statistical%20physics.mm">
+<node TEXT="statistical thermodynamics" FOLDED="true" POSITION="left" ID="ID_1795383896" CREATED="1604052072702" MODIFIED="1618535934007" LINK="../StatisticalMechanics/statistical%20physics.mm">
 <edge COLOR="#00ff00"/>
-<node TEXT="statistical distribution,&#xa;(consider the probability of particles&#xa;occupying a specific quantum state)" FOLDED="true" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1604065017672">
+<node TEXT="\latex statistical distribution,\\&#xa;(consider the probability of particles\\&#xa;occupying a specific quantum state)\\&#xa;$f_i = \frac{g_i}{\exp{\frac{\epsilon_i-\mu}{k_BT}}+\alpha}$" ID="ID_21521653" CREATED="1602491627342" MODIFIED="1618535597098">
 <node TEXT="\latex classical limit $(E-\mu\gg k_BT)$ of \\&#xa;both Fermions and Bosons \\&#xa;owns continuous energy levels(classical)" ID="ID_62201255" CREATED="1602495407110" MODIFIED="1604239655988">
 <node TEXT="\latex Boltzmann Dist \\&#xa;$f(E) = e^{-(E-\mu)/(k_BT)}$" ID="ID_1095960906" CREATED="1602491637639" MODIFIED="1604239435411">
 <node TEXT="for monatomic gas, E is purely kinetic&#xa;then we get Maxwell Dist" ID="ID_1725828615" CREATED="1602492581767" MODIFIED="1602492628847">
@@ -523,7 +546,7 @@
 </node>
 </node>
 </node>
-<node TEXT="energy transfer by WAVES" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
+<node TEXT="energy transfer by WAVES" FOLDED="true" POSITION="right" ID="ID_1927718794" CREATED="1604305221980" MODIFIED="1604305235536">
 <edge COLOR="#ff00ff"/>
 <node TEXT="plane wave:&#xa;has a constant amplitude at any plane perpendicular to the direction of propagation at any fixed time" ID="ID_296670041" CREATED="1604306467097" MODIFIED="1604306516091">
 <node TEXT="\latex e.g. $\vec F(t,\vec r) = \vec A sin(\omega t-\vec k\cdot\vec r)=\Re(\vec A\exp[-i(\omega t-\vec k\cdot \vec r)])$\\&#xa;$\vec k\cdot\vec r =Const$ gives a plane perpendicular to $\vec k$\\&#xa;and $\vec F$ is a constant on this plane at any $t$" ID="ID_618996427" CREATED="1604323680012" MODIFIED="1604323875064"/>
@@ -858,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-559;30;" ENDINCLINATION="-19;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-545;30;" ENDINCLINATION="-5;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -957,6 +980,142 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
+<node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
+<node TEXT="only valid when interactions are infrequent,&#xa;i.e. dilute systems such as xxx gases" ID="ID_1676513662" CREATED="1619340454649" MODIFIED="1619340653201"/>
+</node>
+<node ID="ID_831663304" CREATED="1619340736500" MODIFIED="1619341072496"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      no wave effects e.g. interference and tunneling
+    </p>
+    <p>
+      (to quantum wave pic needs <b>Wigner function</b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex BTE:\\&#xa;$\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f&#xa;=\frac{V^3}{(2\pi)^9}(\iiint W[f(\boldsymbol r,\boldsymbol k^\prime,t)f(\boldsymbol r,\boldsymbol k_1^\prime,t)\\&#xa;- f(\boldsymbol r,\boldsymbol k,t)f(\boldsymbol r,\boldsymbol k_1,t)]d^3\boldsymbol k_1d^3\boldsymbol k^\prime d^3\boldsymbol k_1^\prime$" ID="ID_1105920280" CREATED="1619660818253" MODIFIED="1619661299259">
+<node TEXT="\latex integral-differential equation with 7 variables $(t,\boldsymbol r,\boldsymbol k)$\\&#xa;extremely tough to solve" ID="ID_610181137" CREATED="1619660866718" MODIFIED="1619661331922"/>
+</node>
+</node>
+<node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
+<node TEXT="\latex RTA(BGK approximation)\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0(T,E,\mu)}{\tau(\boldsymbol r,\boldsymbol k)}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619663408615">
+<node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{\partial f}{\partial t} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619664280441">
+<node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
+</node>
+<node TEXT="valid only for elastic scattering" ID="ID_34482060" CREATED="1619663424899" MODIFIED="1619663435403"/>
+<node TEXT="\latex for isotropic scattering, $\tau=\tau(E)$" ID="ID_337844766" CREATED="1619664306746" MODIFIED="1619664327969"/>
+<node TEXT="\latex $\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f$" ID="ID_990057422" CREATED="1619681738434" MODIFIED="1619681746189"/>
+<node TEXT="\latex $J_{qx}(x)=\sum_s [\frac1V\sum_{k_x,k_y,k_z}v_x\hbar\omega f] $\\&#xa;$=\frac1V\sum_s\iiint v_x\hbar\omega fdk_xdk_ydk_z/(2\pi/L)^3$ \\&#xa;$=\int\limits_0^{\omega_{max}}d\omega  \int\limits_0^{2\pi}d\varphi \int\limits_0^\pi d\theta v\cos\theta\hbar \omega f\frac{D(\omega)}{4\pi}\sin\theta  $" ID="ID_687106759" CREATED="1619695598292" MODIFIED="1619696022837">
+<node TEXT="\latex after substituting dist func into $f$:\\&#xa;$J_{qx}=-k\frac{dT}{dx},\; k=\frac13\int\tau v^2 C_\omega d\omega$ \\&#xa;$C_\omega = \hbar\omega D(\omega)df_0/dT$(specific heat per unit freq at $\omega$) \\&#xa;if $\tau$ and $v$ is independent of $\omega$, then:\\&#xa;$k=\frac13 Cv\Lambda$" ID="ID_1019251007" CREATED="1619696045776" MODIFIED="1619696254825">
+<node TEXT="\latex at high temperature, ph-ph is dominant\\&#xa;$k\propto \frac1T$ (in practice,$k\propto T^{-n}, n=1\sim 1.5$)" ID="ID_235387297" CREATED="1619696648961" MODIFIED="1619696763078"/>
+<node TEXT="\latex at low temperature, boundary dominates \\&#xa;$k\propto T^3$ (due to specific heat&apos;s dependency)" ID="ID_1979472980" CREATED="1619696665938" MODIFIED="1619696822427"/>
+<node TEXT="the exp fitting has arbitrariness wrt. the treatment of DOS, phonon group velocity, and dispersion" ID="ID_242542763" CREATED="1619697045401" MODIFIED="1619697100671"/>
+</node>
+</node>
+<node TEXT="\latex \textbf{NOTE:} although the 3-ph N-process doesn&apos;t create resistance, it can redistribute phonons and thus indirectly affect the U-process" ID="ID_523832914" CREATED="1619697371591" MODIFIED="1619697503038">
+<node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
+</node>
+</node>
+<node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
+<node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
+<node TEXT="Scattering" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1619400777321">
+<node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>rigorous</b>&nbsp;way: solve time-dependent Schrodinger eq. for the combined system of participating particles
+    </p>
+    <p>
+      <b>simpler</b>&nbsp;way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex Fermi&apos;s Golden Rule \\&#xa;(simplified Time-dependent perturbation theory)\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$\\&#xa;$W_i^f={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\delta(E_f-E_i), \; ([\delta]=J^{-1}\text{ here})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619521066348">
+<node TEXT="\latex Proof:\\perturbation theory gives:\\&#xa;$\frac{dc_n(t)}{dt}=\frac{-i}{\hbar}\sum_k\langle n|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;initial state is eigenstate $|i\rangle$, to final state $|f\rangle$\\&#xa;and for weak perturbation $H^\prime\sim0\Rightarrow c_k(t)\approx \delta_{k,i}$ then: $i\hbar\frac{dc_f}{dt}=H^\prime_{fi}(t)c_i(t)e^{-i\omega_{if}t}\Rightarrow c_f(t)=\frac1{i\hbar}\int_0^t dt^\prime H^\prime_{fi}(t^\prime)e^{-i\omega_{if}t^\prime}$\\&#xa;for constant perturbation $H^\prime(t)=H^\prime\Theta(t)$:\\&#xa;$c_f(t)=\frac1{i\hbar} H^\prime_{fi}\frac1{i\omega_{fi}}(e^{i\omega_{fi}t}-1)=-\frac2\hbar H^\prime_{fi}e^{i\omega_{fi}t/2}\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}}$\\&#xa;Probability: $\mathscr P_f = |c_f(t)|^2=\frac1{\hbar^2}|H^\prime_{fi}|^2|\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2}|^2$\\&#xa;\therefore, transition rate: $\Gamma_{i\rightarrow f}=\frac d{dt}\mathscr P_f(t)=\frac{2|H^\prime_{fi}|^2}{\hbar^2}\frac{\sin \omega_{fi} t}{\omega_{fi}}$" ID="ID_1862765249" CREATED="1619445618398" MODIFIED="1619587125017">
+<node TEXT="\latex $t\rightarrow \infty$, use the \textbf{asymptotic relation of delta func}\\&#xa;$\delta(x)=\lim\limits_{t\rightarrow \infty}\frac{\sin^2(xt)}{\pi x^2t}$, and $\delta(\omega_{fi}/2)=2\hbar\delta(\hbar\omega_{fi})=2\hbar\delta(E_{fi})$ \\&#xa;so $(\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2})^2=2\pi\hbar\delta(E_{fi})$\\&#xa;thus: $\Gamma_{i\rightarrow f}=\frac{2\pi}\hbar |H^\prime_{fi}|^2\delta(E_{fi})$" ID="ID_695389312" CREATED="1619573000248" MODIFIED="1619574072078">
+<node TEXT="\latex for continuum state, total transition rate: $R_{i\rightarrow f}=\int \Gamma_{i\rightarrow f}\rho(E_f)dE_f=\frac{2\pi}\hbar|H^\prime_{fi}|^2\rho(E_i)$" ID="ID_550348248" CREATED="1619574107170" MODIFIED="1619574234043"/>
+</node>
+<node TEXT="\latex $M_{fi}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619586891637"/>
+</node>
+<node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619424584611">
+<font NAME="Microsoft YaHei UI"/>
+<node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619660559221">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-11;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
+</node>
+</node>
+<node TEXT="\latex scattering term in the BTE is the net \\gain of particles in one quantum state" ID="ID_719726187" CREATED="1619587263938" MODIFIED="1619587297611"/>
+<node TEXT="\latex reciprocity relation $W(k_1,k_2\rightarrow k_1^\prime,k_2^\prime)=W( k_1^\prime,k_2^\prime\rightarrow k_1,k_2)$" ID="ID_1790040997" CREATED="1619587607030" MODIFIED="1619587716869">
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W[f(r,k_1^\prime,t)f(r,k_2^\prime,t)\\&#xa;- f(r,k_1,t)f(r,k_2,t)]d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_1531438706" CREATED="1619659859249" MODIFIED="1619660849356">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1105920280" STARTINCLINATION="1486;0;" ENDINCLINATION="1486;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="phonon scattering" ID="ID_773152946" CREATED="1619665599834" MODIFIED="1619672575595">
+<node TEXT="" ID="ID_555673179" CREATED="1619674534873" MODIFIED="1619674534874">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex approximation for relaxtion time\\&#xa;3-phonon U process: $\tau_u^{-1}=Be^{-\theta_D/bT}T^3\omega^2$ \\&#xa;$B$ and $b$ are constants from experimental fitting" ID="ID_1172281664" CREATED="1619672621910" MODIFIED="1619672770112"/>
+<node TEXT="\latex for impurities, scattering obeys the Rayleigh law:\\&#xa;$\tau_I^{-1}=A\omega^4$" ID="ID_1553154070" CREATED="1619674192723" MODIFIED="1619674240039"/>
+<node TEXT="\latex boundary scattering:$\tau_b^{-1}=b_sv/L$\\&#xa;($b_s$ is shape factor modeled similarly to radiation shape factor)" ID="ID_357810965" CREATED="1619674248117" MODIFIED="1619674349139"/>
+<node TEXT="" ID="ID_1503518293" CREATED="1619674534872" MODIFIED="1619674534873">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619696566759">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1019251007" MIDDLE_LABEL="used for semi-exp predict" STARTINCLINATION="656;0;" ENDINCLINATION="656;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="electron scattering" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
+<node TEXT="predominantly scattered by phonon, elec-elec scattering is typically much weaker" ID="ID_323045696" CREATED="1619676762573" MODIFIED="1619676789801"/>
+<node TEXT="process can also be normal/umklapp" ID="ID_1878607689" CREATED="1619676822258" MODIFIED="1619676849560">
+<node TEXT="in most cases the dominant scattering&#xa;process is Normal process" ID="ID_1954542124" CREATED="1619676906516" MODIFIED="1619680928412"/>
+</node>
+<node TEXT="\latex in metals, when $T&gt;T_{Debye}$, the no. of phonons is  proportional to $T$ $\Rightarrow$ $\frac1\tau\propto T$" ID="ID_1129521248" CREATED="1619681192678" MODIFIED="1619681298648"/>
+<node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
+<edge COLOR="#7c0000"/>
+<node TEXT="\latex intro: to convert a huge summation to integration \\&#xa;$\sum(n_i+\frac12)\hbar\omega_i = \int(n+\frac12)\hbar\omega\cdot D(\omega)d\omega$" ID="ID_1701330853" CREATED="1617690359088" MODIFIED="1617690444409">
+<node TEXT="\latex $D(\omega)d\omega$ is the no. of states at $\omega$ (on $[\omega,\omega+d\omega]$)" ID="ID_126573710" CREATED="1617690631232" MODIFIED="1617691013366"/>
+</node>
+<node TEXT="\latex practical: to count the no of state on every freq\\&#xa;$D(\omega)=\text{lim}\limits_{\Delta\omega\rightarrow0}\frac{\Delta N}{\Delta \omega}$ || $D(E)=\frac1V\sum_{i=1}^N\delta(E-E(k_i))$\\&#xa;(can also approx the volumic fraction occupied by states of the same energy of 1st-BZ)" ID="ID_1846642151" CREATED="1617691049243" MODIFIED="1619355279438">
+<node TEXT="\latex smallest allowed change of $k$ is $(\Delta k)^d=(\frac{2\pi}L)^d$, when $L\rightarrow \infty$\\&#xa;the $k$ become discrete and turn summation into integral:\\&#xa;$D(E)=\int_{R^d}\frac{d^dk}{(2\pi)^d}\cdot \delta(E-E(k))$" ID="ID_98502436" CREATED="1619352407007" MODIFIED="1619352631502"/>
+<node TEXT="\latex DOS also is the derivative of microcanonical partition func\\&#xa;$D(E)=\frac1V\cdot\frac{dZ_m(E)}{dE}$" ID="ID_321906882" CREATED="1619353269426" MODIFIED="1619353323262"/>
+<node TEXT="\latex degree of degeneracy on Energy $E_0$ is\\&#xa;$g(E_0)=\text{lim}\limits_{\Delta E\rightarrow0}\int_{E_0}^{E_0+\Delta E}D(E)dE=\text{lim}\limits_{\Delta E\rightarrow0}D(E_0)\Delta E$\\&#xa;(for \textbf{discrete } levels, DOS is the degeneracy)" ID="ID_292119542" CREATED="1619353407783" MODIFIED="1619353632643"/>
+<node TEXT="\latex Calculation:($D_n(E)dE=\frac{V}{(2\pi)^d}d\Omega_n(E)$) $D_n(E)\propto\frac{d\Omega_n(E)}{dE}=\left.\frac{\frac{d\Omega_n(k(E))}{dk}}{\frac{dE}{dk}}\right|_{k=k(E)}\rightarrow\frac{equal-energy\ surface}{group\ velocity}$&#xa;\\ NOTE: the inverse of dispersion $E(k)$ is applicable only when $E(k)$ is \textbf{monotonic}&#xa;\\(monotonic: ensure the inverse mapping is single-valued)" ID="ID_1942832321" CREATED="1619355713503" MODIFIED="1619359805846">
+<node TEXT="\latex often assume $E(k)$ is \textbf{spherically symmetric } to simplify $d\Omega_n$\\&#xa;this way the equal-energy surface can be easily handled\\&#xa;otherwise use numerical methods(\textbf{not analytical, just count})" ID="ID_765588275" CREATED="1619358439431" MODIFIED="1619359153927"/>
+</node>
+</node>
+<node TEXT="\latex differential DOS\\&#xa;$dD(E,\boldsymbol k)=\frac{\text{No. of States}\in(E,E+dE)\&amp; d\Omega}{VdEd\Omega}\Rightarrow\limits^{isotropic}\frac{D(E)}{4\pi}$\\&#xa;($d\Omega$ here is solid angle, not reciprocal volume)\\&#xa;($dD$ here is just an abbr. not mathematical differential)" ID="ID_614714114" CREATED="1619347366233" MODIFIED="1619360660416">
+<node TEXT="\latex rate of energy propagating along this direction per unit solid angle: $I(t,E,k)=Ev_g(k)f(t,r,k)dD(E,k)$" ID="ID_1645167372" CREATED="1619347836583" MODIFIED="1619360530050">
+<node TEXT="\latex $I_\nu = \frac\text{Power}{dA_\perp d\Omega d\nu}$" ID="ID_1038883197" CREATED="1619400501056" MODIFIED="1619400605560"/>
+</node>
+<node TEXT="basically intro momentum&apos;s direction info into DOS&#xa;to analyse directional transport" ID="ID_178691140" CREATED="1619360867203" MODIFIED="1619360927413"/>
 </node>
 </node>
 </node>
