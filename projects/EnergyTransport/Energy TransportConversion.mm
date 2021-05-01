@@ -3,7 +3,7 @@
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
 <hook NAME="MapStyle" zoom="2.2">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -982,10 +982,10 @@
 </node>
 </node>
 </node>
-<node TEXT="Boltzmann Transport Eq" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
+<node TEXT="Boltzmann Transport Eq" FOLDED="true" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619137327517">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
+<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
 <node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
 <node TEXT="only valid when interactions are infrequent,&#xa;i.e. dilute systems such as xxx gases" ID="ID_1676513662" CREATED="1619340454649" MODIFIED="1619340653201"/>
 </node>
@@ -1019,7 +1019,7 @@
 <node TEXT="\latex for isotropic scattering, $\tau=\tau(E)$" ID="ID_337844766" CREATED="1619664306746" MODIFIED="1619664327969"/>
 <node TEXT="\latex $\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f$" ID="ID_990057422" CREATED="1619681738434" MODIFIED="1619681746189"/>
 <node TEXT="\latex $J_{qx}(x)=\sum_s [\frac1V\sum_{k_x,k_y,k_z}v_x\hbar\omega f] $\\&#xa;$=\frac1V\sum_s\iiint v_x\hbar\omega fdk_xdk_ydk_z/(2\pi/L)^3$ \\&#xa;$=\int\limits_0^{\omega_{max}}d\omega  \int\limits_0^{2\pi}d\varphi \int\limits_0^\pi d\theta v\cos\theta\hbar \omega f\frac{D(\omega)}{4\pi}\sin\theta  $" ID="ID_687106759" CREATED="1619695598292" MODIFIED="1619696022837">
-<node TEXT="\latex after substituting dist func into $f$:\\&#xa;$J_{qx}=-k\frac{dT}{dx},\; k=\frac13\int\tau v^2 C_\omega d\omega$ \\&#xa;$C_\omega = \hbar\omega D(\omega)df_0/dT$(specific heat per unit freq at $\omega$) \\&#xa;if $\tau$ and $v$ is independent of $\omega$, then:\\&#xa;$k=\frac13 Cv\Lambda$ (used to estimate the $\Lambda$)" ID="ID_1019251007" CREATED="1619696045776" MODIFIED="1619787777631">
+<node TEXT="\latex Fourier&apos;s Law: after substituting dist func into $f$:\\&#xa;$J_{qx}=-k\frac{dT}{dx},\; k=\frac13\int\tau v^2 C_\omega d\omega$ \\&#xa;$C_\omega = \hbar\omega D(\omega)df_0/dT$(specific heat per unit freq at $\omega$) \\&#xa;if $\tau$ and $v$ is independent of $\omega$, then:\\&#xa;$k=\frac13 Cv\Lambda$ (used to estimate the $\Lambda$)" ID="ID_1019251007" CREATED="1619696045776" MODIFIED="1619876560097">
 <node TEXT="\latex at high temperature, ph-ph is dominant\\&#xa;$k\propto \frac1T$ (in practice,$k\propto T^{-n}, n=1\sim 1.5$)" ID="ID_235387297" CREATED="1619696648961" MODIFIED="1619696763078"/>
 <node TEXT="\latex at low temperature, boundary dominates \\&#xa;$k\propto T^3$ (due to specific heat&apos;s dependency)" ID="ID_1979472980" CREATED="1619696665938" MODIFIED="1619696822427"/>
 <node TEXT="the exp fitting has arbitrariness wrt. the treatment of DOS, phonon group velocity, and dispersion" ID="ID_242542763" CREATED="1619697045401" MODIFIED="1619697100671"/>
@@ -1032,7 +1032,7 @@
 </node>
 <node TEXT="\latex Linearization \\&#xa;$f(t) = f^0+f^\prime(t)$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619140225671"/>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
-<node TEXT="Scattering" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1619400777321">
+<node TEXT="Scattering" FOLDED="true" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1619400777321">
 <node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
 
 <html>
@@ -1098,6 +1098,13 @@
 <node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
 </node>
 </node>
+<node TEXT="\latex Wiedemann-Franz Law(thermal conduc of elec)\\&#xa;$L=\frac{k_e}{\sigma T}\sim 2.45\times 10^{-8}(W\Omega K^{-2})$" ID="ID_371885197" CREATED="1619875787942" MODIFIED="1619878804188">
+<node TEXT="\latex assuming no current flow, the tc due to electrons:\\&#xa;$k_e=\frac13C_ev_F^2\tau_E$, $C_e$ is volumetric specific heat of electrons,&#xa;\\$\tau_E$ is energy relaxation time(average weighted against energy)" ID="ID_1268470021" CREATED="1619877372682" MODIFIED="1619878305714">
+<node TEXT="\latex In general, $\tau_{energy} \neq \tau_{momentum}$,\\ typically however they are very close" ID="ID_332636633" CREATED="1619878357057" MODIFIED="1619878425833"/>
+</node>
+<node TEXT="\latex&#xa;$L$ is called Lorentz number.\\&#xa;(many metals obey this law with slight changes in $L$\\&#xa;$L$ for semiconductors may change, but the magnitude is close)" ID="ID_1919320301" CREATED="1619878589200" MODIFIED="1619878813078"/>
+<node TEXT="used to estimate the electron contribution to t.c.&#xa;OR calculate t.c. directly from electrical conductivity in metals" ID="ID_1187575717" CREATED="1619878813771" MODIFIED="1619878894642"/>
+</node>
 </node>
 <node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
 <edge COLOR="#7c0000"/>
@@ -1118,6 +1125,20 @@
 </node>
 <node TEXT="basically intro momentum&apos;s direction info into DOS&#xa;to analyse directional transport" ID="ID_178691140" CREATED="1619360867203" MODIFIED="1619360927413"/>
 </node>
+</node>
+<node TEXT="\latex Onsager reciprocity\\&#xa;$L_{jk}=L_{kl}$" POSITION="right" ID="ID_803153255" CREATED="1619880100477" MODIFIED="1619880757433">
+<edge COLOR="#007c00"/>
+<node TEXT="the transport coefficients are often related" ID="ID_1553998784" CREATED="1619880111533" MODIFIED="1619880123248">
+<node TEXT="more than a result from BTE" ID="ID_1571432895" CREATED="1619880137672" MODIFIED="1619880145251"/>
+</node>
+<node TEXT="requirement of &quot;time reversal invariance&quot;" ID="ID_729577442" CREATED="1619880165645" MODIFIED="1619880182786">
+<node TEXT="mechanical eq.: the particles retrace their former paths&#xa;if all velocities are reversed" ID="ID_815727405" CREATED="1619880186169" MODIFIED="1619880392787"/>
+</node>
+<node TEXT="\latex the flux of any extensive variable of a system or at a local point of a system can be expressed as a linear combination of all the generalized driving forces $F_j$: $J_k=\sum_j L_{jk}F_j$" ID="ID_1820125295" CREATED="1619880408080" MODIFIED="1619880766185">
+<node TEXT="the generalized forces are the&#xa;driving forces for entropy production" ID="ID_685785518" CREATED="1619880705078" MODIFIED="1619880729373"/>
+<node TEXT="\latex $L_{jk}=L_{kl}$ is called the kinetic coefficients" ID="ID_1342430749" CREATED="1619880656013" MODIFIED="1619880685150"/>
+</node>
+<node TEXT="\latex e.g. for local thermoelectric transport: \\&#xa;the generalized forces: $\nabla\frac1T$ for heat flow\\&#xa;$\frac{-\nabla \Phi}T$ for electrical current" ID="ID_1873985162" CREATED="1619880868251" MODIFIED="1619881139713"/>
 </node>
 </node>
 </map>
