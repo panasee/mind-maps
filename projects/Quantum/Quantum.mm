@@ -1,7 +1,7 @@
 <map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.948">
-    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff"/>
+    <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -77,9 +77,9 @@
 </node>
 </node>
 </node>
-<node TEXT="\latex Time-dependent perturbation theory\\&#xa;$H=H_0+V(t), |j(t)\rangle=e^{-iE_jt/\hbar}|j\rangle$\\&#xa;$H|\psi(t)\rangle=i\hbar\frac\partial{\partial t}|\psi(t)\rangle$\\&#xa;$|\psi(t)\rangle=\sum_nc_n(t)e^{-iE_nt/\hbar}|n\rangle$" ID="ID_1961161609" CREATED="1619439328417" MODIFIED="1619441109570">
+<node TEXT="\latex Time-dependent perturbation theory\\&#xa;$H=H_0+V(t), |j(t)\rangle=e^{-iE_jt/\hbar}|j\rangle$\\&#xa;$H|\psi(t)\rangle=i\hbar\frac\partial{\partial t}|\psi(t)\rangle$\\&#xa;$|\psi(t)\rangle=\sum_nc_n(t)|n(t)\rangle=\sum_nc_n(t)e^{-iE_nt/\hbar}|n\rangle$" ID="ID_1961161609" CREATED="1619439328417" MODIFIED="1619967387412">
 <node TEXT="\latex plug $|\psi(t)\rangle$ into S.E.:&#xa;$\sum_i(i\hbar\frac{dc_i}{dt}-c_i(t)V(t))e^{-iE_it/\hbar}|i\rangle=0$\\&#xa;multiply through by bra $\langle n |$:&#xa;$\frac{dc_n}{dt}=\frac{-i}{\hbar}\sum_k\langle n|V(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;this is an \textbf{exact } solution, difficult to find with many levels(many $c_k(t)$)" ID="ID_169184873" CREATED="1619442120341" MODIFIED="1619443349524">
-<node TEXT="\latex rewrite into: $c_n(t)=c_n(0)-\frac i\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k(t^\prime)e^{-i(E_k-E_n)t^\prime/\hbar}$\\&#xa;use iterative solution: $c_n(t)=c_n^{(0)}(t)+c_n^{(1)}(t)+c_n^{(2)}(t)+\cdots$\\&#xa;(e.g. $c_n^{(1)}(t)=c_n(0)+\frac{-i}\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k^{(0)}e^{-i(E_k-E_n)t^\prime/\hbar}$)" ID="ID_81193065" CREATED="1619443362471" MODIFIED="1619443896590"/>
+<node TEXT="\latex rewrite into: $c_n(t)=c_n(0)-\frac i\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k(t^\prime)e^{-i(E_k-E_n)t^\prime/\hbar}$\\&#xa;use iterative solution: $c_n(t)=c_n^{(0)}(t)+c_n^{(1)}(t)+c_n^{(2)}(t)+\cdots$\\&#xa;(e.g. $c_n^{(1)}(t)=c_n(0)+\frac{-i}\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k^{(0)}e^{-i(E_k-E_n)t^\prime/\hbar}$)" ID="ID_81193065" CREATED="1619443362471" MODIFIED="1619967294097"/>
 <node TEXT="other simplifications such as&#xa;Fermi&apos;s Golden Rule (relate the state transitions to DOS)&#xa;Dyson series (apply the iterative method to the time evolution operator)&#xa;(also one of the starting points for Feynman diagrams)" ID="ID_829748089" CREATED="1619444811321" MODIFIED="1619445110981"/>
 </node>
 </node>
