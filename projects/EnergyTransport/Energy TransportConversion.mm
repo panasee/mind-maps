@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.242">
+<hook NAME="MapStyle" zoom="2.0">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -1078,6 +1078,16 @@
 <node TEXT="\latex $L_{jk}=L_{kl}$ is called the kinetic coefficients" ID="ID_1342430749" CREATED="1619880656013" MODIFIED="1619880685150"/>
 </node>
 <node TEXT="\latex e.g. for local thermoelectric transport: \\&#xa;the generalized forces: $\nabla\frac1T$ for heat flow\\&#xa;$\frac{-\nabla \Phi}T$ for electrical current" ID="ID_1873985162" CREATED="1619880868251" MODIFIED="1619881139713"/>
+</node>
+<node TEXT="\latex 热核(Heat kernel)\\&#xa;$K(t,x,y)=\frac1{(4\pi a^2t)^{d/2}}e^{-\frac{|x-y|^2}{4a^2t}}$" POSITION="right" ID="ID_280278447" CREATED="1620128517202" MODIFIED="1620129575409">
+<edge COLOR="#7c007c"/>
+<node TEXT="\latex 热传递方程$\partial_tu-a^2\nabla^2u=0$的初值问题\\(给定$t=0$的$u(x,0)$)的格林函数" ID="ID_1846830172" CREATED="1620128642939" MODIFIED="1620128925321"/>
+<node TEXT="\latex free S.E.:$i\partial_t\psi+\frac{\nabla^2}{2m}\psi=0$\\&#xa;set $a^2=\frac i{2m}$, 不严格地得出其&quot;\textbf{虚时热核}&quot;:\\&#xa;$K(t,x,y)=(\frac{m}{2\pi it})^{d/2}e^{\frac{im|x-y|^2}{2t}}$" ID="ID_743479664" CREATED="1620131978233" MODIFIED="1620132166148">
+<node TEXT="与实时热核相比性质有很大区别, 实时热核是Schwartz(速降光滑)函数, 因此实时热核作用的函数光滑性会不可逆地瞬间提升&#xa;而虚时热核比较普通,对函数的光滑性无改善, 但却可逆" ID="ID_414705837" CREATED="1620132250995" MODIFIED="1620134291711">
+<node TEXT="对应物理意义: 热传递方程不能时间反演,&#xa; 而S.E.可以时间反演" ID="ID_1593114501" CREATED="1620132457427" MODIFIED="1620132508150"/>
+<node TEXT="\latex Schwartz函数: 当自变量X\rightarrow\infty时,\\&#xa;函数值f(X)\rightarrow0 &quot;足够快&quot;" ID="ID_1812585713" CREATED="1620134295866" MODIFIED="1620134380379"/>
+</node>
+</node>
 </node>
 </node>
 </map>

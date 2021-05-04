@@ -205,14 +205,20 @@
 <node TEXT="解核,基本解和格林函数" POSITION="right" ID="ID_1152761620" CREATED="1620117183453" MODIFIED="1620117366908">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex L为线性微分算子(系数可变),考虑初值问题:\\&#xa;$\left\{   \begin{aligned} &amp;Lu(t,x)=f(t,x)\\&amp;u(0,x)=\varphi(x)  \end{aligned}   \right. $总是可分解为两个问题\\$\left\{   \begin{aligned} &amp;Lu(t,x)=f(t,x)\\&amp;u(0,x)=0  \end{aligned}   \right. $和$\left\{   \begin{aligned} &amp;Lu(t,x)=0\\&amp;u(0,x)=\varphi(x)  \end{aligned}   \right. $\\&#xa;只要给出两个问题的解$u_1$和$u_2$,$u_1+u_2$即为原方程解" ID="ID_1729117206" CREATED="1620117413385" MODIFIED="1620117928554">
-<node TEXT="\latex 令$f=\delta(t-s)\delta(x-y),\varphi=\delta(x-y)$,\\则$u_1$和$u_2$就是2个问题各自的\textbf{格林函数}$G_1(t,x,s,y)$和$G_2(t,x,y)$\\&#xa;原方程的解就可以表示为:\\$u(t,x)=\int_{\mathbb{R}^{d+1}}G_1(t,x,s,y)f(s,y)dsdy+\int_{\mathbb{R}^d}G_2(t,x,y)\varphi(y)dy$" ID="ID_610963888" CREATED="1620117639866" MODIFIED="1620118223849">
+<node TEXT="\latex 令$f=\delta(t-s)\delta(x-y),\varphi=\delta(x-y)$,\\则$u_1$和$u_2$就是2个问题各自的\textbf{格林函数}$G_1(t,x,s,y)$和$G_2(t,x,y)$\\&#xa;原方程的解就可以表示为:\\$u(t,x)=\int_{\mathbb{R}^{d+1}}G_1(t,x,s,y)f(s,y)dsdy+\int_{\mathbb{R}^d}G_2(t,x,y)\varphi(y)dy$" ID="ID_610963888" CREATED="1620117639866" MODIFIED="1620125855714">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_859003991" STARTINCLINATION="86;44;" ENDINCLINATION="210;6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex 对于常系数线性微分算子L, 令$f=\delta(t)\delta(x),\varphi=\delta(x)$\\此时得到的解为\textbf{基本解},设为$\Delta_1(t,x)$和$\Delta_2(t,x)$\\&#xa;因此$G_1(t,x,s,y)=\Delta_1(t-s,x-y)$,$G_2(t,x,y)=\Delta_2(t,x-y)$\\&#xa;此时的解可以表示为卷积$u=\Delta_1*_{d+1}f+\Delta_2*_d\varphi$" ID="ID_597264773" CREATED="1620117907245" MODIFIED="1620118705628">
 <node TEXT="基本解只适用于常系数线性方程,&#xa;格林函数是更广泛的概念" ID="ID_1883518118" CREATED="1620118731214" MODIFIED="1620118779916"/>
 </node>
+<node TEXT="\latex 由于$\delta$是广义函数, 因此格林函数也未必是普通函数, 用格林函数求出的解也未必是古典解" ID="ID_93589229" CREATED="1620125882832" MODIFIED="1620125941634"/>
 </node>
 </node>
-<node TEXT="\latex 对于函数空间的线性变换T,&#xa;若$Tf(x)=\int_\Omega K(x,y)f(y)$,&#xa;\\则$K(x,y)$为T的核函数" ID="ID_1630932441" CREATED="1620118832322" MODIFIED="1620118956673">
+<node TEXT="\latex 对于函数空间的线性变换T,&#xa;若$Tf(x)=\int_\Omega K(x,y)f(y)$,&#xa;\\则$K(x,y)$为T的\textbf{核函数}(与线性变换的核不同)&#xa;\\(K(x,y)其实是线性变换T在该函数空间的矩阵表示)&#xa;\\(核函数的作用方式类似矩阵乘法,不必然剩余原变量)" ID="ID_1630932441" CREATED="1620118832322" MODIFIED="1620125670056">
+<node TEXT="\latex 此处的矩阵表示不是在基上的展开,\\&#xa;而是$f(y)=[f(y_i)]$" ID="ID_372846373" CREATED="1620125534148" MODIFIED="1620125583523"/>
 <node TEXT="\latex e.g. Fourier Transform:\\&#xa;$K(k,x)=\frac1{(2\pi)^{d/2}}e^{-ik\cdot x}$" ID="ID_1794731516" CREATED="1620119033202" MODIFIED="1620119326700"/>
+<node TEXT="\latex 格林函数即为偏微分算子的逆$L^{-1}$的核函数" ID="ID_859003991" CREATED="1620125797147" MODIFIED="1620125839675">
+<node TEXT="\latex 格林函数本质上只是$L^{-1}$的另一种表现形式" ID="ID_114829002" CREATED="1620125961293" MODIFIED="1620125983710"/>
+</node>
 </node>
 </node>
 </node>

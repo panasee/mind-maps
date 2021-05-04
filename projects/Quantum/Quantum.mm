@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.948">
+<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.464">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -54,7 +54,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="QHE" POSITION="right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
@@ -171,7 +171,7 @@
 <node TEXT="\latex Proof:$\frac{dE_\lambda}{d\lambda}=\frac d{d\lambda}\langle\psi_\lambda|\hat H_\lambda|\psi_\lambda\rangle$\\&#xa;$=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle+E_\lambda\frac d{d\lambda}\langle \psi_\lambda|\psi_\lambda\rangle$" ID="ID_49562626" CREATED="1620101624730" MODIFIED="1620101755636"/>
 <node TEXT="\latex for time-dependent wavefunctions: \\&#xa;H-F theorem is not valid, only the following identity holds\\&#xa;$\langle\Psi_\lambda(t)|\frac{\partial H_\lambda}{\partial \lambda}|\Psi_\lambda(t)\rangle =i\hbar \frac\partial{\partial t}\langle\Psi_\lambda(t)|\frac{\partial \Psi_\lambda(t)}{\partial \lambda}\rangle$" ID="ID_1603038051" CREATED="1620101812062" MODIFIED="1620102103461"/>
 </node>
-<node TEXT="Scattering" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
+<node TEXT="Scattering" FOLDED="true" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
 <edge COLOR="#808080"/>
 <node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
 
@@ -242,6 +242,16 @@
 <node TEXT="\latex in metals, when $T&gt;T_{Debye}$, the no. of phonons is  proportional to $T$ $\Rightarrow$ $\frac1\tau\propto T$" ID="ID_1129521248" CREATED="1619681192678" MODIFIED="1619681298648"/>
 <node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
 </node>
+</node>
+<node TEXT="量子力学公理体系" POSITION="left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
+<edge COLOR="#808080"/>
+<node TEXT="\latex 每个系统对应一个可分无穷维的复Hilbert空间H,\\其中一元素$\psi$完备地描述了系统的状态." ID="ID_830415903" CREATED="1620133241205" MODIFIED="1620133332640">
+<node TEXT="\latex 可分无穷维的H空间彼此等价。物理中常把H取为\\$L^2(-\infty,+\infty)$或$l^2$,把其中元素$\psi$称为波函数/态矢量。" ID="ID_722646190" CREATED="1620133346734" MODIFIED="1620133422467"/>
+</node>
+<node TEXT="\latex 每个可观测量$\mathscr A$ 唯一的对应于一个H中的稠定的自伴算子A。" ID="ID_944096249" CREATED="1620133433020" MODIFIED="1620133485793"/>
+<node TEXT="\latex 若系统的态矢量为$\psi$，则可观测量$\mathscr A$ 的观测期望值为\\$E(\mathscr A)=\langle\psi,A\psi\rangle$且$E(\mathscr A^m)=\langle \psi,A^m\psi\rangle$" ID="ID_1280715706" CREATED="1620133496217" MODIFIED="1620133596238"/>
+<node TEXT="\latex 若一次观测后，对可观察量A的测量结果为$\lambda$,\\则测量之后系统的态$\psi^\prime$应满足$A\psi^\prime=\lambda\psi^\prime$(坍缩)" ID="ID_639426441" CREATED="1620133654952" MODIFIED="1620133725153"/>
+<node TEXT="\latex 态矢量A的时间演化方程由薛定谔方程决定。" ID="ID_406711474" CREATED="1620133746380" MODIFIED="1620133753528"/>
 </node>
 </node>
 </map>
