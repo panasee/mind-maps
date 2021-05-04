@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.2">
+<hook NAME="MapStyle" zoom="1.242">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-543;30;" ENDINCLINATION="-3;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-542;30;" ENDINCLINATION="-2;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -982,7 +982,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Boltzmann Transport Eq&#xa;(the dist here is for specific mode)" FOLDED="true" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619966112507">
+<node TEXT="Boltzmann Transport Eq&#xa;(the dist here is for specific mode)" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619966112507">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
@@ -1036,72 +1036,6 @@
 </node>
 </node>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
-<node TEXT="Scattering" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1619400777321">
-<node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>rigorous</b>&nbsp;way: solve time-dependent Schrodinger eq. for the combined system of participating particles
-    </p>
-    <p>
-      <b>simpler</b>&nbsp;way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="\latex Fermi&apos;s Golden Rule \\&#xa;(simplified Time-dependent perturbation theory)\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$\\&#xa;$W_i^f={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\delta(E_f-E_i), \; ([\delta]=J^{-1}\text{ here})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619521066348">
-<node TEXT="\latex Proof:\\perturbation theory gives:\\&#xa;$\frac{dc_n(t)}{dt}=\frac{-i}{\hbar}\sum_k\langle n|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;initial state is eigenstate $|i\rangle$, to final state $|f\rangle$\\&#xa;and for weak perturbation $H^\prime\sim0\Rightarrow c_k(t)\approx \delta_{k,i}$ then: $i\hbar\frac{dc_f}{dt}=H^\prime_{fi}(t)c_i(t)e^{-i\omega_{if}t}\Rightarrow c_f(t)=\frac1{i\hbar}\int_0^t dt^\prime H^\prime_{fi}(t^\prime)e^{-i\omega_{if}t^\prime}$\\&#xa;for constant perturbation $H^\prime(t)=H^\prime\Theta(t)$:\\&#xa;$c_f(t)=\frac1{i\hbar} H^\prime_{fi}\frac1{i\omega_{fi}}(e^{i\omega_{fi}t}-1)=-\frac2\hbar H^\prime_{fi}e^{i\omega_{fi}t/2}\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}}$\\&#xa;Probability: $\mathscr P_f = |c_f(t)|^2=\frac1{\hbar^2}|H^\prime_{fi}|^2|\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2}|^2$\\&#xa;\therefore, transition rate: $\Gamma_{i\rightarrow f}=\frac d{dt}\mathscr P_f(t)=\frac{2|H^\prime_{fi}|^2}{\hbar^2}\frac{\sin \omega_{fi} t}{\omega_{fi}}$" ID="ID_1862765249" CREATED="1619445618398" MODIFIED="1619587125017">
-<node TEXT="\latex $t\rightarrow \infty$, use the \textbf{asymptotic relation of delta func}\\&#xa;$\delta(x)=\lim\limits_{t\rightarrow \infty}\frac{\sin^2(xt)}{\pi x^2t}$, and $\delta(\omega_{fi}/2)=2\hbar\delta(\hbar\omega_{fi})=2\hbar\delta(E_{fi})$ \\&#xa;so $(\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2})^2=2\pi\hbar\delta(E_{fi})$\\&#xa;thus: $\Gamma_{i\rightarrow f}=\frac{2\pi}\hbar |H^\prime_{fi}|^2\delta(E_{fi})$" ID="ID_695389312" CREATED="1619573000248" MODIFIED="1619574072078">
-<node TEXT="\latex for continuum state, total transition rate: $R_{i\rightarrow f}=\int \Gamma_{i\rightarrow f}\rho(E_f)dE_f=\frac{2\pi}\hbar|H^\prime_{fi}|^2\rho(E_i)$" ID="ID_550348248" CREATED="1619574107170" MODIFIED="1619574234043"/>
-</node>
-<node TEXT="\latex $M_{fi}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619586891637"/>
-</node>
-<node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
-<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619424584611">
-<font NAME="Microsoft YaHei UI"/>
-<node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
-<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1619660559221">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-9;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
-</node>
-</node>
-<node TEXT="\latex scattering term in the BTE is the net \\gain of particles in one quantum state" ID="ID_719726187" CREATED="1619587263938" MODIFIED="1619587297611"/>
-<node TEXT="\latex reciprocity relation $W(k_1,k_2\rightarrow k_1^\prime,k_2^\prime)=W( k_1^\prime,k_2^\prime\rightarrow k_1,k_2)$" ID="ID_1790040997" CREATED="1619587607030" MODIFIED="1619587716869">
-<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W[f(r,k_1^\prime,t)f(r,k_2^\prime,t)\\&#xa;- f(r,k_1,t)f(r,k_2,t)]d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_1531438706" CREATED="1619659859249" MODIFIED="1619660849356">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1105920280" STARTINCLINATION="1486;0;" ENDINCLINATION="1486;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="phonon scattering" ID="ID_773152946" CREATED="1619665599834" MODIFIED="1619672575595">
-<node TEXT="" ID="ID_555673179" CREATED="1619674534873" MODIFIED="1619674534874">
-<hook NAME="FirstGroupNode"/>
-</node>
-<node TEXT="\latex approximation for relaxtion time\\&#xa;3-phonon U process: $\tau_u^{-1}=Be^{-\theta_D/bT}T^3\omega^2$ \\&#xa;$B$ and $b$ are constants from experimental fitting" ID="ID_1172281664" CREATED="1619672621910" MODIFIED="1619672770112"/>
-<node TEXT="\latex for impurities, scattering obeys the Rayleigh law:\\&#xa;$\tau_I^{-1}=A\omega^4$" ID="ID_1553154070" CREATED="1619674192723" MODIFIED="1619674240039"/>
-<node TEXT="\latex boundary scattering:$\tau_b^{-1}=b_sv/L$\\&#xa;($b_s$ is shape factor modeled similarly to radiation shape factor)" ID="ID_357810965" CREATED="1619674248117" MODIFIED="1619674349139"/>
-<node TEXT="" ID="ID_1503518293" CREATED="1619674534872" MODIFIED="1619674534873">
-<hook NAME="SummaryNode"/>
-<hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619696566759">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1019251007" MIDDLE_LABEL="used for semi-exp predict" STARTINCLINATION="656;0;" ENDINCLINATION="656;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-</node>
-</node>
-</node>
-<node TEXT="electron scattering" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
-<node TEXT="predominantly scattered by phonon, elec-elec scattering is typically much weaker" ID="ID_323045696" CREATED="1619676762573" MODIFIED="1619676789801"/>
-<node TEXT="process can also be normal/umklapp" ID="ID_1878607689" CREATED="1619676822258" MODIFIED="1619676849560">
-<node TEXT="in most cases the dominant scattering&#xa;process is Normal process" ID="ID_1954542124" CREATED="1619676906516" MODIFIED="1619680928412"/>
-</node>
-<node TEXT="\latex in metals, when $T&gt;T_{Debye}$, the no. of phonons is  proportional to $T$ $\Rightarrow$ $\frac1\tau\propto T$" ID="ID_1129521248" CREATED="1619681192678" MODIFIED="1619681298648"/>
-<node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
-</node>
-</node>
 <node TEXT="\latex Wiedemann-Franz Law(thermal conduc of elec)\\&#xa;$L=\frac{k_e}{\sigma T}\sim 2.45\times 10^{-8}(W\Omega K^{-2})$" ID="ID_371885197" CREATED="1619875787942" MODIFIED="1619878804188">
 <node TEXT="\latex assuming no current flow, the tc due to electrons:\\&#xa;$k_e=\frac13C_ev_F^2\tau_E$, $C_e$ is volumetric specific heat of electrons,&#xa;\\$\tau_E$ is energy relaxation time(average weighted against energy)" ID="ID_1268470021" CREATED="1619877372682" MODIFIED="1619878305714">
 <node TEXT="\latex In general, $\tau_{energy} \neq \tau_{momentum}$,\\ typically however they are very close" ID="ID_332636633" CREATED="1619878357057" MODIFIED="1619878425833"/>
@@ -1109,6 +1043,7 @@
 <node TEXT="\latex&#xa;$L$ is called Lorentz number.\\&#xa;(many metals obey this law with slight changes in $L$\\&#xa;$L$ for semiconductors may change, but the magnitude is close)" ID="ID_1919320301" CREATED="1619878589200" MODIFIED="1619878813078"/>
 <node TEXT="used to estimate the electron contribution to t.c.&#xa;OR calculate t.c. directly from electrical conductivity in metals" ID="ID_1187575717" CREATED="1619878813771" MODIFIED="1619878894642"/>
 </node>
+<node TEXT="scattering" ID="ID_506433310" CREATED="1620109441563" MODIFIED="1620109479625" LINK="../Quantum/Quantum.mm"/>
 </node>
 <node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
 <edge COLOR="#7c0000"/>

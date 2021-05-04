@@ -54,15 +54,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="QHE" POSITION="right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="secular equation(久期方程)" POSITION="left" ID="ID_510894036" CREATED="1544943567606" MODIFIED="1544943669963">
-<edge COLOR="#0000ff"/>
-<node TEXT="namely the characteristic polynomial" ID="ID_1883610095" CREATED="1544943839641" MODIFIED="1544943855188"/>
-</node>
-<node TEXT="pertubation theory" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1545021401910">
+<node TEXT="pertubation theory" FOLDED="true" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1545021401910">
 <edge COLOR="#00ff00"/>
 <node TEXT="微扰理论对能量的近似很精确,但对于波函数近似不太理想" ID="ID_1710819061" CREATED="1545021402789" MODIFIED="1545021435659"/>
 <node TEXT="微扰论通过微扰展开然后舍去高阶项得到(注意Hamiltonian本身微扰是确定的,只有一阶)" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
@@ -100,7 +96,7 @@
 <node TEXT="DFT" POSITION="right" ID="ID_276045650" CREATED="1553567642598" MODIFIED="1553567906394" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/Density%20Functional%20Theory.mm">
 <edge COLOR="#7c0000"/>
 </node>
-<node TEXT="Symmetry" POSITION="left" ID="ID_1724974685" CREATED="1555986884302" MODIFIED="1555986890962">
+<node TEXT="Symmetry" FOLDED="true" POSITION="left" ID="ID_1724974685" CREATED="1555986884302" MODIFIED="1555986890962">
 <edge COLOR="#808080"/>
 <node TEXT="Continuous symmetry(e.g. Lorentz invariance)" ID="ID_1529360401" CREATED="1555986892596" MODIFIED="1555987009119"/>
 <node TEXT="Discrete symmetry(e.g. PT symmetry)" ID="ID_398097461" CREATED="1555987010194" MODIFIED="1555987041219"/>
@@ -109,7 +105,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Band Theory" ID="ID_1741423531" CREATED="1603077243351" MODIFIED="1603077316154" LINK="Band%20Theory.mm"/>
 </node>
-<node TEXT="spin" POSITION="left" ID="ID_841999427" CREATED="1603274393760" MODIFIED="1603274401717">
+<node TEXT="spin" FOLDED="true" POSITION="left" ID="ID_841999427" CREATED="1603274393760" MODIFIED="1603274401717">
 <edge COLOR="#808080"/>
 <node TEXT="not involved in Schrodinger Equation, but only emerge in relativistic quantum mechanics" ID="ID_1741280739" CREATED="1603274402509" MODIFIED="1603274434345"/>
 </node>
@@ -125,8 +121,11 @@
 <node TEXT="the continuity of 1st derivatives can be derived by integrating SE&#xa;over an infinitely thin control volume encompassing the boundary" ID="ID_158962103" CREATED="1603106987923" MODIFIED="1603107072613"/>
 </node>
 </node>
+<node TEXT="dimension of wavefunction" ID="ID_450095409" CREATED="1604325703434" MODIFIED="1620102427358">
+<node TEXT="\latex $[\varphi]$ is different in concrete or continuous systems.\\&#xa;in concrete systems, $|\varphi|^2$ is simply possibility, $[\varphi]=[1]$\\&#xa;in continuous systems,$|\varphi|^2$ is pdf, so $[\varphi]=[m^{-\frac n2}]$" ID="ID_1018717122" CREATED="1604325708675" MODIFIED="1620102437170"/>
 </node>
-<node TEXT="Quantization" POSITION="right" ID="ID_1993487371" CREATED="1603344453639" MODIFIED="1603344457948">
+</node>
+<node TEXT="Quantization" FOLDED="true" POSITION="right" ID="ID_1993487371" CREATED="1603344453639" MODIFIED="1603344457948">
 <edge COLOR="#808080"/>
 <node TEXT="infinite potential well" ID="ID_826106204" CREATED="1603344486734" MODIFIED="1603344492607"/>
 <node TEXT="rotation(spherical harmonic)" ID="ID_863293869" CREATED="1603344459893" MODIFIED="1603355146959">
@@ -145,22 +144,14 @@
 <node TEXT="lifting of the degeneracy: for multi-electron atoms, elec-elec interaction&#xa;can seperate the energy of different states with the same n apart" ID="ID_1945703512" CREATED="1603356557505" MODIFIED="1603356648077"/>
 <node TEXT="the inert atom: energy gap between states of different n is much larger&#xa;than thermal fluctuation(26 meV at RT)" ID="ID_301192667" CREATED="1603356668855" MODIFIED="1603356730430"/>
 </node>
-<node TEXT="dimension problem" FOLDED="true" POSITION="left" ID="ID_450095409" CREATED="1604325703434" MODIFIED="1604325708191">
-<edge COLOR="#808080"/>
-<node TEXT="\latex $\varphi$ is different in concrete or continuous systems.\\&#xa;in concrete systems, $|\varphi|^2$ is simply possibility, $[\varphi]=[1]$\\&#xa;in continuous systems,$|\varphi|^2$ is pdf, so $[\varphi]=[m^{-\frac n2}]$" ID="ID_1018717122" CREATED="1604325708675" MODIFIED="1604325880000"/>
-</node>
-<node TEXT="Matrix" POSITION="right" ID="ID_1554068979" CREATED="1617102865846" MODIFIED="1617102869200">
-<edge COLOR="#808080"/>
-<node TEXT="\latex $\mathcal O_{mn}\equiv \langle \psi_m |\hat\mathcal O|\psi_n\rangle$: Matrix element corresponding to \\&#xa;transition from $|\psi_m\rangle$ to $|\psi_n\rangle$" ID="ID_1379995881" CREATED="1617102870707" MODIFIED="1617104675765"/>
-</node>
-<node TEXT="\latex Master Equation in Quantum(Gorini-Kossakowski-Sudarshan-Lindblad equation) \\&#xa;$\dot {\rho }=-{\frac i\hbar}[\mathcal H,\rho ]+\sum _{n,m=1}^{N^{2}-1}h_{nm}\left(A_{n}\rho A_{m}^{\dagger }-{\frac {1}{2}}\left\{A_{m}^{\dagger }A_{n},\rho \right\}\right)$" POSITION="left" ID="ID_763536315" CREATED="1618294827473" MODIFIED="1618295159736">
+<node TEXT="\latex Master Equation in Quantum(Gorini-Kossakowski-Sudarshan-Lindblad equation) \\&#xa;$\dot {\rho }=-{\frac i\hbar}[\mathcal H,\rho ]+\sum _{n,m=1}^{N^{2}-1}h_{nm}\left(A_{n}\rho A_{m}^{\dagger }-{\frac {1}{2}}\left\{A_{m}^{\dagger }A_{n},\rho \right\}\right)$" FOLDED="true" POSITION="left" ID="ID_763536315" CREATED="1618294827473" MODIFIED="1618295159736">
 <edge COLOR="#808080"/>
 <node TEXT="for open quantum system where some participating&#xa;degrees of freedom are missed&#xa;(there is decay and the phase coherence can&apos;t be&#xa;maintained throughout the process)" ID="ID_804844522" CREATED="1618294832841" MODIFIED="1618295595735">
 <node TEXT="Schrodinger Equation is a special case&#xa;of the more general Lindblad equation" ID="ID_389188448" CREATED="1618295108218" MODIFIED="1618295131578"/>
 </node>
 <node TEXT="\latex $A_m$ is an arbitrary orthonormal basis of the Hilbert-Schmidt\\&#xa; operators on the system&apos;s Hilbert space \\&#xa;$A_n=|i\rangle\langle j|,\; i,j=1\sim N$(due to $\sum|i\rangle\langle i|=1$, total ($N^2-1$)terms)" ID="ID_467098312" CREATED="1618296806892" MODIFIED="1618297175556"/>
 </node>
-<node TEXT="Multi-State system" POSITION="right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
+<node TEXT="Multi-State system" FOLDED="true" POSITION="right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
 <edge COLOR="#808080"/>
 <node TEXT="two-state quantum system" FOLDED="true" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1618299076700">
 <font NAME="TSCu_Times" SIZE="16"/>
@@ -173,6 +164,84 @@
 <node TEXT="可以理解为混合态就是经典情形的混合态,纯态是量子叠加态对应的情形（单态）" ID="ID_1000925271" CREATED="1618299108568" MODIFIED="1618299162982"/>
 </node>
 <node TEXT="Density Matrix" ID="ID_1185707368" CREATED="1618299094304" MODIFIED="1618299097822"/>
+</node>
+<node TEXT="\latex Hellmann-Feynman theorem \\&#xa;$\frac{dE_\lambda}{d\lambda}=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle$" FOLDED="true" POSITION="right" ID="ID_1773091735" CREATED="1620099943171" MODIFIED="1620100015099">
+<edge COLOR="#808080"/>
+<node TEXT="\latex $\hat H_\lambda$ depends upon continuous parameter \lambda,\\ thus $|\psi_\lambda\rangle$ depends implicitly upon \lambda" ID="ID_555795630" CREATED="1620100072338" MODIFIED="1620100152016"/>
+<node TEXT="\latex Proof:$\frac{dE_\lambda}{d\lambda}=\frac d{d\lambda}\langle\psi_\lambda|\hat H_\lambda|\psi_\lambda\rangle$\\&#xa;$=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle+E_\lambda\frac d{d\lambda}\langle \psi_\lambda|\psi_\lambda\rangle$" ID="ID_49562626" CREATED="1620101624730" MODIFIED="1620101755636"/>
+<node TEXT="\latex for time-dependent wavefunctions: \\&#xa;H-F theorem is not valid, only the following identity holds\\&#xa;$\langle\Psi_\lambda(t)|\frac{\partial H_\lambda}{\partial \lambda}|\Psi_\lambda(t)\rangle =i\hbar \frac\partial{\partial t}\langle\Psi_\lambda(t)|\frac{\partial \Psi_\lambda(t)}{\partial \lambda}\rangle$" ID="ID_1603038051" CREATED="1620101812062" MODIFIED="1620102103461"/>
+</node>
+<node TEXT="Scattering" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
+<edge COLOR="#808080"/>
+<node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>rigorous</b>&nbsp;way: solve time-dependent Schrodinger eq. for the combined system of participating particles
+    </p>
+    <p>
+      <b>simpler</b>&nbsp;way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex Fermi&apos;s Golden Rule \\&#xa;(simplified Time-dependent perturbation theory)\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$\\&#xa;$W_i^f={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\delta(E_f-E_i), \; ([\delta]=J^{-1}\text{ here})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619521066348">
+<node TEXT="\latex Proof:\\perturbation theory gives:\\&#xa;$\frac{dc_n(t)}{dt}=\frac{-i}{\hbar}\sum_k\langle n|H^\prime(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;initial state is eigenstate $|i\rangle$, to final state $|f\rangle$\\&#xa;and for weak perturbation $H^\prime\sim0\Rightarrow c_k(t)\approx \delta_{k,i}$ then: $i\hbar\frac{dc_f}{dt}=H^\prime_{fi}(t)c_i(t)e^{-i\omega_{if}t}\Rightarrow c_f(t)=\frac1{i\hbar}\int_0^t dt^\prime H^\prime_{fi}(t^\prime)e^{-i\omega_{if}t^\prime}$\\&#xa;for constant perturbation $H^\prime(t)=H^\prime\Theta(t)$:\\&#xa;$c_f(t)=\frac1{i\hbar} H^\prime_{fi}\frac1{i\omega_{fi}}(e^{i\omega_{fi}t}-1)=-\frac2\hbar H^\prime_{fi}e^{i\omega_{fi}t/2}\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}}$\\&#xa;Probability: $\mathscr P_f = |c_f(t)|^2=\frac1{\hbar^2}|H^\prime_{fi}|^2|\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2}|^2$\\&#xa;\therefore, transition rate: $\Gamma_{i\rightarrow f}=\frac d{dt}\mathscr P_f(t)=\frac{2|H^\prime_{fi}|^2}{\hbar^2}\frac{\sin \omega_{fi} t}{\omega_{fi}}$" ID="ID_1862765249" CREATED="1619445618398" MODIFIED="1619587125017">
+<node TEXT="\latex $t\rightarrow \infty$, use the \textbf{asymptotic relation of delta func}\\&#xa;$\delta(x)=\lim\limits_{t\rightarrow \infty}\frac{\sin^2(xt)}{\pi x^2t}$, and $\delta(\omega_{fi}/2)=2\hbar\delta(\hbar\omega_{fi})=2\hbar\delta(E_{fi})$ \\&#xa;so $(\frac{\sin (\omega_{fi}t/2)}{\omega_{fi}/2})^2=2\pi\hbar\delta(E_{fi})$\\&#xa;thus: $\Gamma_{i\rightarrow f}=\frac{2\pi}\hbar |H^\prime_{fi}|^2\delta(E_{fi})$" ID="ID_695389312" CREATED="1619573000248" MODIFIED="1619574072078">
+<node TEXT="\latex for continuum state, total transition rate: $R_{i\rightarrow f}=\int \Gamma_{i\rightarrow f}\rho(E_f)dE_f=\frac{2\pi}\hbar|H^\prime_{fi}|^2\rho(E_i)$" ID="ID_550348248" CREATED="1619574107170" MODIFIED="1619574234043"/>
+</node>
+<node TEXT="\latex $M_{fi}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619586891637"/>
+</node>
+<node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619424584611">
+<font NAME="Microsoft YaHei UI"/>
+<node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
+</node>
+</node>
+<node TEXT="\latex scattering term in the BTE is the net \\gain of particles in one quantum state" ID="ID_719726187" CREATED="1619587263938" MODIFIED="1619587297611"/>
+<node TEXT="\latex reciprocity relation $W(k_1,k_2\rightarrow k_1^\prime,k_2^\prime)=W( k_1^\prime,k_2^\prime\rightarrow k_1,k_2)$" ID="ID_1790040997" CREATED="1619587607030" MODIFIED="1619587716869">
+<node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W[f(r,k_1^\prime,t)f(r,k_2^\prime,t)\\&#xa;- f(r,k_1,t)f(r,k_2,t)]d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_1531438706" CREATED="1619659859249" MODIFIED="1619660849356"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex Lippmann-Schwinger equation\\&#xa;$|\psi^{(\pm)}\rangle = |\phi\rangle +\frac1{E-H_0\pm i\epsilon}V|\psi^{(\pm)}\rangle$\\&#xa;($\frac1A\equiv A^{-1}$)" ID="ID_1577662301" CREATED="1620109497309" MODIFIED="1620115686303">
+<node TEXT="relate the scattered wavefunc with interaction producing scattering(scattering potential)" ID="ID_1104784030" CREATED="1620109534993" MODIFIED="1620109573084"/>
+<node TEXT="equivalent to the S.E. plus the&#xa;typical boundary conditions" ID="ID_673441143" CREATED="1620110241294" MODIFIED="1620110287328">
+<node TEXT="to embed the b.c., L-S eq. must be&#xa;written as an integral eq." ID="ID_405843057" CREATED="1620110291522" MODIFIED="1620110338060"/>
+<node TEXT="for scattering problems, L-S eq. is often more convenient than original S.E." ID="ID_995374118" CREATED="1620110362941" MODIFIED="1620110385866"/>
+</node>
+<node TEXT="\latex $V$ describes interaction between 2 colliding systems\\&#xa;$H_0$ describes non-interacting case (with $E$ \&amp; |\phi\rangle) \\&#xa;$i\epsilon$ is a mathematical technicality to solve eq." ID="ID_820935810" CREATED="1620113558832" MODIFIED="1620114063809"/>
+<node TEXT="\latex Derivation: $H_0|\phi\rangle=E|\phi\rangle$\rightarrow $(H_0+V)|\psi\rangle=E|\psi\rangle$\\&#xa;from H-F theorem, $|\psi\rangle \rightarrow|\phi\rangle \text{ as } V\rightarrow 0$\\&#xa;\therefore $|\psi\rangle=|\phi\rangle+\frac1{E-H_0}V|\psi\rangle$ ($E-H_0$ is singular)\\&#xa;$|\psi^{(\pm)}\rangle = |\phi\rangle +\frac1{E-H_0\pm i\epsilon}V|\psi^{(\pm)}\rangle$ (2 ways give 2 eq.)" ID="ID_899047788" CREATED="1620114260998" MODIFIED="1620115904424"/>
+</node>
+<node TEXT="phonon scattering" ID="ID_773152946" CREATED="1619665599834" MODIFIED="1619672575595">
+<node TEXT="" ID="ID_555673179" CREATED="1619674534873" MODIFIED="1619674534874">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex approximation for relaxtion time\\&#xa;3-phonon U process: $\tau_u^{-1}=Be^{-\theta_D/bT}T^3\omega^2$ \\&#xa;$B$ and $b$ are constants from experimental fitting" ID="ID_1172281664" CREATED="1619672621910" MODIFIED="1619672770112"/>
+<node TEXT="\latex for impurities, scattering obeys the Rayleigh law:\\&#xa;$\tau_I^{-1}=A\omega^4$" ID="ID_1553154070" CREATED="1619674192723" MODIFIED="1619674240039"/>
+<node TEXT="\latex boundary scattering:$\tau_b^{-1}=b_sv/L$\\&#xa;($b_s$ is shape factor modeled similarly to radiation shape factor)" ID="ID_357810965" CREATED="1619674248117" MODIFIED="1619674349139"/>
+<node TEXT="" ID="ID_1503518293" CREATED="1619674534872" MODIFIED="1619674534873">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619696566759"/>
+</node>
+</node>
+<node TEXT="electron scattering" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
+<node TEXT="predominantly scattered by phonon, elec-elec scattering is typically much weaker" ID="ID_323045696" CREATED="1619676762573" MODIFIED="1619676789801"/>
+<node TEXT="process can also be normal/umklapp" ID="ID_1878607689" CREATED="1619676822258" MODIFIED="1619676849560">
+<node TEXT="in most cases the dominant scattering&#xa;process is Normal process" ID="ID_1954542124" CREATED="1619676906516" MODIFIED="1619680928412"/>
+</node>
+<node TEXT="\latex in metals, when $T&gt;T_{Debye}$, the no. of phonons is  proportional to $T$ $\Rightarrow$ $\frac1\tau\propto T$" ID="ID_1129521248" CREATED="1619681192678" MODIFIED="1619681298648"/>
+<node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
+</node>
 </node>
 </node>
 </map>
