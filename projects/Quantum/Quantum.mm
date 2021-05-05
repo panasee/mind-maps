@@ -171,9 +171,9 @@
 <node TEXT="\latex Proof:$\frac{dE_\lambda}{d\lambda}=\frac d{d\lambda}\langle\psi_\lambda|\hat H_\lambda|\psi_\lambda\rangle$\\&#xa;$=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle+E_\lambda\frac d{d\lambda}\langle \psi_\lambda|\psi_\lambda\rangle$" ID="ID_49562626" CREATED="1620101624730" MODIFIED="1620101755636"/>
 <node TEXT="\latex for time-dependent wavefunctions: \\&#xa;H-F theorem is not valid, only the following identity holds\\&#xa;$\langle\Psi_\lambda(t)|\frac{\partial H_\lambda}{\partial \lambda}|\Psi_\lambda(t)\rangle =i\hbar \frac\partial{\partial t}\langle\Psi_\lambda(t)|\frac{\partial \Psi_\lambda(t)}{\partial \lambda}\rangle$" ID="ID_1603038051" CREATED="1620101812062" MODIFIED="1620102103461"/>
 </node>
-<node TEXT="Scattering" FOLDED="true" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
+<node TEXT="Scattering" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
 <edge COLOR="#808080"/>
-<node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1619403353628"><richcontent TYPE="NODE">
+<node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1620198814966"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -184,10 +184,14 @@
       <b>rigorous</b>&nbsp;way: solve time-dependent Schrodinger eq. for the combined system of participating particles
     </p>
     <p>
-      <b>simpler</b>&nbsp;way: perturbation method, time-dependent interaction --&gt; small perturbation in original steady-state, non-interacting energy
+      <b>simpler</b>&nbsp;way: perturbation method,
+    </p>
+    <p>
+      scattering interaction --&gt; small perturbation in original steady-state, non-interacting energy
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="\latex Fermi&apos;s Golden Rule \\&#xa;(simplified Time-dependent perturbation theory)\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$\\&#xa;$W_i^f={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\delta(E_f-E_i), \; ([\delta]=J^{-1}\text{ here})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619521066348">
@@ -202,7 +206,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-7;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -211,8 +215,11 @@
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W[f(r,k_1^\prime,t)f(r,k_2^\prime,t)\\&#xa;- f(r,k_1,t)f(r,k_2,t)]d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_1531438706" CREATED="1619659859249" MODIFIED="1619660849356"/>
 </node>
 </node>
+<node TEXT="why time-dependent: the transfer problem&#xa;is a stationary state of system, not steady state" ID="ID_86045497" CREATED="1620199458187" MODIFIED="1620199505232">
+<node TEXT="use sudden changes of plane wavefunc to approx&#xa;the original natural changes of non-plane wavefunc" ID="ID_1004352302" CREATED="1620199703104" MODIFIED="1620199760815"/>
 </node>
-<node TEXT="\latex Lippmann-Schwinger equation\\&#xa;$|\psi^{(\pm)}\rangle = |\phi\rangle +\frac1{E-H_0\pm i\epsilon}V|\psi^{(\pm)}\rangle$\\&#xa;($\frac1A\equiv A^{-1}$)" ID="ID_1577662301" CREATED="1620109497309" MODIFIED="1620115686303">
+</node>
+<node TEXT="\latex Lippmann-Schwinger equation\\&#xa;$|\psi^{(\pm)}\rangle = |\phi\rangle +\frac1{E-H_0\pm i\epsilon}V|\psi^{(\pm)}\rangle$\\&#xa;($\frac1A\equiv A^{-1}$)" FOLDED="true" ID="ID_1577662301" CREATED="1620109497309" MODIFIED="1620115686303">
 <node TEXT="relate the scattered wavefunc with interaction producing scattering(scattering potential)" ID="ID_1104784030" CREATED="1620109534993" MODIFIED="1620109573084"/>
 <node TEXT="equivalent to the S.E. plus the&#xa;typical boundary conditions" ID="ID_673441143" CREATED="1620110241294" MODIFIED="1620110287328">
 <node TEXT="to embed the b.c., L-S eq. must be&#xa;written as an integral eq." ID="ID_405843057" CREATED="1620110291522" MODIFIED="1620110338060"/>
@@ -221,7 +228,7 @@
 <node TEXT="\latex $V$ describes interaction between 2 colliding systems\\&#xa;$H_0$ describes non-interacting case (with $E$ \&amp; |\phi\rangle) \\&#xa;$i\epsilon$ is a mathematical technicality to solve eq." ID="ID_820935810" CREATED="1620113558832" MODIFIED="1620114063809"/>
 <node TEXT="\latex Derivation: $H_0|\phi\rangle=E|\phi\rangle$\rightarrow $(H_0+V)|\psi\rangle=E|\psi\rangle$\\&#xa;from H-F theorem, $|\psi\rangle \rightarrow|\phi\rangle \text{ as } V\rightarrow 0$\\&#xa;\therefore $|\psi\rangle=|\phi\rangle+\frac1{E-H_0}V|\psi\rangle$ ($E-H_0$ is singular)\\&#xa;$|\psi^{(\pm)}\rangle = |\phi\rangle +\frac1{E-H_0\pm i\epsilon}V|\psi^{(\pm)}\rangle$ (2 ways give 2 eq.)" ID="ID_899047788" CREATED="1620114260998" MODIFIED="1620115904424"/>
 </node>
-<node TEXT="phonon scattering" ID="ID_773152946" CREATED="1619665599834" MODIFIED="1619672575595">
+<node TEXT="phonon-phonon scattering" ID="ID_773152946" CREATED="1619665599834" MODIFIED="1620198485552">
 <node TEXT="" ID="ID_555673179" CREATED="1619674534873" MODIFIED="1619674534874">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -233,8 +240,40 @@
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex Matthiessen rule:$\frac1{\tau}=\sum_j\frac1{\tau_j}$\\&#xa;(assuming scattering mechanisms independent of each other)\\&#xa;\textbf{NOTE}: it&apos;s questionable as boundary scattering is a \textbf{surface process} whereas  the ph-ph and ph-impurity scattering occur \textbf{inside}" ID="ID_225955778" CREATED="1619664366045" MODIFIED="1619696566759"/>
 </node>
+<node TEXT="\latex the perturbation in Hamiltonian is the 3-rd FC\\&#xa;$\mathscr H_{pp} = \frac1{3!} \sum_{q,p; q^\prime,p^\prime; q^{\prime\prime},p^{\prime\prime}}\delta_{G,q+q^\prime+q^{\prime\prime}}(a^\dagger_{q,p}-a_{-q,p}) (a^\dagger_{q^\prime,p^\prime}-a_{-q^\prime,p^\prime})\\ (a^\dagger_{q^{\prime\prime},p^{\prime\prime}}-a_{-q^{\prime\prime},p^{\prime\prime}}) \mathscr F_{q,p;q^\prime,p^\prime; q^{\prime\prime},p^{\prime\prime}}$\\&#xa;$(\mathscr F_{q,p;q^\prime,p^\prime; q^{\prime\prime},p^{\prime\prime}}\equiv i(\frac\hbar2)^{3/2}(NV)^{-\frac12}(\omega_{q,p}\omega_{q^\prime,p^\prime} \omega_{q^{\prime\prime},p^{\prime\prime}})^{-\frac12}\sum_{bb^\prime b^{\prime\prime}} (m_bm_{b^\prime}m_{b^{\prime\prime}})^{-\frac12}\\\boldsymbol e_{q,b,p} \boldsymbol e_{q^\prime,b^\prime,p^\prime} \boldsymbol e_{q^{\prime\prime},b^{\prime\prime},p^{\prime\prime}}\vdots D_{q,b; q^\prime,b^\prime; q^{\prime\prime},b^{\prime\prime}} )$" ID="ID_753419696" CREATED="1620201261541" MODIFIED="1620218060934">
+<node TEXT="\latex selection rules" ID="ID_1217753046" CREATED="1620217233472" MODIFIED="1620217246307">
+<node TEXT="energy conservation" ID="ID_1313493892" CREATED="1620222565153" MODIFIED="1620222609079">
+<node TEXT="\latex energy conservation forbids the simultaneous creation or annihilation of phonons even though $a_{q,p} a_{q^\prime,p^\prime} a_{q^{\prime\prime},p^{\prime\prime}}$ and $a^\dagger_{q,p} a^\dagger_{q^\prime,p^\prime} a^\dagger_{q^{\prime\prime},p^{\prime\prime}}$ do appear in Hamiltonian" ID="ID_1483165897" CREATED="1620217278166" MODIFIED="1620217531871"/>
+<node TEXT="\latex given mode $(\boldsymbol q,p)$, fix $p^\prime$ and $p^{\prime\prime}$\\&#xa;leaving 6 degrees of freedom ($\boldsymbol q^\prime\otimes \boldsymbol q^{\prime\prime}$)\\&#xa;energy\&amp;quasi-momentum conservation \rightarrow 4 restrictions\\&#xa;put all 2 degrees of freedom in $\boldsymbol q^{\prime}$ \Rightarrow\\&#xa;restricted to some \textbf{surface } in reciprocal space (marked $ \varphi^\prime$)" ID="ID_696364286" CREATED="1620222614302" MODIFIED="1620223944168">
+<hook URI="quantum-pix/3ph-energy-surface.png" SIZE="0.5374318" NAME="ExternalObject"/>
+<node TEXT="\latex the total number of scattering processes which $\boldsymbol q$ can suffer will evidently depend upon the area of $\varphi^\prime$" ID="ID_382946742" CREATED="1620223981604" MODIFIED="1620224093324">
+<node TEXT="\latex the area of $\varphi^\prime$ may depend strongly on $(\boldsymbol q,p)$" ID="ID_488177716" CREATED="1620224327721" MODIFIED="1620224409125"/>
 </node>
-<node TEXT="electron scattering" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
+</node>
+</node>
+<node TEXT="\latex diagram for N-process\\&#xa;(按照一个模式的$(q,\omega)$进行平移,得到的交点\\在两个坐标系下的坐标分别表示另外两个模式的$(q,\omega)$)\\&#xa;(注意平移矢量必须存在,即\textbf{新参考系的零点必须在曲线上})" ID="ID_1376883507" CREATED="1620218429199" MODIFIED="1620218868378">
+<hook URI="quantum-pix/N-process-phonon-diagram.png" SIZE="0.4490963" NAME="ExternalObject"/>
+<node ID="ID_1649696970" CREATED="1620218882749" MODIFIED="1620219693563"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      可以发现由于声学支的曲线都是上凸的,因此<b>不可能在某一支内部发生三声子N散射</b>&nbsp;&nbsp;(Debye模型的直线色散关系抹除了所有真实存在的N散射)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="created phonon must lie in a higher branch than one at least of the destroyed phonons" ID="ID_1061874105" CREATED="1620219695953" MODIFIED="1620219731109"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="electron scattering" FOLDED="true" ID="ID_1387639371" CREATED="1619674871804" MODIFIED="1619674876184">
 <node TEXT="predominantly scattered by phonon, elec-elec scattering is typically much weaker" ID="ID_323045696" CREATED="1619676762573" MODIFIED="1619676789801"/>
 <node TEXT="process can also be normal/umklapp" ID="ID_1878607689" CREATED="1619676822258" MODIFIED="1619676849560">
 <node TEXT="in most cases the dominant scattering&#xa;process is Normal process" ID="ID_1954542124" CREATED="1619676906516" MODIFIED="1619680928412"/>
@@ -243,7 +282,7 @@
 <node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
 </node>
 </node>
-<node TEXT="量子力学公理体系" POSITION="left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
+<node TEXT="量子力学公理体系" FOLDED="true" POSITION="left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
 <edge COLOR="#808080"/>
 <node TEXT="\latex 每个系统对应一个可分无穷维的复Hilbert空间H,\\其中一元素$\psi$完备地描述了系统的状态." ID="ID_830415903" CREATED="1620133241205" MODIFIED="1620133332640">
 <node TEXT="\latex 可分无穷维的H空间彼此等价。物理中常把H取为\\$L^2(-\infty,+\infty)$或$l^2$,把其中元素$\psi$称为波函数/态矢量。" ID="ID_722646190" CREATED="1620133346734" MODIFIED="1620133422467"/>
