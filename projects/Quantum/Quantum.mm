@@ -191,7 +191,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex Fermi&apos;s Golden Rule \\&#xa;(simplified Time-dependent perturbation theory)\\&#xa;$ \Gamma _{i\to f}={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\rho (E_{f})$\\&#xa;$W_i^f={\frac {2\pi }{\hbar }}\left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}\delta(E_f-E_i), \; ([\delta]=J^{-1}\text{ here})$" ID="ID_1969127853" CREATED="1617689706338" MODIFIED="1619521066348">
@@ -206,7 +205,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -245,14 +244,17 @@
 <node TEXT="energy conservation" ID="ID_1313493892" CREATED="1620222565153" MODIFIED="1620222609079">
 <node TEXT="\latex energy conservation forbids the simultaneous creation or annihilation of phonons even though $a_{q,p} a_{q^\prime,p^\prime} a_{q^{\prime\prime},p^{\prime\prime}}$ and $a^\dagger_{q,p} a^\dagger_{q^\prime,p^\prime} a^\dagger_{q^{\prime\prime},p^{\prime\prime}}$ do appear in Hamiltonian" ID="ID_1483165897" CREATED="1620217278166" MODIFIED="1620217531871"/>
 <node TEXT="\latex given mode $(\boldsymbol q,p)$, fix $p^\prime$ and $p^{\prime\prime}$\\&#xa;leaving 6 degrees of freedom ($\boldsymbol q^\prime\otimes \boldsymbol q^{\prime\prime}$)\\&#xa;energy\&amp;quasi-momentum conservation \rightarrow 4 restrictions\\&#xa;put all 2 degrees of freedom in $\boldsymbol q^{\prime}$ \Rightarrow\\&#xa;restricted to some \textbf{surface } in reciprocal space (marked $ \varphi^\prime$)" ID="ID_696364286" CREATED="1620222614302" MODIFIED="1620223944168">
-<hook URI="quantum-pix/3ph-energy-surface.png" SIZE="0.5374318" NAME="ExternalObject"/>
+<hook URI="quantum-pix/3ph-energy-surface.png" SIZE="0.4735578" NAME="ExternalObject"/>
 <node TEXT="\latex the total number of scattering processes which $\boldsymbol q$ can suffer will evidently depend upon the area of $\varphi^\prime$" ID="ID_382946742" CREATED="1620223981604" MODIFIED="1620224093324">
 <node TEXT="\latex the area of $\varphi^\prime$ may depend strongly on $(\boldsymbol q,p)$" ID="ID_488177716" CREATED="1620224327721" MODIFIED="1620224409125"/>
 </node>
 </node>
 </node>
-<node TEXT="\latex diagram for N-process\\&#xa;(按照一个模式的$(q,\omega)$进行平移,得到的交点\\在两个坐标系下的坐标分别表示另外两个模式的$(q,\omega)$)\\&#xa;(注意平移矢量必须存在,即\textbf{新参考系的零点必须在曲线上})" ID="ID_1376883507" CREATED="1620218429199" MODIFIED="1620218868378">
+<node TEXT="\latex selection rules for N-process\\&#xa;(按照一个模式的$(q,\omega)$进行平移,得到的交点\\在两个坐标系下的坐标分别表示另外两个模式的$(q,\omega)$)\\&#xa;(注意平移矢量必须存在,即\textbf{新参考系的零点必须在曲线上})" ID="ID_1376883507" CREATED="1620218429199" MODIFIED="1620279811248">
 <hook URI="quantum-pix/N-process-phonon-diagram.png" SIZE="0.4490963" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1085639049" CREATED="1620280461849" MODIFIED="1620280461851">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node ID="ID_1649696970" CREATED="1620218882749" MODIFIED="1620219693563"><richcontent TYPE="NODE">
 
 <html>
@@ -265,10 +267,26 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="created phonon must lie in a higher branch than one at least of the destroyed phonons" ID="ID_1061874105" CREATED="1620219695953" MODIFIED="1620219731109"/>
+<node TEXT="" ID="ID_1687277244" CREATED="1620280461845" MODIFIED="1620280466213">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="suitable for U-process" ID="ID_1235914460" CREATED="1620280461853" MODIFIED="1620280486987" HGAP_QUANTITY="21.067484827977392 pt" VSHIFT_QUANTITY="-2.6503068104915224 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="928;0;" ENDINCLINATION="928;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="\latex 长波极限下纵波声子只能参与\\\textbf{总数反比于波长平方}的散射($N\propto q^2$)" ID="ID_871968797" CREATED="1620279822068" MODIFIED="1620279946420"/>
+</node>
+<node TEXT="\latex selection rules for U-process\\&#xa;as the awkward geometry of BZ and \\&#xa;complexity of energy surfaces near boundaries,\\&#xa;an exact discussion of U-process is \textbf{impossible}" ID="ID_405650207" CREATED="1620279990479" MODIFIED="1620280124662">
+<node TEXT="\latex U过程产生的声子频率在量级上一定与\\&#xa;谱的最高频率相近(只考虑声学支)" ID="ID_30076508" CREATED="1620280194928" MODIFIED="1620280273681"/>
+</node>
+<node TEXT="\latex selection rules for optical phonons" ID="ID_1539884714" CREATED="1620283290558" MODIFIED="1620283302641">
+<node TEXT="\latex the energy conservation forbids $a+o\leftrightarrow a$,$o+o\leftrightarrow a$\\&#xa;the extension of &quot;higher branch rule&quot; forbids $a+o\leftrightarrow o$\\" ID="ID_1308848003" CREATED="1620283306790" MODIFIED="1620288211663">
+<node TEXT="\latex left only with $a+a\leftrightarrow o$\\&#xa;(possible when optical freq not so high)" ID="ID_1770590703" CREATED="1620288644139" MODIFIED="1620288688733"/>
+</node>
+<node TEXT="\latex 包含光学声子的U散射数量随$\Theta_E/\Theta_D$上升而增加(存在上限)" ID="ID_525141892" CREATED="1620288757393" MODIFIED="1620288828097"/>
 </node>
 </node>
 </node>
