@@ -200,12 +200,11 @@
 </node>
 <node TEXT="\latex $M_{fi}^2\equiv \left|\langle f|\hat \mathcal {H}^\prime|i\rangle \right|^{2}$  is Scattering Matrix" ID="ID_163912473" CREATED="1619137959927" MODIFIED="1619586891637"/>
 </node>
-<node TEXT="\latex Self Energy is a complex no.:$z_\text{self energy}\to$ \\&#xa;$Re(z)\sim \text{renormalization};\; Im(z)\sim \text{Scattering Rate}$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1617690145744"/>
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \overbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)}^{in-scattering}\\&#xa;-\underbrace{\sum_{k_1^\prime,k_2,k_2^\prime} W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)}_{out-scattering} $" ID="ID_326106488" CREATED="1619138293573" MODIFIED="1619424584611">
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="179;19;" ENDINCLINATION="13;-4;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -288,6 +287,16 @@
 </node>
 <node TEXT="\latex 包含光学声子的U散射数量随$\Theta_E/\Theta_D$上升而增加(存在上限)" ID="ID_525141892" CREATED="1620288757393" MODIFIED="1620288828097"/>
 </node>
+</node>
+</node>
+<node TEXT="\latex Self Energy: $\Delta(\omega)-i\Gamma(\omega)$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1620309824256">
+<node TEXT="\latex Real part $\Delta(\omega)$: associated with the change of freq(i.e. renormalization) due to scattering\\&#xa;\therefore responsible for the temperature dependence of freq." ID="ID_679969104" CREATED="1620309800158" MODIFIED="1620309929912">
+<node TEXT="\latex Feynman diagrams of the leading order terms \\in the real part of self-energy\\&#xa;a)\rightarrow thermal expansion $\Delta^{(0)}$\\&#xa;b)\rightarrow third order contribution $\Delta^{(3)}$\\&#xa;c)\rightarrow fourth order contribution $\Delta^{(4)}$" ID="ID_946248051" CREATED="1620312210898" MODIFIED="1620312635653">
+<hook URI="quantum-pix/feynmann-diagram-self-energy-phonon.png" SIZE="0.62240666" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="\latex Imaginary part $\Gamma(\omega)$: probability of phonon decay, represents the inverse of the phonon lifetime" ID="ID_296401734" CREATED="1620310038654" MODIFIED="1620310087988">
+<node TEXT="measured directly in time resolved experiments (the linewidth of Raman spectroscopy)" ID="ID_689678438" CREATED="1620310112175" MODIFIED="1620310164172"/>
 </node>
 </node>
 </node>
