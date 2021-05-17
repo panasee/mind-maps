@@ -881,7 +881,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-542;30;" ENDINCLINATION="-2;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-541;30;" ENDINCLINATION="-1;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -1030,13 +1030,49 @@
 <node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
 </node>
 </node>
-<node TEXT="\latex Linearization for Phonon-BTE(no force term) \\&#xa;$-\boldsymbol v\cdot \nabla T \frac{\partial f}{\partial T}+(\frac{\partial f}{\partial t})_{coll}=0$" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619965803203">
+<node TEXT="\latex Linearization for Phonon-BTE(no force term) \\&#xa;$-\boldsymbol v\cdot \nabla T \frac{\partial f}{\partial T}+(\frac{\partial f}{\partial t})_{coll}=0$" FOLDED="true" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619965803203">
 <node TEXT="\latex assume $|\nabla T|$ is small, then:\\&#xa;$f = f_0+g(\nabla T)$,($g(\nabla T)$ is linear)\\&#xa;express as: $g = -\boldsymbol F\cdot \nabla T\frac{df_0}{dT}$" ID="ID_320162137" CREATED="1619961581273" MODIFIED="1619966084942">
 <node TEXT="\latex when the only scattering sources are 2\&amp;3-ph processes:\\&#xa;$\boldsymbol F=\tau^0(\boldsymbol v+\boldsymbol \Delta)$ (if $\boldsymbol \Delta=\boldsymbol 0$, then it&apos;s exactly \textbf{RTA})" ID="ID_1377401559" CREATED="1619965029912" MODIFIED="1619966239297"/>
 </node>
 </node>
+<node TEXT="\latex Hyperbolic Heat Conduction Equation\\&#xa;(the transient effect of dist func -&gt; not negligible)" FOLDED="true" ID="ID_1217188561" CREATED="1621218789727" MODIFIED="1621218846673">
+<node TEXT="\latex $\tau\frac{\partial f}{\partial t}+f=f_0-\tau(\boldsymbol v\cdot \nabla_\boldsymbol r f_0+\frac\boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$\\&#xa;consider 1-D phonon transport and neglect force term&#xa;\\(\textbf{considering the energy flux of both sides})\\&#xa;$\int_{4\pi}[\int v_x\hbar\omega(\tau\frac{\partial f}{\partial t}+f)\frac{D(\omega)}{4\pi}d\omega]d\Omega$\\&#xa;$=\int_{4\pi}[\int v_x\hbar\omega(f_0-\tau v_x\frac{df_0}{dx})\frac{D(\omega)}{4\pi}d\omega]d\Omega$" ID="ID_1743906835" CREATED="1621219024121" MODIFIED="1621219396005">
+<node TEXT="\latex used $4\pi$ under $\int$ to denote the solid angle \\integration is over all directions" ID="ID_326157198" CREATED="1621219410938" MODIFIED="1621219449092"/>
+<node TEXT="\latex written as \textbf{Cattaneo equation}\\&#xa;$\bar \tau\frac{\partial J_q}{\partial t}+J_q=-k\frac{\partial T}{\partial x}$" ID="ID_1460430355" CREATED="1621219532523" MODIFIED="1621219710767">
+<node TEXT="\latex $\bar \tau$ is a weighted average of $\tau$ relative \\to the heat flux expression" ID="ID_742501103" CREATED="1621219645983" MODIFIED="1621219681027"/>
+<node TEXT="\latex combine it with energy conservation eq.(no source)\\&#xa;$\frac{\partial J_q}{\partial x}=\rho c\frac{\partial T}{\partial t}$(cons. eq.) $\rightarrow \bar \tau\frac{\partial^2 T}{\partial t^2}+\frac{\partial T}{\partial t} = \frac k{\rho c}\frac{\partial^2 T}{\partial x^2} $\\&#xa;this is a \textbf{hyperbolic } eq. or \textbf{telegraph }eq." ID="ID_540269578" CREATED="1621219749134" MODIFIED="1621220170156">
+<node TEXT="\latex differs from the parabolic eq. of Fourier law by&#xa; \\adding the first term on the left-hand side\\&#xa;\textbf{parabolic eq. implies that if a temp perturbation is applied at the boundary, it will be immediately felt through the whole region}\\&#xa;hyperbolic eq. overcomes this dilemma since the heat propagation is in the form of a \textbf{damped wave}" ID="ID_243827316" CREATED="1621220200364" MODIFIED="1621220627248">
+<node ID="ID_507473404" CREATED="1621220665033" MODIFIED="1621220790540"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      neither should be taken as generally applicable,
+    </p>
+    <p>
+      difficult to realize in practice (assumption of small deviation from equilibrium in space is often invalid)
+    </p>
+    <p>
+      <b>then the RTA is wrong</b>&nbsp;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex thermal waves in dielectrics have been observed \\when $\Lambda_U &gt; L\; \&amp;\; \Lambda_N &lt; \Lambda_U$, heat waves will propagate \\at $v/\sqrt{3}$, this speed is called \textbf{second sound}" ID="ID_1622512287" CREATED="1621220873189" MODIFIED="1621221061072">
+<node TEXT="due to the fact that in transport process dominated by N-scattering, the equilibrium dist. must be replaced by the displaced func., in this case, the hyperbolic eq. cannot be used too" ID="ID_174627222" CREATED="1621221068593" MODIFIED="1621221151828"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="\latex quantities average\\&#xa;$\langle X(r) \rangle =\frac1V\sum_{k}X(r,k)f=\frac1{2\pi^3}\int X(r,k)fd^3k$\\&#xa;($2\pi$ comes from volume of quantum state)" ID="ID_110776271" CREATED="1619339280731" MODIFIED="1619339559314"/>
-<node TEXT="\latex Wiedemann-Franz Law(thermal conduc of elec)\\&#xa;$L=\frac{k_e}{\sigma T}\sim 2.45\times 10^{-8}(W\Omega K^{-2})$" ID="ID_371885197" CREATED="1619875787942" MODIFIED="1619878804188">
+<node TEXT="\latex Wiedemann-Franz Law(thermal conduc of elec)\\&#xa;$L=\frac{k_e}{\sigma T}\sim 2.45\times 10^{-8}(W\Omega K^{-2})$" FOLDED="true" ID="ID_371885197" CREATED="1619875787942" MODIFIED="1619878804188">
 <node TEXT="\latex assuming no current flow, the tc due to electrons:\\&#xa;$k_e=\frac13C_ev_F^2\tau_E$, $C_e$ is volumetric specific heat of electrons,&#xa;\\$\tau_E$ is energy relaxation time(average weighted against energy)" ID="ID_1268470021" CREATED="1619877372682" MODIFIED="1619878305714">
 <node TEXT="\latex In general, $\tau_{energy} \neq \tau_{momentum}$,\\ typically however they are very close" ID="ID_332636633" CREATED="1619878357057" MODIFIED="1619878425833"/>
 </node>
@@ -1044,6 +1080,9 @@
 <node TEXT="used to estimate the electron contribution to t.c.&#xa;OR calculate t.c. directly from electrical conductivity in metals" ID="ID_1187575717" CREATED="1619878813771" MODIFIED="1619878894642"/>
 </node>
 <node TEXT="scattering" ID="ID_506433310" CREATED="1620109441563" MODIFIED="1620109479625" LINK="../Quantum/Quantum.mm"/>
+<node TEXT="\latex local equilibrium and diffusion theories" ID="ID_638805595" CREATED="1621221322092" MODIFIED="1621221346811">
+<node TEXT="\latex for the (drift) diffusion theories to be valid, the deviation from equilibrium must be small: $f_0\gg \tau(\boldsymbol v\cdot \nabla_\boldsymbol rf_0+\frac\boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$\\&#xa;multiply both sides by $\hbar\omega$ and sum over all phonon states,\\&#xa;$U\gg -\frac k{\bar v}\frac{dT}{dx}\sim -C\Lambda\frac{dT}{dx} \rightarrow\limits^{U=CT} \frac{\Lambda}{T}\frac{dT}{dx}\ll 1$ \\&#xa;(temp. variation within $\Lambda$ is small compared to absolute temp.)" ID="ID_1134956908" CREATED="1621221380124" MODIFIED="1621221927220"/>
+</node>
 </node>
 <node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
 <edge COLOR="#7c0000"/>
