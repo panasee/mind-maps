@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.0">
+<hook NAME="MapStyle" zoom="2.2">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_934998029" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_934998029" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -244,7 +246,7 @@
 <node TEXT="Free electrons:&#xa;electrons are delocalized" ID="ID_1493590368" CREATED="1603699126882" MODIFIED="1603699153950"/>
 </node>
 <node TEXT="\latex covalent crystals: covalent bonds, strongly directional\\&#xa;hard to get simple expression, many empirical potentials" ID="ID_548277275" CREATED="1603698837767" MODIFIED="1603699064970">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1361539426" MIDDLE_LABEL="extreme case" STARTINCLINATION="106;0;" ENDINCLINATION="76;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1361539426" MIDDLE_LABEL="extreme case" STARTINCLINATION="79.5 pt;0 pt;" ENDINCLINATION="57 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -355,7 +357,7 @@
 </richcontent>
 <node TEXT="\latex consider a spherical parabolic band\\&#xa;$E-E_c = \frac{\hbar^2}{2m^*}(k_x^2+k_y^2+k_z^2) = \frac{\hbar^2 k^2}{2m^*}$" ID="ID_904589409" CREATED="1603876878595" MODIFIED="1603877020642">
 <node TEXT="\latex the no. of states between $k$ and $k+dk$ is\\&#xa;$2\times\frac{4\pi k^2dk}{(2\pi/L)^3} = \frac{Vk^2dk}{\pi^2} \equiv VD(k)dk$ (2 is from the spin)" ID="ID_1568410929" CREATED="1603876746028" MODIFIED="1603878122899">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_683482714" STARTINCLINATION="54;11;" ENDINCLINATION="56;1;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_683482714" STARTINCLINATION="40.5 pt;8.25 pt;" ENDINCLINATION="42 pt;0.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="here lies a continuous assumption, which is valid as long as the no. of atoms is large enough" ID="ID_1970826724" CREATED="1603877039617" MODIFIED="1603877071700"/>
 <node TEXT="\latex $D(k) = \frac{k^2}{\pi^2}$\\&#xa;note: the $k$ here is the magnitude" ID="ID_852325707" CREATED="1603877349476" MODIFIED="1603877409626"/>
 </node>
@@ -512,7 +514,7 @@
 <node TEXT="" ID="ID_575314248" CREATED="1604231827175" MODIFIED="1604231831125">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex in the limit of low occupancy(high energy and high temperature), they both reduce to the Boltzmann distribution\\ &#xa;$f(E,T,\mu) = \exp(-\frac{E-\mu}{k_BT})\;\  or\ f(E) = \exp(-\frac E{k_BT})$" ID="ID_1666981158" CREATED="1604231827180" MODIFIED="1604231958690" HGAP_QUANTITY="45.49999906122687 pt" VSHIFT_QUANTITY="-5.249999843537812 pt"/>
+<node TEXT="\latex in the limit of low occupancy(high energy and high temperature), they both reduce to the Boltzmann distribution\\ &#xa;$f(E,T,\mu) = \exp(-\frac{E-\mu}{k_BT})\;\  or\ f(E) = \exp(-\frac E{k_BT})$" ID="ID_1666981158" CREATED="1604231827180" MODIFIED="1604231958690" HGAP_QUANTITY="45.5 pt" VSHIFT_QUANTITY="-5.25 pt"/>
 </node>
 </node>
 </node>
@@ -553,7 +555,7 @@
 <node TEXT="\latex plane electron waves \\&#xa;$\Psi(x,t) = A\exp[-i(\omega t-kx)]$" ID="ID_1244947738" CREATED="1604323986358" MODIFIED="1604324040173">
 <node TEXT="\latex dispersion relation\\&#xa;$k=\sqrt{\frac{2m(E-U)}{\hbar^2}}$" ID="ID_565396560" CREATED="1604324053899" MODIFIED="1604324087005"/>
 <node TEXT="\latex particle current/flux\\&#xa;$\vec J=\frac{i\hbar}{2m}(\Psi\nabla\Psi^*-\Psi^*\nabla\Psi)=\Re[\frac{i\hbar}m\Psi\nabla\Psi^*]$\\&#xa;($\langle v\rangle=\frac{\langle P\rangle}m=\frac{\langle\psi|P|\psi\rangle^*+\langle\psi|P|\psi\rangle}{2m}$)" ID="ID_984443024" CREATED="1604324088842" MODIFIED="1605535008710">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1875171817" STARTINCLINATION="593;0;" ENDINCLINATION="593;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1875171817" STARTINCLINATION="444.74999 pt;0 pt;" ENDINCLINATION="444.74999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex plane electromagnetic waves \\&#xa;Poynting vector $\vec S=\vec E\times\vec H,[S]=[W\cdot m^{-2}]$\\&#xa;represents the instantaneous energy flux" ID="ID_1559865396" CREATED="1604368722634" MODIFIED="1604368891878">
@@ -881,7 +883,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-541;30;" ENDINCLINATION="-1;50;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-404.24999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -893,13 +895,13 @@
 <node TEXT="\latex a is electron diffusivity \\&#xa;$a\approx v_F^2\tau$&#xa;\\(implies multiple scattering)" ID="ID_537618173" CREATED="1610097417236" MODIFIED="1610116544175"/>
 <node TEXT="\latex slightly diff from $\Lambda_{in}$" ID="ID_533602961" CREATED="1610099289917" MODIFIED="1610099309435"/>
 </node>
-<node TEXT="\latex thermal length\\ $\Lambda_T=(a\hbar/\kappa_BT)^{1/2}$" ID="ID_1271072690" CREATED="1610091843648" MODIFIED="1610117438891" HGAP_QUANTITY="14.883435603497174 pt" VSHIFT_QUANTITY="1.7668712069943482 pt">
+<node TEXT="\latex thermal length\\ $\Lambda_T=(a\hbar/\kappa_BT)^{1/2}$" ID="ID_1271072690" CREATED="1610091843648" MODIFIED="1610117438891" HGAP_QUANTITY="14.88344 pt" VSHIFT_QUANTITY="1.76687 pt">
 <node TEXT="\latex thermal broadening of the energy levels of electrons is $\kappa_BT$ \\&#xa;corresponding uncertainty in time is $\hbar/(\kappa_BT)$" ID="ID_1886360011" CREATED="1610117439918" MODIFIED="1610117503802"/>
 </node>
 <node TEXT="" ID="ID_400575012" CREATED="1610117664239" MODIFIED="1610432255905">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex used to judge whether transport is in the wave/particle regime (smaller, more important)\\&#xa;if $\Lambda_T&gt;\Lambda_\varphi$: inelastic scattering is considered as the dominant phase-destroying process \\&#xa;if $\Lambda_T&lt;\Lambda_\varphi$: thermal excitation is considered as the dominant dephasing mechanism" ID="ID_501041415" CREATED="1610117664242" MODIFIED="1610432255904" HGAP_QUANTITY="20.625767026228804 pt" VSHIFT_QUANTITY="-2.6503068104915233 pt">
+<node TEXT="\latex used to judge whether transport is in the wave/particle regime (smaller, more important)\\&#xa;if $\Lambda_T&gt;\Lambda_\varphi$: inelastic scattering is considered as the dominant phase-destroying process \\&#xa;if $\Lambda_T&lt;\Lambda_\varphi$: thermal excitation is considered as the dominant dephasing mechanism" ID="ID_501041415" CREATED="1610117664242" MODIFIED="1610432255904" HGAP_QUANTITY="20.62577 pt" VSHIFT_QUANTITY="-2.65031 pt">
 <node TEXT="if characteristic length is larger than the dominant &quot;length&quot;, then the phase info is destroyed.&#xa;(e.g. the quantum states as in simple quantum well will not be created)" ID="ID_1787740165" CREATED="1610432928300" MODIFIED="1610433145208"/>
 </node>
 </node>
@@ -983,7 +985,7 @@
 </node>
 </node>
 <node TEXT="Boltzmann Transport Eq&#xa;(the dist here is for specific mode)" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619966112507">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="712;0;" ENDINCLINATION="123;12;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="533.99998 pt;0 pt;" ENDINCLINATION="92.25 pt;9 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
 <node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
@@ -1011,7 +1013,7 @@
 </node>
 </node>
 <node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
-<node TEXT="\latex RTA(BGK approximation)\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0(T,E,\mu)}{\tau(\boldsymbol r,\boldsymbol k)}$" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619663408615">
+<node TEXT="\latex RTA(BGK approximation)\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0(T,E,\mu)}{\tau(\boldsymbol r,\boldsymbol k)}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619663408615">
 <node TEXT="\latex to understand $\tau$, set diffusion term 0(virtual): \\&#xa;$f(t) = (f_0-f^0)e^{-\frac t\tau}+f^0$ \\&#xa;$\frac{\partial f}{\partial t} = 0 =-\frac{\partial f^0}{\partial T}\nabla T\cdot \vec v-\frac{f^\prime}\tau$" ID="ID_1399902251" CREATED="1619139804868" MODIFIED="1619664280441">
 <node TEXT="thus to get the total distribution to calculate scattering" ID="ID_1249034787" CREATED="1619141617985" MODIFIED="1619141639299"/>
 </node>
@@ -1028,6 +1030,10 @@
 </node>
 <node TEXT="\latex \textbf{NOTE:} although the 3-ph N-process doesn&apos;t create resistance, it can redistribute phonons and thus indirectly affect the U-process" ID="ID_523832914" CREATED="1619697371591" MODIFIED="1619697503038">
 <node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
+</node>
+<node TEXT="\latex $g\equiv f-f_0 = -\tau(\boldsymbol v\cdot \nabla_\boldsymbol r f_0 +\frac \boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$ hypotheses:\\&#xa;1. $f_0\gg g$            2. $\frac g\tau\gg \boldsymbol v\cdot \nabla g$ \\&#xa;3. $\frac{\partial f}{\partial t}\ll \frac{f-f_0}\tau,(\tau_c\gg\tau)$" FOLDED="true" ID="ID_414954367" CREATED="1621295917410" MODIFIED="1621296810923">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-58.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex Knudsen number: $Kn=\frac{\tau v}L=\frac\Lambda L$\\&#xa;Cond. 2 equals $Kn\ll 1$\\&#xa;i.e. characteristic length must be much larger than mfp" ID="ID_483689777" CREATED="1621296289712" MODIFIED="1621296403717"/>
 </node>
 </node>
 <node TEXT="\latex Linearization for Phonon-BTE(no force term) \\&#xa;$-\boldsymbol v\cdot \nabla T \frac{\partial f}{\partial T}+(\frac{\partial f}{\partial t})_{coll}=0$" FOLDED="true" ID="ID_936071993" CREATED="1619140159565" MODIFIED="1619965803203">
@@ -1060,7 +1066,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex thermal waves in dielectrics have been observed \\when $\Lambda_U &gt; L\; \&amp;\; \Lambda_N &lt; \Lambda_U$, heat waves will propagate \\at $v/\sqrt{3}$, this speed is called \textbf{second sound}" ID="ID_1622512287" CREATED="1621220873189" MODIFIED="1621221061072">
@@ -1080,8 +1085,22 @@
 <node TEXT="used to estimate the electron contribution to t.c.&#xa;OR calculate t.c. directly from electrical conductivity in metals" ID="ID_1187575717" CREATED="1619878813771" MODIFIED="1619878894642"/>
 </node>
 <node TEXT="scattering" ID="ID_506433310" CREATED="1620109441563" MODIFIED="1620109479625" LINK="../Quantum/Quantum.mm"/>
-<node TEXT="\latex local equilibrium and diffusion theories" ID="ID_638805595" CREATED="1621221322092" MODIFIED="1621221346811">
+<node TEXT="\latex local equilibrium and diffusion theories" FOLDED="true" ID="ID_638805595" CREATED="1621221322092" MODIFIED="1621221346811">
 <node TEXT="\latex for the (drift) diffusion theories to be valid, the deviation from equilibrium must be small: $f_0\gg \tau(\boldsymbol v\cdot \nabla_\boldsymbol rf_0+\frac\boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$\\&#xa;multiply both sides by $\hbar\omega$ and sum over all phonon states,\\&#xa;$U\gg -\frac k{\bar v}\frac{dT}{dx}\sim -C\Lambda\frac{dT}{dx} \rightarrow\limits^{U=CT} \frac{\Lambda}{T}\frac{dT}{dx}\ll 1$ \\&#xa;(temp. variation within $\Lambda$ is small compared to absolute temp.)" ID="ID_1134956908" CREATED="1621221380124" MODIFIED="1621221927220"/>
+</node>
+<node TEXT="\latex Phonon Hydrodynamic Eq.\\&#xa;when $\tau_N\ll \tau_u,\; \&amp;\&amp;\; \tau_c\ll\tau_u$" ID="ID_117369298" CREATED="1621296835717" MODIFIED="1621296921367">
+<node TEXT="\latex drifted BE dist: $f_d = \frac1{\exp{(\frac{\hbar\omega-\boldsymbol k\cdot \boldsymbol u}{k_BT})}-1}$ \\&#xa;$\boldsymbol u$ is the average velocity of phonons(drifting)" ID="ID_1360846140" CREATED="1621296940304" MODIFIED="1621297030332">
+<node TEXT="\latex define local energy\&amp; momentum density variables: \\&#xa;$U = \frac3{(2\pi)^3}\int \hbar\omega fd^3\boldsymbol k,\; \boldsymbol P=\frac3{(2\pi)^3}\int \hbar \boldsymbol k fd^3\boldsymbol k$" ID="ID_754374644" CREATED="1621297498363" MODIFIED="1621297614763"/>
+</node>
+<node TEXT="\latex Boltzmann eq.: $\frac{\partial f}{\partial t}+ \boldsymbol v\cdot \nabla_\boldsymbol rf=-\frac{f-f_0}{\tau_u}-\frac{f-f_d}{\tau_N}$\\&#xa;multiplied by $\hbar k_i$ and integrated over $\boldsymbol k$ :\\&#xa;$\frac{\partial P_i}{\partial t}+\frac{\partial \Sigma_{ij}}{\partial x_j} = -\frac3{(2\pi)^3}\int \frac{f-f_0}{\tau_u}\hbar k_i d^3\boldsymbol k$\\&#xa;multiplied by $\hbar \omega$ and integrated over $\boldsymbol k$:\\&#xa;$\frac{\partial U}{\partial t}+\frac{\partial J_{qi}}{\partial x_i}=0$" ID="ID_1257019348" CREATED="1621297182790" MODIFIED="1621298992473">
+<node TEXT="\latex term related to $\tau_N$ is zero as momentum \\is conserved for N-process" ID="ID_1990536380" CREATED="1621297806911" MODIFIED="1621297853717"/>
+<node TEXT="\latex $\Sigma_{ij} = \frac3{(2\pi)^3}\int \hbar k_i\boldsymbol v_j fd^3\boldsymbol k$ \\&#xa;similar to the inertia terms in N-S eq." ID="ID_1732585077" CREATED="1621297879023" MODIFIED="1621297947070"/>
+<node TEXT="\latex $J_{qi} = \frac3{(2\pi)^3} \int \hbar\omega v_ifd^3\boldsymbol k$" ID="ID_1992246291" CREATED="1621299026303" MODIFIED="1621299392370"/>
+<node TEXT="\latex 0-th order phonon hydrodyncmic eq.:\\&#xa;$\frac{\partial^2 T}{\partial t^2} = \frac{TS^2_p}{C\eta_{ij}}\frac{\partial^2T}{\partial x_i\partial x_j}$ (without Umklapp scattering) \\&#xa;$\frac{\partial P_i}{\partial t}+S_p\frac{\partial T}{\partial x_i}-\xi_{ijmn}\frac{\partial^2 u_j}{\partial x_m \partial x_n}+\frac{TS_p^2}{k_{ij}}u_j=0$ (with Umklapp scattering)" ID="ID_1927746235" CREATED="1621299726251" MODIFIED="1621300234918">
+<node TEXT="implying the temp. field propagates as a wave&#xa;corresponding speed is called the second sound" ID="ID_172420406" CREATED="1621299879204" MODIFIED="1621299921588"/>
+<node TEXT="\latex $\xi_{ijmn}$ is analogous to viscosity for N-process" ID="ID_489476797" CREATED="1621300264571" MODIFIED="1621300289671"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="\latex Density of States(DOS)&#xa;\\$[DOS]=\mathrm{Hz}^{-1}$" FOLDED="true" POSITION="left" ID="ID_1842544531" CREATED="1617690346544" MODIFIED="1619352226931">
