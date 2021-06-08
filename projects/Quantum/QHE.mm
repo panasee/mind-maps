@@ -1,13 +1,14 @@
-<map version="freeplane 1.8.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
+<map version="freeplane 1.9.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545267672148"><hook NAME="MapStyle" zoom="1.334">
+<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="2.147">
     <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="default" ID="ID_158638090" MAX_WIDTH="600 px" COLOR="#000000" STYLE="as_parent">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_158638090" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -19,6 +20,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -56,8 +58,9 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <edge STYLE="sharp_bezier" WIDTH="1"/>
-<node TEXT="IQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1544323094977">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<font SIZE="14"/>
+<node TEXT="IQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1623032875620">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#ff0000"/>
 <node TEXT="resistivity &amp; conductivity" LOCALIZED_STYLE_REF="default" ID="ID_1149798585" CREATED="1543494243089" MODIFIED="1544323094979">
 <hook EQUATION=" plateau \ of\ \rho_{xy} \\ spikes\ of\ \rho_{xx}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -88,7 +91,7 @@
 <node TEXT="localized electrons don&apos;t contribute to the current, but the current carried by extended states increases to compensate for it" ID="ID_1008139022" CREATED="1545046779392" MODIFIED="1545046857648"/>
 </node>
 </node>
-<node TEXT="    edge modes" ID="ID_1062108373" CREATED="1543643061531" MODIFIED="1544700023218" HGAP_QUANTITY="33.0 px" VSHIFT_QUANTITY="-25.0 px" MOVED="1543647393436">
+<node TEXT="    edge modes" ID="ID_1062108373" CREATED="1543643061531" MODIFIED="1544700023218" HGAP_QUANTITY="33 px" VSHIFT_QUANTITY="-25 px" MOVED="1543647393436">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="classical reckoned as bounce" ID="ID_1724345279" CREATED="1543643845273" MODIFIED="1544323094989">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -149,7 +152,7 @@
 </node>
 </node>
 <node TEXT="second, turn some states from extended to localized" ID="ID_333409284" CREATED="1543649435989" MODIFIED="1545047034673">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="271;-37;" ENDINCLINATION="-111;25;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203.24999 pt;-27 pt;" ENDINCLINATION="-82.5 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="the center of the orbit, X drifts along equipotentials" ID="ID_66226761" CREATED="1543650213872" MODIFIED="1544323095020">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -179,7 +182,7 @@
 </node>
 </node>
 <node TEXT="Gauge Invariance" ID="ID_485433445" CREATED="1543651405067" MODIFIED="1545047208900">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-362;-181;" ENDINCLINATION="220;273;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-270.74999 pt;-135 pt;" ENDINCLINATION="165 pt;204.74999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Corbino ring" ID="ID_934640366" CREATED="1545047221026" MODIFIED="1545047228120" MOVED="1545047394846">
 <node TEXT="the gauge transformation can be thought as the changing of flux through the centre of the ring" ID="ID_822295887" CREATED="1545047250560" MODIFIED="1545047365019">
@@ -288,8 +291,8 @@
 </node>
 </node>
 </node>
-<node TEXT="FQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_1109550582" CREATED="1543493884128" MODIFIED="1544323095094">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="FQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_1109550582" CREATED="1543493884128" MODIFIED="1623032875621">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#0000ff"/>
 <node TEXT="including interactions between electrons" LOCALIZED_STYLE_REF="default" ID="ID_1580526852" CREATED="1543496210046" MODIFIED="1545048467030">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -358,7 +361,7 @@
 </node>
 </node>
 <node TEXT="excitation" ID="ID_453900492" CREATED="1545053818880" MODIFIED="1545053825236">
-<node TEXT="Quasi-Holes" ID="ID_158696238" CREATED="1545053827778" MODIFIED="1545536428015" HGAP_QUANTITY="13.0 px" VSHIFT_QUANTITY="130.0 px">
+<node TEXT="Quasi-Holes" ID="ID_158696238" CREATED="1545053827778" MODIFIED="1545536428015" HGAP_QUANTITY="13 px" VSHIFT_QUANTITY="130 px">
 <hook EQUATION="\psi_{M-hole}(z;\eta)=\prod_{j=1}^{M}\prod_{i=1}^{N}(z_i-\eta_j)\prod_{k&lt;l}(z_k-z_l)^me^{-\sum_{i=1}^n|z_i|^2/4l_B^2}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="set m quasi-holes at the same place" ID="ID_766330316" CREATED="1545121233008" MODIFIED="1545131616062">
 <hook EQUATION="\psi_{m-hole}(z;\eta)=\prod_{i=1}^{N}(z_i-\eta)^m\prod^{(N)}_{k&lt;l}(z_k-z_l)^me^{-\sum_{i=1}^n|z_i|^2/4l_B^2} \\&#xa;\Leftrightarrow \prod_{k&lt;l}^{(N+1)}(z_k-z_l)^me^{-\sum_{i=1}^n|z|^2 /4l_B^2}(set\,z_{N+1}=\eta)\\&#xa;\psi_{electrons}(z_i)=\psi_{m-hole}(z;\eta)\\&#xa;as\ \eta\ is\ not\ a\ dynamic\ variable\ but\ a\ parameter\ \Rightarrow m\ quasi-holes\ act\ like\ a\ deficit" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -406,7 +409,7 @@
 </node>
 </node>
 <node TEXT="ground state degeneracy depends on the topology of the manifold (place them on a compact manifold)" ID="ID_1596501918" CREATED="1545199677762" MODIFIED="1545268421637">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_285201163" STARTINCLINATION="412;90;" ENDINCLINATION="95;280;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_285201163" STARTINCLINATION="308.99999 pt;67.5 pt;" ENDINCLINATION="71.25 pt;209.99999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="create from vacuum a quasi-hole -- quasi-particle pair, let them move around two perpendicular circles on the torus ,then annihilate" ID="ID_1846610510" CREATED="1545199877749" MODIFIED="1545200745913">
 <hook EQUATION="corresponding\ operators\,;T_1\&amp;T_2,\ SO\ T_1T_2T_1^{-1}T_2^{-1}\Leftrightarrow take\ one\ anyon\ around\ another\\&#xa;so\ we\ get\Rightarrow T_1T_2=e^{2\pi i/m}T_2T_1  \rightarrow&#xa;this\ algebra\ of\ operators\ can&apos;t\ be\ reslised\ on\ a\ single\ vacuum\ state \Rightarrow the\ ground\ state\ must\ be\ degenerate" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="smallest representation of the former relation" ID="ID_957496401" CREATED="1545201247511" MODIFIED="1545201566013">
@@ -442,9 +445,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Bulk-Edge Correspondence" FOLDED="true" POSITION="right" ID="ID_878469582" CREATED="1543924121591" MODIFIED="1544323094968">
+<node TEXT="Bulk-Edge Correspondence" FOLDED="true" POSITION="right" ID="ID_878469582" CREATED="1543924121591" MODIFIED="1623032875621">
 <edge COLOR="#007c00"/>
-<font NAME="TSCu_Times" SIZE="16"/>
+<font NAME="TSCu_Times" SIZE="14"/>
 <node TEXT="bulk insulator but edge fermi liquid" ID="ID_650199979" CREATED="1543924457820" MODIFIED="1544323094974">
 <font NAME="TSCu_Times" SIZE="16"/>
 <node TEXT="spectrum under open-boundary condition based on transfer matrix formalism" ID="ID_1025938491" CREATED="1543924652427" MODIFIED="1545268492354" MOVED="1543924709838">
@@ -461,11 +464,11 @@
 </node>
 </node>
 </node>
-<node TEXT="basic" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_1304796225" CREATED="1543493888985" MODIFIED="1544667744151" MOVED="1544699926232">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="basic" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_1304796225" CREATED="1543493888985" MODIFIED="1623032875623" MOVED="1544699926232">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#00ff00"/>
-<node TEXT="Classical Hall Effect" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_810861857" CREATED="1543494163838" MODIFIED="1544323095103">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="Classical Hall Effect" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_810861857" CREATED="1543494163838" MODIFIED="1623032875623">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <node TEXT="Drude Model" LOCALIZED_STYLE_REF="default" ID="ID_759962708" CREATED="1543494192988" MODIFIED="1544323095105">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="conductivity" ID="ID_1286590176" CREATED="1543643533191" MODIFIED="1544323095108">
@@ -485,8 +488,8 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Landau Levels" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_683791577" CREATED="1543494177935" MODIFIED="1544323095117">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="Landau Levels" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_683791577" CREATED="1543494177935" MODIFIED="1623032875624">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <node TEXT="canonical momentum&amp;mechanical momentum" LOCALIZED_STYLE_REF="default" ID="ID_1667966010" CREATED="1543496333167" MODIFIED="1544323095119">
 <hook EQUATION="canonical \Leftrightarrow \textbf{x} \&amp; \textbf{p} \ both\ satisfy\ commutation\ relations " NAME="plugins/latex/LatexNodeHook.properties"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -504,95 +507,117 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="turning on an electric field" ID="ID_26592283" CREATED="1543498321907" MODIFIED="1545046051894">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-160;19;" ENDINCLINATION="-523;362;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-119.25 pt;14.25 pt;" ENDINCLINATION="-391.49999 pt;271.49999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="conductivity when some levels are filled" ID="ID_916414675" CREATED="1543643544384" MODIFIED="1544323095128" MOVED="1543643796997">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Berry Phase(the HEART of QHE)" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_1836697929" CREATED="1543494183872" MODIFIED="1544323095130">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="Abelian(no degeneracy)" ID="ID_1154635528" CREATED="1543631526876" MODIFIED="1544323095131">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="just a phase factor" ID="ID_1792446222" CREATED="1543638152817" MODIFIED="1544323095133">
+<node TEXT="Berry Phase(the HEART of QHE)" LOCALIZED_STYLE_REF="default" ID="ID_1836697929" CREATED="1543494183872" MODIFIED="1623032875624">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="Abelian(no degeneracy)" ID="ID_1154635528" CREATED="1543631526876" MODIFIED="1623032875625">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="just a phase factor" ID="ID_1792446222" CREATED="1543638152817" MODIFIED="1623032875626">
 <hook EQUATION="\rm{e}^{\rm{i}\gamma}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Berry Connection" ID="ID_1225763759" CREATED="1543637100308" MODIFIED="1544323095135">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT=" redundency in info." ID="ID_1556380829" CREATED="1543637409398" MODIFIED="1544323095136">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="Berry Connection" ID="ID_1225763759" CREATED="1543637100308" MODIFIED="1623032875626">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT=" redundency in info." ID="ID_1556380829" CREATED="1543637409398" MODIFIED="1623032875626">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="adiabatic theorem" ID="ID_1518626749" CREATED="1543631676586" MODIFIED="1544323095138">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="adiabatic theorem" ID="ID_1518626749" CREATED="1543631676586" MODIFIED="1623032875626">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="\latex $\dot c_i = - c_i \langle \psi_i|\dot \psi_i \rangle$ ($|\psi_n(\vec R)\rangle = |\psi_n(\vec R)\rangle e^{i\theta(\vec R)}e^{i\gamma_n(\vec R)}$)\\&#xa;eigenstates evolve independently of each other" ID="ID_1242725691" CREATED="1623032385252" MODIFIED="1623033352212">
+<font SIZE="14"/>
+<node TEXT="\latex $\gamma_n(\lambda) = i\int \langle n | \dot n \rangle dt = i\int \langle n | \nabla_{\vec R} | n \rangle d\vec R$ \\&#xa;(note: the integral itself is a imaginary number)" ID="ID_127200413" CREATED="1623033176304" MODIFIED="1623033727645">
+<font SIZE="14"/>
 </node>
-<node TEXT="Non-Abelian(degeneracy exists)" ID="ID_1990261509" CREATED="1543638020151" MODIFIED="1544323095139">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="not phase factor, but a unitary matrix to evolve in the subspace of degeneracy" ID="ID_405338711" CREATED="1543638178552" MODIFIED="1545045419600">
+</node>
+<node TEXT="for an adiabatic process, a sys starting with nth eigenstate remains nth, only picking up a couple of phase factors" ID="ID_211382559" CREATED="1623032755566" MODIFIED="1623032894624">
+<font SIZE="14"/>
+<node TEXT="\latex the new phase factor $\gamma_n(t)$ can be canceled out by\\&#xa;choosing an appropriate gauge for the eigenfuncs" ID="ID_1778508180" CREATED="1623032813486" MODIFIED="1623032991816">
+<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="205.49999 pt;7.5 pt;" ENDINCLINATION="541.49998 pt;0 pt;"/>
+<font SIZE="14"/>
+</node>
+</node>
+<node TEXT="\latex if the adiabatic evolution is cyclic, then $\gamma_n(t)$ becomes \\a gauge-invariant physical quantity --- \textbf{Berry phase}" ID="ID_1684905803" CREATED="1623032918743" MODIFIED="1623033367076">
+<font SIZE="14"/>
+</node>
+</node>
+<node TEXT="Non-Abelian(degeneracy exists)" ID="ID_1990261509" CREATED="1543638020151" MODIFIED="1623032875631">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="not phase factor, but a unitary matrix to evolve in the subspace of degeneracy" ID="ID_405338711" CREATED="1543638178552" MODIFIED="1623032875631">
 <hook EQUATION="U\subset U(N)" NAME="plugins/latex/LatexNodeHook.properties"/>
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
-<node TEXT="connection is a matrix" ID="ID_431868831" CREATED="1543640359092" MODIFIED="1544323095144">
+<node TEXT="connection is a matrix" ID="ID_431868831" CREATED="1543640359092" MODIFIED="1623032875635">
 <hook EQUATION="(\mathscr{A}_i)_{ba}=-\mathrm{i} \langle n_a | n_b \rangle" NAME="plugins/latex/LatexNodeHook.properties"/>
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
-<node TEXT="the field strength no longer gauge-invariant" ID="ID_1364007766" CREATED="1543641888995" MODIFIED="1544323095146">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="the field strength no longer gauge-invariant" ID="ID_1364007766" CREATED="1543641888995" MODIFIED="1623032875636">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
-<node TEXT="Berry holonomy:the most important gauge-invariant quantity" ID="ID_1851297692" CREATED="1543642250032" MODIFIED="1553569401372">
+<node TEXT="Berry holonomy:the most important gauge-invariant quantity" ID="ID_1851297692" CREATED="1543642250032" MODIFIED="1623032875637">
 <hook EQUATION="U_{ac}^\dagger \dot{U}_{cb}=-\langle n_a | \dot{n}_b \rangle =-\langle n_a|\frac{\partial}{\partial \lambda^i}|n_b\rangle \dot{\lambda}^i \\&#xa;\mathrm{solve\ to\ get}\  U=\mathscr{P} \mathrm{e}^{-\mathrm{i}\oint \mathscr{A}_i \mathrm{d}\lambda^i}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Aharonov-Bohm Effect" ID="ID_1806859842" CREATED="1543637777231" MODIFIED="1544323095149" MOVED="1543638108367">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="Aharonov-Bohm Effect" ID="ID_1806859842" CREATED="1543637777231" MODIFIED="1623032875638" MOVED="1543638108367">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Zeeman splitting" LOCALIZED_STYLE_REF="default" ID="ID_272098435" CREATED="1543496442895" MODIFIED="1544323095150">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="the reason of ignoring the spin" LOCALIZED_STYLE_REF="default" ID="ID_1009372872" CREATED="1543496458367" MODIFIED="1544323095152">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="Zeeman splitting" LOCALIZED_STYLE_REF="default" ID="ID_272098435" CREATED="1543496442895" MODIFIED="1623032875638">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="the reason of ignoring the spin" LOCALIZED_STYLE_REF="default" ID="ID_1009372872" CREATED="1543496458367" MODIFIED="1623032875638">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="SSH model" ID="ID_894133692" CREATED="1543630293100" MODIFIED="1544323095154">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
-<node TEXT="1-D &amp; 2 kinds of atoms" ID="ID_1523229409" CREATED="1544668710723" MODIFIED="1544668731831"/>
-<node TEXT="Hamiltonian" ID="ID_534099047" CREATED="1544668767441" MODIFIED="1544671987400">
+<node TEXT="SSH model" ID="ID_894133692" CREATED="1543630293100" MODIFIED="1623032875638">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="1-D &amp; 2 kinds of atoms" ID="ID_1523229409" CREATED="1544668710723" MODIFIED="1623032875639">
+<font SIZE="14"/>
+</node>
+<node TEXT="Hamiltonian" ID="ID_534099047" CREATED="1544668767441" MODIFIED="1623032875639">
 <hook EQUATION="\mathscr{H}=\Sigma\limits_{n=1}^N(v_nc_{n,1}^\dagger\     c_{n,2}+w_nc^\dagger_{n,2}\ c_{n+1,1}+h.c.)\\&#xa;\equiv \sum_{m,n=1}^N \textbf{c}_m^\dagger H_{mn}\textbf{c}_n\\&#xa;\equiv \oplus_{n=1}^N \mathscr H(k)\\&#xa;\mathscr H(k)=U+Te^{ikb}+T^\dagger e^{-ikb} \equiv \boldsymbol{h}(k)\cdot \sigma" NAME="plugins/latex/LatexNodeHook.properties"/>
+<font SIZE="14"/>
 </node>
 </node>
-<node TEXT="spectral flow" ID="ID_409060658" CREATED="1543637744027" MODIFIED="1544323095156">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="spectral flow" ID="ID_409060658" CREATED="1543637744027" MODIFIED="1623032875640">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
-<node TEXT="two-state system" ID="ID_604754110" CREATED="1545045699155" MODIFIED="1545045704323"/>
-<node TEXT="symmetry &amp; classification" ID="ID_670385051" CREATED="1544754618961" MODIFIED="1544777373747" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/literature_repository/Classification%20of%20topological%20quantum%20matter%20with%20symmetries%20-%20Chiu%20et%20al.pdf">
+<node TEXT="two-state system" ID="ID_604754110" CREATED="1545045699155" MODIFIED="1623032875640">
+<font SIZE="14"/>
+</node>
+<node TEXT="symmetry &amp; classification" ID="ID_670385051" CREATED="1544754618961" MODIFIED="1623032875640" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/literature_repository/Classification%20of%20topological%20quantum%20matter%20with%20symmetries%20-%20Chiu%20et%20al.pdf">
 <attribute NAME="key" VALUE="RevModPhys.88.035005"/>
 <attribute NAME="journal" VALUE="Rev. Mod. Phys."/>
 <attribute NAME="year" VALUE="2016"/>
 <attribute NAME="title" VALUE="Classification of topological quantum matter with symmetries"/>
 <attribute NAME="authors" VALUE="Chiu, Ching-Kai and Teo, Jeffrey C. Y. and Schnyder, Andreas P. and Ryu, Shinsei"/>
-<font NAME="TSCu_Times" SIZE="16"/>
+<font NAME="TSCu_Times" SIZE="14"/>
 <pdf_annotation type="PDF_FILE" object_id="0" document_hash="DC15BDDCFE43E9ED1850D7DA74B5274E55DAD52C855AD9EDAB8CE0D84F6FEA">
     <pdf_title>Ching-Kai Chiu</pdf_title>
 </pdf_annotation>
-<node TEXT="chiral symmetry" ID="ID_1711355427" CREATED="1544777377672" MODIFIED="1544777527640">
+<node TEXT="chiral symmetry" ID="ID_1711355427" CREATED="1544777377672" MODIFIED="1623032875641">
 <hook EQUATION="\widetilde S \leftrightarrow \widetilde C  \cdot \widetilde  T" NAME="plugins/latex/LatexNodeHook.properties"/>
+<font SIZE="14"/>
 </node>
 </node>
 </node>
-<node TEXT="disorder" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_270286370" CREATED="1543495979641" MODIFIED="1544323095160" MOVED="1544699952209">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="disorder" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_270286370" CREATED="1543495979641" MODIFIED="1623032875641" MOVED="1544699952209">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="as disorder decreasing" LOCALIZED_STYLE_REF="default" ID="ID_1541773936" CREATED="1543495985016" MODIFIED="1544323095161">
 <hook EQUATION="IQHE \rightarrow FQHE \rightarrow CHE(when \ disorder \rightarrow 0)" NAME="plugins/latex/LatexNodeHook.properties"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="gauge" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_727646755" CREATED="1543497311945" MODIFIED="1544323095163" MOVED="1544699957644">
-<font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
+<node TEXT="gauge" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_727646755" CREATED="1543497311945" MODIFIED="1623032875641" MOVED="1544699957644">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#7c0000"/>
 <node TEXT="Landau gauge" LOCALIZED_STYLE_REF="default" ID="ID_1117577542" CREATED="1543497327527" MODIFIED="1544323095165">
 <hook EQUATION="A=xB\^y" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -603,9 +628,11 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Non-Abelian" POSITION="right" ID="ID_1538672792" CREATED="1545269944639" MODIFIED="1545269954712">
+<node TEXT="Non-Abelian" POSITION="right" ID="ID_1538672792" CREATED="1545269944639" MODIFIED="1623032875641">
 <edge COLOR="#0000ff"/>
-<node TEXT="Higher LLs" FOLDED="true" ID="ID_956149356" CREATED="1545270021412" MODIFIED="1545270029829">
+<font SIZE="14"/>
+<node TEXT="Higher LLs" FOLDED="true" ID="ID_956149356" CREATED="1545270021412" MODIFIED="1623032875642">
+<font SIZE="14"/>
 <node TEXT="if neglect the coupling between different LL, then there&apos;s a way to map the physics back down to the LLL" ID="ID_798633540" CREATED="1545270062435" MODIFIED="1545270104118"/>
 <node TEXT="there is a one-to-one map between LLs----the ladder operator" ID="ID_1688761829" CREATED="1545270119390" MODIFIED="1545272015481">
 <hook EQUATION="a\ two-particle\ LLL\ state-|M,m\rangle\rightarrow a_1^{\dagger n}a_2^{\dagger n}|M,m\rangle\\&#xa;pseudo-potential\rightarrow v_m^{(n)}=\frac{\langle M,m|a_i^{n}a_j^{n}V(|\textbf r_i-\textbf r_j|)a_i^{\dagger n}a_j^{\dagger n}|M,m\rangle}{\langle M,m|M,m\rangle}\rightarrow this\ can\ be\ reckoned\ as\ a\ potential\ at\ LLL&#xa;" NAME="plugins/latex/LatexNodeHook.properties"/>
