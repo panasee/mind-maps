@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="2.147">
+<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="1.614">
     <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -152,7 +152,7 @@
 </node>
 </node>
 <node TEXT="second, turn some states from extended to localized" ID="ID_333409284" CREATED="1543649435989" MODIFIED="1545047034673">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203.24999 pt;-27 pt;" ENDINCLINATION="-82.5 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203.24999 pt;-26.25 pt;" ENDINCLINATION="-81.75 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="the center of the orbit, X drifts along equipotentials" ID="ID_66226761" CREATED="1543650213872" MODIFIED="1544323095020">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -182,7 +182,7 @@
 </node>
 </node>
 <node TEXT="Gauge Invariance" ID="ID_485433445" CREATED="1543651405067" MODIFIED="1545047208900">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-270.74999 pt;-135 pt;" ENDINCLINATION="165 pt;204.74999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-269.99999 pt;-134.25 pt;" ENDINCLINATION="165 pt;204.74999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Corbino ring" ID="ID_934640366" CREATED="1545047221026" MODIFIED="1545047228120" MOVED="1545047394846">
 <node TEXT="the gauge transformation can be thought as the changing of flux through the centre of the ring" ID="ID_822295887" CREATED="1545047250560" MODIFIED="1545047365019">
@@ -507,45 +507,53 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="turning on an electric field" ID="ID_26592283" CREATED="1543498321907" MODIFIED="1545046051894">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-119.25 pt;14.25 pt;" ENDINCLINATION="-391.49999 pt;271.49999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-118.5 pt;14.25 pt;" ENDINCLINATION="-390.74999 pt;271.49999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="conductivity when some levels are filled" ID="ID_916414675" CREATED="1543643544384" MODIFIED="1544323095128" MOVED="1543643796997">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Berry Phase(the HEART of QHE)" LOCALIZED_STYLE_REF="default" ID="ID_1836697929" CREATED="1543494183872" MODIFIED="1623032875624">
+<node TEXT="Adiabatic Evolution &amp;&#xa;Berry Phase/Connection/Curvature" LOCALIZED_STYLE_REF="default" ID="ID_1836697929" CREATED="1543494183872" MODIFIED="1623317307919">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
-<node TEXT="Abelian(no degeneracy)" ID="ID_1154635528" CREATED="1543631526876" MODIFIED="1623032875625">
+<node TEXT="adiabatic theorem" ID="ID_1518626749" CREATED="1543631676586" MODIFIED="1623032875626">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
-<node TEXT="just a phase factor" ID="ID_1792446222" CREATED="1543638152817" MODIFIED="1623032875626">
-<hook EQUATION="\rm{e}^{\rm{i}\gamma}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
-</node>
-</node>
-<node TEXT="Berry Connection" ID="ID_1225763759" CREATED="1543637100308" MODIFIED="1623032875626">
+<node TEXT="\latex $\dot c_i = - c_i \langle \psi_i|\dot \psi_i \rangle$ ($|\psi_n(\vec R)\rangle = |\psi_n(\vec R)\rangle e^{i\theta(\vec R)}e^{i\gamma_n(\vec R)}$)\\&#xa;eigenstates evolve independently of each other" ID="ID_1242725691" CREATED="1623032385252" MODIFIED="1623033352212">
+<font SIZE="14"/>
+<node TEXT="\latex $\gamma_n(\lambda) = i\int \langle n | \dot n \rangle dt = i\int_\mathcal C \langle n | \nabla_{\vec R} | n \rangle d\vec R= -\text{Im}\int_\mathcal C \langle n | \nabla_{\vec R} | n \rangle d\vec R$ \\&#xa;(note: the integral itself is a imaginary number)" ID="ID_127200413" CREATED="1623033176304" MODIFIED="1623315557841">
+<font SIZE="14"/>
+<node TEXT="\latex \textbf{Berry Connection(Vector potential)} \\&#xa;$\boldsymbol A_n(\boldsymbol R) = i\langle n(\boldsymbol R)| \frac{\partial}{\partial \boldsymbol R}| n(\boldsymbol R)\rangle$\\&#xa;(\therefore $\gamma_n = \int_\mathcal C d\boldsymbol R \cdot \boldsymbol A_n(\boldsymbol R)$)" ID="ID_1225763759" CREATED="1543637100308" MODIFIED="1623314513814">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <node TEXT=" redundency in info." ID="ID_1556380829" CREATED="1543637409398" MODIFIED="1623032875626">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="adiabatic theorem" ID="ID_1518626749" CREATED="1543631676586" MODIFIED="1623032875626">
-<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
-<node TEXT="\latex $\dot c_i = - c_i \langle \psi_i|\dot \psi_i \rangle$ ($|\psi_n(\vec R)\rangle = |\psi_n(\vec R)\rangle e^{i\theta(\vec R)}e^{i\gamma_n(\vec R)}$)\\&#xa;eigenstates evolve independently of each other" ID="ID_1242725691" CREATED="1623032385252" MODIFIED="1623033352212">
-<font SIZE="14"/>
-<node TEXT="\latex $\gamma_n(\lambda) = i\int \langle n | \dot n \rangle dt = i\int \langle n | \nabla_{\vec R} | n \rangle d\vec R$ \\&#xa;(note: the integral itself is a imaginary number)" ID="ID_127200413" CREATED="1623033176304" MODIFIED="1623033727645">
-<font SIZE="14"/>
+<node TEXT="\latex $\langle n(\boldsymbol R )|n(\boldsymbol R)\rangle = 1$\\&#xa;$\Rightarrow \langle n(\boldsymbol R) | \nabla_R | n(\boldsymbol R)\rangle =- \langle n(\boldsymbol R) | \nabla_R | n(\boldsymbol R)\rangle ^*$" ID="ID_1664604159" CREATED="1623314331659" MODIFIED="1623314489754"/>
 </node>
 </node>
 <node TEXT="for an adiabatic process, a sys starting with nth eigenstate remains nth, only picking up a couple of phase factors" ID="ID_211382559" CREATED="1623032755566" MODIFIED="1623032894624">
 <font SIZE="14"/>
-<node TEXT="\latex the new phase factor $\gamma_n(t)$ can be canceled out by\\&#xa;choosing an appropriate gauge for the eigenfuncs" ID="ID_1778508180" CREATED="1623032813486" MODIFIED="1623032991816">
-<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="205.49999 pt;7.5 pt;" ENDINCLINATION="541.49998 pt;0 pt;"/>
+<node TEXT="\latex the new phase factor $\gamma_n(t)$ can be canceled out by\\&#xa;choosing an appropriate gauge for the eigenfuncs \\&#xa;$|n(\boldsymbol R) \rangle \rightarrow e^{i\zeta(\boldsymbol R)}| n (\boldsymbol R)\rangle$" ID="ID_1778508180" CREATED="1623032813486" MODIFIED="1623315780731">
+<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-156.75 pt;59.25 pt;" ENDINCLINATION="89.25 pt;-8.25 pt;"/>
 <font SIZE="14"/>
 </node>
 </node>
-<node TEXT="\latex if the adiabatic evolution is cyclic, then $\gamma_n(t)$ becomes \\a gauge-invariant physical quantity --- \textbf{Berry phase}" ID="ID_1684905803" CREATED="1623032918743" MODIFIED="1623033367076">
+</node>
+<node TEXT="\latex if the adiabatic evolution is cyclic, then $\gamma_n(t)$ becomes \\a gauge-invariant physical quantity --- \textbf{Berry phase}" ID="ID_1684905803" CREATED="1623032918743" MODIFIED="1623314991942">
 <font SIZE="14"/>
+<node TEXT="\latex $\boldsymbol R(0) = \boldsymbol R(T)$ (on a close path) \Rightarrow $|n(\boldsymbol R(0))\rangle = |n (\boldsymbol R(T))\rangle$\\&#xa;gauge transformations must maintain this property:&#xa;\\$e^{i\zeta(\boldsymbol R(0))}| n (\boldsymbol R(0))\rangle = e^{i\zeta(\boldsymbol R(T))}| n (\boldsymbol R(T))\rangle = e^{i\zeta(\boldsymbol R(T))}| n (\boldsymbol R(0))\rangle$" ID="ID_1028753977" CREATED="1623314982839" MODIFIED="1623315353506" HGAP_QUANTITY="29 pt" VSHIFT_QUANTITY="21 pt">
+<font SIZE="14"/>
+</node>
+<node TEXT="\latex Stokes theorem(3-D space):$\gamma_n = -\text{Im} \int d\boldsymbol S\cdot (\nabla\times \langle n(\boldsymbol R)|\nabla|n(\boldsymbol R)\rangle)$ \\&#xa;$=-\text{Im} \int dS_i\epsilon_{ijk} \nabla_j\langle n(\boldsymbol R)|\nabla_k|n(\boldsymbol R)\rangle$" ID="ID_829694334" CREATED="1623315797593" MODIFIED="1623316961452">
+<font SIZE="14"/>
+<node TEXT="\latex in general cases: $\Omega_{n,\mu\nu}(\boldsymbol R) = \frac\partial{\partial R^\mu} \mathcal A_{n,\nu}(\boldsymbol R)-\frac\partial{\partial R^\nu}\mathcal A_{n,\mu}(\boldsymbol R )$" ID="ID_1251393290" CREATED="1623317786793" MODIFIED="1623317964206"/>
+</node>
+</node>
+<node TEXT="Abelian(no degeneracy)" ID="ID_1154635528" CREATED="1543631526876" MODIFIED="1623032875625">
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="just a phase factor" ID="ID_1792446222" CREATED="1543638152817" MODIFIED="1623032875626">
+<hook EQUATION="\rm{e}^{\rm{i}\gamma}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 </node>
 <node TEXT="Non-Abelian(degeneracy exists)" ID="ID_1990261509" CREATED="1543638020151" MODIFIED="1623032875631">
