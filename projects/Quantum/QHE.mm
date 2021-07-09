@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="3.144">
+<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="2.858">
     <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -152,7 +152,7 @@
 </node>
 </node>
 <node TEXT="second, turn some states from extended to localized" ID="ID_333409284" CREATED="1543649435989" MODIFIED="1545047034673">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203.24999 pt;-25.5 pt;" ENDINCLINATION="-81 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203.24999 pt;-24.75 pt;" ENDINCLINATION="-80.25 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="the center of the orbit, X drifts along equipotentials" ID="ID_66226761" CREATED="1543650213872" MODIFIED="1544323095020">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -182,7 +182,7 @@
 </node>
 </node>
 <node TEXT="Gauge Invariance" ID="ID_485433445" CREATED="1543651405067" MODIFIED="1545047208900">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-269.24999 pt;-133.5 pt;" ENDINCLINATION="165 pt;204.74999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-268.49999 pt;-132.75 pt;" ENDINCLINATION="165 pt;204.74999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Corbino ring" ID="ID_934640366" CREATED="1545047221026" MODIFIED="1545047228120" MOVED="1545047394846">
 <node TEXT="the gauge transformation can be thought as the changing of flux through the centre of the ring" ID="ID_822295887" CREATED="1545047250560" MODIFIED="1545047365019">
@@ -507,7 +507,7 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="turning on an electric field" ID="ID_26592283" CREATED="1543498321907" MODIFIED="1545046051894">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-117.75 pt;14.25 pt;" ENDINCLINATION="-389.99999 pt;271.49999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-117 pt;14.25 pt;" ENDINCLINATION="-389.24999 pt;271.49999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="conductivity when some levels are filled" ID="ID_916414675" CREATED="1543643544384" MODIFIED="1544323095128" MOVED="1543643796997">
@@ -535,12 +535,14 @@
 <node TEXT="for an adiabatic process, a sys starting with nth eigenstate remains nth, only picking up a couple of phase factors" ID="ID_211382559" CREATED="1623032755566" MODIFIED="1623032894624">
 <font SIZE="14"/>
 <node TEXT="\latex the new phase factor $\gamma_n(t)$ can be canceled out by\\&#xa;choosing an appropriate gauge for the eigenfuncs \\&#xa;$|n(\boldsymbol R) \rangle \rightarrow e^{i\zeta(\boldsymbol R)}| n (\boldsymbol R)\rangle$" ID="ID_1778508180" CREATED="1623032813486" MODIFIED="1623315780731">
-<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-156 pt;59.25 pt;" ENDINCLINATION="89.25 pt;-7.5 pt;"/>
+<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-155.25 pt;59.25 pt;" ENDINCLINATION="89.25 pt;-6.75 pt;"/>
 <font SIZE="14"/>
 <node TEXT="\latex $\boldsymbol A_n(\boldsymbol R) \rightarrow \boldsymbol A_n(\boldsymbol R) - \frac\partial{\partial\boldsymbol R} \zeta(\boldsymbol R)$\\&#xa;$\gamma_n\rightarrow\gamma_n - \zeta |_{\boldsymbol R(0)}^{\boldsymbol R(T)}$" ID="ID_1647131701" CREATED="1625664689519" MODIFIED="1625664881436"/>
 </node>
 </node>
-<node TEXT="\latex NOTE:$\langle m | \dot n\rangle = -\frac{\langle m|\dot H | n\rangle}{E_m -E_n}, (m\ne n)$\\&#xa;adiabatic \sim $\dot H\rightarrow 0$, so $\langle m | \dot n \rangle \rightarrow 0$" ID="ID_259163173" CREATED="1625661835628" MODIFIED="1625662431861"/>
+<node TEXT="\latex NOTE:$\langle m | \dot n\rangle = -\frac{\langle m|\dot H | n\rangle}{E_m -E_n}, (m\ne n)$\\&#xa;adiabatic \sim $\dot H\rightarrow 0$, so $\langle m | \dot n \rangle \rightarrow 0$" ID="ID_259163173" CREATED="1625661835628" MODIFIED="1625662431861">
+<node TEXT="\latex when degeneracies exist, this level degeneracy point\\&#xa; corresponds to a \textbf{monopole } in the parameter space" ID="ID_431404130" CREATED="1625710206297" MODIFIED="1625710277680"/>
+</node>
 </node>
 <node TEXT="\latex if the adiabatic evolution is cyclic, then $\gamma_n(t)$ becomes \\a gauge-invariant physical quantity --- \textbf{Berry phase}\\&#xa;(also called \textbf{Geometry phase})" ID="ID_1684905803" CREATED="1623032918743" MODIFIED="1625648173040">
 <font SIZE="14"/>
@@ -550,8 +552,8 @@
 </node>
 <node TEXT="\latex Stokes theorem(3-D space): $\gamma_n =\int \nabla\times \boldsymbol A \cdot d\boldsymbol S$\\$= -\text{Im} \int d\boldsymbol S\cdot (\nabla\times \langle n(\boldsymbol R)|\nabla|n(\boldsymbol R)\rangle)$ \\&#xa;$=-\text{Im} \int dS_i\epsilon_{ijk} \nabla_j\langle n(\boldsymbol R)|\nabla_k|n(\boldsymbol R)\rangle$\\&#xa;$=-\text{Im}\int d\boldsymbol S\cdot (\langle \nabla n (\boldsymbol R)|\times | \nabla n(\boldsymbol R)\rangle)$" ID="ID_829694334" CREATED="1623315797593" MODIFIED="1625666091444">
 <font SIZE="14"/>
-<node TEXT="\latex \textbf{Berry Curvature:} $\langle \nabla n (\boldsymbol R)|\times | \nabla n(\boldsymbol R)\rangle$\\&#xa;&#xa;in general cases: $\Omega_{n,\mu\nu}(\boldsymbol R) = \frac\partial{\partial R^\mu} \mathcal A_{n,\nu}(\boldsymbol R)-\frac\partial{\partial R^\nu}\mathcal A_{n,\mu}(\boldsymbol R )$" ID="ID_1251393290" CREATED="1623317786793" MODIFIED="1625666163504"/>
-<node TEXT="\latex for numerical application where gauge is in chaos,\\&#xa;$\gamma_n = -\text{Im}\int d\boldsymbol S\cdot \sum^\prime_m\frac{\langle n|\nabla_{R} H|m\rangle\times\langle m|\nabla_R H |n \rangle}{(E_m-E_n)^2}$\\&#xa;(by inserting identity operator, NOTE: $\nabla_R^\dagger = \nabla_R$)" ID="ID_1787835932" CREATED="1625668964022" MODIFIED="1625669284241"/>
+<node TEXT="\latex \textbf{Berry Curvature:} $\boldsymbol V_n = \text{Im}\langle \nabla n (\boldsymbol R)|\times | \nabla n(\boldsymbol R)\rangle$\\&#xa;(to be precise, $F_{jk}=\langle \nabla_jn|\nabla_kn\rangle-\langle \nabla_kn|\nabla_jn\rangle$($\boldsymbol V_i = \epsilon_{ijk}F_{jk}$), like a magnetic field in para space)\\&#xa;in general cases: $\Omega_{n,\mu\nu}(\boldsymbol R) = \frac\partial{\partial R^\mu} \mathcal A_{n,\nu}(\boldsymbol R)-\frac\partial{\partial R^\nu}\mathcal A_{n,\mu}(\boldsymbol R )$" ID="ID_1251393290" CREATED="1623317786793" MODIFIED="1625724804746"/>
+<node TEXT="\latex for numerical application where gauge is in chaos,\\&#xa;give the \textbf{gauge-independent } version:\\&#xa;$\gamma_n = -\text{Im}\int d\boldsymbol S\cdot \sum^\prime_m\frac{\langle n|\nabla_{R} H|m\rangle\times\langle m|\nabla_R H |n \rangle}{(E_m-E_n)^2}$\\&#xa;$\boldsymbol V_n = \text{Im}\sum^\prime_m\frac{\langle n|\nabla_{R} H|m\rangle\times\langle m|\nabla_R H |n \rangle}{(E_m-E_n)^2}$\\&#xa;(by inserting identity operator, NOTE: $\nabla_R^\dagger = \nabla_R$)" ID="ID_1787835932" CREATED="1625668964022" MODIFIED="1625710798961"/>
 </node>
 <node ID="ID_1096036843" CREATED="1625667963774" MODIFIED="1625668020725"><richcontent TYPE="NODE">
 
@@ -571,7 +573,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -584,12 +585,22 @@
 </node>
 <node TEXT="Non-Abelian(degeneracy exists)" ID="ID_1990261509" CREATED="1543638020151" MODIFIED="1623032875631">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+<node TEXT="\latex consider a two states system($|+\rangle \&amp; |-\rangle$), $E_+(\boldsymbol R^*)=E_-(\boldsymbol R^*)$\\&#xa;when $\boldsymbol R \rightarrow \boldsymbol R^*$, $H(\boldsymbol R)\approx H(\boldsymbol R^*)+(\boldsymbol R-\boldsymbol R^*)\cdot \nabla H(\boldsymbol R^*)$\\&#xa;$\Rightarrow\boldsymbol V_+ = \text{Im}\frac{\langle +(\boldsymbol R)|\nabla H(\boldsymbol R^*)|-(\boldsymbol R)\rangle\times\langle -(\boldsymbol R)|\nabla H(\boldsymbol R^*) |+(\boldsymbol R) \rangle}{(E_+(\boldsymbol R)-E_-(\boldsymbol R))^2}$" ID="ID_1276218516" CREATED="1625710820029" MODIFIED="1625711262985">
+<node TEXT="\latex $\boldsymbol V_-(\boldsymbol R)=-\boldsymbol V_+(\boldsymbol R)\Rightarrow \gamma_-(C)+\gamma_+(C)=0$" ID="ID_759334129" CREATED="1625711358456" MODIFIED="1625711432183"/>
+<node TEXT="\latex generic form of Hamiltonian\\&#xa;$H=\epsilon(\boldsymbol R)I_{2\times 2}+\boldsymbol d(\boldsymbol R)\cdot \boldsymbol\sigma$\\&#xa;$E_{\pm}=\epsilon(\boldsymbol R)\pm \sqrt{\boldsymbol d\cdot \boldsymbol d}$" ID="ID_316904162" CREATED="1625711476289" MODIFIED="1625711730665">
+<node TEXT="\latex employ spherical coordinates and $\boldsymbol d(\boldsymbol R) = |d|(\sin\theta\cos\phi,\sin\theta\sin\phi,\cos\phi)$\\&#xa;$|-\rangle = \begin{pmatrix}\sin\frac\theta2e^{-i\phi}\\-\cos\frac\theta2\end{pmatrix},\;|+\rangle = \begin{pmatrix}\cos\frac\theta2e^{-i\phi}\\\sin\frac\theta2\end{pmatrix}$" ID="ID_1501538387" CREATED="1625712225563" MODIFIED="1625712639314">
+<node TEXT="\latex can&apos;t find a gauge in which all wavefuncs are well defined\\&#xa;$\Rightarrow$ \textbf{non-zero Hall conductance}" ID="ID_1412388135" CREATED="1625722975805" MODIFIED="1625723142222">
+<node TEXT="\latex when $\theta=\pi$, $|-\rangle$ is not well-defined\\&#xa;as $\phi$ can&apos;t be defined at this point" ID="ID_506645814" CREATED="1625722623467" MODIFIED="1625722712183"/>
+</node>
+</node>
+<node TEXT="\latex 3 paras $|d|,\theta,\phi$, denote $\boldsymbol A_-$ as $\boldsymbol A$ for now not consider $A_{|d|}$ \\&#xa;$A_\theta=0, A_\phi=\sin^2\frac\theta2, F_{\theta\phi}=\partial_\theta A_\phi-\partial_\phi A_\theta = \frac{\sin\theta}2$ (all gauge-independent)" ID="ID_722291638" CREATED="1625715336010" MODIFIED="1625723825254"/>
+</node>
+</node>
 <node TEXT="not phase factor, but a unitary matrix to evolve in the subspace of degeneracy" ID="ID_405338711" CREATED="1543638178552" MODIFIED="1623032875631">
 <hook EQUATION="U\subset U(N)" NAME="plugins/latex/LatexNodeHook.properties"/>
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
-<node TEXT="connection is a matrix" ID="ID_431868831" CREATED="1543640359092" MODIFIED="1623032875635">
-<hook EQUATION="(\mathscr{A}_i)_{ba}=-\mathrm{i} \langle n_a | n_b \rangle" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="\latex connection is a matrix\\&#xa;$(\mathscr{A}_i)_{ba}=-\mathrm{i} \langle n_a | n_b \rangle$" ID="ID_431868831" CREATED="1543640359092" MODIFIED="1625710171868">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 </node>
 <node TEXT="the field strength no longer gauge-invariant" ID="ID_1364007766" CREATED="1543641888995" MODIFIED="1623032875636">
@@ -598,6 +609,25 @@
 <node TEXT="Berry holonomy:the most important gauge-invariant quantity" ID="ID_1851297692" CREATED="1543642250032" MODIFIED="1623032875637">
 <hook EQUATION="U_{ac}^\dagger \dot{U}_{cb}=-\langle n_a | \dot{n}_b \rangle =-\langle n_a|\frac{\partial}{\partial \lambda^i}|n_b\rangle \dot{\lambda}^i \\&#xa;\mathrm{solve\ to\ get}\  U=\mathscr{P} \mathrm{e}^{-\mathrm{i}\oint \mathscr{A}_i \mathrm{d}\lambda^i}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
+</node>
+<node ID="ID_1675224783" CREATED="1625726209441" MODIFIED="1625726241905"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the degeneracy points in parameter space act as
+    </p>
+    <p>
+      <b>sources and drains</b>&nbsp;of the Berry curvature
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex the Berry curvature integrated over a closed manifold\\&#xa;is $2n\pi$, $n$ is the net number of monopoles contained inside\\&#xa;when integrated over 2-D surface, $n$ is \textbf{Chern number}" ID="ID_1975528722" CREATED="1625729177166" MODIFIED="1625729287111"/>
 </node>
 </node>
 <node TEXT="Aharonov-Bohm Effect" ID="ID_1806859842" CREATED="1543637777231" MODIFIED="1623032875638" MOVED="1543638108367">
