@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.2">
+<hook NAME="MapStyle" zoom="3.221">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Kinetic Theory" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
+<node TEXT="Kinetic Theory" FOLDED="true" POSITION="left" ID="ID_1980964850" CREATED="1602580686621" MODIFIED="1602580693173">
 <edge COLOR="#7c007c"/>
 <node TEXT="crude version&#xa;(ideal phonon gas)" FOLDED="true" ID="ID_1236868472" CREATED="1602580694182" MODIFIED="1617324458709">
 <node TEXT="a finite small volume is needed instead of a infinitesmall one to ensure enough collisions within" ID="ID_308034271" CREATED="1617325124729" MODIFIED="1617325163844">
@@ -883,7 +883,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-404.24999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-402.74999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -984,7 +984,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Boltzmann Transport Eq&#xa;(the dist here is for specific mode)" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619966112507">
+<node TEXT="Boltzmann Transport Eq&#xa;(the dist here is for specific mode)" FOLDED="true" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619966112507">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="533.99998 pt;0 pt;" ENDINCLINATION="92.25 pt;9 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
@@ -1032,7 +1032,7 @@
 <node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
 </node>
 <node TEXT="\latex $g\equiv f-f_0 = -\tau(\boldsymbol v\cdot \nabla_\boldsymbol r f_0 +\frac \boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$ hypotheses:\\&#xa;1. $f_0\gg g$            2. $\frac g\tau\gg \boldsymbol v\cdot \nabla g$ \\&#xa;3. $\frac{\partial f}{\partial t}\ll \frac{f-f_0}\tau,(\tau_c\gg\tau)$" FOLDED="true" ID="ID_414954367" CREATED="1621295917410" MODIFIED="1621296810923">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-58.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-57 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex Knudsen number: $Kn=\frac{\tau v}L=\frac\Lambda L$\\&#xa;Cond. 2 equals $Kn\ll 1$\\&#xa;i.e. characteristic length must be much larger than mfp" ID="ID_483689777" CREATED="1621296289712" MODIFIED="1621296403717"/>
 </node>
 </node>
@@ -1123,7 +1123,7 @@
 <node TEXT="basically intro momentum&apos;s direction info into DOS&#xa;to analyse directional transport" ID="ID_178691140" CREATED="1619360867203" MODIFIED="1619360927413"/>
 </node>
 </node>
-<node TEXT="\latex Onsager reciprocity\\&#xa;$L_{jk}=L_{kl}$" POSITION="right" ID="ID_803153255" CREATED="1619880100477" MODIFIED="1619880757433">
+<node TEXT="\latex Onsager reciprocity\\&#xa;$L_{jk}=L_{kl}$" FOLDED="true" POSITION="right" ID="ID_803153255" CREATED="1619880100477" MODIFIED="1619880757433">
 <edge COLOR="#007c00"/>
 <node TEXT="the transport coefficients are often related" ID="ID_1553998784" CREATED="1619880111533" MODIFIED="1619880123248">
 <node TEXT="more than a result from BTE" ID="ID_1571432895" CREATED="1619880137672" MODIFIED="1619880145251"/>
@@ -1137,15 +1137,24 @@
 </node>
 <node TEXT="\latex e.g. for local thermoelectric transport: \\&#xa;the generalized forces: $\nabla\frac1T$ for heat flow\\&#xa;$\frac{-\nabla \Phi}T$ for electrical current" ID="ID_1873985162" CREATED="1619880868251" MODIFIED="1619881139713"/>
 </node>
-<node TEXT="\latex 热核(Heat kernel)\\&#xa;$K(t,x,y)=\frac1{(4\pi a^2t)^{d/2}}e^{-\frac{|x-y|^2}{4a^2t}}$" POSITION="right" ID="ID_280278447" CREATED="1620128517202" MODIFIED="1620129575409">
-<edge COLOR="#7c007c"/>
-<node TEXT="\latex 热传递方程$\partial_tu-a^2\nabla^2u=0$的初值问题\\(给定$t=0$的$u(x,0)$)的格林函数" ID="ID_1846830172" CREATED="1620128642939" MODIFIED="1620128925321"/>
-<node TEXT="\latex free S.E.:$i\partial_t\psi+\frac{\nabla^2}{2m}\psi=0$\\&#xa;set $a^2=\frac i{2m}$, 不严格地得出其&quot;\textbf{虚时热核}&quot;:\\&#xa;$K(t,x,y)=(\frac{m}{2\pi it})^{d/2}e^{\frac{im|x-y|^2}{2t}}$" ID="ID_743479664" CREATED="1620131978233" MODIFIED="1620132166148">
-<node TEXT="与实时热核相比性质有很大区别, 实时热核是Schwartz(速降光滑)函数, 因此实时热核作用的函数光滑性会不可逆地瞬间提升&#xa;而虚时热核比较普通,对函数的光滑性无改善, 但却可逆" ID="ID_414705837" CREATED="1620132250995" MODIFIED="1620134291711">
-<node TEXT="对应物理意义: 热传递方程不能时间反演,&#xa; 而S.E.可以时间反演" ID="ID_1593114501" CREATED="1620132457427" MODIFIED="1620132508150"/>
-<node TEXT="\latex Schwartz函数: 当自变量X\rightarrow\infty时,\\&#xa;函数值f(X)\rightarrow0 &quot;足够快&quot;" ID="ID_1812585713" CREATED="1620134295866" MODIFIED="1620134380379"/>
+<node TEXT="\latex heat conduction regime\\&#xa;$\Lambda_{inelastic}$---inelastic phonon MFP in bulk material\\&#xa;$\Lambda_{elastic}$---elastic phonon MFP including all elastic scattering \\            from defects and boundaries\\&#xa;$\lambda$ is wavelength, $d$ is characristic length" POSITION="right" ID="ID_873147806" CREATED="1626173057664" MODIFIED="1626178053757">
+<edge COLOR="#007c7c"/>
+<hook URI="attachments/heat-trans-regime.png" SIZE="0.19968589" NAME="ExternalObject"/>
+<node TEXT="Casimir-Knudsen regime&#xa;(quasi-ballistic)" ID="ID_1873206422" CREATED="1626173070586" MODIFIED="1626173874219">
+<node TEXT="Casimir effect(Classical size effect)" ID="ID_1624445163" CREATED="1626173217297" MODIFIED="1626173232406">
+<node TEXT="collided by boundaries" ID="ID_739738108" CREATED="1626173236982" MODIFIED="1626173259814"/>
+</node>
+<node TEXT="Knudsen flow/diffusion&#xa;(scale length comparable to MFP)" ID="ID_579117189" CREATED="1626174099517" MODIFIED="1626174129682">
+<node TEXT="\latex the size of the heat source $\lesssim$ MFP \\&#xa;(even without interface/boundary scattering)" ID="ID_961565669" CREATED="1626173261120" MODIFIED="1626173665413"/>
+<node TEXT="e.g. the effective thermal conduc for heat leaving a spherical heated region can be much smaller than the bulk value" ID="ID_1244310876" CREATED="1626174313231" MODIFIED="1626174347725"/>
+</node>
+<node TEXT="\latex necessary(\textbf{not sufficient}) condition: $\frac1{\Lambda_{inelastic}}+\frac1{\Lambda_{elastic}} \lesssim \frac1d$" ID="ID_697167093" CREATED="1626174979603" MODIFIED="1626175061653"/>
+<node TEXT="Fourier&apos;s law not hold --&gt;&#xa;strong scattering is needed for the random walk pic" ID="ID_1913079456" CREATED="1626174235467" MODIFIED="1626174295766"/>
+<node TEXT="phonon transport can be tackled by lBTE(RTA) or via Monte Carlo simul" ID="ID_1074716951" CREATED="1626175221279" MODIFIED="1626175282844">
+<node TEXT="a key challenge is the highly&#xa;uncertain boundary conditions&#xa;and interface configurations" ID="ID_1339449731" CREATED="1626175290631" MODIFIED="1626175414884"/>
 </node>
 </node>
+<node TEXT="Hydrodynamic regime" ID="ID_1914278831" CREATED="1626182153418" MODIFIED="1626245909831" LINK="Hydrodynamic%20Phonon%20Transport.mm"/>
 </node>
 </node>
 </map>
