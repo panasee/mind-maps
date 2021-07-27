@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="between ballistic and diffusive transport" POSITION="right" ID="ID_1010483564" CREATED="1607652879939" MODIFIED="1607652916420">
 <edge COLOR="#ff0000"/>
 <node TEXT="the R-scattering(U-scattering and isotope/impurity -scattering) which breaks crystal momentum need to be relatively small compared to N-scattering" ID="ID_1209272481" CREATED="1607653198883" MODIFIED="1607654089261">
@@ -83,6 +83,33 @@
 <edge COLOR="#00ff00"/>
 <hook URI="attachments/hydrodynamic-diffusive.png" SIZE="0.3772615" NAME="ExternalObject"/>
 <node TEXT="there are heat pulses propagating like a pressure pulse in a fluid(ordinary sound) without significant damping" ID="ID_1810190703" CREATED="1607653106603" MODIFIED="1607653153804"/>
+<node TEXT="From Hagen-Poiseuille eq., the thermal conduc. is&#xa;prop to the crossing area in the pipe flow case" ID="ID_31034026" CREATED="1627297900210" MODIFIED="1627298289275"/>
+</node>
+<node TEXT="phonon heat conduc description" POSITION="left" ID="ID_329610295" CREATED="1627300349559" MODIFIED="1627300375221">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Callaway model" ID="ID_170553609" CREATED="1627300355320" MODIFIED="1627300389183"/>
+<node TEXT="diagonalize the full scattering matrix&#xa;with eigenmodes called relaxons" ID="ID_1534796317" CREATED="1627300391431" MODIFIED="1627300425905"/>
+<node TEXT="Cattaneo eq.(macroscopic)" ID="ID_32813830" CREATED="1627302761746" MODIFIED="1627302776273"/>
+</node>
+<node TEXT="\latex  condition for observing it\\&#xa;($\omega$ is freq of external thermal disturbance)\\&#xa;(subscripts $n$ and $R$ represent normal/all resistance scattering)" POSITION="right" ID="ID_279791216" CREATED="1627303388403" MODIFIED="1627303750526">
+<edge COLOR="#00ffff"/>
+<node TEXT="" ID="ID_1936388419" CREATED="1627303780918" MODIFIED="1627303780919">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex time domain: $\tau_n\ll 1/\omega \ll \tau_R$" ID="ID_337226916" CREATED="1627303477836" MODIFIED="1627303509453"/>
+<node TEXT="\latex space domain: $\Lambda_n \ll d\ll \Lambda_R$" ID="ID_612746889" CREATED="1627303509755" MODIFIED="1627303529761"/>
+<node TEXT="" ID="ID_1727047558" CREATED="1627303780915" MODIFIED="1627303783225">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex scattering rate: $\gamma\gg v_g/d \gg \gamma_R$" ID="ID_1687545124" CREATED="1627303780920" MODIFIED="1627303817378" HGAP_QUANTITY="24.5 pt" VSHIFT_QUANTITY="-3 pt"/>
+</node>
+<node TEXT="in normal materials, a very low temp is needed&#xa;but in 2D materials, even under RT, due to the parabolic phonon bands arise from the flexural phonon modes" ID="ID_1043591589" CREATED="1627370237853" MODIFIED="1627370339395">
+<node TEXT="the parabolic phonon bands in such materials can cause strong normal scattering" ID="ID_1990236869" CREATED="1627370341089" MODIFIED="1627370368189"/>
+<node TEXT="all three acoustic phonon branches have&#xa;the same drift velocity" ID="ID_47836169" CREATED="1627370373921" MODIFIED="1627370396965"/>
+<node TEXT="the momentum conservation requirements  can be relaxed as long as the U scattering conserves phonon momentum along the transport direction" ID="ID_1443617173" CREATED="1627370805131" MODIFIED="1627370893938">
+<node TEXT="import in bulk layered materials such as graphite,&#xa;which can host hydrodynamic heat conduc" ID="ID_676280740" CREATED="1627370927588" MODIFIED="1627370971666"/>
+</node>
+</node>
 </node>
 </node>
 </map>

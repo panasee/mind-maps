@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Thermal conductivity" POSITION="left" ID="ID_186571981" CREATED="1602482805807" MODIFIED="1602482813240">
 <edge COLOR="#0000ff"/>
 <node TEXT="differ not only in magnitude, but also&#xa;in their temperature dependence" ID="ID_41117179" CREATED="1602482813726" MODIFIED="1602482849850"/>
@@ -883,7 +883,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-402.74999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-401.99999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -1032,7 +1032,7 @@
 <node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
 </node>
 <node TEXT="\latex $g\equiv f-f_0 = -\tau(\boldsymbol v\cdot \nabla_\boldsymbol r f_0 +\frac \boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$ hypotheses:\\&#xa;1. $f_0\gg g$            2. $\frac g\tau\gg \boldsymbol v\cdot \nabla g$ \\&#xa;3. $\frac{\partial f}{\partial t}\ll \frac{f-f_0}\tau,(\tau_c\gg\tau)$" FOLDED="true" ID="ID_414954367" CREATED="1621295917410" MODIFIED="1621296810923">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-57 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-56.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex Knudsen number: $Kn=\frac{\tau v}L=\frac\Lambda L$\\&#xa;Cond. 2 equals $Kn\ll 1$\\&#xa;i.e. characteristic length must be much larger than mfp" ID="ID_483689777" CREATED="1621296289712" MODIFIED="1621296403717"/>
 </node>
 </node>
@@ -1140,6 +1140,9 @@
 <node TEXT="\latex heat conduction regime\\&#xa;$\Lambda_{inelastic}$---inelastic phonon MFP in bulk material\\&#xa;$\Lambda_{elastic}$---elastic phonon MFP including all elastic scattering \\            from defects and boundaries\\&#xa;$\lambda$ is wavelength, $d$ is characristic length" POSITION="right" ID="ID_873147806" CREATED="1626173057664" MODIFIED="1626178053757">
 <edge COLOR="#007c7c"/>
 <hook URI="attachments/heat-trans-regime.png" SIZE="0.19968589" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1420160772" CREATED="1627377626360" MODIFIED="1627377626361">
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="Casimir-Knudsen regime&#xa;(quasi-ballistic)" ID="ID_1873206422" CREATED="1626173070586" MODIFIED="1626173874219">
 <node TEXT="Casimir effect(Classical size effect)" ID="ID_1624445163" CREATED="1626173217297" MODIFIED="1626173232406">
 <node TEXT="collided by boundaries" ID="ID_739738108" CREATED="1626173236982" MODIFIED="1626173259814"/>
@@ -1155,6 +1158,41 @@
 </node>
 </node>
 <node TEXT="Hydrodynamic regime" ID="ID_1914278831" CREATED="1626182153418" MODIFIED="1626245909831" LINK="Hydrodynamic%20Phonon%20Transport.mm"/>
+<node TEXT="" ID="ID_1567072117" CREATED="1627377626358" MODIFIED="1627377628320">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node ID="ID_1438196270" CREATED="1627377626361" MODIFIED="1627377690237" HGAP_QUANTITY="32 pt"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      both can be described by BTE,
+    </p>
+    <p>
+      which is based on the <b>molecular chaos assumption </b>
+    </p>
+    <p>
+      <b>(i.e.&nbsp;&nbsp;scattering destroys the phases)</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Coherent heat conduc regimes" ID="ID_1277295388" CREATED="1627378296000" MODIFIED="1627378308566"/>
+</node>
+<node TEXT="phonon temperature" POSITION="left" ID="ID_1229768943" CREATED="1627304531589" MODIFIED="1627304550205">
+<edge COLOR="#7c7c00"/>
+<node TEXT="the heat flow occurs when phonon dist deviate from equilibrium, so use &quot;local equilibrium&quot; to define local temperature" ID="ID_1920383871" CREATED="1627304760296" MODIFIED="1627305045784">
+<node TEXT="the local phonon energy density averaged over a region of the order of the phonon MFP equals the system having this temperature" ID="ID_1962555225" CREATED="1627305048364" MODIFIED="1627305203461"/>
+</node>
+<node TEXT="for heat conduc across an interface, phonon dist deviate more than that inside" ID="ID_407902720" CREATED="1627305046269" MODIFIED="1627307303336">
+<hook URI="attachments/phonon-temp-interface.png" SIZE="0.21609905" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 </map>
