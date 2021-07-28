@@ -3,7 +3,7 @@
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
 <hook NAME="MapStyle" zoom="3.221">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -883,7 +883,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-401.99999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-401.24999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -1032,7 +1032,7 @@
 <node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
 </node>
 <node TEXT="\latex $g\equiv f-f_0 = -\tau(\boldsymbol v\cdot \nabla_\boldsymbol r f_0 +\frac \boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$ hypotheses:\\&#xa;1. $f_0\gg g$            2. $\frac g\tau\gg \boldsymbol v\cdot \nabla g$ \\&#xa;3. $\frac{\partial f}{\partial t}\ll \frac{f-f_0}\tau,(\tau_c\gg\tau)$" FOLDED="true" ID="ID_414954367" CREATED="1621295917410" MODIFIED="1621296810923">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-56.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-55.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex Knudsen number: $Kn=\frac{\tau v}L=\frac\Lambda L$\\&#xa;Cond. 2 equals $Kn\ll 1$\\&#xa;i.e. characteristic length must be much larger than mfp" ID="ID_483689777" CREATED="1621296289712" MODIFIED="1621296403717"/>
 </node>
 </node>
@@ -1179,11 +1179,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Coherent heat conduc regimes" ID="ID_1277295388" CREATED="1627378296000" MODIFIED="1627378308566"/>
+<node TEXT="Coherent heat conduc regimes" ID="ID_1277295388" CREATED="1627378296000" MODIFIED="1627378308566">
+<node TEXT="Coherent length" ID="ID_1310557368" CREATED="1627463015869" MODIFIED="1627463062275" LINK="#ID_1090624043"/>
+</node>
 </node>
 <node TEXT="phonon temperature" POSITION="left" ID="ID_1229768943" CREATED="1627304531589" MODIFIED="1627304550205">
 <edge COLOR="#7c7c00"/>
