@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.771">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1474901113" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1474901113" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -70,11 +72,13 @@
 <node TEXT="ML: Ability to learn without&#xa;explicitly being programmed" ID="ID_1487168141" CREATED="1617000610357" MODIFIED="1617000629495"/>
 <node TEXT="DL: Extract patterns from data&#xa;using neural networks" ID="ID_1194596429" CREATED="1617000635111" MODIFIED="1617000655054"/>
 </node>
-<node TEXT="Perceptron" FOLDED="true" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
+<node TEXT="Perceptron" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
 <edge COLOR="#0000ff"/>
 <node TEXT="\latex Forward Propagation\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1617006159785">
 <hook URI="pix/perceptron.png" SIZE="0.46967137" NAME="ExternalObject"/>
-<node TEXT="the Activation Functions are used&#xa;to tackle non-linear data" ID="ID_251127776" CREATED="1617002354420" MODIFIED="1617002382198"/>
+<node TEXT="the Activation Functions are used&#xa;to tackle non-linear data" ID="ID_251127776" CREATED="1617002354420" MODIFIED="1617002382198">
+<node TEXT="\latex e.g. Sigmoid, ReLU" ID="ID_1008232220" CREATED="1628677687665" MODIFIED="1628677706535"/>
+</node>
 <node TEXT="3 steps:&#xa;dot product--&gt;bias--&gt;non-linear" ID="ID_1373890847" CREATED="1617002712372" MODIFIED="1617002743303"/>
 </node>
 <node TEXT="\latex Multi-Output(sharing input)\\&#xa;multi-single-output-perceptrons: \\$z_i=w_{0,i}+\sum^m_{j=1}x_jw_{j,i}$" ID="ID_632680597" CREATED="1617002790866" MODIFIED="1617003429001">
@@ -101,7 +105,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
+<node TEXT="Neural Network" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
 <edge COLOR="#00ff00"/>
 <node TEXT="Feed-forward Neural Network&#xa;(simplest)" FOLDED="true" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1617112287395">
 <node TEXT="Single Layer Neural Network&#xa;(one hidden(unobservable) layer)" ID="ID_10080375" CREATED="1617003448692" MODIFIED="1617003549465">
@@ -152,7 +156,7 @@
 </node>
 <node TEXT="Tricks" ID="ID_1451264778" CREATED="1617164167751" MODIFIED="1617164532627">
 <node TEXT="Activation function:&#xa;use ReLU(Rectified Linear Unit)" ID="ID_1147257920" CREATED="1617164516581" MODIFIED="1617164706393">
-<node TEXT="\latex 导数是阶梯函数$\Theta(x)$" ID="ID_757302513" CREATED="1617169346222" MODIFIED="1617169373043"/>
+<node TEXT="\latex 导数是阶梯函数$\Theta(x)$\\&#xa;$y = b+\sum_i c_i\max(0,b_i+\sum_j w_{ij}x_j)$" ID="ID_757302513" CREATED="1617169346222" MODIFIED="1628677630715"/>
 </node>
 <node TEXT="Para initialization" ID="ID_421323208" CREATED="1617164523825" MODIFIED="1617169995365">
 <node TEXT="Initialize weights to identity matrix&#xa;(Initialize biases to zero)&#xa;(helps prevent the weights from shrinking to zero)" ID="ID_710922798" CREATED="1617169995780" MODIFIED="1617604210356"/>
@@ -189,7 +193,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -218,7 +221,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="pix/lstmGates.png" SIZE="0.29711965" NAME="ExternalObject"/>
 </node>
