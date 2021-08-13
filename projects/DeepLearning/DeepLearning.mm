@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="3.451">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -66,13 +66,42 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
+<node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
 <node TEXT="ML: Ability to learn without&#xa;explicitly being programmed" ID="ID_1487168141" CREATED="1617000610357" MODIFIED="1617000629495"/>
-<node TEXT="DL: Extract patterns from data&#xa;using neural networks" ID="ID_1194596429" CREATED="1617000635111" MODIFIED="1617000655054"/>
+<node TEXT="DL: Extract patterns from data&#xa;using neural networks" ID="ID_1194596429" CREATED="1617000635111" MODIFIED="1617000655054">
+<node TEXT="deep learning 的关键问题是神经网络的结构选取（经验和直觉），而传统的ML的关键问题是关键特征的选取，因此应当根据两个选取的难易度来做选择" ID="ID_1158390236" CREATED="1628835958830" MODIFIED="1628836024753">
+<font BOLD="true"/>
+<node TEXT="class NeuralNet(nn.Module):" FOLDED="true" ID="ID_148420293" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="&apos;&apos;&apos; A simple fully-connected deep neural network &apos;&apos;&apos;" ID="ID_656109851" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="def __init__(self, input_dim):" FOLDED="true" ID="ID_1473434532" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="super(NeuralNet, self).__init__()" ID="ID_1271744202" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# Define your neural network here" ID="ID_1863024296" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# TODO: How to modify this model to achieve better performance?" ID="ID_1536019533" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="self.net = nn.Sequential(" FOLDED="true" ID="ID_876796424" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="nn.Linear(input_dim, 64)," ID="ID_578200767" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="nn.ReLU()," ID="ID_52842641" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="nn.Linear(64, 1)" ID="ID_1254323378" CREATED="1628836024900" MODIFIED="1628836024900"/>
 </node>
-<node TEXT="Perceptron" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
+<node TEXT=")" ID="ID_591742741" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# Mean squared error loss" ID="ID_806448869" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="self.criterion = nn.MSELoss(reduction=&apos;mean&apos;)" ID="ID_874137642" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+<node TEXT="def forward(self, x):" FOLDED="true" ID="ID_1557429318" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="&apos;&apos;&apos; Given input of size (batch_size x input_dim), compute output of the network &apos;&apos;&apos;" ID="ID_457745234" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="return self.net(x).squeeze(1)" ID="ID_504150056" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+<node TEXT="def cal_loss(self, pred, target):" FOLDED="true" ID="ID_1950913982" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="&apos;&apos;&apos; Calculate loss &apos;&apos;&apos;" ID="ID_656848980" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# TODO: you may implement L1/L2 regularization here" ID="ID_1182358185" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="return self.criterion(pred, target)" ID="ID_1951377264" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Perceptron" FOLDED="true" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
 <edge COLOR="#0000ff"/>
 <node TEXT="\latex Forward Propagation\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1617006159785">
 <hook URI="pix/perceptron.png" SIZE="0.46967137" NAME="ExternalObject"/>
@@ -115,7 +144,7 @@
 <hook URI="pix/DNN.png" SIZE="0.3256422" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Recurrent Neural Networks(RNNs)" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1617112540744">
+<node TEXT="Recurrent Neural Networks(RNNs)" FOLDED="true" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1617112540744">
 <hook URI="pix/RNN.png" SIZE="0.23023456" NAME="ExternalObject"/>
 <node TEXT="the &quot;green boxes&quot; is a simpler&#xa;notation of Neural Networks" ID="ID_1413376057" CREATED="1617112400126" MODIFIED="1617112654531">
 <node TEXT="left side is RNNs,&#xa;right side is feedforward NNs" ID="ID_49192677" CREATED="1617112655805" MODIFIED="1617112678853"/>
@@ -126,7 +155,7 @@
 </node>
 <node TEXT="\latex Output Vector\\&#xa;$\hat y_t = \boldsymbol W_{hy}^Th_t$" ID="ID_1597761115" CREATED="1617113272665" MODIFIED="1617113299715"/>
 <node TEXT="\latex Loss Computation: \\sum loss from every&#xa;step $L = \sum_i L_i$" ID="ID_1553858454" CREATED="1617113475832" MODIFIED="1617113636684"/>
-<node TEXT="Backpropagation Through Time(BPTT)" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737">
+<node TEXT="Backpropagation Through Time(BPTT)" FOLDED="true" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737">
 <node TEXT="not only backpropagate within each time step, but also backpropagate through time steps" ID="ID_379544961" CREATED="1617163720327" MODIFIED="1617163761705"/>
 <node TEXT="\latex time steps are connected&#xa;\\with $\boldsymbol W_{hh}$&apos;s multiplication" ID="ID_619947489" CREATED="1617163877227" MODIFIED="1617164060526">
 <node TEXT="\latex if many values $&gt;1$ , the gradients are&#xa;\\very large, i.e. \textbf{exploding gradients}" ID="ID_673951650" CREATED="1617164064724" MODIFIED="1617164289345">
