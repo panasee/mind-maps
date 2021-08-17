@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.771">
+<hook NAME="MapStyle" zoom="2.852">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1474901113" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1474901113" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -63,18 +65,49 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
 <node TEXT="ML: Ability to learn without&#xa;explicitly being programmed" ID="ID_1487168141" CREATED="1617000610357" MODIFIED="1617000629495"/>
-<node TEXT="DL: Extract patterns from data&#xa;using neural networks" ID="ID_1194596429" CREATED="1617000635111" MODIFIED="1617000655054"/>
+<node TEXT="DL: Extract patterns from data&#xa;using neural networks" ID="ID_1194596429" CREATED="1617000635111" MODIFIED="1617000655054">
+<node TEXT="deep learning 的关键问题是神经网络的结构选取（经验和直觉），而传统的ML的关键问题是关键特征的选取，因此应当根据两个选取的难易度来做选择" ID="ID_1158390236" CREATED="1628835958830" MODIFIED="1628836024753">
+<font BOLD="true"/>
+<node TEXT="class NeuralNet(nn.Module):" FOLDED="true" ID="ID_148420293" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="&apos;&apos;&apos; A simple fully-connected deep neural network &apos;&apos;&apos;" ID="ID_656109851" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="def __init__(self, input_dim):" FOLDED="true" ID="ID_1473434532" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="super(NeuralNet, self).__init__()" ID="ID_1271744202" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# Define your neural network here" ID="ID_1863024296" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# TODO: How to modify this model to achieve better performance?" ID="ID_1536019533" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="self.net = nn.Sequential(" FOLDED="true" ID="ID_876796424" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="nn.Linear(input_dim, 64)," ID="ID_578200767" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="nn.ReLU()," ID="ID_52842641" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="nn.Linear(64, 1)" ID="ID_1254323378" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+<node TEXT=")" ID="ID_591742741" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# Mean squared error loss" ID="ID_806448869" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="self.criterion = nn.MSELoss(reduction=&apos;mean&apos;)" ID="ID_874137642" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+<node TEXT="def forward(self, x):" FOLDED="true" ID="ID_1557429318" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="&apos;&apos;&apos; Given input of size (batch_size x input_dim), compute output of the network &apos;&apos;&apos;" ID="ID_457745234" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="return self.net(x).squeeze(1)" ID="ID_504150056" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+<node TEXT="def cal_loss(self, pred, target):" FOLDED="true" ID="ID_1950913982" CREATED="1628836024900" MODIFIED="1628836024900">
+<node TEXT="&apos;&apos;&apos; Calculate loss &apos;&apos;&apos;" ID="ID_656848980" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="# TODO: you may implement L1/L2 regularization here" ID="ID_1182358185" CREATED="1628836024900" MODIFIED="1628836024900"/>
+<node TEXT="return self.criterion(pred, target)" ID="ID_1951377264" CREATED="1628836024900" MODIFIED="1628836024900"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Perceptron" FOLDED="true" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
 <edge COLOR="#0000ff"/>
 <node TEXT="\latex Forward Propagation\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1617006159785">
 <hook URI="pix/perceptron.png" SIZE="0.46967137" NAME="ExternalObject"/>
-<node TEXT="the Activation Functions are used&#xa;to tackle non-linear data" ID="ID_251127776" CREATED="1617002354420" MODIFIED="1617002382198"/>
+<node TEXT="the Activation Functions are used&#xa;to tackle non-linear data" ID="ID_251127776" CREATED="1617002354420" MODIFIED="1617002382198">
+<node TEXT="\latex e.g. Sigmoid, ReLU" ID="ID_1008232220" CREATED="1628677687665" MODIFIED="1628677706535"/>
+</node>
 <node TEXT="3 steps:&#xa;dot product--&gt;bias--&gt;non-linear" ID="ID_1373890847" CREATED="1617002712372" MODIFIED="1617002743303"/>
 </node>
 <node TEXT="\latex Multi-Output(sharing input)\\&#xa;multi-single-output-perceptrons: \\$z_i=w_{0,i}+\sum^m_{j=1}x_jw_{j,i}$" ID="ID_632680597" CREATED="1617002790866" MODIFIED="1617003429001">
@@ -101,7 +134,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
+<node TEXT="Neural Network" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
 <edge COLOR="#00ff00"/>
 <node TEXT="Feed-forward Neural Network&#xa;(simplest)" FOLDED="true" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1617112287395">
 <node TEXT="Single Layer Neural Network&#xa;(one hidden(unobservable) layer)" ID="ID_10080375" CREATED="1617003448692" MODIFIED="1617003549465">
@@ -111,7 +144,7 @@
 <hook URI="pix/DNN.png" SIZE="0.3256422" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Recurrent Neural Networks(RNNs)" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1617112540744">
+<node TEXT="Recurrent Neural Networks(RNNs) (replaced by SelfAttention)" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1628948031866">
 <hook URI="pix/RNN.png" SIZE="0.23023456" NAME="ExternalObject"/>
 <node TEXT="the &quot;green boxes&quot; is a simpler&#xa;notation of Neural Networks" ID="ID_1413376057" CREATED="1617112400126" MODIFIED="1617112654531">
 <node TEXT="left side is RNNs,&#xa;right side is feedforward NNs" ID="ID_49192677" CREATED="1617112655805" MODIFIED="1617112678853"/>
@@ -122,7 +155,7 @@
 </node>
 <node TEXT="\latex Output Vector\\&#xa;$\hat y_t = \boldsymbol W_{hy}^Th_t$" ID="ID_1597761115" CREATED="1617113272665" MODIFIED="1617113299715"/>
 <node TEXT="\latex Loss Computation: \\sum loss from every&#xa;step $L = \sum_i L_i$" ID="ID_1553858454" CREATED="1617113475832" MODIFIED="1617113636684"/>
-<node TEXT="Backpropagation Through Time(BPTT)" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737">
+<node TEXT="Backpropagation Through Time(BPTT)" FOLDED="true" ID="ID_1768775382" CREATED="1617115231239" MODIFIED="1617115243737">
 <node TEXT="not only backpropagate within each time step, but also backpropagate through time steps" ID="ID_379544961" CREATED="1617163720327" MODIFIED="1617163761705"/>
 <node TEXT="\latex time steps are connected&#xa;\\with $\boldsymbol W_{hh}$&apos;s multiplication" ID="ID_619947489" CREATED="1617163877227" MODIFIED="1617164060526">
 <node TEXT="\latex if many values $&gt;1$ , the gradients are&#xa;\\very large, i.e. \textbf{exploding gradients}" ID="ID_673951650" CREATED="1617164064724" MODIFIED="1617164289345">
@@ -152,7 +185,7 @@
 </node>
 <node TEXT="Tricks" ID="ID_1451264778" CREATED="1617164167751" MODIFIED="1617164532627">
 <node TEXT="Activation function:&#xa;use ReLU(Rectified Linear Unit)" ID="ID_1147257920" CREATED="1617164516581" MODIFIED="1617164706393">
-<node TEXT="\latex 导数是阶梯函数$\Theta(x)$" ID="ID_757302513" CREATED="1617169346222" MODIFIED="1617169373043"/>
+<node TEXT="\latex 导数是阶梯函数$\Theta(x)$\\&#xa;$y = b+\sum_i c_i\max(0,b_i+\sum_j w_{ij}x_j)$" ID="ID_757302513" CREATED="1617169346222" MODIFIED="1628677630715"/>
 </node>
 <node TEXT="Para initialization" ID="ID_421323208" CREATED="1617164523825" MODIFIED="1617169995365">
 <node TEXT="Initialize weights to identity matrix&#xa;(Initialize biases to zero)&#xa;(helps prevent the weights from shrinking to zero)" ID="ID_710922798" CREATED="1617169995780" MODIFIED="1617604210356"/>
@@ -189,7 +222,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -218,7 +250,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="pix/lstmGates.png" SIZE="0.29711965" NAME="ExternalObject"/>
 </node>
@@ -239,15 +270,83 @@
 </node>
 <node TEXT="\latex the seperate cell state $c_t$ allows for BPTT \\with \textbf{uninterrupted gradient flow}" ID="ID_898964774" CREATED="1617606338807" MODIFIED="1617606400089"/>
 </node>
-<node TEXT="Attention Mechanisms&#xa;(for large scale sequential models)" ID="ID_194181490" CREATED="1617607025629" MODIFIED="1617607294132">
-<hook URI="pix/Attention.png" SIZE="0.37297374" NAME="ExternalObject"/>
+<node TEXT="Attention Mechanisms&#xa;(for large scale sequential models)" FOLDED="true" ID="ID_194181490" CREATED="1617607025629" MODIFIED="1617607294132">
+<hook URI="pix/Attention.png" SIZE="0.21846367" NAME="ExternalObject"/>
 <node TEXT="provide learnable memory access&#xa;(avoid BPTT which is expensive)" ID="ID_1300216972" CREATED="1617607200985" MODIFIED="1617607234240"/>
 <node TEXT="corresponding classical models&#xa;----&gt; Transformers" ID="ID_1246357516" CREATED="1617607303571" MODIFIED="1617607513878">
-<hook URI="pix/MachineTrans.png" SIZE="0.28110248" NAME="ExternalObject"/>
+<hook URI="pix/MachineTrans.png" SIZE="0.18468745" NAME="ExternalObject"/>
 <node TEXT="use state vector to transport info&#xa;from encoder to decoder" ID="ID_1232914451" CREATED="1617607532523" MODIFIED="1617607551262"/>
 </node>
+<node TEXT="comparison(RNN处理的内存需求和效率低于SelfAttention)" ID="ID_1635032566" CREATED="1628948359042" MODIFIED="1628948584170">
+<hook URI="pix/RNNvsSelfAttention.png" SIZE="0.19205809" NAME="ExternalObject"/>
 </node>
 </node>
+</node>
+<node TEXT="Convolutional Neural Networks(CNNs)" ID="ID_1659100858" CREATED="1628933130004" MODIFIED="1628933219551">
+<node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
+</node>
+<node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-67.5 pt;-9 pt;" ENDINCLINATION="-222.74999 pt;50.25 pt;"/>
+<node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      input is <b>a set of vectors(sequence)</b>&nbsp;instead of a vector
+    </p>
+    <p>
+      (the length of vectors within sequences may change)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="e.g. 文字翻译,每个字是一个向量,句子是一个sequence" ID="ID_1653704568" CREATED="1628934317943" MODIFIED="1628935533817"/>
+<node TEXT="e.g. 声音处理,每个window(e.g. 25ms)是一个向量" ID="ID_658455241" CREATED="1628935491421" MODIFIED="1628935551180"/>
+<node TEXT="e.g. graph(节点图),每个节点是一个向量" ID="ID_1700917249" CREATED="1628935638243" MODIFIED="1628935664639">
+<node TEXT="分子可以看成graph, 每个原子是一个vector&#xa;(常用one-hot vector)" ID="ID_824415482" CREATED="1628935727548" MODIFIED="1628935836115"/>
+</node>
+</node>
+<node TEXT="output" ID="ID_131503715" CREATED="1628935850060" MODIFIED="1628935856156">
+<node TEXT="same no. of vectors&#xa;(e.g. 判断句子里每个单词的词性)" ID="ID_1849718485" CREATED="1628936078385" MODIFIED="1628940461956">
+<node TEXT="sequence labeling&#xa;(extract features for Fully Connected NNs)" ID="ID_1932174946" CREATED="1628936609896" MODIFIED="1628942132154">
+<hook URI="pix/SelfAttention.png" SIZE="0.2262954" NAME="ExternalObject"/>
+<node TEXT="原先的vectors彼此独立&#xa;经过处理后的vectors包含了整体信息" ID="ID_12234063" CREATED="1628942236966" MODIFIED="1628942321705"/>
+<node TEXT="可以在FC处理后叠加Self-attention层,&#xa;即重复图中结构" ID="ID_1755236393" CREATED="1628942334693" MODIFIED="1628942480581"/>
+</node>
+</node>
+<node TEXT="diff no. of vectors" ID="ID_1506673437" CREATED="1628936603655" MODIFIED="1628936608818">
+<node TEXT="e.g. 判断一个句子的语气" ID="ID_713813750" CREATED="1628936623085" MODIFIED="1628936634448"/>
+<node TEXT="e.g. 判断分子性质" ID="ID_1811821968" CREATED="1628936645541" MODIFIED="1628936653626"/>
+</node>
+<node TEXT="model decides the no. of vectors itself" ID="ID_1063515275" CREATED="1628936909737" MODIFIED="1628936925585"/>
+</node>
+<node TEXT="attention layer algorithm" ID="ID_1926526112" CREATED="1628943945485" MODIFIED="1628943963598">
+<hook URI="pix/SelfAttentionAlgo.png" SIZE="0.18256238" NAME="ExternalObject"/>
+<node TEXT="rewritten into Matrix form" ID="ID_307063317" CREATED="1628944876667" MODIFIED="1628945032579">
+<hook URI="pix/SelfAttentionMatAlgo.png" SIZE="0.15781035" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Multi-head Self-attention" ID="ID_1470422042" CREATED="1628945807924" MODIFIED="1628945818156">
+<node TEXT="相关性有不同种类,因此采用多套独立参数" ID="ID_167686169" CREATED="1628945898745" MODIFIED="1628946537653">
+<hook URI="pix/MultiheadAttentionAlgo.png" SIZE="0.12505063" NAME="ExternalObject"/>
+<node TEXT="将独立参数进行综合变换后输出(或进入下一层)&#xa;(b = W*concat(b1,b2))" ID="ID_467092915" CREATED="1628946576832" MODIFIED="1628946690653"/>
+</node>
+</node>
+<node TEXT="position encoding" ID="ID_1686812041" CREATED="1628946701725" MODIFIED="1628946706284">
+<node TEXT="self-attention网络中没有位置信息" ID="ID_1902609334" CREATED="1628946707225" MODIFIED="1628946798692"/>
+<node TEXT="\latex 将每个位置与一个矢量$\boldsymbol{e^i}$关联" ID="ID_710488309" CREATED="1628946800256" MODIFIED="1628946865710">
+<hook URI="pix/PositionEncoding.png" SIZE="0.45235234" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-24 pt;-21.75 pt;" ENDINCLINATION="-93 pt;-54.75 pt;"/>
+<node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
+</node>
+</node>
+<node TEXT="Graph Neural Network(GNN)" ID="ID_1634919084" CREATED="1628948768077" MODIFIED="1628948782687"/>
 </node>
 <node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
 <edge COLOR="#00ffff"/>
@@ -286,6 +385,7 @@
 <node TEXT="use the average over batches" ID="ID_145129623" CREATED="1617007663054" MODIFIED="1617007681290"/>
 <node TEXT="mini-batching enables parallelization,&#xa;so GPU could get speed increases" ID="ID_1313056298" CREATED="1617007729503" MODIFIED="1617007850872"/>
 </node>
+<node TEXT="\latex Backpropagation \\&#xa;(calculate the Gradient efficiently)" ID="ID_1465499837" CREATED="1628930333348" MODIFIED="1628930376117"/>
 </node>
 </node>
 <node ID="ID_1680904125" CREATED="1617008050690" MODIFIED="1617008134016"><richcontent TYPE="NODE">
@@ -351,7 +451,7 @@
 <node TEXT="the state update and output func is to&#xa;be defined in (call) func" ID="ID_737348499" CREATED="1617113882694" MODIFIED="1617113976625"/>
 </node>
 </node>
-<node TEXT="Modeling Circums" FOLDED="true" POSITION="right" ID="ID_620118645" CREATED="1617114150905" MODIFIED="1617114171605">
+<node TEXT="Modeling Circums" POSITION="right" ID="ID_620118645" CREATED="1617114150905" MODIFIED="1617114171605">
 <edge COLOR="#007c00"/>
 <node TEXT="Sequential Modeling&#xa;(temporal/sequential data e.g. sentences)" ID="ID_528819167" CREATED="1617109363294" MODIFIED="1617114226233">
 <node TEXT="criteria" ID="ID_666420193" CREATED="1617114380255" MODIFIED="1617114383086">
@@ -390,6 +490,77 @@
 </node>
 <node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
+</node>
+<node TEXT="Transformer&#xa;(seq2seq)" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
+<edge COLOR="#7c7c00"/>
+<hook URI="pix/Transformer.png" SIZE="0.12764652" NAME="ExternalObject"/>
+<node TEXT="Encoder" ID="ID_235136450" CREATED="1629027830695" MODIFIED="1629027834701">
+<node TEXT="Block结构" ID="ID_520701324" CREATED="1629026373171" MODIFIED="1629026463346">
+<hook URI="pix/TransformerBlock.png" SIZE="0.14406405" NAME="ExternalObject"/>
+</node>
+<node TEXT="residual connection &amp; layer norm" ID="ID_854411559" CREATED="1629026521941" MODIFIED="1629027607859">
+<hook URI="pix/TransformerResidualNorm.png" SIZE="0.1656923" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Decoder" ID="ID_1099951891" CREATED="1629027841629" MODIFIED="1629028752848">
+<node TEXT="Masked Self-attention" ID="ID_311242188" CREATED="1629028844602" MODIFIED="1629028961957">
+<hook URI="pix/MaskedSelfAttention.png" SIZE="0.15838563" NAME="ExternalObject"/>
+</node>
+<node TEXT="Autoregressive &amp; Non-Autoregressive" ID="ID_177628362" CREATED="1629029326315" MODIFIED="1629029395201">
+<hook URI="pix/ATvsNATDecoder.png" SIZE="0.23043674" NAME="ExternalObject"/>
+<node TEXT="NAT Decoder" ID="ID_1529277228" CREATED="1629029401823" MODIFIED="1629029488541">
+<node TEXT="parallel, controllable output length" ID="ID_38294339" CREATED="1629029472945" MODIFIED="1629029482325"/>
+<node TEXT="depends onanother predictor for output length" ID="ID_521425491" CREATED="1629029490086" MODIFIED="1629029494989"/>
+<node ID="ID_995462789" CREATED="1629029566433" MODIFIED="1629029583626"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>usually&nbsp;</b>perform worse
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="PROBLEM:multi-modality" ID="ID_1140223820" CREATED="1629029593467" MODIFIED="1629029606855"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Cross Attention" ID="ID_1335320741" CREATED="1629029819135" MODIFIED="1629030944834">
+<hook URI="pix/CrossAttention.png" SIZE="0.17500713" NAME="ExternalObject"/>
+</node>
+<node TEXT="Guided Attention&#xa;(interfere the attention mechanism)" ID="ID_1392930293" CREATED="1629031923632" MODIFIED="1629032083768"/>
+</node>
+<node TEXT="Search" POSITION="right" ID="ID_1397225163" CREATED="1629032264985" MODIFIED="1629032326581">
+<edge COLOR="#ff0000"/>
+<node TEXT="Greedy Search" ID="ID_1027117525" CREATED="1629032326952" MODIFIED="1629032330798">
+<node TEXT="select the optimum at each step" ID="ID_1785212704" CREATED="1629032335362" MODIFIED="1629032349292"/>
+</node>
+<node TEXT="Beam Search" ID="ID_1322914631" CREATED="1629032331076" MODIFIED="1629032334294">
+<node ID="ID_747898743" CREATED="1629032350886" MODIFIED="1629032391369"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      explore a graph by expanding the
+    </p>
+    <p>
+      most promising node <b>in a limited set</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="需要创造性的情况下需要加入随机性(而不是单纯寻找最优解)&#xa;(e.g. 填充句子)" ID="ID_212922573" CREATED="1629032412419" MODIFIED="1629032500736"/>
 </node>
 </node>
 </map>
