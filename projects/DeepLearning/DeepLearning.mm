@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.852">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.331">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -286,7 +286,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-66.75 pt;-8.25 pt;" ENDINCLINATION="-221.99999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-66 pt;-7.5 pt;" ENDINCLINATION="-221.24999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -342,7 +342,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-23.25 pt;-21 pt;" ENDINCLINATION="-92.25 pt;-54 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-22.5 pt;-20.25 pt;" ENDINCLINATION="-91.5 pt;-53.25 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -357,7 +357,7 @@
 <node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1617006090862"/>
 </node>
 <node TEXT="Minimize Algorithm" ID="ID_323432670" CREATED="1617005567632" MODIFIED="1617005589607">
-<node ID="ID_150452835" CREATED="1617005590439" MODIFIED="1617006321216"><richcontent TYPE="NODE">
+<node ID="ID_150452835" CREATED="1617005590439" MODIFIED="1632377463101"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -365,10 +365,23 @@
   </head>
   <body>
     <p>
-      <b>Gradient Descent</b>
+      <b>\latex Gradient Descent\\ </b>
+    </p>
+    <p>
+      <b>(works for complex algorithms)\\</b>
+    </p>
+    <p>
+      <b>(need to choose learning rate)\\ </b>
+    </p>
+    <p>
+      <b>(need iterations)\\ </b>
+    </p>
+    <p>
+      <b>(works well facing many features)</b>
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="\latex Initialize randomly $\rightarrow$ \\&#xa;Update weights ($\boldsymbol W\leftarrow\boldsymbol W-\eta\frac{\partial J(\boldsymbol W)}{\partial \boldsymbol W}$)" ID="ID_377196011" CREATED="1617005606350" MODIFIED="1617006191625">
 <node TEXT="\latex scaling factor $\eta$ is \\&#xa;\textbf{learning rate}" ID="ID_31455875" CREATED="1617006196153" MODIFIED="1617006229617">
@@ -386,9 +399,43 @@
 <node TEXT="mini-batching enables parallelization,&#xa;so GPU could get speed increases" ID="ID_1313056298" CREATED="1617007729503" MODIFIED="1617007850872"/>
 </node>
 <node TEXT="\latex Backpropagation \\&#xa;(calculate the Gradient efficiently)" ID="ID_1465499837" CREATED="1628930333348" MODIFIED="1628930376117"/>
+<node TEXT="Practical trick" ID="ID_937454525" CREATED="1632373736702" MODIFIED="1632374251444">
+<node TEXT="Feature Scaling" ID="ID_399899336" CREATED="1632373747497" MODIFIED="1632373751549">
+<node TEXT="\latex Make sure features are on a similar scale\\&#xa;and have approximately zero mean\\&#xa;(through Mean normalization $x_i = \frac{x_i-\mu_i}{x_{max}-x_{min}}$ or $x_i = \frac{x_i-\mu_i}{S_i}$)" ID="ID_1268927194" CREATED="1632373756707" MODIFIED="1632374135673"/>
 </node>
-<node TEXT="Normal Equations" ID="ID_1073385321" CREATED="1632314794111" MODIFIED="1632314813285">
-<node TEXT="numerically solve the minimum of cost func" ID="ID_120637817" CREATED="1632314813886" MODIFIED="1632314827943"/>
+<node TEXT="convergence test(cost func gets smaller in every iter)&#xa;and tune the learning rate" ID="ID_1485689436" CREATED="1632374537544" MODIFIED="1632374708066">
+<node TEXT="plot of cost function wrt. no. of iterations" ID="ID_1865307864" CREATED="1632374564648" MODIFIED="1632374580555"/>
+<node TEXT="\latex if gradient descent not working,&#xa;use smaller $\alpha$" ID="ID_255404807" CREATED="1632374636245" MODIFIED="1632374655230"/>
+</node>
+</node>
+</node>
+<node ID="ID_1073385321" CREATED="1632314794111" MODIFIED="1632377437321"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>\latex Normal Equation\\ </b>
+    </p>
+    <p>
+      <b>(no need for learning rate and iteration)\\ </b>
+    </p>
+    <p>
+      <b>(need to cal $(X^TX)^{-1}$, $O(n^3)$)\\ </b>
+    </p>
+    <p>
+      <b>(only for simple algorithm)</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="analytically solve the minimum of cost func" ID="ID_120637817" CREATED="1632314813886" MODIFIED="1632375476942"/>
+<node TEXT="\latex noninvertibility(rarely met)\\&#xa;reasons might be:\\&#xa;(1)redundant features(linearly dependent)  \\&#xa;(2)too many features(too few examples)($m\le n$)\\&#xa;(2-solve)-&gt; delete some features or use regularization" ID="ID_491580331" CREATED="1632378504498" MODIFIED="1632378720368">
+<node TEXT="pseudo-inverse function could do the right thing&#xa;even under noninvertibility" ID="ID_1997136490" CREATED="1632378804196" MODIFIED="1632378866568"/>
+</node>
 </node>
 </node>
 <node ID="ID_1680904125" CREATED="1617008050690" MODIFIED="1617008134016"><richcontent TYPE="NODE">
