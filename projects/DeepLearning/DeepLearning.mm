@@ -1,4 +1,4 @@
-<map version="freeplane 1.9.0">
+<map version="freeplane 1.9.8">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
@@ -22,7 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -286,7 +286,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-67.5 pt;-9 pt;" ENDINCLINATION="-222.74999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-66.75 pt;-8.25 pt;" ENDINCLINATION="-221.99999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -342,7 +342,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-24 pt;-21.75 pt;" ENDINCLINATION="-93 pt;-54.75 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-23.25 pt;-21 pt;" ENDINCLINATION="-92.25 pt;-54 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -386,6 +386,9 @@
 <node TEXT="mini-batching enables parallelization,&#xa;so GPU could get speed increases" ID="ID_1313056298" CREATED="1617007729503" MODIFIED="1617007850872"/>
 </node>
 <node TEXT="\latex Backpropagation \\&#xa;(calculate the Gradient efficiently)" ID="ID_1465499837" CREATED="1628930333348" MODIFIED="1628930376117"/>
+</node>
+<node TEXT="Normal Equations" ID="ID_1073385321" CREATED="1632314794111" MODIFIED="1632314813285">
+<node TEXT="numerically solve the minimum of cost func" ID="ID_120637817" CREATED="1632314813886" MODIFIED="1632314827943"/>
 </node>
 </node>
 <node ID="ID_1680904125" CREATED="1617008050690" MODIFIED="1617008134016"><richcontent TYPE="NODE">
@@ -491,7 +494,7 @@
 <node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
 </node>
-<node TEXT="Transformer&#xa;(seq2seq)" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
+<node TEXT="Transformer&#xa;(seq2seq)" FOLDED="true" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
 <edge COLOR="#7c7c00"/>
 <hook URI="pix/Transformer.png" SIZE="0.12764652" NAME="ExternalObject"/>
 <node TEXT="Encoder" ID="ID_235136450" CREATED="1629027830695" MODIFIED="1629027834701">
@@ -523,7 +526,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="PROBLEM:multi-modality" ID="ID_1140223820" CREATED="1629029593467" MODIFIED="1629029606855"/>
 </node>
@@ -556,7 +558,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
