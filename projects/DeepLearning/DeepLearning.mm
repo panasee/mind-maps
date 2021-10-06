@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
+<hook NAME="MapStyle" zoom="2.852">
     <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
@@ -101,9 +101,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Perceptron" FOLDED="true" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
+<node TEXT="Perceptron" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
 <edge COLOR="#0000ff"/>
-<node TEXT="\latex Forward Propagation\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1617006159785">
+<node TEXT="\latex Forward Propagation Neuron\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function\\&#xa;(the bias term can be added in any layer)" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1632895052956">
 <hook URI="pix/perceptron.png" SIZE="0.46967137" NAME="ExternalObject"/>
 <node TEXT="the Activation Functions are used&#xa;to tackle non-linear data" ID="ID_251127776" CREATED="1617002354420" MODIFIED="1617002382198">
 <node TEXT="\latex e.g. Sigmoid, ReLU" ID="ID_1008232220" CREATED="1628677687665" MODIFIED="1628677706535"/>
@@ -134,9 +134,10 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
+<node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
 <edge COLOR="#00ff00"/>
-<node TEXT="Feed-forward Neural Network&#xa;(simplest)" FOLDED="true" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1617112287395">
+<node TEXT="Feed-forward Neural Network&#xa;(simplest)" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1633237907181">
+<node TEXT="category" ID="ID_1135830224" CREATED="1632972273677" MODIFIED="1632972693517">
 <node TEXT="Single Layer Neural Network&#xa;(one hidden(unobservable) layer)" ID="ID_10080375" CREATED="1617003448692" MODIFIED="1617003549465">
 <hook URI="pix/SLNN.png" SIZE="0.4076826" NAME="ExternalObject"/>
 </node>
@@ -144,7 +145,15 @@
 <hook URI="pix/DNN.png" SIZE="0.3256422" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Recurrent Neural Networks(RNNs) (replaced by SelfAttention)" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1628948031866">
+<node TEXT="multiclass classification: one-vs-all: output the same number of values acc. to number of classes via duo output neurons" ID="ID_1366482166" CREATED="1632972702044" MODIFIED="1632972761279"/>
+<node TEXT="\latex Backpropagation algorithm\\&#xa;$\frac{\partial J(\Theta)}{\partial \Theta_{ij}^{(l)}} = \frac{\partial J}{\partial z^{(l+1)}}\frac{\partial z^{(l+1)}}{\partial \Theta_{ij}^{(l)}} = (\delta^{(l+1)}\otimes(a^{(l)})^T)_{ij}:= D_{ij}^{(l)}$" ID="ID_892139596" CREATED="1633233477856" MODIFIED="1633520122110">
+<node TEXT="\latex define $\delta_j^{(l)}$ as &quot;error&quot; of node $j$ in layer $l$\\ for output layer(vectorized):$\delta^{(L)}:=a^{(L)}-y$\\&#xa;other layers: $\delta^{(l)} = (\Theta^{(l)})^T\delta^{(l+1)}.*g&apos;(z^{(l)})$" ID="ID_1324469577" CREATED="1633234828480" MODIFIED="1633237480666"/>
+</node>
+<node TEXT="architecture choice" ID="ID_688622670" CREATED="1633330958735" MODIFIED="1633331004016">
+<node TEXT="default: hidden layers&apos; number: 1 or acc. to features&#xa;neurons in hidden layers: unified" ID="ID_1792234453" CREATED="1633331007006" MODIFIED="1633331072812"/>
+</node>
+</node>
+<node TEXT="Recurrent Neural Networks(RNNs) (replaced by SelfAttention)" FOLDED="true" ID="ID_1190087187" CREATED="1617112103603" MODIFIED="1628948031866">
 <hook URI="pix/RNN.png" SIZE="0.23023456" NAME="ExternalObject"/>
 <node TEXT="the &quot;green boxes&quot; is a simpler&#xa;notation of Neural Networks" ID="ID_1413376057" CREATED="1617112400126" MODIFIED="1617112654531">
 <node TEXT="left side is RNNs,&#xa;right side is feedforward NNs" ID="ID_49192677" CREATED="1617112655805" MODIFIED="1617112678853"/>
@@ -282,11 +291,11 @@
 </node>
 </node>
 </node>
-<node TEXT="Convolutional Neural Networks(CNNs)" ID="ID_1659100858" CREATED="1628933130004" MODIFIED="1628933219551">
+<node TEXT="Convolutional Neural Networks(CNNs)" FOLDED="true" ID="ID_1659100858" CREATED="1628933130004" MODIFIED="1628933219551">
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-66 pt;-7.5 pt;" ENDINCLINATION="-221.24999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-63.75 pt;-5.25 pt;" ENDINCLINATION="-218.99999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -342,7 +351,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-22.5 pt;-20.25 pt;" ENDINCLINATION="-91.5 pt;-53.25 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-20.25 pt;-18 pt;" ENDINCLINATION="-89.25 pt;-51 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -351,8 +360,9 @@
 <node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Empirical Loss Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1617006068247">
-<node TEXT="\latex Binary Cross Entropy Loss \\&#xa;(soft max cross entropy loss)\\&#xa;$J(\boldsymbol W)=-\frac1n\sum_{i=1}^ny^{(i)}\log(f(x^{(i)};\boldsymbol W))\\+(1-y^{(i)})\log(1-f(x^{(i)};\boldsymbol W))$" ID="ID_1011783194" CREATED="1617004556948" MODIFIED="1617006084123">
+<node TEXT="\latex Binary Cross Entropy Loss \\&#xa;(soft max cross entropy loss)\\&#xa;$J(\boldsymbol W)=-\frac1n\sum_{i=1}^ny^{(i)}\log(f(x^{(i)};\boldsymbol W))\\+(1-y^{(i)})\log(1-f(x^{(i)};\boldsymbol W))$" ID="ID_1011783194" CREATED="1617004556948" MODIFIED="1633163425638">
 <node TEXT="the Cross Entropy between two PDF" ID="ID_304634057" CREATED="1617004791169" MODIFIED="1617004811774"/>
+<node TEXT="in neural network or multiclass cases,&#xa;just sum additionally on all classes/neurons" ID="ID_166687409" CREATED="1633163411063" MODIFIED="1633163454997"/>
 </node>
 <node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1617006090862"/>
 </node>
@@ -381,7 +391,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex Initialize randomly $\rightarrow$ \\&#xa;Update weights ($\boldsymbol W\leftarrow\boldsymbol W-\eta\frac{\partial J(\boldsymbol W)}{\partial \boldsymbol W}$)" ID="ID_377196011" CREATED="1617005606350" MODIFIED="1617006191625">
 <node TEXT="\latex scaling factor $\eta$ is \\&#xa;\textbf{learning rate}" ID="ID_31455875" CREATED="1617006196153" MODIFIED="1617006229617">
@@ -430,67 +439,26 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="analytically solve the minimum of cost func" ID="ID_120637817" CREATED="1632314813886" MODIFIED="1632375476942"/>
 <node TEXT="\latex noninvertibility(rarely met)\\&#xa;reasons might be:\\&#xa;(1)redundant features(linearly dependent)  \\&#xa;(2)too many features(too few examples)($m\le n$)\\&#xa;(2-solve)-&gt; delete some features or use regularization" ID="ID_491580331" CREATED="1632378504498" MODIFIED="1632378720368">
 <node TEXT="pseudo-inverse function could do the right thing&#xa;even under noninvertibility" ID="ID_1997136490" CREATED="1632378804196" MODIFIED="1632378866568"/>
 </node>
 </node>
+<node TEXT="" ID="ID_1325009418" CREATED="1632634424326" MODIFIED="1632634424327">
+<hook NAME="FirstGroupNode"/>
 </node>
-<node ID="ID_1680904125" CREATED="1617008050690" MODIFIED="1617008134016"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>Regularization</b>:
-    </p>
-    <p>
-      constrain the optimization to avoid overfit
-    </p>
-    <p>
-      by discouraging complex models
-    </p>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1141687396" CREATED="1617008158415" MODIFIED="1617008224127"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>Dropout: </b>
-    </p>
-    <p>
-      randomly set some activations to 0
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="to avoid overfit upon&#xa;some certain pathways" ID="ID_1588227776" CREATED="1617008281774" MODIFIED="1617008303481"/>
+<node TEXT="Conjugate gradient" ID="ID_16383621" CREATED="1632555459951" MODIFIED="1632555465839"/>
+<node TEXT="BFGS" ID="ID_1579006499" CREATED="1632555466440" MODIFIED="1632555469183"/>
+<node TEXT="L-BFGS" ID="ID_1374595881" CREATED="1632555469513" MODIFIED="1632555472958"/>
+<node TEXT="" ID="ID_480218930" CREATED="1632634424321" MODIFIED="1632635694087">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex no need to manually pick \alpha \\&#xa;often faster than gradient descent" ID="ID_1109636358" CREATED="1632634424328" MODIFIED="1632635694086" HGAP_QUANTITY="22.25 pt" VSHIFT_QUANTITY="-7.5 pt"/>
 </node>
-<node ID="ID_1766038723" CREATED="1617008310567" MODIFIED="1617008356297"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <b>Early Stopping: </b>
-    </p>
-    <p>
-      stop before having a chance to overfit
-    </p>
-  </body>
-</html>
-</richcontent>
+<node TEXT="Local minimum" ID="ID_301872789" CREATED="1633331551818" MODIFIED="1633331566038">
+<node TEXT="for linear/logistic regression and so on,&#xa;the cost func is convex, no local minimum" ID="ID_1383280729" CREATED="1633331567987" MODIFIED="1633331621625"/>
+<node TEXT="for neural networks,&#xa;the cost func is non-convex, has local minimum&#xa;(usually not a big problem)" ID="ID_1866364304" CREATED="1633331623888" MODIFIED="1633331654345"/>
 </node>
 </node>
 </node>
@@ -501,7 +469,7 @@
 <node TEXT="the state update and output func is to&#xa;be defined in (call) func" ID="ID_737348499" CREATED="1617113882694" MODIFIED="1617113976625"/>
 </node>
 </node>
-<node TEXT="Modeling Circums" POSITION="right" ID="ID_620118645" CREATED="1617114150905" MODIFIED="1617114171605">
+<node TEXT="Modeling Circums" FOLDED="true" POSITION="right" ID="ID_620118645" CREATED="1617114150905" MODIFIED="1617114171605">
 <edge COLOR="#007c00"/>
 <node TEXT="Sequential Modeling&#xa;(temporal/sequential data e.g. sentences)" ID="ID_528819167" CREATED="1617109363294" MODIFIED="1617114226233">
 <node TEXT="criteria" ID="ID_666420193" CREATED="1617114380255" MODIFIED="1617114383086">
@@ -540,6 +508,117 @@
 </node>
 <node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
+<node ID="ID_731277564" CREATED="1632643191080" MODIFIED="1632643430806"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OverFit (caused by: not enough data
+    </p>
+    <p>
+      -&gt; algorithm with <b>high variance/too many features</b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_688705145" CREATED="1632643214920" MODIFIED="1632643444021"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      algorithms with <b>high variance</b>:=
+    </p>
+    <p>
+      with large number of possible hypotheses(many features)
+    </p>
+    <p>
+      (needs more data to train)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="to address" ID="ID_1237829291" CREATED="1632643699240" MODIFIED="1632643731401">
+<node TEXT="reduce number of features via:&#xa;    manually select&#xa;    model selection algorithm" ID="ID_1146108642" CREATED="1632643732669" MODIFIED="1632643763922">
+<node TEXT="also throw away infos, may cause inaccuracy" ID="ID_1680490876" CREATED="1632643814001" MODIFIED="1632643835769"/>
+</node>
+<node ID="ID_1680904125" CREATED="1617008050690" MODIFIED="1617008134016"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Regularization</b>:
+    </p>
+    <p>
+      constrain the optimization to avoid overfit
+    </p>
+    <p>
+      by discouraging complex models
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex keep all the features, but reduce magnitude/values of $\theta_j$\\&#xa;(via adding large terms of $\theta_j$ into cost function)\\&#xa;(usually reduce all $\theta_j$ except $\theta_0$)" ID="ID_1861926002" CREATED="1632643873758" MODIFIED="1632644624917">
+<node TEXT="\latex e.g. $J(\theta)=\frac1{2m}[ \sum_{i=1}^m(h_\theta(x^{(i)})-y^{(i)})^2 +\underbrace{\lambda\sum_{j=1}^{n}\theta^2_j}_\text{regularization term} ]$\\&#xa;use $\lambda$ to control the tradeoff&#xa;$\Rightarrow \theta_j := \theta_j(1-\alpha\frac\lambda m)-\frac{\partial J_{ori}(\theta)}{\partial \theta_j}$\\&#xa;normal equation $\theta=\underbrace{\left(X^TX+\lambda\begin{bmatrix}&#xa;0 &amp;&amp;&amp;&amp;\\&#xa;&amp;1&amp;&amp;&amp;\\&#xa;&amp;&amp;1&amp;&amp;\\&#xa;&amp;&amp;&amp;\ddots&amp;\\&#xa;&amp;&amp;&amp;&amp;1\\&#xa;\end{bmatrix}\right)}_\text{always invertable}X^Ty$" ID="ID_1522881570" CREATED="1632644353721" MODIFIED="1632647382022">
+<node TEXT="\latex in neural network cases, just expand the summation\\&#xa;to all elements in $\Theta$ (except bias terms(sum from 1))" ID="ID_1206320093" CREATED="1633163258092" MODIFIED="1633163348734"/>
+</node>
+</node>
+<node ID="ID_1141687396" CREATED="1617008158415" MODIFIED="1617008224127"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Dropout: </b>
+    </p>
+    <p>
+      randomly set some activations to 0
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="to avoid overfit upon&#xa;some certain pathways" ID="ID_1588227776" CREATED="1617008281774" MODIFIED="1617008303481"/>
+</node>
+<node ID="ID_1766038723" CREATED="1617008310567" MODIFIED="1617008356297"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Early Stopping: </b>
+    </p>
+    <p>
+      stop before having a chance to overfit
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="debug" ID="ID_156894172" CREATED="1633256820517" MODIFIED="1633256822123">
+<node TEXT="gradient checking&#xa;(before training)" ID="ID_311650057" CREATED="1633256826686" MODIFIED="1633259297746">
+<node TEXT="use numerical difference of cost func to check&#xa;the gradient given by the algorithm(e.g. backprop)" ID="ID_1579495277" CREATED="1633258908027" MODIFIED="1633259251494"/>
+</node>
+</node>
+<node TEXT="Random Initialization&#xa;(symmetry breaking)" ID="ID_620233848" CREATED="1633329439437" MODIFIED="1633329498713">
+<node TEXT="a symmetrical initial value may bring wrong symmetry&#xa;(e.g. some neurons may keep exactly same due to symmetry)" ID="ID_287119740" CREATED="1633329446300" MODIFIED="1633329640100"/>
+<node TEXT="\latex random range $(-\epsilon,\epsilon)$\\&#xa;empirically chosen: $\frac{\sqrt6}{\sqrt{L_{in}+L_{out}}}$" ID="ID_281111630" CREATED="1633512004414" MODIFIED="1633512110645"/>
+</node>
 </node>
 <node TEXT="Transformer&#xa;(seq2seq)" FOLDED="true" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
 <edge COLOR="#7c7c00"/>
@@ -609,6 +688,38 @@
 </node>
 </node>
 <node TEXT="需要创造性的情况下需要加入随机性(而不是单纯寻找最优解)&#xa;(e.g. 填充句子)" ID="ID_212922573" CREATED="1629032412419" MODIFIED="1629032500736"/>
+</node>
+<node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
+<edge COLOR="#0000ff"/>
+<node TEXT="Supervised Learning" FOLDED="true" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
+<node TEXT="Classification(discrete value output)" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
+<node TEXT="two-class classification" ID="ID_151183089" CREATED="1632641873083" MODIFIED="1632641885575">
+<node TEXT="\latex Logistic Regression ($0\le h_\theta(x) \le 1$)&#xa;\\(although with regression in name, it&apos;s a classification prob)" ID="ID_917194050" CREATED="1632470791548" MODIFIED="1632472657916">
+<node TEXT="\latex $h_\theta(x) = \text{sigmoid}(\theta^T x)$\\&#xa;estimated probability that y=1 on input x" ID="ID_924505669" CREATED="1632473851415" MODIFIED="1632474611426">
+<node TEXT="sigmoid function = logistic function" ID="ID_1641079308" CREATED="1632474521879" MODIFIED="1632474532652"/>
+<node TEXT="\latex predict $y=1$ if $h_\theta(x) \ge 0.5$\\&#xa;$\Rightarrow h_\theta = 0.5$ is \textbf{Decision Boundary}" ID="ID_426240250" CREATED="1632475399355" MODIFIED="1632476275435"/>
+</node>
+<node TEXT="\latex from the principle of maximum likelihood estimation\\&#xa;$J(\theta) =\frac1m \sum_{i=1}^m\text{cost}(h_\theta(x^{(i)}),y)$" ID="ID_33164102" CREATED="1632477112169" MODIFIED="1632486762675">
+<node TEXT="\latex $\text{cost}(h_\theta(x),y)=\left\{\begin{aligned}&#xa;-\log(h_\theta(x)),\; &amp; \text{if}\, y = 1\\&#xa;-\log(1-h_\theta(x)),\; &amp; \text{if}\, y=0&#xa;\end{aligned}\right.$\\&#xa;$\Rightarrow = -y\log(h_\theta(x))-(1-y)\log(1-h_\theta(x))$" ID="ID_593876284" CREATED="1632477210359" MODIFIED="1632486689486"/>
+<node TEXT="\latex \textbf{Gradient is the same as linear regression}\\&#xa;$\frac{\partial J}{\partial \theta} = (h_\theta(x)-y)x$" ID="ID_1397335695" CREATED="1632489489316" MODIFIED="1632489558986"/>
+</node>
+</node>
+</node>
+<node TEXT="multiclass classification" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1632641744889">
+<node TEXT="One-vs-all/One-vs-rest&#xa;turn problem into two classes" ID="ID_1800137766" CREATED="1632641746736" MODIFIED="1632641791951">
+<node TEXT="\latex train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability $P(y=i)$\\&#xa;on a new input $x$, pick the class $i$ with maximum probability" ID="ID_1693528069" CREATED="1632641929883" MODIFIED="1632642030031"/>
+</node>
+</node>
+</node>
+<node TEXT="Regression(continuous value output)" ID="ID_1095262468" CREATED="1632476914184" MODIFIED="1632476926207">
+<node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
+<node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
+<node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1633331317447">
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="25.5 pt;-167.99999 pt;" ENDINCLINATION="-111.75 pt;-159.75 pt;"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
