@@ -295,7 +295,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-63.75 pt;-5.25 pt;" ENDINCLINATION="-218.99999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-62.25 pt;-3.75 pt;" ENDINCLINATION="-217.49999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -351,7 +351,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-20.25 pt;-18 pt;" ENDINCLINATION="-89.25 pt;-51 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-18.75 pt;-16.5 pt;" ENDINCLINATION="-87.75 pt;-49.5 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -619,6 +619,35 @@
 <node TEXT="a symmetrical initial value may bring wrong symmetry&#xa;(e.g. some neurons may keep exactly same due to symmetry)" ID="ID_287119740" CREATED="1633329446300" MODIFIED="1633329640100"/>
 <node TEXT="\latex random range $(-\epsilon,\epsilon)$\\&#xa;empirically chosen: $\frac{\sqrt6}{\sqrt{L_{in}+L_{out}}}$" ID="ID_281111630" CREATED="1633512004414" MODIFIED="1633512110645"/>
 </node>
+<node TEXT="Machine learning diagnostic" ID="ID_1658269080" CREATED="1633704071062" MODIFIED="1633704082720">
+<font BOLD="true"/>
+<node TEXT="\latex training/cross validation/test error\\&#xa;$J_{train}/J_{cv}/J_{test}$ are defined as cost func. \textbf{without regularization}" ID="ID_1475129399" CREATED="1633765520280" MODIFIED="1633765632627"/>
+<node TEXT="when prediction fails" ID="ID_1544661557" CREATED="1633692045758" MODIFIED="1633692060118">
+<node TEXT="get more training examples" ID="ID_989730764" CREATED="1633692060680" MODIFIED="1633692068708"/>
+<node TEXT="try smaller sets of features" ID="ID_1237717771" CREATED="1633692079119" MODIFIED="1633692086425"/>
+<node TEXT="try getting additional features" ID="ID_710297421" CREATED="1633692109376" MODIFIED="1633692116246"/>
+<node TEXT="\latex try adding polynomial features ($x_1^2,x_2^2,x_1x_2$,etc.)" ID="ID_592317387" CREATED="1633694816011" MODIFIED="1633694861091"/>
+<node TEXT="\latex try decreasing $\lambda$" ID="ID_50304915" CREATED="1633701306981" MODIFIED="1633701347702"/>
+<node TEXT="\latex try increasing $\lambda$" ID="ID_321937683" CREATED="1633701351945" MODIFIED="1633701368799"/>
+</node>
+<node TEXT="evaluating a learning algorithm" ID="ID_958581460" CREATED="1633704424080" MODIFIED="1633756984486">
+<node TEXT="split examples into diff sets seperately for training and testing" ID="ID_1013591443" CREATED="1633755425834" MODIFIED="1633755444239">
+<node TEXT="split examples into training and test set(e.g. 70%-30% randomly)&#xa;learn from training data and compute test set error(cost)" ID="ID_1782286003" CREATED="1633704437438" MODIFIED="1633704714533"/>
+<node TEXT="when extra hyperpara. needed to be chosen upon test sets&#xa;split into 3 sets: training set, (cross) validation set,test set(6-2-2)&#xa;(choose hyperparas on CV(cross validation) set)" ID="ID_1758517914" CREATED="1633755459739" MODIFIED="1633755733129">
+<arrowlink DESTINATION="ID_750461868" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<node TEXT="recommended, not mandatory" ID="ID_1515648874" CREATED="1633755738470" MODIFIED="1633755752702"/>
+</node>
+</node>
+<node TEXT="model selection" ID="ID_892889967" CREATED="1633755195861" MODIFIED="1633755199854">
+<node TEXT="e.g. degree choice: choose the hyperparameter&#xa;acc. to the test set error(cost)" ID="ID_1555837429" CREATED="1633755200632" MODIFIED="1633755249953"/>
+<node TEXT="as the hyperpara. is chosen upon the test set,&#xa;then the same test set can&apos;t provide info on generalization" ID="ID_750461868" CREATED="1633755341075" MODIFIED="1633755384687"/>
+</node>
+</node>
+<node TEXT="bias(underfitting) vs. variance(overfitting) problem" ID="ID_1224790198" CREATED="1633756985719" MODIFIED="1633757008634">
+<node TEXT="\latex bias problem: $J_{train}(\theta)\approx J_{cv}(\theta)\rightarrow high$" ID="ID_1126016831" CREATED="1633764462109" MODIFIED="1633764502221"/>
+<node TEXT="\latex variance problem: $J_{train}(\theta)\ll J_{cv}(\theta)\rightarrow high$" ID="ID_1722774930" CREATED="1633764462109" MODIFIED="1633764528441"/>
+</node>
+</node>
 </node>
 <node TEXT="Transformer&#xa;(seq2seq)" FOLDED="true" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
 <edge COLOR="#7c7c00"/>
@@ -715,7 +744,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1633331317447">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="25.5 pt;-167.99999 pt;" ENDINCLINATION="-111.75 pt;-159.75 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="25.5 pt;-166.5 pt;" ENDINCLINATION="-110.25 pt;-158.25 pt;"/>
 </node>
 </node>
 </node>
