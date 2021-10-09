@@ -3,7 +3,7 @@
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="2.852">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -134,7 +134,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
+<node TEXT="Neural Network" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
 <edge COLOR="#00ff00"/>
 <node TEXT="Feed-forward Neural Network&#xa;(simplest)" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1633237907181">
 <node TEXT="category" ID="ID_1135830224" CREATED="1632972273677" MODIFIED="1632972693517">
@@ -295,7 +295,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-62.25 pt;-3.75 pt;" ENDINCLINATION="-217.49999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-61.5 pt;-3 pt;" ENDINCLINATION="-216.74999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -351,7 +351,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-18.75 pt;-16.5 pt;" ENDINCLINATION="-87.75 pt;-49.5 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-18 pt;-15.75 pt;" ENDINCLINATION="-87 pt;-48.75 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -508,7 +508,7 @@
 </node>
 <node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
-<node ID="ID_731277564" CREATED="1632643191080" MODIFIED="1632643430806"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_731277564" CREATED="1632643191080" MODIFIED="1632643430806"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -615,20 +615,20 @@
 <node TEXT="use numerical difference of cost func to check&#xa;the gradient given by the algorithm(e.g. backprop)" ID="ID_1579495277" CREATED="1633258908027" MODIFIED="1633259251494"/>
 </node>
 </node>
-<node TEXT="Random Initialization&#xa;(symmetry breaking)" ID="ID_620233848" CREATED="1633329439437" MODIFIED="1633329498713">
+<node TEXT="Random Initialization&#xa;(symmetry breaking)" FOLDED="true" ID="ID_620233848" CREATED="1633329439437" MODIFIED="1633329498713">
 <node TEXT="a symmetrical initial value may bring wrong symmetry&#xa;(e.g. some neurons may keep exactly same due to symmetry)" ID="ID_287119740" CREATED="1633329446300" MODIFIED="1633329640100"/>
 <node TEXT="\latex random range $(-\epsilon,\epsilon)$\\&#xa;empirically chosen: $\frac{\sqrt6}{\sqrt{L_{in}+L_{out}}}$" ID="ID_281111630" CREATED="1633512004414" MODIFIED="1633512110645"/>
 </node>
-<node TEXT="Machine learning diagnostic" ID="ID_1658269080" CREATED="1633704071062" MODIFIED="1633704082720">
+<node TEXT="Machine learning diagnostic" FOLDED="true" ID="ID_1658269080" CREATED="1633704071062" MODIFIED="1633704082720">
 <font BOLD="true"/>
 <node TEXT="\latex training/cross validation/test error\\&#xa;$J_{train}/J_{cv}/J_{test}$ are defined as cost func. \textbf{without regularization}" ID="ID_1475129399" CREATED="1633765520280" MODIFIED="1633765632627"/>
 <node TEXT="when prediction fails" ID="ID_1544661557" CREATED="1633692045758" MODIFIED="1633692060118">
-<node TEXT="get more training examples" ID="ID_989730764" CREATED="1633692060680" MODIFIED="1633692068708"/>
-<node TEXT="try smaller sets of features" ID="ID_1237717771" CREATED="1633692079119" MODIFIED="1633692086425"/>
-<node TEXT="try getting additional features" ID="ID_710297421" CREATED="1633692109376" MODIFIED="1633692116246"/>
-<node TEXT="\latex try adding polynomial features ($x_1^2,x_2^2,x_1x_2$,etc.)" ID="ID_592317387" CREATED="1633694816011" MODIFIED="1633694861091"/>
-<node TEXT="\latex try decreasing $\lambda$" ID="ID_50304915" CREATED="1633701306981" MODIFIED="1633701347702"/>
-<node TEXT="\latex try increasing $\lambda$" ID="ID_321937683" CREATED="1633701351945" MODIFIED="1633701368799"/>
+<node TEXT="\latex get more training examples $\rightarrow$ high variance" ID="ID_989730764" CREATED="1633692060680" MODIFIED="1633785530567"/>
+<node TEXT="\latex try smaller sets of features $\rightarrow$ high variance" ID="ID_1237717771" CREATED="1633692079119" MODIFIED="1633785549519"/>
+<node TEXT="\latex try getting additional features $\rightarrow$ high bias" ID="ID_710297421" CREATED="1633692109376" MODIFIED="1633785571544"/>
+<node TEXT="\latex try adding polynomial features ($x_1^2,x_2^2,x_1x_2$,etc.) $\rightarrow$ high bias" ID="ID_592317387" CREATED="1633694816011" MODIFIED="1633785592650"/>
+<node TEXT="\latex try decreasing $\lambda$ $\rightarrow$ high bias" ID="ID_50304915" CREATED="1633701306981" MODIFIED="1633785605476"/>
+<node TEXT="\latex try increasing $\lambda$ $\rightarrow$ high variance" ID="ID_321937683" CREATED="1633701351945" MODIFIED="1633785614659"/>
 </node>
 <node TEXT="evaluating a learning algorithm" ID="ID_958581460" CREATED="1633704424080" MODIFIED="1633756984486">
 <node TEXT="split examples into diff sets seperately for training and testing" ID="ID_1013591443" CREATED="1633755425834" MODIFIED="1633755444239">
@@ -646,6 +646,41 @@
 <node TEXT="bias(underfitting) vs. variance(overfitting) problem" ID="ID_1224790198" CREATED="1633756985719" MODIFIED="1633757008634">
 <node TEXT="\latex bias problem: $J_{train}(\theta)\approx J_{cv}(\theta)\rightarrow high$" ID="ID_1126016831" CREATED="1633764462109" MODIFIED="1633764502221"/>
 <node TEXT="\latex variance problem: $J_{train}(\theta)\ll J_{cv}(\theta)\rightarrow high$" ID="ID_1722774930" CREATED="1633764462109" MODIFIED="1633764528441"/>
+</node>
+<node ID="ID_1707297360" CREATED="1633779130647" MODIFIED="1633780885372"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      learning curve
+    </p>
+    <p>
+      (<b>training and cv errors</b>&nbsp;wrt. <b>training set size</b>)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="High Bias Problem (larger example size won&apos;t help)" ID="ID_881814164" CREATED="1633782421622" MODIFIED="1633784231691">
+<hook URI="pix/LearningCurveHighBias.svg" SIZE="0.6267157" NAME="ExternalObject"/>
+</node>
+<node TEXT="High Variance Problem (larger example size can help)" ID="ID_375845025" CREATED="1633782840638" MODIFIED="1633784145246">
+<hook URI="pix/LearningCurveHighVariance.svg" SIZE="0.7256117" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Neural Networks options" ID="ID_1547206452" CREATED="1633786295814" MODIFIED="1633786396218">
+<node TEXT="scale" ID="ID_757834300" CREATED="1633786401191" MODIFIED="1633786404895">
+<node TEXT="&quot;small&quot; NN(fewer parameters;&#xa;more prone to underfitting)" ID="ID_856864" CREATED="1633786405920" MODIFIED="1633786452232"/>
+<node TEXT="&quot;large&quot; NN(more parameters;&#xa;more prone to overfitting)" ID="ID_747873889" CREATED="1633786488171" MODIFIED="1633786525929">
+<node TEXT="\latex use regularization($\lambda$) to address overfitting" ID="ID_1866347905" CREATED="1633786538892" MODIFIED="1633786582750"/>
+</node>
+</node>
+<node TEXT="hyperparas chosen the same(cross validation)" ID="ID_364325578" CREATED="1633786901371" MODIFIED="1633787011799">
+<node TEXT="one hidden layer is preferred by default" ID="ID_1961222254" CREATED="1633787177174" MODIFIED="1633787211726"/>
 </node>
 </node>
 </node>
@@ -744,7 +779,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1633331317447">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="25.5 pt;-166.5 pt;" ENDINCLINATION="-110.25 pt;-158.25 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="25.5 pt;-165.75 pt;" ENDINCLINATION="-109.5 pt;-157.5 pt;"/>
 </node>
 </node>
 </node>
