@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.852">
+<hook NAME="MapStyle" zoom="3.137">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
@@ -101,10 +101,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Perceptron" POSITION="left" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1617001118339">
-<edge COLOR="#0000ff"/>
+<node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
+<edge COLOR="#00ff00"/>
+<node TEXT="Feed-forward Neural Network&#xa;(simplest)" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1633237907181">
+<node TEXT="neuron" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1633916308693">
 <node TEXT="\latex Forward Propagation Neuron\\&#xa;$\hat y = g(\overbrace{w_0}^{bias}+\overbrace{\sum^m_{i=1}x_iw_i}^\text{Linear combination})=g(w_0+\boldsymbol X^T\boldsymbol W)\equiv g(z)$\\&#xa;$g$ is non-linear activation function\\&#xa;(the bias term can be added in any layer)" ID="ID_1133351585" CREATED="1617001200320" MODIFIED="1632895052956">
-<hook URI="pix/perceptron.png" SIZE="0.46967137" NAME="ExternalObject"/>
+<hook URI="pix/perceptron.png" SIZE="0.4011865" NAME="ExternalObject"/>
 <node TEXT="the Activation Functions are used&#xa;to tackle non-linear data" ID="ID_251127776" CREATED="1617002354420" MODIFIED="1617002382198">
 <node TEXT="\latex e.g. Sigmoid, ReLU" ID="ID_1008232220" CREATED="1628677687665" MODIFIED="1628677706535"/>
 </node>
@@ -134,9 +136,6 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
-<edge COLOR="#00ff00"/>
-<node TEXT="Feed-forward Neural Network&#xa;(simplest)" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1633237907181">
 <node TEXT="category" ID="ID_1135830224" CREATED="1632972273677" MODIFIED="1632972693517">
 <node TEXT="Single Layer Neural Network&#xa;(one hidden(unobservable) layer)" ID="ID_10080375" CREATED="1617003448692" MODIFIED="1617003549465">
 <hook URI="pix/SLNN.png" SIZE="0.4076826" NAME="ExternalObject"/>
@@ -295,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-61.5 pt;-3 pt;" ENDINCLINATION="-216.74999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-57 pt;0 pt;" ENDINCLINATION="-212.24999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -351,22 +350,32 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-18 pt;-15.75 pt;" ENDINCLINATION="-87 pt;-48.75 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-13.5 pt;-11.25 pt;" ENDINCLINATION="-82.5 pt;-44.25 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
 <node TEXT="Graph Neural Network(GNN)" ID="ID_1634919084" CREATED="1628948768077" MODIFIED="1628948782687"/>
 </node>
-<node TEXT="\latex Loss Optimization\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1617006054939">
+<node TEXT="\latex Loss Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1633874596971">
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex Empirical Loss Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1617006068247">
-<node TEXT="\latex Binary Cross Entropy Loss \\&#xa;(soft max cross entropy loss)\\&#xa;$J(\boldsymbol W)=-\frac1n\sum_{i=1}^ny^{(i)}\log(f(x^{(i)};\boldsymbol W))\\+(1-y^{(i)})\log(1-f(x^{(i)};\boldsymbol W))$" ID="ID_1011783194" CREATED="1617004556948" MODIFIED="1633163425638">
+<node TEXT="\latex Loss Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" FOLDED="true" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1633920627403">
+<node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$\\&#xa;$\frac\partial{\partial W_j} J(\boldsymbol W)=\sum_i(f(x;\boldsymbol W)-y)x_j$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1633920674676">
+<node TEXT="\latex LMS(least mean squares)update rule: $\theta_j := \theta_j + \alpha\sum_i(y^{(i)}-h_\theta(x^{(i)}))x_j^{(i)}$,\;(Widrow-Hoff learning rule)\\&#xa;&#xa;\\(when examples&apos; no. exceed 1, called \textbf{batch gradient descent})\\&#xa;(&quot;batch&quot; comes from the summation wrt. example batch)" ID="ID_548859840" CREATED="1633865834111" MODIFIED="1633867746006">
+<node TEXT="\latex stochastic(incremental) gradient descent:&#xa;\\$\boldsymbol\theta := \boldsymbol\theta + \alpha(\boldsymbol y^{(i)}-\boldsymbol h_\theta(\boldsymbol x^{(i)}))\boldsymbol x^{(i)}$&#xa;\\(i.e. use loops to scan through the training set)" ID="ID_235124243" CREATED="1633868223810" MODIFIED="1633868604361"/>
+</node>
+<node TEXT="\latex Why? naturally derived under probabilistic assumptions\\&#xa;$y^{(i)}=\theta^T x^{(i)}+\epsilon^{(i)}$,\;($\epsilon\rightarrow$ unmodeled effects or random noise)\\&#xa;\textbf{assum.},$\epsilon^{(i)}$ are distributed IID(independently and identically distributed) $\epsilon^{(i)}\sim \mathcal N(0,\sigma^2)$" ID="ID_668941631" CREATED="1633869054369" MODIFIED="1633874669879">
+<node TEXT="\latex $p(y^{(i)}|x^{(i)};\theta)=p(\epsilon^{(i)})=\frac1{\sqrt{2\pi}\sigma}\exp(-\frac{(\epsilon^{(i)})^2}{2\sigma^2})$\\&#xa;$\Rightarrow (y^{(i)}| x^{(i)};\theta) \sim \mathcal N(\theta^Tx^{(i)},\sigma^2)$\\&#xa;thus to make the likelihood $L(\theta)=p(y|X;\theta)$ maximum $\Rightarrow$LSM" ID="ID_612257139" CREATED="1633870233513" MODIFIED="1633874685238"/>
+</node>
+</node>
+<node TEXT="\latex Binary Cross Entropy Loss \\&#xa;(soft max cross entropy loss)\\&#xa;$J(\boldsymbol W)=-\frac1n\sum_{i=1}^ny^{(i)}\log(f(x^{(i)};\boldsymbol W))\\+(1-y^{(i)})\log(1-f(x^{(i)};\boldsymbol W))$\\&#xa;$\frac\partial{\partial W_j} J(\boldsymbol W)=\sum_i(f(x;\boldsymbol W)-y)x_j$" ID="ID_1011783194" CREATED="1617004556948" MODIFIED="1633920685602">
 <node TEXT="the Cross Entropy between two PDF" ID="ID_304634057" CREATED="1617004791169" MODIFIED="1617004811774"/>
 <node TEXT="in neural network or multiclass cases,&#xa;just sum additionally on all classes/neurons" ID="ID_166687409" CREATED="1633163411063" MODIFIED="1633163454997"/>
+<node TEXT="\latex Why?&#xa;\textbf{assum.}: $P(y=1|x;\theta)=h_\theta(x)$\\&#xa;\qquad compactly as: $p(y|x;\theta) = (h_\theta(x))^y(1-h_\theta(x))^{1-y}$\\&#xa;likelihood of $\theta$: $L(\theta) = p(\vec y|X;\theta)=\prod_ip(y^{(i)}|x^{(i)};\theta) $ \\&#xa;for maximum: $\mathcal l(\theta) = \log L(\theta)$" ID="ID_1895824678" CREATED="1633874634405" MODIFIED="1633875116392">
+<node TEXT="\latex $(y|x;\theta)\sim Bernoulli(h_\theta(x))$" ID="ID_1664669791" CREATED="1633918115474" MODIFIED="1633918301998"/>
 </node>
-<node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1617006090862"/>
 </node>
-<node TEXT="Minimize Algorithm" ID="ID_323432670" CREATED="1617005567632" MODIFIED="1617005589607">
+</node>
+<node TEXT="Minimize Algorithm" FOLDED="true" ID="ID_323432670" CREATED="1617005567632" MODIFIED="1617005589607">
 <node ID="ID_150452835" CREATED="1617005590439" MODIFIED="1632377463101"><richcontent TYPE="NODE">
 
 <html>
@@ -418,6 +427,12 @@
 </node>
 </node>
 </node>
+<node TEXT="\latex Newton Raphson method(\textbf{Fisher scoring } for logistic regression)\\&#xa;(faster convergence then gradient descent)\\&#xa;(fewer but more expensive iterations)" ID="ID_763776036" CREATED="1633917091502" MODIFIED="1633918025378">
+<node TEXT="\latex Newton&apos;s method in finding zero point\\&#xa;$\theta := \theta -\frac{f(\theta)}{f&apos;(\theta)}$" ID="ID_807647069" CREATED="1633917571249" MODIFIED="1633917869482">
+<node TEXT="\latex the maximum of likelihood corr. to\\&#xa;the zero points of its first derivative\\&#xa;$\theta := \theta -\frac{l&apos;(\theta)}{l&apos;&apos;(\theta)}$" ID="ID_1384462706" CREATED="1633917678394" MODIFIED="1633917781074"/>
+</node>
+<node TEXT="\latex for vector valued \theta, generalize to N-R method\\&#xa;$\theta:=\theta-H^{-1}\nabla_\theta l(\theta)$\\&#xa;($H$ is the Hessian matrix, $H_{ij}\equiv\frac{\partial^2l(\theta)}{\partial\theta_i\partial\theta_j}$)" ID="ID_877444829" CREATED="1633917815599" MODIFIED="1633917903015"/>
+</node>
 <node ID="ID_1073385321" CREATED="1632314794111" MODIFIED="1632377437321"><richcontent TYPE="NODE">
 
 <html>
@@ -440,7 +455,9 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="analytically solve the minimum of cost func" ID="ID_120637817" CREATED="1632314813886" MODIFIED="1632375476942"/>
+<node TEXT="analytically solve the minimum of cost func" ID="ID_120637817" CREATED="1632314813886" MODIFIED="1632375476942">
+<node TEXT="\latex for LMS: $\nabla_\theta J(\theta) = X^TX\theta - X^Ty$" ID="ID_724182339" CREATED="1633868726859" MODIFIED="1633868831087"/>
+</node>
 <node TEXT="\latex noninvertibility(rarely met)\\&#xa;reasons might be:\\&#xa;(1)redundant features(linearly dependent)  \\&#xa;(2)too many features(too few examples)($m\le n$)\\&#xa;(2-solve)-&gt; delete some features or use regularization" ID="ID_491580331" CREATED="1632378504498" MODIFIED="1632378720368">
 <node TEXT="pseudo-inverse function could do the right thing&#xa;even under noninvertibility" ID="ID_1997136490" CREATED="1632378804196" MODIFIED="1632378866568"/>
 </node>
@@ -460,6 +477,26 @@
 <node TEXT="for linear/logistic regression and so on,&#xa;the cost func is convex, no local minimum" ID="ID_1383280729" CREATED="1633331567987" MODIFIED="1633331621625"/>
 <node TEXT="for neural networks,&#xa;the cost func is non-convex, has local minimum&#xa;(usually not a big problem)" ID="ID_1866364304" CREATED="1633331623888" MODIFIED="1633331654345"/>
 </node>
+</node>
+</node>
+<node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-48.75 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<edge COLOR="#ff00ff"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
+<node TEXT="\latex \eta is the \textbf{natural | canonical parameter } of the dist." ID="ID_710167011" CREATED="1633918524516" MODIFIED="1633918577275"/>
+<node TEXT="\latex $T(y)$ is the \textbf{sufficient statistic } of target\\&#xa;usually fixed as $T(y) = y$" ID="ID_1708144479" CREATED="1633918894226" MODIFIED="1633921436253">
+<node TEXT="response variable in GLM terminology" ID="ID_1332679380" CREATED="1633921479892" MODIFIED="1633921496140"/>
+</node>
+<node TEXT="\latex $a(\eta)$ is the \textbf{log partition function}\\&#xa;$e^{-a(\eta)}$ plays the role of normalization constant\\&#xa;to ensure $\int p(y;\eta)dy=1$" ID="ID_649462543" CREATED="1633918928387" MODIFIED="1633919042294"/>
+</node>
+<node TEXT="\latex Bernoulli dist. can be written as:\\&#xa;$p(y;\phi) = \phi^y(1-\phi)^{1-y}=\exp(\log\frac{\phi}{1-\phi}\cdot y +\log(1-\phi))$\\&#xa;Gaussian dist. can be written as:\\&#xa;$p(y;\mu,\sigma)=\frac1{\sqrt{2\pi}}\exp(-\frac{(y-\mu)^2}{2\sigma^2})=&#xa;\frac{e^{-\frac{y^2}{2\sigma^2}}}{\sqrt{2\pi}}\exp(\frac{\mu}{\sigma^2}y-\frac{\mu^2}{2\sigma^2})$" ID="ID_299166631" CREATED="1633919343842" MODIFIED="1633920243463"/>
+<node TEXT="\latex Construction" ID="ID_217121381" CREATED="1633920486257" MODIFIED="1633926519306">
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex \textbf{assum.}:\\&#xa;\textbf{1, } (y|x;\theta)\sim ExponentialFamily(\eta)\\&#xa;\textbf{2, } given x, the goal is to predict $T(y)$, meaning we want the \qquad $h(x) = E[y|x]$,(E is expectation value)\\&#xa;\textbf{3, } $\eta$ and $x$ are related linearly,i.e. $\eta=\theta^T x$&#xa;\\\qquad(this one is more of a &quot;design choice&quot;)" LOCALIZED_STYLE_REF="styles.important" ID="ID_1951150012" CREATED="1633920525664" MODIFIED="1633926511651">
+<hook NAME="AlwaysUnfoldedNode"/>
+</node>
+<node TEXT="\latex take logistic regression for example\\&#xa;from assum. 2 $\rightarrow h(x) = E[y|x;\theta]$\\&#xa;from assum. 1 $\rightarrow E[y| x;\theta]=\phi$\\&#xa;from assum.1 $\rightarrow \phi=\frac1{1+e^{-\eta}}$\\&#xa;from assum. 3 $\rightarrow \eta=\theta^T x$\\&#xa;$\therefore\;h(x)=\text{sigmoid}(\theta^T x)$" ID="ID_701204260" CREATED="1633921611846" MODIFIED="1633922114814"/>
 </node>
 </node>
 <node TEXT="TensorFlow" FOLDED="true" POSITION="left" ID="ID_1240074261" CREATED="1617113698850" MODIFIED="1617113702848">
@@ -506,7 +543,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
+<node TEXT="Training" FOLDED="true" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
 <node FOLDED="true" ID="ID_731277564" CREATED="1632643191080" MODIFIED="1632643430806"><richcontent TYPE="NODE">
 
@@ -662,7 +699,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="High Bias Problem (larger example size won&apos;t help)" ID="ID_881814164" CREATED="1633782421622" MODIFIED="1633784231691">
 <hook URI="pix/LearningCurveHighBias.svg" SIZE="0.6267157" NAME="ExternalObject"/>
@@ -682,6 +718,24 @@
 <node TEXT="hyperparas chosen the same(cross validation)" ID="ID_364325578" CREATED="1633786901371" MODIFIED="1633787011799">
 <node TEXT="one hidden layer is preferred by default" ID="ID_1961222254" CREATED="1633787177174" MODIFIED="1633787211726"/>
 </node>
+</node>
+<node TEXT="a evaluation metric for classification problem&#xa;(helpful for make quick decision)" ID="ID_911310020" CREATED="1633852036814" MODIFIED="1633856774634">
+<node TEXT="skewed classes&#xa;(tricky example for classification)" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1633851822196">
+<node TEXT="one class is much more than the other&#xa;(say, class 1(0.5%) vs. class 0(99.5%))" ID="ID_1120652285" CREATED="1633851823246" MODIFIED="1633851876030">
+<node TEXT="a constant &quot;predictor&quot; (always gives 0)&#xa;could possibly give a low error" ID="ID_637261130" CREATED="1633851877235" MODIFIED="1633851917997"/>
+</node>
+<node TEXT="\latex Precision(P)/Recall(R)&#xa;\\Precision=P(Actual 1 | Predict 1) = T-p/(T-p + F-p)&#xa;\\Recall=P(Predict 1 | Actual 1) = T-p/(T-p + F-n)" ID="ID_394384818" CREATED="1633855065965" MODIFIED="1633863976829">
+<hook URI="pix/PrecisionRecall.png" SIZE="0.17777292" NAME="ExternalObject"/>
+<node TEXT="tuned by modulating threshold&#xa;tradeoff need to be made" ID="ID_1609758038" CREATED="1633856882752" MODIFIED="1633857638732">
+<node TEXT="higher positive threshold:&#xa;higher precision, lower recall" ID="ID_539470923" CREATED="1633856922409" MODIFIED="1633856938904"/>
+</node>
+<node TEXT="\latex F score(single number evaluation)\\&#xa;$F_\beta = (1+\beta^2)\frac{P\cdot R}{\beta^2\cdot P+R}$;\;($F_1$ is commonly refered as F score)" ID="ID_995722364" CREATED="1633857203239" MODIFIED="1633857480212"/>
+</node>
+</node>
+</node>
+<node TEXT="large data rationale" ID="ID_1839539507" CREATED="1633863354795" MODIFIED="1633863363748">
+<node TEXT="low bias algorithms" ID="ID_349415108" CREATED="1633863387268" MODIFIED="1633863396293"/>
+<node TEXT="provide enough info of problem&#xa;(a human can do accurate prediction)" ID="ID_1121388347" CREATED="1633863396748" MODIFIED="1633863630385"/>
 </node>
 </node>
 <node TEXT="Transformer&#xa;(seq2seq)" FOLDED="true" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
@@ -727,7 +781,7 @@
 </node>
 <node TEXT="Guided Attention&#xa;(interfere the attention mechanism)" ID="ID_1392930293" CREATED="1629031923632" MODIFIED="1629032083768"/>
 </node>
-<node TEXT="Search" POSITION="right" ID="ID_1397225163" CREATED="1629032264985" MODIFIED="1629032326581">
+<node TEXT="Search" FOLDED="true" POSITION="right" ID="ID_1397225163" CREATED="1629032264985" MODIFIED="1629032326581">
 <edge COLOR="#ff0000"/>
 <node TEXT="Greedy Search" ID="ID_1027117525" CREATED="1629032326952" MODIFIED="1629032330798">
 <node TEXT="select the optimum at each step" ID="ID_1785212704" CREATED="1629032335362" MODIFIED="1629032349292"/>
@@ -755,7 +809,7 @@
 </node>
 <node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
 <edge COLOR="#0000ff"/>
-<node TEXT="Supervised Learning" FOLDED="true" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
+<node TEXT="Supervised Learning" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
 <node TEXT="Classification(discrete value output)" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
 <node TEXT="two-class classification" ID="ID_151183089" CREATED="1632641873083" MODIFIED="1632641885575">
 <node TEXT="\latex Logistic Regression ($0\le h_\theta(x) \le 1$)&#xa;\\(although with regression in name, it&apos;s a classification prob)" ID="ID_917194050" CREATED="1632470791548" MODIFIED="1632472657916">
@@ -768,18 +822,79 @@
 <node TEXT="\latex \textbf{Gradient is the same as linear regression}\\&#xa;$\frac{\partial J}{\partial \theta} = (h_\theta(x)-y)x$" ID="ID_1397335695" CREATED="1632489489316" MODIFIED="1632489558986"/>
 </node>
 </node>
+<node TEXT="perceptron learning algo." ID="ID_509542276" CREATED="1633916481709" MODIFIED="1633916497853">
+<node TEXT="\latex activate func. $g(z)=\left\{ \begin{aligned} 1,\; \text{if } z\ge0\\0,\; \text{if } z&lt;0 \end{aligned} \right. $\\&#xa;set $h_\theta(x) = g(\theta^T x)$" ID="ID_354572837" CREATED="1633916506515" MODIFIED="1633916773787"/>
+<node TEXT="\latex update rule is the same as logistic regression" ID="ID_1061447576" CREATED="1633916791656" MODIFIED="1633916975587"/>
 </node>
-<node TEXT="multiclass classification" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1632641744889">
+</node>
+<node TEXT="multiclass classification&#xa;(multinomial dist.)" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1633925850283">
 <node TEXT="One-vs-all/One-vs-rest&#xa;turn problem into two classes" ID="ID_1800137766" CREATED="1632641746736" MODIFIED="1632641791951">
 <node TEXT="\latex train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability $P(y=i)$\\&#xa;on a new input $x$, pick the class $i$ with maximum probability" ID="ID_1693528069" CREATED="1632641929883" MODIFIED="1632642030031"/>
+</node>
+<node TEXT="\latex Softmax Regression\\&#xa;($[0,0,\cdots,1,\cdots,0]_{1\times k}$)\\&#xa;$\phi_i$ denote the probability of i" ID="ID_1087778756" CREATED="1633922328107" MODIFIED="1633925567665">
+<node TEXT="\latex GLM: $T(y)\in \mathbb R^{k-1}, T(y)_i=1\{y=i\}$\\&#xa;($1\{True\}=1,1\{False\}=0$)\\&#xa;$E[T(y)_i]=\phi_i $" ID="ID_834450426" CREATED="1633922465275" MODIFIED="1633925810331">
+<node TEXT="\latex $p(y;\phi) = \prod_i\phi_i^{1\{ y=i \}}=\prod_i\phi_i^{T(y)_i}\equiv b(y)\exp(\eta^TT(y)-a(\eta))$\\&#xa;$\rightarrow\limits^{\sum\phi_i=1}\eta=[\log(\phi_i/\phi_k)]_{k-1\times1}^T,\; a(\eta)=-\log(\phi_k),\; b(y)=1$\\&#xa;(for convenience, add $\eta_k=0$)" ID="ID_250212952" CREATED="1633925923025" MODIFIED="1633927346969">
+<arrowlink DESTINATION="ID_548394966"/>
+</node>
+<node TEXT="\latex $h_\theta(x) = E[T(y)|x;\theta]=E[[1\{y=i\}]^T|x;\theta]$\\&#xa;$=[\phi_i]^T=[\phi_ke^{\eta_i}]^T=[\frac{e^{\eta_i}}{\sum_{j=1}^ke^{\eta_j}}]^T&#xa;=[\frac{e^{\theta^T_ix}}{\sum_{j=1}^ke^{\theta^T_jx}}]^T$" ID="ID_40632309" CREATED="1633926786308" MODIFIED="1633927183540"/>
+<node TEXT="\latex likelihood:$l(\theta)=\sum_i\log p(y^{(i)}|x^{(i)};\theta)$\\&#xa;$=\sum_i\log\prod_l(\frac{e^{\theta^T_lx}}{\sum_{j=1}^ke^{\theta^T_jx}})^{1\{ y^{(i)}=l \}}$" ID="ID_548394966" CREATED="1633927208100" MODIFIED="1633927416947"/>
+</node>
+</node>
+</node>
+<node TEXT="Support Vector Machine" ID="ID_529025646" CREATED="1633865557002" MODIFIED="1634202069811">
+<node TEXT="new cost func" ID="ID_1726748509" CREATED="1634203295529" MODIFIED="1634211303944">
+<hook URI="pix/SVMcost.svg" SIZE="0.4897434" NAME="ExternalObject"/>
+<node TEXT="large margin (robustness)&#xa;(classify diff groups with largest margin)" ID="ID_780395564" CREATED="1634211991576" MODIFIED="1634212559009">
+<node TEXT="\latex in simple case (no mix), $J(\theta)=\frac12|\theta|^2$\\&#xa;s.t. $\left\{\begin{aligned}&#xa;&amp;||\theta||\cdot \text{proj}(x^{(i)},\theta) \ge 1,\; \text{if }y^{(i)}=1 \\&#xa;&amp;||\theta||\cdot \text{proj}(x^{(i)},\theta) \le -1,\; \text{if }y^{(i)}=0&#xa;\end{aligned}\right.$" ID="ID_406064231" CREATED="1634214026672" MODIFIED="1634214679138"/>
+</node>
+</node>
+<node TEXT="\latex $h_\theta(x)=\left\{ \begin{aligned}&#xa;&#xa;1,\; \text{if}\ \theta^Tx\ge 0 \\ 0,\; \text{otherwise}\end{aligned}\right.$   (same as logistic regression)\\&#xa;$J(\theta)=\text{min }\limits_{\theta} C\sum [y^{(i)}\text{cost}_1(\theta^Tx^{(i)}) +(1-y^{(i)})\text{cost}_0(\theta^Tx^{(i)})]&#xa;+\frac12\sum\theta^2_j$" ID="ID_1444344069" CREATED="1634207205850" MODIFIED="1634213799036"/>
+<node TEXT="adapted SVM" ID="ID_1788025511" CREATED="1634215734994" MODIFIED="1634215741853">
+<node TEXT="add new features to fit non-linear cases,&#xa;but not ordinary polynomial features to avoid explosion" ID="ID_1444067268" CREATED="1634216052868" MODIFIED="1634216084494"/>
+<node TEXT="\latex kernels(new features): proximity to landmarks $l^{(i)}$\\&#xa;$f_i(x)=\text{similarity}(x,l^{(i)})$&#xa;\\\textbf{f will replace the original x everywhere}" ID="ID_445597833" CREATED="1634216739397" MODIFIED="1634270142078">
+<node TEXT="\latex choose $l^{(i)}=x^{(i)}$\\&#xa;so the final $\boldsymbol f\in \mathbb R^{m+1}$\\&#xa;(bias/interceptor term $f_0=1$)" ID="ID_1928057347" CREATED="1634269742832" MODIFIED="1634270211713"/>
+<node TEXT="\latex Linear kernel(&quot;no kernel&quot;)&#xa;\\(huge number of features and small $m$)\\&#xa;(to avoid overfitting)" ID="ID_846826857" CREATED="1634275736738" MODIFIED="1634275949950"/>
+<node TEXT="\latex Gaussian kernels\\&#xa;$f_i(x)=\text{similarity}(x,l^{(i)})=\exp(-\frac{||x-l^{(i)}||^2}{2\sigma^2})$" ID="ID_450668002" CREATED="1634215742333" MODIFIED="1634217777780">
+<node TEXT="\latex para $\sigma^2$:&#xa;Large $\sigma^2$: Features $f_i$ vary more smoothly. \\\qquad\qquad Higher bias, lower variance" ID="ID_22936038" CREATED="1634272290605" MODIFIED="1634275332441"/>
+</node>
+<node TEXT="\latex kernels can be applied to other algo. in principle, but due to the lack of computational tricks, the efficiency would be low" ID="ID_1897661555" CREATED="1634271292780" MODIFIED="1634271349103"/>
+</node>
+<node TEXT="\latex $J(\theta)=\text{min }\limits_{\theta} C\sum [y^{(i)}\text{cost}_1(\theta^Tf^{(i)}) +(1-y^{(i)})\text{cost}_0(\theta^Tf^{(i)})]&#xa;+\frac12\sum\boldsymbol\theta^TM\boldsymbol \theta$&#xa;\\($M$ is related to kernel to help SVM apply to larger dataset)" ID="ID_1436224753" CREATED="1634271033394" MODIFIED="1634271221399"/>
 </node>
 </node>
 </node>
 <node TEXT="Regression(continuous value output)" ID="ID_1095262468" CREATED="1632476914184" MODIFIED="1632476926207">
+<node TEXT="Linear Regression" ID="ID_1619446405" CREATED="1633873597252" MODIFIED="1633873602506">
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
-<node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1633331317447">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="25.5 pt;-165.75 pt;" ENDINCLINATION="-109.5 pt;-157.5 pt;"/>
+<node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-9 pt;-175.49999 pt;" ENDINCLINATION="-105 pt;-153 pt;"/>
+</node>
+</node>
+<node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LWR(locally weighted linear regression)
+    </p>
+    <p>
+      (a non-parametric algorithm)
+    </p>
+    <p>
+      (make <b>the choice of features less critical</b>&nbsp;
+    </p>
+    <p>
+      with <b>sufficient training data</b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex minimize $\sum_iw^{(i)}(y^{(i)}-\theta^Tx^{(i)})^2$\\&#xa;instead of ordinary $\sum_i(y^{(i)}-\theta^Tx^{(i)})^2$" ID="ID_1549273376" CREATED="1633873722111" MODIFIED="1633873955230"/>
+<node TEXT="\latex $w^{(i)}=\exp(-\frac{(x^{(i)}-x)^2}{2\tau^2})$&#xa;($x$ here is the predict object) \\&#xa;$\tau$ is called the \textbf{bandwidth } parameter" ID="ID_136174385" CREATED="1633873894071" MODIFIED="1633874129790"/>
 </node>
 </node>
 </node>
