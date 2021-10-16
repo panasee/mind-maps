@@ -3,7 +3,7 @@
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="3.137">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -101,7 +101,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
+<node TEXT="Neural Network" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1617003445515">
 <edge COLOR="#00ff00"/>
 <node TEXT="Feed-forward Neural Network&#xa;(simplest)" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1633237907181">
 <node TEXT="neuron" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1633916308693">
@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-57 pt;0 pt;" ENDINCLINATION="-212.24999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-56.25 pt;0 pt;" ENDINCLINATION="-211.49999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-13.5 pt;-11.25 pt;" ENDINCLINATION="-82.5 pt;-44.25 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-12.75 pt;-10.5 pt;" ENDINCLINATION="-81.75 pt;-43.5 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -480,7 +480,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-48.75 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-48 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -826,8 +826,38 @@
 <node TEXT="\latex activate func. $g(z)=\left\{ \begin{aligned} 1,\; \text{if } z\ge0\\0,\; \text{if } z&lt;0 \end{aligned} \right. $\\&#xa;set $h_\theta(x) = g(\theta^T x)$" ID="ID_354572837" CREATED="1633916506515" MODIFIED="1633916773787"/>
 <node TEXT="\latex update rule is the same as logistic regression" ID="ID_1061447576" CREATED="1633916791656" MODIFIED="1633916975587"/>
 </node>
+<node TEXT="Support Vector Machine" FOLDED="true" ID="ID_529025646" CREATED="1633865557002" MODIFIED="1634302140978">
+<node TEXT="new cost func" ID="ID_1726748509" CREATED="1634203295529" MODIFIED="1634302140977" HGAP_QUANTITY="24.5 pt" VSHIFT_QUANTITY="25.5 pt">
+<hook URI="pix/SVMcost.svg" SIZE="0.4897434" NAME="ExternalObject"/>
+<node TEXT="large margin (robustness)&#xa;(classify diff groups with largest margin)" ID="ID_780395564" CREATED="1634211991576" MODIFIED="1634212559009">
+<node TEXT="\latex in simple case (no mix), $J(\theta)=\frac12|\theta|^2$\\&#xa;s.t. $\left\{\begin{aligned}&#xa;&amp;||\theta||\cdot \text{proj}(x^{(i)},\theta) \ge 1,\; \text{if }y^{(i)}=1 \\&#xa;&amp;||\theta||\cdot \text{proj}(x^{(i)},\theta) \le -1,\; \text{if }y^{(i)}=0&#xa;\end{aligned}\right.$" ID="ID_406064231" CREATED="1634214026672" MODIFIED="1634214679138"/>
 </node>
-<node TEXT="multiclass classification&#xa;(multinomial dist.)" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1633925850283">
+</node>
+<node TEXT="\latex $h_\theta(x)=\left\{ \begin{aligned}&#xa;&#xa;1,\; \text{if}\ \theta^Tx\ge 0 \\ 0,\; \text{otherwise}\end{aligned}\right.$   (same as logistic regression)\\&#xa;$J(\theta)=\text{min }\limits_{\theta} C\sum [y^{(i)}\text{cost}_1(\theta^Tx^{(i)}) +(1-y^{(i)})\text{cost}_0(\theta^Tx^{(i)})]&#xa;+\frac12\sum\theta^2_j$" ID="ID_1444344069" CREATED="1634207205850" MODIFIED="1634213799036"/>
+<node TEXT="adapted SVM" FOLDED="true" ID="ID_1788025511" CREATED="1634215734994" MODIFIED="1634215741853">
+<node TEXT="add new features to fit non-linear cases,&#xa;but not ordinary polynomial features to avoid explosion" ID="ID_1444067268" CREATED="1634216052868" MODIFIED="1634216084494"/>
+<node TEXT="\latex kernels(new features): proximity to landmarks $l^{(i)}$\\&#xa;$f_i(x)=\text{similarity}(x,l^{(i)})$&#xa;\\\textbf{f will replace the original x everywhere}" ID="ID_445597833" CREATED="1634216739397" MODIFIED="1634270142078">
+<node TEXT="\latex choose $l^{(i)}=x^{(i)}$\\&#xa;so the final $\boldsymbol f\in \mathbb R^{m+1}$\\&#xa;(bias/interceptor term $f_0=1$)" ID="ID_1928057347" CREATED="1634269742832" MODIFIED="1634270211713"/>
+<node TEXT="diff kernels" ID="ID_1980720711" CREATED="1634301213838" MODIFIED="1634301221830">
+<node TEXT="\latex Linear kernel(&quot;no kernel&quot;)&#xa;\\(huge number of features and small $m$)\\&#xa;(to avoid overfitting)" ID="ID_846826857" CREATED="1634275736738" MODIFIED="1634275949950"/>
+<node TEXT="\latex Gaussian kernels\\&#xa;$f_i(x)=\text{similarity}(x,l^{(i)})=\exp(-\frac{||x-l^{(i)}||^2}{2\sigma^2})$" ID="ID_450668002" CREATED="1634215742333" MODIFIED="1634217777780">
+<node TEXT="\latex para $\sigma^2$:&#xa;Large $\sigma^2$: Features $f_i$ vary more smoothly. \\\qquad\qquad Higher bias, lower variance" ID="ID_22936038" CREATED="1634272290605" MODIFIED="1634275332441"/>
+<node TEXT="perform feature(x) scaling before using the Gaussian kernel" ID="ID_1857949659" CREATED="1634301235602" MODIFIED="1634301266123"/>
+</node>
+<node TEXT="Polynomial kernel" ID="ID_146381985" CREATED="1634301457366" MODIFIED="1634301463296"/>
+<node TEXT="String kernel" ID="ID_516367643" CREATED="1634301587556" MODIFIED="1634301592718"/>
+<node TEXT="chi-square kernel" ID="ID_396387363" CREATED="1634301593444" MODIFIED="1634301599062"/>
+<node TEXT="histogram intersection kernel" ID="ID_1347600645" CREATED="1634301599285" MODIFIED="1634301607108"/>
+<node TEXT="\latex \cdots\cdots" ID="ID_1447457781" CREATED="1634301625099" MODIFIED="1634301643035"/>
+</node>
+<node TEXT="\latex kernels can be applied to other algo. in principle, but due to the lack of computational tricks, the efficiency would be low" ID="ID_1897661555" CREATED="1634271292780" MODIFIED="1634271349103"/>
+<node TEXT="\latex Mercer&apos;s Theorem (technical condition for similarity)" ID="ID_955484648" CREATED="1634301357374" MODIFIED="1634301388353"/>
+</node>
+<node TEXT="\latex $J(\theta)=\text{min }\limits_{\theta} C\sum [y^{(i)}\text{cost}_1(\theta^Tf^{(i)}) +(1-y^{(i)})\text{cost}_0(\theta^Tf^{(i)})]&#xa;+\frac12\sum\boldsymbol\theta^TM\boldsymbol \theta$&#xa;\\($M$ is related to kernel to help SVM apply to larger dataset)" ID="ID_1436224753" CREATED="1634271033394" MODIFIED="1634271221399"/>
+</node>
+</node>
+</node>
+<node TEXT="multiclass classification&#xa;(multinomial dist.)" FOLDED="true" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1633925850283">
 <node TEXT="One-vs-all/One-vs-rest&#xa;turn problem into two classes" ID="ID_1800137766" CREATED="1632641746736" MODIFIED="1632641791951">
 <node TEXT="\latex train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability $P(y=i)$\\&#xa;on a new input $x$, pick the class $i$ with maximum probability" ID="ID_1693528069" CREATED="1632641929883" MODIFIED="1632642030031"/>
 </node>
@@ -840,26 +870,12 @@
 <node TEXT="\latex likelihood:$l(\theta)=\sum_i\log p(y^{(i)}|x^{(i)};\theta)$\\&#xa;$=\sum_i\log\prod_l(\frac{e^{\theta^T_lx}}{\sum_{j=1}^ke^{\theta^T_jx}})^{1\{ y^{(i)}=l \}}$" ID="ID_548394966" CREATED="1633927208100" MODIFIED="1633927416947"/>
 </node>
 </node>
+<node TEXT="some built-in functions in off-the-shelf softwares" ID="ID_96834323" CREATED="1634302045247" MODIFIED="1634302081658"/>
 </node>
-<node TEXT="Support Vector Machine" ID="ID_529025646" CREATED="1633865557002" MODIFIED="1634202069811">
-<node TEXT="new cost func" ID="ID_1726748509" CREATED="1634203295529" MODIFIED="1634211303944">
-<hook URI="pix/SVMcost.svg" SIZE="0.4897434" NAME="ExternalObject"/>
-<node TEXT="large margin (robustness)&#xa;(classify diff groups with largest margin)" ID="ID_780395564" CREATED="1634211991576" MODIFIED="1634212559009">
-<node TEXT="\latex in simple case (no mix), $J(\theta)=\frac12|\theta|^2$\\&#xa;s.t. $\left\{\begin{aligned}&#xa;&amp;||\theta||\cdot \text{proj}(x^{(i)},\theta) \ge 1,\; \text{if }y^{(i)}=1 \\&#xa;&amp;||\theta||\cdot \text{proj}(x^{(i)},\theta) \le -1,\; \text{if }y^{(i)}=0&#xa;\end{aligned}\right.$" ID="ID_406064231" CREATED="1634214026672" MODIFIED="1634214679138"/>
-</node>
-</node>
-<node TEXT="\latex $h_\theta(x)=\left\{ \begin{aligned}&#xa;&#xa;1,\; \text{if}\ \theta^Tx\ge 0 \\ 0,\; \text{otherwise}\end{aligned}\right.$   (same as logistic regression)\\&#xa;$J(\theta)=\text{min }\limits_{\theta} C\sum [y^{(i)}\text{cost}_1(\theta^Tx^{(i)}) +(1-y^{(i)})\text{cost}_0(\theta^Tx^{(i)})]&#xa;+\frac12\sum\theta^2_j$" ID="ID_1444344069" CREATED="1634207205850" MODIFIED="1634213799036"/>
-<node TEXT="adapted SVM" ID="ID_1788025511" CREATED="1634215734994" MODIFIED="1634215741853">
-<node TEXT="add new features to fit non-linear cases,&#xa;but not ordinary polynomial features to avoid explosion" ID="ID_1444067268" CREATED="1634216052868" MODIFIED="1634216084494"/>
-<node TEXT="\latex kernels(new features): proximity to landmarks $l^{(i)}$\\&#xa;$f_i(x)=\text{similarity}(x,l^{(i)})$&#xa;\\\textbf{f will replace the original x everywhere}" ID="ID_445597833" CREATED="1634216739397" MODIFIED="1634270142078">
-<node TEXT="\latex choose $l^{(i)}=x^{(i)}$\\&#xa;so the final $\boldsymbol f\in \mathbb R^{m+1}$\\&#xa;(bias/interceptor term $f_0=1$)" ID="ID_1928057347" CREATED="1634269742832" MODIFIED="1634270211713"/>
-<node TEXT="\latex Linear kernel(&quot;no kernel&quot;)&#xa;\\(huge number of features and small $m$)\\&#xa;(to avoid overfitting)" ID="ID_846826857" CREATED="1634275736738" MODIFIED="1634275949950"/>
-<node TEXT="\latex Gaussian kernels\\&#xa;$f_i(x)=\text{similarity}(x,l^{(i)})=\exp(-\frac{||x-l^{(i)}||^2}{2\sigma^2})$" ID="ID_450668002" CREATED="1634215742333" MODIFIED="1634217777780">
-<node TEXT="\latex para $\sigma^2$:&#xa;Large $\sigma^2$: Features $f_i$ vary more smoothly. \\\qquad\qquad Higher bias, lower variance" ID="ID_22936038" CREATED="1634272290605" MODIFIED="1634275332441"/>
-</node>
-<node TEXT="\latex kernels can be applied to other algo. in principle, but due to the lack of computational tricks, the efficiency would be low" ID="ID_1897661555" CREATED="1634271292780" MODIFIED="1634271349103"/>
-</node>
-<node TEXT="\latex $J(\theta)=\text{min }\limits_{\theta} C\sum [y^{(i)}\text{cost}_1(\theta^Tf^{(i)}) +(1-y^{(i)})\text{cost}_0(\theta^Tf^{(i)})]&#xa;+\frac12\sum\boldsymbol\theta^TM\boldsymbol \theta$&#xa;\\($M$ is related to kernel to help SVM apply to larger dataset)" ID="ID_1436224753" CREATED="1634271033394" MODIFIED="1634271221399"/>
+<node TEXT="algo. choice" ID="ID_1948552263" CREATED="1634303066427" MODIFIED="1634303073597">
+<node TEXT="\latex Logistic regression vs. SVMs\\&#xa;if $n\gg m\rightarrow$ logistic reg./SVM with linear kernel\\&#xa;if $n \lesssim m \rightarrow$ SVM with Gaussian kernel\\&#xa;if $n\ll m\rightarrow$ more features \&amp; (logistic regression/SVM no kernel)" ID="ID_357075971" CREATED="1634303074435" MODIFIED="1634304047781">
+<node TEXT="the logistic regression is very similar to SVM without kernels,&#xa;they work in the same way to a large extent" ID="ID_364337200" CREATED="1634304731972" MODIFIED="1634304766271"/>
+<node TEXT="a well-designed Neural Network can tackle all these well,&#xa;but with much more computional cost and&#xa;possible local minimum problem" ID="ID_1055997299" CREATED="1634304809341" MODIFIED="1634305820594"/>
 </node>
 </node>
 </node>
@@ -868,7 +884,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-9 pt;-175.49999 pt;" ENDINCLINATION="-105 pt;-153 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-8.25 pt;-174.74999 pt;" ENDINCLINATION="-104.25 pt;-152.25 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
