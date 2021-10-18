@@ -3,7 +3,7 @@
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="3.137">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-56.25 pt;0 pt;" ENDINCLINATION="-211.49999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-55.5 pt;0 pt;" ENDINCLINATION="-210.74999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-12.75 pt;-10.5 pt;" ENDINCLINATION="-81.75 pt;-43.5 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-12 pt;-9.75 pt;" ENDINCLINATION="-81 pt;-42.75 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -480,7 +480,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-48 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-47.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -809,7 +809,7 @@
 </node>
 <node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
 <edge COLOR="#0000ff"/>
-<node TEXT="Supervised Learning" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
+<node TEXT="Supervised Learning" FOLDED="true" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
 <node TEXT="Classification(discrete value output)" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
 <node TEXT="two-class classification" ID="ID_151183089" CREATED="1632641873083" MODIFIED="1632641885575">
 <node TEXT="\latex Logistic Regression ($0\le h_\theta(x) \le 1$)&#xa;\\(although with regression in name, it&apos;s a classification prob)" ID="ID_917194050" CREATED="1632470791548" MODIFIED="1632472657916">
@@ -884,7 +884,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-8.25 pt;-174.74999 pt;" ENDINCLINATION="-104.25 pt;-152.25 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-7.5 pt;-173.99999 pt;" ENDINCLINATION="-103.5 pt;-151.5 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
@@ -914,6 +914,9 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="Unsupervised Learning" ID="ID_910989976" CREATED="1634524757918" MODIFIED="1634524769187">
+<node TEXT="clustering" ID="ID_5158758" CREATED="1634526183707" MODIFIED="1634526186437"/>
 </node>
 </node>
 </node>
