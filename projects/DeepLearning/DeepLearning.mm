@@ -3,7 +3,7 @@
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="3.137">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-54 pt;0 pt;" ENDINCLINATION="-209.24999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-52.5 pt;0 pt;" ENDINCLINATION="-207.74999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-10.5 pt;-8.25 pt;" ENDINCLINATION="-79.5 pt;-41.25 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-9 pt;-6.75 pt;" ENDINCLINATION="-78 pt;-39.75 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -480,7 +480,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-45.75 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-44.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -884,7 +884,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-6 pt;-172.49999 pt;" ENDINCLINATION="-102 pt;-150 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-4.5 pt;-170.99999 pt;" ENDINCLINATION="-100.5 pt;-148.5 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
@@ -933,6 +933,58 @@
 <hook URI="pix/kMeanElbowMethod.svg" SIZE="0.4590918" NAME="ExternalObject"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Dimensionality Reduction&#xa;(some datas are correlated, could be merged)" ID="ID_1979414328" CREATED="1634644439995" MODIFIED="1634647166009">
+<node TEXT="Motivation" ID="ID_1777501054" CREATED="1634649376212" MODIFIED="1634649380500">
+<node TEXT="\latex Compression\\(learning speedup(most common)/Reduce memory/disk)\\&#xa;$(x^{(i)},y^{(i)})\rightarrow (z^{(i)},y^{(i)}),(x^{(i)}\in \mathbb R^n,z^{(i)}\in \mathbb R^k)$\\&#xa;(the reduction mapping should be learned only via training set, and applied to other sets)" ID="ID_688993847" CREATED="1634648241641" MODIFIED="1634717559613"/>
+<node TEXT="help visualize data&#xa;(reduce to 2D/3D)" ID="ID_746964158" CREATED="1634648253419" MODIFIED="1634649171608"/>
+</node>
+<node TEXT="PCA(Principal Component Analysis)" ID="ID_276371372" CREATED="1634649389810" MODIFIED="1634651684982">
+<node TEXT="\latex preprocessing: feature scaling/mean normalization&#xa;\\$\mu_j=\frac1m\sum_ix_j^{(i)},\; x_j^{(i)}:= x_j^{(i)}-\mu_j$\\&#xa;(if ranges vary intensely, feature scaling is needed)\\&#xa;$x_j^{(i)}:= \frac{x_j^{(i)}-\mu_j}{s_j}$" ID="ID_517740330" CREATED="1634651580198" MODIFIED="1634708416679"/>
+<node ID="ID_509196762" CREATED="1634651686339" MODIFIED="1634710203832"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      \latex find a $k$-D <b>hyperface</b>&nbsp;to project the $n$-D data onto, so as to minimize the projection error\\
+    </p>
+    <p>
+      covariance matrix:$\Sigma_{(n\times n)}=\frac1m\sum_i(x^{(i)})(x^{(i)})^T$\\
+    </p>
+    <p>
+      vectorization:$\Sigma=\frac1mX^TX,\; X:=[\vec x^{(1)},\cdots,\vec x^{(m)}]^T$\\
+    </p>
+    <p>
+      eigenvectors $\vec u_i$ of $\Sigma$(always \textbf{symmetric positive definite})\\
+    </p>
+    <p>
+      take first $k$-th vectors to form the transform matrix\\
+    </p>
+    <p>
+      $\rightarrow z_{k\times1} =U_{reduce}^Tx_{n\times1}= [\vec u_i,\cdots,\vec u_k]^Tx_{n\times1}$
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex not the same as linear regression&#xa;\\(projection error \neq least square error)" ID="ID_1749835018" CREATED="1634707973406" MODIFIED="1634708020268"/>
+</node>
+<node TEXT="\latex Reconstruction&#xa;\\$\rightarrow x_{approx} =U_{reduce}z= [\vec u_i,\cdots,\vec u_k]z$" ID="ID_1785776442" CREATED="1634709949636" MODIFIED="1634710565447">
+<font NAME="Times New Roman"/>
+<node TEXT="not exactly the same, but approximate" ID="ID_1011035936" CREATED="1634710241322" MODIFIED="1634710250569"/>
+</node>
+<node TEXT="\latex choosing $k\sim$the \textbf{number of principal component}" ID="ID_1643436043" CREATED="1634710393285" MODIFIED="1634710470804">
+<node TEXT="\latex Average squared projection error:$\frac1m\sum\nolimits_i||x^{(i)}-x_{approx}^{(i)}||^2$\\&#xa;Total variation in the data:$\frac1m\sum_i||x^{(i)}||^2$\\&#xa;typically choose $k$ to be the \textbf{smallest } value so that:\\&#xa;$\frac{\frac1m\sum\nolimits_i||x^{(i)}-x_{approx}^{(i)}||^2}{\frac1m\sum_i||x^{(i)}||^2}\le 0.01/0.05,\;(\text{99\%/95\% variance is retained})$" ID="ID_1296533432" CREATED="1634710659475" MODIFIED="1634716396315"/>
+<node TEXT="\latex $\frac{\frac1m\sum\nolimits_i||x^{(i)}-x_{approx}^{(i)}||^2}&#xa;{\frac1m\sum_i||x^{(i)}||^2} = 1-\frac{\sum_{i=1}^k\lambda_i}{\sum_{i=1}^{n}\lambda_i}$\\&#xa;($\lambda_i$ is the $i$-th eigenvalue)" ID="ID_1088860111" CREATED="1634716784173" MODIFIED="1634716957589"/>
+</node>
+</node>
+<node TEXT="Advice" ID="ID_711200734" CREATED="1634717635432" MODIFIED="1634717908369">
+<node TEXT="not used to prevent overfitting&#xa;(not use labels, may lose valuable info)" ID="ID_903615975" CREATED="1634717641120" MODIFIED="1634717913815"/>
+<node TEXT="only use when needed&#xa;(there is indeed loss of info)" ID="ID_1581467964" CREATED="1634717887462" MODIFIED="1634717964506"/>
 </node>
 </node>
 </node>
