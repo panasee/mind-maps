@@ -3,7 +3,7 @@
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="3.137">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-51.75 pt;0 pt;" ENDINCLINATION="-206.99999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-51 pt;0 pt;" ENDINCLINATION="-206.24999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-8.25 pt;-6 pt;" ENDINCLINATION="-77.25 pt;-39 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-7.5 pt;-5.25 pt;" ENDINCLINATION="-76.5 pt;-38.25 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -480,7 +480,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-43.5 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-42.75 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -884,7 +884,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-3.75 pt;-170.24999 pt;" ENDINCLINATION="-99.75 pt;-147.75 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-3 pt;-169.49999 pt;" ENDINCLINATION="-99 pt;-147 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
@@ -935,7 +935,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Dimensionality Reduction&#xa;(some datas are correlated, could be merged)" ID="ID_1979414328" CREATED="1634644439995" MODIFIED="1634647166009">
+<node TEXT="Dimensionality Reduction&#xa;(some datas are correlated, could be merged)" FOLDED="true" ID="ID_1979414328" CREATED="1634644439995" MODIFIED="1634647166009">
 <node TEXT="Motivation" ID="ID_1777501054" CREATED="1634649376212" MODIFIED="1634649380500">
 <node TEXT="\latex Compression\\(learning speedup(most common)/Reduce memory/disk)\\&#xa;$(x^{(i)},y^{(i)})\rightarrow (z^{(i)},y^{(i)}),(x^{(i)}\in \mathbb R^n,z^{(i)}\in \mathbb R^k)$\\&#xa;(the reduction mapping should be learned only via training set, and applied to other sets)" ID="ID_688993847" CREATED="1634648241641" MODIFIED="1634717559613"/>
 <node TEXT="help visualize data&#xa;(reduce to 2D/3D)" ID="ID_746964158" CREATED="1634648253419" MODIFIED="1634649171608"/>
@@ -984,6 +984,14 @@
 <node TEXT="Advice" ID="ID_711200734" CREATED="1634717635432" MODIFIED="1634717908369">
 <node TEXT="not used to prevent overfitting&#xa;(not use labels, may lose valuable info)" ID="ID_903615975" CREATED="1634717641120" MODIFIED="1634717913815"/>
 <node TEXT="only use when needed&#xa;(there is indeed loss of info)" ID="ID_1581467964" CREATED="1634717887462" MODIFIED="1634717964506"/>
+</node>
+</node>
+<node TEXT="\latex anomaly detection" ID="ID_1602530169" CREATED="1634889698043" MODIFIED="1634892499629">
+<node TEXT="\latex Moti:(given \{$x^{(i)}$\}, detect whether $x_{test}$ anomalous)\\&#xa;calculate probability $p(x_{test})\left\{\begin{aligned}&#xa;&amp;&lt;\epsilon\rightarrow \text{flag anomaly}\\&amp;\ge\epsilon\rightarrow \text{OK}\end{aligned}\right.$" ID="ID_901249434" CREATED="1634892500843" MODIFIED="1634894047982">
+<node TEXT="applications: fraud detection..." ID="ID_1509881747" CREATED="1634894095139" MODIFIED="1634894107022"/>
+</node>
+<node TEXT="Density Estimation Algo." ID="ID_1436504776" CREATED="1634904594420" MODIFIED="1634904607073">
+<node TEXT="\latex assum. independent Gaussian Dist. for every feature\\&#xa;$p(x)=\prod_i p(x_i;\mu_i,\sigma_i^2),\; x_i\sim\mathcal N(\mu_i,\sigma_i^2)$\\&#xa;$\mu_i = \frac1m\sum_jx_i^{(j)},\; \sigma_i^2 = \frac1m\sum_j(x_i^{(j)}-\mu_i)^2$\\&#xa;$p(x)=\prod_i p(x_i;\mu_i,\sigma_i^2) = \prod_i \frac1{\sqrt{2\pi}\sigma_i}\exp(-\frac{(x_i-\mu_i)^2}{2\sigma^2_i})$" ID="ID_1679382696" CREATED="1634904607391" MODIFIED="1634909885220"/>
 </node>
 </node>
 </node>
