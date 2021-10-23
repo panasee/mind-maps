@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="3.137">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="2.357">
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-51 pt;0 pt;" ENDINCLINATION="-206.24999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-49.5 pt;0 pt;" ENDINCLINATION="-204.74999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-7.5 pt;-5.25 pt;" ENDINCLINATION="-76.5 pt;-38.25 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-6 pt;-3.75 pt;" ENDINCLINATION="-75 pt;-36.75 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -480,7 +480,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-42.75 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-41.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -720,7 +720,8 @@
 </node>
 </node>
 <node TEXT="a evaluation metric for classification problem&#xa;(helpful for make quick decision)" ID="ID_911310020" CREATED="1633852036814" MODIFIED="1633856774634">
-<node TEXT="skewed classes&#xa;(tricky example for classification)" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1633851822196">
+<node TEXT="skewed classes&#xa;(tricky example for classification)" FOLDED="true" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1634991310067">
+<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-440.24999 pt;"/>
 <node TEXT="one class is much more than the other&#xa;(say, class 1(0.5%) vs. class 0(99.5%))" ID="ID_1120652285" CREATED="1633851823246" MODIFIED="1633851876030">
 <node TEXT="a constant &quot;predictor&quot; (always gives 0)&#xa;could possibly give a low error" ID="ID_637261130" CREATED="1633851877235" MODIFIED="1633851917997"/>
 </node>
@@ -809,9 +810,9 @@
 </node>
 <node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
 <edge COLOR="#0000ff"/>
-<node TEXT="Supervised Learning" FOLDED="true" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
+<node TEXT="Supervised Learning" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
 <node TEXT="Classification(discrete value output)" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
-<node TEXT="two-class classification" ID="ID_151183089" CREATED="1632641873083" MODIFIED="1632641885575">
+<node TEXT="two-class classification" FOLDED="true" ID="ID_151183089" CREATED="1632641873083" MODIFIED="1632641885575">
 <node TEXT="\latex Logistic Regression ($0\le h_\theta(x) \le 1$)&#xa;\\(although with regression in name, it&apos;s a classification prob)" ID="ID_917194050" CREATED="1632470791548" MODIFIED="1632472657916">
 <node TEXT="\latex $h_\theta(x) = \text{sigmoid}(\theta^T x)$\\&#xa;estimated probability that y=1 on input x" ID="ID_924505669" CREATED="1632473851415" MODIFIED="1632474611426">
 <node TEXT="sigmoid function = logistic function" ID="ID_1641079308" CREATED="1632474521879" MODIFIED="1632474532652"/>
@@ -822,7 +823,7 @@
 <node TEXT="\latex \textbf{Gradient is the same as linear regression}\\&#xa;$\frac{\partial J}{\partial \theta} = (h_\theta(x)-y)x$" ID="ID_1397335695" CREATED="1632489489316" MODIFIED="1632489558986"/>
 </node>
 </node>
-<node TEXT="perceptron learning algo." ID="ID_509542276" CREATED="1633916481709" MODIFIED="1633916497853">
+<node TEXT="perceptron learning algo." FOLDED="true" ID="ID_509542276" CREATED="1633916481709" MODIFIED="1633916497853">
 <node TEXT="\latex activate func. $g(z)=\left\{ \begin{aligned} 1,\; \text{if } z\ge0\\0,\; \text{if } z&lt;0 \end{aligned} \right. $\\&#xa;set $h_\theta(x) = g(\theta^T x)$" ID="ID_354572837" CREATED="1633916506515" MODIFIED="1633916773787"/>
 <node TEXT="\latex update rule is the same as logistic regression" ID="ID_1061447576" CREATED="1633916791656" MODIFIED="1633916975587"/>
 </node>
@@ -857,11 +858,11 @@
 </node>
 </node>
 </node>
-<node TEXT="multiclass classification&#xa;(multinomial dist.)" FOLDED="true" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1633925850283">
+<node TEXT="multiclass classification&#xa;(multinomial dist.)" FOLDED="true" ID="ID_903536715" CREATED="1632641733825" MODIFIED="1634990715718">
 <node TEXT="One-vs-all/One-vs-rest&#xa;turn problem into two classes" ID="ID_1800137766" CREATED="1632641746736" MODIFIED="1632641791951">
 <node TEXT="\latex train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability $P(y=i)$\\&#xa;on a new input $x$, pick the class $i$ with maximum probability" ID="ID_1693528069" CREATED="1632641929883" MODIFIED="1632642030031"/>
 </node>
-<node TEXT="\latex Softmax Regression\\&#xa;($[0,0,\cdots,1,\cdots,0]_{1\times k}$)\\&#xa;$\phi_i$ denote the probability of i" ID="ID_1087778756" CREATED="1633922328107" MODIFIED="1633925567665">
+<node TEXT="\latex Softmax Regression\\&#xa;($[0,0,\cdots,1,\cdots,0]_{1\times k}$)\\&#xa;$\phi_i$ denote the probability of i" ID="ID_1087778756" CREATED="1633922328107" MODIFIED="1634990715717">
 <node TEXT="\latex GLM: $T(y)\in \mathbb R^{k-1}, T(y)_i=1\{y=i\}$\\&#xa;($1\{True\}=1,1\{False\}=0$)\\&#xa;$E[T(y)_i]=\phi_i $" ID="ID_834450426" CREATED="1633922465275" MODIFIED="1633925810331">
 <node TEXT="\latex $p(y;\phi) = \prod_i\phi_i^{1\{ y=i \}}=\prod_i\phi_i^{T(y)_i}\equiv b(y)\exp(\eta^TT(y)-a(\eta))$\\&#xa;$\rightarrow\limits^{\sum\phi_i=1}\eta=[\log(\phi_i/\phi_k)]_{k-1\times1}^T,\; a(\eta)=-\log(\phi_k),\; b(y)=1$\\&#xa;(for convenience, add $\eta_k=0$)" ID="ID_250212952" CREATED="1633925923025" MODIFIED="1633927346969">
 <arrowlink DESTINATION="ID_548394966"/>
@@ -879,12 +880,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Regression(continuous value output)" ID="ID_1095262468" CREATED="1632476914184" MODIFIED="1632476926207">
+<node TEXT="Regression(continuous value output)" FOLDED="true" ID="ID_1095262468" CREATED="1632476914184" MODIFIED="1632476926207">
 <node TEXT="Linear Regression" ID="ID_1619446405" CREATED="1633873597252" MODIFIED="1633873602506">
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-3 pt;-169.49999 pt;" ENDINCLINATION="-99 pt;-147 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-1.5 pt;-167.99999 pt;" ENDINCLINATION="-97.5 pt;-145.5 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
@@ -991,7 +992,45 @@
 <node TEXT="applications: fraud detection..." ID="ID_1509881747" CREATED="1634894095139" MODIFIED="1634894107022"/>
 </node>
 <node TEXT="Density Estimation Algo." ID="ID_1436504776" CREATED="1634904594420" MODIFIED="1634904607073">
-<node TEXT="\latex assum. independent Gaussian Dist. for every feature\\&#xa;$p(x)=\prod_i p(x_i;\mu_i,\sigma_i^2),\; x_i\sim\mathcal N(\mu_i,\sigma_i^2)$\\&#xa;$\mu_i = \frac1m\sum_jx_i^{(j)},\; \sigma_i^2 = \frac1m\sum_j(x_i^{(j)}-\mu_i)^2$\\&#xa;$p(x)=\prod_i p(x_i;\mu_i,\sigma_i^2) = \prod_i \frac1{\sqrt{2\pi}\sigma_i}\exp(-\frac{(x_i-\mu_i)^2}{2\sigma^2_i})$" ID="ID_1679382696" CREATED="1634904607391" MODIFIED="1634909885220"/>
+<node TEXT="\latex Gaussian Dist. for features\\&#xa;$p(x)=p(x;\mu,\Sigma),\; \vec x_{k\times1}\sim \mathcal N_k(\mu,\Sigma)$\\&#xa;$\mu = \frac1m\sum x^{(i)},\; \Sigma=\frac1m\sum(x^{(i)}-\mu) (x^{(i)}-\mu)^T$\\&#xa;$p(x;\mu,\Sigma)= \frac1{(2\pi)^{n/2}|\Sigma|^{1/2}} \exp(-\frac12 (x-\mu)^T\Sigma^{-1}(x-\mu))$" ID="ID_633239249" CREATED="1634992671519" MODIFIED="1634993231937">
+<node TEXT="\latex \textbf{if } independent Gaussian Dist. for every feature\\&#xa;$p(x)=\prod_i p(x_i;\mu_i,\sigma_i^2),\; x_i\sim\mathcal N(\mu_i,\sigma_i^2)$\\&#xa;$\mu_i = \frac1m\sum_jx_i^{(j)},\; \sigma_i^2 = \frac1m\sum_j(x_i^{(j)}-\mu_i)^2$\\&#xa;$p(x)=\prod_i p(x_i;\mu_i,\sigma_i^2) = \prod_i \frac1{\sqrt{2\pi}\sigma_i}\exp(-\frac{(x_i-\mu_i)^2}{2\sigma^2_i})$" ID="ID_1679382696" CREATED="1634904607391" MODIFIED="1634992909465">
+<node TEXT="\latex $y=\left\{\begin{aligned}&#xa;&amp;1,\; \text{if }p(x)&lt;\epsilon\text{ (anomaly)}\\&#xa;&amp;0,\; \text{if }p(x)\ge\epsilon\text{ (normal)}&#xa;\end{aligned}\right.$\\&#xa;\epsilon is chose upon cv" ID="ID_320189526" CREATED="1634988428989" MODIFIED="1634992927182"/>
+</node>
+<node ID="ID_1673256037" CREATED="1634993868632" MODIFIED="1634993960879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      multivariate gaussian vs. singlevariate gaussian
+    </p>
+    <p>
+      former: automatically captures correlations, expensive,
+    </p>
+    <p>
+      <b>m&gt;n is required(more examples than features)</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="evaluating: use labeled data to evaluate&#xa;(although it&apos;s a unsupervised)" FOLDED="true" ID="ID_1514016240" CREATED="1634984594231" MODIFIED="1634984665247">
+<node TEXT="it&apos;s like a skewed classification,&#xa;use F metric instead of cross entropy" ID="ID_1475993747" CREATED="1634990673614" MODIFIED="1634990973521"/>
+</node>
+<node TEXT="\latex Training set(unlabeled): $x^{(i)}$(mostly normal/not anomalous)\\&#xa;Cross validation set: $(x_{cv}^{(i)},y_{cv}^{(i)})$\\&#xa;Test set: $(x_{test}^{(i)},y_{test}^{(i)})$" ID="ID_1486000242" CREATED="1634984782521" MODIFIED="1634984970556"/>
+<node TEXT="feature choice" ID="ID_497374242" CREATED="1634992157907" MODIFIED="1634992163155">
+<node TEXT="\latex make features more gaussian\\&#xa;try $\log(x+C)$ or $x^\alpha$ or so on" ID="ID_1277787077" CREATED="1634992163660" MODIFIED="1634992358768"/>
+<node TEXT="errror analysis&#xa;(add features via analysing wrong cv outputs)" ID="ID_1711597506" CREATED="1634992407545" MODIFIED="1634992469239"/>
+</node>
+</node>
+<node TEXT="anomaly detection vs. supervised learning&#xa;(anomaly detection suits 0 pdf)" ID="ID_912879492" CREATED="1634991087297" MODIFIED="1634992017088">
+<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-146.25 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<node TEXT="\latex for anomaly detection:\\&#xa;1,\, anomalies vary extensively, future anomalies may look nothing like current examples\\&#xa;2,\, hard for any algo. to learn from positive examples what the anomalies look like" ID="ID_257345260" CREATED="1634991406063" MODIFIED="1634991812398"/>
+<node TEXT="\latex for supervised learning:\\&#xa;1,\, enough examples for algo. to learn the features of positive/negative cases\\&#xa;2,\, future cases likely to be similar to current ones" ID="ID_457716271" CREATED="1634991851870" MODIFIED="1634991937680"/>
 </node>
 </node>
 </node>
