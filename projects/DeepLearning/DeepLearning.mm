@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-49.5 pt;0 pt;" ENDINCLINATION="-204.74999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-46.5 pt;0 pt;" ENDINCLINATION="-201.74999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,15 +350,15 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-6 pt;-3.75 pt;" ENDINCLINATION="-75 pt;-36.75 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-3 pt;-0.75 pt;" ENDINCLINATION="-72 pt;-33.75 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
 <node TEXT="Graph Neural Network(GNN)" ID="ID_1634919084" CREATED="1628948768077" MODIFIED="1628948782687"/>
 </node>
-<node TEXT="\latex Loss Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1633874596971">
+<node TEXT="\latex Loss/Cost Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1635828498633">
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex Loss Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" FOLDED="true" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1633920627403">
+<node TEXT="\latex Loss/Cost Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" FOLDED="true" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1635828502653">
 <node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$\\&#xa;$\frac\partial{\partial W_j} J(\boldsymbol W)=\sum_i(f(x;\boldsymbol W)-y)x_j$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1633920674676">
 <node TEXT="\latex LMS(least mean squares)update rule: $\theta_j := \theta_j + \alpha\sum_i(y^{(i)}-h_\theta(x^{(i)}))x_j^{(i)}$,\;(Widrow-Hoff learning rule)\\&#xa;&#xa;\\(when examples&apos; no. exceed 1, called \textbf{batch gradient descent})\\&#xa;(&quot;batch&quot; comes from the summation wrt. example batch)" ID="ID_548859840" CREATED="1633865834111" MODIFIED="1633867746006">
 <node TEXT="\latex stochastic(incremental) gradient descent:&#xa;\\$\boldsymbol\theta := \boldsymbol\theta + \alpha(\boldsymbol y^{(i)}-\boldsymbol h_\theta(\boldsymbol x^{(i)}))\boldsymbol x^{(i)}$&#xa;\\(i.e. use loops to scan through the training set)" ID="ID_235124243" CREATED="1633868223810" MODIFIED="1633868604361"/>
@@ -375,7 +375,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Minimize Algorithm" FOLDED="true" ID="ID_323432670" CREATED="1617005567632" MODIFIED="1617005589607">
+<node TEXT="Minimize Algorithm" ID="ID_323432670" CREATED="1617005567632" MODIFIED="1617005589607">
 <node ID="ID_150452835" CREATED="1617005590439" MODIFIED="1632377463101"><richcontent TYPE="NODE">
 
 <html>
@@ -412,7 +412,7 @@
 </node>
 </node>
 </node>
-<node TEXT="\latex Stochastic Gradient Descent\\&#xa;(can&apos;t cal entire dataset every step)\\&#xa;$\frac{\partial J(\boldsymbol W)}{\partial \boldsymbol W}=\frac1B\sum_{k=1}^B\frac{\partial J_k(\boldsymbol W)}{\partial \boldsymbol W}$" ID="ID_876003464" CREATED="1617007472943" MODIFIED="1617007651218">
+<node TEXT="\latex Stochastic Gradient Descent\\&#xa;(can&apos;t cal entire dataset every step)\\&#xa;$\frac{\partial J(\boldsymbol W)}{\partial \boldsymbol W}=\frac1B\sum_{k=1}^B\frac{\partial J_k(\boldsymbol W)}{\partial \boldsymbol W}$\\&#xa;(in comparison, the default is \textbf{Batch Gradient Descent})" ID="ID_876003464" CREATED="1617007472943" MODIFIED="1635828783150">
 <node TEXT="use the average over batches" ID="ID_145129623" CREATED="1617007663054" MODIFIED="1617007681290"/>
 <node TEXT="mini-batching enables parallelization,&#xa;so GPU could get speed increases" ID="ID_1313056298" CREATED="1617007729503" MODIFIED="1617007850872"/>
 </node>
@@ -480,7 +480,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-41.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-38.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -543,7 +543,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Training" FOLDED="true" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
+<node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
 <node FOLDED="true" ID="ID_731277564" CREATED="1632643191080" MODIFIED="1632643430806"><richcontent TYPE="NODE">
 
@@ -720,8 +720,8 @@
 </node>
 </node>
 <node TEXT="a evaluation metric for classification problem&#xa;(helpful for make quick decision)" ID="ID_911310020" CREATED="1633852036814" MODIFIED="1633856774634">
-<node TEXT="skewed classes&#xa;(tricky example for classification)" FOLDED="true" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1634991310067">
-<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-440.24999 pt;"/>
+<node TEXT="skewed classes&#xa;(tricky example for classification)" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1634991310067">
+<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-437.24999 pt;"/>
 <node TEXT="one class is much more than the other&#xa;(say, class 1(0.5%) vs. class 0(99.5%))" ID="ID_1120652285" CREATED="1633851823246" MODIFIED="1633851876030">
 <node TEXT="a constant &quot;predictor&quot; (always gives 0)&#xa;could possibly give a low error" ID="ID_637261130" CREATED="1633851877235" MODIFIED="1633851917997"/>
 </node>
@@ -737,6 +737,9 @@
 <node TEXT="large data rationale" ID="ID_1839539507" CREATED="1633863354795" MODIFIED="1633863363748">
 <node TEXT="low bias algorithms" ID="ID_349415108" CREATED="1633863387268" MODIFIED="1633863396293"/>
 <node TEXT="provide enough info of problem&#xa;(a human can do accurate prediction)" ID="ID_1121388347" CREATED="1633863396748" MODIFIED="1633863630385"/>
+</node>
+<node TEXT="algo. for large dataset" ID="ID_582101723" CREATED="1635828540551" MODIFIED="1635828546681">
+<node TEXT="stochastic gradient descent" ID="ID_380591796" CREATED="1635828547836" MODIFIED="1635828605484" LINK="#ID_876003464"/>
 </node>
 </node>
 <node TEXT="Transformer&#xa;(seq2seq)" FOLDED="true" POSITION="left" ID="ID_78603702" CREATED="1629016091426" MODIFIED="1629029738101">
@@ -808,7 +811,7 @@
 </node>
 <node TEXT="需要创造性的情况下需要加入随机性(而不是单纯寻找最优解)&#xa;(e.g. 填充句子)" ID="ID_212922573" CREATED="1629032412419" MODIFIED="1629032500736"/>
 </node>
-<node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
+<node TEXT="Machine learning Categories" FOLDED="true" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
 <edge COLOR="#0000ff"/>
 <node TEXT="Supervised Learning" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
 <node TEXT="Classification(discrete value output)" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
@@ -880,12 +883,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Regression(continuous value output)" FOLDED="true" ID="ID_1095262468" CREATED="1632476914184" MODIFIED="1632476926207">
+<node TEXT="Regression(continuous value output)" ID="ID_1095262468" CREATED="1632476914184" MODIFIED="1632476926207">
 <node TEXT="Linear Regression" ID="ID_1619446405" CREATED="1633873597252" MODIFIED="1633873602506">
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="-1.5 pt;-167.99999 pt;" ENDINCLINATION="-97.5 pt;-145.5 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-165 pt;" ENDINCLINATION="-94.5 pt;-142.5 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
@@ -916,7 +919,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Unsupervised Learning" ID="ID_910989976" CREATED="1634524757918" MODIFIED="1634524769187">
+<node TEXT="Unsupervised Learning" FOLDED="true" ID="ID_910989976" CREATED="1634524757918" MODIFIED="1634524769187">
 <node TEXT="clustering" ID="ID_5158758" CREATED="1634526183707" MODIFIED="1634526186437">
 <node TEXT="K-Means Algo.&#xa;(iterative)" ID="ID_12053242" CREATED="1634532290282" MODIFIED="1634532448994">
 <node TEXT="\latex input: $K$ (number of clusters)\\&#xa;Training set $\{ x^{(1)},x^{(2)},\cdots,x^{(m)} \}$\\&#xa;($x^{(i)}\in\mathbb R^n$, drop $x_0=1$ convention)" ID="ID_1874518337" CREATED="1634532516830" MODIFIED="1634532623736"/>
@@ -1014,7 +1017,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1024,13 +1026,59 @@
 <node TEXT="\latex Training set(unlabeled): $x^{(i)}$(mostly normal/not anomalous)\\&#xa;Cross validation set: $(x_{cv}^{(i)},y_{cv}^{(i)})$\\&#xa;Test set: $(x_{test}^{(i)},y_{test}^{(i)})$" ID="ID_1486000242" CREATED="1634984782521" MODIFIED="1634984970556"/>
 <node TEXT="feature choice" ID="ID_497374242" CREATED="1634992157907" MODIFIED="1634992163155">
 <node TEXT="\latex make features more gaussian\\&#xa;try $\log(x+C)$ or $x^\alpha$ or so on" ID="ID_1277787077" CREATED="1634992163660" MODIFIED="1634992358768"/>
-<node TEXT="errror analysis&#xa;(add features via analysing wrong cv outputs)" ID="ID_1711597506" CREATED="1634992407545" MODIFIED="1634992469239"/>
+<node TEXT="error analysis&#xa;(add features via analysing wrong cv outputs)" ID="ID_1711597506" CREATED="1634992407545" MODIFIED="1635136282981"/>
 </node>
 </node>
 <node TEXT="anomaly detection vs. supervised learning&#xa;(anomaly detection suits 0 pdf)" ID="ID_912879492" CREATED="1634991087297" MODIFIED="1634992017088">
-<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-146.25 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-143.25 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex for anomaly detection:\\&#xa;1,\, anomalies vary extensively, future anomalies may look nothing like current examples\\&#xa;2,\, hard for any algo. to learn from positive examples what the anomalies look like" ID="ID_257345260" CREATED="1634991406063" MODIFIED="1634991812398"/>
 <node TEXT="\latex for supervised learning:\\&#xa;1,\, enough examples for algo. to learn the features of positive/negative cases\\&#xa;2,\, future cases likely to be similar to current ones" ID="ID_457716271" CREATED="1634991851870" MODIFIED="1634991937680"/>
+</node>
+</node>
+<node TEXT="automatically choose features" ID="ID_1165763024" CREATED="1635130521753" MODIFIED="1635130534323">
+<node TEXT="recommender system&#xa;(e.g. use movie rating to guess preference)" ID="ID_9318787" CREATED="1635130534900" MODIFIED="1635130722317">
+<node TEXT="content-based recommender systems&#xa;(contain the features describing types of movies, and training linear regression on each person with his previous rates)" ID="ID_910151422" CREATED="1635130724500" MODIFIED="1635131260234">
+<node TEXT="efficiently learn all users&apos; models at one time&#xa;(add all cost function up as a whole)" ID="ID_1705395637" CREATED="1635134303273" MODIFIED="1635134360430"/>
+</node>
+<node ID="ID_1089829099" CREATED="1635135356547" MODIFIED="1635135372532"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      collaborative filtering
+    </p>
+    <p>
+      (<b>feature learning</b>)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex get the model paras $\theta$ and rates from users directly\\&#xa;infer the feature vectors of movies inversely" ID="ID_716980068" CREATED="1635135531907" MODIFIED="1635135805944">
+<node TEXT="\latex optimization, given $\theta^{(1)},\cdots,\theta^{(n_u)}$, learn $x^{(i)}$:\\&#xa;$\min\limits_{x^{(1)},\cdots,x^{(n_m)}}\frac12\sum_{i=1}^{n_m}\sum_{j:r(i,j)=1} ((\theta^{(j)})^Tx^{(i)}-y^{(i,j)})^2+\frac\lambda2\sum_{i=1}^{n_m}\sum_{k=1}^n(x_k^{(i)})^2$" ID="ID_631195770" CREATED="1635135899616" MODIFIED="1635136197702">
+<node TEXT="\latex vetorization:$X = [x^{(1)},\cdots,x^{(n_m)}]^t=T,\Theta=[\theta^{(1)},\cdots,\theta^{(n_u)}]^T$\\&#xa;Y\sim X\Theta^T" ID="ID_1618284119" CREATED="1635409357156" MODIFIED="1635409677605"/>
+<node TEXT="\latex Mean normalization:" ID="ID_396936391" CREATED="1635422857994" MODIFIED="1635422889909">
+<node TEXT="" ID="ID_1137181494" CREATED="1635424065028" MODIFIED="1635424065033">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex if some users have no current examples, then the\\ corresponding \theta will be optimized to $\vec 0$" ID="ID_430964978" CREATED="1635422890466" MODIFIED="1635424057215"/>
+<node TEXT="\latex subtract the mean $\mu$ to all ratings\\&#xa;(make the average of all movie ratings to zero)" ID="ID_1802089915" CREATED="1635423802502" MODIFIED="1635424013509"/>
+<node TEXT="" ID="ID_85878513" CREATED="1635424065028" MODIFIED="1635424186858">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex turn the prediction of user-$\xi$ to \\&#xa;$\theta^{(\xi)}^Tx^{(i)}+\mu_i=\mu_i$\\&#xa;(reasonable to predict average value with no info)" ID="ID_385196284" CREATED="1635424065034" MODIFIED="1635424237631" HGAP_QUANTITY="23 pt" VSHIFT_QUANTITY="-3 pt"/>
+</node>
+<node TEXT="when encountering a unknown/new movie with no info,&#xa;similar action can be taken" ID="ID_1395655027" CREATED="1635424292412" MODIFIED="1635424326490"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex \checkmark:$x^{(i)}\rightarrow \theta^{(i)}$,\checkmark:$\theta^{(i)}\rightarrow x^{(i)}$\\&#xa;combine: initially guess $\theta^{(i)}\rightarrow x^{(i)}\rightarrow \theta^{(i)}\rightarrow\cdots$\\&#xa;(low efficiency should be expected, so improvement is needed)" ID="ID_1729554992" CREATED="1635136411372" MODIFIED="1635138047557" HGAP_QUANTITY="23 pt" VSHIFT_QUANTITY="-2.25 pt">
+<node TEXT="\latex optimization objective(combine together):\\&#xa;$J(x^{(1)},\cdots,x^{(n_m)},\theta^{(1)},\cdots,\theta^{(n_u)})=\\&#xa;\frac12\sum_{(i,j):r(i,j)=1} ((\theta^{(j)})^Tx^{(i)}-y^{(i,j)})^2+\frac\lambda2\sum_{i=1}^{n_m}\sum_{k=1}^n(x_k^{(i)})^2&#xa;+\frac\lambda2\sum_{i=1}^{n_u}\sum_{k=1}^n(\theta_k^{(i)})^2$\\&#xa;$x,\theta\in\mathbb R^n,\;(\text{no }x_0,\theta_0)$" ID="ID_1465753186" CREATED="1635138953179" MODIFIED="1635139574399"/>
+<node TEXT="\latex ALGO:\\&#xa;1. initialize $x^{(1)},\cdots,x^{(n_m)},\theta^{(1)},\cdots,\theta^{(n_u)}$ to small random\\\quad values(symmetry breaking)\\&#xa;2. minimize $J(x^{(1)},\cdots,x^{(n_m)},\theta^{(1)},\cdots,\theta^{(n_u)})$" ID="ID_230463935" CREATED="1635139595510" MODIFIED="1635139747007"/>
+</node>
+</node>
 </node>
 </node>
 </node>
