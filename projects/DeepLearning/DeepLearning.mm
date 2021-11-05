@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.357">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle" zoom="2.143">
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
@@ -294,7 +294,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-45.75 pt;0 pt;" ENDINCLINATION="-200.99999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-45 pt;0 pt;" ENDINCLINATION="-200.24999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -350,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-2.25 pt;0 pt;" ENDINCLINATION="-71.25 pt;-33 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="-1.5 pt;0 pt;" ENDINCLINATION="-70.5 pt;-32.25 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
@@ -433,7 +433,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex repeat forever:\\&#xa;get $(x^{(k)},y^{(k)})\rightarrow\theta_j:=\theta_j-\alpha\frac{\partial J_k}{\partial \theta_j}$\\&#xa;(like Stochastic Gradient Descent)" ID="ID_31492456" CREATED="1635947847179" MODIFIED="1635948680072">
 <node TEXT="discard the example after usage" ID="ID_1095521372" CREATED="1635948732232" MODIFIED="1635948745657"/>
@@ -512,7 +511,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-37.5 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-36.75 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -753,7 +752,7 @@
 </node>
 <node TEXT="a evaluation metric for classification problem&#xa;(helpful for make quick decision)" ID="ID_911310020" CREATED="1633852036814" MODIFIED="1633856774634">
 <node TEXT="skewed classes&#xa;(tricky example for classification)" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1634991310067">
-<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-436.49999 pt;"/>
+<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-435.74999 pt;"/>
 <node TEXT="one class is much more than the other&#xa;(say, class 1(0.5%) vs. class 0(99.5%))" ID="ID_1120652285" CREATED="1633851823246" MODIFIED="1633851876030">
 <node TEXT="a constant &quot;predictor&quot; (always gives 0)&#xa;could possibly give a low error" ID="ID_637261130" CREATED="1633851877235" MODIFIED="1633851917997"/>
 </node>
@@ -920,7 +919,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex non-linear: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1632822785831">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1634213757905">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-164.25 pt;" ENDINCLINATION="-93.75 pt;-141.75 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-163.5 pt;" ENDINCLINATION="-93 pt;-141 pt;"/>
 </node>
 </node>
 <node ID="ID_1849382558" CREATED="1633873617914" MODIFIED="1633874189295"><richcontent TYPE="NODE">
@@ -1062,7 +1061,7 @@
 </node>
 </node>
 <node TEXT="anomaly detection vs. supervised learning&#xa;(anomaly detection suits 0 pdf)" ID="ID_912879492" CREATED="1634991087297" MODIFIED="1634992017088">
-<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-142.5 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-141.75 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex for anomaly detection:\\&#xa;1,\, anomalies vary extensively, future anomalies may look nothing like current examples\\&#xa;2,\, hard for any algo. to learn from positive examples what the anomalies look like" ID="ID_257345260" CREATED="1634991406063" MODIFIED="1634991812398"/>
 <node TEXT="\latex for supervised learning:\\&#xa;1,\, enough examples for algo. to learn the features of positive/negative cases\\&#xa;2,\, future cases likely to be similar to current ones" ID="ID_457716271" CREATED="1634991851870" MODIFIED="1634991937680"/>
 </node>
@@ -1118,7 +1117,38 @@
 <node TEXT="Large Scale Machine Learning" POSITION="right" ID="ID_64174463" CREATED="1635950112447" MODIFIED="1635950128968">
 <edge COLOR="#7c0000"/>
 <node TEXT="Stochastic Gradient Descent" ID="ID_985179349" CREATED="1635950129648" MODIFIED="1635950153021" LINK="#ID_876003464"/>
-<node TEXT="Map Reduce&#xa;(distributed training on multiple machines)" ID="ID_866406243" CREATED="1635950157793" MODIFIED="1635950451348"/>
+<node TEXT="Map Reduce&#xa;(distributed training on multiple machines/cores)" ID="ID_866406243" CREATED="1635950157793" MODIFIED="1636020474634">
+<node TEXT="\latex Batch Gradient Descent: $\theta_j:=\theta_j-\alpha\frac1N\sum_{i=1}^N\frac{\partial J_i}{\partial \theta_j}$,(default case)\\&#xa;Machine $\xi$(corr. examples $\in C_\xi$): Use $(x^{(n_\xi)},y^{(n_\xi)})\in C_\xi$\\&#xa;define $temp^{(\xi)}_j = \sum_{i\in C_\xi}\frac{\partial J_i}{\partial \theta_j}$,$\rightarrow \theta_j:=\theta_j-\alpha\frac1N\sum_{\xi} temp_j^{(\xi)}$" ID="ID_736003274" CREATED="1635996279096" MODIFIED="1636017398378"/>
+<node TEXT="other algo. works the same, only if&#xa;it can be seperated into diff sums" ID="ID_1068036629" CREATED="1636020194160" MODIFIED="1636020380347"/>
+</node>
+</node>
+<node TEXT="complex projects" POSITION="right" ID="ID_150500575" CREATED="1636103702565" MODIFIED="1636121095491">
+<edge COLOR="#00007c"/>
+<node TEXT="machine learning pipeline" ID="ID_545292219" CREATED="1636121077563" MODIFIED="1636121105414"/>
+<node TEXT="artificial data synthesis" ID="ID_684240314" CREATED="1636121112616" MODIFIED="1636121120606">
+<node TEXT="generate tremendous amount of data artificially&#xa;to get enough data for training (low-bias model specificly)" ID="ID_37264468" CREATED="1636121127059" MODIFIED="1636121681838"/>
+<node TEXT="take photo OCR for example" ID="ID_1849167744" CREATED="1636121275116" MODIFIED="1636121282230">
+<node TEXT=" use diff fonts in computer combined&#xa;with diff backgrounds to make photos" ID="ID_1957117168" CREATED="1636121307502" MODIFIED="1636121399147"/>
+<node TEXT="distort current example photo into many examples" ID="ID_135368454" CREATED="1636121321957" MODIFIED="1636121339707"/>
+</node>
+<node TEXT="take speech recognition for example" ID="ID_683460196" CREATED="1636121438988" MODIFIED="1636121448662">
+<node TEXT="add noisy background into audio clips" ID="ID_740249902" CREATED="1636121449244" MODIFIED="1636121478074"/>
+</node>
+<node TEXT="usually doesn&apos;t help to add purely&#xa;reandom/meanless noise to data" ID="ID_477828707" CREATED="1636121524725" MODIFIED="1636121563495"/>
+<node TEXT="Crowd Source" ID="ID_315250313" CREATED="1636121122064" MODIFIED="1636121805669">
+<node TEXT="hire others to label data" ID="ID_1903550266" CREATED="1636121829592" MODIFIED="1636121842562"/>
+<node TEXT="E.g. Amazon Mechanical Turk" ID="ID_275959562" CREATED="1636121807332" MODIFIED="1636121816434"/>
+</node>
+</node>
+<node TEXT="Ceiling Analysis&#xa;(what part of the pipeline to work on next)" ID="ID_824311847" CREATED="1636121951181" MODIFIED="1636122006473">
+<node TEXT="help allocate resources during development" ID="ID_396495325" CREATED="1636121985457" MODIFIED="1636122026338"/>
+<node TEXT="an overall evaluation metric" ID="ID_1083409386" CREATED="1636122129083" MODIFIED="1636122136296">
+<node TEXT="e.g. overall accuracy" ID="ID_991654449" CREATED="1636122142032" MODIFIED="1636122150628"/>
+</node>
+<node TEXT="&quot;ceiling&quot;: manually label the correct ans for a specific part of pipeline(test the system when a certain part is perfect(&quot;ceiling&quot;))" ID="ID_785280928" CREATED="1636122187302" MODIFIED="1636122240792">
+<node TEXT="NOTE: giving the correct ans for a specific part also implicates that all parts before it works perfectly" ID="ID_1625575579" CREATED="1636123102081" MODIFIED="1636123141127"/>
+</node>
+</node>
 </node>
 </node>
 </map>
