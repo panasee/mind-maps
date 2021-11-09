@@ -3,15 +3,15 @@
 <node TEXT="ML for&#xa;material predicting" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1636279423860">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#002b36" zoom="2.852">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/dark_solarized_template.mm"/>
+<hook NAME="MapStyle" background="#002b36" zoom="2.593">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-32.25 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-31.5 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <font NAME="Times New Roman" SIZE="14" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -109,7 +109,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="most of these suffer from in/over-completeness" ID="ID_1773490612" CREATED="1636279590647" MODIFIED="1636280651776">
-<arrowlink DESTINATION="ID_1086648399" STARTINCLINATION="-74.25 pt;-72 pt;" ENDINCLINATION="60.75 pt;53.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_1086648399" STARTINCLINATION="-73.5 pt;-71.25 pt;" ENDINCLINATION="60.75 pt;53.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -121,6 +121,13 @@
 </node>
 </node>
 </node>
+<node TEXT="recursive feature elimination" ID="ID_735159455" CREATED="1636444961685" MODIFIED="1636444976944">
+<node TEXT="purposely remove a certain feature from the descriptor vector and see the changes of the final fitting error" ID="ID_1267111960" CREATED="1636444980690" MODIFIED="1636445029367"/>
+<node TEXT="could rank the importance of all features" ID="ID_262265602" CREATED="1636445042366" MODIFIED="1636445051556"/>
+</node>
+</node>
+<node TEXT="choice of algo." POSITION="left" ID="ID_283862098" CREATED="1636445095831" MODIFIED="1636445099817">
+<node TEXT="recommended to start with simple models like KRR as a benchmark" ID="ID_1007987039" CREATED="1636445100274" MODIFIED="1636445115505"/>
 </node>
 </node>
 </map>
