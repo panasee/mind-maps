@@ -4,14 +4,14 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#002b36" zoom="2.593">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_solarized_template.mm" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/dark_solarized_template.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-31.5 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-30.75 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <font NAME="Times New Roman" SIZE="14" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -109,7 +109,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="most of these suffer from in/over-completeness" ID="ID_1773490612" CREATED="1636279590647" MODIFIED="1636280651776">
-<arrowlink DESTINATION="ID_1086648399" STARTINCLINATION="-73.5 pt;-71.25 pt;" ENDINCLINATION="60.75 pt;53.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_1086648399" STARTINCLINATION="-72.75 pt;-70.5 pt;" ENDINCLINATION="60.75 pt;53.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -128,6 +128,21 @@
 </node>
 <node TEXT="choice of algo." POSITION="left" ID="ID_283862098" CREATED="1636445095831" MODIFIED="1636445099817">
 <node TEXT="recommended to start with simple models like KRR as a benchmark" ID="ID_1007987039" CREATED="1636445100274" MODIFIED="1636445115505"/>
+</node>
+<node TEXT="MLP(Material Learning Potential)" POSITION="right" ID="ID_1638306195" CREATED="1636544656413" MODIFIED="1636545192201">
+<hook URI="pix/MLP.png" SIZE="0.24781266" NAME="ExternalObject"/>
+<node TEXT="critical step: find appropriate descriptor vectors" ID="ID_34124973" CREATED="1636545847152" MODIFIED="1636545872060"/>
+<node TEXT="reference output variables(e.g. energy/force) in the database are computed using DFT" ID="ID_1659904311" CREATED="1636546107276" MODIFIED="1636546674892">
+<node TEXT="the goal of the database is to sample the PES in the space of atomic configurations" ID="ID_562320015" CREATED="1636546513308" MODIFIED="1636546574220"/>
+<node TEXT="ways to achieve the sampling(get database)" ID="ID_1647961962" CREATED="1636546615117" MODIFIED="1636546695681">
+<node TEXT="perform AIMD and record the trajectory of atoms and the potential energy at each snapshot" ID="ID_329722689" CREATED="1636546699953" MODIFIED="1636546746752"/>
+<node TEXT="impose perturbations to the crystal and compute the corresponding energy and forces" ID="ID_1227102140" CREATED="1636546764123" MODIFIED="1636546794698"/>
+</node>
+<node TEXT="usage of MLP" ID="ID_437623087" CREATED="1636546907945" MODIFIED="1636546933970">
+<node TEXT="run MD simulations" ID="ID_806474794" CREATED="1636546934323" MODIFIED="1636546942682"/>
+<node TEXT="use MLP to cal. force constants and solve BTE" ID="ID_1465897388" CREATED="1636547038885" MODIFIED="1636547053402"/>
+</node>
+</node>
 </node>
 </node>
 </map>
