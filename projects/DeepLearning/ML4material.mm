@@ -3,15 +3,15 @@
 <node TEXT="ML for&#xa;material predicting" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1636279423860">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#002b36" zoom="2.593">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/dark_solarized_template.mm"/>
+<hook NAME="MapStyle" background="#002b36" zoom="1.775">
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/dark_solarized_template.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1664261437" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#002b36" BACKGROUND_COLOR="#fdf6e3" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-30.75 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#fdf6e3" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1664261437" STARTINCLINATION="132.75 pt;-30 pt;" ENDINCLINATION="132.75 pt;24 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <font NAME="Times New Roman" SIZE="14" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
@@ -109,7 +109,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="most of these suffer from in/over-completeness" ID="ID_1773490612" CREATED="1636279590647" MODIFIED="1636280651776">
-<arrowlink DESTINATION="ID_1086648399" STARTINCLINATION="-72.75 pt;-70.5 pt;" ENDINCLINATION="60.75 pt;53.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_1086648399" STARTINCLINATION="-72 pt;-69.75 pt;" ENDINCLINATION="60.75 pt;53.25 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -143,6 +143,27 @@
 <node TEXT="use MLP to cal. force constants and solve BTE" ID="ID_1465897388" CREATED="1636547038885" MODIFIED="1636547053402"/>
 </node>
 </node>
+</node>
+<node TEXT="HTS(High Throughput Screening)" POSITION="left" ID="ID_1619735339" CREATED="1636620338519" MODIFIED="1636620543147">
+<hook URI="pix/HTS.jpg" SIZE="0.2315121" NAME="ExternalObject"/>
+<node TEXT="pre-screening:&#xa;formation enthalpy &lt; 0(thermal stability)&#xa;free of soft modes(dynamical stability)&#xa;nonzero bandgaps" ID="ID_1953053541" CREATED="1636620569976" MODIFIED="1636620696606"/>
+<node TEXT="seek to capture the general tread of thermal conductivity with the descriptors, not the accuracy of predictting thermal conductivity" ID="ID_1288896111" CREATED="1636620763783" MODIFIED="1636620813330"/>
+<node TEXT="main challenge: lacking data of phonon properties, especially anharmonic properties" ID="ID_1734955538" CREATED="1636620824806" MODIFIED="1636620871509"/>
+<node TEXT="selection of descriptors should be carried out carefully depending on different types of material properties" ID="ID_925829861" CREATED="1636621995995" MODIFIED="1636622054733">
+<node TEXT="based on physics understanding" ID="ID_1885533847" CREATED="1636622485500" MODIFIED="1636622495373"/>
+<node TEXT="data-driven manner: e.g. recursive feature elimination" ID="ID_1693600433" CREATED="1636622495813" MODIFIED="1636622522779"/>
+</node>
+<node TEXT="after prescreening, the dataset is usually limited, so NN might overfit, RF, GPR and KRR could do better" ID="ID_190516841" CREATED="1636622256500" MODIFIED="1636625095395">
+<node TEXT="GPR could compute uncertainty(variance)&#xa;giving extra info on the maximum probability of finding material with better target t.c." ID="ID_1956769739" CREATED="1636625193503" MODIFIED="1636625550210"/>
+</node>
+</node>
+<node TEXT="Transfer Learning" POSITION="right" ID="ID_1524656630" CREATED="1636625761530" MODIFIED="1636625768364">
+<node TEXT="relies on the fact that many material properties are physically correlated" ID="ID_97827159" CREATED="1636625769258" MODIFIED="1636625819654"/>
+<node TEXT="e.g. NN together with RF" ID="ID_857087374" CREATED="1636626272072" MODIFIED="1636626369918">
+<hook URI="pix/transferLearningNN_RF.png" SIZE="0.3894465" NAME="ExternalObject"/>
+<node TEXT="first train" ID="ID_1764169241" CREATED="1636626600162" MODIFIED="1636639789315"/>
+</node>
+<node TEXT="e.g. use low-quality dataset to train NN first, then add an extra hidden layer and train the NN with other layer fixed using high-quality dataset" ID="ID_1938320578" CREATED="1636639790663" MODIFIED="1636639833235"/>
 </node>
 </node>
 </map>
