@@ -1,5 +1,5 @@
 <map version="freeplane 1.9.8">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="2.143">
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex Categorization \\&#xa;DeepLearning\in \\&#xa;MachineLearning \in \\&#xa;ArtificialIntelligence" FOLDED="true" POSITION="right" ID="ID_1398839653" CREATED="1617000417083" MODIFIED="1617000563501">
 <edge COLOR="#ff0000"/>
 <node TEXT="AI: Any techs enabling computers&#xa;to mimic human behavior" ID="ID_493629896" CREATED="1617000566119" MODIFIED="1617000609482"/>
@@ -101,7 +101,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Network&#xa;(universal approximation theorem)" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1636443821439">
+<node TEXT="Neural Network&#xa;(universal approximation theorem)" FOLDED="true" POSITION="right" ID="ID_1177449855" CREATED="1617003438304" MODIFIED="1636443821439">
 <edge COLOR="#00ff00"/>
 <node TEXT="Feed-forward Neural Network&#xa;(simplest)" ID="ID_997218865" CREATED="1617112085466" MODIFIED="1633237907181">
 <node TEXT="neuron" ID="ID_1267904206" CREATED="1617001114499" MODIFIED="1633916308693">
@@ -295,7 +295,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-41.25 pt;0 pt;" ENDINCLINATION="-196.49999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-40.5 pt;0 pt;" ENDINCLINATION="-195.74999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -351,13 +351,13 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="0 pt;0 pt;" ENDINCLINATION="-66.75 pt;-28.5 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="0 pt;0 pt;" ENDINCLINATION="-66 pt;-27.75 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
 <node TEXT="Graph Neural Network(GNN)" ID="ID_1634919084" CREATED="1628948768077" MODIFIED="1628948782687"/>
 </node>
-<node TEXT="\latex Loss/Cost Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1635828498633">
+<node TEXT="\latex Loss/Cost Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" FOLDED="true" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1635828498633">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Loss/Cost Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1635828502653">
 <node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$\\&#xa;$\frac\partial{\partial W_j} J(\boldsymbol W)=\sum_i(f(x;\boldsymbol W)-y)x_j$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1633920674676">
@@ -475,7 +475,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -533,7 +532,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-33 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-32.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -596,7 +595,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Training" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
+<node TEXT="Training" FOLDED="true" POSITION="right" ID="ID_835736036" CREATED="1617115211532" MODIFIED="1617115216406">
 <edge COLOR="#7c007c"/>
 <node FOLDED="true" ID="ID_731277564" CREATED="1632643191080" MODIFIED="1632643430806"><richcontent TYPE="NODE">
 
@@ -775,7 +774,7 @@
 </node>
 <node TEXT="a evaluation metric for classification problem&#xa;(helpful for make quick decision)" ID="ID_911310020" CREATED="1633852036814" MODIFIED="1633856774634">
 <node TEXT="skewed classes&#xa;(tricky example for classification)" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1634991310067">
-<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-431.99999 pt;"/>
+<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-431.24999 pt;"/>
 <node TEXT="one class is much more than the other&#xa;(say, class 1(0.5%) vs. class 0(99.5%))" ID="ID_1120652285" CREATED="1633851823246" MODIFIED="1633851876030">
 <node TEXT="a constant &quot;predictor&quot; (always gives 0)&#xa;could possibly give a low error" ID="ID_637261130" CREATED="1633851877235" MODIFIED="1633851917997"/>
 </node>
@@ -865,7 +864,7 @@
 </node>
 <node TEXT="需要创造性的情况下需要加入随机性(而不是单纯寻找最优解)&#xa;(e.g. 填充句子)" ID="ID_212922573" CREATED="1629032412419" MODIFIED="1629032500736"/>
 </node>
-<node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
+<node TEXT="Machine learning Categories" FOLDED="true" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
 <edge COLOR="#0000ff"/>
 <node TEXT="Supervised Learning" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
 <node TEXT="Classification(discrete value output)" FOLDED="true" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
@@ -943,7 +942,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex generally: Kernel Ridge Regression method\\&#xa;(intro.  a set of basis func $\boldsymbol \phi=[\phi_i]^T(i=1\sim M)$, mapping the \\&#xa;data point to higher dimensional functional space)\\&#xa;($M$ is usually much larger even infinity)" ID="ID_580116878" CREATED="1636379611478" MODIFIED="1636380039576">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1636424839272">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-159.75 pt;" ENDINCLINATION="-89.25 pt;-137.25 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-159 pt;" ENDINCLINATION="-88.5 pt;-136.5 pt;"/>
 </node>
 <node TEXT="\latex e.g.: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1636379908640"/>
 <node TEXT="\latex the basis needs to be \textbf{orthogonal}, to simplify:\\&#xa;$\boldsymbol\theta := \sum\alpha_i\boldsymbol\phi(\boldsymbol x_i)$ (turn the targeted paras to \alpha)\\&#xa;\textbf{the basis doesn&apos;t need to be specified}" ID="ID_1562886519" CREATED="1636380247743" MODIFIED="1636380546853">
@@ -1035,7 +1034,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Artificial Neural Network(ANN)&#xa;(mimicking the biological network of neurons)" ID="ID_906029810" CREATED="1636441074713" MODIFIED="1636441150533">
 <node TEXT="CNN can circumvent the problems of the vanished gradient and suppress overfitting compared with fully connected feed-forward NN" ID="ID_914368281" CREATED="1636443862351" MODIFIED="1636443925619">
@@ -1057,7 +1055,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1186,7 +1183,7 @@
 </node>
 </node>
 <node TEXT="anomaly detection vs. supervised learning&#xa;(anomaly detection suits 0 pdf)" ID="ID_912879492" CREATED="1634991087297" MODIFIED="1634992017088">
-<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-138 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-137.25 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex for anomaly detection:\\&#xa;1,\, anomalies vary extensively, future anomalies may look nothing like current examples\\&#xa;2,\, hard for any algo. to learn from positive examples what the anomalies look like" ID="ID_257345260" CREATED="1634991406063" MODIFIED="1634991812398"/>
 <node TEXT="\latex for supervised learning:\\&#xa;1,\, enough examples for algo. to learn the features of positive/negative cases\\&#xa;2,\, future cases likely to be similar to current ones" ID="ID_457716271" CREATED="1634991851870" MODIFIED="1634991937680"/>
 </node>
@@ -1282,7 +1279,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Large Scale Machine Learning" POSITION="right" ID="ID_64174463" CREATED="1635950112447" MODIFIED="1635950128968">
+<node TEXT="Large Scale Machine Learning" FOLDED="true" POSITION="right" ID="ID_64174463" CREATED="1635950112447" MODIFIED="1635950128968">
 <edge COLOR="#7c0000"/>
 <node TEXT="Stochastic Gradient Descent" ID="ID_985179349" CREATED="1635950129648" MODIFIED="1635950153021" LINK="#ID_876003464"/>
 <node TEXT="Map Reduce&#xa;(distributed training on multiple machines/cores)" ID="ID_866406243" CREATED="1635950157793" MODIFIED="1636020474634">
@@ -1290,7 +1287,7 @@
 <node TEXT="other algo. works the same, only if&#xa;it can be seperated into diff sums" ID="ID_1068036629" CREATED="1636020194160" MODIFIED="1636020380347"/>
 </node>
 </node>
-<node TEXT="complex projects" POSITION="right" ID="ID_150500575" CREATED="1636103702565" MODIFIED="1636121095491">
+<node TEXT="complex projects" FOLDED="true" POSITION="right" ID="ID_150500575" CREATED="1636103702565" MODIFIED="1636121095491">
 <edge COLOR="#00007c"/>
 <node TEXT="machine learning pipeline" ID="ID_545292219" CREATED="1636121077563" MODIFIED="1636121105414"/>
 <node TEXT="artificial data synthesis" ID="ID_684240314" CREATED="1636121112616" MODIFIED="1636121120606">
@@ -1317,6 +1314,16 @@
 <node TEXT="NOTE: giving the correct ans for a specific part also implicates that all parts before it works perfectly" ID="ID_1625575579" CREATED="1636123102081" MODIFIED="1636123141127"/>
 </node>
 </node>
+</node>
+<node TEXT="hyperparameter opti" POSITION="right" ID="ID_1839109365" CREATED="1636808879034" MODIFIED="1636809016347">
+<edge COLOR="#7c007c"/>
+<node TEXT="Grid Search, search exhaustively according to grid" ID="ID_430756834" CREATED="1636809016791" MODIFIED="1636810911303"/>
+<node TEXT="Random Search, search exhaustively and randomly" ID="ID_459093333" CREATED="1636809023262" MODIFIED="1636810921128"/>
+<node TEXT="Bayesian Optimization" ID="ID_348928145" CREATED="1636810897376" MODIFIED="1636857335115" LINK="#ID_277319580"/>
+</node>
+<node TEXT="Bayesian Optimization" POSITION="left" ID="ID_277319580" CREATED="1636857297972" MODIFIED="1636857311890">
+<edge COLOR="#007c7c"/>
+<node TEXT="Find maxima&amp;minima of funcs, especially:&#xa;1. black-box func/ non-derivable func&#xa;2. computationally expensive func" ID="ID_1620165302" CREATED="1636857339219" MODIFIED="1636857526738"/>
 </node>
 </node>
 </map>
