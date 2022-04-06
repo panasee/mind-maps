@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Solid State Physics" FOLDED="false" ID="ID_859288919" CREATED="1558923064398" MODIFIED="1603869185469" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.968">
+<hook NAME="MapStyle" zoom="2.882">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_171315598" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_171315598" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -64,8 +66,8 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1603869185466" HGAP_QUANTITY="38.2499988600612 pt" VSHIFT_QUANTITY="-154.4999953955413 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-17;6;" ENDINCLINATION="105;0;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1603869185466" HGAP_QUANTITY="38.25 pt" VSHIFT_QUANTITY="-154.5 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="-12 pt;4.5 pt;" ENDINCLINATION="78.75 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 <node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
 <node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
@@ -106,7 +108,7 @@
 <node TEXT="sc(simple cubic)" ID="ID_893146541" CREATED="1591493291191" MODIFIED="1591493298711"/>
 <node TEXT="bcc(body centered cubic)" ID="ID_1813923059" CREATED="1591493299528" MODIFIED="1591493310262"/>
 <node TEXT="fcc(face centered cubic)" ID="ID_26347828" CREATED="1591493310808" MODIFIED="1592539284495">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="122;25;" ENDINCLINATION="111;-14;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="91.5 pt;18.75 pt;" ENDINCLINATION="83.25 pt;-9.75 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex &#xa;\begin{tabular}{lll}&#xa;\hline\\&#xa;Crystal\ System&amp;#&amp;Cell\ Parameters\\&#xa;\hline\\&#xa;Triclinic&amp;1&amp;$a\neq b\neq c;\alpha\neq \beta\neq \gamma$\\&#xa;Monoclinic&amp;2&amp;$a\neq b\neq c;\alpha=\gamma=90^\circ\neq\beta(or\ \gamma)$(2 subtypes)\\&#xa;Orthorhombic&amp;4&amp;$a\neq b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Tetragonal&amp;2&amp;$a= b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Trigonal&amp;1 &amp;a=b=c;\alpha=\beta=\gamma&lt;120^\circ,\neq90^\circ \\&#xa;Hexagonal &amp;1&amp;$a= b\neq c;\alpha=\beta=90^\circ,\gamma=120^\circ$\\&#xa;Cubic&amp;3&amp;$a= b= c;\alpha=\beta=\gamma=90^\circ$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1951376339" CREATED="1595076970543" MODIFIED="1595212357718">
@@ -133,7 +135,7 @@
 <node TEXT="球密铺(close-packed)" FOLDED="true" ID="ID_1956489241" CREATED="1562384718986" MODIFIED="1591509436836">
 <node TEXT="2-d(single layer)" ID="ID_116595330" CREATED="1562384732701" MODIFIED="1591509450871">
 <node TEXT="hexagonal lattice&#xa;(single closest-packed layer)" ID="ID_480508431" CREATED="1591509327399" MODIFIED="1591512215504">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1202509876" STARTINCLINATION="126;65;" ENDINCLINATION="85;17;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1202509876" STARTINCLINATION="94.5 pt;48.75 pt;" ENDINCLINATION="63.75 pt;12.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="basal plane of hcp or&#xa;(111) plane of fcc" ID="ID_1988027229" CREATED="1591511970524" MODIFIED="1591512043302"/>
 </node>
 </node>
@@ -167,7 +169,7 @@
 <node TEXT="" ID="ID_1569585075" CREATED="1591511688025" MODIFIED="1591511691130">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="same fraction of volume occupied- 0.74&#xa;same amount of nearest-neighbor atoms- 12" ID="ID_1508980475" CREATED="1591511688036" MODIFIED="1591512324603" HGAP_QUANTITY="24.499999687075622 pt" VSHIFT_QUANTITY="-2.2499999329447764 pt"/>
+<node TEXT="same fraction of volume occupied- 0.74&#xa;same amount of nearest-neighbor atoms- 12" ID="ID_1508980475" CREATED="1591511688036" MODIFIED="1591512324603" HGAP_QUANTITY="24.5 pt" VSHIFT_QUANTITY="-2.25 pt"/>
 </node>
 </node>
 </node>
@@ -258,8 +260,8 @@
 <node TEXT="" ID="ID_1532921599" CREATED="1595383132562" MODIFIED="1595383136927">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex 14 lattice types&#xa;\begin{tabular}{clcc}&#xa;\hline&#xa;No.&amp;Crystal System&amp;Lattice Centering&amp;Lattice Symbol\\&#xa;\hline&#xa;1&amp;Triclinic&amp;P&amp;aP\\&#xa;2&amp;Monoclinic&amp;P&amp;mP\\&#xa;3&amp;Monoclinic&amp;C&amp;mC\\&#xa;4&amp;Orthorhombic&amp;P&amp;oP\\&#xa;5&amp;Orthorhombic&amp;C&amp;oC\\&#xa;6&amp;Orthorhombic&amp;F&amp;oF\\&#xa;7&amp;Orthorhombic&amp;I&amp;oI\\&#xa;8&amp;Tetragonal&amp;P&amp;tP\\&#xa;9&amp;Tetragonal&amp;I&amp;tI\\&#xa;10&amp;Trigonal&amp;R&amp;hR\\&#xa;11&amp;Hexagonal\&amp;Trigonal&amp;P&amp;hP\\&#xa;12&amp;Cubic&amp;P&amp;cP\\&#xa;13&amp;Cubic&amp;F&amp;cF\\&#xa;14&amp;Cubic&amp;I&amp;cI\\&#xa;\end{tabular}" ID="ID_454638489" CREATED="1595383132570" MODIFIED="1595385353890" HGAP_QUANTITY="37.999999284744284 pt" VSHIFT_QUANTITY="-2.9999999105930355 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_478594298" MIDDLE_LABEL="6 Crystal Families &amp; 7 Crystal Systems &amp; 7 Lattice Systems&#xa;(Hexagonal family contains trigonal &amp; hexagonal systems)&#xa;(Hexagonal family contains rhombohedral &amp; hexagonal lattice systems)" STARTINCLINATION="560;-380;" ENDINCLINATION="43;609;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<node TEXT="\latex 14 lattice types&#xa;\begin{tabular}{clcc}&#xa;\hline&#xa;No.&amp;Crystal System&amp;Lattice Centering&amp;Lattice Symbol\\&#xa;\hline&#xa;1&amp;Triclinic&amp;P&amp;aP\\&#xa;2&amp;Monoclinic&amp;P&amp;mP\\&#xa;3&amp;Monoclinic&amp;C&amp;mC\\&#xa;4&amp;Orthorhombic&amp;P&amp;oP\\&#xa;5&amp;Orthorhombic&amp;C&amp;oC\\&#xa;6&amp;Orthorhombic&amp;F&amp;oF\\&#xa;7&amp;Orthorhombic&amp;I&amp;oI\\&#xa;8&amp;Tetragonal&amp;P&amp;tP\\&#xa;9&amp;Tetragonal&amp;I&amp;tI\\&#xa;10&amp;Trigonal&amp;R&amp;hR\\&#xa;11&amp;Hexagonal\&amp;Trigonal&amp;P&amp;hP\\&#xa;12&amp;Cubic&amp;P&amp;cP\\&#xa;13&amp;Cubic&amp;F&amp;cF\\&#xa;14&amp;Cubic&amp;I&amp;cI\\&#xa;\end{tabular}" ID="ID_454638489" CREATED="1595383132570" MODIFIED="1595385353890" HGAP_QUANTITY="38 pt" VSHIFT_QUANTITY="-3 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_478594298" MIDDLE_LABEL="6 Crystal Families &amp; 7 Crystal Systems &amp; 7 Lattice Systems&#xa;(Hexagonal family contains trigonal &amp; hexagonal systems)&#xa;(Hexagonal family contains rhombohedral &amp; hexagonal lattice systems)" STARTINCLINATION="419.99999 pt;-284.24999 pt;" ENDINCLINATION="32.25 pt;456.74999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -279,7 +281,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="\latex &#xa;\begin{tabular}{llcc} &#xa;\hline\\&#xa;~&amp;~&amp;Schoenflies&amp;H-M\\&#xa;\hline\\&#xa;proper\ rotations&amp;rotation&amp;$C_n$&amp;$n$\\&#xa;~&amp;~&amp;$C_n^{-1}$&amp;$n_{n-1}$\\&#xa;improper\ rotations&amp;rotoinversion&amp;$iC_n$&amp;$\bar n$\\&#xa;~&amp;mirror\ plane&amp;$\sigma$&amp;$m$\\&#xa;~&amp;horizontal\ reflection\ p&amp;$\sigma_h$&amp;$n/m$\\&#xa;~&amp;vertical\ reflection\ p&amp;$\sigma_v$&amp;$nm$\\&#xa;~&amp;2\ non-equivalent $\sigma_v$&amp;$\sigma_{v^\prime}$&amp;$nmm$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1712647859" CREATED="1595402264999" MODIFIED="1595402883838" HGAP_QUANTITY="25.249999664723884 pt"/>
+<node TEXT="\latex &#xa;\begin{tabular}{llcc} &#xa;\hline\\&#xa;~&amp;~&amp;Schoenflies&amp;H-M\\&#xa;\hline\\&#xa;proper\ rotations&amp;rotation&amp;$C_n$&amp;$n$\\&#xa;~&amp;~&amp;$C_n^{-1}$&amp;$n_{n-1}$\\&#xa;improper\ rotations&amp;rotoinversion&amp;$iC_n$&amp;$\bar n$\\&#xa;~&amp;mirror\ plane&amp;$\sigma$&amp;$m$\\&#xa;~&amp;horizontal\ reflection\ p&amp;$\sigma_h$&amp;$n/m$\\&#xa;~&amp;vertical\ reflection\ p&amp;$\sigma_v$&amp;$nm$\\&#xa;~&amp;2\ non-equivalent $\sigma_v$&amp;$\sigma_{v^\prime}$&amp;$nmm$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1712647859" CREATED="1595402264999" MODIFIED="1595402883838" HGAP_QUANTITY="25.25 pt"/>
 <node TEXT="\latex mirror planes are denoted by m" ID="ID_1735103177" CREATED="1594967462035" MODIFIED="1594967481830">
 <node TEXT="\latex if rotation axis n is perpendicular to mirror plane m, \\then they are denoted as $\frac nm$" ID="ID_596676050" CREATED="1594967486058" MODIFIED="1594967542451"/>
 </node>
@@ -355,11 +357,11 @@
 <node TEXT="基态: 结构,结合能,磁有序结构" ID="ID_1787881121" CREATED="1563179807760" MODIFIED="1563179833391"/>
 <node TEXT="激发态: 具体物理行为,如热学性质,弹性,导电行为" ID="ID_1957503304" CREATED="1563179834042" MODIFIED="1593957551765">
 <node TEXT="能量靠近基态的低激发态,可看成是独立的&#xa;基本激发单元的集合,由此引入元激发" ID="ID_170386216" CREATED="1563179894961" MODIFIED="1563180185913">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-179;-57;" ENDINCLINATION="542;-115;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-133.5 pt;-42 pt;" ENDINCLINATION="406.49999 pt;-85.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
-<node TEXT="元激发(准粒子): 使复杂的多体问题简化为接近理想气体的准粒子系统,从而将粒子物理的场论方法应用到固体物理的多体系统" POSITION="right" ID="ID_1745555232" CREATED="1563180008367" MODIFIED="1563180180656">
+<node TEXT="元激发(准粒子): 使复杂的多体问题简化为接近理想气体的准粒子系统,从而将粒子物理的场论方法应用到固体物理的多体系统" FOLDED="true" POSITION="right" ID="ID_1745555232" CREATED="1563180008367" MODIFIED="1563180180656">
 <edge COLOR="#7c7c00"/>
 <node TEXT="" ID="ID_1182406176" CREATED="1593614916492" MODIFIED="1593614916494">
 <hook NAME="FirstGroupNode"/>
@@ -402,7 +404,7 @@
 <node TEXT="energy needed for separation" ID="ID_1299329451" CREATED="1592649473136" MODIFIED="1592649487862"/>
 </node>
 <node TEXT="ionization potential of free atom" ID="ID_302294401" CREATED="1592649393447" MODIFIED="1592650037352">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1299329451" MIDDLE_LABEL="可通过二者对比判断成键种类&#xa;(结合能是否能对原子&#xa;电子云产生足够大的干扰)" STARTINCLINATION="389;0;" ENDINCLINATION="287;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1299329451" MIDDLE_LABEL="可通过二者对比判断成键种类&#xa;(结合能是否能对原子&#xa;电子云产生足够大的干扰)" STARTINCLINATION="291.74999 pt;0 pt;" ENDINCLINATION="215.24999 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="" ID="ID_1985150712" CREATED="1593157300205" MODIFIED="1593157300207">
@@ -430,7 +432,7 @@
 </node>
 </node>
 <node TEXT="covalent bond" ID="ID_1042255687" CREATED="1593418493107" MODIFIED="1593421978146">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-96;4;" ENDINCLINATION="-208;5;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-71.25 pt;3 pt;" ENDINCLINATION="-155.25 pt;3.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="formed from 2 electrons with antiparallel spin" ID="ID_998045080" CREATED="1593420254065" MODIFIED="1593420272570">
 <node TEXT="exchange interaction:&#xa;spin-dependent coulomb energy" ID="ID_386690767" CREATED="1593420303137" MODIFIED="1593420340342"/>
 <node TEXT="directional: loosely-packed structure (diamond, et.c.)" ID="ID_316039582" CREATED="1593586027314" MODIFIED="1593586107526"/>
@@ -446,7 +448,7 @@
 </node>
 </node>
 <node TEXT="wave motion in a crystal" FOLDED="true" POSITION="left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1594009381784">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-8;12;" ENDINCLINATION="3;-17;" STARTARROW="NONE" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-5.25 pt;9 pt;" ENDINCLINATION="2.25 pt;-12 pt;" STARTARROW="NONE" ENDARROW="NONE"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
 <node TEXT="" ID="ID_1021518422" CREATED="1593937443926" MODIFIED="1593937443928">
@@ -526,9 +528,10 @@
 <node TEXT="正则坐标和动量可直接过渡到量子力学,从而&#xa;简谐振动的能量子即为声子" ID="ID_159280873" CREATED="1563179556429" MODIFIED="1563179613287"/>
 </node>
 </node>
+<node TEXT="\latex 注意本征矢$\boldsymbol e_{k\sigma}$的维度是$3\times N_{cell}$\\&#xa;(包含了原胞内所有原子的极化矢)" ID="ID_666213338" CREATED="1649244903386" MODIFIED="1649245041942"/>
 </node>
-<node TEXT="\latex 简谐近似&#xa;$(\phi_\alpha(lk)\equiv\frac{\partial \phi}{\partial u^\alpha_{lk}})$\\&#xa;$\Phi =\Phi_0+\sum\limits_{\alpha,lk}\Phi_\alpha(lk)u^\alpha_{lk}+\sum_{\alpha,\beta}\sum_{lk,l^\prime k^\prime}\Phi_{\alpha,\beta}(lk,l^\prime k^\prime)u_{lk}^\alpha u_{l^\prime k^\prime}^\beta+o(u^2)$" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1616717797540">
-<node TEXT="\latex 力常数: $\phi_{\alpha,\beta}(lk,l^\prime k^\prime)$\\&#xa;$\phi_{\alpha,\beta}(lk,l^\prime k^\prime)=\frac{\partial}{\partial u_{l^\prime k^\prime}^\beta}\frac{\partial \phi}{\partial u_{lk}^\alpha}$可以理解为$l$原子$\alpha$方向上的受力对于\\&#xa;$l^\prime$原子$\beta$方向位移的导数" ID="ID_262072807" CREATED="1564393698070" MODIFIED="1616717650514"/>
+<node TEXT="\latex 简谐近似&#xa;$(\phi_\alpha(lk)\equiv\frac{\partial \phi}{\partial u^\alpha_{lk}})$\\&#xa;$\Phi =\Phi_0+\sum\limits_{\alpha,lk}\Phi_\alpha(lk)u^\alpha_{lk}+\sum_{\alpha,\beta}\sum_{lk,l^\prime k^\prime}\Phi_{\alpha,\beta}(lk,l^\prime k^\prime)u_{lk}^\alpha u_{l^\prime k^\prime}^\beta+o(u^2)$" ID="ID_838114835" CREATED="1563175148966" MODIFIED="1649157754980">
+<node TEXT="\latex 力常数: $\phi_{\alpha,\beta}(lk,l^\prime k^\prime)$\\&#xa;$\phi_{\alpha,\beta}(lk,l^\prime k^\prime)=\frac{\partial}{\partial u_{l^\prime k^\prime}^\beta}\frac{\partial \phi}{\partial u_{lk}^\alpha}$可以理解为$l$原子$\alpha$方向上的受力对于\\&#xa;$l^\prime$原子$\beta$方向位移的导数" ID="ID_262072807" CREATED="1564393698070" MODIFIED="1649157754979" HGAP_QUANTITY="51.5 pt" VSHIFT_QUANTITY="3 pt"/>
 <node TEXT="\latex  Hamiltonian:$\mathcal H = \sum_{\alpha,lk}\frac{p^2_\alpha(lk)}{2M_{k}}+\sum_{\alpha,\beta}\sum_{lk,l^\prime k^\prime}\Phi_{\alpha,\beta}(lk,l^\prime k^\prime)u_{lk}^\alpha u_{l^\prime k^\prime}^\beta$ \\&#xa;and Hamiltonian Canonical Equation \\&#xa;$\dot u = -\frac{\partial \mathcal H}{\partial p},\  \dot p = -\frac{\partial \mathcal H}{\partial u}$" ID="ID_1962681194" CREATED="1616717656606" MODIFIED="1616718094219">
 <node TEXT="\latex $M_k\ddot u_\alpha(lk) = \sum_{\beta,l^\prime k^\prime}\Phi_{\alpha,\beta}(lk,l^\prime k^\prime) u_{l^\prime k^\prime}^\beta$" ID="ID_1978307574" CREATED="1616717925963" MODIFIED="1616718167371"/>
 </node>
@@ -614,7 +617,7 @@
 <node TEXT="" ID="ID_330703151" CREATED="1603349779113" MODIFIED="1603349785373">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex these two kinds modes often bind with each other\\&#xa;$\Delta \nu_p = \nu_0 \pm 2B(l+1)$" FOLDED="true" ID="ID_863247386" CREATED="1603349779130" MODIFIED="1603349961643" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-0.7499999776482589 pt">
+<node TEXT="\latex these two kinds modes often bind with each other\\&#xa;$\Delta \nu_p = \nu_0 \pm 2B(l+1)$" FOLDED="true" ID="ID_863247386" CREATED="1603349779130" MODIFIED="1603349961643" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="-0.75 pt">
 <node TEXT="molecular rotations can bring fine structures, causing spectral lines surrounding fundamental vibrational freqs" ID="ID_1360431521" CREATED="1603350202421" MODIFIED="1603350679260">
 <node TEXT="these lines often overlap due to various broadening and interaction mechanisms(e.g. thermal vibrations)&#xa;SO, the absorption is usually over certain bandwidths (&quot;bands&quot;), rather than only sharp discrete lines" ID="ID_932369996" CREATED="1603351036595" MODIFIED="1603351150778"/>
 </node>
@@ -737,7 +740,7 @@
 </node>
 <node TEXT="standing waves correspond to the edge of BZs(0 group velocity)&#xa;travelling waves correspond to the interior of BZs" ID="ID_940279274" CREATED="1593853902285" MODIFIED="1593910920844"/>
 </node>
-<node TEXT="lattice dynamics" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1600868921917">
+<node TEXT="lattice dynamics" FOLDED="true" POSITION="right" ID="ID_387472328" CREATED="1594606404006" MODIFIED="1600868921917">
 <edge COLOR="#007c00"/>
 <node TEXT="consequence of purely harmonic theory" FOLDED="true" ID="ID_830338349" CREATED="1594606425418" MODIFIED="1594606438077">
 <node TEXT="lattice waves don&apos;t interact &amp; don&apos;t decay or change form with time" ID="ID_1250829539" CREATED="1594606438542" MODIFIED="1594606477951"/>
@@ -754,7 +757,7 @@
 <node TEXT="first term is Coulomb interaction among the&#xa;ions, which can be readily obtained" ID="ID_383291146" CREATED="1600948604134" MODIFIED="1600948643407"/>
 <node TEXT="second term represents the electronic contribution, incorporating all important physical properties, requiring a sophisticated and accurate treatment of the electronic system" ID="ID_776426543" CREATED="1600948644816" MODIFIED="1600948733326"/>
 </node>
-<node TEXT="Force Constants" ID="ID_1569146299" CREATED="1600865330814" MODIFIED="1600868895753">
+<node TEXT="Force Constants" FOLDED="true" ID="ID_1569146299" CREATED="1600865330814" MODIFIED="1600868895753">
 <node TEXT="\latex Taylor Expansion of Potential\\&#xa;$\Phi =\Phi_0+\sum\limits_{\alpha,lk}\Phi_\alpha(lk)u^\alpha_{lk}+\frac12\sum_{\alpha,\beta}\sum_{lk,l^\prime k^\prime}\Phi_{\alpha,\beta}(lk,l^\prime k^\prime)u_{lk}^\alpha u_{l^\prime k^\prime}^\beta+o(u^2)$" ID="ID_206712675" CREATED="1600865396117" MODIFIED="1619408124767">
 <node TEXT="\latex $\Phi_{\alpha}(lk)$ is the derivative of $\Omega$ \textbf{in the reference configuration(at designated zero point)}, so the first-order $\Phi$ is zero when the equilibrium configuration is chosen" ID="ID_298923298" CREATED="1600865761931" MODIFIED="1616717510360"/>
 </node>
@@ -780,7 +783,7 @@
 <edge COLOR="#7c007c"/>
 <node TEXT="\latex $j=-k\frac{dT}{dx}$\  it implies that thermal conduction is a \\&#xa;random process instead of ballistic transport.\\&#xa;(for ballistic transport, j should only depend on the difference between 2 ends, not the gradient inside the specimen)" ID="ID_1947716225" CREATED="1594612126711" MODIFIED="1594612285605"/>
 <node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path \\&#xa;($\mathcal l$ is the mean free path only for U processes, \textbf{not including N})" FOLDED="true" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1615877500881">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="463;-110;" ENDINCLINATION="-169;-150;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="347.24999 pt;-81.75 pt;" ENDINCLINATION="-126 pt;-111.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594696319884"/>
 <node TEXT="\latex at high temperature: $\mathcal l \propto \frac1T$\\&#xa;while $C_v\rightarrow Const\Rightarrow k\propto \frac1T$" ID="ID_993754144" CREATED="1594696465920" MODIFIED="1594699757715"/>
 <node TEXT="to obtain equilibrium, the distribution of phonons must be brought locally, so the drifting must be limited" ID="ID_1951731573" CREATED="1594697014829" MODIFIED="1594697075098">
