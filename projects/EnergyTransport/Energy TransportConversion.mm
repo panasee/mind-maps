@@ -1,8 +1,8 @@
-<map version="freeplane 1.9.8">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Energy Transport/Conversion" FOLDED="false" ID="ID_106920696" CREATED="1602479934328" MODIFIED="1619420905618" STYLE="oval">
 <font NAME="Microsoft YaHei UI" SIZE="18"/>
-<hook NAME="MapStyle" zoom="3.221">
+<hook NAME="MapStyle" zoom="2.662">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -730,7 +730,7 @@
 </node>
 <node TEXT="Landauer Formalism" ID="ID_272749129" CREATED="1605709401233" MODIFIED="1605709407308">
 <node TEXT="\latex the heat flux from reservoir to another(not net):&#xa;\\$q_{1\rightarrow 2}=\sum_{p}[\frac1{V_1}\sum_{k_x=-k_{max}}^{k_{max}}\sum_{k_y=-k_{max}}^{k_{max}}\sum\limits_{k_z=0}^{k_{max}}v_{z1}E\tau_{12}f(E,T_{1})]$" ID="ID_446800166" CREATED="1605709493266" MODIFIED="1605709602814">
-<node TEXT="\latex use principle of detailed balance to obtain a relationship between the transmissivity 1--&gt;2 and 2--&gt;1, thus get the net flux\\&#xa;when the temp diff small, $q \approx K\Delta T$" ID="ID_299789660" CREATED="1605709611249" MODIFIED="1605767702429"/>
+<node TEXT="\latex use principle of detailed balance to obtain a relationship between the transmissivity $1\rightarrow2$ and $2\rightarrow1$, thus get the net flux\\&#xa;when the temp diff small, $q \approx K\Delta T$" ID="ID_299789660" CREATED="1605709611249" MODIFIED="1651140861428"/>
 </node>
 <node TEXT="when scattering exists, less useful;&#xa;when ballistic transport, convenient to use" ID="ID_209907400" CREATED="1605709778770" MODIFIED="1605709816174"/>
 </node>
@@ -883,7 +883,7 @@
 </node>
 </node>
 <node TEXT="to avoid wrong usage of wave approach&#xa;3 major length scales are used" ID="ID_470910303" CREATED="1610091790033" MODIFIED="1610435301406">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-400.49999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="5" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1744053490" STARTINCLINATION="-399.74999 pt;22.5 pt;" ENDINCLINATION="0 pt;37.5 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex mean free path\\&#xa;$\Lambda\approx v_F \tau$" ID="ID_1810344156" CREATED="1610091829847" MODIFIED="1610096985065">
 <node TEXT="measure of the average distance between successive scattering events" ID="ID_483628959" CREATED="1610094740232" MODIFIED="1610094745463"/>
 <node TEXT="\latex $v_F$ is Fermi velocity, the electron velocity at the Fermi level\\&#xa;and is only an approximation to the \textbf{average } electron velocity" ID="ID_119168662" CREATED="1610097154929" MODIFIED="1610097263640"/>
@@ -987,7 +987,7 @@
 <node TEXT="Boltzmann Transport Eq&#xa;(the dist here is for specific mode)" POSITION="left" ID="ID_1161364933" CREATED="1617688890956" MODIFIED="1619966112507">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_922404584" STARTINCLINATION="533.99998 pt;0 pt;" ENDINCLINATION="92.25 pt;9 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <edge COLOR="#00ffff"/>
-<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(e.g. one particle wavefunction here) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$" FOLDED="true" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1619660686738">
+<node TEXT="\latex from Liouville theorem, if we choose a \textbf{partial distribution function(i.e. carry out the averaging over the phase space of other particles) } instead of whole system, then $f$ will change with the &quot;flow line&quot;\\&#xa;$\frac{d f}{d t} =\frac{\partial f}{\partial t} +\nabla_q f\cdot \dot q+\nabla_p f\cdot \dot p = (\frac{\partial f}{\partial t})_{coll}$&#xa;\\$\frac{\partial f}{\partial t}=-\vec v\cdot \frac{\partial f}{\partial \vec r}-\vec F\cdot \frac{\partial f}{\partial \vec p}+(\frac{\partial f}{\partial t})_{coll}= (\frac{\partial f}{\partial t})_\text{diff}+(\frac{\partial f}{\partial t})_\text{force}+(\frac{\partial f}{\partial t})_\text{coll}$\\&#xa;($\vec k=\frac{\vec p}{\hbar}$ is used while handling phonon/photons)" ID="ID_1104713563" CREATED="1619136635719" MODIFIED="1651139568550">
 <node TEXT="\latex \textbf{Molecular Chaos Assumption: }N-particle dist func can be factorized as the product of 1-particle dist func.\\&#xa;(particles are quite \textbf{independent } of each other,&#xa;(between collisions dist funcs are independent))\\&#xa;\[ f^{(N)}(t,\vec r^{(n)},\vec p^{(n)})=\prod f^{(1)}(t,\vec r_i,\vec p_i) \]" ID="ID_1397207234" CREATED="1619340081329" MODIFIED="1619340605131">
 <node TEXT="only valid when interactions are infrequent,&#xa;i.e. dilute systems such as xxx gases" ID="ID_1676513662" CREATED="1619340454649" MODIFIED="1619340653201"/>
 </node>
@@ -1011,6 +1011,8 @@
 <node TEXT="\latex BTE:\\&#xa;$\frac{\partial f}{\partial t} +\boldsymbol v\cdot \nabla_\boldsymbol r f+\frac{\boldsymbol F}{\hbar}\cdot \nabla_\boldsymbol k f&#xa;=\frac{V^3}{(2\pi)^9}(\iiint W[f(\boldsymbol r,\boldsymbol k^\prime,t)f(\boldsymbol r,\boldsymbol k_1^\prime,t)\\&#xa;- f(\boldsymbol r,\boldsymbol k,t)f(\boldsymbol r,\boldsymbol k_1,t)]d^3\boldsymbol k_1d^3\boldsymbol k^\prime d^3\boldsymbol k_1^\prime$" ID="ID_1105920280" CREATED="1619660818253" MODIFIED="1619661299259">
 <node TEXT="\latex integral-differential equation with 7 variables $(t,\boldsymbol r,\boldsymbol k)$\\&#xa;extremely tough to solve" ID="ID_610181137" CREATED="1619660866718" MODIFIED="1619661331922"/>
 </node>
+<node TEXT="Liouville theorem" ID="ID_1482100543" CREATED="1651128601459" MODIFIED="1651128645894" LINK="../StatisticalMechanics/statistical%20physics.mm"/>
+<node TEXT="\latex the average of property $X$ of the particle:\\&#xa;$\langle X(\vec r)\rangle = \frac1V\sum_{\vec k,s}X(\vec r,\vec k)f=\frac1{(2\pi)^3}\int X(\vec r,\vec k)fd^3\vec k$\\&#xa;(factor $(2\pi)^3$ comes from the fact that the volume of one quantum state in \textbf{k-space } is $\frac{V}{(2\pi)^3}$)" ID="ID_768501966" CREATED="1651130741750" MODIFIED="1651139568548" HGAP_QUANTITY="19.25 pt" VSHIFT_QUANTITY="2.25 pt"/>
 </node>
 <node TEXT="\latex Vlasov eq(collisionless form)\\&#xa;$\frac{\partial f_s}{\partial t}+\frac{\boldsymbol p}{m}\cdot\nabla_q f_s+\boldsymbol F\cdot \nabla_pf_s=0$" ID="ID_880576232" CREATED="1619272102350" MODIFIED="1619272374237"/>
 <node TEXT="\latex RTA(BGK approximation)\\&#xa;$(\frac{\partial f}{\partial t})_{coll} = -\frac{f-f^0(T,E,\mu)}{\tau(\boldsymbol r,\boldsymbol k)}$" FOLDED="true" ID="ID_1792504892" CREATED="1619139651713" MODIFIED="1619663408615">
@@ -1032,7 +1034,7 @@
 <node TEXT="Callaway Model: phenomenological model based on displaced equilibrium distribution" ID="ID_1487221561" CREATED="1619697516338" MODIFIED="1619697724656"/>
 </node>
 <node TEXT="\latex $g\equiv f-f_0 = -\tau(\boldsymbol v\cdot \nabla_\boldsymbol r f_0 +\frac \boldsymbol Fm\cdot \nabla_\boldsymbol vf_0)$ hypotheses:\\&#xa;1. $f_0\gg g$            2. $\frac g\tau\gg \boldsymbol v\cdot \nabla g$ \\&#xa;3. $\frac{\partial f}{\partial t}\ll \frac{f-f_0}\tau,(\tau_c\gg\tau)$" FOLDED="true" ID="ID_414954367" CREATED="1621295917410" MODIFIED="1621296810923">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-54.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1134956908" STARTINCLINATION="215.99999 pt;0 pt;" ENDINCLINATION="104.25 pt;-54 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex Knudsen number: $Kn=\frac{\tau v}L=\frac\Lambda L$\\&#xa;Cond. 2 equals $Kn\ll 1$\\&#xa;i.e. characteristic length must be much larger than mfp" ID="ID_483689777" CREATED="1621296289712" MODIFIED="1621296403717"/>
 </node>
 </node>
