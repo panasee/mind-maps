@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8" zoom="1.331">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_nord_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -96,7 +96,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -121,7 +120,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="光波在波导中的传播行为可以分解为离散波导模式的叠加" ID="ID_232827501" CREATED="1651734633782" MODIFIED="1651734703650"/>
 <node TEXT="相邻波导间存在隐失波的耦合, 导致新现象" ID="ID_800396584" CREATED="1651734703830" MODIFIED="1651734910432"/>
@@ -139,7 +137,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="两个光子与非线性光学材料作用后产生一个新光子(类似有媒介的三粒子散射)" ID="ID_1341913117" CREATED="1651735426017" MODIFIED="1651737753037">
 <node TEXT="\latex \textbf{利用相干性可出现二阶倍频级联(cascading)效应:\\&#xa;相位失配导致不同光子相互干涉产生能量回流&#xa;\\(类比准动量不守恒, $\Delta k = k_{2\omega}-2k_\omega-G_m\neq0$)}" ID="ID_616172174" CREATED="1651736392332" MODIFIED="1651736767640"/>
@@ -166,7 +163,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -184,7 +180,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1171356710" CREATED="1651738194134" MODIFIED="1651738236323"><richcontent TYPE="NODE">
 
@@ -198,7 +193,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -216,6 +210,24 @@
 <node TEXT="科技界有人把已知现象/过程重新命名, 又开了新的领域" ID="ID_597383838" CREATED="1651732930262" MODIFIED="1651732984917">
 <node TEXT="光学中的例子:&#xa;自捕获(self-trapping) -&gt; 空间孤子(spatial soliton)&#xa;光受激散射 -&gt; 二波混频 ......." ID="ID_1038920533" CREATED="1651732987315" MODIFIED="1651733085002"/>
 </node>
+</node>
+<node TEXT="熵和温度" POSITION="left" ID="ID_430103309" CREATED="1652510461434" MODIFIED="1652510469779">
+<node TEXT="\latex $T=\frac1{k_B\beta}=\frac{\partial E}{\partial S}\large |_{\{N,V\}}$" ID="ID_1003051045" CREATED="1652510472032" MODIFIED="1652531388104">
+<node TEXT="温度和熵的关系从微分公式上&#xa;类似密度和体积的关系&#xa;（仅数学形式相似）" ID="ID_151584968" CREATED="1652529222836" MODIFIED="1652532379482"/>
+</node>
+<node TEXT="声子是否有“熵”的定义？" ID="ID_1951439234" CREATED="1652530813802" MODIFIED="1652530830031">
+<node TEXT="相关文献很少，只找到CIT的一篇博士论文" ID="ID_594826760" CREATED="1652532568070" MODIFIED="1652532605150"/>
+<node TEXT="Phonon Entropy" ID="ID_235669099" CREATED="1652532786177" MODIFIED="1652532792711">
+<node TEXT="" ID="ID_740640112" CREATED="1652532793217" MODIFIED="1652532793217"/>
+</node>
+<node TEXT="Vibrational Entropy" ID="ID_445442116" CREATED="1652532799447" MODIFIED="1652532807118"/>
+</node>
+<node TEXT="温度的严格定义以热平衡为前提，同时具有统计学意义，因此对于过于微观的体系一般会回避该概念" ID="ID_804865399" CREATED="1652531037520" MODIFIED="1652532072721">
+<node TEXT="平均动能与温度的对应关系来源于能均分定理(理想气体)，在其他情形下使用该对应关系实质上已经丧失了温度的热力学/统计学意义" ID="ID_537778308" CREATED="1652531147145" MODIFIED="1652531504452">
+<node TEXT="温度是一个独立于参考系的物理量，而动能不是，因此用动能定义温度违反了最基本的温度定义" ID="ID_1000155119" CREATED="1652531583492" MODIFIED="1652531617398"/>
+</node>
+</node>
+<node TEXT="二者在热力学上是共轭物理量，地位平等&#xa;（类似压强和体积，或者位置和动量）" ID="ID_1733118183" CREATED="1652531578949" MODIFIED="1652532354034"/>
 </node>
 </node>
 </map>
