@@ -1,8 +1,8 @@
-<map version="freeplane 1.9.8">
+<map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="\latex DeepLearning" FOLDED="false" ID="ID_1615867237" CREATED="1616999239460" MODIFIED="1617005031530" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.143">
+<hook NAME="MapStyle" zoom="1.61">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -295,7 +295,7 @@
 <node TEXT="应用于图像处理，将图像分块(每个神经元没有接收整张图片，而是一部分，具体的分块方法视情况而定)" ID="ID_1025190488" CREATED="1628933246976" MODIFIED="1628933533956"/>
 </node>
 <node TEXT="Self-attention" FOLDED="true" ID="ID_1796294119" CREATED="1628933231395" MODIFIED="1628947965921">
-<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-40.5 pt;0 pt;" ENDINCLINATION="-195.74999 pt;50.25 pt;"/>
+<arrowlink DESTINATION="ID_1659100858" MIDDLE_LABEL="CNN is a special case of SelfAttention, &#xa;meaning SelfAttention needs more data&#xa;(CNN弹性小, SelfAttention弹性大)" STARTINCLINATION="-39.75 pt;0 pt;" ENDINCLINATION="-194.99999 pt;50.25 pt;"/>
 <node ID="ID_1856839558" CREATED="1628934264358" MODIFIED="1628934907615"><richcontent TYPE="NODE">
 
 <html>
@@ -351,17 +351,17 @@
 </node>
 </node>
 <node TEXT="Graph(Node&amp;Edge)" ID="ID_1053267983" CREATED="1628948674662" MODIFIED="1628948799543">
-<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="0 pt;0 pt;" ENDINCLINATION="-66 pt;-27.75 pt;"/>
+<arrowlink DESTINATION="ID_1634919084" MIDDLE_LABEL="one type of" STARTINCLINATION="0 pt;0 pt;" ENDINCLINATION="-65.25 pt;-27 pt;"/>
 <node TEXT="only consider the relations suggested by edges" ID="ID_1469951278" CREATED="1628948700867" MODIFIED="1628948717100"/>
 </node>
 </node>
 <node TEXT="Graph Neural Network(GNN)" ID="ID_1634919084" CREATED="1628948768077" MODIFIED="1628948782687"/>
 </node>
-<node TEXT="\latex Loss/Cost Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" FOLDED="true" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1635828498633">
+<node TEXT="\latex Loss/Cost Optimization\\(Likelihood maximization)\\&#xa;$\boldsymbol W^*=\text{argmin}_wJ(\boldsymbol W)$\\&#xa;$(\boldsymbol W=\{ \boldsymbol W^{(i)} \})$" POSITION="left" ID="ID_204585663" CREATED="1617005228108" MODIFIED="1635828498633">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex Loss/Cost Function:\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n\mathcal L(f(x^{(i)};\boldsymbol W),y^{(i)})$\\&#xa;Loss Quantification:$\mathcal L(\underbrace{f(x^{(i)};\boldsymbol W)}_{Predicted},\underbrace{y^{(i)}}_{Actual})$" ID="ID_1832157425" CREATED="1617004199234" MODIFIED="1635828502653">
 <node TEXT="\latex Mean Squared Error Loss\\&#xa;$J(\boldsymbol W)=\frac1n\sum_{i=1}^n(y^{(i)}-f(x^{(i)};\boldsymbol W))^2$\\&#xa;$\frac\partial{\partial W_j} J(\boldsymbol W)=\sum_i(f(x;\boldsymbol W)-y)x_j$" ID="ID_694102018" CREATED="1617004851184" MODIFIED="1633920674676">
-<node TEXT="\latex LMS(least mean squares)update rule: $\theta_j := \theta_j + \alpha\sum_i(y^{(i)}-h_\theta(x^{(i)}))x_j^{(i)}$,\;(Widrow-Hoff learning rule)\\&#xa;&#xa;\\(when examples&apos; no. exceed 1, called \textbf{batch gradient descent})\\&#xa;(&quot;batch&quot; comes from the summation wrt. example batch)" ID="ID_548859840" CREATED="1633865834111" MODIFIED="1633867746006">
+<node TEXT="\latex LMS(least mean squares)update rule($\theta_j:=\theta_j -\alpha\nabla_\theta J(\theta)$):&#xa;\\$\theta_j := \theta_j + \alpha\sum_i(y^{(i)}-h_\theta(x^{(i)}))x_j^{(i)}$,\;(Widrow-Hoff learning rule)\\&#xa;&#xa;\\(when examples&apos; no. exceed 1, called \textbf{batch gradient descent})\\&#xa;(&quot;batch&quot; comes from the summation wrt. example batch)" ID="ID_548859840" CREATED="1633865834111" MODIFIED="1665233034291">
 <node TEXT="\latex stochastic(incremental) gradient descent:&#xa;\\$\boldsymbol\theta := \boldsymbol\theta + \alpha(\boldsymbol y^{(i)}-\boldsymbol h_\theta(\boldsymbol x^{(i)}))\boldsymbol x^{(i)}$&#xa;\\(i.e. use loops to scan through the training set)" ID="ID_235124243" CREATED="1633868223810" MODIFIED="1633868604361"/>
 </node>
 <node TEXT="\latex Why? naturally derived under probabilistic assumptions\\&#xa;$y^{(i)}=\theta^T x^{(i)}+\epsilon^{(i)}$,\;($\epsilon\rightarrow$ unmodeled effects or random noise)\\&#xa;\textbf{assum.},$\epsilon^{(i)}$ are distributed IID(independently and identically distributed) $\epsilon^{(i)}\sim \mathcal N(0,\sigma^2)$" ID="ID_668941631" CREATED="1633869054369" MODIFIED="1633874669879">
@@ -532,7 +532,7 @@
 </node>
 </node>
 <node TEXT="\latex GLM(generalized linear models)" POSITION="left" ID="ID_1866081819" CREATED="1633918328307" MODIFIED="1633921815138">
-<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-32.25 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
+<arrowlink DESTINATION="ID_204585663" MIDDLE_LABEL="likelihood maximized" STARTINCLINATION="39 pt;-31.5 pt;" ENDINCLINATION="4.5 pt;51 pt;"/>
 <edge COLOR="#ff00ff"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex exponential family dist.\\&#xa;$p(y;\eta)=b(y)\exp(\eta^TT(y)-a(\eta))$" FOLDED="true" ID="ID_746913262" CREATED="1633918409897" MODIFIED="1633918466166">
@@ -774,7 +774,7 @@
 </node>
 <node TEXT="a evaluation metric for classification problem&#xa;(helpful for make quick decision)" ID="ID_911310020" CREATED="1633852036814" MODIFIED="1633856774634">
 <node TEXT="skewed classes&#xa;(tricky example for classification)" ID="ID_544521727" CREATED="1633851799742" MODIFIED="1634991310067">
-<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-431.24999 pt;"/>
+<arrowlink DESTINATION="ID_1475993747" STARTINCLINATION="21.75 pt;151.5 pt;" ENDINCLINATION="246.74999 pt;-430.49999 pt;"/>
 <node TEXT="one class is much more than the other&#xa;(say, class 1(0.5%) vs. class 0(99.5%))" ID="ID_1120652285" CREATED="1633851823246" MODIFIED="1633851876030">
 <node TEXT="a constant &quot;predictor&quot; (always gives 0)&#xa;could possibly give a low error" ID="ID_637261130" CREATED="1633851877235" MODIFIED="1633851917997"/>
 </node>
@@ -864,7 +864,7 @@
 </node>
 <node TEXT="需要创造性的情况下需要加入随机性(而不是单纯寻找最优解)&#xa;(e.g. 填充句子)" ID="ID_212922573" CREATED="1629032412419" MODIFIED="1629032500736"/>
 </node>
-<node TEXT="Machine learning Categories" FOLDED="true" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
+<node TEXT="Machine learning Categories" POSITION="left" ID="ID_1481198069" CREATED="1632403012766" MODIFIED="1632403028608">
 <edge COLOR="#0000ff"/>
 <node TEXT="Supervised Learning" ID="ID_618112430" CREATED="1632403029817" MODIFIED="1632403035429">
 <node TEXT="Classification(discrete value output)" FOLDED="true" ID="ID_210976931" CREATED="1632403036280" MODIFIED="1632408134810">
@@ -882,6 +882,9 @@
 <node TEXT="perceptron learning algo." FOLDED="true" ID="ID_509542276" CREATED="1633916481709" MODIFIED="1633916497853">
 <node TEXT="\latex activate func. $g(z)=\left\{ \begin{aligned} 1,\; \text{if } z\ge0\\0,\; \text{if } z&lt;0 \end{aligned} \right. $\\&#xa;set $h_\theta(x) = g(\theta^T x)$" ID="ID_354572837" CREATED="1633916506515" MODIFIED="1633916773787"/>
 <node TEXT="\latex update rule is the same as logistic regression" ID="ID_1061447576" CREATED="1633916791656" MODIFIED="1633916975587"/>
+<node TEXT="\latex Perceptron Mistake Bound Guarantee(Novikoff&apos;s Theorem)\\&#xa;perceptron makes $\le (R/\gamma)^2$ mistakes" ID="ID_500845144" CREATED="1665233436339" MODIFIED="1665234837752">
+<hook URI="pix/perceptron_bound.png" SIZE="0.30425858" NAME="ExternalObject"/>
+</node>
 </node>
 <node TEXT="Support Vector Machine(SVM)" ID="ID_529025646" CREATED="1633865557002" MODIFIED="1636379416827">
 <node TEXT="new cost func" ID="ID_1726748509" CREATED="1634203295529" MODIFIED="1634302140977" HGAP_QUANTITY="24.5 pt" VSHIFT_QUANTITY="25.5 pt">
@@ -942,7 +945,7 @@
 <node TEXT="\latex hypothesis $h_\theta(x) = \theta_i x_i, (x_0:=1)$\\&#xa;vectorized: $h_\theta(x) = \theta^T x$ ($x_0$ is added into $x$)" ID="ID_64745761" CREATED="1632819450211" MODIFIED="1632822549734"/>
 <node TEXT="\latex generally: Kernel Ridge Regression method\\&#xa;(intro.  a set of basis func $\boldsymbol \phi=[\phi_i]^T(i=1\sim M)$, mapping the \\&#xa;data point to higher dimensional functional space)\\&#xa;($M$ is usually much larger even infinity)" ID="ID_580116878" CREATED="1636379611478" MODIFIED="1636380039576">
 <node TEXT="the dimensions may blow up&#xa;when there&apos;re many features" ID="ID_748475800" CREATED="1632824047750" MODIFIED="1636424839272">
-<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-159 pt;" ENDINCLINATION="-88.5 pt;-136.5 pt;"/>
+<arrowlink DESTINATION="ID_1177449855" STARTINCLINATION="0 pt;-158.25 pt;" ENDINCLINATION="-87.75 pt;-135.75 pt;"/>
 </node>
 <node TEXT="\latex e.g.: to include non-linear terms in $x$:\\&#xa;$x = [1, x_1, x_1^2, x_1^3]^T$" ID="ID_726938542" CREATED="1632822721637" MODIFIED="1636379908640"/>
 <node TEXT="\latex the basis needs to be \textbf{orthogonal}, to simplify:\\&#xa;$\boldsymbol\theta := \sum\alpha_i\boldsymbol\phi(\boldsymbol x_i)$ (turn the targeted paras to \alpha)\\&#xa;\textbf{the basis doesn&apos;t need to be specified}" ID="ID_1562886519" CREATED="1636380247743" MODIFIED="1636380546853">
@@ -1038,7 +1041,7 @@
 <node TEXT="Artificial Neural Network(ANN)&#xa;(mimicking the biological network of neurons)" ID="ID_906029810" CREATED="1636441074713" MODIFIED="1636441150533">
 <node TEXT="CNN can circumvent the problems of the vanished gradient and suppress overfitting compared with fully connected feed-forward NN" ID="ID_914368281" CREATED="1636443862351" MODIFIED="1636443925619">
 <node TEXT="convolution layer" ID="ID_1520390281" CREATED="1636443944825" MODIFIED="1636443949096"/>
-<node TEXT="pooling layer" ID="ID_972586780" CREATED="1636443950338" MODIFIED="1636443954752">
+<node TEXT="pooling layer" FOLDED="true" ID="ID_972586780" CREATED="1636443950338" MODIFIED="1636443954752">
 <node TEXT="can be effectively regarded as an intrinsic feature selection process, making it robust when features are not complete" ID="ID_729238072" CREATED="1636443967112" MODIFIED="1636444011892"/>
 </node>
 </node>
@@ -1066,6 +1069,42 @@
 <node TEXT="tend to overfit if the maximum&#xa;no. of nodes is not specified" ID="ID_654403797" CREATED="1636444608019" MODIFIED="1636444637642">
 <node TEXT="random forest approach&#xa;(involve a ensemble of trees)" ID="ID_1888568158" CREATED="1636444644873" MODIFIED="1636444803117">
 <hook URI="pix/randomForest.png" SIZE="0.27652892" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Node properties:depth and height" ID="ID_1543095526" CREATED="1665211216277" MODIFIED="1665211231919">
+<node TEXT="depth: the no. of edges from the node to root" ID="ID_1600117023" CREATED="1665211232318" MODIFIED="1665211267525"/>
+<node ID="ID_1830580447" CREATED="1665211269134" MODIFIED="1665211289706"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      height: the <b>longest</b>&nbsp;no. of edges from the node to leaf
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Choice of the root node&#xa;(before and during training)" ID="ID_436270841" CREATED="1665215810174" MODIFIED="1665219541127">
+<node FOLDED="true" ID="ID_1822527044" CREATED="1665215875867" MODIFIED="1665215931962"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      choose the variable with <b>the largest mutual information</b>&nbsp;with the predicted variable as the root node
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="splits afterwards are determined similarly&#xa;(the possibilities are narrowed down)" ID="ID_595832585" CREATED="1665217466185" MODIFIED="1665217514693"/>
 </node>
 </node>
 </node>
@@ -1182,8 +1221,8 @@
 <node TEXT="error analysis&#xa;(add features via analysing wrong cv outputs)" ID="ID_1711597506" CREATED="1634992407545" MODIFIED="1635136282981"/>
 </node>
 </node>
-<node TEXT="anomaly detection vs. supervised learning&#xa;(anomaly detection suits 0 pdf)" ID="ID_912879492" CREATED="1634991087297" MODIFIED="1634992017088">
-<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="67.5 pt;-137.25 pt;" ENDINCLINATION="95.25 pt;197.99999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<node TEXT="anomaly detection vs. supervised learning&#xa;(anomaly detection suits 0 pdf)" ID="ID_912879492" CREATED="1634991087297" MODIFIED="1665228578551">
+<arrowlink DESTINATION="ID_618112430" STARTINCLINATION="327.74999 pt;64.5 pt;" ENDINCLINATION="257.99999 pt;311.24999 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 <node TEXT="\latex for anomaly detection:\\&#xa;1,\, anomalies vary extensively, future anomalies may look nothing like current examples\\&#xa;2,\, hard for any algo. to learn from positive examples what the anomalies look like" ID="ID_257345260" CREATED="1634991406063" MODIFIED="1634991812398"/>
 <node TEXT="\latex for supervised learning:\\&#xa;1,\, enough examples for algo. to learn the features of positive/negative cases\\&#xa;2,\, future cases likely to be similar to current ones" ID="ID_457716271" CREATED="1634991851870" MODIFIED="1634991937680"/>
 </node>
@@ -1321,7 +1360,7 @@
 <node TEXT="Random Search, search exhaustively and randomly" ID="ID_459093333" CREATED="1636809023262" MODIFIED="1636810921128"/>
 <node TEXT="Bayesian Optimization" ID="ID_348928145" CREATED="1636810897376" MODIFIED="1636857335115" LINK="#ID_277319580"/>
 </node>
-<node TEXT="Bayesian Optimization" POSITION="left" ID="ID_277319580" CREATED="1636857297972" MODIFIED="1636857311890">
+<node TEXT="Bayesian Optimization" FOLDED="true" POSITION="left" ID="ID_277319580" CREATED="1636857297972" MODIFIED="1636857311890">
 <edge COLOR="#007c7c"/>
 <node TEXT="Find maxima&amp;minima of funcs, especially:&#xa;1. black-box func/ non-derivable func&#xa;2. computationally expensive func" ID="ID_1620165302" CREATED="1636857339219" MODIFIED="1636857526738"/>
 </node>
