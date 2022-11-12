@@ -114,12 +114,15 @@
 </node>
 <node TEXT="spin" FOLDED="true" POSITION="left" ID="ID_841999427" CREATED="1603274393760" MODIFIED="1603274401717">
 <edge COLOR="#808080"/>
-<node TEXT="not involved in Schrodinger Equation, but only emerge in relativistic quantum mechanics" ID="ID_1741280739" CREATED="1603274402509" MODIFIED="1603274434345"/>
+<node TEXT="not involved in Schrodinger Equation" ID="ID_1741280739" CREATED="1603274402509" MODIFIED="1668153707202"/>
+<node TEXT="\latex spin implies that the phase of the particle \\&#xa;depends on the angle as $e^{iS\theta}$\\&#xa;(for rotation of angle $\theta$ around the axis parallel to $S$)" ID="ID_1113140519" CREATED="1668155035135" MODIFIED="1668155448957">
+<node TEXT="QM interpretation of momentum:&#xa;phase dependence in the position" ID="ID_277422334" CREATED="1668155455837" MODIFIED="1668155480127"/>
+</node>
 </node>
 <node TEXT="Schrodinger Equation" POSITION="left" ID="ID_1339063206" CREATED="1603104270726" MODIFIED="1603104278828">
 <edge COLOR="#808080"/>
-<node TEXT="for Hamiltonian not contain time dependency, we could use variable seperation to get steady-state Schrodinger Equation" ID="ID_1001252347" CREATED="1603104279194" MODIFIED="1603104320125"/>
-<node TEXT="\latex (1) multiply it by $\psi_t^*$ \\&#xa;(2) take complex conjugate and multiplied by $\psi_t$\\&#xa;$\rightarrow$ subtracct (1) and (2)" FOLDED="true" ID="ID_747552170" CREATED="1603105085303" MODIFIED="1603106727246">
+<node TEXT="for Hamiltonian not contain time dependency, we could use&#xa;variable seperation to get steady-state Schrodinger Equation" ID="ID_1001252347" CREATED="1603104279194" MODIFIED="1668171082170"/>
+<node TEXT="\latex (1) multiply it by $\psi_t^*$ \\&#xa;(2) take complex conjugate and multiplied by $\psi_t$\\&#xa;$\rightarrow$ subtract (1) and (2)" ID="ID_747552170" CREATED="1603105085303" MODIFIED="1668244656562">
 <node TEXT="\latex particle conservation equation&#xa;\\$\frac{\partial |\psi_t|^2}{\partial t}+\nabla\cdot\vec J=0$ \\&#xa;$\vec J = \frac{i\hbar}{2m}(\psi_t\nabla\psi_t^*-\psi_t^*\nabla\psi_t)$" ID="ID_414783129" CREATED="1603105292125" MODIFIED="1603105606915"/>
 </node>
 <node TEXT="boundary conditions" FOLDED="true" ID="ID_470983993" CREATED="1603106848874" MODIFIED="1603106853654">
@@ -220,7 +223,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" FOLDED="true" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" FOLDED="true" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.25 pt;14.25 pt;" ENDINCLINATION="9.75 pt;-0.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.25 pt;14.25 pt;" ENDINCLINATION="9.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
