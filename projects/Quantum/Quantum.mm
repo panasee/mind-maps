@@ -91,10 +91,11 @@
 <node TEXT="sundry" POSITION="left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1603094601040" LINK="sundry.mm">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="many-particle wavefunction" FOLDED="true" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
+<node TEXT="many-particle wavefunction" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
 <edge COLOR="#ffff00"/>
-<node TEXT="Slater determinant" ID="ID_1154585874" CREATED="1545050399328" MODIFIED="1553566839983">
-<hook EQUATION="\psi(x_i)=\begin{vmatrix} \psi_1(x_1) &amp; \psi_1(x_2) &amp; \cdots &amp; \psi_1(x_N) \\&#xa;                          \psi_2(x_1) &amp; \psi_2(x_2) &amp; \cdots &amp; \psi_2(x_N) \\   &#xa;                           \vdots     &amp;  \vdots     &amp;        &amp; \vdots      \\&#xa;                          \psi_N(x_1) &amp; \psi_N(x_2) &amp; \cdots &amp; \psi_N(x_N)&#xa;\end{vmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="Slater determinant(multi-fermionic)" ID="ID_1154585874" CREATED="1545050399328" MODIFIED="1668325985087">
+<hook EQUATION="\psi(x_1,\dots,x_N)\equiv |\psi_1,\dots,\psi_N \rangle=\frac{1}{\sqrt{N!}}\begin{vmatrix} \psi_1(x_1) &amp; \psi_1(x_2) &amp; \cdots &amp; \psi_1(x_N) \\&#xa;                          \psi_2(x_1) &amp; \psi_2(x_2) &amp; \cdots &amp; \psi_2(x_N) \\   &#xa;                           \vdots     &amp;  \vdots     &amp;        &amp; \vdots      \\&#xa;                          \psi_N(x_1) &amp; \psi_N(x_2) &amp; \cdots &amp; \psi_N(x_N)&#xa;\end{vmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="the multi-particle terms, i.e. the exchange terms,&#xa;will introduce a lowering of the energy of eigenstates" ID="ID_203977810" CREATED="1668326947872" MODIFIED="1668326997551"/>
 </node>
 <node TEXT="Vandermonde determinant" ID="ID_895133890" CREATED="1545050408195" MODIFIED="1553566876496">
 <hook EQUATION="f(z_i)=\begin{vmatrix} z_1^0&amp;z_2^0&amp;\cdots&amp;z_N^0\\z_1&amp;z_2&amp;\cdots&amp;z_N\\\vdots&amp;\vdots&amp;&amp;\vdots\\z_1^{N-1}&amp;z_2^{N-1}&amp;\cdots&amp;z_N^{N-1}\end{vmatrix}=\prod_{i&lt;j}(z_i-z_j)" NAME="plugins/latex/LatexNodeHook.properties"/>
