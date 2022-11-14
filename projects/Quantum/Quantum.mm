@@ -60,23 +60,23 @@
 <node TEXT="QHE" POSITION="right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="perturbation theory" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1667217332808">
+<node TEXT="perturbation theory" FOLDED="true" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1667217332808">
 <edge COLOR="#00ff00"/>
 <node TEXT="微扰理论对能量的近似很精确,但对于波函数近似不太理想" ID="ID_1710819061" CREATED="1545021402789" MODIFIED="1545021435659"/>
-<node TEXT="微扰论通过微扰展开然后舍去高阶项得到(注意Hamiltonian本身微扰是确定的,只有一阶)" FOLDED="true" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
+<node TEXT="微扰论通过微扰展开然后舍去高阶项得到(注意Hamiltonian本身微扰是确定的,只有一阶)" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
 <hook EQUATION="(H+H^\prime)(\psi+\psi^\prime+ \psi^{\prime\prime} + \dots)=(E+E^\prime+ E^{\prime\prime} + \dots)(\psi+\psi^\prime+ \psi^{\prime\prime} + \dots)" NAME="plugins/latex/LatexNodeHook.properties"/>
-<node TEXT="\latex Time-independent perturbation theory\\&#xa;$H=H_0+\lambda V,\; (H_0+\lambda V)|n\rangle = E_n|n\rangle$\\&#xa;($E_n=\lambda^i E_n^{(i)},\; |n\rangle=\lambda^i |n^{(i)}\rangle$)" FOLDED="true" ID="ID_1625330088" CREATED="1619426419588" MODIFIED="1619426586923">
-<node TEXT="\latex $E_n^{(i)}=\frac1{i!}\frac{d^iE_n}{d\lambda^i}|_{\lambda=0}$\\&#xa;$|n^{(i)}\rangle=\frac1{i!}\frac{d^i |n\rangle}{d\lambda^i}|_{\lambda=0}$" FOLDED="true" ID="ID_1594666339" CREATED="1619426600366" MODIFIED="1619426699470">
+<node TEXT="\latex Time-independent perturbation theory\\&#xa;$H=H_0+\lambda V,\; (H_0+\lambda V)|n\rangle = E_n|n\rangle$\\&#xa;($E_n=\lambda^i E_n^{(i)},\; |n\rangle=\lambda^i |n^{(i)}\rangle$)" ID="ID_1625330088" CREATED="1619426419588" MODIFIED="1619426586923">
+<node TEXT="\latex $E_n^{(i)}=\frac1{i!}\frac{d^iE_n}{d\lambda^i}|_{\lambda=0}$\\&#xa;$|n^{(i)}\rangle=\frac1{i!}\frac{d^i |n\rangle}{d\lambda^i}|_{\lambda=0}$" ID="ID_1594666339" CREATED="1619426600366" MODIFIED="1619426699470">
 <node TEXT="\latex as it&apos;s small perturbation:\\&#xa;$\langle n^{(0)}| n^{(0)}\rangle= \langle n | n\rangle = 1=\langle n^{(0)}| n^{(0)}\rangle+\lambda \langle n^{(0)}| n^{(1)}\rangle +\lambda \langle n^{(1)}| n^{(0)}\rangle +\lambda^2\langle n^{(1)}| n^{(1)}\rangle$\\&#xa;the overall phase is not determined in time-independent theory, so\\&#xa;$\langle n^{(0)}| n^{(1)}\rangle=0$ is a real number" ID="ID_1771358305" CREATED="1619438898819" MODIFIED="1619438900829"/>
 </node>
 <node TEXT="\latex $(H+\lambda V)(\lambda^i|n^{(i)}\rangle)=(\lambda^j E_n^{(j)})(\lambda^k|n^{(k)}\rangle)$\\&#xa;expand according to the power of $\lambda$ to extract nth-order eq." ID="ID_1805065596" CREATED="1619431757330" MODIFIED="1619432038233">
-<node TEXT="\latex first-order: $H_0|n^{(1)}\rangle+V|n^{(0)}\rangle = E_n^{(0)}|n^{(1)}\rangle +E_n^{(1)}|n^{(0)}\rangle$\\&#xa;operating through by $\langle n^{(0)}|$: $E_n^{(1)}=\langle n^{(0)} |V|n^{(0)}\rangle$" ID="ID_1682919374" CREATED="1619432160204" MODIFIED="1619438912373">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="93.75 pt;0 pt;" ENDINCLINATION="93.75 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<node TEXT="\latex first-order: $H_0|n^{(1)}\rangle+V|n^{(0)}\rangle = E_n^{(0)}|n^{(1)}\rangle +E_n^{(1)}|n^{(0)}\rangle$\\&#xa;operating through by $\langle n^{(0)}|$: $E_n^{(1)}=\langle n^{(0)} |V|n^{(0)}\rangle$" ID="ID_1682919374" CREATED="1619432160204" MODIFIED="1668412455855">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="102.75 pt;0 pt;" ENDINCLINATION="93.75 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 </node>
 </node>
 </node>
 <node TEXT="\latex Time-dependent perturbation theory\\&#xa;$H=H_0+V(t), |j(t)\rangle=e^{-iE_jt/\hbar}|j\rangle$\\&#xa;$H|\psi(t)\rangle=i\hbar\frac\partial{\partial t}|\psi(t)\rangle$\\&#xa;$|\psi(t)\rangle=\sum_nc_n(t)|n(t)\rangle=\sum_nc_n(t)e^{-iE_nt/\hbar}|n\rangle$" ID="ID_1961161609" CREATED="1619439328417" MODIFIED="1619967387412">
-<node TEXT="\latex plug $|\psi(t)\rangle$ into S.E.:&#xa;$\sum_i(i\hbar\frac{dc_i}{dt}-c_i(t)V(t))e^{-iE_it/\hbar}|i\rangle=0$\\&#xa;multiply through by bra $\langle n |$:&#xa;$\frac{dc_n}{dt}=\frac{-i}{\hbar}\sum_k\langle n|V(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;this is an \textbf{exact } solution, difficult to find with many levels(many $c_k(t)$)" FOLDED="true" ID="ID_169184873" CREATED="1619442120341" MODIFIED="1619443349524">
+<node TEXT="\latex plug $|\psi(t)\rangle$ into S.E.:&#xa;$\sum_i(i\hbar\frac{dc_i}{dt}-c_i(t)V(t))e^{-iE_it/\hbar}|i\rangle=0$\\&#xa;multiply through by bra $\langle n |$:&#xa;$\frac{dc_n}{dt}=\frac{-i}{\hbar}\sum_k\langle n|V(t)|k\rangle c_k(t)e^{-i(E_k-E_n)t/\hbar}$\\&#xa;this is an \textbf{exact } solution, difficult to find with many levels(many $c_k(t)$)" ID="ID_169184873" CREATED="1619442120341" MODIFIED="1619443349524">
 <node TEXT="\latex rewrite into: $c_n(t)=c_n(0)-\frac i\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k(t^\prime)e^{-i(E_k-E_n)t^\prime/\hbar}$\\&#xa;use iterative solution: $c_n(t)=c_n^{(0)}(t)+c_n^{(1)}(t)+c_n^{(2)}(t)+\cdots$\\&#xa;(e.g. $c_n^{(1)}(t)=c_n(0)+\frac{-i}\hbar\sum_k\int_0^t dt^\prime\langle n|V(t^\prime)|k\rangle c_k^{(0)}e^{-i(E_k-E_n)t^\prime/\hbar}$)" ID="ID_81193065" CREATED="1619443362471" MODIFIED="1619967294097"/>
 <node TEXT="other simplifications such as&#xa;Fermi&apos;s Golden Rule (relate the state transitions to DOS)&#xa;Dyson series (apply the iterative method to the time evolution operator)&#xa;(also one of the starting points for Feynman diagrams)" ID="ID_829748089" CREATED="1619444811321" MODIFIED="1619445110981"/>
 </node>
@@ -91,14 +91,14 @@
 <node TEXT="sundry" POSITION="left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1603094601040" LINK="sundry.mm">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="many-particle wavefunction" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
+<node TEXT="many-particle wavefunction" FOLDED="true" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
 <edge COLOR="#ffff00"/>
 <node TEXT="Slater determinant(multi-fermionic)" ID="ID_1154585874" CREATED="1545050399328" MODIFIED="1668325985087">
 <hook EQUATION="\psi(x_1,\dots,x_N)\equiv |\psi_1,\dots,\psi_N \rangle=\frac{1}{\sqrt{N!}}\begin{vmatrix} \psi_1(x_1) &amp; \psi_1(x_2) &amp; \cdots &amp; \psi_1(x_N) \\&#xa;                          \psi_2(x_1) &amp; \psi_2(x_2) &amp; \cdots &amp; \psi_2(x_N) \\   &#xa;                           \vdots     &amp;  \vdots     &amp;        &amp; \vdots      \\&#xa;                          \psi_N(x_1) &amp; \psi_N(x_2) &amp; \cdots &amp; \psi_N(x_N)&#xa;\end{vmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="the multi-particle terms, i.e. the exchange terms,&#xa;will introduce a lowering of the energy of eigenstates" ID="ID_203977810" CREATED="1668326947872" MODIFIED="1668326997551"/>
 </node>
-<node TEXT="Vandermonde determinant" ID="ID_895133890" CREATED="1545050408195" MODIFIED="1553566876496">
-<hook EQUATION="f(z_i)=\begin{vmatrix} z_1^0&amp;z_2^0&amp;\cdots&amp;z_N^0\\z_1&amp;z_2&amp;\cdots&amp;z_N\\\vdots&amp;\vdots&amp;&amp;\vdots\\z_1^{N-1}&amp;z_2^{N-1}&amp;\cdots&amp;z_N^{N-1}\end{vmatrix}=\prod_{i&lt;j}(z_i-z_j)" NAME="plugins/latex/LatexNodeHook.properties"/>
+<node TEXT="Vandermonde determinant/polynomial" ID="ID_895133890" CREATED="1545050408195" MODIFIED="1668409338330">
+<hook EQUATION="f(z_i)=\begin{vmatrix} z_1^0&amp;z_2^0&amp;\cdots&amp;z_N^0\\z_1&amp;z_2&amp;\cdots&amp;z_N\\\vdots&amp;\vdots&amp;&amp;\vdots\\z_1^{N-1}&amp;z_2^{N-1}&amp;\cdots&amp;z_N^{N-1}\end{vmatrix}=\prod_{i&lt;j}(z_j-z_i)" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
 <node TEXT="DFT" POSITION="right" ID="ID_276045650" CREATED="1553567642598" MODIFIED="1553567906394" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/Density%20Functional%20Theory.mm">
@@ -120,25 +120,25 @@
 <node TEXT="QM interpretation of momentum:&#xa;phase dependence in the position" ID="ID_277422334" CREATED="1668155455837" MODIFIED="1668155480127"/>
 </node>
 </node>
-<node TEXT="Schrodinger Equation" POSITION="left" ID="ID_1339063206" CREATED="1603104270726" MODIFIED="1603104278828">
+<node TEXT="Schrodinger Equation" FOLDED="true" POSITION="left" ID="ID_1339063206" CREATED="1603104270726" MODIFIED="1603104278828">
 <edge COLOR="#808080"/>
 <node TEXT="for Hamiltonian not contain time dependency, we could use&#xa;variable seperation to get steady-state Schrodinger Equation" ID="ID_1001252347" CREATED="1603104279194" MODIFIED="1668171082170"/>
 <node TEXT="\latex (1) multiply it by $\psi_t^*$ \\&#xa;(2) take complex conjugate and multiplied by $\psi_t$\\&#xa;$\rightarrow$ subtract (1) and (2)" ID="ID_747552170" CREATED="1603105085303" MODIFIED="1668244656562">
-<node TEXT="\latex particle conservation equation&#xa;\\$\frac{\partial |\psi_t|^2}{\partial t}+\nabla\cdot\vec J=0$ \\&#xa;$\vec J = \frac{i\hbar}{2m}(\psi_t\nabla\psi_t^*-\psi_t^*\nabla\psi_t)$" ID="ID_414783129" CREATED="1603105292125" MODIFIED="1603105606915"/>
+<node TEXT="\latex particle conservation equation&#xa;\\$\frac{\partial |\psi_t|^2}{\partial t}+\nabla\cdot(\frac{i\hbar}{2m}(\psi_t\nabla\psi_t^*-\psi_t^*\nabla\psi_t))=0$ \\&#xa;$\Rightarrow\vec J \equiv \frac{i\hbar}{2m}(\psi_t\nabla\psi_t^*-\psi_t^*\nabla\psi_t)$" ID="ID_414783129" CREATED="1603105292125" MODIFIED="1668411305731"/>
 </node>
-<node TEXT="boundary conditions" FOLDED="true" ID="ID_470983993" CREATED="1603106848874" MODIFIED="1603106853654">
-<node TEXT="general BCs:the continuity of the wavefuncs&#xa;and their first derivatives at the boundaries" FOLDED="true" ID="ID_702353675" CREATED="1603106854238" MODIFIED="1603106927786">
+<node TEXT="boundary conditions" ID="ID_470983993" CREATED="1603106848874" MODIFIED="1603106853654">
+<node TEXT="general BCs:the continuity of the wavefuncs&#xa;and their first derivatives at the boundaries" ID="ID_702353675" CREATED="1603106854238" MODIFIED="1603106927786">
 <node TEXT="continuity of self ensures the pdf not double-valued;&#xa;of 1st derivative ensures the continuity of the particle flux" ID="ID_1344413993" CREATED="1603106942532" MODIFIED="1603107330401"/>
 <node TEXT="the continuity of 1st derivatives can be derived by integrating SE&#xa;over an infinitely thin control volume encompassing the boundary" ID="ID_158962103" CREATED="1603106987923" MODIFIED="1603107072613"/>
 </node>
 </node>
-<node TEXT="dimension of wavefunction" FOLDED="true" ID="ID_450095409" CREATED="1604325703434" MODIFIED="1620102427358">
-<node TEXT="\latex $[\varphi]$ is different in concrete or continuous systems.\\&#xa;in concrete systems, $|\varphi|^2$ is simply possibility, $[\varphi]=[1]$\\&#xa;in continuous systems,$|\varphi|^2$ is pdf, so $[\varphi]=[m^{-\frac n2}]$" ID="ID_1018717122" CREATED="1604325708675" MODIFIED="1620102437170"/>
+<node TEXT="dimension of wavefunction" ID="ID_450095409" CREATED="1604325703434" MODIFIED="1620102427358">
+<node TEXT="\latex $[\varphi]$ is different in concrete or continuous systems.\\&#xa;in concrete systems, $|\varphi|^2$ is simply possibility, $[\varphi]=[1]$\\&#xa;in continuous systems,$|\varphi|^2$ is pdf, so $[\varphi]=[m^{-\frac n2}]$\\&#xa;($m$: meter; $n$: dimension of space)" ID="ID_1018717122" CREATED="1604325708675" MODIFIED="1668411574910"/>
 </node>
-<node TEXT="\latex 热核(Heat kernel)\\&#xa;$K(t,x,y)=\frac1{(4\pi a^2t)^{d/2}}e^{-\frac{|x-y|^2}{4a^2t}}$" FOLDED="true" ID="ID_280278447" CREATED="1620128517202" MODIFIED="1626172882211">
+<node TEXT="\latex 热核(Heat kernel)\\&#xa;$K(t,x,y)=\frac1{(4\pi a^2t)^{d/2}}e^{-\frac{|x-y|^2}{4a^2t}}$" ID="ID_280278447" CREATED="1620128517202" MODIFIED="1626172882211">
 <node TEXT="\latex 热传递方程$\partial_tu-a^2\nabla^2u=0$的初值问题\\(给定$t=0$的$u(x,0)$)的格林函数" ID="ID_1846830172" CREATED="1620128642939" MODIFIED="1620128925321"/>
-<node TEXT="\latex free S.E.:$i\partial_t\psi+\frac{\nabla^2}{2m}\psi=0$\\&#xa;set $a^2=\frac i{2m}$, 不严格地得出其&quot;\textbf{虚时热核}&quot;:\\&#xa;$K(t,x,y)=(\frac{m}{2\pi it})^{d/2}e^{\frac{im|x-y|^2}{2t}}$" FOLDED="true" ID="ID_743479664" CREATED="1620131978233" MODIFIED="1620132166148">
-<node TEXT="与实时热核相比性质有很大区别, 实时热核是Schwartz(速降光滑)函数, 因此实时热核作用的函数光滑性会不可逆地瞬间提升&#xa;而虚时热核比较普通,对函数的光滑性无改善, 但却可逆" FOLDED="true" ID="ID_414705837" CREATED="1620132250995" MODIFIED="1620134291711">
+<node TEXT="\latex free S.E.:$i\partial_t\psi+\frac{\nabla^2}{2m}\psi=0$\\&#xa;set $a^2=\frac i{2m}$, 不严格地得出其&quot;\textbf{虚时热核}&quot;:\\&#xa;$K(t,x,y)=(\frac{m}{2\pi it})^{d/2}e^{\frac{im|x-y|^2}{2t}}$" ID="ID_743479664" CREATED="1620131978233" MODIFIED="1620132166148">
+<node TEXT="与实时热核相比性质有很大区别, 实时热核是Schwartz(速降光滑)函数, 因此实时热核作用的函数光滑性会不可逆地瞬间提升&#xa;而虚时热核比较普通,对函数的光滑性无改善, 但却可逆" ID="ID_414705837" CREATED="1620132250995" MODIFIED="1620134291711">
 <node TEXT="对应物理意义: 热传递方程不能时间反演,&#xa; 而S.E.可以时间反演" ID="ID_1593114501" CREATED="1620132457427" MODIFIED="1620132508150"/>
 <node TEXT="\latex Schwartz函数: 当自变量X\rightarrow\infty时,\\&#xa;函数值f(X)\rightarrow0 &quot;足够快&quot;" ID="ID_1812585713" CREATED="1620134295866" MODIFIED="1620134380379"/>
 </node>
@@ -155,7 +155,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Hydrogen atom" FOLDED="true" POSITION="right" ID="ID_1486183753" CREATED="1603352087597" MODIFIED="1603352092818">
+<node TEXT="Hydrogen atom" POSITION="right" ID="ID_1486183753" CREATED="1603352087597" MODIFIED="1603352092818">
 <edge COLOR="#808080"/>
 <node TEXT="\latex $\psi_{nlm} = R_{nl}(r)Y_l^m(\theta,\phi)$ \\&#xa;R is radial wavefunc, while Y is spherical harmonic" ID="ID_1851564051" CREATED="1603352094728" MODIFIED="1603352176869"/>
 <node TEXT="\latex $E_n^{el} = -\frac{\mu e^4}{8h^2\epsilon_0^2}\frac1n=-\frac{13.6eV}{n^2}&#xa;,\ (n\ge l+1,|m|\le l,l\in N)$" FOLDED="true" ID="ID_1670580299" CREATED="1603355190295" MODIFIED="1603356426091">
@@ -164,7 +164,7 @@
 <node TEXT="lifting of the degeneracy: for multi-electron atoms, elec-elec interaction&#xa;can seperate the energy of different states with the same n apart" ID="ID_1945703512" CREATED="1603356557505" MODIFIED="1603356648077"/>
 <node TEXT="the inert atom: energy gap between states of different n is much larger&#xa;than thermal fluctuation(26 meV at RT)" ID="ID_301192667" CREATED="1603356668855" MODIFIED="1603356730430"/>
 </node>
-<node TEXT="\latex Master Equation in Quantum(Gorini-Kossakowski-Sudarshan-Lindblad equation) \\&#xa;$\dot {\rho }=-{\frac i\hbar}[\mathcal H,\rho ]+\sum _{n,m=1}^{N^{2}-1}h_{nm}\left(A_{n}\rho A_{m}^{\dagger }-{\frac {1}{2}}\left\{A_{m}^{\dagger }A_{n},\rho \right\}\right)$" FOLDED="true" POSITION="left" ID="ID_763536315" CREATED="1618294827473" MODIFIED="1618295159736">
+<node TEXT="\latex Master Equation in Quantum(Gorini-Kossakowski-Sudarshan-Lindblad equation) \\&#xa;$\dot {\rho }=-{\frac i\hbar}[\mathcal H,\rho ]+\sum _{n,m=1}^{N^{2}-1}h_{nm}\left(A_{n}\rho A_{m}^{\dagger }-{\frac {1}{2}}\left\{A_{m}^{\dagger }A_{n},\rho \right\}\right)$\\&#xa;($\rho$ here is not pdf, but a density \textbf{operator}(density matrix)" FOLDED="true" POSITION="left" ID="ID_763536315" CREATED="1618294827473" MODIFIED="1668412076556">
 <edge COLOR="#808080"/>
 <node TEXT="for open quantum system where some participating&#xa;degrees of freedom are missed&#xa;(there is decay and the phase coherence can&apos;t be&#xa;maintained throughout the process)" FOLDED="true" ID="ID_804844522" CREATED="1618294832841" MODIFIED="1618295595735">
 <node TEXT="Schrodinger Equation is a special case&#xa;of the more general Lindblad equation" ID="ID_389188448" CREATED="1618295108218" MODIFIED="1618295131578"/>
@@ -173,14 +173,15 @@
 </node>
 <node TEXT="Multi-State system" FOLDED="true" POSITION="right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
 <edge COLOR="#808080"/>
-<node TEXT="two-state quantum system" FOLDED="true" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1618299076700">
+<node TEXT="two-state quantum system" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1618299076700">
 <font NAME="TSCu_Times" SIZE="16"/>
 <node TEXT="two-state Hamiltonian" ID="ID_1349993665" CREATED="1543803412260" MODIFIED="1544323095159">
-<hook EQUATION="\mathscr H =a\sigma_0+b\sigma_1+c\sigma_2+d\sigma_3 (\sigma_0= I,\sigma_i(i=1,2,3)\ are\ Pauli\ matrices)\\&#xa;=\vec E(\textbf{k})\cdot \vec\sigma+\epsilon(\textbf{k})\textbf{1}\\&#xa;\mathscr H=\begin{pmatrix}a_1&amp; c-id\\c+id &amp; a_2 \end{pmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
+<hook EQUATION="\mathscr H =a\sigma_0+b\sigma_1+c\sigma_2+d\sigma_3 (\sigma_0= I,\sigma_i(i=1,2,3)\ are\ Pauli\ matrices)\\&#xa;=\vec E(\textbf{k})\cdot \vec\sigma+\epsilon(\textbf{k})\textbf{1}\\&#xa;\mathscr H=\begin{pmatrix}a+d&amp;b-ic\\b+ic &amp; a-d \end{pmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
 <font NAME="TSCu_Times" SIZE="16"/>
+<node TEXT="\latex Pauli Matrices(Hermitian, involutory and unitary)&#xa;\\$\sigma_{\{0\sim 4\}}$ form a basis for the real vector space of $2\times2$ Hermitian matrices,&#xa;\\i.e. the space of observables of the complex 2-dimensional Hilbert space&#xa;\\(the subscript means different axes)" ID="ID_1232392792" CREATED="1668414129469" MODIFIED="1668414459663"/>
 </node>
 </node>
-<node TEXT="Pure State and Mixed State" FOLDED="true" ID="ID_1596844151" CREATED="1618299080910" MODIFIED="1618299089051">
+<node TEXT="Pure State and Mixed State" ID="ID_1596844151" CREATED="1618299080910" MODIFIED="1618299089051">
 <node TEXT="可以理解为混合态就是经典情形的混合态,纯态是量子叠加态对应的情形（单态）" ID="ID_1000925271" CREATED="1618299108568" MODIFIED="1618299162982"/>
 </node>
 <node TEXT="Density Matrix" ID="ID_1185707368" CREATED="1618299094304" MODIFIED="1618299097822"/>
@@ -190,8 +191,9 @@
 <node TEXT="\latex $\hat H_\lambda$ depends upon continuous parameter \lambda,\\ thus $|\psi_\lambda\rangle$ depends implicitly upon \lambda" ID="ID_555795630" CREATED="1620100072338" MODIFIED="1620100152016"/>
 <node TEXT="\latex Proof:$\frac{dE_\lambda}{d\lambda}=\frac d{d\lambda}\langle\psi_\lambda|\hat H_\lambda|\psi_\lambda\rangle$\\&#xa;$=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle+E_\lambda\frac d{d\lambda}\langle \psi_\lambda|\psi_\lambda\rangle$" ID="ID_49562626" CREATED="1620101624730" MODIFIED="1620101755636"/>
 <node TEXT="\latex for time-dependent wavefunctions: \\&#xa;H-F theorem is not valid, only the following identity holds\\&#xa;$\langle\Psi_\lambda(t)|\frac{\partial H_\lambda}{\partial \lambda}|\Psi_\lambda(t)\rangle =i\hbar \frac\partial{\partial t}\langle\Psi_\lambda(t)|\frac{\partial \Psi_\lambda(t)}{\partial \lambda}\rangle$" ID="ID_1603038051" CREATED="1620101812062" MODIFIED="1620102103461"/>
+<node TEXT="once the spatial distribution of the electrons has been determined by solving the S.E.&#xa;all the forces in the system can be calculated using classical electrostatics" ID="ID_931519772" CREATED="1668415603230" MODIFIED="1668415702220"/>
 </node>
-<node TEXT="Scattering" FOLDED="true" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
+<node TEXT="Scattering" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
 <edge COLOR="#808080"/>
 <node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1620198814966"><richcontent TYPE="NODE">
 
@@ -309,7 +311,7 @@
 </node>
 </node>
 </node>
-<node TEXT="\latex Self Energy: $\Delta(\omega)-i\Gamma(\omega)$" FOLDED="true" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1620309824256">
+<node TEXT="\latex Self Energy: $\Delta(\omega)-i\Gamma(\omega)$" ID="ID_585117769" CREATED="1617689817525" MODIFIED="1620309824256">
 <node TEXT="\latex Real part $\Delta(\omega)$: associated with the change of freq(i.e. renormalization) due to scattering\\&#xa;\therefore responsible for the temperature dependence of freq." FOLDED="true" ID="ID_679969104" CREATED="1620309800158" MODIFIED="1620309929912">
 <node TEXT="\latex Feynman diagrams of the leading order terms \\in the real part of self-energy\\&#xa;a)\rightarrow thermal expansion $\Delta^{(0)}$\\&#xa;b)\rightarrow third order contribution $\Delta^{(3)}$\\&#xa;c)\rightarrow fourth order contribution $\Delta^{(4)}$" ID="ID_946248051" CREATED="1620312210898" MODIFIED="1620312635653">
 <hook URI="quantum-pix/feynmann-diagram-self-energy-phonon.png" SIZE="0.62240666" NAME="ExternalObject"/>
@@ -329,12 +331,15 @@
 <node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
 </node>
 </node>
-<node TEXT="量子力学公理体系" POSITION="left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
+<node TEXT="量子力学公理体系" FOLDED="true" POSITION="left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
 <edge COLOR="#808080"/>
-<node TEXT="\latex 每个系统对应一个可分无穷维的复Hilbert空间H,\\其中一元素$\psi$完备地描述了系统的状态." FOLDED="true" ID="ID_830415903" CREATED="1620133241205" MODIFIED="1620133332640">
+<node TEXT="\latex 每个系统对应一个可分无穷维的复Hilbert空间H,\\其中一元素$\psi$完备地描述了系统的状态." ID="ID_830415903" CREATED="1620133241205" MODIFIED="1620133332640">
 <node TEXT="\latex 可分无穷维的H空间彼此等价。物理中常把H取为\\$L^2(-\infty,+\infty)$或$l^2$,把其中元素$\psi$称为波函数/态矢量。" ID="ID_722646190" CREATED="1620133346734" MODIFIED="1620133422467"/>
+<node TEXT="波函数对应的是空间中的射线而不是向量" ID="ID_114895142" CREATED="1668412148512" MODIFIED="1668412165384"/>
 </node>
-<node TEXT="\latex 每个可观测量$\mathscr A$ 唯一的对应于一个H中的稠定的自伴算子A。" ID="ID_944096249" CREATED="1620133433020" MODIFIED="1620133485793"/>
+<node TEXT="\latex 每个可观测量$\mathscr A$ 唯一的对应于一个H中的稠定的自伴算子A。" ID="ID_944096249" CREATED="1620133433020" MODIFIED="1620133485793">
+<node TEXT="自伴算子：表示为厄米矩阵，根据谱定理，&#xa;必定存在一个正交归一基，将其表示为实对角矩阵" ID="ID_837643489" CREATED="1668412235855" MODIFIED="1668412317810"/>
+</node>
 <node TEXT="\latex 若系统的态矢量为$\psi$，则可观测量$\mathscr A$ 的观测期望值为\\$E(\mathscr A)=\langle\psi,A\psi\rangle$且$E(\mathscr A^m)=\langle \psi,A^m\psi\rangle$" ID="ID_1280715706" CREATED="1620133496217" MODIFIED="1620133596238"/>
 <node TEXT="\latex 若一次观测后，对可观察量A的测量结果为$\lambda$,\\则测量之后系统的态$\psi^\prime$应满足$A\psi^\prime=\lambda\psi^\prime$(坍缩)" ID="ID_639426441" CREATED="1620133654952" MODIFIED="1620133725153"/>
 <node TEXT="\latex 态矢量A的时间演化方程由薛定谔方程决定。" ID="ID_406711474" CREATED="1620133746380" MODIFIED="1620133753528"/>
