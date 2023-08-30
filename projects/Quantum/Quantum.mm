@@ -1,12 +1,12 @@
-<map version="freeplane 1.9.13" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
+<map version="freeplane 1.11.5" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544943399565_6mk1jnj51c1lulyomfsxnxt9o">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="2.357">
+<node TEXT="Quantum" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1603351952570"><hook NAME="MapStyle" zoom="1.813">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_680380925" MAX_WIDTH="600 px" COLOR="#000000" STYLE="as_parent">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_680380925" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
@@ -22,7 +22,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,7 +36,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -57,10 +57,10 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="QHE" POSITION="right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
+<node TEXT="QHE" POSITION="bottom_or_right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="perturbation theory" FOLDED="true" POSITION="right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1667217332808">
+<node TEXT="perturbation theory" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745527432" CREATED="1545021394806" MODIFIED="1667217332808">
 <edge COLOR="#00ff00"/>
 <node TEXT="微扰理论对能量的近似很精确,但对于波函数近似不太理想" ID="ID_1710819061" CREATED="1545021402789" MODIFIED="1545021435659"/>
 <node TEXT="微扰论通过微扰展开然后舍去高阶项得到(注意Hamiltonian本身微扰是确定的,只有一阶)" ID="ID_1039485957" CREATED="1545021441720" MODIFIED="1553569373786">
@@ -71,7 +71,7 @@
 </node>
 <node TEXT="\latex $(H+\lambda V)(\lambda^i|n^{(i)}\rangle)=(\lambda^j E_n^{(j)})(\lambda^k|n^{(k)}\rangle)$\\&#xa;expand according to the power of $\lambda$ to extract nth-order eq." ID="ID_1805065596" CREATED="1619431757330" MODIFIED="1619432038233">
 <node TEXT="\latex first-order: $H_0|n^{(1)}\rangle+V|n^{(0)}\rangle = E_n^{(0)}|n^{(1)}\rangle +E_n^{(1)}|n^{(0)}\rangle$\\&#xa;operating through by $\langle n^{(0)}|$: $E_n^{(1)}=\langle n^{(0)} |V|n^{(0)}\rangle$" ID="ID_1682919374" CREATED="1619432160204" MODIFIED="1668412455855">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="102.75 pt;0 pt;" ENDINCLINATION="93.75 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="103 pt;0 pt;" ENDINCLINATION="94 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 </node>
 </node>
 </node>
@@ -88,10 +88,10 @@
 </node>
 </node>
 </node>
-<node TEXT="sundry" POSITION="left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1603094601040" LINK="sundry.mm">
+<node TEXT="sundry" POSITION="top_or_left" ID="ID_615039511" CREATED="1545044721486" MODIFIED="1603094601040" LINK="sundry.mm">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="many-particle wavefunction" FOLDED="true" POSITION="left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
+<node TEXT="many-particle wavefunction" FOLDED="true" POSITION="top_or_left" ID="ID_1572686622" CREATED="1545050387208" MODIFIED="1545050396138">
 <edge COLOR="#ffff00"/>
 <node TEXT="Slater determinant(multi-fermionic)" ID="ID_1154585874" CREATED="1545050399328" MODIFIED="1668325985087">
 <hook EQUATION="\psi(x_1,\dots,x_N)\equiv |\psi_1,\dots,\psi_N \rangle=\frac{1}{\sqrt{N!}}\begin{vmatrix} \psi_1(x_1) &amp; \psi_1(x_2) &amp; \cdots &amp; \psi_1(x_N) \\&#xa;                          \psi_2(x_1) &amp; \psi_2(x_2) &amp; \cdots &amp; \psi_2(x_N) \\   &#xa;                           \vdots     &amp;  \vdots     &amp;        &amp; \vdots      \\&#xa;                          \psi_N(x_1) &amp; \psi_N(x_2) &amp; \cdots &amp; \psi_N(x_N)&#xa;\end{vmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
@@ -101,26 +101,27 @@
 <hook EQUATION="f(z_i)=\begin{vmatrix} z_1^0&amp;z_2^0&amp;\cdots&amp;z_N^0\\z_1&amp;z_2&amp;\cdots&amp;z_N\\\vdots&amp;\vdots&amp;&amp;\vdots\\z_1^{N-1}&amp;z_2^{N-1}&amp;\cdots&amp;z_N^{N-1}\end{vmatrix}=\prod_{i&lt;j}(z_j-z_i)" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 </node>
-<node TEXT="DFT" POSITION="right" ID="ID_276045650" CREATED="1553567642598" MODIFIED="1553567906394" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/Density%20Functional%20Theory.mm">
+<node TEXT="DFT" POSITION="bottom_or_right" ID="ID_276045650" CREATED="1553567642598" MODIFIED="1553567906394" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/Density%20Functional%20Theory.mm">
 <edge COLOR="#7c0000"/>
 </node>
-<node TEXT="Symmetry" FOLDED="true" POSITION="left" ID="ID_1724974685" CREATED="1555986884302" MODIFIED="1555986890962">
+<node TEXT="Symmetry" FOLDED="true" POSITION="top_or_left" ID="ID_1724974685" CREATED="1555986884302" MODIFIED="1555986890962">
 <edge COLOR="#808080"/>
 <node TEXT="Continuous symmetry(e.g. Lorentz invariance)" ID="ID_1529360401" CREATED="1555986892596" MODIFIED="1555987009119"/>
 <node TEXT="Discrete symmetry(e.g. PT symmetry)" ID="ID_398097461" CREATED="1555987010194" MODIFIED="1555987041219"/>
 </node>
-<node TEXT="Solid State Physics" FOLDED="true" POSITION="right" ID="ID_591703259" CREATED="1603076188109" MODIFIED="1603076202181" LINK="Solid%20State%20Physics.mm">
+<node TEXT="Solid State Physics" POSITION="bottom_or_right" ID="ID_591703259" CREATED="1603076188109" MODIFIED="1603076202181" LINK="Solid%20State%20Physics.mm">
 <edge COLOR="#808080"/>
 <node TEXT="Band Theory" ID="ID_1741423531" CREATED="1603077243351" MODIFIED="1603077316154" LINK="Band%20Theory.mm"/>
 </node>
-<node TEXT="spin" FOLDED="true" POSITION="left" ID="ID_841999427" CREATED="1603274393760" MODIFIED="1603274401717">
+<node TEXT="spin" POSITION="top_or_left" ID="ID_841999427" CREATED="1603274393760" MODIFIED="1603274401717">
 <edge COLOR="#808080"/>
 <node TEXT="not involved in Schrodinger Equation" ID="ID_1741280739" CREATED="1603274402509" MODIFIED="1668153707202"/>
 <node TEXT="\latex spin implies that the phase of the particle \\&#xa;depends on the angle as $e^{iS\theta}$\\&#xa;(for rotation of angle $\theta$ around the axis parallel to $S$)" ID="ID_1113140519" CREATED="1668155035135" MODIFIED="1668155448957">
 <node TEXT="QM interpretation of momentum:&#xa;phase dependence in the position" ID="ID_277422334" CREATED="1668155455837" MODIFIED="1668155480127"/>
 </node>
+<node TEXT="Spintronics" ID="ID_1810682717" CREATED="1693384733681" MODIFIED="1693384753871" LINK="Spintronics.mm"/>
 </node>
-<node TEXT="Schrodinger Equation" FOLDED="true" POSITION="left" ID="ID_1339063206" CREATED="1603104270726" MODIFIED="1603104278828">
+<node TEXT="Schrodinger Equation" FOLDED="true" POSITION="top_or_left" ID="ID_1339063206" CREATED="1603104270726" MODIFIED="1603104278828">
 <edge COLOR="#808080"/>
 <node TEXT="for Hamiltonian not contain time dependency, we could use&#xa;variable seperation to get steady-state Schrodinger Equation" ID="ID_1001252347" CREATED="1603104279194" MODIFIED="1668171082170"/>
 <node TEXT="\latex (1) multiply it by $\psi_t^*$ \\&#xa;(2) take complex conjugate and multiplied by $\psi_t$\\&#xa;$\rightarrow$ subtract (1) and (2)" ID="ID_747552170" CREATED="1603105085303" MODIFIED="1668244656562">
@@ -145,7 +146,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Quantization" POSITION="right" ID="ID_1993487371" CREATED="1603344453639" MODIFIED="1603344457948">
+<node TEXT="Quantization" POSITION="bottom_or_right" ID="ID_1993487371" CREATED="1603344453639" MODIFIED="1603344457948">
 <edge COLOR="#808080"/>
 <node TEXT="infinite potential well" ID="ID_826106204" CREATED="1603344486734" MODIFIED="1603344492607"/>
 <node TEXT="rotation(spherical harmonic)" FOLDED="true" ID="ID_863293869" CREATED="1603344459893" MODIFIED="1603355146959">
@@ -155,7 +156,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Hydrogen atom" POSITION="right" ID="ID_1486183753" CREATED="1603352087597" MODIFIED="1603352092818">
+<node TEXT="Hydrogen atom" FOLDED="true" POSITION="bottom_or_right" ID="ID_1486183753" CREATED="1603352087597" MODIFIED="1603352092818">
 <edge COLOR="#808080"/>
 <node TEXT="\latex $\psi_{nlm} = R_{nl}(r)Y_l^m(\theta,\phi)$ \\&#xa;R is radial wavefunc, while Y is spherical harmonic" ID="ID_1851564051" CREATED="1603352094728" MODIFIED="1603352176869"/>
 <node TEXT="\latex $E_n^{el} = -\frac{\mu e^4}{8h^2\epsilon_0^2}\frac1n=-\frac{13.6eV}{n^2}&#xa;,\ (n\ge l+1,|m|\le l,l\in N)$" FOLDED="true" ID="ID_1670580299" CREATED="1603355190295" MODIFIED="1603356426091">
@@ -164,14 +165,14 @@
 <node TEXT="lifting of the degeneracy: for multi-electron atoms, elec-elec interaction&#xa;can seperate the energy of different states with the same n apart" ID="ID_1945703512" CREATED="1603356557505" MODIFIED="1603356648077"/>
 <node TEXT="the inert atom: energy gap between states of different n is much larger&#xa;than thermal fluctuation(26 meV at RT)" ID="ID_301192667" CREATED="1603356668855" MODIFIED="1603356730430"/>
 </node>
-<node TEXT="\latex Master Equation in Quantum(Gorini-Kossakowski-Sudarshan-Lindblad equation) \\&#xa;$\dot {\rho }=-{\frac i\hbar}[\mathcal H,\rho ]+\sum _{n,m=1}^{N^{2}-1}h_{nm}\left(A_{n}\rho A_{m}^{\dagger }-{\frac {1}{2}}\left\{A_{m}^{\dagger }A_{n},\rho \right\}\right)$\\&#xa;($\rho$ here is not pdf, but a density \textbf{operator}(density matrix)" FOLDED="true" POSITION="left" ID="ID_763536315" CREATED="1618294827473" MODIFIED="1668412076556">
+<node TEXT="\latex Master Equation in Quantum(Gorini-Kossakowski-Sudarshan-Lindblad equation) \\&#xa;$\dot {\rho }=-{\frac i\hbar}[\mathcal H,\rho ]+\sum _{n,m=1}^{N^{2}-1}h_{nm}\left(A_{n}\rho A_{m}^{\dagger }-{\frac {1}{2}}\left\{A_{m}^{\dagger }A_{n},\rho \right\}\right)$\\&#xa;($\rho$ here is not pdf, but a density \textbf{operator}(density matrix)" FOLDED="true" POSITION="top_or_left" ID="ID_763536315" CREATED="1618294827473" MODIFIED="1668412076556">
 <edge COLOR="#808080"/>
 <node TEXT="for open quantum system where some participating&#xa;degrees of freedom are missed&#xa;(there is decay and the phase coherence can&apos;t be&#xa;maintained throughout the process)" FOLDED="true" ID="ID_804844522" CREATED="1618294832841" MODIFIED="1618295595735">
 <node TEXT="Schrodinger Equation is a special case&#xa;of the more general Lindblad equation" ID="ID_389188448" CREATED="1618295108218" MODIFIED="1618295131578"/>
 </node>
 <node TEXT="\latex $A_m$ is an arbitrary orthonormal basis of the Hilbert-Schmidt\\&#xa; operators on the system&apos;s Hilbert space \\&#xa;$A_n=|i\rangle\langle j|,\; i,j=1\sim N$(due to $\sum|i\rangle\langle i|=1$, total ($N^2-1$)terms)" ID="ID_467098312" CREATED="1618296806892" MODIFIED="1618297175556"/>
 </node>
-<node TEXT="Multi-State system" FOLDED="true" POSITION="right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
+<node TEXT="Multi-State system" FOLDED="true" POSITION="bottom_or_right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
 <edge COLOR="#808080"/>
 <node TEXT="two-state quantum system" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1618299076700">
 <font NAME="TSCu_Times" SIZE="16"/>
@@ -186,14 +187,14 @@
 </node>
 <node TEXT="Density Matrix" ID="ID_1185707368" CREATED="1618299094304" MODIFIED="1618299097822"/>
 </node>
-<node TEXT="\latex Hellmann-Feynman theorem \\&#xa;$\frac{dE_\lambda}{d\lambda}=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle$" FOLDED="true" POSITION="right" ID="ID_1773091735" CREATED="1620099943171" MODIFIED="1620100015099">
+<node TEXT="\latex Hellmann-Feynman theorem \\&#xa;$\frac{dE_\lambda}{d\lambda}=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle$" FOLDED="true" POSITION="bottom_or_right" ID="ID_1773091735" CREATED="1620099943171" MODIFIED="1620100015099">
 <edge COLOR="#808080"/>
 <node TEXT="\latex $\hat H_\lambda$ depends upon continuous parameter \lambda,\\ thus $|\psi_\lambda\rangle$ depends implicitly upon \lambda" ID="ID_555795630" CREATED="1620100072338" MODIFIED="1620100152016"/>
 <node TEXT="\latex Proof:$\frac{dE_\lambda}{d\lambda}=\frac d{d\lambda}\langle\psi_\lambda|\hat H_\lambda|\psi_\lambda\rangle$\\&#xa;$=\langle\psi_\lambda|\frac{d\hat H_\lambda}{d\lambda}|\psi_\lambda\rangle+E_\lambda\frac d{d\lambda}\langle \psi_\lambda|\psi_\lambda\rangle$" ID="ID_49562626" CREATED="1620101624730" MODIFIED="1620101755636"/>
 <node TEXT="\latex for time-dependent wavefunctions: \\&#xa;H-F theorem is not valid, only the following identity holds\\&#xa;$\langle\Psi_\lambda(t)|\frac{\partial H_\lambda}{\partial \lambda}|\Psi_\lambda(t)\rangle =i\hbar \frac\partial{\partial t}\langle\Psi_\lambda(t)|\frac{\partial \Psi_\lambda(t)}{\partial \lambda}\rangle$" ID="ID_1603038051" CREATED="1620101812062" MODIFIED="1620102103461"/>
 <node TEXT="once the spatial distribution of the electrons has been determined by solving the S.E.&#xa;all the forces in the system can be calculated using classical electrostatics" ID="ID_931519772" CREATED="1668415603230" MODIFIED="1668415702220"/>
 </node>
-<node TEXT="Scattering" POSITION="left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
+<node TEXT="Scattering" FOLDED="true" POSITION="top_or_left" ID="ID_411473280" CREATED="1619400770422" MODIFIED="1620109429770">
 <edge COLOR="#808080"/>
 <node ID="ID_1989224394" CREATED="1619401096172" MODIFIED="1620198814966"><richcontent TYPE="NODE">
 
@@ -226,7 +227,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" FOLDED="true" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" FOLDED="true" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.25 pt;14.25 pt;" ENDINCLINATION="9.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.5 pt;14.5 pt;" ENDINCLINATION="10 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -295,7 +296,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="suitable for U-process" ID="ID_1235914460" CREATED="1620280461853" MODIFIED="1620280486987" HGAP_QUANTITY="21.06748 pt" VSHIFT_QUANTITY="-2.65031 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="695.99998 pt;0 pt;" ENDINCLINATION="695.99998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="696 pt;0 pt;" ENDINCLINATION="696 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex 长波极限下纵波声子只能参与\\\textbf{总数反比于波长平方}的散射($N\propto q^2$)" ID="ID_871968797" CREATED="1620279822068" MODIFIED="1620279946420"/>
@@ -331,7 +332,7 @@
 <node TEXT="\latex semiconductors&apos; more complicated\\&#xa;determine whether caused by acoustic/optical phonons \\&#xa;$\rightarrow$ optical phonons can be divided into nonpolar/polar" ID="ID_1334523107" CREATED="1619681316428" MODIFIED="1619681430718"/>
 </node>
 </node>
-<node TEXT="量子力学公理体系" FOLDED="true" POSITION="left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
+<node TEXT="量子力学公理体系" FOLDED="true" POSITION="top_or_left" ID="ID_766120309" CREATED="1620133206744" MODIFIED="1620133215713">
 <edge COLOR="#808080"/>
 <node TEXT="\latex 每个系统对应一个可分无穷维的复Hilbert空间H,\\其中一元素$\psi$完备地描述了系统的状态." ID="ID_830415903" CREATED="1620133241205" MODIFIED="1620133332640">
 <node TEXT="\latex 可分无穷维的H空间彼此等价。物理中常把H取为\\$L^2(-\infty,+\infty)$或$l^2$,把其中元素$\psi$称为波函数/态矢量。" ID="ID_722646190" CREATED="1620133346734" MODIFIED="1620133422467"/>

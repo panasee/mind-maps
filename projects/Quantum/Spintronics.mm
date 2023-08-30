@@ -3,7 +3,7 @@
 <node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1692354177196" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1690525622000" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1690525622000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -69,7 +69,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Magnetism" POSITION="bottom_or_right" ID="ID_1369141927" CREATED="1692353485174" MODIFIED="1692354169092">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
@@ -97,6 +97,9 @@
 <node TEXT="long range order possible only @ T=0" ID="ID_1812797049" CREATED="1692355307597" MODIFIED="1692355321092"/>
 </node>
 </node>
+</node>
+<node TEXT="Spin-Orbit Coupling" POSITION="top_or_left" ID="ID_291027025" CREATED="1693384944936" MODIFIED="1693384951240">
+<edge COLOR="#00ff00"/>
 </node>
 </node>
 </map>
