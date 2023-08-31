@@ -1,12 +1,12 @@
-<map version="freeplane 1.9.0" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="2.858">
+<map version="freeplane 1.11.5" project="167A736E6474EN5HFQMO2X5KXYT63TF1CPBR" dcr_id="1544699517248_svunadmu57iu5mtnhb1sltbc">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="QHE" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1623032875620"><hook NAME="MapStyle" zoom="1.691">
     <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_158638090" MAX_WIDTH="600 px" COLOR="#000000" STYLE="as_parent">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_158638090" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
@@ -20,9 +20,9 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,7 +36,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
 <font SIZE="18"/>
 </stylenode>
@@ -59,7 +59,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <edge STYLE="sharp_bezier" WIDTH="1"/>
 <font SIZE="14"/>
-<node TEXT="IQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1623032875620">
+<node TEXT="IQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1623032875620">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#ff0000"/>
 <node TEXT="resistivity &amp; conductivity" LOCALIZED_STYLE_REF="default" ID="ID_1149798585" CREATED="1543494243089" MODIFIED="1544323094979">
@@ -152,7 +152,7 @@
 </node>
 </node>
 <node TEXT="second, turn some states from extended to localized" ID="ID_333409284" CREATED="1543649435989" MODIFIED="1545047034673">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203.24999 pt;-24.75 pt;" ENDINCLINATION="-80.25 pt;18.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203 pt;-24.5 pt;" ENDINCLINATION="-80 pt;19 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="the center of the orbit, X drifts along equipotentials" ID="ID_66226761" CREATED="1543650213872" MODIFIED="1544323095020">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -182,7 +182,7 @@
 </node>
 </node>
 <node TEXT="Gauge Invariance" ID="ID_485433445" CREATED="1543651405067" MODIFIED="1545047208900">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-268.49999 pt;-132.75 pt;" ENDINCLINATION="165 pt;204.74999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-268 pt;-132.5 pt;" ENDINCLINATION="165 pt;204.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Corbino ring" ID="ID_934640366" CREATED="1545047221026" MODIFIED="1545047228120" MOVED="1545047394846">
 <node TEXT="the gauge transformation can be thought as the changing of flux through the centre of the ring" ID="ID_822295887" CREATED="1545047250560" MODIFIED="1545047365019">
@@ -291,7 +291,7 @@
 </node>
 </node>
 </node>
-<node TEXT="FQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_1109550582" CREATED="1543493884128" MODIFIED="1623032875621">
+<node TEXT="FQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_1109550582" CREATED="1543493884128" MODIFIED="1623032875621">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#0000ff"/>
 <node TEXT="including interactions between electrons" LOCALIZED_STYLE_REF="default" ID="ID_1580526852" CREATED="1543496210046" MODIFIED="1545048467030">
@@ -409,7 +409,7 @@
 </node>
 </node>
 <node TEXT="ground state degeneracy depends on the topology of the manifold (place them on a compact manifold)" ID="ID_1596501918" CREATED="1545199677762" MODIFIED="1545268421637">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_285201163" STARTINCLINATION="308.99999 pt;67.5 pt;" ENDINCLINATION="71.25 pt;209.99999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_285201163" STARTINCLINATION="309 pt;67.5 pt;" ENDINCLINATION="71.5 pt;210 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="create from vacuum a quasi-hole -- quasi-particle pair, let them move around two perpendicular circles on the torus ,then annihilate" ID="ID_1846610510" CREATED="1545199877749" MODIFIED="1545200745913">
 <hook EQUATION="corresponding\ operators\,;T_1\&amp;T_2,\ SO\ T_1T_2T_1^{-1}T_2^{-1}\Leftrightarrow take\ one\ anyon\ around\ another\\&#xa;so\ we\ get\Rightarrow T_1T_2=e^{2\pi i/m}T_2T_1  \rightarrow&#xa;this\ algebra\ of\ operators\ can&apos;t\ be\ reslised\ on\ a\ single\ vacuum\ state \Rightarrow the\ ground\ state\ must\ be\ degenerate" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="smallest representation of the former relation" ID="ID_957496401" CREATED="1545201247511" MODIFIED="1545201566013">
@@ -445,7 +445,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Bulk-Edge Correspondence" FOLDED="true" POSITION="right" ID="ID_878469582" CREATED="1543924121591" MODIFIED="1623032875621">
+<node TEXT="Bulk-Edge Correspondence" FOLDED="true" POSITION="bottom_or_right" ID="ID_878469582" CREATED="1543924121591" MODIFIED="1623032875621">
 <edge COLOR="#007c00"/>
 <font NAME="TSCu_Times" SIZE="14"/>
 <node TEXT="bulk insulator but edge fermi liquid" ID="ID_650199979" CREATED="1543924457820" MODIFIED="1544323094974">
@@ -464,7 +464,7 @@
 </node>
 </node>
 </node>
-<node TEXT="basic" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_1304796225" CREATED="1543493888985" MODIFIED="1623032875623" MOVED="1544699926232">
+<node TEXT="basic" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_1304796225" CREATED="1543493888985" MODIFIED="1623032875623" MOVED="1544699926232">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#00ff00"/>
 <node TEXT="Classical Hall Effect" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_810861857" CREATED="1543494163838" MODIFIED="1623032875623">
@@ -507,7 +507,7 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="turning on an electric field" ID="ID_26592283" CREATED="1543498321907" MODIFIED="1545046051894">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-117 pt;14.25 pt;" ENDINCLINATION="-389.24999 pt;271.49999 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-116.5 pt;14.5 pt;" ENDINCLINATION="-388.5 pt;271.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="conductivity when some levels are filled" ID="ID_916414675" CREATED="1543643544384" MODIFIED="1544323095128" MOVED="1543643796997">
@@ -535,7 +535,7 @@
 <node TEXT="for an adiabatic process, a sys starting with nth eigenstate remains nth, only picking up a couple of phase factors" ID="ID_211382559" CREATED="1623032755566" MODIFIED="1623032894624">
 <font SIZE="14"/>
 <node TEXT="\latex the new phase factor $\gamma_n(t)$ can be canceled out by\\&#xa;choosing an appropriate gauge for the eigenfuncs \\&#xa;$|n(\boldsymbol R) \rangle \rightarrow e^{i\zeta(\boldsymbol R)}| n (\boldsymbol R)\rangle$" ID="ID_1778508180" CREATED="1623032813486" MODIFIED="1623315780731">
-<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-155.25 pt;59.25 pt;" ENDINCLINATION="89.25 pt;-6.75 pt;"/>
+<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-155 pt;59.5 pt;" ENDINCLINATION="89.5 pt;-6.5 pt;"/>
 <font SIZE="14"/>
 <node TEXT="\latex $\boldsymbol A_n(\boldsymbol R) \rightarrow \boldsymbol A_n(\boldsymbol R) - \frac\partial{\partial\boldsymbol R} \zeta(\boldsymbol R)$\\&#xa;$\gamma_n\rightarrow\gamma_n - \zeta |_{\boldsymbol R(0)}^{\boldsymbol R(T)}$" ID="ID_1647131701" CREATED="1625664689519" MODIFIED="1625664881436"/>
 </node>
@@ -625,7 +625,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex the Berry curvature integrated over a closed manifold\\&#xa;is $2n\pi$, $n$ is the net number of monopoles contained inside\\&#xa;when integrated over 2-D surface, $n$ is \textbf{Chern number}" ID="ID_1975528722" CREATED="1625729177166" MODIFIED="1625729287111"/>
 </node>
@@ -672,7 +671,7 @@
 </node>
 </node>
 </node>
-<node TEXT="disorder" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="left" ID="ID_270286370" CREATED="1543495979641" MODIFIED="1623032875641" MOVED="1544699952209">
+<node TEXT="disorder" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_270286370" CREATED="1543495979641" MODIFIED="1623032875641" MOVED="1544699952209">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="as disorder decreasing" LOCALIZED_STYLE_REF="default" ID="ID_1541773936" CREATED="1543495985016" MODIFIED="1544323095161">
@@ -680,7 +679,7 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="gauge" LOCALIZED_STYLE_REF="default" POSITION="left" ID="ID_727646755" CREATED="1543497311945" MODIFIED="1623032875641" MOVED="1544699957644">
+<node TEXT="gauge" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_727646755" CREATED="1543497311945" MODIFIED="1623032875641" MOVED="1544699957644">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#7c0000"/>
 <node TEXT="Landau gauge" LOCALIZED_STYLE_REF="default" ID="ID_1117577542" CREATED="1543497327527" MODIFIED="1544323095165">
@@ -692,7 +691,7 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 </node>
-<node TEXT="Non-Abelian" FOLDED="true" POSITION="right" ID="ID_1538672792" CREATED="1545269944639" MODIFIED="1623032875641">
+<node TEXT="Non-Abelian" FOLDED="true" POSITION="bottom_or_right" ID="ID_1538672792" CREATED="1545269944639" MODIFIED="1623032875641">
 <edge COLOR="#0000ff"/>
 <font SIZE="14"/>
 <node TEXT="Higher LLs" FOLDED="true" ID="ID_956149356" CREATED="1545270021412" MODIFIED="1623032875642">
