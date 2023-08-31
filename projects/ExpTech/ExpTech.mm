@@ -3,7 +3,7 @@
 <node TEXT="ExpTech" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693385337824" STYLE="oval">
 <font NAME="Times New Roman" SIZE="22"/>
 <hook NAME="MapStyle" zoom="1.69">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" show_icon_for_attributes="true" show_note_icons="true" newNodeStyle=":style:default"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" newNodeStyle=":style:default"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -68,7 +68,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2D materials fabrication" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
@@ -86,6 +86,10 @@
 </node>
 <node TEXT="SOT" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_260131078" CREATED="1693386193197" MODIFIED="1693386198584">
 <edge COLOR="#0000ff"/>
+</node>
+<node TEXT="Procedure" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1693453824821">
+<edge COLOR="#00ff00"/>
+<node TEXT="1. Wafer preparation&#xa;2. PDMS(cutting PDMS -&gt; PC forming -&gt; windowed tape to pickup PC and cover PDMS -&gt; remove tape)&#xa;3. Exfoliation(tape -&gt; wafer -&gt; scope)&#xa;4. Pick up(top down, ensure alignment)&#xa;5. Electrode(wash -&gt; put (alignment))&#xa;6. PDMS Melt(melt -&gt; wash)&#xa;7. Circuit Routing(others&apos; lab)" LOCALIZED_STYLE_REF="default" ID="ID_1756950615" CREATED="1693453825202" MODIFIED="1693455855494"/>
 </node>
 </node>
 </map>
