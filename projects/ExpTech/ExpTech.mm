@@ -68,7 +68,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2D materials fabrication" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
@@ -86,10 +86,31 @@
 </node>
 <node TEXT="SOT" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_260131078" CREATED="1693386193197" MODIFIED="1693386198584">
 <edge COLOR="#0000ff"/>
+<node TEXT="Spin-pumping" LOCALIZED_STYLE_REF="default" ID="ID_961542393" CREATED="1693741642962" MODIFIED="1693741646130"/>
+<node TEXT="ST-FMR" LOCALIZED_STYLE_REF="default" ID="ID_1837375600" CREATED="1693741649516" MODIFIED="1693754188718"/>
+<node TEXT="AHE" LOCALIZED_STYLE_REF="default" ID="ID_1962542256" CREATED="1693741646542" MODIFIED="1693741648861"/>
+<node TEXT="Second Harmonic" LOCALIZED_STYLE_REF="default" ID="ID_1719681715" CREATED="1693754189867" MODIFIED="1693754194039"/>
 </node>
 <node TEXT="Procedure" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1693453824821">
 <edge COLOR="#00ff00"/>
 <node TEXT="1. Wafer preparation&#xa;2. PDMS(cutting PDMS -&gt; PC forming -&gt; windowed tape to pickup PC and cover PDMS -&gt; remove tape)&#xa;3. Exfoliation(tape -&gt; wafer -&gt; scope)&#xa;4. Pick up(top down, ensure alignment)&#xa;5. Electrode(wash -&gt; put (alignment))&#xa;6. PDMS Melt(melt -&gt; wash)&#xa;7. Circuit Routing(others&apos; lab)" LOCALIZED_STYLE_REF="default" ID="ID_1756950615" CREATED="1693453825202" MODIFIED="1693455855494"/>
+</node>
+<node TEXT="Microscopy" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1804485229" CREATED="1693741712431" MODIFIED="1693744238249">
+<edge COLOR="#ff00ff"/>
+<node TEXT="SEM(scanning electron microscope)" LOCALIZED_STYLE_REF="default" ID="ID_443154740" CREATED="1693741716710" MODIFIED="1693741753584">
+<node TEXT="scanning the surface with a focused beam of electrons" LOCALIZED_STYLE_REF="default" ID="ID_255936634" CREATED="1693741785349" MODIFIED="1693741798839"/>
+</node>
+<node TEXT="TEM(transmission electron microscope)" LOCALIZED_STYLE_REF="default" ID="ID_228599632" CREATED="1693741718991" MODIFIED="1693741832948">
+<node TEXT="a beam of electrons is transmitted through a specimen to form an image" LOCALIZED_STYLE_REF="default" ID="ID_1481812030" CREATED="1693741839349" MODIFIED="1693741914461"/>
+<node TEXT="specimen: ultrathin &lt; 100nm or a suspension on a grid" LOCALIZED_STYLE_REF="default" ID="ID_1161611941" CREATED="1693741888897" MODIFIED="1693741933314"/>
+</node>
+<node TEXT="STM(scanning tunneling microscope)" LOCALIZED_STYLE_REF="default" ID="ID_1141084" CREATED="1693741722805" MODIFIED="1693741962371">
+<node TEXT="used for imaging surface at the atomic level" LOCALIZED_STYLE_REF="default" ID="ID_1356912760" CREATED="1693741968985" MODIFIED="1693741984428"/>
+<node TEXT="quantum tunneling" LOCALIZED_STYLE_REF="default" ID="ID_1902401684" CREATED="1693742021508" MODIFIED="1693742025153"/>
+</node>
+<node TEXT="SPM(scanning probe microscopy)" LOCALIZED_STYLE_REF="default" ID="ID_1235978003" CREATED="1693744289759" MODIFIED="1693744300147">
+<node TEXT="AFM(atomic force microscopy)&#xa;/SFM(scanning force microscopy)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_482523076" CREATED="1693744242983" MODIFIED="1693744275558"/>
+</node>
 </node>
 </node>
 </map>
