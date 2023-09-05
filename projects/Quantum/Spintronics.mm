@@ -1,46 +1,33 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693646037716" STYLE="oval">
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
-<edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="Times New Roman" SIZE="14" BOLD="false" ITALIC="false"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#2e3440" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
-<font SIZE="11" BOLD="false" ITALIC="false"/>
-</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
-<font SIZE="10"/>
+<font SIZE="9"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#f6f9a1" TEXT_ALIGN="LEFT">
-<icon BUILTIN="clock2"/>
-<font SIZE="10"/>
-</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
-<icon BUILTIN="yes"/>
-<arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
-<font NAME="Ubuntu" SIZE="14"/>
-<edge COLOR="#bf616a"/>
-</stylenode>
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -50,42 +37,34 @@
 <stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
+</stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#eceff4" BACKGROUND_COLOR="#d08770" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
-<edge COLOR="#ff0000"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
 <font SIZE="16"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#3b4252" BACKGROUND_COLOR="#ebcb8b">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
 <font SIZE="14"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#2e3440" BACKGROUND_COLOR="#a3be8c">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
 <font SIZE="12"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#2e3440" BACKGROUND_COLOR="#b48ead">
-<font SIZE="11"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac">
-<font SIZE="11"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" BACKGROUND_COLOR="#81a1c1">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
 <font SIZE="10"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" BACKGROUND_COLOR="#88c0d0">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" BACKGROUND_COLOR="#8fbcbb">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" BACKGROUND_COLOR="#d8dee9">
-<font SIZE="10"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" BACKGROUND_COLOR="#e5e9f0">
-<font SIZE="9"/>
-</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
 </stylenode>
 </stylenode>
 </map_styles>
@@ -120,8 +99,50 @@
 </node>
 <node TEXT="Spin-Orbit Coupling" POSITION="top_or_left" ID="ID_291027025" CREATED="1693384944936" MODIFIED="1693384951240">
 <edge COLOR="#00ff00"/>
+<node TEXT="band structure - splitting&#xa;(typical bandstructure for FM)" ID="ID_136983184" CREATED="1693913672448" MODIFIED="1693914271893">
+<hook URI="quantum-pix/bandsplitting.png" SIZE="0.9360037" NAME="ExternalObject"/>
+<node TEXT="two spin can show different conduction properties" ID="ID_466010493" CREATED="1693915730986" MODIFIED="1693915783390"/>
+<node ID="ID_1580520615" CREATED="1693916293491" MODIFIED="1693916373445"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      two-current model (conduction in FM metals)
+    </p>
+    <p>
+      spin-up and spin-down currents are coupled by <span style="font-weight: bold;">spin mixing</span>, i.e. exchange of current between two channels
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="spin mixing comes from spin-flip scattering, mainly from electron-magnon scattering" ID="ID_331425497" CREATED="1693916365371" MODIFIED="1693916399732">
+<node ID="ID_679685651" CREATED="1693921661734" MODIFIED="1693921704009"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">not confused with the spin relaxation mechanism transferring spin accumulation to the lattice and due mainly to SOC</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="MR(magnetoresistance)" POSITION="bottom_or_right" ID="ID_77204501" CREATED="1678356835126" MODIFIED="1693645981574">
+<node TEXT="the scattering conserves the total spin of the electronic system but is a mechanism of current transfer between the two channels" ID="ID_24392328" CREATED="1693916400719" MODIFIED="1693916431394"/>
+<node TEXT="increase with temperature and tend to equalize partly the spin-up/down currents at RT in most FM metals" ID="ID_14113323" CREATED="1693917080836" MODIFIED="1693917151315"/>
+</node>
+<node TEXT="simplified version: neglect the mixing and assume that the conduction is by two independent channel in parallel" ID="ID_817635345" CREATED="1693921329384" MODIFIED="1693921601318"/>
+</node>
+</node>
+</node>
+<node TEXT="MR(magnetoresistance)" FOLDED="true" POSITION="bottom_or_right" ID="ID_77204501" CREATED="1678356835126" MODIFIED="1693645981574">
 <edge COLOR="#ff00ff"/>
 <node TEXT="AMR (anisotropic)" ID="ID_195686864" CREATED="1678356844757" MODIFIED="1678356912570"/>
 <node TEXT="GMR (giant)" ID="ID_580653349" CREATED="1678356858599" MODIFIED="1678356931482">
@@ -156,6 +177,34 @@
 <node TEXT="structure is similar to GMR SV, but replace spacer layer with insulator&#xa;(electrons can only pass through by tunnelling)" ID="ID_651086564" CREATED="1678363404605" MODIFIED="1678363901608"/>
 </node>
 <node TEXT="EMR (extrodinary)" ID="ID_189892240" CREATED="1678357095201" MODIFIED="1678357103197"/>
+</node>
+<node TEXT="SHE(Spin Hall Effect)" POSITION="top_or_left" ID="ID_1947911012" CREATED="1693927849762" MODIFIED="1693927860628">
+<edge COLOR="#00ffff"/>
+<node ID="ID_107250613" CREATED="1693927923497" MODIFIED="1693928310296"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: normal;">When an electrical&#xa0;&#xa0;current flows&#xa0;&#xa0;in a </span><span style="font-weight: bold;">non-magnetic</span><span style="font-weight: normal;">&#xa0;&#xa0;conductor, the electrons of opposite spins are deflected to opposite transverse directions by spin–orbit interactions</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="take care of the difference between SHE and HE,&#xa;the latter needs an external magnetic field" ID="ID_899644023" CREATED="1693928009500" MODIFIED="1693928033971"/>
+</node>
+<node TEXT="with equal spin-up/down currents --&gt; no charge accumulation --&gt; no Hall voltage (however, opposite spin accumulation exists)" ID="ID_741964050" CREATED="1693928199046" MODIFIED="1693928291614">
+<node TEXT="can be used to generate spin currents" ID="ID_403001086" CREATED="1693928413977" MODIFIED="1693928438674"/>
+<node TEXT="detected by breaking the symmetry between spin-up/down to obtain a transverse voltage" ID="ID_1798702634" CREATED="1693928547185" MODIFIED="1693928595626">
+<node TEXT="use a FM metal for one of the Hall probes" ID="ID_924978928" CREATED="1693928610898" MODIFIED="1693928623187"/>
+<node TEXT="inject locally a spin-polarized/pure-spin current from a FM contact (inverse SHE detection)" ID="ID_1065726799" CREATED="1693928623711" MODIFIED="1693928681020"/>
+<node TEXT="induce spin polarization through impurities together with external magnetic field" ID="ID_280593222" CREATED="1693928740929" MODIFIED="1693928832159"/>
+</node>
+</node>
+<node TEXT="possible way for spintronics without magnetic materials" ID="ID_1381357336" CREATED="1693928449878" MODIFIED="1693928468813"/>
 </node>
 </node>
 </map>
