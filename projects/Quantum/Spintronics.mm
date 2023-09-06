@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" zoom="1.001">
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="MapStyle" zoom="1.301">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
 <map_styles>
@@ -69,7 +69,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Magnetism" POSITION="bottom_or_right" ID="ID_1369141927" CREATED="1692353485174" MODIFIED="1692354169092">
+<node TEXT="Magnetism" FOLDED="true" POSITION="bottom_or_right" ID="ID_1369141927" CREATED="1692353485174" MODIFIED="1692354169092">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
 <node TEXT="Hallmark" ID="ID_1995791046" CREATED="1692353653941" MODIFIED="1692354809069">
@@ -97,7 +97,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Spin-Orbit Coupling" POSITION="top_or_left" ID="ID_291027025" CREATED="1693384944936" MODIFIED="1693384951240">
+<node TEXT="Spin-Orbit Coupling" FOLDED="true" POSITION="top_or_left" ID="ID_291027025" CREATED="1693384944936" MODIFIED="1693384951240">
 <edge COLOR="#00ff00"/>
 <node TEXT="band structure - splitting&#xa;(typical bandstructure for FM)" ID="ID_136983184" CREATED="1693913672448" MODIFIED="1693914271893">
 <hook URI="quantum-pix/bandsplitting.png" SIZE="0.9360037" NAME="ExternalObject"/>
@@ -117,7 +117,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="spin mixing comes from spin-flip scattering, mainly from electron-magnon scattering" ID="ID_331425497" CREATED="1693916365371" MODIFIED="1693916399732">
 <node ID="ID_679685651" CREATED="1693921661734" MODIFIED="1693921704009"><richcontent TYPE="NODE">
@@ -132,7 +131,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="the scattering conserves the total spin of the electronic system but is a mechanism of current transfer between the two channels" ID="ID_24392328" CREATED="1693916400719" MODIFIED="1693916431394"/>
@@ -142,7 +140,7 @@
 </node>
 </node>
 </node>
-<node TEXT="MR(magnetoresistance)" FOLDED="true" POSITION="bottom_or_right" ID="ID_77204501" CREATED="1678356835126" MODIFIED="1693645981574">
+<node TEXT="\latex MR(magnetoresistance)\\&#xa;(or Magnetoresistance Ratio, i.e. MR ratio \\$MR=(R_{max}-R_{min})/R_{min}$)" FOLDED="true" POSITION="bottom_or_right" ID="ID_77204501" CREATED="1678356835126" MODIFIED="1693973781281">
 <edge COLOR="#ff00ff"/>
 <node TEXT="AMR (anisotropic)" ID="ID_195686864" CREATED="1678356844757" MODIFIED="1678356912570"/>
 <node TEXT="GMR (giant)" ID="ID_580653349" CREATED="1678356858599" MODIFIED="1678356931482">
@@ -157,7 +155,7 @@
 </node>
 </node>
 <node TEXT="conditions" ID="ID_858796376" CREATED="1678357941172" MODIFIED="1678357944347">
-<node TEXT="\latex antiparallel spin configuration\\&#xa;* relative orientation of the magnetic moment of adjacent layers can be modulated through external magnetic field\\&#xa;* the period of superlattice is shorted than the mean free path of electrons\\&#xa;* the scattering rates of electrons with different spin polarization have significant difference" ID="ID_1719042385" CREATED="1678357944777" MODIFIED="1678361068556"/>
+<node TEXT="\latex antiparallel spin configuration\\&#xa;* relative orientation of the magnetic moment of adjacent layers can be modulated through external magnetic field\\&#xa;* the period of superlattice is \bf{shorted than the mean free path of electrons}\\&#xa;* the scattering rates of electrons with different spin polarization have significant difference" ID="ID_1719042385" CREATED="1678357944777" MODIFIED="1693971447619"/>
 </node>
 </node>
 <node TEXT="spin valve" ID="ID_575887588" CREATED="1678361353861" MODIFIED="1678361357008">
@@ -175,10 +173,13 @@
 <node TEXT="CMR (colossal)" ID="ID_738075893" CREATED="1678356860819" MODIFIED="1678356939088"/>
 <node TEXT="TMR (tunnel)" ID="ID_854809781" CREATED="1678356865044" MODIFIED="1678356944711">
 <node TEXT="structure is similar to GMR SV, but replace spacer layer with insulator&#xa;(electrons can only pass through by tunnelling)" ID="ID_651086564" CREATED="1678363404605" MODIFIED="1678363901608"/>
+<node TEXT="connected by the evanescent electron wavefunction" ID="ID_706610728" CREATED="1693974389643" MODIFIED="1693974420343">
+<hook URI="quantum-pix/TMR-MTJ-MGO.png" SIZE="0.5455303" NAME="ExternalObject"/>
+</node>
 </node>
 <node TEXT="EMR (extrodinary)" ID="ID_189892240" CREATED="1678357095201" MODIFIED="1678357103197"/>
 </node>
-<node TEXT="SHE(Spin Hall Effect)" POSITION="top_or_left" ID="ID_1947911012" CREATED="1693927849762" MODIFIED="1693927860628">
+<node TEXT="SHE(Spin Hall Effect)" FOLDED="true" POSITION="top_or_left" ID="ID_1947911012" CREATED="1693927849762" MODIFIED="1693927860628">
 <edge COLOR="#00ffff"/>
 <node ID="ID_107250613" CREATED="1693927923497" MODIFIED="1693928310296"><richcontent TYPE="NODE">
 
@@ -192,7 +193,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="take care of the difference between SHE and HE,&#xa;the latter needs an external magnetic field" ID="ID_899644023" CREATED="1693928009500" MODIFIED="1693928033971"/>
 </node>
@@ -205,6 +205,10 @@
 </node>
 </node>
 <node TEXT="possible way for spintronics without magnetic materials" ID="ID_1381357336" CREATED="1693928449878" MODIFIED="1693928468813"/>
+</node>
+<node TEXT="spin accumulation" POSITION="bottom_or_right" ID="ID_39560008" CREATED="1693974865772" MODIFIED="1693974871483">
+<edge COLOR="#00007c"/>
+<node TEXT="occurring when an electron flux crosses an interface between a FM and a NM material" ID="ID_436290220" CREATED="1693974897558" MODIFIED="1693974953913"/>
 </node>
 </node>
 </map>
