@@ -206,9 +206,12 @@
 </node>
 <node TEXT="possible way for spintronics without magnetic materials" ID="ID_1381357336" CREATED="1693928449878" MODIFIED="1693928468813"/>
 </node>
-<node TEXT="spin accumulation" POSITION="bottom_or_right" ID="ID_39560008" CREATED="1693974865772" MODIFIED="1693974871483">
+<node TEXT="spin accumulation" POSITION="bottom_or_right" ID="ID_39560008" CREATED="1693974865772" MODIFIED="1693976297366">
 <edge COLOR="#00007c"/>
 <node TEXT="occurring when an electron flux crosses an interface between a FM and a NM material" ID="ID_436290220" CREATED="1693974897558" MODIFIED="1693974953913"/>
+<node TEXT="(a) incoming spin-up/down currents&#xa;(b) splitting of chemical potential (arrows symbolize the spin-flips induced by spin accumulation(out-of-equilibrium) )" ID="ID_823340428" CREATED="1693976271548" MODIFIED="1693977111540">
+<hook URI="quantum-pix/spin-accu.png" SIZE="0.77080023" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 </map>
