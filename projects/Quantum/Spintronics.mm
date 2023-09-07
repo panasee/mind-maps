@@ -3,7 +3,7 @@
 <node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" zoom="1.301">
+<hook NAME="MapStyle" zoom="0.592">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
 <map_styles>
@@ -209,8 +209,80 @@
 <node TEXT="spin accumulation" POSITION="bottom_or_right" ID="ID_39560008" CREATED="1693974865772" MODIFIED="1693976297366">
 <edge COLOR="#00007c"/>
 <node TEXT="occurring when an electron flux crosses an interface between a FM and a NM material" ID="ID_436290220" CREATED="1693974897558" MODIFIED="1693974953913"/>
-<node TEXT="(a) incoming spin-up/down currents&#xa;(b) splitting of chemical potential (arrows symbolize the spin-flips induced by spin accumulation(out-of-equilibrium) )" ID="ID_823340428" CREATED="1693976271548" MODIFIED="1693977111540">
+<node TEXT="simple situation: (1) single interface, (2) no interfacial resistance, (3) no band bending, (4) single polarity" ID="ID_823340428" CREATED="1693976271548" MODIFIED="1693983502487">
 <hook URI="quantum-pix/spin-accu.png" SIZE="0.77080023" NAME="ExternalObject"/>
+<node ID="ID_789398773" CREATED="1693983364194" MODIFIED="1693983364194"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (a) incoming spin-up/down currents
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1450602755" CREATED="1693983364194" MODIFIED="1693983364194"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (b) splitting of chemical potential (arrows symbolize the spin-flips induced by spin accumulation(out-of-equilibrium) )
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="spin-flips control the progressive depolarization of the current" POSITION="bottom_or_right" ID="ID_1113348911" CREATED="1693982112597" MODIFIED="1693982172527"/>
+<node TEXT="with an opposite current direction, the inversion of the spin accumulation and the opposite spin-flips polarize progressively the current" POSITION="bottom_or_right" ID="ID_1725481787" CREATED="1693982197516" MODIFIED="1693982325620"/>
+</node>
+<node TEXT="(c) variation of the current spin polarization&#xa;(spin polarization at interface depends on the proportion of the depolarizing/polarizing spin-flips  in FM and NM)" ID="ID_536891107" CREATED="1693983364194" MODIFIED="1693990679694">
+<node TEXT="(c, metal/metal, just e.g.) DOS and spin relaxation times are similar on both sides. there is a balanced proportion of spin-flips on both sides" POSITION="bottom_or_right" ID="ID_547311654" CREATED="1693983154314" MODIFIED="1693990916967"/>
+<node POSITION="bottom_or_right" ID="ID_1814532685" CREATED="1693983199596" MODIFIED="1693991030376"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (c, metal/semiconductor, just e.g.) DOS/spin relaxation time is much smaller/shorter. depolarization occurs mainly in FM and <span style="font-weight: bold;">the current in NM is negligibly spin-polarized</span>. (the spin-flips on right side is predominant)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="solved by inserting a spin-dependent interface resistance (tunnel junction) to induce a discontinuity of the spin accumulation" ID="ID_504850027" CREATED="1693991030781" MODIFIED="1693991077183">
+<node TEXT="also increases the Fermi energy splitting and the proportion of spin-flips on NM side" ID="ID_656141600" CREATED="1693991079117" MODIFIED="1693991110064"/>
+</node>
+</node>
+</node>
+<node ID="ID_1962908266" CREATED="1693990146707" MODIFIED="1693990228980"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SDL(Spin Diffusion Length): the distance polarization persists within NM material
+    </p>
+    <p>
+      (or <span style="font-weight: bold;">polarization emerges within NM material in the inverese process</span>)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="much longer than the mean free path" ID="ID_1849208488" CREATED="1693990241839" MODIFIED="1693990248599"/>
+</node>
 </node>
 </node>
 </node>
