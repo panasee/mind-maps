@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="ExpTech" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693385337824" STYLE="oval">
 <font NAME="Times New Roman" SIZE="22"/>
-<hook NAME="MapStyle" zoom="1.69">
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" newNodeStyle=":style:default"/>
 
 <map_styles>

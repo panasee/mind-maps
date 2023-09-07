@@ -3,7 +3,7 @@
 <node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" zoom="0.592">
+<hook NAME="MapStyle" zoom="1.301">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
 <map_styles>
@@ -223,7 +223,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1450602755" CREATED="1693983364194" MODIFIED="1693983364194"><richcontent TYPE="NODE">
@@ -238,7 +237,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="spin-flips control the progressive depolarization of the current" POSITION="bottom_or_right" ID="ID_1113348911" CREATED="1693982112597" MODIFIED="1693982172527"/>
 <node TEXT="with an opposite current direction, the inversion of the spin accumulation and the opposite spin-flips polarize progressively the current" POSITION="bottom_or_right" ID="ID_1725481787" CREATED="1693982197516" MODIFIED="1693982325620"/>
@@ -257,7 +255,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="solved by inserting a spin-dependent interface resistance (tunnel junction) to induce a discontinuity of the spin accumulation" ID="ID_504850027" CREATED="1693991030781" MODIFIED="1693991077183">
 <node TEXT="also increases the Fermi energy splitting and the proportion of spin-flips on NM side" ID="ID_656141600" CREATED="1693991079117" MODIFIED="1693991110064"/>
@@ -279,10 +276,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="much longer than the mean free path" ID="ID_1849208488" CREATED="1693990241839" MODIFIED="1693990248599"/>
 </node>
+</node>
+<node TEXT="drift/diffusion equation" ID="ID_348685594" CREATED="1694079484401" MODIFIED="1694079492582">
+<node TEXT="electrical potential is replaced by a spin- /polarization-dependent electrochemical potential" ID="ID_591230372" CREATED="1694079574815" MODIFIED="1694080339836"/>
+<node TEXT="band-bending and high current density effects can be included in extended version of the eq." ID="ID_390758849" CREATED="1694082305855" MODIFIED="1694082364768"/>
 </node>
 </node>
 </node>
