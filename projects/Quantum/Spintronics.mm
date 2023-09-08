@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" zoom="1.301">
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
 <map_styles>
@@ -206,7 +206,7 @@
 </node>
 <node TEXT="possible way for spintronics without magnetic materials" ID="ID_1381357336" CREATED="1693928449878" MODIFIED="1693928468813"/>
 </node>
-<node TEXT="spin accumulation" POSITION="bottom_or_right" ID="ID_39560008" CREATED="1693974865772" MODIFIED="1693976297366">
+<node TEXT="spin accumulation" FOLDED="true" POSITION="bottom_or_right" ID="ID_39560008" CREATED="1693974865772" MODIFIED="1693976297366">
 <edge COLOR="#00007c"/>
 <node TEXT="occurring when an electron flux crosses an interface between a FM and a NM material" ID="ID_436290220" CREATED="1693974897558" MODIFIED="1693974953913"/>
 <node TEXT="simple situation: (1) single interface, (2) no interfacial resistance, (3) no band bending, (4) single polarity" ID="ID_823340428" CREATED="1693976271548" MODIFIED="1693983502487">
@@ -284,6 +284,64 @@
 <node TEXT="electrical potential is replaced by a spin- /polarization-dependent electrochemical potential" ID="ID_591230372" CREATED="1694079574815" MODIFIED="1694080339836"/>
 <node TEXT="band-bending and high current density effects can be included in extended version of the eq." ID="ID_390758849" CREATED="1694082305855" MODIFIED="1694082364768"/>
 </node>
+<node TEXT="non-magnetic lateral channel" ID="ID_162786280" CREATED="1694155367902" MODIFIED="1694155376977">
+<node TEXT="geometries" ID="ID_256424755" CREATED="1694155384318" MODIFIED="1694155484350">
+<hook URI="quantum-pix/geometries_lateral_NM.png" SIZE="0.7652423" NAME="ExternalObject"/>
+</node>
+<node TEXT="output spin signal (dot and dashed line correspond to (a,b) geometries; solid line corresponds to (d))" ID="ID_1660296241" CREATED="1694155494964" MODIFIED="1694155690314">
+<hook URI="quantum-pix/spin_signal.png" SIZE="0.5744552" NAME="ExternalObject"/>
+<node TEXT="\latex $R_{T\uparrow(\downarrow)}=2[1-(+)\gamma]R_T^*$ is tunnel resistances between F1/F2 and N" ID="ID_1675659083" CREATED="1694155764307" MODIFIED="1694156611122"/>
+<node TEXT="\latex $R_N, R_F$ are spin resistances (resistance within diffusion length)\\&#xa;$R_N=\rho_N \lambda_N/S_N \mathrm{,\ (\lambda_N\ is\ Spin\ Diffusion\ Length)}$" ID="ID_1367578588" CREATED="1694155787855" MODIFIED="1694156932999"/>
+<node TEXT="\latex $\Delta R$ is the output spin signal, $\Delta R=(V_{AP}-V_P)/I$" ID="ID_40362583" CREATED="1694156699189" MODIFIED="1694156738653"/>
+</node>
+</node>
+<node TEXT="metallic channel and ohmic contacts&#xa;with metallic electrodes" ID="ID_1008104062" CREATED="1694157287550" MODIFIED="1694157804323">
+<node TEXT="local(a)/non-local(b,c) spin-valve measurements&#xa;(Py means permalloy)" ID="ID_1203461618" CREATED="1694157622541" MODIFIED="1694157827101">
+<hook URI="quantum-pix/spin_valve_illu.png" SIZE="0.63868535" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="semiconducting channel,&#xa;generally performed with tunnel or Schottky contacts to solve the &quot;conductivity mismatch&quot;" ID="ID_1884190565" CREATED="1694158006363" MODIFIED="1694158055398"/>
+</node>
+<node TEXT="Spin Transfer" POSITION="top_or_left" ID="ID_1153680020" CREATED="1694157130321" MODIFIED="1694157135229">
+<edge COLOR="#007c00"/>
+<node ID="ID_1392956790" CREATED="1694157140189" MODIFIED="1694158472712"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      \latex exchange interaction aligns spin polarization along the magnetization axis in F2\\
+    </p>
+    <p>
+      \because exchange interaction is \textbf{spin-conserving}\\
+    </p>
+    <p>
+      \therefore spin polarization lost by the current is transferred to the total spin of F2, aka \textbf{<span style="font-weight: bold;">STT acting on F2}</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="quantum-pix/spin_transfer_illu.png" SIZE="0.66720843" NAME="ExternalObject"/>
+</node>
+<node TEXT="Nanodevices for ST experiments&#xa;(a) pillar-shaped metallic trilayers &amp; tunnel junc&#xa;(b) nanocontact" ID="ID_1647482375" CREATED="1694158595245" MODIFIED="1694161219802">
+<hook URI="quantum-pix/ST_devices_1.png" SIZE="0.7692308" NAME="ExternalObject"/>
+<node TEXT="magnetic switching detected by GMR&#xa;in a metallic pillar" ID="ID_1911043005" CREATED="1694161292885" MODIFIED="1694161332097">
+<hook URI="quantum-pix/M_switching_GMR.png" SIZE="0.67763114" NAME="ExternalObject"/>
+</node>
+<node TEXT="Microwave (power?) spectrum of the voltage oscillations generated by current-induced magnetic precessions in nanocontact type strucs" ID="ID_455737583" CREATED="1694161372457" MODIFIED="1694162020571">
+<hook URI="quantum-pix/Mwave_power_spectrum.png" SIZE="0.7558637" NAME="ExternalObject"/>
+</node>
+<node TEXT="Microwave power spectrum generated by the gyration of the core of a magnetic vortex in one of the electrodes of an MTJ" ID="ID_320074124" CREATED="1694161513497" MODIFIED="1694161840455">
+<hook URI="quantum-pix/Mwave_power_spectrum_gyration.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="progressive synchronization of the gyration of four vortices appearing at increasing current in the microwave spectrum&#xa;(device: four nanocontacts current injection into Co/Cu/Py trilayer)" ID="ID_1607638479" CREATED="1694162069209" MODIFIED="1694162186765">
+<hook URI="quantum-pix/prog_synchro_gyration_vortices.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="can be used to move domain walls in nanowires" ID="ID_645831699" CREATED="1694161898179" MODIFIED="1694161910053"/>
 </node>
 </node>
 </map>
