@@ -344,7 +344,10 @@
 </node>
 <node TEXT="Nano-thin film magnetism" POSITION="bottom_or_right" ID="ID_1583405380" CREATED="1694168167555" MODIFIED="1694168174839">
 <edge COLOR="#007c7c"/>
-<node TEXT="\latex ultrathin criteria: thickness $d\le\delta$\\&#xa;exchange length: $\delta=(\frac{A}{2\pi M_s^2})^{0.5}$" ID="ID_1021509051" CREATED="1694168200163" MODIFIED="1694168476961"/>
+<node TEXT="\latex ultrathin criteria: thickness $d\le\delta$\\&#xa;exchange length: $\delta=(\frac{A}{2\pi M_s^2})^{0.5}$" ID="ID_1021509051" CREATED="1694168200163" MODIFIED="1694168476961">
+<node TEXT="A is exchange stiffness coefficient" ID="ID_892237434" CREATED="1694168500868" MODIFIED="1694168512197"/>
+<node TEXT="\latex $M_s$ is saturation magnetization" ID="ID_289326964" CREATED="1694168513073" MODIFIED="1694168536568"/>
+</node>
 </node>
 </node>
 </map>
