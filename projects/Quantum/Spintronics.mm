@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
@@ -302,7 +302,7 @@
 </node>
 <node TEXT="semiconducting channel,&#xa;generally performed with tunnel or Schottky contacts to solve the &quot;conductivity mismatch&quot;" ID="ID_1884190565" CREATED="1694158006363" MODIFIED="1694158055398"/>
 </node>
-<node TEXT="Spin Transfer" POSITION="top_or_left" ID="ID_1153680020" CREATED="1694157130321" MODIFIED="1694157135229">
+<node TEXT="Spin Transfer" FOLDED="true" POSITION="top_or_left" ID="ID_1153680020" CREATED="1694157130321" MODIFIED="1694157135229">
 <edge COLOR="#007c00"/>
 <node ID="ID_1392956790" CREATED="1694157140189" MODIFIED="1694158472712"><richcontent TYPE="NODE">
 
@@ -322,7 +322,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="quantum-pix/spin_transfer_illu.png" SIZE="0.66720843" NAME="ExternalObject"/>
 </node>
@@ -342,6 +341,10 @@
 </node>
 </node>
 <node TEXT="can be used to move domain walls in nanowires" ID="ID_645831699" CREATED="1694161898179" MODIFIED="1694161910053"/>
+</node>
+<node TEXT="Nano-thin film magnetism" POSITION="bottom_or_right" ID="ID_1583405380" CREATED="1694168167555" MODIFIED="1694168174839">
+<edge COLOR="#007c7c"/>
+<node TEXT="\latex ultrathin criteria: thickness $d\le\delta$\\&#xa;exchange length: $\delta=(\frac{A}{2\pi M_s^2})^{0.5}$" ID="ID_1021509051" CREATED="1694168200163" MODIFIED="1694168476961"/>
 </node>
 </node>
 </map>
