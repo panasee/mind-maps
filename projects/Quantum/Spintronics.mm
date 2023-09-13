@@ -1,8 +1,8 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Spintronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693921774700" STYLE="oval">
+<node TEXT="Spintronics&amp;&#xa;Magnetism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1694619192710" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
@@ -69,7 +69,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Magnetism" FOLDED="true" POSITION="bottom_or_right" ID="ID_1369141927" CREATED="1692353485174" MODIFIED="1692354169092">
+<node TEXT="Magnetism" FOLDED="true" POSITION="bottom_or_right" ID="ID_1369141927" CREATED="1692353485174" MODIFIED="1694604168164">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
 <node TEXT="Hallmark" ID="ID_1995791046" CREATED="1692353653941" MODIFIED="1692354809069">
@@ -84,13 +84,26 @@
 <font NAME="Times New Roman"/>
 <node TEXT="thermal fluctuations misalign magnetic moments in neighboring regions" ID="ID_608301667" CREATED="1692354789435" MODIFIED="1692354792436"/>
 </node>
-<node TEXT="Dimensionality" ID="ID_522920018" CREATED="1692354575970" MODIFIED="1692354585510">
+<node TEXT="system Dimensionality" ID="ID_522920018" CREATED="1692354575970" MODIFIED="1694604170822">
 <node TEXT="essential role in determining the impact of thermal fluctuations" ID="ID_1661138496" CREATED="1692354742322" MODIFIED="1692354780004"/>
 <node TEXT="in 3D" ID="ID_277507914" CREATED="1692355226998" MODIFIED="1692355235842">
 <node TEXT="magnetic phase transition always occur at a finite temp" ID="ID_1950707613" CREATED="1692355244796" MODIFIED="1692355289116"/>
 </node>
 <node TEXT="in 2D" ID="ID_988964255" CREATED="1692355237294" MODIFIED="1692355240126">
-<node TEXT="complex situation" ID="ID_521517545" CREATED="1692355346181" MODIFIED="1692355349982"/>
+<node TEXT="spin dimensionality&#xa;(freedom of spin vector)" ID="ID_730580857" CREATED="1694604175883" MODIFIED="1694604189605">
+<node TEXT="1D(Ising model)" ID="ID_1366177562" CREATED="1694604268363" MODIFIED="1694606574572">
+<hook URI="quantum-pix/spinDim1D.png" SIZE="0.3992944" NAME="ExternalObject"/>
+<node TEXT="\latex phase transition exists at $T_c&gt;0$" ID="ID_153231660" CREATED="1694604285342" MODIFIED="1694604304094"/>
+</node>
+<node TEXT="2D(XY model)" ID="ID_127284596" CREATED="1694604277168" MODIFIED="1694606590278">
+<hook URI="quantum-pix/spinDim2D.png" SIZE="0.43342462" NAME="ExternalObject"/>
+<node TEXT="no conventional phase transition, divergence of susceptibility coms from the onset of topological order and the pairing of vortex and antivortex. Quasi-long-range magnetic order is established" ID="ID_314205014" CREATED="1694604366056" MODIFIED="1694604471891"/>
+</node>
+<node TEXT="3D" ID="ID_771551682" CREATED="1694604282085" MODIFIED="1694606605055">
+<hook URI="quantum-pix/spinDim3D.png" SIZE="0.41785675" NAME="ExternalObject"/>
+<node TEXT="Merlin-Wagner-Hohenberg theorem leads to destruction of long-range magnetic order at any finite temperature" ID="ID_789496891" CREATED="1694604481269" MODIFIED="1694604482497"/>
+</node>
+</node>
 </node>
 <node TEXT="in 1D" ID="ID_171660917" CREATED="1692355240458" MODIFIED="1692355242694">
 <node TEXT="long range order possible only @ T=0" ID="ID_1812797049" CREATED="1692355307597" MODIFIED="1692355321092"/>
@@ -347,6 +360,82 @@
 <node TEXT="\latex ultrathin criteria: thickness $d\le\delta$\\&#xa;exchange length: $\delta=(\frac{A}{2\pi M_s^2})^{0.5}$" ID="ID_1021509051" CREATED="1694168200163" MODIFIED="1694168476961">
 <node TEXT="A is exchange stiffness coefficient" ID="ID_892237434" CREATED="1694168500868" MODIFIED="1694168512197"/>
 <node TEXT="\latex $M_s$ is saturation magnetization" ID="ID_289326964" CREATED="1694168513073" MODIFIED="1694168536568"/>
+</node>
+</node>
+<node TEXT="vdW layered materials (heterostructures)" FOLDED="true" POSITION="top_or_left" ID="ID_1802087961" CREATED="1694606723162" MODIFIED="1694606741602">
+<edge COLOR="#7c7c00"/>
+<node TEXT="magnetic configurations" ID="ID_1129623455" CREATED="1694606813433" MODIFIED="1694606819809">
+<node TEXT="FM / AFM" ID="ID_1494820177" CREATED="1694606820330" MODIFIED="1694607357444">
+<node TEXT="FM: same polarization of nearest &quot;elements&quot;" ID="ID_5939757" CREATED="1694607301067" MODIFIED="1694607451913"/>
+<node TEXT="AFM: opposite polarization of nearest &quot;elements&quot;" ID="ID_23773840" CREATED="1694607336556" MODIFIED="1694607457803"/>
+</node>
+<node TEXT="interlayer / intralayer" ID="ID_1333263754" CREATED="1694606824587" MODIFIED="1694607286501">
+<node TEXT="interlayer: &quot;elements&quot; are layers" ID="ID_561962431" CREATED="1694607299329" MODIFIED="1694607446099"/>
+<node TEXT="intralayer: &quot;elements&quot; are magnetic momentum within the same layer" ID="ID_809630515" CREATED="1694607417385" MODIFIED="1694607437634"/>
+</node>
+</node>
+</node>
+<node TEXT="measurement" POSITION="bottom_or_right" ID="ID_1188409335" CREATED="1694607994843" MODIFIED="1694608087527" LINK="../ExpTech/ExpTech.mm">
+<edge COLOR="#ff0000"/>
+</node>
+<node TEXT="materials" FOLDED="true" POSITION="top_or_left" ID="ID_829325777" CREATED="1694615134134" MODIFIED="1694615504546">
+<edge COLOR="#0000ff"/>
+<node TEXT="\latex FGT($\mathrm{Fe_3GeTe_2}$)" ID="ID_1310825498" CREATED="1694615179305" MODIFIED="1694615238057">
+<node TEXT="metal" ID="ID_1295681047" CREATED="1694615244460" MODIFIED="1694615247996"/>
+<node TEXT="difficult to produce, causing discrepancy" ID="ID_246692693" CREATED="1694615248642" MODIFIED="1694615262243"/>
+<node TEXT="strong SOC" ID="ID_1908734499" CREATED="1694615265475" MODIFIED="1694615267979"/>
+<node TEXT="magneto-crystalline anisotropy perpendicular to the plane" ID="ID_580285296" CREATED="1694615272067" MODIFIED="1694615289652"/>
+<node TEXT="layers configuration" ID="ID_608746239" CREATED="1694615314454" MODIFIED="1694615326444">
+<node TEXT="FM intralayer" POSITION="top_or_left" ID="ID_616513786" CREATED="1694615298721" MODIFIED="1694615302517"/>
+<node TEXT="complex interlayer" POSITION="top_or_left" ID="ID_847897381" CREATED="1694615305974" MODIFIED="1694615310231"/>
+</node>
+</node>
+<node TEXT="\latex $\mathrm{CrI_3}$" ID="ID_1896857004" CREATED="1694615435940" MODIFIED="1694615449719"/>
+<node TEXT="\latex TMDCs(Transition Metal Dichalcogenides)\\$\mathrm{MX_2}$, M is transition metal, X is chalcogen" ID="ID_1598633144" CREATED="1694615435940" MODIFIED="1694616843077">
+<node TEXT="Polytypes" ID="ID_182714526" CREATED="1694616881886" MODIFIED="1694616886618">
+<node TEXT="1T(octahedral), broken inversion symmetry" ID="ID_1838814224" CREATED="1694616889499" MODIFIED="1694616963301"/>
+<node TEXT="2H(trigonal-prismatic, hexagonal)" ID="ID_1201739427" CREATED="1694616897441" MODIFIED="1694616928139"/>
+<node TEXT="3R(trigonal-prismatic, rhombohedral)" ID="ID_637068087" CREATED="1694616899365" MODIFIED="1694616944310"/>
+<node TEXT="1T&apos;" ID="ID_613804416" CREATED="1694616948055" MODIFIED="1694616950960"/>
+<node TEXT="Td" ID="ID_1641977817" CREATED="1694616901022" MODIFIED="1694616903703"/>
+</node>
+<node TEXT="Broad range of electronic properties, arising from the progressive filling of the nonbonding d bands by the transition metal electrons" ID="ID_751146174" CREATED="1694616979743" MODIFIED="1694616981196"/>
+<node TEXT="Metallic TMDCs" ID="ID_1484291602" CREATED="1694617005583" MODIFIED="1694617011738">
+<node TEXT="DOS characteristics" ID="ID_705981321" CREATED="1694617013681" MODIFIED="1694617278452">
+<hook URI="quantum-pix/TMDC_DOSes.png" SIZE="0.7498159" NAME="ExternalObject"/>
+<node TEXT="Fermi level is always crossing a band with d-orbital character (electrons move mostly in the metal layers)​" ID="ID_1873960745" CREATED="1694617050263" MODIFIED="1694617051208"/>
+<node TEXT="DOS at Fermi level is usually quite high (a common explanation for the phase transitions observed in these materials)​" ID="ID_1263941547" CREATED="1694617044117" MODIFIED="1694617045540"/>
+</node>
+<node TEXT="Interests" ID="ID_1189376715" CREATED="1694617070023" MODIFIED="1694617072856">
+<node TEXT="CDW(Charge Density Waves)" ID="ID_79459509" CREATED="1694617073391" MODIFIED="1694617081481"/>
+<node TEXT="superconductivity in their phase diagrams" ID="ID_1288431806" CREATED="1694617082171" MODIFIED="1694617090986"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Hall Effect" FOLDED="true" POSITION="bottom_or_right" ID="ID_1328363159" CREATED="1694618499611" MODIFIED="1694618503941">
+<edge COLOR="#00ff00"/>
+<node TEXT="AHE(Abnormal Hall effect)" ID="ID_966817828" CREATED="1694618504718" MODIFIED="1694618521789">
+<node TEXT="much larger than normal Hall Effect" ID="ID_1045174999" CREATED="1694618524341" MODIFIED="1694618530796"/>
+<node TEXT="no need for external magnetic field" ID="ID_1140229130" CREATED="1694618531261" MODIFIED="1694618539752"/>
+<node TEXT="origins" ID="ID_1838191091" CREATED="1694618542168" MODIFIED="1694618544839">
+<node TEXT="intrinsic: Berry Phase effect in k-space" ID="ID_1581076301" CREATED="1694618544991" MODIFIED="1694618613784">
+<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-46.8 pt;35.4 pt;" ENDINCLINATION="69 pt;-1.8 pt;"/>
+</node>
+<node TEXT="extrinsic: spin-dependent scattering by disorder" ID="ID_18823152" CREATED="1694618559679" MODIFIED="1694618572802"/>
+</node>
+</node>
+<node TEXT="QHE(Quantum Hall effect)" ID="ID_321678220" CREATED="1694618594794" MODIFIED="1694618623516" LINK="QHE.mm"/>
+</node>
+<node TEXT="FMR(Ferromagnetic Resonance)" POSITION="top_or_left" ID="ID_1499520300" CREATED="1694619196672" MODIFIED="1694619204410">
+<edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="\latex LLG equation\\&#xa;$\frac{\partial \vec m}{\partial t} =  - \gamma \mu _0\vec m \times \vec H_{eff} + (\alpha \vec m \times \frac{\partial \vec m}{\partial t})$" POSITION="bottom_or_right" ID="ID_939140903" CREATED="1694619233591" MODIFIED="1694619451919">
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex $\vec m$ would precess around $\vec H_{eff}$, with a damping towards $\vec H_{eff}$" POSITION="bottom_or_right" ID="ID_1850050806" CREATED="1694619433493" MODIFIED="1694619622691"/>
+<node TEXT="\latex Compensate the damping energy lost through an extra oscillating field $\vec H_{rf}$, when the frequency of $\vec H_{rf}$ equals the intrinsic precession frequency, FMR will happen" ID="ID_1134344212" CREATED="1694619530553" MODIFIED="1694619561514">
+<node TEXT="\latex FMR frequency (\sim GHz)\\&#xa;$f=(\gamma/2\pi)[H_0(H_0+4\pi M_{eff})]^{1/2}$" ID="ID_1773115090" CREATED="1694619683212" MODIFIED="1694619750751"/>
+<node TEXT="\latex In HM(heavy metal) materials, SHE(spin hall effect) introduces spin current when charge current flows through. Spin current causes STT when flows to FM layer, replacing the role of $\vec H_{rf} \rightarrow $ ST-FMR" ID="ID_1966402153" CREATED="1694619579622" MODIFIED="1694619776869"/>
 </node>
 </node>
 </node>
