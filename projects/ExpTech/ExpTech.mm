@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="ExpTech" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693385337824" STYLE="oval">
 <font NAME="Times New Roman" SIZE="22"/>
-<hook NAME="MapStyle" zoom="1.001">
+<hook NAME="MapStyle" zoom="0.77">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" newNodeStyle=":style:default"/>
 
 <map_styles>
@@ -83,6 +83,51 @@
 <node TEXT="the relationship between stickiness and efficiency" LOCALIZED_STYLE_REF="default" ID="ID_444861892" CREATED="1693386090186" MODIFIED="1693386156586"/>
 </node>
 </node>
+<node TEXT="Optical contrast measurement&#xa;(judge the thickness)" LOCALIZED_STYLE_REF="default" ID="ID_1832437191" CREATED="1695283632976" MODIFIED="1695283737279">
+<hook URI="exp-pix/opti-contrast.png" SIZE="0.5209602" NAME="ExternalObject"/>
+<node TEXT="principle and advantages" LOCALIZED_STYLE_REF="default" ID="ID_1998121330" CREATED="1695285318966" MODIFIED="1695285326154">
+<node TEXT="Optical contrast is a normalised difference between the intensities of light reflected by sample and surrounding substrate" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_990213760" CREATED="1695283766504" MODIFIED="1695283768765">
+<node TEXT="\latex  $C=(I_{sample}-I_{substrate})/(I_{sample}+I_{substrate})$&#xa;\\or $C=(I_{sample}-I_{substrate})/I_{substrate}$" LOCALIZED_STYLE_REF="default" ID="ID_834427516" CREATED="1695285118469" MODIFIED="1695285215364"/>
+</node>
+<node TEXT="changes in a step-like manner with increasing number of layers, allowing accurate thickness estimate for flakes up to 15 layers thick" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1388291447" CREATED="1695283851815" MODIFIED="1695283855119"/>
+<node LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1426176885" CREATED="1695283875728" MODIFIED="1695285115020"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: normal;">work best for materials with strong absorption in the visible range</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="such as graphene, transition metal mono- and dichalcogenides, deposited onto silicon substrates with 90 or 290 nm dioxide layer, but can be extended to other types of substrates" LOCALIZED_STYLE_REF="default" ID="ID_908501320" CREATED="1695285111697" MODIFIED="1695285112886"/>
+</node>
+</node>
+<node TEXT="steps" LOCALIZED_STYLE_REF="default" ID="ID_700574565" CREATED="1695285478290" MODIFIED="1695285480393">
+<node TEXT="acquire an proper image of the flake and save it as a high-quality file" LOCALIZED_STYLE_REF="default" ID="ID_1194831771" CREATED="1695285483992" MODIFIED="1695285520763"/>
+<node TEXT="use ImageJ to open it, select the flake area and press M to perform intensity measurement" LOCALIZED_STYLE_REF="default" ID="ID_1734365653" CREATED="1695285532489" MODIFIED="1695285566782"/>
+<node TEXT="drag the selection circle onto substrate (minimum distance), repeat the measurement" LOCALIZED_STYLE_REF="default" ID="ID_1074695598" CREATED="1695285579113" MODIFIED="1695285608897"/>
+<node TEXT="calculate the optical contrast" LOCALIZED_STYLE_REF="default" ID="ID_1250337132" CREATED="1695285610181" MODIFIED="1695285617696"/>
+<node TEXT="repeat for regions with different thickness" LOCALIZED_STYLE_REF="default" ID="ID_218659544" CREATED="1695285624287" MODIFIED="1695285636961">
+<node TEXT="estimate the optical contrast expected for monolayer from the minimal difference between adjacent thicknesses" LOCALIZED_STYLE_REF="default" ID="ID_700666853" CREATED="1695285644921" MODIFIED="1695285646415"/>
+</node>
+<node TEXT="Calculate the number of layers in the selected region by dividing its optical contrast by the expected monolayer contrast." LOCALIZED_STYLE_REF="default" ID="ID_1855714355" CREATED="1695285656796" MODIFIED="1695285791773">
+<hook URI="exp-pix/opti-contrast-data.png" SIZE="0.47599575" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="notice" LOCALIZED_STYLE_REF="default" ID="ID_752027233" CREATED="1695285332285" MODIFIED="1695285476393">
+<node TEXT="make sure that white balance is set correctly - use white paper to set it" LOCALIZED_STYLE_REF="default" ID="ID_304052027" CREATED="1695285335760" MODIFIED="1695285352929"/>
+<node TEXT="Different optical systems provide different contrast" LOCALIZED_STYLE_REF="default" ID="ID_1315741141" CREATED="1695285381762" MODIFIED="1695285390075"/>
+<node TEXT="Optical contrast can be affected by acquisition setting (sensitivity, exposure time, WL intensity)" LOCALIZED_STYLE_REF="default" ID="ID_691772409" CREATED="1695285822146" MODIFIED="1695285830290"/>
+<node TEXT="For increased accuracy, consider calculating optical contrast for individual colour channels" LOCALIZED_STYLE_REF="default" ID="ID_680731913" CREATED="1695285842353" MODIFIED="1695285846485"/>
+<node TEXT="If your camera is noisy, take a reference image and subtract the noise background prior to optical contrast calculations" LOCALIZED_STYLE_REF="default" ID="ID_288912770" CREATED="1695285857006" MODIFIED="1695285862423"/>
+<node TEXT="Use another method (AFM, Raman or PL) to verify measurement results" LOCALIZED_STYLE_REF="default" ID="ID_844304305" CREATED="1695285863028" MODIFIED="1695285864109"/>
+</node>
+</node>
 </node>
 <node TEXT="Devices Fabrication Procedure" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1694613663652">
 <edge COLOR="#00ff00"/>
@@ -105,7 +150,7 @@
 <node TEXT="AFM(atomic force microscopy)&#xa;/SFM(scanning force microscopy)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_482523076" CREATED="1693744242983" MODIFIED="1693744275558"/>
 </node>
 </node>
-<node TEXT="spin accumulation" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_29322499" CREATED="1694157303812" MODIFIED="1694157307780">
+<node TEXT="spin accumulation" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_29322499" CREATED="1694157303812" MODIFIED="1694157307780">
 <edge COLOR="#00ffff"/>
 <node TEXT="non-magnetic lateral channel" ID="ID_162786280" CREATED="1694155367902" MODIFIED="1694155376977">
 <node TEXT="geometries" ID="ID_256424755" CREATED="1694155384318" MODIFIED="1694155484350">
@@ -125,7 +170,7 @@
 </node>
 <node TEXT="semiconducting channel,&#xa;generally performed with tunnel or Schottky contacts to solve the &quot;conductivity mismatch&quot;" ID="ID_1884190565" CREATED="1694158006363" MODIFIED="1694158055398"/>
 </node>
-<node TEXT="STT" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1594107095" CREATED="1694162200493" MODIFIED="1694162202973">
+<node TEXT="STT" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_1594107095" CREATED="1694162200493" MODIFIED="1694162202973">
 <edge COLOR="#7c0000"/>
 <node TEXT="Nanodevices for ST experiments&#xa;(a) pillar-shaped metallic trilayers &amp; tunnel junc&#xa;(b) nanocontact" ID="ID_1647482375" CREATED="1694158595245" MODIFIED="1694613562031">
 <hook URI="../Quantum/quantum-pix/ST_devices_1.png" SIZE="0.706949" NAME="ExternalObject"/>
@@ -149,7 +194,7 @@
 <node TEXT="Coplanar waveguide is a type of electrical planar transmission line which can be fabricated using printed circuit board technology, and is used to convey microwave-frequency signals." LOCALIZED_STYLE_REF="default" ID="ID_1982493819" CREATED="1694499862960" MODIFIED="1694499865048"/>
 </node>
 </node>
-<node TEXT="measurement methods" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_207884078" CREATED="1694613420631" MODIFIED="1694613700387">
+<node TEXT="ST measurement methods" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_207884078" CREATED="1694613420631" MODIFIED="1695285879169">
 <edge COLOR="#007c00"/>
 <node TEXT="SOT measurement" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_260131078" CREATED="1693386193197" MODIFIED="1694613705770">
 <node TEXT="AHE" LOCALIZED_STYLE_REF="default" ID="ID_1962542256" CREATED="1693741646542" MODIFIED="1694618696631">
@@ -178,7 +223,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font NAME="Times New Roman" SIZE="16"/>
 </node>
@@ -194,7 +238,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node LOCALIZED_STYLE_REF="default" ID="ID_1931225731" CREATED="1694618878917" MODIFIED="1694618951142"><richcontent TYPE="NODE">
@@ -209,7 +252,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node LOCALIZED_STYLE_REF="default" ID="ID_318833555" CREATED="1694618878918" MODIFIED="1694619049741"><richcontent TYPE="NODE">
@@ -224,7 +266,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node LOCALIZED_STYLE_REF="default" ID="ID_1092797695" CREATED="1694618878918" MODIFIED="1694619055535"><richcontent TYPE="NODE">
@@ -239,7 +280,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

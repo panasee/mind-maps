@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Spintronics&amp;&#xa;Magnetism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1694619192710" STYLE="oval">
+<node TEXT="Spin/Valley-tronics&amp;&#xa;Magnetism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695262843569" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.001">
@@ -420,7 +420,7 @@
 <node TEXT="no need for external magnetic field" ID="ID_1140229130" CREATED="1694618531261" MODIFIED="1694618539752"/>
 <node TEXT="origins" ID="ID_1838191091" CREATED="1694618542168" MODIFIED="1694618544839">
 <node TEXT="intrinsic: Berry Phase effect in k-space" ID="ID_1581076301" CREATED="1694618544991" MODIFIED="1694618613784">
-<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-46.8 pt;35.4 pt;" ENDINCLINATION="69 pt;-1.8 pt;"/>
+<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-46.2 pt;35.4 pt;" ENDINCLINATION="69 pt;-1.2 pt;"/>
 </node>
 <node TEXT="extrinsic: spin-dependent scattering by disorder" ID="ID_18823152" CREATED="1694618559679" MODIFIED="1694618572802"/>
 </node>
