@@ -1,8 +1,8 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Twistronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695262825276" STYLE="oval">
+<node TEXT="Hetero/Homo structure&#xa;&amp;Twistronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695385738241" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.3">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -86,6 +86,12 @@
 <node TEXT="average interlayer spacing decreases" ID="ID_500723151" CREATED="1695276071562" MODIFIED="1695276088176"/>
 </node>
 <node TEXT="deformation happen mostly on softer crystal" ID="ID_426948759" CREATED="1695276095902" MODIFIED="1695276107962"/>
+</node>
+<node TEXT="Stacking Structure" POSITION="top_or_left" ID="ID_1692318466" CREATED="1695385825130" MODIFIED="1695385850331">
+<edge COLOR="#ff00ff"/>
+<node TEXT="\latex 2H (AB) stacking(180^\circ)" ID="ID_1646575894" CREATED="1695385832206" MODIFIED="1695385873613">
+<node TEXT="most natural homostructures" ID="ID_41586811" CREATED="1695385854027" MODIFIED="1695385900933"/>
+</node>
 </node>
 </node>
 </map>
