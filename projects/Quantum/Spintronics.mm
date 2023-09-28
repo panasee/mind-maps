@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Spin/Valley-tronics&amp;&#xa;Magnetism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695262843569" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
@@ -420,7 +420,7 @@
 <node TEXT="no need for external magnetic field" ID="ID_1140229130" CREATED="1694618531261" MODIFIED="1694618539752"/>
 <node TEXT="origins" ID="ID_1838191091" CREATED="1694618542168" MODIFIED="1694618544839">
 <node TEXT="intrinsic: Berry Phase effect in k-space" ID="ID_1581076301" CREATED="1694618544991" MODIFIED="1694618613784">
-<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-46.2 pt;35.4 pt;" ENDINCLINATION="69 pt;-1.2 pt;"/>
+<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-45.6 pt;35.4 pt;" ENDINCLINATION="69 pt;-0.6 pt;"/>
 </node>
 <node TEXT="extrinsic: spin-dependent scattering by disorder" ID="ID_18823152" CREATED="1694618559679" MODIFIED="1694618572802"/>
 </node>
@@ -436,6 +436,19 @@
 <node TEXT="\latex Compensate the damping energy lost through an extra oscillating field $\vec H_{rf}$, when the frequency of $\vec H_{rf}$ equals the intrinsic precession frequency, FMR will happen" ID="ID_1134344212" CREATED="1694619530553" MODIFIED="1694619561514">
 <node TEXT="\latex FMR frequency (\sim GHz)\\&#xa;$f=(\gamma/2\pi)[H_0(H_0+4\pi M_{eff})]^{1/2}$" ID="ID_1773115090" CREATED="1694619683212" MODIFIED="1694619750751"/>
 <node TEXT="\latex In HM(heavy metal) materials, SHE(spin hall effect) introduces spin current when charge current flows through. Spin current causes STT when flows to FM layer, replacing the role of $\vec H_{rf} \rightarrow $ ST-FMR" ID="ID_1966402153" CREATED="1694619579622" MODIFIED="1694619776869"/>
+</node>
+</node>
+<node TEXT="Hubbard model" POSITION="top_or_left" ID="ID_935269452" CREATED="1695657537178" MODIFIED="1695657542413">
+<edge COLOR="#7c0000"/>
+<node TEXT="an approximate model describing the transition between conducting and insulating systems" ID="ID_717948299" CREATED="1695657578908" MODIFIED="1695657592686">
+<node TEXT="originally for fermions, but also suits bosons&#xa;(Bose-Hubbard model)" ID="ID_1663340679" CREATED="1695658588297" MODIFIED="1695658616386"/>
+<node TEXT="useful for periodic potential at low temp&#xa;(i.e. all particles in lowest Bloch band)&#xa;and when long-range interactions can be ignored" ID="ID_425433884" CREATED="1695659738693" MODIFIED="1695659822126">
+<node TEXT="If interactions between particles at different sites are included, aka &quot;extended Hubbard model&quot;" ID="ID_1829105151" CREATED="1695659839137" MODIFIED="1695659896756"/>
+</node>
+</node>
+<node TEXT="each electron experiences competing forces;&#xa;thus it hamiltonian has two terms" ID="ID_1059874803" CREATED="1695657595644" MODIFIED="1695658151019">
+<node TEXT="pushes it to tunnel to neighboring atoms:&#xa;kinetic term allowing for tunneling (hopping) of particles between lattice sites" ID="ID_372328749" CREATED="1695658154734" MODIFIED="1695660066834"/>
+<node TEXT="pushes it away from its neighbors:&#xa;potential term reflecting on-site interaction" ID="ID_1181526210" CREATED="1695658566136" MODIFIED="1695660090006"/>
 </node>
 </node>
 </node>
