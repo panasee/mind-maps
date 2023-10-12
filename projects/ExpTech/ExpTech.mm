@@ -102,7 +102,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="such as graphene, transition metal mono- and dichalcogenides, deposited onto silicon substrates with 90 or 290 nm dioxide layer, but can be extended to other types of substrates" LOCALIZED_STYLE_REF="default" ID="ID_908501320" CREATED="1695285111697" MODIFIED="1695285112886"/>
 </node>
@@ -128,6 +127,7 @@
 <node TEXT="Use another method (AFM, Raman or PL) to verify measurement results" LOCALIZED_STYLE_REF="default" ID="ID_844304305" CREATED="1695285863028" MODIFIED="1695285864109"/>
 </node>
 </node>
+<node TEXT="pick-up Technique" LOCALIZED_STYLE_REF="default" ID="ID_920046936" CREATED="1697096079285" MODIFIED="1697096100001"/>
 </node>
 <node TEXT="Devices Fabrication Procedure" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1694613663652">
 <edge COLOR="#00ff00"/>
