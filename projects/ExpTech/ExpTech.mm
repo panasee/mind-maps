@@ -68,8 +68,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2D materials fabrication" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="2D materials fabrication" FOLDED="true" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
 <node TEXT="CVD/PVD" ID="ID_415137869" CREATED="1693385199542" MODIFIED="1693385349251">
@@ -127,27 +127,15 @@
 <node TEXT="Use another method (AFM, Raman or PL) to verify measurement results" LOCALIZED_STYLE_REF="default" ID="ID_844304305" CREATED="1695285863028" MODIFIED="1695285864109"/>
 </node>
 </node>
-<node TEXT="pick-up Technique" LOCALIZED_STYLE_REF="default" ID="ID_920046936" CREATED="1697096079285" MODIFIED="1697096100001"/>
+<node TEXT="pick-up Technique" LOCALIZED_STYLE_REF="default" ID="ID_920046936" CREATED="1697096079285" MODIFIED="1697096100001">
+<node TEXT="\latex PC melting point \sim 180^{\circ}C" LOCALIZED_STYLE_REF="default" ID="ID_1057574488" CREATED="1697365870849" MODIFIED="1697365970652"/>
+<node TEXT="dome-shaped PDMS" LOCALIZED_STYLE_REF="default" ID="ID_1048756359" CREATED="1697365973008" MODIFIED="1697365979348"/>
 </node>
-<node TEXT="Devices Fabrication Procedure" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1694613663652">
+</node>
+<node TEXT="Devices Fabrication Procedure" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1694613663652">
 <edge COLOR="#00ff00"/>
-<node TEXT="1. Wafer preparation&#xa;2. PDMS(cutting PDMS -&gt; PC forming -&gt; windowed tape to pickup PC and cover PDMS -&gt; remove tape)&#xa;3. Exfoliation(tape -&gt; wafer -&gt; scope)&#xa;4. Pick up(top down, ensure alignment)&#xa;5. Electrode(wash -&gt; put (alignment))&#xa;6. PDMS Melt(melt -&gt; wash)&#xa;7. Circuit Routing(others&apos; lab)" LOCALIZED_STYLE_REF="default" ID="ID_1756950615" CREATED="1693453825202" MODIFIED="1693455855494"/>
-</node>
-<node TEXT="Microscopy" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_1804485229" CREATED="1693741712431" MODIFIED="1693744238249">
-<edge COLOR="#ff00ff"/>
-<node TEXT="SEM(scanning electron microscope)" LOCALIZED_STYLE_REF="default" ID="ID_443154740" CREATED="1693741716710" MODIFIED="1693741753584">
-<node TEXT="scanning the surface with a focused beam of electrons" LOCALIZED_STYLE_REF="default" ID="ID_255936634" CREATED="1693741785349" MODIFIED="1693741798839"/>
-</node>
-<node TEXT="TEM(transmission electron microscope)" LOCALIZED_STYLE_REF="default" ID="ID_228599632" CREATED="1693741718991" MODIFIED="1693741832948">
-<node TEXT="a beam of electrons is transmitted through a specimen to form an image" LOCALIZED_STYLE_REF="default" ID="ID_1481812030" CREATED="1693741839349" MODIFIED="1693741914461"/>
-<node TEXT="specimen: ultrathin &lt; 100nm or a suspension on a grid" LOCALIZED_STYLE_REF="default" ID="ID_1161611941" CREATED="1693741888897" MODIFIED="1693741933314"/>
-</node>
-<node TEXT="STM(scanning tunneling microscope)" LOCALIZED_STYLE_REF="default" ID="ID_1141084" CREATED="1693741722805" MODIFIED="1693741962371">
-<node TEXT="used for imaging surface at the atomic level" LOCALIZED_STYLE_REF="default" ID="ID_1356912760" CREATED="1693741968985" MODIFIED="1693741984428"/>
-<node TEXT="quantum tunneling" LOCALIZED_STYLE_REF="default" ID="ID_1902401684" CREATED="1693742021508" MODIFIED="1693742025153"/>
-</node>
-<node TEXT="SPM(scanning probe microscopy)" LOCALIZED_STYLE_REF="default" ID="ID_1235978003" CREATED="1693744289759" MODIFIED="1693744300147">
-<node TEXT="AFM(atomic force microscopy)&#xa;/SFM(scanning force microscopy)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_482523076" CREATED="1693744242983" MODIFIED="1693744275558"/>
+<node TEXT="PDMS/PC transfer" LOCALIZED_STYLE_REF="default" ID="ID_939350474" CREATED="1697373014046" MODIFIED="1697373020153">
+<node TEXT="1. Wafer preparation&#xa;2. PDMS(cutting PDMS -&gt; PC forming -&gt; windowed tape to pickup PC and cover PDMS -&gt; remove tape)&#xa;3. Exfoliation(tape -&gt; wafer -&gt; scope)&#xa;4. Pick up(top down, ensure alignment)&#xa;5. Electrode(wash -&gt; put (alignment))&#xa;6. PDMS Melt(melt -&gt; wash)&#xa;7. Circuit Routing(others&apos; lab)" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1756950615" CREATED="1693453825202" MODIFIED="1693455855494"/>
 </node>
 </node>
 <node TEXT="spin accumulation" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_29322499" CREATED="1694157303812" MODIFIED="1694157307780">
@@ -196,7 +184,7 @@
 </node>
 <node TEXT="ST measurement methods" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_207884078" CREATED="1694613420631" MODIFIED="1695285879169">
 <edge COLOR="#007c00"/>
-<node TEXT="SOT measurement" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_260131078" CREATED="1693386193197" MODIFIED="1694613705770">
+<node TEXT="SOT measurement" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_260131078" CREATED="1693386193197" MODIFIED="1694613705770">
 <node TEXT="AHE" LOCALIZED_STYLE_REF="default" ID="ID_1962542256" CREATED="1693741646542" MODIFIED="1694618696631">
 <hook URI="../Quantum/quantum-pix/AHE_signal.png" SIZE="0.3839417" NAME="ExternalObject"/>
 <node TEXT="Device: Hall-bar devices by conventional lithography and ion milling" LOCALIZED_STYLE_REF="default" ID="ID_1035887678" CREATED="1694618646783" MODIFIED="1694618647925"/>
@@ -337,6 +325,74 @@
 </node>
 </node>
 <node TEXT="absorption spectrum" LOCALIZED_STYLE_REF="default" ID="ID_1308528125" CREATED="1694618004429" MODIFIED="1694618010358"/>
+</node>
+<node TEXT="Structure Observation" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_144047595" CREATED="1697369740520" MODIFIED="1697369747613">
+<edge COLOR="#7c007c"/>
+<node TEXT="Microscopy (real space)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1804485229" CREATED="1693741712431" MODIFIED="1697372770218">
+<node TEXT="SEM(scanning electron microscope)" LOCALIZED_STYLE_REF="default" ID="ID_443154740" CREATED="1693741716710" MODIFIED="1693741753584">
+<node TEXT="scanning the surface with a focused beam of electrons" LOCALIZED_STYLE_REF="default" ID="ID_255936634" CREATED="1693741785349" MODIFIED="1693741798839"/>
+<node TEXT="suitable for imaging the surface morphology and topography of samples at a nanometer to micrometer scale" LOCALIZED_STYLE_REF="default" ID="ID_582666485" CREATED="1697370626626" MODIFIED="1697370628127"/>
+</node>
+<node TEXT="LEEM (Low-energy electron microscopy)" LOCALIZED_STYLE_REF="default" ID="ID_436764586" CREATED="1697369760022" MODIFIED="1697369777718">
+<node TEXT="lower energy means smaller penetration" LOCALIZED_STYLE_REF="default" ID="ID_1207435004" CREATED="1697372085220" MODIFIED="1697372097230"/>
+</node>
+<node TEXT="TEM(transmission electron microscope)" LOCALIZED_STYLE_REF="default" ID="ID_228599632" CREATED="1693741718991" MODIFIED="1693741832948">
+<node TEXT="a beam of electrons is transmitted through a specimen to form an image" LOCALIZED_STYLE_REF="default" ID="ID_1481812030" CREATED="1693741839349" MODIFIED="1693741914461"/>
+<node TEXT="specimen: ultrathin &lt; 100nm or a suspension on a grid" LOCALIZED_STYLE_REF="default" ID="ID_1161611941" CREATED="1693741888897" MODIFIED="1693741933314"/>
+<node TEXT="used for high-resolution imaging of internal structures and nanoscale features within materials" LOCALIZED_STYLE_REF="default" ID="ID_1793838489" CREATED="1697370768126" MODIFIED="1697370769457"/>
+</node>
+<node TEXT="STM(scanning tunneling microscope)" LOCALIZED_STYLE_REF="default" ID="ID_1141084" CREATED="1693741722805" MODIFIED="1693741962371">
+<node TEXT="used for imaging surface at the atomic level" LOCALIZED_STYLE_REF="default" ID="ID_1356912760" CREATED="1693741968985" MODIFIED="1693741984428"/>
+<node TEXT="quantum tunneling" LOCALIZED_STYLE_REF="default" ID="ID_1902401684" CREATED="1693742021508" MODIFIED="1693742025153"/>
+</node>
+<node TEXT="SPM(scanning probe microscopy)" LOCALIZED_STYLE_REF="default" ID="ID_1235978003" CREATED="1693744289759" MODIFIED="1693744300147">
+<node TEXT="AFM(atomic force microscopy)&#xa;/SFM(scanning force microscopy)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_482523076" CREATED="1693744242983" MODIFIED="1693744275558"/>
+<node TEXT="used for high-resolution imaging and mapping of surface properties" LOCALIZED_STYLE_REF="default" ID="ID_1941084995" CREATED="1697371868359" MODIFIED="1697371869646"/>
+</node>
+</node>
+<node TEXT="Raman Spectra" LOCALIZED_STYLE_REF="default" ID="ID_892702546" CREATED="1697369752817" MODIFIED="1697372740619">
+<node TEXT="peaks at specific Raman shifts(caused by Raman scattering) correspond to different vibrational / rotational mode" LOCALIZED_STYLE_REF="default" ID="ID_144243304" CREATED="1697372305912" MODIFIED="1697372403586"/>
+<node TEXT="used to distinguish components" LOCALIZED_STYLE_REF="default" ID="ID_1017207299" CREATED="1697375491831" MODIFIED="1697375499999"/>
+</node>
+<node TEXT="Diffraction (reciprocal space)" LOCALIZED_STYLE_REF="default" ID="ID_823482944" CREATED="1697372771723" MODIFIED="1697372781235">
+<node TEXT="XRD (X-ray diffraction)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_75109794" CREATED="1697372836110" MODIFIED="1697372857634"/>
+<node TEXT="Electron diffraction, SAED (selected area electron diffraction)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1231172292" CREATED="1697372863517" MODIFIED="1697372927149"/>
+<node TEXT="LEED (Low-energy electron diffraction)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_277658209" CREATED="1697372744481" MODIFIED="1697372760950"/>
+</node>
+<node TEXT="SHG (Second harmonic generation)" LOCALIZED_STYLE_REF="default" ID="ID_1364823609" CREATED="1697376299510" MODIFIED="1697376315637"/>
+</node>
+<node TEXT="Ferroelectricity" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1055153231" CREATED="1697373481980" MODIFIED="1697373487764">
+<edge COLOR="#007c7c"/>
+<node TEXT="PFM (Piezoresponse force microscopy)" LOCALIZED_STYLE_REF="default" ID="ID_1986251047" CREATED="1697373494372" MODIFIED="1697376365689"/>
+<node TEXT="\latex phase and $\overline{\Delta z}$&#xa;  hysteresis loop." LOCALIZED_STYLE_REF="default" ID="ID_392615799" CREATED="1697376400160" MODIFIED="1697376702602"/>
+<node TEXT="linear dichroism" LOCALIZED_STYLE_REF="default" ID="ID_1845512695" CREATED="1697376978581" MODIFIED="1697377009149"/>
+</node>
+<node TEXT="MTJ (Magnetic Tunneling Junc)" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1232572522" CREATED="1697373537731" MODIFIED="1697373551368">
+<edge COLOR="#7c7c00"/>
+<node TEXT="configuration" LOCALIZED_STYLE_REF="default" ID="ID_1416712558" CREATED="1697374917335" MODIFIED="1697374921828"/>
+<node TEXT="tunneling current - voltage" LOCALIZED_STYLE_REF="default" ID="ID_677354756" CREATED="1697373552247" MODIFIED="1697373626071">
+<hook URI="exp-pix/mtji-v.png" SIZE="0.50480616" NAME="ExternalObject"/>
+</node>
+<node TEXT="\latex magnetoresistance/magnetoconductance $\delta G$ - magnetic field / temperature / magnetization" LOCALIZED_STYLE_REF="default" ID="ID_1756629052" CREATED="1697373640069" MODIFIED="1697375225633">
+<hook URI="exp-pix/MRFMAFM.png" SIZE="0.5949013" NAME="ExternalObject"/>
+<node TEXT="clear steps in AFM" LOCALIZED_STYLE_REF="default" ID="ID_908760957" CREATED="1697374024010" MODIFIED="1697374030435"/>
+<node TEXT="slopes in FM" LOCALIZED_STYLE_REF="default" ID="ID_639707989" CREATED="1697374030707" MODIFIED="1697374036592"/>
+<node TEXT="FM &amp; AFM could be mixed, leading to both slopes and steps" LOCALIZED_STYLE_REF="default" ID="ID_1605995834" CREATED="1697374038521" MODIFIED="1697374057250"/>
+</node>
+<node TEXT="parameter measurement: thickness (AFM), Raman spectra, RMCD" LOCALIZED_STYLE_REF="default" ID="ID_1472691406" CREATED="1697375242299" MODIFIED="1697375265288"/>
+</node>
+<node TEXT="auxiliary DFT" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_644066767" CREATED="1697375028781" MODIFIED="1697375035212">
+<edge COLOR="#ff0000"/>
+<node TEXT="results" LOCALIZED_STYLE_REF="default" ID="ID_10512155" CREATED="1697375351439" MODIFIED="1697375353445">
+<node TEXT="total energy (stability of structure)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1731047053" CREATED="1697375036596" MODIFIED="1697375061398"/>
+<node TEXT="interlayer exchange energy (interlayer coupling)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_491549104" CREATED="1697375117140" MODIFIED="1697375130680"/>
+<node TEXT="band structure" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1681872974" CREATED="1697375331902" MODIFIED="1697375335626">
+<node TEXT="band gap" LOCALIZED_STYLE_REF="default" ID="ID_291045794" CREATED="1697375341629" MODIFIED="1697375343572"/>
+</node>
+<node TEXT="PDOS" LOCALIZED_STYLE_REF="default" ID="ID_483267670" CREATED="1697375376042" MODIFIED="1697375378611"/>
+<node TEXT="differential charge density" LOCALIZED_STYLE_REF="default" ID="ID_1712031110" CREATED="1697375385446" MODIFIED="1697375392716"/>
+</node>
+<node TEXT="technique" LOCALIZED_STYLE_REF="default" ID="ID_1660355698" CREATED="1697375359297" MODIFIED="1697375370466"/>
 </node>
 </node>
 </map>
