@@ -1,13 +1,14 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Group Theory" LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_791498638" CREATED="1556345032019" MODIFIED="1556423100729"><hook NAME="MapStyle" zoom="2.143">
+<map version="freeplane 1.11.5">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="Group Theory" LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_791498638" CREATED="1556345032019" MODIFIED="1556423100729"><hook NAME="MapStyle" zoom="1.268">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1510820250" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1510820250" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -19,8 +20,9 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -34,8 +36,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -62,7 +64,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="\latex 定义: 集合G中定义乘运算且满足如下条件,该集合即为一个群&#xa;\begin{aligned}&#xa;&amp; 封闭性\\&#xa; &amp;结合律\\&#xa; &amp;存在唯一单位元素e\\&#xa;&amp; $\forall f\in G: \exists only\ f^{-1}\in G: f^{-1}f=ff^{-1}=e$&#xa;\end{aligned}" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="right" ID="ID_1466496946" CREATED="1556345092366" MODIFIED="1556418036845" HGAP_QUANTITY="8.750000156462189 pt" VSHIFT_QUANTITY="-40.49999879300598 pt">
+<node TEXT="\latex 定义: 集合G中定义乘运算且满足如下条件,该集合即为一个群&#xa;\begin{aligned}&#xa;&amp; 封闭性\\&#xa; &amp;结合律\\&#xa; &amp;存在唯一单位元素e\\&#xa;&amp; $\forall f\in G: \exists only\ f^{-1}\in G: f^{-1}f=ff^{-1}=e$&#xa;\end{aligned}" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_1466496946" CREATED="1556345092366" MODIFIED="1556418036845" HGAP_QUANTITY="8.75 pt" VSHIFT_QUANTITY="-40.5 pt">
 <edge COLOR="#ff0000"/>
 <node TEXT="分类" LOCALIZED_STYLE_REF="default" ID="ID_1391072258" CREATED="1556353387176" MODIFIED="1556584960183">
 <node TEXT=" 群阶为元素个数,依据群阶--有限群和无限群" LOCALIZED_STYLE_REF="default" ID="ID_1590855856" CREATED="1556346848166" MODIFIED="1556358369893"/>
@@ -78,7 +80,7 @@
 </node>
 <node TEXT="\latex 陪集: 设H为G的子群,由固定的$g\in G$,\\可生成子群H的左/右陪集gH/Hg" LOCALIZED_STYLE_REF="default" ID="ID_1975828792" CREATED="1556355031843" MODIFIED="1556358369886">
 <node TEXT="\latex 陪集定理: H的两个左/右陪集或者完全相同,或者没有\\任何公共元素 (即$g_iH$和$g_jH$)" LOCALIZED_STYLE_REF="default" ID="ID_329677942" CREATED="1556355203837" MODIFIED="1556358583078">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_57075859" STARTINCLINATION="0;12;" ENDINCLINATION="115;3;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_57075859" STARTINCLINATION="0 pt;7.2 pt;" ENDINCLINATION="69 pt;1.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="Lagrange 定理:有限群子群的阶,必为群阶的因子" LOCALIZED_STYLE_REF="default" ID="ID_57075859" CREATED="1556355503856" MODIFIED="1556358369816"/>
@@ -88,7 +90,7 @@
 <node TEXT="\latex 不变子群: $H\subset G$,若H中所有元素的同类元素\\都属于H,则称H为G的不变子群 &#xa;\\同时,不变子群是自共轭的,其左右陪集重合" ID="ID_1236144662" CREATED="1556359183613" MODIFIED="1556359574687">
 <node TEXT="\latex 设H为G的不变子群,对任意固定的$f\in G$,当$h_\alpha$取遍H&#xa;中\\所有元素的时候,$fh_\alpha f^{-1}$给出且仅一次给出H中所有元素" ID="ID_700967094" CREATED="1556359595476" MODIFIED="1556410952667"/>
 <node TEXT="\latex 商群: 设G有不变子群H,由H将G分为$\{g_0H,g_1H,g_2H\,\cdots\}$\\,把其中每个陪集看作新元素,并由两个陪集中元素相乘\\得到另一陪集中的元素,定义新的元素乘法 &#xa;$g_ih_\alpha g_jh_\beta=g_k h_\gamma $ \\&#xa;该群称为不变子群H的商群,记为G/H" ID="ID_700401623" CREATED="1556410997586" MODIFIED="1556418152720">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1495802955" STARTINCLINATION="-23;48;" ENDINCLINATION="-177;0;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1495802955" STARTINCLINATION="-13.2 pt;28.8 pt;" ENDINCLINATION="-105.6 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -111,16 +113,16 @@
 </node>
 </node>
 <node TEXT="\latex 同态: 存在从G到F的满射\phi, 且保持群\\乘法不变,$G\sim F$,\phi称为同态映射 \\&#xa;注意:满射不可逆,因此同态是单向关系" ID="ID_850907665" CREATED="1556418485928" MODIFIED="1556423091682">
-<node TEXT="\latex 同态核: 设$G\sim F$, G中与F的单位元素\\对应的所有元素的集合称为同态核" ID="ID_1660580778" CREATED="1556418811350" MODIFIED="1556423091678" VSHIFT_QUANTITY="-1.4999999552965182 pt">
+<node TEXT="\latex 同态核: 设$G\sim F$, G中与F的单位元素\\对应的所有元素的集合称为同态核" ID="ID_1660580778" CREATED="1556418811350" MODIFIED="1556423091678" VSHIFT_QUANTITY="-1.5 pt">
 <node TEXT="\latex 同态核定理: $G\sim F$,有:\\&#xa;同态核H是G的不变子群\\&#xa;商群G/H与F同构" ID="ID_189649988" CREATED="1556418957943" MODIFIED="1556419072138"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT=" 商群可作为群本身,以不变子群及其陪集为基本单元的一种超结构" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="right" ID="ID_1495802955" CREATED="1556418027747" MODIFIED="1556423100729" HGAP_QUANTITY="1247.2499628290545 pt" VSHIFT_QUANTITY="102.74999693781146 pt">
+<node TEXT=" 商群可作为群本身,以不变子群及其陪集为基本单元的一种超结构" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="bottom_or_right" ID="ID_1495802955" CREATED="1556418027747" MODIFIED="1556423100729" HGAP_QUANTITY="1247.24996 pt" VSHIFT_QUANTITY="102.75 pt">
 <hook NAME="FreeNode"/>
 </node>
-<node TEXT="变换群/对称群(以变换为群元,以作用的先后顺序&#xa;为乘运算组成的群) (完全对称群的子群)" FOLDED="true" POSITION="left" ID="ID_388713429" CREATED="1556505179294" MODIFIED="1556508135359">
+<node TEXT="变换群/对称群(以变换为群元,以作用的先后顺序&#xa;为乘运算组成的群) (完全对称群的子群)" FOLDED="true" POSITION="top_or_left" ID="ID_388713429" CREATED="1556505179294" MODIFIED="1556508135359">
 <edge COLOR="#7c0000"/>
 <hook EQUATION="fg(x)=f(g(x))" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="变换群" ID="ID_1073140534" CREATED="1556584506593" MODIFIED="1556584526268">
@@ -135,13 +137,13 @@
 <node TEXT="变换对象集合" ID="ID_1113959609" CREATED="1556584513860" MODIFIED="1556584519600">
 <node TEXT="\latex  等价性:设G为X上的变换群,若\\&#xa;$x,y\in X,\ \exists g\in G:\ g(x)=y$\\,&#xa;则称x与y等价,$x\sim y$" ID="ID_1243318760" CREATED="1556583826878" MODIFIED="1556583939396">
 <node TEXT="\latex x的G轨道: $x\in X$, G为X上的变换群,\\ 则X中所有与x等价的元素的集合,称为x的G轨道" ID="ID_1699009738" CREATED="1556583957875" MODIFIED="1556584399094">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="10" FONT_FAMILY="SansSerif" DESTINATION="ID_1612443214" MIDDLE_LABEL="轨道必然是不变子集" STARTINCLINATION="46;23;" ENDINCLINATION="164;3;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="10" FONT_FAMILY="SansSerif" DESTINATION="ID_1612443214" MIDDLE_LABEL="轨道必然是不变子集" STARTINCLINATION="27.6 pt;13.8 pt;" ENDINCLINATION="98.4 pt;1.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex 不变子集: $Y\subset X$, Y对G中任意变换封闭" ID="ID_1612443214" CREATED="1556584151062" MODIFIED="1556584216011"/>
 </node>
 </node>
-<node TEXT="直积与半直积" FOLDED="true" POSITION="left" ID="ID_37415245" CREATED="1556584967097" MODIFIED="1556584984979">
+<node TEXT="直积与半直积" POSITION="top_or_left" ID="ID_37415245" CREATED="1556584967097" MODIFIED="1556584984979">
 <edge COLOR="#00007c"/>
 <node TEXT="\latex 直积: $G_1$与$G_2$元素构成有序对,乘法为分别相乘\\&#xa;相应有序对构成直积群$G=G_1\otimes G_2$" ID="ID_744391582" CREATED="1556585002789" MODIFIED="1556585239935">
 <node TEXT="\latex 往往$G_1$与$G_2$拥有互易的乘法(不要求Abel),\\&#xa;此时有序对理解为乘积即可" ID="ID_244560556" CREATED="1556585270070" MODIFIED="1556585572277"/>
@@ -151,7 +153,7 @@
 <node TEXT="\latex 与直积区别: 直积中乘积是允许$G_1$中元素直接跨越$G_2$元素\\进行乘法; 而半直积则要求跨越时进行相应内自构映射" ID="ID_971636726" CREATED="1556586233003" MODIFIED="1556586364075"/>
 </node>
 </node>
-<node TEXT="群表示(G到线性空间V上的线性变换群L(V,C)的同态映射关系)" FOLDED="true" POSITION="right" ID="ID_1284425418" CREATED="1556587013938" MODIFIED="1556587090634">
+<node TEXT="群表示(G到线性空间V上的线性变换群L(V,C)的同态映射关系)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1284425418" CREATED="1556587013938" MODIFIED="1556587090634">
 <edge COLOR="#007c00"/>
 <node TEXT="线性空间: 定义在数域K上的向量集合V, 其中可定义加法和数乘两种运算(有封闭性)" ID="ID_1212361989" CREATED="1556587120841" MODIFIED="1556587180532">
 <node TEXT="线性无关向量最大个数m称为其维数,dim V=m" ID="ID_1331795730" CREATED="1556587200943" MODIFIED="1556587229184"/>
@@ -173,7 +175,7 @@
 </node>
 </node>
 </node>
-<node TEXT="转动群" POSITION="left" ID="ID_714186176" CREATED="1618536634324" MODIFIED="1618536661897">
+<node TEXT="转动群" POSITION="top_or_left" ID="ID_714186176" CREATED="1618536634324" MODIFIED="1618536661897">
 <edge COLOR="#7c007c"/>
 <node TEXT="三维实特殊正交群SO(3)" ID="ID_729517786" CREATED="1618536692316" MODIFIED="1618536821557">
 <node TEXT="\latex $SO(3)\in O(3)$&#xa;\\SO(3)是O(3)中行列式为1的部分" ID="ID_412679173" CREATED="1618536733674" MODIFIED="1618536787203"/>

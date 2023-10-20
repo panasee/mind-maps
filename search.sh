@@ -10,7 +10,7 @@ do
         if [[ ! -d "$j" ]]
         then
             echo $j
-            grep $1 "$j"
+            grep "$1" "$j"
         fi
     done
     cd ../..
