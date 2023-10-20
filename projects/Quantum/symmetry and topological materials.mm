@@ -3,7 +3,7 @@
 <node TEXT="symmetry &amp;&#xa;topological materials" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1697729731510" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -72,12 +72,41 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Symmetry Groups&#xa;(details see Solid State Physics)" POSITION="bottom_or_right" ID="ID_1070764490" CREATED="1697729592590" MODIFIED="1697729999864" LINK="Solid%20State%20Physics.mm" STYLE="fork"/>
 <node TEXT="unitary particle-hole (chiral) symmetry" POSITION="bottom_or_right" ID="ID_1819881496" CREATED="1697730021489" MODIFIED="1697768806730">
 <edge COLOR="#808080"/>
 <node TEXT="relate the valence and conduction bands" ID="ID_1884415871" CREATED="1697730041184" MODIFIED="1697730052058"/>
 <node TEXT="generically absent in real materials" ID="ID_683795561" CREATED="1697730052254" MODIFIED="1697730059741"/>
+</node>
+<node TEXT="Wigner&apos;s theorem" POSITION="top_or_left" ID="ID_759573290" CREATED="1697788319844" MODIFIED="1697791826353">
+<arrowlink DESTINATION="ID_214161911" STARTINCLINATION="-1.5 pt;28.5 pt;" ENDINCLINATION="-22.5 pt;-52 pt;"/>
+<edge COLOR="#808080"/>
+<node TEXT="any transformation of ray space that preserves the absolute value of the inner products can be represented by a unitary/antiunitary transformation of Hilbert space" ID="ID_1828025253" CREATED="1697788688193" MODIFIED="1697788756289">
+<node TEXT="\latex ray space refers to all equivalent state vectors,\\&#xa;like $e^{i\theta}|\psi\rangle,  \theta\in R$" ID="ID_229242819" CREATED="1697789309785" MODIFIED="1697789430468"/>
+</node>
+</node>
+<node TEXT="unitary &amp; antiunitary symmetries" POSITION="top_or_left" ID="ID_214161911" CREATED="1697787990045" MODIFIED="1697791794463">
+<edge COLOR="#808080"/>
+<node TEXT="mathematical definition" ID="ID_436911218" CREATED="1697791802493" MODIFIED="1697791809648">
+<node TEXT="\latex unitary: $UU^\dagger = U^\dagger U=I \Rightarrow \langle Ux,Uy\rangle=\langle x,y\rangle$" POSITION="top_or_left" ID="ID_1400351063" CREATED="1697790816151" MODIFIED="1697791001504"/>
+<node TEXT="\latex antiunitary: $\langle Ux,Uy\rangle=\overline{\langle x,y\rangle}$" POSITION="top_or_left" ID="ID_428556616" CREATED="1697790816151" MODIFIED="1697791053800"/>
+</node>
+<node TEXT="corepresentation" ID="ID_1096046205" CREATED="1697791795483" MODIFIED="1697791800464"/>
+</node>
+<node TEXT="Wannier functions and Wannierizability" POSITION="bottom_or_right" ID="ID_1652583239" CREATED="1697792349812" MODIFIED="1697792382571">
+<edge COLOR="#808080"/>
+<node TEXT="for a group of bands separated by energy gaps at each k point, inverse-Fourier transformation can be imposed to get exponentially localized Wannier orbitals" ID="ID_1442931059" CREATED="1697792386669" MODIFIED="1697792452903"/>
+<node TEXT="the absence of Wannierizability, or the properties of Wannier functions are central to the identification of nontrivial band topology" ID="ID_1346224776" CREATED="1697793140023" MODIFIED="1697793175410"/>
+</node>
+<node TEXT="Band topology" POSITION="top_or_left" ID="ID_36808481" CREATED="1697793241550" MODIFIED="1697793244574">
+<edge COLOR="#808080"/>
+<node TEXT="Bloch wavefunc of energetically isolated bands can carry topologically quantized numbers, aka topological invariants" ID="ID_200715947" CREATED="1697793248069" MODIFIED="1697793289237"/>
+<node TEXT="if the band distortion and interactions do not close a gap or break a symmetry, then the topology of the isolated bands cannot change" ID="ID_219961959" CREATED="1697796297119" MODIFIED="1697796438483">
+<node TEXT="topology and symmetry alone indicate the numbers and locations of boundary states and the quantized values of bulk response coefficients in many solid-state materials" ID="ID_226048222" CREATED="1697796451104" MODIFIED="1697796471031">
+<node TEXT="topological phenomena can be meaningfully&#xa;predicted using appropriately simplified models" ID="ID_1948665633" CREATED="1697796486537" MODIFIED="1697796496171"/>
+</node>
+</node>
 </node>
 </node>
 </map>
