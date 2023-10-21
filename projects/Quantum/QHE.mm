@@ -59,7 +59,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <edge STYLE="sharp_bezier" WIDTH="1"/>
 <font SIZE="14"/>
-<node TEXT="IQHE" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1623032875620">
+<node TEXT="IQHE" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_186505054" CREATED="1543493877100" MODIFIED="1623032875620">
 <font NAME="TSCu_Times" SIZE="14" ITALIC="true"/>
 <edge COLOR="#ff0000"/>
 <node TEXT="resistivity &amp; conductivity" LOCALIZED_STYLE_REF="default" ID="ID_1149798585" CREATED="1543494243089" MODIFIED="1544323094979">
@@ -152,7 +152,7 @@
 </node>
 </node>
 <node TEXT="second, turn some states from extended to localized" ID="ID_333409284" CREATED="1543649435989" MODIFIED="1545047034673">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="203 pt;-24.5 pt;" ENDINCLINATION="-80 pt;19 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="202.8 pt;-24 pt;" ENDINCLINATION="-79.2 pt;19.2 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="the center of the orbit, X drifts along equipotentials" ID="ID_66226761" CREATED="1543650213872" MODIFIED="1544323095020">
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
@@ -182,7 +182,7 @@
 </node>
 </node>
 <node TEXT="Gauge Invariance" ID="ID_485433445" CREATED="1543651405067" MODIFIED="1545047208900">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-268 pt;-132.5 pt;" ENDINCLINATION="165 pt;204.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1008139022" STARTINCLINATION="-267.60001 pt;-132 pt;" ENDINCLINATION="165 pt;204.6 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 <node TEXT="Corbino ring" ID="ID_934640366" CREATED="1545047221026" MODIFIED="1545047228120" MOVED="1545047394846">
 <node TEXT="the gauge transformation can be thought as the changing of flux through the centre of the ring" ID="ID_822295887" CREATED="1545047250560" MODIFIED="1545047365019">
@@ -409,7 +409,7 @@
 </node>
 </node>
 <node TEXT="ground state degeneracy depends on the topology of the manifold (place them on a compact manifold)" ID="ID_1596501918" CREATED="1545199677762" MODIFIED="1545268421637">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_285201163" STARTINCLINATION="309 pt;67.5 pt;" ENDINCLINATION="71.5 pt;210 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_285201163" STARTINCLINATION="309.00001 pt;67.2 pt;" ENDINCLINATION="71.4 pt;210.00001 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="create from vacuum a quasi-hole -- quasi-particle pair, let them move around two perpendicular circles on the torus ,then annihilate" ID="ID_1846610510" CREATED="1545199877749" MODIFIED="1545200745913">
 <hook EQUATION="corresponding\ operators\,;T_1\&amp;T_2,\ SO\ T_1T_2T_1^{-1}T_2^{-1}\Leftrightarrow take\ one\ anyon\ around\ another\\&#xa;so\ we\ get\Rightarrow T_1T_2=e^{2\pi i/m}T_2T_1  \rightarrow&#xa;this\ algebra\ of\ operators\ can&apos;t\ be\ reslised\ on\ a\ single\ vacuum\ state \Rightarrow the\ ground\ state\ must\ be\ degenerate" NAME="plugins/latex/LatexNodeHook.properties"/>
 <node TEXT="smallest representation of the former relation" ID="ID_957496401" CREATED="1545201247511" MODIFIED="1545201566013">
@@ -507,7 +507,7 @@
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="turning on an electric field" ID="ID_26592283" CREATED="1543498321907" MODIFIED="1545046051894">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-116.5 pt;14.5 pt;" ENDINCLINATION="-388.5 pt;271.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1062108373" STARTINCLINATION="-115.8 pt;14.4 pt;" ENDINCLINATION="-387.60001 pt;271.20001 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="TSCu_Times" SIZE="16" ITALIC="true"/>
 </node>
 <node TEXT="conductivity when some levels are filled" ID="ID_916414675" CREATED="1543643544384" MODIFIED="1544323095128" MOVED="1543643796997">
@@ -535,7 +535,7 @@
 <node TEXT="for an adiabatic process, a sys starting with nth eigenstate remains nth, only picking up a couple of phase factors" ID="ID_211382559" CREATED="1623032755566" MODIFIED="1623032894624">
 <font SIZE="14"/>
 <node TEXT="\latex the new phase factor $\gamma_n(t)$ can be canceled out by\\&#xa;choosing an appropriate gauge for the eigenfuncs \\&#xa;$|n(\boldsymbol R) \rangle \rightarrow e^{i\zeta(\boldsymbol R)}| n (\boldsymbol R)\rangle$" ID="ID_1778508180" CREATED="1623032813486" MODIFIED="1623315780731">
-<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-155 pt;59.5 pt;" ENDINCLINATION="89.5 pt;-6.5 pt;"/>
+<arrowlink DESTINATION="ID_1684905803" STARTINCLINATION="-154.2 pt;59.4 pt;" ENDINCLINATION="89.4 pt;-6 pt;"/>
 <font SIZE="14"/>
 <node TEXT="\latex $\boldsymbol A_n(\boldsymbol R) \rightarrow \boldsymbol A_n(\boldsymbol R) - \frac\partial{\partial\boldsymbol R} \zeta(\boldsymbol R)$\\&#xa;$\gamma_n\rightarrow\gamma_n - \zeta |_{\boldsymbol R(0)}^{\boldsymbol R(T)}$" ID="ID_1647131701" CREATED="1625664689519" MODIFIED="1625664881436"/>
 </node>

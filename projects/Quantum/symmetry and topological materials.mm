@@ -80,7 +80,7 @@
 <node TEXT="generically absent in real materials" ID="ID_683795561" CREATED="1697730052254" MODIFIED="1697730059741"/>
 </node>
 <node TEXT="Wigner&apos;s theorem" POSITION="top_or_left" ID="ID_759573290" CREATED="1697788319844" MODIFIED="1697791826353">
-<arrowlink DESTINATION="ID_214161911" STARTINCLINATION="-1.5 pt;28.5 pt;" ENDINCLINATION="-22.5 pt;-52 pt;"/>
+<arrowlink DESTINATION="ID_214161911" STARTINCLINATION="-0.6 pt;28.2 pt;" ENDINCLINATION="-21.6 pt;-51.6 pt;"/>
 <edge COLOR="#808080"/>
 <node TEXT="any transformation of ray space that preserves the absolute value of the inner products can be represented by a unitary/antiunitary transformation of Hilbert space" ID="ID_1828025253" CREATED="1697788688193" MODIFIED="1697788756289">
 <node TEXT="\latex ray space refers to all equivalent state vectors,\\&#xa;like $e^{i\theta}|\psi\rangle,  \theta\in R$" ID="ID_229242819" CREATED="1697789309785" MODIFIED="1697789430468"/>
@@ -101,10 +101,34 @@
 </node>
 <node TEXT="Band topology" POSITION="top_or_left" ID="ID_36808481" CREATED="1697793241550" MODIFIED="1697793244574">
 <edge COLOR="#808080"/>
-<node TEXT="Bloch wavefunc of energetically isolated bands can carry topologically quantized numbers, aka topological invariants" ID="ID_200715947" CREATED="1697793248069" MODIFIED="1697793289237"/>
+<node TEXT="Bloch wavefunc of energetically isolated bands can carry topologically quantized numbers, aka topological invariants" ID="ID_200715947" CREATED="1697793248069" MODIFIED="1697793289237">
+<node TEXT="possible to classify metallic materials as topological band insulators" ID="ID_1531066324" CREATED="1697807487314" MODIFIED="1697807525489"/>
+</node>
 <node TEXT="if the band distortion and interactions do not close a gap or break a symmetry, then the topology of the isolated bands cannot change" ID="ID_219961959" CREATED="1697796297119" MODIFIED="1697796438483">
 <node TEXT="topology and symmetry alone indicate the numbers and locations of boundary states and the quantized values of bulk response coefficients in many solid-state materials" ID="ID_226048222" CREATED="1697796451104" MODIFIED="1697796471031">
 <node TEXT="topological phenomena can be meaningfully&#xa;predicted using appropriately simplified models" ID="ID_1948665633" CREATED="1697796486537" MODIFIED="1697796496171"/>
+</node>
+</node>
+<node TEXT="3 broad classes of topological bands in solid-state materials" ID="ID_1932622091" CREATED="1697809128403" MODIFIED="1697809151273">
+<node TEXT="obstructed atomic limits" ID="ID_531947261" CREATED="1697809151659" MODIFIED="1697809159401">
+<node TEXT="Wannierizable, but Wannier centers reside at positions in the unit cell away from ions" ID="ID_751144555" CREATED="1697809251172" MODIFIED="1697809276384"/>
+<node TEXT="exhibit electric multipole moments" ID="ID_907027696" CREATED="1697812173366" MODIFIED="1697812180942"/>
+<node TEXT="boundaries between atomic limits and obstructed atomic limits exhibit either 0D or flat-band-like topological solitons with fractional charge or spin-charge separation" ID="ID_610921051" CREATED="1697812482542" MODIFIED="1697812577236"/>
+<node TEXT="In 1D, Wannier functions are always localized in the absence of superconductivity -&gt; all topological phases are obstructed atomic limits" ID="ID_1432171189" CREATED="1697812629266" MODIFIED="1697812892856"/>
+</node>
+<node TEXT="fragile bands" ID="ID_1250427243" CREATED="1697809159713" MODIFIED="1697809163526">
+<node TEXT="exhibits boundary solitons but not admits a Wannier description unless combined with other, trivial (Wannierizable) bands." ID="ID_1799049180" CREATED="1697819997854" MODIFIED="1697820058698"/>
+<node TEXT="These fragile topological bands have been shown to lie close to fermi level in hundreds of solid state materials and to be relevant to the low-energy excitations in twisted bilayer graphene" ID="ID_1990020223" CREATED="1697820059714" MODIFIED="1697820083808"/>
+</node>
+<node TEXT="stable topological bands&#xa;(most ubiquitous) of TIs and TCIs" ID="ID_710902374" CREATED="1697809163715" MODIFIED="1697820784494" LINK="QHE.mm">
+<node TEXT="cannot be Wannierized, and remain non- Wannierizable when combined with (obstructed) atomic limits or fragile bands" ID="ID_1774776483" CREATED="1697820135912" MODIFIED="1697820151781"/>
+<node TEXT="\latex stable topological bands can generically be partially Fourier-transformed into hybrid Wannier functions with one coordinate $r_\perp$ in position&#xa;space perpendicular to two components $k_\parallel$ in momentum space" ID="ID_935998971" CREATED="1697820192933" MODIFIED="1697820279214" TEXT_ALIGN="LEFT">
+<font NAME="Times New Roman" SIZE="16"/>
+</node>
+<node TEXT="\latex in stable TIs and TCIs, the positions of the hybrid Wannier functions necessarily wind as functions of $k_\parallel$\\&#xa;In a 2D quantum Hall phase considered in the limit of a rational flux quantum per unit cell such that there exists a 2D Bravais lattice of commuting (magnetic) translations, the hybrid-Wannier-center winding can&#xa;be classified by an integer-valued topological invariant termed a \textbf{Chern number}" POSITION="top_or_left" ID="ID_1936577765" CREATED="1697820440635" MODIFIED="1697820874049" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
+<node TEXT="Chern number of a set of bands cannot be changed without closing a gap between the bands and other bands in the spectrum" POSITION="top_or_left" ID="ID_1477092006" CREATED="1697820533674" MODIFIED="1697820874051"/>
+<node TEXT="\latex Chern number of all of the occupied bands corresponds to the bulk Hall conductivity  $\sigma_H^{xy}$ in the units of $e^2/h$, as well as to the number of topological chiral edge states." POSITION="top_or_left" ID="ID_1542670374" CREATED="1697820594142" MODIFIED="1697820874052"/>
+</node>
 </node>
 </node>
 </node>
