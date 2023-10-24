@@ -1,6 +1,7 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="symmetry &amp;&#xa;topological materials" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1697729731510" STYLE="oval">
+<node TEXT="symmetry &amp;&#xa;topological materials" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1697975357543" STYLE="oval">
+<arrowlink DESTINATION="ID_1909617070" STARTINCLINATION="70.2 pt;211.80001 pt;" ENDINCLINATION="-84 pt;-81 pt;"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
@@ -72,7 +73,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="27" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Symmetry Groups&#xa;(details see Solid State Physics)" POSITION="bottom_or_right" ID="ID_1070764490" CREATED="1697729592590" MODIFIED="1697729999864" LINK="Solid%20State%20Physics.mm" STYLE="fork"/>
 <node TEXT="unitary particle-hole (chiral) symmetry" POSITION="bottom_or_right" ID="ID_1819881496" CREATED="1697730021489" MODIFIED="1697768806730">
 <edge COLOR="#808080"/>
@@ -80,7 +81,7 @@
 <node TEXT="generically absent in real materials" ID="ID_683795561" CREATED="1697730052254" MODIFIED="1697730059741"/>
 </node>
 <node TEXT="Wigner&apos;s theorem" POSITION="top_or_left" ID="ID_759573290" CREATED="1697788319844" MODIFIED="1697791826353">
-<arrowlink DESTINATION="ID_214161911" STARTINCLINATION="-0.6 pt;28.2 pt;" ENDINCLINATION="-21.6 pt;-51.6 pt;"/>
+<arrowlink DESTINATION="ID_214161911" STARTINCLINATION="0 pt;28.2 pt;" ENDINCLINATION="-21 pt;-51 pt;"/>
 <edge COLOR="#808080"/>
 <node TEXT="any transformation of ray space that preserves the absolute value of the inner products can be represented by a unitary/antiunitary transformation of Hilbert space" ID="ID_1828025253" CREATED="1697788688193" MODIFIED="1697788756289">
 <node TEXT="\latex ray space refers to all equivalent state vectors,\\&#xa;like $e^{i\theta}|\psi\rangle,  \theta\in R$" ID="ID_229242819" CREATED="1697789309785" MODIFIED="1697789430468"/>
@@ -130,6 +131,45 @@
 <node TEXT="\latex Chern number of all of the occupied bands corresponds to the bulk Hall conductivity  $\sigma_H^{xy}$ in the units of $e^2/h$, as well as to the number of topological chiral edge states." POSITION="top_or_left" ID="ID_1542670374" CREATED="1697820594142" MODIFIED="1697820874052"/>
 </node>
 </node>
+</node>
+<node TEXT="Weyl point and Dirac point" ID="ID_717072561" CREATED="1697873443893" MODIFIED="1697873450231">
+<node TEXT="Weyl point" ID="ID_715662602" CREATED="1697874897263" MODIFIED="1697874902484"/>
+<node TEXT="Dirac point includes two overlapped Weyl points,&#xa;thus is 4-fold degenerate" ID="ID_1375109446" CREATED="1697874902906" MODIFIED="1697874931152"/>
+</node>
+<node TEXT="Band inversion" ID="ID_1909617070" CREATED="1697973790931" MODIFIED="1697973916865">
+<hook URI="Solid%20State%20Physics_files/BandInv.png" SIZE="0.6849825" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="TSM (topological semi-metal)" POSITION="bottom_or_right" ID="ID_1203424232" CREATED="1697863609914" MODIFIED="1697863618751">
+<edge COLOR="#808080"/>
+<node TEXT="If the bands in a d-dimensional [d-D] nodal semimetal exhibit nontrivial (d-1)-D or (d-2)-D polarization, fragile, or stable topology, then the nodal semimetal is further classified as a TSM" ID="ID_1886479704" CREATED="1697863698282" MODIFIED="1697863742103"/>
+<node TEXT="in 3D TSMs, the nodal points are respectively termed 3D Dirac and Weyl points" ID="ID_1022564603" CREATED="1697863912597" MODIFIED="1697863935371">
+<node TEXT="\latex bulk nodal degeneracies whose $\bf k\cdot \bf p$ Hamiltonians resemble the high-energy Dirac and Weyl equations" ID="ID_998276104" CREATED="1697863951033" MODIFIED="1697863980786"/>
+<node TEXT="Initially, the search for TSMs and TIs was motivated as an effort to observe condensed-matter realizations of high energy phenomena" ID="ID_1155074554" CREATED="1697864859988" MODIFIED="1697864872566"/>
+</node>
+<node TEXT="WSM (Weyl Semimetal)" ID="ID_903420385" CREATED="1697973446590" MODIFIED="1697973456313">
+<node TEXT="Weyl fermions" ID="ID_1169240598" CREATED="1697973477308" MODIFIED="1697973580125">
+<node TEXT="massless fermion in the Dirac equation" ID="ID_355420633" CREATED="1697973590435" MODIFIED="1697973600773"/>
+<node TEXT="exist as low-energy excitations of Weyl semimetal in band structures (linear dispersion through Weyl point)" ID="ID_1481483831" CREATED="1697973628737" MODIFIED="1697973698427"/>
+<node TEXT="Berry curvature can characterize the topological entanglement between conduction&amp;valence bands" ID="ID_1359370846" CREATED="1697974185200" MODIFIED="1697974275883">
+<node TEXT="berry curvature equals magnetic field&#xa;in momentum space" ID="ID_1971863252" CREATED="1697974324559" MODIFIED="1697974348148"/>
+<node TEXT="berry curvature is singular at Weyl points that act as monopoles in momentum space with fixed chirality" ID="ID_1093159282" CREATED="1697974490693" MODIFIED="1697974527653">
+<node TEXT="Weyl point can be a source (+ chirality)/sink (- chirality) of berry curvature" ID="ID_674124000" CREATED="1697974543858" MODIFIED="1697974572944"/>
+<node TEXT="Weyl points always appear in pairs,&#xa;otherwise, the Berry flux becomes divergent" ID="ID_942079141" CREATED="1697975118237" MODIFIED="1697975146469"/>
+</node>
+</node>
+</node>
+<node TEXT="types (I and II)" ID="ID_1108556805" CREATED="1697976189882" MODIFIED="1697976199161">
+<node TEXT="type-I: respect Lorentz symmetry" ID="ID_1675817126" CREATED="1697976199332" MODIFIED="1697976214082"/>
+<node TEXT="type-II: not respect Lorentz symmetry" ID="ID_315163939" CREATED="1697976225196" MODIFIED="1697976236176"/>
+</node>
+</node>
+<node TEXT="DSM (Dirac Semimetal)" ID="ID_1488652206" CREATED="1697975191492" MODIFIED="1697975262273">
+<arrowlink DESTINATION="ID_903420385" MIDDLE_LABEL="breaking symmetry (inversion/time-reversal)" STARTINCLINATION="-31.8 pt;-40.8 pt;" ENDINCLINATION="-27.6 pt;58.2 pt;"/>
+<node TEXT="graphene is the simplest TSM" POSITION="bottom_or_right" ID="ID_944987438" CREATED="1697863765960" MODIFIED="1697863778840">
+<node TEXT="\latex the low-energy mathematical description of the nodal points in graphene (the $\bf k \cdot \bf p$ Hamiltonian) resembles the Dirac equation for relativistic particles, the nodal points were termed 2D&#xa; Dirac points" ID="ID_1297287050" CREATED="1697863810043" MODIFIED="1697975220600"/>
+</node>
+<node TEXT="when TRS and IS coexist, a pair of degenerate Weyl points may exist --&gt; Dirac point" ID="ID_36123280" CREATED="1697975279962" MODIFIED="1697975312734"/>
 </node>
 </node>
 </node>

@@ -67,7 +67,7 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2 lattices" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="bottom_or_right" ID="ID_635102046" CREATED="1592479889607" MODIFIED="1697729177409" HGAP_QUANTITY="38.25 pt" VSHIFT_QUANTITY="-154.5 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="35.4 pt;-60.6 pt;" ENDINCLINATION="-23.4 pt;-67.2 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1504649718" STARTINCLINATION="35.4 pt;-59.4 pt;" ENDINCLINATION="-22.2 pt;-66 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 <hook NAME="FreeNode"/>
 <node TEXT="direct lattice" ID="ID_1905204903" CREATED="1592479947398" MODIFIED="1592480134958">
 <node TEXT="microscope image" ID="ID_1918157489" CREATED="1592479997640" MODIFIED="1592480134961"/>
@@ -86,14 +86,14 @@
 <node TEXT="将其中心定为倒易空间原点,得到的区域&#xa;即为第一布里渊区(BZ)/简约区" ID="ID_1234203452" CREATED="1561813263234" MODIFIED="1561813363322"/>
 </node>
 </node>
-<node TEXT="晶格周期性" FOLDED="true" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
+<node TEXT="晶格周期性" ID="ID_321456494" CREATED="1561848698457" MODIFIED="1561848737793">
 <node TEXT="\latex primitive cell/basis: 晶格最小的周期性单元(contain only one lattice point/basis)\\&#xa;lattice: the set of mathematical points to which basis is attached&#xa;\\基矢: \textbf{原胞的边矢量}" FOLDED="true" ID="ID_1286885399" CREATED="1561848744495" MODIFIED="1591507696469">
 <node TEXT="简单晶格: 每个原胞只有一个原子&#xa;即所有原子都是完全等价的" ID="ID_1681010389" CREATED="1561851881369" MODIFIED="1561851970662"/>
 <node TEXT="复式晶格: 每个原胞包含多于一个原子&#xa;原子的几何位置或者化学性质等不等价" ID="ID_956461377" CREATED="1561851905106" MODIFIED="1561851992489">
 <node TEXT="复式晶格可看成由不同等价原子&#xa;形成的简单晶格相互穿套形成" ID="ID_1754024537" CREATED="1561855316219" MODIFIED="1561855393348"/>
 </node>
 </node>
-<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
+<node TEXT="\latex (primitive)lattice(Bravais Lattice)\\&#xa;cell/basis 依附于 lattice 之上构成晶体，因此lattice要求\\&#xa;所有格点都由单一格点基矢平移得到（可看作单原子晶胞晶体）\\&#xa;(用$(l_1,l_2,l_3)$表示)$l_i \vec a_i$项即为布拉伐格子的表示" FOLDED="true" ID="ID_694209700" CREATED="1561862698540" MODIFIED="1591493650449">
 <node TEXT="\latex 晶体表示\\&#xa;$\vec r_a + l_i \vec a_i \ (i=1,2,3) $&#xa;可表示晶体的所有原子" ID="ID_693941364" CREATED="1561863877060" MODIFIED="1561863925532"/>
 <node TEXT="受限于平移对称性和密铺要求，lattice的类型有限" ID="ID_1364825939" CREATED="1561957070360" MODIFIED="1591492833999">
 <node TEXT="2-d: 5 types" FOLDED="true" ID="ID_1403896316" CREATED="1591492669032" MODIFIED="1591493039423">
@@ -108,7 +108,7 @@
 <node TEXT="sc(simple cubic)" ID="ID_893146541" CREATED="1591493291191" MODIFIED="1591493298711"/>
 <node TEXT="bcc(body centered cubic)" ID="ID_1813923059" CREATED="1591493299528" MODIFIED="1591493310262"/>
 <node TEXT="fcc(face centered cubic)" ID="ID_26347828" CREATED="1591493310808" MODIFIED="1592539284495">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="91.2 pt;19.2 pt;" ENDINCLINATION="83.4 pt;-6.6 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="3" TRANSPARENCY="200" FONT_SIZE="7" FONT_FAMILY="SansSerif" DESTINATION="ID_1813923059" MIDDLE_LABEL="reciprocal to each other" STARTINCLINATION="91.2 pt;19.2 pt;" ENDINCLINATION="83.4 pt;-5.4 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex &#xa;\begin{tabular}{lll}&#xa;\hline\\&#xa;Crystal\ System&amp;#&amp;Cell\ Parameters\\&#xa;\hline\\&#xa;Triclinic&amp;1&amp;$a\neq b\neq c;\alpha\neq \beta\neq \gamma$\\&#xa;Monoclinic&amp;2&amp;$a\neq b\neq c;\alpha=\gamma=90^\circ\neq\beta(or\ \gamma)$(2 subtypes)\\&#xa;Orthorhombic&amp;4&amp;$a\neq b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Tetragonal&amp;2&amp;$a= b\neq c;\alpha=\beta=\gamma=90^\circ$\\&#xa;Trigonal&amp;1 &amp;a=b=c;\alpha=\beta=\gamma&lt;120^\circ,\neq90^\circ \\&#xa;Hexagonal &amp;1&amp;$a= b\neq c;\alpha=\beta=90^\circ,\gamma=120^\circ$\\&#xa;Cubic&amp;3&amp;$a= b= c;\alpha=\beta=\gamma=90^\circ$\\&#xa;\hline&#xa;\end{tabular}" ID="ID_1951376339" CREATED="1595076970543" MODIFIED="1595212357718">
@@ -127,7 +127,7 @@
 </node>
 </node>
 </node>
-<node TEXT="晶体学单胞(晶胞): (原胞只能反映周期性,不一定能反映出对称性)&#xa;为了反映对称性,选取较大的周期单元---晶胞" FOLDED="true" ID="ID_1372501257" CREATED="1561957703625" MODIFIED="1561957924646">
+<node TEXT="晶体学单胞(晶胞): (原胞只能反映周期性,不一定能反映出对称性)&#xa;为了反映对称性,选取较大的周期单元---晶胞" ID="ID_1372501257" CREATED="1561957703625" MODIFIED="1561957924646">
 <node TEXT="晶胞与原胞可能相同也可能不同" ID="ID_1070173090" CREATED="1561958003382" MODIFIED="1561958015268"/>
 <node TEXT="晶胞的三个棱矢量称为晶胞基矢" ID="ID_798926395" CREATED="1561958019366" MODIFIED="1561958211453"/>
 </node>
@@ -178,8 +178,27 @@
 <node TEXT="standard radii表格可以针对不同结构就进行估算" ID="ID_1433274427" CREATED="1593590700147" MODIFIED="1593590835030"/>
 </node>
 <node TEXT="\latex 玻恩-卡门循环边界条件: 各个基矢方向上构造环实现平移对称\\&#xa;数学上等价于$N_i \vec a_i\ (i=1,2,3)$平移操作为恒等操作" ID="ID_1766935485" CREATED="1561814828350" MODIFIED="1601115909792"/>
+<node TEXT="Wyckoff position" ID="ID_978066955" CREATED="1697877979231" MODIFIED="1697877983437">
+<node TEXT="tell us where the atoms in a crystal can be found" ID="ID_360462539" CREATED="1697877989866" MODIFIED="1697878000597"/>
+<node TEXT="positions" ID="ID_1255076131" CREATED="1697878184382" MODIFIED="1697878379074">
+<node TEXT="general positions (only one)&#xa;(uppermost Wyckoff position, highest multiplicity)" POSITION="top_or_left" ID="ID_1506466881" CREATED="1697878150116" MODIFIED="1697878439540">
+<node TEXT="correspond to an atom at an arbitrary position" ID="ID_838011492" CREATED="1697878443499" MODIFIED="1697878454655"/>
 </node>
-<node TEXT="\latex Symmetry Group" FOLDED="true" POSITION="top_or_left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1595389294244">
+<node TEXT="special positions (all remaining)" POSITION="top_or_left" ID="ID_230320539" CREATED="1697878155025" MODIFIED="1697878473684">
+<node TEXT="atoms lying upon one or more symmetry elements" ID="ID_963812821" CREATED="1697878478790" MODIFIED="1697878497943"/>
+</node>
+</node>
+<node TEXT="notion" ID="ID_1500718904" CREATED="1697878203180" MODIFIED="1697878205054">
+<node TEXT="number - multiplicity" ID="ID_924616997" CREATED="1697878205481" MODIFIED="1697878222233">
+<node TEXT="how many atoms are generated by symmetry&#xa;if put one atom at the position" ID="ID_778437531" CREATED="1697878244898" MODIFIED="1697878267446"/>
+</node>
+<node TEXT="letter - Wyckoff site" ID="ID_832730382" CREATED="1697878208183" MODIFIED="1697878236008">
+<node TEXT="simply a label, no physical meaning&#xa;assigned alphabetically from the bottom up" ID="ID_984330884" CREATED="1697878273061" MODIFIED="1697878294928"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="\latex Symmetry Group" POSITION="top_or_left" ID="ID_1980032861" CREATED="1562383119552" MODIFIED="1595389294244">
 <edge COLOR="#00ffff"/>
 <hook URI="Solid%20State%20Physics_files/crystall-cata.png" SIZE="0.36785886" NAME="ExternalObject"/>
 <node TEXT="几何外形" ID="ID_243476682" CREATED="1562383126963" MODIFIED="1562383150069"/>
@@ -233,9 +252,9 @@
 </node>
 </node>
 </node>
-<node TEXT="point group notations" FOLDED="true" ID="ID_178164634" CREATED="1594961950424" MODIFIED="1595401942856">
-<node TEXT="Schoenflies symmetry notation:&#xa;a letter symbol with a subscript" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1595401931041">
-<node TEXT="\latex $C_{n(h)(v)}$(Cyclic)$\sim$ n-fold rotation axis \\&#xa;$(h)\sim$mirror plane perpendicular to the axis of rotation\\&#xa;$(v)\sim$mirror planes parallel to the axis of rotation" ID="ID_883109701" CREATED="1594962054900" MODIFIED="1594972253290"/>
+<node TEXT="point group notations" ID="ID_178164634" CREATED="1594961950424" MODIFIED="1595401942856">
+<node TEXT="Schoenflies symmetry notation:&#xa;a letter symbol with a subscript" ID="ID_1508415104" CREATED="1594961961219" MODIFIED="1698027579458">
+<node TEXT="\latex $C_{n(h)(v)}$(Cyclic)$\sim$ n-fold rotation axis \\&#xa;$(h)\sim$mirror plane perpendicular to the axis of rotation\\&#xa;$(v)\sim$mirror planes parallel to the axis of rotation" ID="ID_883109701" CREATED="1594962054900" MODIFIED="1698027579457" HGAP_QUANTITY="24.2 pt"/>
 <node TEXT="\latex $S_{2n}$(German &quot;Spiegel&quot;(mirror))$\sim$only a 2n/n-fold rotation-reflection axis" ID="ID_1414899821" CREATED="1594963802223" MODIFIED="1595401973308"/>
 <node TEXT="\latex $D_{n(h)(d)}$(Dihedral)$\sim$an n-fold rotation axis plus n two-fold axes perpendicular to it\\&#xa;$(h)\sim$a mirror plane perpendicular to the n-fold axis\\&#xa;$(d)\sim$mirror planes parallel to the n-fold axis" ID="ID_120738040" CREATED="1594963911673" MODIFIED="1594965797389"/>
 <node TEXT="" ID="ID_1778420623" CREATED="1594966241162" MODIFIED="1594966241163">
@@ -250,7 +269,7 @@
 </node>
 </node>
 <node TEXT="Hermann-Mauguin(H-M) symmetry notation&#xa;(international notation):&#xa;(can be expressed by stereographic projection)" ID="ID_661740693" CREATED="1594966266809" MODIFIED="1595402083814">
-<hook URI="Solid%20State%20Physics_files/stereographic-proj.png" SIZE="0.18089741" NAME="ExternalObject"/>
+<hook URI="Solid%20State%20Physics_files/stereographic-proj.png" SIZE="0.20559075" NAME="ExternalObject"/>
 <node TEXT="Lattice types" ID="ID_1213438539" CREATED="1594966600819" MODIFIED="1595383072203">
 <node TEXT="" ID="ID_1990811669" CREATED="1595383132564" MODIFIED="1595383132567">
 <hook NAME="FirstGroupNode"/>
@@ -261,7 +280,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="\latex 14 lattice types&#xa;\begin{tabular}{clcc}&#xa;\hline&#xa;No.&amp;Crystal System&amp;Lattice Centering&amp;Lattice Symbol\\&#xa;\hline&#xa;1&amp;Triclinic&amp;P&amp;aP\\&#xa;2&amp;Monoclinic&amp;P&amp;mP\\&#xa;3&amp;Monoclinic&amp;C&amp;mC\\&#xa;4&amp;Orthorhombic&amp;P&amp;oP\\&#xa;5&amp;Orthorhombic&amp;C&amp;oC\\&#xa;6&amp;Orthorhombic&amp;F&amp;oF\\&#xa;7&amp;Orthorhombic&amp;I&amp;oI\\&#xa;8&amp;Tetragonal&amp;P&amp;tP\\&#xa;9&amp;Tetragonal&amp;I&amp;tI\\&#xa;10&amp;Trigonal&amp;R&amp;hR\\&#xa;11&amp;Hexagonal\&amp;Trigonal&amp;P&amp;hP\\&#xa;12&amp;Cubic&amp;P&amp;cP\\&#xa;13&amp;Cubic&amp;F&amp;cF\\&#xa;14&amp;Cubic&amp;I&amp;cI\\&#xa;\end{tabular}" ID="ID_454638489" CREATED="1595383132570" MODIFIED="1595385353890" HGAP_QUANTITY="38 pt" VSHIFT_QUANTITY="-3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_478594298" MIDDLE_LABEL="6 Crystal Families &amp; 7 Crystal Systems &amp; 7 Lattice Systems&#xa;(Hexagonal family contains trigonal &amp; hexagonal systems)&#xa;(Hexagonal family contains rhombohedral &amp; hexagonal lattice systems)" STARTINCLINATION="420.00001 pt;-282.00001 pt;" ENDINCLINATION="32.4 pt;456.60001 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_478594298" MIDDLE_LABEL="6 Crystal Families &amp; 7 Crystal Systems &amp; 7 Lattice Systems&#xa;(Hexagonal family contains trigonal &amp; hexagonal systems)&#xa;(Hexagonal family contains rhombohedral &amp; hexagonal lattice systems)" STARTINCLINATION="420.00001 pt;-280.80001 pt;" ENDINCLINATION="32.4 pt;456.60001 pt;" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -358,7 +377,7 @@
 <node TEXT="基态: 结构,结合能,磁有序结构" ID="ID_1787881121" CREATED="1563179807760" MODIFIED="1563179833391"/>
 <node TEXT="激发态: 具体物理行为,如热学性质,弹性,导电行为" ID="ID_1957503304" CREATED="1563179834042" MODIFIED="1593957551765">
 <node TEXT="能量靠近基态的低激发态,可看成是独立的&#xa;基本激发单元的集合,由此引入元激发" ID="ID_170386216" CREATED="1563179894961" MODIFIED="1563180185913">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-130.2 pt;-39 pt;" ENDINCLINATION="406.20001 pt;-83.4 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="14" FONT_FAMILY="TSCu_Times" DESTINATION="ID_1745555232" STARTINCLINATION="-129 pt;-37.8 pt;" ENDINCLINATION="406.20001 pt;-82.2 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -433,7 +452,7 @@
 </node>
 </node>
 <node TEXT="covalent bond" ID="ID_1042255687" CREATED="1593418493107" MODIFIED="1593421978146">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-68.4 pt;3 pt;" ENDINCLINATION="-152.4 pt;4.2 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_240986152" MIDDLE_LABEL="there is a continuous range of crystals&#xa;between the ionic and the covalent limits" STARTINCLINATION="-67.2 pt;3 pt;" ENDINCLINATION="-151.2 pt;4.2 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="formed from 2 electrons with antiparallel spin" ID="ID_998045080" CREATED="1593420254065" MODIFIED="1593420272570">
 <node TEXT="exchange interaction:&#xa;spin-dependent coulomb energy" ID="ID_386690767" CREATED="1593420303137" MODIFIED="1593420340342"/>
 <node TEXT="directional: loosely-packed structure (diamond, et.c.)" ID="ID_316039582" CREATED="1593586027314" MODIFIED="1593586107526"/>
@@ -449,7 +468,7 @@
 </node>
 </node>
 <node TEXT="wave motion in a crystal" FOLDED="true" POSITION="top_or_left" ID="ID_1478995446" CREATED="1593614557590" MODIFIED="1594009381784">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-2.4 pt;9 pt;" ENDINCLINATION="2.4 pt;-9 pt;" STARTARROW="NONE" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1307783455" STARTINCLINATION="-1.2 pt;9 pt;" ENDINCLINATION="2.4 pt;-7.8 pt;" STARTARROW="NONE" ENDARROW="NONE"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="3 normal modes (polarization)" ID="ID_1970181497" CREATED="1593614565186" MODIFIED="1593614598655">
 <node TEXT="" ID="ID_1021518422" CREATED="1593937443926" MODIFIED="1593937443928">
@@ -784,7 +803,7 @@
 <edge COLOR="#7c007c"/>
 <node TEXT="\latex $j=-k\frac{dT}{dx}$\  it implies that thermal conduction is a \\&#xa;random process instead of ballistic transport.\\&#xa;(for ballistic transport, j should only depend on the difference between 2 ends, not the gradient inside the specimen)" ID="ID_1947716225" CREATED="1594612126711" MODIFIED="1594612285605"/>
 <node TEXT="\latex phonon is like ideal gas, so from \\&#xa;the kinetic theory of gases: $k=\frac13C_vv\mathcal l$\\&#xa;$v$ is average velocity of particles, $\mathcal l$ is mean free path \\&#xa;($\mathcal l$ is the mean free path only for U processes, \textbf{not including N})" FOLDED="true" ID="ID_332770585" CREATED="1594613580409" MODIFIED="1615877500881">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="346.80001 pt;-78.6 pt;" ENDINCLINATION="-123 pt;-108.6 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_235408541" STARTINCLINATION="346.80001 pt;-77.4 pt;" ENDINCLINATION="-121.8 pt;-107.4 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex kinetic theory: &#xa;\\ flux of particles in the x direction: $\frac12n\langle|v_x|\rangle$&#xa;\\$\Delta T$ between the ends of a free path of the particle: $\Delta T=\frac{dT}{dx}v_x\tau $&#xa;\\there are 2 fluxes,$T\rightarrow (T+\Delta T)\ \&amp;\ (T+2\Delta T)\rightarrow (T+\Delta T)$&#xa;\\ $j=-n\langle v_x^2 \rangle c\tau\frac{dT}{dx}=-\frac13n\langle v^2 \rangle c\tau\frac{dT}{dx}$&#xa;\\ for phonons, $v=Const, \mathcal l=v\tau, C_v=nc\Rightarrow j=-\frac13C_vv\mathcal l\frac{dT}{dx}$" ID="ID_293090944" CREATED="1594614405028" MODIFIED="1594696319884"/>
 <node TEXT="\latex at high temperature: $\mathcal l \propto \frac1T$\\&#xa;while $C_v\rightarrow Const\Rightarrow k\propto \frac1T$" ID="ID_993754144" CREATED="1594696465920" MODIFIED="1594699757715"/>
 <node TEXT="to obtain equilibrium, the distribution of phonons must be brought locally, so the drifting must be limited" ID="ID_1951731573" CREATED="1594697014829" MODIFIED="1594697075098">
