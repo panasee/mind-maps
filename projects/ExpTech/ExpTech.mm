@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="ExpTech" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693385337824" STYLE="oval">
 <font NAME="Times New Roman" SIZE="22"/>
-<hook NAME="MapStyle" zoom="0.77">
+<hook NAME="MapStyle" zoom="1.301">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" newNodeStyle=":style:default"/>
 
 <map_styles>
@@ -68,7 +68,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="2D materials fabrication" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
@@ -76,12 +76,13 @@
 <font NAME="Times New Roman" SIZE="14"/>
 </node>
 <node TEXT="Exfoliation" ID="ID_753214970" CREATED="1693385206482" MODIFIED="1693386031811">
-<node TEXT="scotch 3M tape" LOCALIZED_STYLE_REF="default" ID="ID_802143456" CREATED="1693386062408" MODIFIED="1698146795372">
+<node TEXT="3M tape" LOCALIZED_STYLE_REF="default" ID="ID_802143456" CREATED="1693386062408" MODIFIED="1693386064615">
 <node TEXT="much residue" LOCALIZED_STYLE_REF="default" ID="ID_1542586121" CREATED="1693386064983" MODIFIED="1693386079879"/>
 </node>
 <node TEXT="unsolved" LOCALIZED_STYLE_REF="default" ID="ID_212128761" CREATED="1693386083359" MODIFIED="1693386090034">
 <node TEXT="the relationship between stickiness and efficiency" LOCALIZED_STYLE_REF="default" ID="ID_444861892" CREATED="1693386090186" MODIFIED="1693386156586"/>
 </node>
+<node TEXT="the hardness of exfoliation depends on the surface energy" LOCALIZED_STYLE_REF="default" ID="ID_1664847254" CREATED="1698164828503" MODIFIED="1698164846451"/>
 </node>
 <node TEXT="Optical contrast measurement&#xa;(judge the thickness)" LOCALIZED_STYLE_REF="default" ID="ID_1832437191" CREATED="1695283632976" MODIFIED="1695283737279">
 <hook URI="exp-pix/opti-contrast.png" SIZE="0.5209602" NAME="ExternalObject"/>
@@ -130,9 +131,9 @@
 <node TEXT="pick-up Technique" LOCALIZED_STYLE_REF="default" ID="ID_920046936" CREATED="1697096079285" MODIFIED="1697096100001">
 <node TEXT="\latex PC melting point \sim 180^{\circ}C" LOCALIZED_STYLE_REF="default" ID="ID_1057574488" CREATED="1697365870849" MODIFIED="1697365970652"/>
 <node TEXT="dome-shaped PDMS" LOCALIZED_STYLE_REF="default" ID="ID_1048756359" CREATED="1697365973008" MODIFIED="1697365979348">
-<node TEXT="toothpick and gold line (any things with diff diameters) to drip two drops PDMS(unsolidified)" LOCALIZED_STYLE_REF="default" ID="ID_1444079109" CREATED="1698146335076" MODIFIED="1698146501089">
-<node TEXT="concentric semisphere" LOCALIZED_STYLE_REF="default" ID="ID_1837077459" CREATED="1698146504785" MODIFIED="1698146521383"/>
-<node TEXT="only use the center to pick up flakes" LOCALIZED_STYLE_REF="default" ID="ID_1057806154" CREATED="1698146525566" MODIFIED="1698146549475"/>
+<node TEXT="toothpick and gold line (anything with diff diameters) to drip two drops of concentric unsolidified PDMS)" LOCALIZED_STYLE_REF="default" ID="ID_1155121319" CREATED="1698164880239" MODIFIED="1698164931237">
+<node TEXT="make sure both are semisphere" LOCALIZED_STYLE_REF="default" ID="ID_312185384" CREATED="1698164934450" MODIFIED="1698164943305"/>
+<node TEXT="only use the center for picking up" LOCALIZED_STYLE_REF="default" ID="ID_1432437376" CREATED="1698164945536" MODIFIED="1698164955583"/>
 </node>
 </node>
 </node>
@@ -181,7 +182,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Common devices" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_459800771" CREATED="1694499825209" MODIFIED="1694499831119">
+<node TEXT="Common devices" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_459800771" CREATED="1694499825209" MODIFIED="1694499831119">
 <edge COLOR="#00007c"/>
 <node TEXT="Coplanar Waveguide" LOCALIZED_STYLE_REF="default" ID="ID_1397181821" CREATED="1694499831996" MODIFIED="1694499838875">
 <node TEXT="Coplanar waveguide is a type of electrical planar transmission line which can be fabricated using printed circuit board technology, and is used to convey microwave-frequency signals." LOCALIZED_STYLE_REF="default" ID="ID_1982493819" CREATED="1694499862960" MODIFIED="1694499865048"/>
@@ -398,6 +399,11 @@
 <node TEXT="differential charge density" LOCALIZED_STYLE_REF="default" ID="ID_1712031110" CREATED="1697375385446" MODIFIED="1697375392716"/>
 </node>
 <node TEXT="technique" LOCALIZED_STYLE_REF="default" ID="ID_1660355698" CREATED="1697375359297" MODIFIED="1697375370466"/>
+</node>
+<node TEXT="topological materials" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1539891165" CREATED="1697892585122" MODIFIED="1697892591262">
+<edge COLOR="#0000ff"/>
+<node TEXT="STM" LOCALIZED_STYLE_REF="default" ID="ID_691385535" CREATED="1697892591691" MODIFIED="1697892593096"/>
+<node TEXT="ARPES" LOCALIZED_STYLE_REF="default" ID="ID_608862360" CREATED="1697892593623" MODIFIED="1697892604429"/>
 </node>
 </node>
 </map>
