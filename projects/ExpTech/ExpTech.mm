@@ -69,14 +69,14 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2D materials fabrication" FOLDED="true" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
+<node TEXT="2D materials fabrication" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
 <node TEXT="CVD/PVD" ID="ID_415137869" CREATED="1693385199542" MODIFIED="1693385349251">
 <font NAME="Times New Roman" SIZE="14"/>
 </node>
 <node TEXT="Exfoliation" ID="ID_753214970" CREATED="1693385206482" MODIFIED="1693386031811">
-<node TEXT="3M tape" LOCALIZED_STYLE_REF="default" ID="ID_802143456" CREATED="1693386062408" MODIFIED="1693386064615">
+<node TEXT="scotch 3M tape" LOCALIZED_STYLE_REF="default" ID="ID_802143456" CREATED="1693386062408" MODIFIED="1698146795372">
 <node TEXT="much residue" LOCALIZED_STYLE_REF="default" ID="ID_1542586121" CREATED="1693386064983" MODIFIED="1693386079879"/>
 </node>
 <node TEXT="unsolved" LOCALIZED_STYLE_REF="default" ID="ID_212128761" CREATED="1693386083359" MODIFIED="1693386090034">
@@ -129,7 +129,12 @@
 </node>
 <node TEXT="pick-up Technique" LOCALIZED_STYLE_REF="default" ID="ID_920046936" CREATED="1697096079285" MODIFIED="1697096100001">
 <node TEXT="\latex PC melting point \sim 180^{\circ}C" LOCALIZED_STYLE_REF="default" ID="ID_1057574488" CREATED="1697365870849" MODIFIED="1697365970652"/>
-<node TEXT="dome-shaped PDMS" LOCALIZED_STYLE_REF="default" ID="ID_1048756359" CREATED="1697365973008" MODIFIED="1697365979348"/>
+<node TEXT="dome-shaped PDMS" LOCALIZED_STYLE_REF="default" ID="ID_1048756359" CREATED="1697365973008" MODIFIED="1697365979348">
+<node TEXT="toothpick and gold line (any things with diff diameters) to drip two drops PDMS(unsolidified)" LOCALIZED_STYLE_REF="default" ID="ID_1444079109" CREATED="1698146335076" MODIFIED="1698146501089">
+<node TEXT="concentric semisphere" LOCALIZED_STYLE_REF="default" ID="ID_1837077459" CREATED="1698146504785" MODIFIED="1698146521383"/>
+<node TEXT="only use the center to pick up flakes" LOCALIZED_STYLE_REF="default" ID="ID_1057806154" CREATED="1698146525566" MODIFIED="1698146549475"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Devices Fabrication Procedure" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_1910401018" CREATED="1693453813159" MODIFIED="1694613663652">
@@ -176,7 +181,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Common devices" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_459800771" CREATED="1694499825209" MODIFIED="1694499831119">
+<node TEXT="Common devices" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_459800771" CREATED="1694499825209" MODIFIED="1694499831119">
 <edge COLOR="#00007c"/>
 <node TEXT="Coplanar Waveguide" LOCALIZED_STYLE_REF="default" ID="ID_1397181821" CREATED="1694499831996" MODIFIED="1694499838875">
 <node TEXT="Coplanar waveguide is a type of electrical planar transmission line which can be fabricated using printed circuit board technology, and is used to convey microwave-frequency signals." LOCALIZED_STYLE_REF="default" ID="ID_1982493819" CREATED="1694499862960" MODIFIED="1694499865048"/>
