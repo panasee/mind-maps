@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Hetero/Homo structure&#xa;&amp;Twistronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695385738241" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.3">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -107,6 +107,11 @@
 <node TEXT="most natural homostructures" ID="ID_41586811" CREATED="1695385854027" MODIFIED="1695385900933"/>
 </node>
 <node TEXT="3R stacking" ID="ID_236959305" CREATED="1697377380319" MODIFIED="1697377384187"/>
+</node>
+<node TEXT="\latex twist angle $\theta_\text{twist}$" POSITION="bottom_or_right" ID="ID_1293195064" CREATED="1698289294171" MODIFIED="1698290162663">
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex $\theta_{twist}$ of \textbf{natural stacking }often fixed to a single value or a few values that correspond to the local total-energy minima" ID="ID_199904625" CREATED="1698290167122" MODIFIED="1698290238005"/>
+<node TEXT="can manipulate the symmetries of the vdW heterostructure" ID="ID_867398217" CREATED="1698300027027" MODIFIED="1698300047081"/>
 </node>
 </node>
 </map>
