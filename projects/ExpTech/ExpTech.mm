@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="ExpTech" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693385337824" STYLE="oval">
 <font NAME="Times New Roman" SIZE="22"/>
-<hook NAME="MapStyle" zoom="1.301">
+<hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" newNodeStyle=":style:default"/>
 
 <map_styles>
@@ -83,6 +83,12 @@
 <node TEXT="the relationship between stickiness and efficiency" LOCALIZED_STYLE_REF="default" ID="ID_444861892" CREATED="1693386090186" MODIFIED="1693386156586"/>
 </node>
 <node TEXT="the hardness of exfoliation depends on the surface energy" LOCALIZED_STYLE_REF="default" ID="ID_1664847254" CREATED="1698164828503" MODIFIED="1698164846451"/>
+<node TEXT="pressure" LOCALIZED_STYLE_REF="default" ID="ID_51739820" CREATED="1698579895445" MODIFIED="1698579900174">
+<node TEXT="induce more flakes to drop, but with smaller area" LOCALIZED_STYLE_REF="default" ID="ID_1137863596" CREATED="1698579900255" MODIFIED="1698579918967"/>
+</node>
+<node TEXT="heating" LOCALIZED_STYLE_REF="default" ID="ID_142330272" CREATED="1698579920974" MODIFIED="1698579922985">
+<node TEXT="induce more and larger flakes to drop, but with severe residue" LOCALIZED_STYLE_REF="default" ID="ID_212919869" CREATED="1698579923342" MODIFIED="1698579946763"/>
+</node>
 </node>
 <node TEXT="Optical contrast measurement&#xa;(judge the thickness)" LOCALIZED_STYLE_REF="default" ID="ID_1832437191" CREATED="1695283632976" MODIFIED="1695283737279">
 <hook URI="exp-pix/opti-contrast.png" SIZE="0.5209602" NAME="ExternalObject"/>
@@ -365,7 +371,19 @@
 <node TEXT="Electron diffraction, SAED (selected area electron diffraction)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1231172292" CREATED="1697372863517" MODIFIED="1697372927149"/>
 <node TEXT="LEED (Low-energy electron diffraction)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_277658209" CREATED="1697372744481" MODIFIED="1697372760950"/>
 </node>
-<node TEXT="SHG (Second harmonic generation)" LOCALIZED_STYLE_REF="default" ID="ID_1364823609" CREATED="1697376299510" MODIFIED="1697376315637"/>
+<node TEXT="SHG (Second harmonic generation)" LOCALIZED_STYLE_REF="default" ID="ID_1364823609" CREATED="1697376299510" MODIFIED="1698479448384">
+<hook URI="exp-pix/SHG-3type.png" SIZE="0.78461087" NAME="ExternalObject"/>
+<node TEXT="one of the most discriminant and rapid technique to detect non-centrosymmetry" LOCALIZED_STYLE_REF="default" ID="ID_991445575" CREATED="1698479580376" MODIFIED="1698479581885"/>
+<node TEXT="higher SHG intensity means non-centersymmetry(no inversion symmetry)" LOCALIZED_STYLE_REF="default" ID="ID_67719779" CREATED="1698479810061" MODIFIED="1698479832417"/>
+<node TEXT="SHG in different angles can show special axis,&#xa;like rotation axis et al." LOCALIZED_STYLE_REF="default" ID="ID_1646734846" CREATED="1698479873718" MODIFIED="1698479891413"/>
+<node TEXT="results commonly used" LOCALIZED_STYLE_REF="default" ID="ID_890713981" CREATED="1698484181295" MODIFIED="1698484206038">
+<node TEXT="layers (thickness) dependence" LOCALIZED_STYLE_REF="default" ID="ID_1184333453" CREATED="1698484196523" MODIFIED="1698484215695"/>
+<node TEXT="angle dependence" LOCALIZED_STYLE_REF="default" ID="ID_1029468197" CREATED="1698484216370" MODIFIED="1698484221599"/>
+<node TEXT="polarization (of incident laser beam) dependence" LOCALIZED_STYLE_REF="default" ID="ID_1920133890" CREATED="1698484221879" MODIFIED="1698484246571">
+<node TEXT="ARPES intensity also changes depending on the constituent orbitals of the band" LOCALIZED_STYLE_REF="default" ID="ID_1644195996" CREATED="1698485059070" MODIFIED="1698485083884"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Ferroelectricity" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1055153231" CREATED="1697373481980" MODIFIED="1697373487764">
 <edge COLOR="#007c7c"/>
