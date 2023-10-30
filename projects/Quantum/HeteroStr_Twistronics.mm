@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Hetero/Homo structure&#xa;&amp;Twistronics" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695385738241" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.3">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -69,16 +69,25 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Moire Pattern" POSITION="bottom_or_right" ID="ID_230562505" CREATED="1695262882374" MODIFIED="1695262886281">
+<node TEXT="Moire Pattern/Superstructure" POSITION="bottom_or_right" ID="ID_230562505" CREATED="1695262882374" MODIFIED="1697377917157">
 <edge COLOR="#ff0000"/>
+<node TEXT="moire superstructure contains&#xa;different stacking types" ID="ID_1764683269" CREATED="1697377903231" MODIFIED="1697377955330">
+<hook URI="quantum-pix/moire_stacking.png" SIZE="0.5522422" NAME="ExternalObject"/>
+</node>
+<node TEXT="brillouin zone" ID="ID_710057284" CREATED="1697378196568" MODIFIED="1697378244396">
+<hook URI="quantum-pix/moire-brillouine.png" SIZE="0.611542" NAME="ExternalObject"/>
+<node TEXT="band fold of the moire mini BZ" ID="ID_1593798661" CREATED="1697378582076" MODIFIED="1697378653915">
+<hook URI="quantum-pix/moire-band-fold.png" SIZE="0.5043661" NAME="ExternalObject"/>
+</node>
+</node>
 </node>
 <node TEXT="whirlpool-shaped counter-rotations" POSITION="top_or_left" ID="ID_1812218428" CREATED="1695262891228" MODIFIED="1695262943643">
 <edge COLOR="#0000ff"/>
 <hook URI="quantum-pix/whirlpool-counterrot.png" SIZE="0.5786191" NAME="ExternalObject"/>
 </node>
-<node TEXT="phenomena" POSITION="bottom_or_right" ID="ID_278380334" CREATED="1695274704922" MODIFIED="1695274858142">
+<node TEXT="phenomena" POSITION="bottom_or_right" ID="ID_278380334" CREATED="1695274704922" MODIFIED="1697378194509">
 <edge COLOR="#00ff00"/>
-<node TEXT="emerging intralayer vibrational modes" ID="ID_2810959" CREATED="1695274709841" MODIFIED="1695274722164"/>
+<node TEXT="emerging intralayer vibrational modes" ID="ID_2810959" CREATED="1695274709841" MODIFIED="1697378194508" VSHIFT_QUANTITY="-9.6 pt"/>
 <node TEXT="emerging interlayer breathing mode" ID="ID_387525432" CREATED="1695274722732" MODIFIED="1695274733184"/>
 <node TEXT="\latex non-uniform interlayer interaction $\Rightarrow$ fuzziness in vibrational frequency" ID="ID_545856027" CREATED="1695274738998" MODIFIED="1695274827085"/>
 <node TEXT="\latex when twist angle $&lt;\phi_c$" ID="ID_1230297887" CREATED="1695274859460" MODIFIED="1695276050755">
@@ -89,9 +98,28 @@
 </node>
 <node TEXT="Stacking Structure" POSITION="top_or_left" ID="ID_1692318466" CREATED="1695385825130" MODIFIED="1695385850331">
 <edge COLOR="#ff00ff"/>
+<node TEXT="1T stacking" ID="ID_53237390" CREATED="1697377387044" MODIFIED="1697377390325">
+<node TEXT="1T&apos; stacking" ID="ID_1256001074" CREATED="1697377405288" MODIFIED="1697377409652">
+<node TEXT="distortion on the basis of 1T" ID="ID_1335819525" CREATED="1697377410257" MODIFIED="1697377509092"/>
+</node>
+</node>
 <node TEXT="\latex 2H (AB) stacking(180^\circ)" ID="ID_1646575894" CREATED="1695385832206" MODIFIED="1695385873613">
 <node TEXT="most natural homostructures" ID="ID_41586811" CREATED="1695385854027" MODIFIED="1695385900933"/>
 </node>
+<node TEXT="3R stacking" ID="ID_236959305" CREATED="1697377380319" MODIFIED="1697377384187"/>
+<node TEXT="Bernal-like stacking" ID="ID_871551647" CREATED="1698498775398" MODIFIED="1698498786190">
+<node TEXT="half of the atoms lie directly over the center of a hexagon in the lower sheet (hexagonal 2D crys)" ID="ID_479882066" CREATED="1698498788139" MODIFIED="1698498879124"/>
+</node>
+</node>
+<node TEXT="\latex twist angle $\theta_\text{twist}$" POSITION="bottom_or_right" ID="ID_1293195064" CREATED="1698289294171" MODIFIED="1698290162663">
+<edge COLOR="#00ffff"/>
+<node TEXT="\latex $\theta_{twist}$ of \textbf{natural stacking }often fixed to a single value or a few values that correspond to the local total-energy minima" ID="ID_199904625" CREATED="1698290167122" MODIFIED="1698290238005"/>
+<node TEXT="can manipulate the symmetries of the vdW heterostructure" ID="ID_867398217" CREATED="1698300027027" MODIFIED="1698300047081"/>
+</node>
+<node TEXT="band structure" POSITION="top_or_left" ID="ID_1223423987" CREATED="1698498282562" MODIFIED="1698498285757">
+<edge COLOR="#7c0000"/>
+<node TEXT="formation of flatbands" ID="ID_1423003745" CREATED="1698498316955" MODIFIED="1698498323797"/>
+<node TEXT="localization of states close to the Fermi level" ID="ID_893094699" CREATED="1698498324054" MODIFIED="1698498337852"/>
 </node>
 </node>
 </map>

@@ -56,7 +56,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="QHE" POSITION="bottom_or_right" ID="ID_851041020" CREATED="1544943422329" MODIFIED="1544943432016" LINK="project://167A736E6474EN5HFQMO2X5KXYT63TF1CPBR/QHE.mm">
 <edge COLOR="#ff0000"/>
 </node>
@@ -71,7 +71,7 @@
 </node>
 <node TEXT="\latex $(H+\lambda V)(\lambda^i|n^{(i)}\rangle)=(\lambda^j E_n^{(j)})(\lambda^k|n^{(k)}\rangle)$\\&#xa;expand according to the power of $\lambda$ to extract nth-order eq." ID="ID_1805065596" CREATED="1619431757330" MODIFIED="1619432038233">
 <node TEXT="\latex first-order: $H_0|n^{(1)}\rangle+V|n^{(0)}\rangle = E_n^{(0)}|n^{(1)}\rangle +E_n^{(1)}|n^{(0)}\rangle$\\&#xa;operating through by $\langle n^{(0)}|$: $E_n^{(1)}=\langle n^{(0)} |V|n^{(0)}\rangle$" ID="ID_1682919374" CREATED="1619432160204" MODIFIED="1668412455855">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="103 pt;0 pt;" ENDINCLINATION="94 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="103.2 pt;0 pt;" ENDINCLINATION="94.2 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 </node>
 </node>
 </node>
@@ -172,13 +172,13 @@
 </node>
 <node TEXT="\latex $A_m$ is an arbitrary orthonormal basis of the Hilbert-Schmidt\\&#xa; operators on the system&apos;s Hilbert space \\&#xa;$A_n=|i\rangle\langle j|,\; i,j=1\sim N$(due to $\sum|i\rangle\langle i|=1$, total ($N^2-1$)terms)" ID="ID_467098312" CREATED="1618296806892" MODIFIED="1618297175556"/>
 </node>
-<node TEXT="Multi-State system" FOLDED="true" POSITION="bottom_or_right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
+<node TEXT="Multi-State system" POSITION="bottom_or_right" ID="ID_1201134453" CREATED="1618299060276" MODIFIED="1618299073381">
 <edge COLOR="#808080"/>
-<node TEXT="two-state quantum system" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1618299076700">
-<font NAME="TSCu_Times" SIZE="16"/>
-<node TEXT="two-state Hamiltonian" ID="ID_1349993665" CREATED="1543803412260" MODIFIED="1544323095159">
+<node TEXT="two-state quantum system" ID="ID_677561520" CREATED="1543803403654" MODIFIED="1697731649816">
+<font NAME="TSCu_Times" SIZE="12"/>
+<node TEXT="two-state Hamiltonian" ID="ID_1349993665" CREATED="1543803412260" MODIFIED="1697731653334">
 <hook EQUATION="\mathscr H =a\sigma_0+b\sigma_1+c\sigma_2+d\sigma_3 (\sigma_0= I,\sigma_i(i=1,2,3)\ are\ Pauli\ matrices)\\&#xa;=\vec E(\textbf{k})\cdot \vec\sigma+\epsilon(\textbf{k})\textbf{1}\\&#xa;\mathscr H=\begin{pmatrix}a+d&amp;b-ic\\b+ic &amp; a-d \end{pmatrix}" NAME="plugins/latex/LatexNodeHook.properties"/>
-<font NAME="TSCu_Times" SIZE="16"/>
+<font NAME="TSCu_Times" SIZE="12"/>
 <node TEXT="\latex Pauli Matrices(Hermitian, involutory and unitary)&#xa;\\$\sigma_{\{0\sim 4\}}$ form a basis for the real vector space of $2\times2$ Hermitian matrices,&#xa;\\i.e. the space of observables of the complex 2-dimensional Hilbert space&#xa;\\(the subscript means different axes)" ID="ID_1232392792" CREATED="1668414129469" MODIFIED="1668414459663"/>
 </node>
 </node>
@@ -227,7 +227,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" FOLDED="true" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" FOLDED="true" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.5 pt;14.5 pt;" ENDINCLINATION="10 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.4 pt;14.4 pt;" ENDINCLINATION="10.2 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -296,7 +296,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="suitable for U-process" ID="ID_1235914460" CREATED="1620280461853" MODIFIED="1620280486987" HGAP_QUANTITY="21.06748 pt" VSHIFT_QUANTITY="-2.65031 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="696 pt;0 pt;" ENDINCLINATION="696 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="696.00002 pt;0 pt;" ENDINCLINATION="696.00002 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex 长波极限下纵波声子只能参与\\\textbf{总数反比于波长平方}的散射($N\propto q^2$)" ID="ID_871968797" CREATED="1620279822068" MODIFIED="1620279946420"/>
@@ -344,6 +344,26 @@
 <node TEXT="\latex 若系统的态矢量为$\psi$，则可观测量$\mathscr A$ 的观测期望值为\\$E(\mathscr A)=\langle\psi,A\psi\rangle$且$E(\mathscr A^m)=\langle \psi,A^m\psi\rangle$" ID="ID_1280715706" CREATED="1620133496217" MODIFIED="1620133596238"/>
 <node TEXT="\latex 若一次观测后，对可观察量A的测量结果为$\lambda$,\\则测量之后系统的态$\psi^\prime$应满足$A\psi^\prime=\lambda\psi^\prime$(坍缩)" ID="ID_639426441" CREATED="1620133654952" MODIFIED="1620133725153"/>
 <node TEXT="\latex 态矢量A的时间演化方程由薛定谔方程决定。" ID="ID_406711474" CREATED="1620133746380" MODIFIED="1620133753528"/>
+</node>
+<node TEXT="second quantization" POSITION="bottom_or_right" ID="ID_547942617" CREATED="1697731658445" MODIFIED="1697731668975">
+<edge COLOR="#808080"/>
+<node TEXT="non-interacting" ID="ID_1207004196" CREATED="1697731672315" MODIFIED="1697731680363"/>
+</node>
+<node TEXT="Hamiltonian" POSITION="top_or_left" ID="ID_1500485949" CREATED="1697731681733" MODIFIED="1697731684682">
+<edge COLOR="#808080"/>
+<node TEXT="\latex non-interacting Hamiltonian\\&#xa;$\hat H = \sum_k \begin{pmatrix}\hat b_k^\dagger &amp;\hat b_k\end{pmatrix}&#xa;\begin{pmatrix} t_k &amp; \tau_k \\ \tau_k^* &amp; t_k \end{pmatrix}&#xa;\begin{pmatrix}\hat b_k \\ \hat b_k^\dagger\end{pmatrix}&#xa;$" ID="ID_967677030" CREATED="1697731686896" MODIFIED="1697767242760">
+<node TEXT="diagonal term -- on-site energy&#xa;off-diagonal term -- hopping" ID="ID_347067888" CREATED="1697766545560" MODIFIED="1697766586764"/>
+</node>
+<node TEXT="\latex BdG Hamiltonian (double the freedom degree)\\&#xa;$&#xa;H^{BdG}=\sum_{k}&#xa;    \begin{pmatrix}&#xa;    c^{\dagger}_{k\uparrow} &amp; c^{\dagger}_{k\downarrow} &amp; c_{-k\uparrow} &amp; c_{-k\downarrow}&#xa;    \end{pmatrix}&#xa;\begin{pmatrix}&#xa;\epsilon_{k}&amp;0&amp;0&amp;\Delta\\&#xa;0&amp;\epsilon_{k}&amp;-\Delta&amp;0\\&#xa;0&amp;-\Delta&amp;-\epsilon_{-k}&amp;0\\&#xa;\Delta&amp;0&amp;0&amp;-\epsilon_{-k}&#xa;\end{pmatrix}&#xa;    \begin{pmatrix}&#xa;    c_{k\uparrow} \\&#xa;c_{k\downarrow} \\&#xa; c^{\dagger}_{-k\uparrow} \\&#xa; c^{\dagger}_{-k\downarrow}&#xa;    \end{pmatrix}&#xa;$" ID="ID_563278731" CREATED="1697731696561" MODIFIED="1697767533279">
+<node TEXT="off-diagonal term no longer hopping,&#xa;but the annihilation of pairs(like Copper pair)" ID="ID_21376534" CREATED="1697767343050" MODIFIED="1697767500313"/>
+<node TEXT="\latex in the left vector, e.g. $c^\dagger$ is the creation of an electron,\\&#xa;$c$ can be regarded as the creation of a hole &#xa;(automatic symmetry is induced since the relationship between electrons and holes)" ID="ID_716352473" CREATED="1697767534992" MODIFIED="1697768153882"/>
+<node TEXT="\latex the doubling is due to the SC term \Delta,\\&#xa;convenient to diagonalize the Hamiltonian" ID="ID_1612946354" CREATED="1697768309855" MODIFIED="1697768389562">
+<node TEXT="\latex there are 2N freedom degrees, every eigenvalue E \\&#xa;corresponds another -E, so only E&gt;0 is preserved" ID="ID_239473229" CREATED="1697768459424" MODIFIED="1697768516862">
+<node TEXT="E and -E don&apos;t mean two states, but one state&#xa;which is a superposition of electron and hole" ID="ID_24285687" CREATED="1697768532159" MODIFIED="1697768569757"/>
+</node>
+</node>
+<node TEXT="PHS, particle-hole symmetry, here is not a physical imposed symmetry,&#xa;but rather a &quot;built-in&quot; feature of BdG Hamiltonians&#xa;(there is PHS in other places, not the same one here)" POSITION="top_or_left" ID="ID_1610352340" CREATED="1697768586163" MODIFIED="1697768721562"/>
+</node>
 </node>
 </node>
 </map>
