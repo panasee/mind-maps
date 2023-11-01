@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.11.5">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Algebra" FOLDED="false" ID="ID_188851143" CREATED="1615947995362" MODIFIED="1615948000561" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="2.143">
+<hook NAME="MapStyle" zoom="0.75">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1016937551" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1016937551" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,8 +22,9 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,8 +38,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -64,7 +66,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="内积空间(函数)" POSITION="right" ID="ID_1401525416" CREATED="1615948013657" MODIFIED="1615948110216">
+<node TEXT="内积空间(函数)" POSITION="bottom_or_right" ID="ID_1401525416" CREATED="1615948013657" MODIFIED="1615948110216">
 <edge COLOR="#ff0000"/>
 <node TEXT="\latex $(f,g)=\int_a^b\rho(x)f(x)g(x)dx$ \\&#xa;$\rho(x)$为权函数" ID="ID_1837194801" CREATED="1615948031904" MODIFIED="1615948098851"/>
 <node TEXT="\latex $(\varphi_i,\varphi_k)=C\delta_{ij}\Rightarrow\; $[a,b]$上的标准($C=1$)正交函数族" ID="ID_1270433453" CREATED="1615948126658" MODIFIED="1616065136147">
@@ -76,7 +78,7 @@
 </node>
 <node TEXT="\latex $\Phi = \text{span}\{ \varphi_i \}$表示由基函数张成的空间, 属于Hilbert空间" ID="ID_912223427" CREATED="1615948670133" MODIFIED="1616554919191"/>
 </node>
-<node TEXT="Condition number(条件数)" POSITION="left" ID="ID_334308393" CREATED="1616066558048" MODIFIED="1616067096044">
+<node TEXT="Condition number(条件数)" POSITION="top_or_left" ID="ID_334308393" CREATED="1616066558048" MODIFIED="1616067096044">
 <edge COLOR="#0000ff"/>
 <node TEXT="measure how sensitive a function is to&#xa;changes or errors in the input" ID="ID_1645034484" CREATED="1616067121737" MODIFIED="1616067134621"/>
 <node ID="ID_1594606171" CREATED="1616067242604" MODIFIED="1616067277548"><richcontent TYPE="NODE">
@@ -100,24 +102,24 @@
 <node TEXT="\latex 无穷范数$||B||_\infty$为Ｂ每一行元素绝对值求和的最大值" ID="ID_1636591802" CREATED="1616553212280" MODIFIED="1616553252202"/>
 </node>
 </node>
-<node TEXT="\latex approximation theory \\&#xa;$E_n \equiv ||f-p_n||_n$为偏差函数(n范数)" POSITION="right" ID="ID_1834936246" CREATED="1616552048549" MODIFIED="1616556573464">
+<node TEXT="\latex approximation theory \\&#xa;$E_n \equiv ||f-p_n||_n$为偏差函数(n范数)" POSITION="bottom_or_right" ID="ID_1834936246" CREATED="1616552048549" MODIFIED="1616556573464">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex minimize: $E_\infty(a_0,a_1) = \max\{ |y_i-(a_1x_i+a_0)| \}$ \\&#xa;(minimax problem最佳一致逼近)" ID="ID_739598691" CREATED="1616552110873" MODIFIED="1616556228444">
 <node TEXT="cannot be handled by elementary techniques" ID="ID_1411053574" CREATED="1616552208007" MODIFIED="1616552219296"/>
 <node TEXT="generally assigns too much weight to a bit of data that is badly in error" ID="ID_344182311" CREATED="1616552429550" MODIFIED="1616552563048">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1633944256" STARTINCLINATION="107;0;" ENDINCLINATION="107;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1633944256" STARTINCLINATION="64.2 pt;0 pt;" ENDINCLINATION="64.2 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex minimize: $E_1(a_0,a_1) = \sum|y_i-(a_1x_i+a_0)|$ \\&#xa;(absolute deviation)" ID="ID_979531652" CREATED="1616552229180" MODIFIED="1616552342006">
 <node TEXT="absolute-value func is not differentiable at zero" ID="ID_364054070" CREATED="1616552346427" MODIFIED="1616552360745"/>
 <node TEXT="doesn&apos;t give sufficient weight to a point that is considerably out of line with the approx" ID="ID_1833129151" CREATED="1616552458182" MODIFIED="1616552573117">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1633944256" STARTINCLINATION="46;0;" ENDINCLINATION="46;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1633944256" STARTINCLINATION="27.6 pt;0 pt;" ENDINCLINATION="27.6 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex minimize: $E_2(a_0,a_1) = \sum|y_i-(a_1x_i+a_0)|^2$ \\&#xa;(least squares)" ID="ID_726274259" CREATED="1616552362189" MODIFIED="1616552417144">
 <node TEXT="puts substantially more weight on a point that is out of line with the rest but not allow it to completely dominate the approx" ID="ID_1633944256" CREATED="1616552502603" MODIFIED="1616552604796"/>
 <node TEXT="\latex $I(a_0,\cdots,a_n) = \int_a^b\rho(x)[f(x)-\sum a_i\varphi_i(x)]^2dx$ \\&#xa;set it at minimum $\Rightarrow \frac{\partial I}{\partial a_k}=0, (\text{for all}\ k)$ \\&#xa;$\Rightarrow \sum_j (\varphi_j,\varphi_k)a_j=(f,\varphi_k)$ 该方程组为法方程组" ID="ID_394157006" CREATED="1616554077227" MODIFIED="1616556358367">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="18;39;" ENDINCLINATION="10;-44;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1436153510" MIDDLE_LABEL="积分离散成为求和(包括内积的定义)" STARTINCLINATION="10.8 pt;23.4 pt;" ENDINCLINATION="6 pt;-25.8 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="该方程的系数行列式即Cramer行列式, 由于&#xa;线性无关不为0,因此该方程有唯一解" ID="ID_829002417" CREATED="1616554521264" MODIFIED="1616554658888"/>
 <node TEXT="\latex if set $\varphi_k(x)=x^k,\rho(x)=1,f(x)\in C[0,1]$, 在n维\\&#xa;Hilbert空间$H_n$中求最佳平方逼近的系数矩阵称为Hilbert矩阵 \\&#xa;\begin{bmatrix}&#xa;1&amp;\frac12&amp;\cdots&amp;\frac1{n+1}\\&#xa;\frac12&amp;\frac13&amp;\cdots&amp;\frac1{n+2}\\&#xa;\vdots&amp;\vdots&amp;&amp;\vdots\\&#xa;\frac1{n+1}&amp;\frac1{n+2}&amp;\cdots&amp;\frac1{2n+1}&#xa;\end{bmatrix}" ID="ID_906413774" CREATED="1616554680503" MODIFIED="1616555349328">
 <node TEXT="该矩阵条件数会随着维度&#xa;急速增大,成为病态矩阵" ID="ID_1790853867" CREATED="1616555194888" MODIFIED="1616555229076"/>
@@ -136,7 +138,7 @@
 </node>
 </node>
 </node>
-<node TEXT="正交多项式" POSITION="left" ID="ID_850833952" CREATED="1616552843021" MODIFIED="1616552847210">
+<node TEXT="正交多项式" POSITION="top_or_left" ID="ID_850833952" CREATED="1616552843021" MODIFIED="1616552847210">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Legendre Polynomial" ID="ID_1738728149" CREATED="1616552847629" MODIFIED="1616555421621">
 <node TEXT="\latex $\{ x^i \}$在$[-1,1]$上以$\rho(x) = 1$正交归一化" ID="ID_824797497" CREATED="1616552886179" MODIFIED="1616555444735"/>
@@ -148,7 +150,7 @@
 <node TEXT="\latex $\{ x^i \}$在$[-\infty,\infty]$上以$\rho(x)=e^{-x^2}$正交归一化" ID="ID_11547322" CREATED="1616555493456" MODIFIED="1616555546991"/>
 </node>
 </node>
-<node TEXT="数值积分&#xa;(Numerical Integration)" POSITION="right" ID="ID_48973110" CREATED="1617156657724" MODIFIED="1617156727085">
+<node TEXT="数值积分&#xa;(Numerical Integration)" POSITION="bottom_or_right" ID="ID_48973110" CREATED="1617156657724" MODIFIED="1617156727085">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex numerical quadrature(求积公式) \\&#xa;$\int_a^b f(x)dx\approx \sum A_if(x_i)$" ID="ID_790815440" CREATED="1617157312449" MODIFIED="1617157714245">
 <node TEXT="中矩公式" ID="ID_313926728" CREATED="1617157239147" MODIFIED="1617157247592"/>
@@ -167,7 +169,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex first Lagrange polynomials with equally spaced nodes \\ give \textbf{Trapezoidal rule(梯形公式)}:($h=b-a$) $\int_{x_0}^{x_1}f(x)dx=\frac h2[f(x_0)+f(x_1)]-\frac{h^3}{12}f^{\prime\prime}(\xi)$" ID="ID_1532182233" CREATED="1617157853125" MODIFIED="1617158398175"/>
 <node TEXT="\latex second Lagrange polynomials with equally spaced nodes \\ give \textbf{Simpson&apos;s rule}:($h=\frac{b-a}{2}=x_1-x_0=x_2-x_1$)\\ $\int_{x_0}^{x_2}f(x)dx=\frac h3[f(x_0)+4f(x_1)+f(x_2)]-\frac{h^5}{90}f^{(4)}(\xi)$" ID="ID_564058832" CREATED="1617157853125" MODIFIED="1617158450072"/>
