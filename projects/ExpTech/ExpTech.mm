@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="ExpTech" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1693385337824" STYLE="oval">
 <font NAME="Times New Roman" SIZE="22"/>
-<hook NAME="MapStyle" zoom="1.001">
+<hook NAME="MapStyle" zoom="1.301">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" newNodeStyle=":style:default"/>
 
 <map_styles>
@@ -69,15 +69,17 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2D materials fabrication" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
+<node TEXT="2D materials fabrication" FOLDED="true" POSITION="bottom_or_right" ID="ID_87577642" CREATED="1693385188173" MODIFIED="1693386191186">
 <edge COLOR="#ff0000"/>
 <font NAME="Times New Roman" SIZE="14"/>
 <node TEXT="CVD/PVD" ID="ID_415137869" CREATED="1693385199542" MODIFIED="1693385349251">
 <font NAME="Times New Roman" SIZE="14"/>
 </node>
 <node TEXT="Exfoliation" ID="ID_753214970" CREATED="1693385206482" MODIFIED="1693386031811">
-<node TEXT="3M tape" LOCALIZED_STYLE_REF="default" ID="ID_802143456" CREATED="1693386062408" MODIFIED="1693386064615">
-<node TEXT="much residue" LOCALIZED_STYLE_REF="default" ID="ID_1542586121" CREATED="1693386064983" MODIFIED="1693386079879"/>
+<node TEXT="magic/scotch tape(3M tape)" LOCALIZED_STYLE_REF="default" ID="ID_802143456" CREATED="1693386062408" MODIFIED="1699172914691">
+<node TEXT="much residue" LOCALIZED_STYLE_REF="default" ID="ID_1542586121" CREATED="1693386064983" MODIFIED="1693386079879">
+<node TEXT="make the exposing area of tape small&#xa;(overlap with flakes)" LOCALIZED_STYLE_REF="default" ID="ID_505070356" CREATED="1699172916359" MODIFIED="1699172939688"/>
+</node>
 </node>
 <node TEXT="unsolved" LOCALIZED_STYLE_REF="default" ID="ID_212128761" CREATED="1693386083359" MODIFIED="1693386090034">
 <node TEXT="the relationship between stickiness and efficiency" LOCALIZED_STYLE_REF="default" ID="ID_444861892" CREATED="1693386090186" MODIFIED="1693386156586"/>
@@ -89,8 +91,11 @@
 <node TEXT="heating" LOCALIZED_STYLE_REF="default" ID="ID_142330272" CREATED="1698579920974" MODIFIED="1698579922985">
 <node TEXT="induce more and larger flakes to drop, but with severe residue" LOCALIZED_STYLE_REF="default" ID="ID_212919869" CREATED="1698579923342" MODIFIED="1698579946763"/>
 </node>
+<node TEXT="contacting time" LOCALIZED_STYLE_REF="default" ID="ID_678637643" CREATED="1699173000764" MODIFIED="1699173005254">
+<node TEXT="longer time leads to more flakes,&#xa;but also thicker flakes" LOCALIZED_STYLE_REF="default" ID="ID_1441899850" CREATED="1699173005789" MODIFIED="1699173028494"/>
 </node>
-<node TEXT="Optical contrast measurement&#xa;(judge the thickness)" LOCALIZED_STYLE_REF="default" ID="ID_1832437191" CREATED="1695283632976" MODIFIED="1695283737279">
+</node>
+<node TEXT="Optical contrast measurement&#xa;(judge the thickness)" LOCALIZED_STYLE_REF="default" FOLDED="true" ID="ID_1832437191" CREATED="1695283632976" MODIFIED="1695283737279">
 <hook URI="exp-pix/opti-contrast.png" SIZE="0.5209602" NAME="ExternalObject"/>
 <node TEXT="principle and advantages" LOCALIZED_STYLE_REF="default" ID="ID_1998121330" CREATED="1695285318966" MODIFIED="1695285326154">
 <node TEXT="Optical contrast is a normalised difference between the intensities of light reflected by sample and surrounding substrate" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_990213760" CREATED="1695283766504" MODIFIED="1695283768765">
@@ -188,7 +193,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Common devices" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_459800771" CREATED="1694499825209" MODIFIED="1694499831119">
+<node TEXT="Common devices" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_459800771" CREATED="1694499825209" MODIFIED="1694499831119">
 <edge COLOR="#00007c"/>
 <node TEXT="Coplanar Waveguide" LOCALIZED_STYLE_REF="default" ID="ID_1397181821" CREATED="1694499831996" MODIFIED="1694499838875">
 <node TEXT="Coplanar waveguide is a type of electrical planar transmission line which can be fabricated using printed circuit board technology, and is used to convey microwave-frequency signals." LOCALIZED_STYLE_REF="default" ID="ID_1982493819" CREATED="1694499862960" MODIFIED="1694499865048"/>
@@ -391,7 +396,7 @@
 <node TEXT="\latex phase and $\overline{\Delta z}$&#xa;  hysteresis loop." LOCALIZED_STYLE_REF="default" ID="ID_392615799" CREATED="1697376400160" MODIFIED="1697376702602"/>
 <node TEXT="linear dichroism" LOCALIZED_STYLE_REF="default" ID="ID_1845512695" CREATED="1697376978581" MODIFIED="1697377009149"/>
 </node>
-<node TEXT="MTJ (Magnetic Tunneling Junc)" LOCALIZED_STYLE_REF="default" POSITION="bottom_or_right" ID="ID_1232572522" CREATED="1697373537731" MODIFIED="1697373551368">
+<node TEXT="MTJ (Magnetic Tunneling Junc)" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="bottom_or_right" ID="ID_1232572522" CREATED="1697373537731" MODIFIED="1697373551368">
 <edge COLOR="#7c7c00"/>
 <node TEXT="configuration" LOCALIZED_STYLE_REF="default" ID="ID_1416712558" CREATED="1697374917335" MODIFIED="1697374921828"/>
 <node TEXT="tunneling current - voltage" LOCALIZED_STYLE_REF="default" ID="ID_677354756" CREATED="1697373552247" MODIFIED="1697373626071">
@@ -405,7 +410,7 @@
 </node>
 <node TEXT="parameter measurement: thickness (AFM), Raman spectra, RMCD" LOCALIZED_STYLE_REF="default" ID="ID_1472691406" CREATED="1697375242299" MODIFIED="1697375265288"/>
 </node>
-<node TEXT="auxiliary DFT" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_644066767" CREATED="1697375028781" MODIFIED="1697375035212">
+<node TEXT="auxiliary DFT" LOCALIZED_STYLE_REF="default" FOLDED="true" POSITION="top_or_left" ID="ID_644066767" CREATED="1697375028781" MODIFIED="1697375035212">
 <edge COLOR="#ff0000"/>
 <node TEXT="results" LOCALIZED_STYLE_REF="default" ID="ID_10512155" CREATED="1697375351439" MODIFIED="1697375353445">
 <node TEXT="total energy (stability of structure)" LOCALIZED_STYLE_REF="default" POSITION="top_or_left" ID="ID_1731047053" CREATED="1697375036596" MODIFIED="1697375061398"/>
