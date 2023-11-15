@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Spin/Valley-tronics&amp;&#xa;Magnetism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695262843569" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" zoom="1.001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
 
@@ -378,18 +378,9 @@
 <node TEXT="measurement" POSITION="bottom_or_right" ID="ID_1188409335" CREATED="1694607994843" MODIFIED="1694608087527" LINK="../ExpTech/ExpTech.mm">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="materials" FOLDED="true" POSITION="top_or_left" ID="ID_829325777" CREATED="1694615134134" MODIFIED="1694615504546">
+<node TEXT="materials" POSITION="top_or_left" ID="ID_829325777" CREATED="1694615134134" MODIFIED="1700019394617">
 <edge COLOR="#0000ff"/>
-<node TEXT="\latex FGT($\mathrm{Fe_3GeTe_2}$)" ID="ID_1310825498" CREATED="1694615179305" MODIFIED="1694615238057">
-<node TEXT="metal" ID="ID_1295681047" CREATED="1694615244460" MODIFIED="1694615247996"/>
-<node TEXT="difficult to produce, causing discrepancy" ID="ID_246692693" CREATED="1694615248642" MODIFIED="1694615262243"/>
-<node TEXT="strong SOC" ID="ID_1908734499" CREATED="1694615265475" MODIFIED="1694615267979"/>
-<node TEXT="magneto-crystalline anisotropy perpendicular to the plane" ID="ID_580285296" CREATED="1694615272067" MODIFIED="1694615289652"/>
-<node TEXT="layers configuration" ID="ID_608746239" CREATED="1694615314454" MODIFIED="1694615326444">
-<node TEXT="FM intralayer" POSITION="top_or_left" ID="ID_616513786" CREATED="1694615298721" MODIFIED="1694615302517"/>
-<node TEXT="complex interlayer" POSITION="top_or_left" ID="ID_847897381" CREATED="1694615305974" MODIFIED="1694615310231"/>
-</node>
-</node>
+<hook URI="quantum-pix/band_spintronic_mats.png" SIZE="0.79304624" NAME="ExternalObject"/>
 <node TEXT="\latex $\mathrm{CrI_3}$" ID="ID_1896857004" CREATED="1694615435940" MODIFIED="1694615449719"/>
 <node TEXT="\latex TMDCs(Transition Metal Dichalcogenides)\\$\mathrm{MX_2}$, M is transition metal, X is chalcogen" ID="ID_1598633144" CREATED="1694615435940" MODIFIED="1694616843077">
 <node TEXT="Polytypes" ID="ID_182714526" CREATED="1694616881886" MODIFIED="1694616886618">
@@ -412,6 +403,115 @@
 </node>
 </node>
 </node>
+<node TEXT="magnetic metal" ID="ID_1090627896" CREATED="1700015031470" MODIFIED="1700015038787">
+<node TEXT="FM metal" ID="ID_571970293" CREATED="1700015061610" MODIFIED="1700015066231">
+<node TEXT="Fe, Co, Ni metals and their alloys" POSITION="top_or_left" ID="ID_1416266823" CREATED="1700019206516" MODIFIED="1700019229684">
+<node TEXT="abundant and cheap, handled easily" ID="ID_538530955" CREATED="1700019231077" MODIFIED="1700019244494"/>
+<node TEXT="only supply partially spin-polarized carriers due to their low degree of spin polarization" ID="ID_798942521" CREATED="1700019245583" MODIFIED="1700019266735"/>
+</node>
+<node TEXT="\latex FGT($\mathrm{Fe_3GeTe_2}$)" POSITION="top_or_left" ID="ID_1310825498" CREATED="1694615179305" MODIFIED="1694615238057">
+<node TEXT="metal" ID="ID_1295681047" CREATED="1694615244460" MODIFIED="1694615247996"/>
+<node TEXT="difficult to produce, causing discrepancy" ID="ID_246692693" CREATED="1694615248642" MODIFIED="1694615262243"/>
+<node TEXT="strong SOC" ID="ID_1908734499" CREATED="1694615265475" MODIFIED="1694615267979"/>
+<node TEXT="magneto-crystalline anisotropy perpendicular to the plane" ID="ID_580285296" CREATED="1694615272067" MODIFIED="1694615289652"/>
+<node TEXT="layers configuration" ID="ID_608746239" CREATED="1694615314454" MODIFIED="1694615326444">
+<node TEXT="FM intralayer" POSITION="top_or_left" ID="ID_616513786" CREATED="1694615298721" MODIFIED="1694615302517"/>
+<node TEXT="complex interlayer" POSITION="top_or_left" ID="ID_847897381" CREATED="1694615305974" MODIFIED="1694615310231"/>
+</node>
+</node>
+</node>
+<node TEXT="Half metal(HM)" ID="ID_309696839" CREATED="1700015066545" MODIFIED="1700019932598">
+<node TEXT="Half-metallic Ferromagnets (HMF)" ID="ID_1821047653" CREATED="1700019927637" MODIFIED="1700019934696">
+<node TEXT="CrO2, Fe3O4" POSITION="top_or_left" ID="ID_1337846169" CREATED="1700019868526" MODIFIED="1700019896788"/>
+<node TEXT="need high Curie temperature, the half-metallic gap should also be wide enough to efficiently prevent the thermally agitated spin-flip transition and preserve half-metallicity at room temperature;&#xa;for magnetoelectronics applications, large magnetic anisotropy energy is favored" POSITION="top_or_left" ID="ID_1090637199" CREATED="1700019703612" MODIFIED="1700019901907"/>
+<node TEXT="can intrinsically provide single spin channel electrons, with spin polarization reaching 100%" POSITION="top_or_left" ID="ID_504630441" CREATED="1700019648703" MODIFIED="1700019671104">
+<node TEXT="used for pure spin generation and injection" ID="ID_420157714" CREATED="1700019680346" MODIFIED="1700019684704"/>
+</node>
+<node TEXT="one spin channel possesses metallic conduction while the other spin channel is insulating or semiconducting" POSITION="top_or_left" ID="ID_816517784" CREATED="1700019619949" MODIFIED="1700019628941"/>
+</node>
+<node TEXT="HMAFM" ID="ID_1854975721" CREATED="1700019948521" MODIFIED="1700019954501">
+<node TEXT="provide 100% spinpolarized electrons, while showing no macroscopic magnetization" ID="ID_1895849444" CREATED="1700019981914" MODIFIED="1700019985871">
+<node TEXT="The basic idea of HMAFMs is that for a half metal with stoichiometric composition, the spin magnetization per unit cell should be an integer in units of Bohr magneton and this integer can be zero after careful design" ID="ID_1818996127" CREATED="1700020392414" MODIFIED="1700020398872"/>
+</node>
+<node TEXT="useful in making the tip of spinpolarized scanning tunneling microscope" POSITION="top_or_left" ID="ID_422080087" CREATED="1700020481425" MODIFIED="1700020491764"/>
+<node TEXT="Because of zero net magnetization, half-metallicity of HMAFMs will keep unchanged under an external magnetic field and not interfere with others magnetically" POSITION="top_or_left" ID="ID_1186085643" CREATED="1700020422165" MODIFIED="1700020462171"/>
+</node>
+</node>
+</node>
+<node TEXT="topological insulator" ID="ID_736376943" CREATED="1700015039486" MODIFIED="1700015045428">
+<node TEXT="Types (different underlying mechanism like protecting symmetries, but with same external characteristics)" ID="ID_1393302378" CREATED="1700020558884" MODIFIED="1700020639686">
+<node TEXT="Inorganic topological insulator" POSITION="top_or_left" ID="ID_148323182" CREATED="1700015080126" MODIFIED="1700015088491">
+<node TEXT="surface states are a result of the material&apos;s topological order, a property not dependent on the precise shape of the material" ID="ID_1449702109" CREATED="1700016685499" MODIFIED="1700016686790">
+<node TEXT="the topological protection of surface states arises from time-reversal symmetry" ID="ID_436616319" CREATED="1700016726537" MODIFIED="1700016735300"/>
+</node>
+</node>
+<node TEXT="organometallic topological insulator(OTI)" POSITION="top_or_left" ID="ID_115463440" CREATED="1700015092289" MODIFIED="1700015134196"/>
+<node TEXT="topological crystalline insulator (TCI)" POSITION="top_or_left" ID="ID_1996620948" CREATED="1700015135030" MODIFIED="1700015152677">
+<node TEXT="the topological protection of surface states arises from crystal symmetries, particularly mirror symmetry, rather than time-reversal symmetry" ID="ID_1643289540" CREATED="1700016705689" MODIFIED="1700016706997"/>
+</node>
+</node>
+<node TEXT="metallic surface states are symmetry protected.&#xa;the spin-up and spin-down electrons propagate in opposite direction on the surface" ID="ID_1608070743" CREATED="1700020661115" MODIFIED="1700020683456"/>
+<node TEXT="ideal for pure spin generation and transport,&#xa;without bringing any net charge current" ID="ID_1784417996" CREATED="1700020642990" MODIFIED="1700020703635">
+<node TEXT="so far only work at low temperatures,&#xa;long way to go" ID="ID_1367064782" CREATED="1700020760962" MODIFIED="1700020777179"/>
+</node>
+<node TEXT="\latex HgTe, Bi$_{1-x}$Sb$_x$" ID="ID_364176974" CREATED="1700020902135" MODIFIED="1700020930973"/>
+</node>
+<node TEXT="magnetic semiconductor" ID="ID_1657472628" CREATED="1700015046140" MODIFIED="1700021276419">
+<node TEXT="Types" ID="ID_1061964140" CREATED="1700021261027" MODIFIED="1700021262613">
+<node TEXT="Diluted magnetic semiconductor (DMS)" POSITION="top_or_left" ID="ID_139109424" CREATED="1700015157809" MODIFIED="1700015174781">
+<node TEXT="non-magnetic semiconductors doped with magnetic ions, exhibiting ferromagnetic properties due to the magnetic dopants" ID="ID_513812001" CREATED="1700018561520" MODIFIED="1700027705486"/>
+<node TEXT="Used in spintronics for spin injection and in magnetic sensors" ID="ID_729932203" CREATED="1700018571453" MODIFIED="1700018573680"/>
+<node TEXT="GaMnAs" ID="ID_450324868" CREATED="1700018598046" MODIFIED="1700018605545"/>
+<node TEXT="key elements" ID="ID_84815317" CREATED="1700027871932" MODIFIED="1700027875486">
+<node TEXT="" ID="ID_62512694" CREATED="1700027929952" MODIFIED="1700027929952">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="carrier doping" ID="ID_28273412" CREATED="1700027876671" MODIFIED="1700027880088"/>
+<node TEXT="magnetic doping" ID="ID_613007932" CREATED="1700027880556" MODIFIED="1700027883643"/>
+<node TEXT="" ID="ID_204800381" CREATED="1700027929951" MODIFIED="1700027932778">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node ID="ID_108049221" CREATED="1700027929952" MODIFIED="1700027981972" HGAP_QUANTITY="25.4 pt"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      realized <span style="font-weight: bold;">simultaneously by doping with </span>
+    </p>
+    <p>
+      <span style="font-weight: bold;">the same ions</span>&#xa0;or <span style="font-weight: bold;">respectively with successive twostep doping</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Intrinsic magnetic semiconductors" ID="ID_1726532785" CREATED="1700021378648" MODIFIED="1700021390915">
+<node TEXT="Half semiconductor (HSC)" POSITION="top_or_left" ID="ID_208021823" CREATED="1700015176354" MODIFIED="1700015188002"/>
+<node TEXT="Spin gapless semiconductor (SGS)" POSITION="top_or_left" ID="ID_467815671" CREATED="1700018759359" MODIFIED="1700018770237">
+<node TEXT="conduction and valence bands touch each other for one spin direction, creating a gapless semiconductor for that spin" ID="ID_1183159215" CREATED="1700018917687" MODIFIED="1700018919460"/>
+<node TEXT="Potential for ultrafast spintronic devices due to their gapless nature." ID="ID_1027262023" CREATED="1700018926752" MODIFIED="1700018930631"/>
+<node TEXT="Mn₂CoAl" ID="ID_1102159787" CREATED="1700018940238" MODIFIED="1700018941459"/>
+</node>
+<node TEXT="Bipolar magnetic semiconductor (BMS)" POSITION="top_or_left" ID="ID_1748490565" CREATED="1700018773963" MODIFIED="1700018813003">
+<node TEXT="exhibit magnetic properties in both n-type and p-type regions, allowing for bipolar magnetic behavior" ID="ID_354098809" CREATED="1700018953694" MODIFIED="1700018955409"/>
+<node TEXT="Useful in advanced spintronic devices that require both types of charge carriers." ID="ID_468405591" CREATED="1700018963061" MODIFIED="1700018964131"/>
+</node>
+<node TEXT="Asymmetric antiferromagnetic semiconductor (AAFMS)" POSITION="top_or_left" ID="ID_756218350" CREATED="1700018783204" MODIFIED="1700018799019"/>
+</node>
+</node>
+<node TEXT="Overall properties" ID="ID_1492683784" CREATED="1700021254409" MODIFIED="1700021277916">
+<node TEXT="combining properties and advantages of magnets and semiconductors, forming the basis for spintronics" ID="ID_1544647330" CREATED="1700021271351" MODIFIED="1700021282036"/>
+<node TEXT=" can be applied for spin generation and&#xa;injection, and spin manipulation and detection" ID="ID_521383546" CREATED="1700021286251" MODIFIED="1700021293672"/>
+<node TEXT="easily implemented in devices nowadays. But, most magnetic semiconductors suffer from low magnetic ordering temperatures" ID="ID_1098967293" CREATED="1700021306403" MODIFIED="1700021365364"/>
+</node>
+</node>
 </node>
 <node TEXT="Hall Effect" FOLDED="true" POSITION="bottom_or_right" ID="ID_1328363159" CREATED="1694618499611" MODIFIED="1694618503941">
 <edge COLOR="#00ff00"/>
@@ -420,7 +520,7 @@
 <node TEXT="no need for external magnetic field" ID="ID_1140229130" CREATED="1694618531261" MODIFIED="1694618539752"/>
 <node TEXT="origins" ID="ID_1838191091" CREATED="1694618542168" MODIFIED="1694618544839">
 <node TEXT="intrinsic: Berry Phase effect in k-space" ID="ID_1581076301" CREATED="1694618544991" MODIFIED="1694618613784">
-<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-45.6 pt;35.4 pt;" ENDINCLINATION="69 pt;-0.6 pt;"/>
+<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-45 pt;35.4 pt;" ENDINCLINATION="69 pt;0 pt;"/>
 </node>
 <node TEXT="extrinsic: spin-dependent scattering by disorder" ID="ID_18823152" CREATED="1694618559679" MODIFIED="1694618572802"/>
 </node>
@@ -438,7 +538,7 @@
 <node TEXT="\latex In HM(heavy metal) materials, SHE(spin hall effect) introduces spin current when charge current flows through. Spin current causes STT when flows to FM layer, replacing the role of $\vec H_{rf} \rightarrow $ ST-FMR" ID="ID_1966402153" CREATED="1694619579622" MODIFIED="1694619776869"/>
 </node>
 </node>
-<node TEXT="Hubbard model" POSITION="top_or_left" ID="ID_935269452" CREATED="1695657537178" MODIFIED="1695657542413">
+<node TEXT="Hubbard model" FOLDED="true" POSITION="top_or_left" ID="ID_935269452" CREATED="1695657537178" MODIFIED="1695657542413">
 <edge COLOR="#7c0000"/>
 <node TEXT="an approximate model describing the transition between conducting and insulating systems" ID="ID_717948299" CREATED="1695657578908" MODIFIED="1695657592686">
 <node TEXT="originally for fermions, but also suits bosons&#xa;(Bose-Hubbard model)" ID="ID_1663340679" CREATED="1695658588297" MODIFIED="1695658616386"/>
@@ -450,6 +550,10 @@
 <node TEXT="pushes it to tunnel to neighboring atoms:&#xa;kinetic term allowing for tunneling (hopping) of particles between lattice sites" ID="ID_372328749" CREATED="1695658154734" MODIFIED="1695660066834"/>
 <node TEXT="pushes it away from its neighbors:&#xa;potential term reflecting on-site interaction" ID="ID_1181526210" CREATED="1695658566136" MODIFIED="1695660090006"/>
 </node>
+</node>
+<node TEXT="Spintronic Circuits" POSITION="bottom_or_right" ID="ID_1055433771" CREATED="1700018825548" MODIFIED="1700018868072">
+<edge COLOR="#00007c"/>
+<hook URI="quantum-pix/spintronics_circuit.png" SIZE="0.8387034" NAME="ExternalObject"/>
 </node>
 </node>
 </map>
