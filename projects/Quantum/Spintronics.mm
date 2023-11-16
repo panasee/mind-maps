@@ -381,8 +381,10 @@
 <node TEXT="materials" POSITION="top_or_left" ID="ID_829325777" CREATED="1694615134134" MODIFIED="1700019394617">
 <edge COLOR="#0000ff"/>
 <hook URI="quantum-pix/band_spintronic_mats.png" SIZE="0.79304624" NAME="ExternalObject"/>
-<node TEXT="\latex $\mathrm{CrI_3}$" ID="ID_1896857004" CREATED="1694615435940" MODIFIED="1694615449719"/>
-<node TEXT="\latex TMDCs(Transition Metal Dichalcogenides)\\$\mathrm{MX_2}$, M is transition metal, X is chalcogen" ID="ID_1598633144" CREATED="1694615435940" MODIFIED="1694616843077">
+<node TEXT="\latex $\mathrm{CrX_3}$" ID="ID_1896857004" CREATED="1694615435940" MODIFIED="1700143573479">
+<node TEXT="strong magnetic anisotropy" ID="ID_267186821" CREATED="1700143577444" MODIFIED="1700143585736"/>
+</node>
+<node TEXT="\latex TMDCs(Transition Metal Dichalcogenides)\\$\mathrm{MX_2}$, M is transition metal, X is chalcogen" FOLDED="true" ID="ID_1598633144" CREATED="1694615435940" MODIFIED="1694616843077">
 <node TEXT="Polytypes" ID="ID_182714526" CREATED="1694616881886" MODIFIED="1694616886618">
 <node TEXT="1T(octahedral), broken inversion symmetry" ID="ID_1838814224" CREATED="1694616889499" MODIFIED="1694616963301"/>
 <node TEXT="2H(trigonal-prismatic, hexagonal)" ID="ID_1201739427" CREATED="1694616897441" MODIFIED="1694616928139"/>
@@ -571,7 +573,7 @@
 <node TEXT="no need for external magnetic field" ID="ID_1140229130" CREATED="1694618531261" MODIFIED="1694618539752"/>
 <node TEXT="origins" ID="ID_1838191091" CREATED="1694618542168" MODIFIED="1694618544839">
 <node TEXT="intrinsic: Berry Phase effect in k-space" ID="ID_1581076301" CREATED="1694618544991" MODIFIED="1694618613784">
-<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-44.4 pt;35.4 pt;" ENDINCLINATION="69 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-43.8 pt;35.4 pt;" ENDINCLINATION="69 pt;0 pt;"/>
 </node>
 <node TEXT="extrinsic: spin-dependent scattering by disorder" ID="ID_18823152" CREATED="1694618559679" MODIFIED="1694618572802"/>
 </node>
