@@ -1,9 +1,9 @@
 <map version="freeplane 1.11.5" dcr_id="1548808546255_e7q58ta0o82e486l1i7xgtkkj" project="1689A0C2ACC38F80L9J3PH1B0G57P4XPHHPM">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="electromagnetism" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1693646221102">
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icon_for_attributes="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -94,11 +94,11 @@
 <node TEXT="Magnetic materials" POSITION="top_or_left" ID="ID_376922966" CREATED="1678350255004" MODIFIED="1678350262515">
 <edge COLOR="#808080"/>
 <node TEXT="ferromagnetic" ID="ID_1011204097" CREATED="1678350618733" MODIFIED="1678353067975">
-<arrowlink DESTINATION="ID_45945725" MIDDLE_LABEL="above the Curie temperature" STARTINCLINATION="-122.4 pt;-23.4 pt;" ENDINCLINATION="-37.2 pt;-6.6 pt;"/>
+<arrowlink DESTINATION="ID_45945725" MIDDLE_LABEL="above the Curie temperature" STARTINCLINATION="-121.8 pt;-22.8 pt;" ENDINCLINATION="-36.6 pt;-6 pt;"/>
 </node>
 <node TEXT="ferrimagnetic" ID="ID_1181577090" CREATED="1678351073380" MODIFIED="1678351250566"/>
 <node TEXT="antiferromagnetic" ID="ID_544125596" CREATED="1678350618733" MODIFIED="1678353137931">
-<arrowlink DESTINATION="ID_45945725" MIDDLE_LABEL="above Neel temperature" STARTINCLINATION="-79.8 pt;-13.2 pt;" ENDINCLINATION="-78 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_45945725" MIDDLE_LABEL="above Neel temperature" STARTINCLINATION="-79.2 pt;-12.6 pt;" ENDINCLINATION="-77.4 pt;0 pt;"/>
 </node>
 <node TEXT="paramagnetic" ID="ID_45945725" CREATED="1678350735516" MODIFIED="1678353119313">
 <node TEXT="due to the presence of unpaired electrons, so&#xa;most atoms with incompletely filled atomic orbitals are paramagnetic(with exceptions)" ID="ID_1848562332" CREATED="1678351735643" MODIFIED="1678352710080"/>
@@ -142,6 +142,10 @@
 <node TEXT="\latex Maxwell-Faraday equation: $\nabla \times \vec E=-\frac{\partial \vec B}{\partial t}$" ID="ID_1684613503" CREATED="1693652560657" MODIFIED="1693653088959"/>
 <node TEXT="\latex Amp\`ere&apos;s circuital law: $\nabla\times\vec B = \mu_0 (\vec J+\epsilon_0 \frac{\partial \vec E}{\partial t})$" ID="ID_1463445194" CREATED="1693652575803" MODIFIED="1693653171580"/>
 </node>
+</node>
+<node TEXT="EM wave" POSITION="top_or_left" ID="ID_9750056" CREATED="1698726429615" MODIFIED="1698726433332">
+<edge COLOR="#7c0000"/>
+<node TEXT="\latex poynting vector $\vec S=\vec E\times\vec H$" ID="ID_1782614132" CREATED="1698726433784" MODIFIED="1698726457670"/>
 </node>
 </node>
 </map>
