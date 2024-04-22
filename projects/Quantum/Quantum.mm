@@ -71,7 +71,7 @@
 </node>
 <node TEXT="\latex $(H+\lambda V)(\lambda^i|n^{(i)}\rangle)=(\lambda^j E_n^{(j)})(\lambda^k|n^{(k)}\rangle)$\\&#xa;expand according to the power of $\lambda$ to extract nth-order eq." ID="ID_1805065596" CREATED="1619431757330" MODIFIED="1619432038233">
 <node TEXT="\latex first-order: $H_0|n^{(1)}\rangle+V|n^{(0)}\rangle = E_n^{(0)}|n^{(1)}\rangle +E_n^{(1)}|n^{(0)}\rangle$\\&#xa;operating through by $\langle n^{(0)}|$: $E_n^{(1)}=\langle n^{(0)} |V|n^{(0)}\rangle$" ID="ID_1682919374" CREATED="1619432160204" MODIFIED="1668412455855">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="103.2 pt;0 pt;" ENDINCLINATION="94.2 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1771358305" STARTINCLINATION="103.5 pt;0 pt;" ENDINCLINATION="94.5 pt;0 pt;" STARTARROW="DEFAULT" ENDARROW="NONE"/>
 </node>
 </node>
 </node>
@@ -230,7 +230,7 @@
 <font NAME="Microsoft YaHei UI"/>
 <node TEXT="\latex summation to integral \\&#xa;$\sum_k = \frac{\int dk}{\frac{(2\pi)^3}{V}}$" FOLDED="true" ID="ID_437676127" CREATED="1619139389966" MODIFIED="1619139435380">
 <node TEXT="\latex $(\frac{\partial f}{\partial t})_{k_1, coll} = \frac{V^3}{(2\pi)^9}(\iiint W(k_1^\prime k_2^\prime\rightarrow  k_1k_2)f(r,k_1^\prime,t)f(r,k_2^\prime,t)dk\\&#xa;-\iiint W(k_1 k_2\rightarrow k_1^\prime k_2^\prime)f(r,k_1,t)f(r,k_2,t)dk)$" FOLDED="true" ID="ID_929878259" CREATED="1619139447848" MODIFIED="1620109429846">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.4 pt;14.4 pt;" ENDINCLINATION="10.2 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1531438706" STARTINCLINATION="134.25 pt;14.25 pt;" ENDINCLINATION="10.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex $dk=d^3k_2d^3k_1^\prime d^3k_2^\prime$" ID="ID_804749739" CREATED="1619660569178" MODIFIED="1619660584264"/>
 </node>
 </node>
@@ -299,7 +299,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="suitable for U-process" ID="ID_1235914460" CREATED="1620280461853" MODIFIED="1620280486987" HGAP_QUANTITY="21.06748 pt" VSHIFT_QUANTITY="-2.65031 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="696.00002 pt;0 pt;" ENDINCLINATION="696.00002 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_405650207" STARTINCLINATION="695.99998 pt;0 pt;" ENDINCLINATION="695.99998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="\latex 长波极限下纵波声子只能参与\\\textbf{总数反比于波长平方}的散射($N\propto q^2$)" ID="ID_871968797" CREATED="1620279822068" MODIFIED="1620279946420"/>

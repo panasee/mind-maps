@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.11.5">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Differential Equation" FOLDED="false" ID="ID_92716989" CREATED="1582171368064" MODIFIED="1582259668849" STYLE="oval">
 <font NAME="TSCu_Times" SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.948">
+<hook NAME="MapStyle" zoom="1.947">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1058287746" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1058287746" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,8 +22,9 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,8 +38,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -63,8 +65,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="\latex 二阶偏微分方程\\&#xa;$\sum\limits^n_{j=1}\sum^n_{i=1}a_{ij}u_{x_ix_j}+\sum^n_{i=1}b_iu_{x_i}+cu+f=0 $" FOLDED="true" POSITION="right" ID="ID_170575284" CREATED="1582171510613" MODIFIED="1582259656098" HGAP_QUANTITY="32.74999944120647 pt" VSHIFT_QUANTITY="-2.2499999329447764 pt">
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="\latex 二阶偏微分方程\\&#xa;$\sum\limits^n_{j=1}\sum^n_{i=1}a_{ij}u_{x_ix_j}+\sum^n_{i=1}b_iu_{x_i}+cu+f=0 $" FOLDED="true" POSITION="bottom_or_right" ID="ID_170575284" CREATED="1582171510613" MODIFIED="1582259656098" HGAP_QUANTITY="32.75 pt" VSHIFT_QUANTITY="-2.25 pt">
 <edge COLOR="#ff0000"/>
 <font NAME="SimSun" SIZE="16"/>
 <node TEXT="\latex $a_{ij}, b_i, c, f$是否包含$u$\\&#xa;线性/非线性" ID="ID_1735378438" CREATED="1582190567322" MODIFIED="1582259656100">
@@ -88,7 +90,7 @@
 <node TEXT="\latex 二元二阶线性偏微分方程:\\&#xa;$a_{11}u_{xx}+2a_{12}u_{xy}+a_{22}u_{yy}+b_1u_x+b_2u_y+cu+f=0$&#xa;\\引入新变量$(\xi, \eta)$,\\&#xa;保证雅各比行列式非零 \\&#xa;有\[  \left\{  \begin{aligned}&#xa;&amp;u_x=u_\xi\xi_x+u_\eta\eta_x ,\\&#xa;&amp;u_y=u_\xi\xi_y+u_\eta\eta_y ,&#xa;\end{aligned}   \right.  \]" ID="ID_1750606951" CREATED="1582192358720" MODIFIED="1582259656091">
 <font NAME="SimSun"/>
 <node TEXT="\latex 方程化为:\\&#xa;\[ A_{11}u_{\xi\xi}+2A_{12}u_{\xi\eta}+A_{22}u_{\eta\eta}+B_1u_\xi+B_2u_\eta+Cu+F=0 \] &#xa;\[\left\{\begin{aligned} &#xa;&amp;A_{11}=a_{11}\xi^2_x+2a_{12}\xi_x\xi_y+a_{22}\xi^2_y,\\&#xa;&amp;A_{12}=a_{11}\xi_x\eta_x+a_{12}(\xi_x\eta_y+\xi_y\eta_x)+a_{22}\xi_y\eta_y,\\&#xa;&amp;A_{22}=a_{11}\eta_x^2+2a_{12}\eta_x\eta_y+a_{22}\eta_y^2,\\&#xa;&amp;B_1=a_{11}\xi_{xx}+2a_{12}\xi_{xy}+a_{22}\xi_{yy}+b_1\xi_x+b_2\xi_y,\\&#xa;&amp;B_2=a_{11}\eta_{xx}+2a_{12}\eta_{xy}+a_{22}\eta_{yy}+b_1\eta_x+b_2\eta_y,\\&#xa;&amp;C=c,\\&#xa;&amp;F=f.&#xa;  \end{aligned} \right.\]" ID="ID_431856626" CREATED="1582195465323" MODIFIED="1582367392014">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-126;82;" ENDINCLINATION="433;21;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-93 pt;61.5 pt;" ENDINCLINATION="324.74999 pt;15.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SimSun"/>
 <node TEXT="\latex 将$a_{11}z^2_x+2a_{12}z_xz_y+a_{22}z^2_y$&#xa;的一个\\特解作为$\xi$, 可以使$A_{11}=0$ \\&#xa;同理设置$\eta$使$A_{22}=0$" ID="ID_1030845026" CREATED="1582251551891" MODIFIED="1582259656110">
 <font NAME="SimSun"/>
@@ -144,16 +146,16 @@
 <node TEXT="" ID="ID_1266875494" CREATED="1582270362654" MODIFIED="1582270374931">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="波动方程" ID="ID_1514886181" CREATED="1582270362658" MODIFIED="1582270374929" HGAP_QUANTITY="29.749999530613437 pt" VSHIFT_QUANTITY="-5.999999821186071 pt"/>
+<node TEXT="波动方程" ID="ID_1514886181" CREATED="1582270362658" MODIFIED="1582270374929" HGAP_QUANTITY="29.75 pt" VSHIFT_QUANTITY="-6 pt"/>
 </node>
 </node>
 </node>
-<node TEXT="方程分类" POSITION="left" ID="ID_1021466859" CREATED="1582269717739" MODIFIED="1582269749467">
+<node TEXT="方程分类" POSITION="top_or_left" ID="ID_1021466859" CREATED="1582269717739" MODIFIED="1582269749467">
 <edge COLOR="#0000ff"/>
 <node TEXT="数理方程(包含定解条件)" ID="ID_552200464" CREATED="1582269750276" MODIFIED="1582269770117"/>
 <node TEXT="泛定方程(不含定解条件)" ID="ID_824599595" CREATED="1582269756629" MODIFIED="1582269784314"/>
 </node>
-<node TEXT="张量微分" POSITION="right" ID="ID_503666083" CREATED="1615507357868" MODIFIED="1615507364104">
+<node TEXT="张量微分" POSITION="bottom_or_right" ID="ID_503666083" CREATED="1615507357868" MODIFIED="1615507364104">
 <edge COLOR="#00ff00"/>
 <node TEXT="\latex $\nabla\cdot \vec a\neq div(\vec a)$(equal in 1D but require transform in 2D)\\&#xa;$\nabla\phi \equiv \nabla\otimes\phi\neq grad(\phi)$" ID="ID_1896273533" CREATED="1615509511076" MODIFIED="1615511856484">
 <node TEXT="\latex $\nabla\cdot \vec A =\frac{\partial A_{ij}}{\partial x_i}\hat e_j$" ID="ID_935808270" CREATED="1615511439298" MODIFIED="1615511587541"/>
@@ -165,7 +167,7 @@
 <node TEXT="\latex Kron P: \begin{pmatrix}1 \\2\\ 3\end{pmatrix}\begin{pmatrix}1 \\2\end{pmatrix}&#xa;=\begin{pmatrix}1 \\2\\ 2\\4\\3\\6 \end{pmatrix}" ID="ID_178871709" CREATED="1615512749545" MODIFIED="1615512854111"/>
 </node>
 </node>
-<node TEXT="数值方法:求解区间和方程离散化,求出方程的解&#xa;在离散点上的近似值(无表达式)" POSITION="left" ID="ID_1368774313" CREATED="1618369631570" MODIFIED="1618369969154">
+<node TEXT="数值方法:求解区间和方程离散化,求出方程的解&#xa;在离散点上的近似值(无表达式)" FOLDED="true" POSITION="top_or_left" ID="ID_1368774313" CREATED="1618369631570" MODIFIED="1618369969154">
 <edge COLOR="#ff00ff"/>
 <node TEXT="离散化方法" ID="ID_1776394031" CREATED="1618370036697" MODIFIED="1618370044371">
 <node TEXT="差商逼近法:&#xa;用适当差商逼近导数" ID="ID_1626059545" CREATED="1618370044687" MODIFIED="1618370074136">
@@ -191,7 +193,7 @@
 </node>
 <node TEXT="\latex Runge-Kutta Method\\&#xa;$\left\{ \begin{aligned} &amp;y_{n+1}=y_n+h\sum_{i=1}^sb_ik_i, \sum^s_{i=1}b_i=1\\&#xa;&amp;k_1=f(t_n,y_n)\\&#xa;&amp;k_2 = f(t_n+c_2h,y_n+h(a_{21}k_1))\\&#xa;&amp;\vdots\,\; (\sum_{j=1}^{i-1}a_{ij}=c_i, for\, i=2,\cdots,s)\\&#xa;&amp;k_s = f(t_n+c_sh,y_n+h(a_{s1}k_1+a_{s2}k_2+\cdots+a_{s,s-1}k_{s-1}))&#xa;&#xa; \end{aligned}  \right.$" ID="ID_914980908" CREATED="1618801650424" MODIFIED="1618803905867">
 <node TEXT="\latex 2-nd order Runge-Kutta Method with 2 stages:\\&#xa;$\lambda_1+\lambda_2=1, \lambda_2p=\frac12$ (2级２阶)" ID="ID_1737645890" CREATED="1618802639888" MODIFIED="1618803321681">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1977852488" MIDDLE_LABEL="special case" STARTINCLINATION="97;13;" ENDINCLINATION="112;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1977852488" MIDDLE_LABEL="special case" STARTINCLINATION="72.75 pt;9.75 pt;" ENDINCLINATION="84 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="\latex Runge-Kutta Method with 2 stages(2级) \\&#xa;$\left\{ \begin{aligned} &amp;y_{n+1}=y_n+h[\lambda_1K_1+\lambda_2K_2], \lambda_1+\lambda_2=1\\&#xa;&amp;K_1=f(x_n,y_n)\\&#xa;&amp;K_2 = f(x_n+ph,y_n+phK_1), p\in (0,1] \end{aligned}  \right.$" ID="ID_1456559021" CREATED="1618803144108" MODIFIED="1618803304257"/>
 </node>
@@ -202,11 +204,11 @@
 <node TEXT="Taylor展开法" ID="ID_844234270" CREATED="1618370087987" MODIFIED="1618370095058"/>
 </node>
 </node>
-<node TEXT="解核,基本解和格林函数" POSITION="right" ID="ID_1152761620" CREATED="1620117183453" MODIFIED="1620117366908">
+<node TEXT="解核,基本解和格林函数" POSITION="bottom_or_right" ID="ID_1152761620" CREATED="1620117183453" MODIFIED="1620117366908">
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex L为线性微分算子(系数可变),考虑初值问题:\\&#xa;$\left\{   \begin{aligned} &amp;Lu(t,x)=f(t,x)\\&amp;u(0,x)=\varphi(x)  \end{aligned}   \right. $总是可分解为两个问题\\$\left\{   \begin{aligned} &amp;Lu(t,x)=f(t,x)\\&amp;u(0,x)=0  \end{aligned}   \right. $和$\left\{   \begin{aligned} &amp;Lu(t,x)=0\\&amp;u(0,x)=\varphi(x)  \end{aligned}   \right. $\\&#xa;只要给出两个问题的解$u_1$和$u_2$,$u_1+u_2$即为原方程解" ID="ID_1729117206" CREATED="1620117413385" MODIFIED="1620117928554">
-<node TEXT="\latex 令$f=\delta(t-s)\delta(x-y),\varphi=\delta(x-y)$,\\则$u_1$和$u_2$就是2个问题各自的\textbf{格林函数}$G_1(t,x,s,y)$和$G_2(t,x,y)$\\&#xa;原方程的解就可以表示为:\\$u(t,x)=\int_{\mathbb{R}^{d+1}}G_1(t,x,s,y)f(s,y)dsdy+\int_{\mathbb{R}^d}G_2(t,x,y)\varphi(y)dy$" ID="ID_610963888" CREATED="1620117639866" MODIFIED="1620125855714">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_859003991" STARTINCLINATION="86;44;" ENDINCLINATION="210;6;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="\latex 令$f=\delta(t-s)\delta(x-y),\varphi=\delta(x-y)$,\\则$u_1$和$u_2$就是2个问题各自的\textbf{格林函数}$G_1(t,x,s,y)$和$G_2(t,x,y)$\\&#xa;原方程的解就可以表示为:\\$u(t,x)=\int_{\mathbb{R}^{d+1}}G_1(t,x,s,y)f(s,y)dsdy+\int_{\mathbb{R}^d}G_2(t,x,y)\varphi(y)dy$" ID="ID_610963888" CREATED="1620117639866" MODIFIED="1713505077030">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_859003991" STARTINCLINATION="11.25 pt;4.5 pt;" ENDINCLINATION="132.75 pt;-48 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex 对于常系数线性微分算子L, 令$f=\delta(t)\delta(x),\varphi=\delta(x)$\\此时得到的解为\textbf{基本解},设为$\Delta_1(t,x)$和$\Delta_2(t,x)$\\&#xa;因此$G_1(t,x,s,y)=\Delta_1(t-s,x-y)$,$G_2(t,x,y)=\Delta_2(t,x-y)$\\&#xa;此时的解可以表示为卷积$u=\Delta_1*_{d+1}f+\Delta_2*_d\varphi$" ID="ID_597264773" CREATED="1620117907245" MODIFIED="1620118705628">
 <node TEXT="基本解只适用于常系数线性方程,&#xa;格林函数是更广泛的概念" ID="ID_1883518118" CREATED="1620118731214" MODIFIED="1620118779916"/>
 </node>
@@ -219,6 +221,41 @@
 <node TEXT="\latex 格林函数即为偏微分算子的逆$L^{-1}$的核函数" ID="ID_859003991" CREATED="1620125797147" MODIFIED="1620125839675">
 <node TEXT="\latex 格林函数本质上只是$L^{-1}$的另一种表现形式" ID="ID_114829002" CREATED="1620125961293" MODIFIED="1620125983710"/>
 </node>
+</node>
+</node>
+<node TEXT="Duhamel&apos;s Principle" FOLDED="true" POSITION="top_or_left" ID="ID_733137322" CREATED="1713503251596" MODIFIED="1713503264074">
+<edge COLOR="#00007c"/>
+<node TEXT="general method for obtaining solutions to inhomogeneous linear evolution equations like the heat equation, wave equation, and vibrating plate equation" ID="ID_149990518" CREATED="1713503274440" MODIFIED="1713503276554">
+<node TEXT="\latex For example, inhomogeneous heat eq:&#xa;\\$\left\{ \begin{aligned}&amp;\partial_t u(x,t)-\Delta u(x,t) = f(x,t)\qquad &amp;(x,t)\in \mathbb R^n\times (0,\infty)\\&#xa;&amp;u(x,0) = g(x)&amp; x\in\mathbb R^n\end{aligned}\right.$\\" POSITION="top_or_left" ID="ID_871179044" CREATED="1713503278841" MODIFIED="1713503941016"/>
+</node>
+<node TEXT="\latex $\left\{ \begin{aligned}&amp;\partial_t u(x,t)-L u(x,t) = f(x,t)\qquad &amp;(x,t)\in D\times (0,\infty)\\&#xa;&amp;u|_{\partial D} = 0&amp;\\&#xa;&amp;u(x,0) = 0&amp; x\in D\end{aligned}\right.$" ID="ID_195437014" CREATED="1713503278841" MODIFIED="1713504167212">
+<node TEXT="L is a linear differential operator involving no time derivatives" ID="ID_610116926" CREATED="1713504051609" MODIFIED="1713504065602"/>
+<node TEXT="\latex Duhamel&apos;s Principle: \\&#xa;$u(x,t) = \int_0^t (P^sf)(x,t)ds$,\\&#xa;where $P^sf$ is the solution of the problem:\\&#xa;$\left\{ \begin{aligned}&amp;\partial_t u(x,t)-L u(x,t) = 0\qquad &amp;(x,t)\in D\times (s,\infty)\\&#xa;&amp;u|_{\partial D} = 0&amp;\\&#xa;&amp;u(x,s) = f(x,s)&amp; x\in D\end{aligned}\right.$" ID="ID_1964155344" CREATED="1713504080265" MODIFIED="1713504204893"/>
+</node>
+</node>
+<node TEXT="Integral transform" POSITION="bottom_or_right" ID="ID_1006918094" CREATED="1713505449757" MODIFIED="1713505502727">
+<edge COLOR="#007c00"/>
+<node TEXT="maps a func into another func space via integration, where it might be more easily characterized and manipulated" ID="ID_422779026" CREATED="1713505503790" MODIFIED="1713505578089"/>
+<node TEXT="\latex General form:\\&#xa;$(Tf)(u) = \int_{t_1}^{t_2}f(t)K(t,u)dt$" ID="ID_1712329890" CREATED="1713505588848" MODIFIED="1713505652874">
+<node ID="ID_1472474129" CREATED="1713505690042" MODIFIED="1713505758685"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      numerous transforms, specified by a choice of K,
+    </p>
+    <p>
+      it is called <span style="font-weight: bold;">kernel function, integral kernel or nucleus</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex some kernels have an inverse kernel $K^{-1}(u,t)$\\&#xa;$f(t) = \int_{u_1}^{u_2}(Tf)(u)K^{-1}(u,t)du$" ID="ID_1989808332" CREATED="1713505764836" MODIFIED="1713505821413"/>
 </node>
 </node>
 </node>
