@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Symmetry and Rectification" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1715500046711">
 <font SIZE="14" BOLD="true"/>
-<hook NAME="MapStyle" zoom="2.197">
+<hook NAME="MapStyle" zoom="1.5">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="29" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="31" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $V=V_0+\alpha I+\beta I^2 +\gamma I^3 + \delta I^4 + o(I^4)$" POSITION="bottom_or_right" ID="ID_1914039244" CREATED="1715435256615" MODIFIED="1715436272529">
 <node TEXT="\latex for ac input: $I=I_0 \sin(\omega t)$\\&#xa;$V = C + \sum_n [X_{n\omega}\sin(n\omega t)+Y_{n\omega}\cos(n\omega t)]$" ID="ID_612139234" CREATED="1715435405079" MODIFIED="1715435863536">
 <node TEXT="\latex $C=V_0+\frac{\beta I_0^2}2+\frac38\delta I_0^4 + O(I_0^6)$" ID="ID_602368738" CREATED="1715435638071" MODIFIED="1715436329345"/>
@@ -84,7 +84,7 @@
 <node TEXT="symbol explanation" ID="ID_1206923123" CREATED="1715500694924" MODIFIED="1715500700526">
 <node TEXT="\latex $r_v$ is the diameter of vortex loop,\\&#xa;$d$ is the thickness of one layer" POSITION="top_or_left" ID="ID_79941491" CREATED="1715500187187" MODIFIED="1715500270929"/>
 <node TEXT="\latex $K$ and $K_\perp$ are intralayer and interlayer coupling constant\\&#xa;$K/K_\perp = \gamma^2$" POSITION="top_or_left" ID="ID_1036751525" CREATED="1715500204151" MODIFIED="1715500375673">
-<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-27.6 pt;-25.2 pt;" ENDINCLINATION="60.6 pt;1.2 pt;"/>
+<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-27 pt;-24.75 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
 </node>
 <node TEXT="\latex $\xi_{ab}$ is the in-plane coherence length\\&#xa;$\xi_{ab}=\xi_{ab0}\sqrt{\frac{T_c}{T_c-T}}$" POSITION="top_or_left" ID="ID_436768715" CREATED="1715500238002" MODIFIED="1715500633370"/>
 <node TEXT="\latex $n$ is the number of layers" POSITION="top_or_left" ID="ID_1529765930" CREATED="1715500280647" MODIFIED="1715500287664"/>
@@ -134,6 +134,15 @@
 <node TEXT="\latex evaluation:\\&#xa;periodicity of vortex potential: $l_{v0}=\sqrt{\phi_0^*/B_{pin}}$\\&#xa;potential height: $U=\phi_0^*cl_vI_{pin}/W$" ID="ID_575164470" CREATED="1715521298187" MODIFIED="1715521412988"/>
 </node>
 </node>
+</node>
+<node TEXT="Joule Heating Effect" POSITION="top_or_left" ID="ID_761367284" CREATED="1715584835375" MODIFIED="1715584844370">
+<edge COLOR="#007c00"/>
+<node TEXT="no effect to first and second order signals" ID="ID_260419620" CREATED="1715584848998" MODIFIED="1715584865408"/>
+<node TEXT="affect equal or higher than third order signals" ID="ID_1922423037" CREATED="1715584865886" MODIFIED="1715585704363"/>
+</node>
+<node TEXT="superconducting diode" POSITION="bottom_or_right" ID="ID_887701155" CREATED="1715586029268" MODIFIED="1715586033212">
+<edge COLOR="#7c007c"/>
+<node TEXT="different critical current in different directions" ID="ID_210152322" CREATED="1715586036211" MODIFIED="1715586046860"/>
 </node>
 </node>
 </map>
