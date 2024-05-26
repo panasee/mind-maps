@@ -1,8 +1,8 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Symmetry and Rectification" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1715500046711">
+<node TEXT="Nonlinear" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1716724856222">
 <font SIZE="14" BOLD="true"/>
-<hook NAME="MapStyle" zoom="1.5">
+<hook NAME="MapStyle" zoom="1.65">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="31" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="34" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $V=V_0+\alpha I+\beta I^2 +\gamma I^3 + \delta I^4 + o(I^4)$" POSITION="bottom_or_right" ID="ID_1914039244" CREATED="1715435256615" MODIFIED="1715436272529">
 <node TEXT="\latex for ac input: $I=I_0 \sin(\omega t)$\\&#xa;$V = C + \sum_n [X_{n\omega}\sin(n\omega t)+Y_{n\omega}\cos(n\omega t)]$" ID="ID_612139234" CREATED="1715435405079" MODIFIED="1715435863536">
 <node TEXT="\latex $C=V_0+\frac{\beta I_0^2}2+\frac38\delta I_0^4 + O(I_0^6)$" ID="ID_602368738" CREATED="1715435638071" MODIFIED="1715436329345"/>
@@ -84,7 +84,7 @@
 <node TEXT="symbol explanation" ID="ID_1206923123" CREATED="1715500694924" MODIFIED="1715500700526">
 <node TEXT="\latex $r_v$ is the diameter of vortex loop,\\&#xa;$d$ is the thickness of one layer" POSITION="top_or_left" ID="ID_79941491" CREATED="1715500187187" MODIFIED="1715500270929"/>
 <node TEXT="\latex $K$ and $K_\perp$ are intralayer and interlayer coupling constant\\&#xa;$K/K_\perp = \gamma^2$" POSITION="top_or_left" ID="ID_1036751525" CREATED="1715500204151" MODIFIED="1715500375673">
-<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-27 pt;-24.75 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
+<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-25.5 pt;-23.25 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
 </node>
 <node TEXT="\latex $\xi_{ab}$ is the in-plane coherence length\\&#xa;$\xi_{ab}=\xi_{ab0}\sqrt{\frac{T_c}{T_c-T}}$" POSITION="top_or_left" ID="ID_436768715" CREATED="1715500238002" MODIFIED="1715500633370"/>
 <node TEXT="\latex $n$ is the number of layers" POSITION="top_or_left" ID="ID_1529765930" CREATED="1715500280647" MODIFIED="1715500287664"/>
@@ -143,6 +143,27 @@
 <node TEXT="superconducting diode" POSITION="bottom_or_right" ID="ID_887701155" CREATED="1715586029268" MODIFIED="1715586033212">
 <edge COLOR="#7c007c"/>
 <node TEXT="different critical current in different directions" ID="ID_210152322" CREATED="1715586036211" MODIFIED="1715586046860"/>
+</node>
+<node TEXT="nonlinear response" POSITION="top_or_left" ID="ID_1667135763" CREATED="1716722222629" MODIFIED="1716722227503">
+<edge COLOR="#007c7c"/>
+<node TEXT="\latex $j_a=\chi_{abc}E_b^*E_c$\\&#xa;decomposed: $j_a =\chi_{abc}^\prime E_b^*E_c+i\chi_{abc}^{\prime\prime}E_b^*E_c $\\&#xa;the former describes the response to a linearly polarized field and the latter to a circularly polarized field" ID="ID_297629982" CREATED="1716722248307" MODIFIED="1716723648966">
+<node TEXT="\latex $\chi_{abc}=\chi^*_{acb}$\\&#xa;$\chi^\prime_{abc}=\chi^\prime_{acb},\  \chi^{\prime\prime}_{abc}=-\chi^{\prime\prime}_{acb}$" ID="ID_580012858" CREATED="1716722298157" MODIFIED="1716723612582"/>
+<node TEXT="\latex inversion: $j_a\rightarrow -j_a$, $E\rightarrow -E$\\&#xa;so $\chi_{abc}\equiv 0$ under inversion symmetry" ID="ID_620263837" CREATED="1716722345550" MODIFIED="1716722440841"/>
+<node TEXT="\latex for isotropic medium, second-order response to a linearly polarized field must vanish. In other words, a nonzero $\chi_{abc}^\prime$ requires the presence of crystal anisotropy" ID="ID_1777706588" CREATED="1716723911867" MODIFIED="1716723966199"/>
+</node>
+</node>
+<node TEXT="Novelty" POSITION="top_or_left" ID="ID_1717394403" CREATED="1716724967223" MODIFIED="1716724975560">
+<edge COLOR="#7c7c00"/>
+<node TEXT="constraint of time-reversal symmetry&#xa;(without external magnetic field)" ID="ID_347570179" CREATED="1716725989864" MODIFIED="1716726031769"/>
+<node TEXT="NHE by skew scattering of chiral Bloch electrons in trigonal system" ID="ID_312652058" CREATED="1716726289769" MODIFIED="1716726369573"/>
+<node TEXT="nonlinear anomalous Hall effect in exotic quantum states" ID="ID_1598615364" CREATED="1716726370808" MODIFIED="1716726404915"/>
+</node>
+<node TEXT="measurement" POSITION="top_or_left" ID="ID_239031178" CREATED="1716727173188" MODIFIED="1716727176261">
+<edge COLOR="#ff0000"/>
+<node TEXT="inevitable noisy background" ID="ID_683315366" CREATED="1716727176987" MODIFIED="1716727282576">
+<node TEXT="nonlinear component is smaller than linear component by two orders of magnitude" ID="ID_52676695" CREATED="1716727238830" MODIFIED="1716727259831"/>
+<node TEXT="average the several scans to statistically reduce the background noise, improving the signal-to-noise ratio" ID="ID_1866042312" CREATED="1716727358840" MODIFIED="1716727440013"/>
+</node>
 </node>
 </node>
 </map>
