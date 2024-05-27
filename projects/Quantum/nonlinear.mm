@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="34" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="35" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $V=V_0+\alpha I+\beta I^2 +\gamma I^3 + \delta I^4 + o(I^4)$" POSITION="bottom_or_right" ID="ID_1914039244" CREATED="1715435256615" MODIFIED="1715436272529">
 <node TEXT="\latex for ac input: $I=I_0 \sin(\omega t)$\\&#xa;$V = C + \sum_n [X_{n\omega}\sin(n\omega t)+Y_{n\omega}\cos(n\omega t)]$" ID="ID_612139234" CREATED="1715435405079" MODIFIED="1715435863536">
 <node TEXT="\latex $C=V_0+\frac{\beta I_0^2}2+\frac38\delta I_0^4 + O(I_0^6)$" ID="ID_602368738" CREATED="1715435638071" MODIFIED="1715436329345"/>
@@ -84,7 +84,7 @@
 <node TEXT="symbol explanation" ID="ID_1206923123" CREATED="1715500694924" MODIFIED="1715500700526">
 <node TEXT="\latex $r_v$ is the diameter of vortex loop,\\&#xa;$d$ is the thickness of one layer" POSITION="top_or_left" ID="ID_79941491" CREATED="1715500187187" MODIFIED="1715500270929"/>
 <node TEXT="\latex $K$ and $K_\perp$ are intralayer and interlayer coupling constant\\&#xa;$K/K_\perp = \gamma^2$" POSITION="top_or_left" ID="ID_1036751525" CREATED="1715500204151" MODIFIED="1715500375673">
-<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-25.5 pt;-23.25 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
+<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-24.75 pt;-22.5 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
 </node>
 <node TEXT="\latex $\xi_{ab}$ is the in-plane coherence length\\&#xa;$\xi_{ab}=\xi_{ab0}\sqrt{\frac{T_c}{T_c-T}}$" POSITION="top_or_left" ID="ID_436768715" CREATED="1715500238002" MODIFIED="1715500633370"/>
 <node TEXT="\latex $n$ is the number of layers" POSITION="top_or_left" ID="ID_1529765930" CREATED="1715500280647" MODIFIED="1715500287664"/>
@@ -164,6 +164,10 @@
 <node TEXT="nonlinear component is smaller than linear component by two orders of magnitude" ID="ID_52676695" CREATED="1716727238830" MODIFIED="1716727259831"/>
 <node TEXT="average the several scans to statistically reduce the background noise, improving the signal-to-noise ratio" ID="ID_1866042312" CREATED="1716727358840" MODIFIED="1716727440013"/>
 </node>
+</node>
+<node TEXT="order and symmetry" POSITION="bottom_or_right" ID="ID_194753356" CREATED="1716790724084" MODIFIED="1716790728654">
+<edge COLOR="#0000ff"/>
+<node TEXT="in linear response theory (vortex), the motion of vortices is independent of its directions" ID="ID_1207868418" CREATED="1716790730516" MODIFIED="1716792128617"/>
 </node>
 </node>
 </map>
