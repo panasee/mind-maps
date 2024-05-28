@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="35" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="37" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="\latex $V=V_0+\alpha I+\beta I^2 +\gamma I^3 + \delta I^4 + o(I^4)$" POSITION="bottom_or_right" ID="ID_1914039244" CREATED="1715435256615" MODIFIED="1715436272529">
 <node TEXT="\latex for ac input: $I=I_0 \sin(\omega t)$\\&#xa;$V = C + \sum_n [X_{n\omega}\sin(n\omega t)+Y_{n\omega}\cos(n\omega t)]$" ID="ID_612139234" CREATED="1715435405079" MODIFIED="1715435863536">
 <node TEXT="\latex $C=V_0+\frac{\beta I_0^2}2+\frac38\delta I_0^4 + O(I_0^6)$" ID="ID_602368738" CREATED="1715435638071" MODIFIED="1715436329345"/>
@@ -84,7 +84,7 @@
 <node TEXT="symbol explanation" ID="ID_1206923123" CREATED="1715500694924" MODIFIED="1715500700526">
 <node TEXT="\latex $r_v$ is the diameter of vortex loop,\\&#xa;$d$ is the thickness of one layer" POSITION="top_or_left" ID="ID_79941491" CREATED="1715500187187" MODIFIED="1715500270929"/>
 <node TEXT="\latex $K$ and $K_\perp$ are intralayer and interlayer coupling constant\\&#xa;$K/K_\perp = \gamma^2$" POSITION="top_or_left" ID="ID_1036751525" CREATED="1715500204151" MODIFIED="1715500375673">
-<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-24.75 pt;-22.5 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
+<arrowlink DESTINATION="ID_435398488" STARTINCLINATION="-24 pt;-21.75 pt;" ENDINCLINATION="60.75 pt;1.5 pt;"/>
 </node>
 <node TEXT="\latex $\xi_{ab}$ is the in-plane coherence length\\&#xa;$\xi_{ab}=\xi_{ab0}\sqrt{\frac{T_c}{T_c-T}}$" POSITION="top_or_left" ID="ID_436768715" CREATED="1715500238002" MODIFIED="1715500633370"/>
 <node TEXT="\latex $n$ is the number of layers" POSITION="top_or_left" ID="ID_1529765930" CREATED="1715500280647" MODIFIED="1715500287664"/>
@@ -93,7 +93,7 @@
 <node TEXT="result is explained in terms of the enhancement of coherence length, that is, the vortex radium toward Tc, which makes the system more 2D-like" ID="ID_1640459257" CREATED="1715500733298" MODIFIED="1715500881952"/>
 </node>
 </node>
-<node TEXT="\latex vortex transport\\&#xa;\tiny{weak force $\vec F=(F_x,F_y)$}\\&#xa;\tiny{vorticity s=+/-, for vortex/antivortex}" POSITION="bottom_or_right" ID="ID_1967743825" CREATED="1715501009680" MODIFIED="1715501145189">
+<node TEXT="\latex vortex transport theory\\&#xa;Fokker-Planck equation\\&#xa;\small{weak force $\vec F=(F_x,F_y)$}\\&#xa;\small{vorticity s=+/-, for vortex/antivortex}" POSITION="bottom_or_right" ID="ID_1967743825" CREATED="1715501009680" MODIFIED="1716807743413">
 <edge COLOR="#00007c"/>
 <node TEXT="\latex velocity\\&#xa;$\vec v^s = q_1\begin{pmatrix}F_x\\sF_y\end{pmatrix}&#xa;+q_2\begin{pmatrix}2sF_xF_y\\F_x^2-F_y^2\end{pmatrix}$" ID="ID_1294962769" CREATED="1715501150463" MODIFIED="1715509126520">
 <node TEXT="first term is the normal force term" ID="ID_1032290371" CREATED="1715501497478" MODIFIED="1715501506388"/>
@@ -134,11 +134,15 @@
 <node TEXT="\latex evaluation:\\&#xa;periodicity of vortex potential: $l_{v0}=\sqrt{\phi_0^*/B_{pin}}$\\&#xa;potential height: $U=\phi_0^*cl_vI_{pin}/W$" ID="ID_575164470" CREATED="1715521298187" MODIFIED="1715521412988"/>
 </node>
 </node>
+<node TEXT="temperature dependence" ID="ID_918633976" CREATED="1716802321135" MODIFIED="1716802326352"/>
 </node>
 <node TEXT="Joule Heating Effect" POSITION="top_or_left" ID="ID_761367284" CREATED="1715584835375" MODIFIED="1715584844370">
 <edge COLOR="#007c00"/>
 <node TEXT="no effect to first and second order signals" ID="ID_260419620" CREATED="1715584848998" MODIFIED="1715584865408"/>
 <node TEXT="affect equal or higher than third order signals" ID="ID_1922423037" CREATED="1715584865886" MODIFIED="1715585704363"/>
+<node TEXT="\latex $V=R_i(T)I^i$, energy transfer: $P=VI=G\delta T$\\&#xa;$G$ is overall thermal conductance to the env" ID="ID_275072989" CREATED="1716798340081" MODIFIED="1716798512970">
+<node TEXT="\latex $V=\frac{\partial V}{\partial T}\delta T + V_0 = \frac{\partial V}{\partial T}\frac{VI}{G}+ V_0$\\&#xa;The Joule starts from 3-rd order (as joule heating is harmonic)" ID="ID_831741406" CREATED="1716799192791" MODIFIED="1716799926846"/>
+</node>
 </node>
 <node TEXT="superconducting diode" POSITION="bottom_or_right" ID="ID_887701155" CREATED="1715586029268" MODIFIED="1715586033212">
 <edge COLOR="#7c007c"/>
@@ -152,22 +156,47 @@
 <node TEXT="\latex for isotropic medium, second-order response to a linearly polarized field must vanish. In other words, a nonzero $\chi_{abc}^\prime$ requires the presence of crystal anisotropy" ID="ID_1777706588" CREATED="1716723911867" MODIFIED="1716723966199"/>
 </node>
 </node>
-<node TEXT="Novelty" POSITION="top_or_left" ID="ID_1717394403" CREATED="1716724967223" MODIFIED="1716724975560">
+<node TEXT="Novelty&#xa;&amp; advan" POSITION="top_or_left" ID="ID_1717394403" CREATED="1716724967223" MODIFIED="1716799977312">
 <edge COLOR="#7c7c00"/>
 <node TEXT="constraint of time-reversal symmetry&#xa;(without external magnetic field)" ID="ID_347570179" CREATED="1716725989864" MODIFIED="1716726031769"/>
 <node TEXT="NHE by skew scattering of chiral Bloch electrons in trigonal system" ID="ID_312652058" CREATED="1716726289769" MODIFIED="1716726369573"/>
 <node TEXT="nonlinear anomalous Hall effect in exotic quantum states" ID="ID_1598615364" CREATED="1716726370808" MODIFIED="1716726404915"/>
+<node TEXT="higher-order nonlinear transport generally includes the information of the underlying lattice symmetry" ID="ID_511122061" CREATED="1716797076308" MODIFIED="1716797137998"/>
+<node TEXT="joule effect only affect higher than 3rd-order signal" ID="ID_1659565909" CREATED="1716800049261" MODIFIED="1716800069574"/>
 </node>
 <node TEXT="measurement" POSITION="top_or_left" ID="ID_239031178" CREATED="1716727173188" MODIFIED="1716727176261">
 <edge COLOR="#ff0000"/>
 <node TEXT="inevitable noisy background" ID="ID_683315366" CREATED="1716727176987" MODIFIED="1716727282576">
 <node TEXT="nonlinear component is smaller than linear component by two orders of magnitude" ID="ID_52676695" CREATED="1716727238830" MODIFIED="1716727259831"/>
 <node TEXT="average the several scans to statistically reduce the background noise, improving the signal-to-noise ratio" ID="ID_1866042312" CREATED="1716727358840" MODIFIED="1716727440013"/>
+<node TEXT="non-equilibrium noise" ID="ID_120106207" CREATED="1716802054232" MODIFIED="1716802060080"/>
+</node>
+<node TEXT="unexpected small peak structure" ID="ID_1005959895" CREATED="1716801196762" MODIFIED="1716801206051">
+<node TEXT="asymmetry in electrical contacts or&#xa;inhomogeniety of the superconductivity" ID="ID_1920379989" CREATED="1716801207730" MODIFIED="1716801242451"/>
 </node>
 </node>
-<node TEXT="order and symmetry" POSITION="bottom_or_right" ID="ID_194753356" CREATED="1716790724084" MODIFIED="1716790728654">
+<node TEXT="order and symmetry" POSITION="top_or_left" ID="ID_194753356" CREATED="1716790724084" MODIFIED="1716790728654">
 <edge COLOR="#0000ff"/>
 <node TEXT="in linear response theory (vortex), the motion of vortices is independent of its directions" ID="ID_1207868418" CREATED="1716790730516" MODIFIED="1716792128617"/>
+<node TEXT="higher-order nonlinear transport generally includes the information of the underlying lattice symmetry" ID="ID_912132472" CREATED="1716796918391" MODIFIED="1716796945850"/>
+</node>
+<node TEXT="problems" POSITION="bottom_or_right" ID="ID_599548200" CREATED="1716801657448" MODIFIED="1716801663602">
+<edge COLOR="#00ff00"/>
+<node TEXT="number of vortices" ID="ID_196207847" CREATED="1716801760528" MODIFIED="1716801766210">
+<node TEXT="independent of current (low-current limit), but the corresponding model prediction exceeds the maximum and another expression is used for estimation, phenomenologically" ID="ID_143949517" CREATED="1716801777120" MODIFIED="1716801851099">
+<node TEXT="peak amplitude is qualitatively irrelevant to current (R2w-T fig)" ID="ID_560522262" CREATED="1716802691669" MODIFIED="1716802728326"/>
+</node>
+<node TEXT="not easy to detect due to the noise of the signals under the finite current where the system is in a non-equilibrium state" ID="ID_461088667" CREATED="1716801990207" MODIFIED="1716802020832"/>
+</node>
+<node TEXT="ratchet potential" ID="ID_364604668" CREATED="1716807463308" MODIFIED="1716807474693">
+<node TEXT="highly simplified and neglected the randomness in the vortex potential (expected not relevant for the nonreciprocal signals)" ID="ID_1394537480" CREATED="1716807475204" MODIFIED="1716807569685"/>
+</node>
+<node TEXT="other possible mechanisms&#xa;in addition to vortex dynamics" ID="ID_17352450" CREATED="1716872832588" MODIFIED="1716872858548">
+<node TEXT="amplitude fluctuation effect when close to transition temperature" ID="ID_1216726445" CREATED="1716872844685" MODIFIED="1716872881565"/>
+<node TEXT="paraconductivity for the second-harmonic response may contribute to the behavior near the mean-field transition temperature" ID="ID_696367147" CREATED="1716872891621" MODIFIED="1716872921069">
+<node TEXT="at lower temperature the phase fluctuation from vortex dynamics becomes dominant" ID="ID_207821530" CREATED="1716878184558" MODIFIED="1716878208759"/>
+</node>
+</node>
 </node>
 </node>
 </map>
