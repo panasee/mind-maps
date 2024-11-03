@@ -1,20 +1,20 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Sparkles" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1651732063788">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.331">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.826">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#2e3440" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
@@ -33,7 +33,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
@@ -41,7 +41,7 @@
 <edge COLOR="#bf616a"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -79,7 +79,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="\latex Non-linear Optics\\&#xa;$\boldsymbol {p(E)}=\alpha^{(1)}\cdot \boldsymbol E + \alpha^{(2)}\boldsymbol{:EE} +\dots$\\&#xa;(电场很大时出现非线性, 比如激光)\\&#xa;(重点是光与物质间的相互作用)" POSITION="right" ID="ID_1588314871" CREATED="1651732132630" MODIFIED="1651734004005">
+<node TEXT="\latex Non-linear Optics\\&#xa;$\boldsymbol {p(E)}=\alpha^{(1)}\cdot \boldsymbol E + \alpha^{(2)}\boldsymbol{:EE} +\dots$\\&#xa;(电场很大时出现非线性, 比如激光)\\&#xa;(重点是光与物质间的相互作用)" POSITION="bottom_or_right" ID="ID_1588314871" CREATED="1651732132630" MODIFIED="1651734004005">
 <node TEXT="coherent nonlinear optics&#xa;(相干非线性光学)" ID="ID_103838554" CREATED="1651732141004" MODIFIED="1651733183572">
 <node ID="ID_67349875" CREATED="1651732157030" MODIFIED="1651735587465"><richcontent TYPE="NODE">
 
@@ -198,20 +198,19 @@
 </node>
 </node>
 </node>
-<node TEXT="???" POSITION="right" ID="ID_267305220" CREATED="1651732802584" MODIFIED="1651732806712">
+<node TEXT="???" POSITION="bottom_or_right" ID="ID_267305220" CREATED="1651732802584" MODIFIED="1651732806712">
 <node TEXT="格波是否存在传播过程,比如如果热流通道狭小,是否会出现格波衍射? 如果材料不均, 是否会有格波折射?" ID="ID_1355686938" CREATED="1651732807514" MODIFIED="1651734995259"/>
 <node TEXT="光子可以被束缚在小空间内导致电场大幅增强, 声子局域化是否同理?" ID="ID_1488298946" CREATED="1651733333291" MODIFIED="1651733397444">
 <node TEXT="单光子非线性光学&#xa;(少数光子与单原子在微共振腔内相互作用&#xa;, 2012物理Nobel)" ID="ID_1678378905" CREATED="1651733404687" MODIFIED="1651733505117"/>
 </node>
-<node TEXT="物理中对强耦合的后缀是&quot;情形&quot;" ID="ID_1277630610" CREATED="1651733942946" MODIFIED="1651733962037"/>
 </node>
-<node TEXT="作者杂谈" POSITION="left" ID="ID_710781027" CREATED="1651732900155" MODIFIED="1651732924096">
+<node TEXT="" POSITION="top_or_left" ID="ID_710781027" CREATED="1651732900155" MODIFIED="1730599138055">
 <node TEXT="实现物理过程的反过程都是重大创新" ID="ID_1778333462" CREATED="1651732631934" MODIFIED="1651732681301"/>
 <node TEXT="科技界有人把已知现象/过程重新命名, 又开了新的领域" ID="ID_597383838" CREATED="1651732930262" MODIFIED="1651732984917">
 <node TEXT="光学中的例子:&#xa;自捕获(self-trapping) -&gt; 空间孤子(spatial soliton)&#xa;光受激散射 -&gt; 二波混频 ......." ID="ID_1038920533" CREATED="1651732987315" MODIFIED="1651733085002"/>
 </node>
 </node>
-<node TEXT="熵和温度" POSITION="left" ID="ID_430103309" CREATED="1652510461434" MODIFIED="1652510469779">
+<node TEXT="熵和温度" POSITION="top_or_left" ID="ID_430103309" CREATED="1652510461434" MODIFIED="1652510469779">
 <node TEXT="\latex $T=\frac1{k_B\beta}=\frac{\partial E}{\partial S}\large |_{\{N,V\}}$" ID="ID_1003051045" CREATED="1652510472032" MODIFIED="1652531388104">
 <node TEXT="温度和熵的关系从微分公式上&#xa;类似密度和体积的关系&#xa;（仅数学形式相似）" ID="ID_151584968" CREATED="1652529222836" MODIFIED="1652532379482"/>
 </node>
@@ -228,6 +227,9 @@
 </node>
 </node>
 <node TEXT="二者在热力学上是共轭物理量，地位平等&#xa;（类似压强和体积，或者位置和动量）" ID="ID_1733118183" CREATED="1652531578949" MODIFIED="1652532354034"/>
+</node>
+<node TEXT="edge computing" POSITION="top_or_left" ID="ID_1024734945" CREATED="1730599146700" MODIFIED="1730599150137">
+<node TEXT="本地计算降低网络需求" ID="ID_1399557433" CREATED="1730599153756" MODIFIED="1730599227610"/>
 </node>
 </node>
 </map>
