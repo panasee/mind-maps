@@ -1,8 +1,11 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks>
+    <bookmark nodeId="ID_452789050" name="Root" opensAsRoot="true"/>
+</bookmarks>
 <node TEXT="股票市场" FOLDED="false" ID="ID_452789050" CREATED="1603077282276" MODIFIED="1749651230277" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.4641001">
+<hook NAME="MapStyle" zoom="1.21">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_tags="UNDER_NODES" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -69,13 +72,13 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="K线" POSITION="top_or_left" ID="ID_1529295653" CREATED="1749653280098" MODIFIED="1749653516445">
 <edge COLOR="#007c7c"/>
 <node TEXT="主要K线和次要K线" ID="ID_249765470" CREATED="1749653522992" MODIFIED="1749653535145">
 <node TEXT="倍量K线且涨幅较大(5%)的为主要K线；&#xa;一根主要K线能决定至少三根次要K线" ID="ID_1590773034" CREATED="1749653536002" MODIFIED="1749653593320"/>
 </node>
-<node TEXT="支撑位和压力位" ID="ID_196547995" CREATED="1749658612813" MODIFIED="1749658617359">
+<node TEXT="支撑位和压力位" FOLDED="true" ID="ID_196547995" CREATED="1749658612813" MODIFIED="1749658617359">
 <node TEXT="缠论中枢（静态）" ID="ID_1959893229" CREATED="1749658618205" MODIFIED="1749658727891">
 <node TEXT="基于价格行为的静态关键位" ID="ID_1793324084" CREATED="1749658747282" MODIFIED="1749658764855">
 <node TEXT="锚定效应：特定价格成为心理关口" ID="ID_615740303" CREATED="1749659055238" MODIFIED="1749659070216">
@@ -107,6 +110,64 @@
 </node>
 <node TEXT="结合策略" ID="ID_12631659" CREATED="1749659252724" MODIFIED="1749659256431">
 <node TEXT="用中枢确定战略支撑区，用均线捕捉战术入场点" ID="ID_1023304768" CREATED="1749659257062" MODIFIED="1749659275708"/>
+</node>
+</node>
+<node TEXT="常见形态" FOLDED="true" ID="ID_1982775259" CREATED="1750067255017" MODIFIED="1750067269154">
+<node TEXT="放量高开高走，震荡下跌，收长上影线小阳或者小阴线，&#xa;收盘价高于前一天（或关键压力位）" ID="ID_738878156" CREATED="1750067833071" MODIFIED="1750067925753">
+<hook URI="3.png" SIZE="0.28650644" NAME="ExternalObject"/>
+</node>
+<node TEXT="高位长上影线，成交量放大" ID="ID_900122418" CREATED="1750070847917" MODIFIED="1750071402217"/>
+<node TEXT="震荡行情或者底部将连续出现两根下影线，&#xa;且下影线底部等高，这是底部信号，下影线越长，信号越强" ID="ID_1950351647" CREATED="1750071174624" MODIFIED="1750071381343">
+<node TEXT="之后出现放量阳线，开始上涨" ID="ID_770115016" CREATED="1750071385325" MODIFIED="1750071394441"/>
+<node TEXT="反过来两根上影线同理" ID="ID_861616320" CREATED="1750071469185" MODIFIED="1750071479258"/>
+<node TEXT="上影线是亏损盘，下影线是盈利盘" ID="ID_284741557" CREATED="1750071481196" MODIFIED="1750071503571"/>
+</node>
+<node TEXT="上涨途中，中高位阴包阳，放量，见顶信号" ID="ID_531689472" CREATED="1750071517223" MODIFIED="1750071550958">
+<node TEXT="后一根K线反弹不过阴线一半" ID="ID_845282777" CREATED="1750071560168" MODIFIED="1750071572208"/>
+</node>
+<node TEXT="不管高低位，出现巨量（3倍以上），短线都容易回调" ID="ID_298505065" CREATED="1750071588840" MODIFIED="1750071631072">
+<node TEXT="即便涨停，巨量也要离场" ID="ID_1215532654" CREATED="1750071635956" MODIFIED="1750071645817"/>
+</node>
+<node TEXT="上涨途中，缓慢上涨，出现跳空高开阳线，成交量放大，&#xa;后期不破阳线底部，是加速上涨的信号" ID="ID_625996952" CREATED="1750071663144" MODIFIED="1750071726641"/>
+<node TEXT="跳空高开，回踩确认" ID="ID_577282264" CREATED="1750787866986" MODIFIED="1750787874121">
+<node TEXT="放量下跌且破重要位置，比如缺口一半，&#xa;大阳线支撑等等，是做空信号" ID="ID_402207901" CREATED="1750787874590" MODIFIED="1750787915633"/>
+<node TEXT="小阳线或者小阴线震荡，不破位，洗盘信号" ID="ID_356267370" CREATED="1750787919630" MODIFIED="1750787938516"/>
+</node>
+<node TEXT="单K线" ID="ID_460926513" CREATED="1750787993705" MODIFIED="1750787997331">
+<node TEXT="长影线，短实体，&#xa;多空交战，反转信号" ID="ID_1408730893" CREATED="1750788000208" MODIFIED="1750788829392">
+<node TEXT="长反影线信号更强烈(下跌长下影，上涨长上影)" ID="ID_1990137789" CREATED="1750788146134" MODIFIED="1750788356091"/>
+<node TEXT="无论上升还是下降遇到何种长影线，&#xa;皆为变盘信号（转震荡或者反转）" ID="ID_1652506590" CREATED="1750788166681" MODIFIED="1750788198729"/>
+</node>
+<node TEXT="长实体，短影线，&#xa;趋势信号，单侧占优" ID="ID_1000806539" CREATED="1750788808419" MODIFIED="1750788846176"/>
+<node TEXT="分形拆分" ID="ID_625680890" CREATED="1750788442376" MODIFIED="1750788631725">
+<node TEXT="双K线" ID="ID_1973413885" CREATED="1750788635593" MODIFIED="1750788639255">
+<node TEXT="吞没形态(后吞前)" POSITION="top_or_left" ID="ID_291782259" CREATED="1750788232180" MODIFIED="1750788326276">
+<node TEXT="影线暗示反转，实体同时发生反转" ID="ID_446699823" CREATED="1750788372198" MODIFIED="1750788519390"/>
+</node>
+<node TEXT="孕线(前吞后)" POSITION="top_or_left" ID="ID_1039395724" CREATED="1750788309526" MODIFIED="1750788368729">
+<node TEXT="影线暗示反转，但实体并未发生反转" ID="ID_1879033512" CREATED="1750788372198" MODIFIED="1750788536818"/>
+</node>
+</node>
+<node TEXT="三K线" ID="ID_196660334" CREATED="1750788644129" MODIFIED="1750788649075">
+<node TEXT="顶/底分型" ID="ID_1853240173" CREATED="1750788658404" MODIFIED="1750788777288">
+<node TEXT="吞没形态中间加入十字星，增强支撑/阻力" ID="ID_908708782" CREATED="1750788714530" MODIFIED="1750788784080"/>
+</node>
+<node TEXT="三根同向大实体" ID="ID_1587579925" CREATED="1750788851149" MODIFIED="1750788864799">
+<node TEXT="初步奠定趋势" ID="ID_1679622236" CREATED="1750788869958" MODIFIED="1750788876762"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="趋势" ID="ID_1632343928" CREATED="1750788996421" MODIFIED="1750789001710">
+<node TEXT="拐点: 单侧极值点（影线和实体同时考虑）" ID="ID_1015013662" CREATED="1750789049781" MODIFIED="1750789098261">
+<node TEXT="阳线和阴线不重要，只关注价格极值点，&#xa;比两侧更低/高就是拐点" ID="ID_1498904411" CREATED="1750789120456" MODIFIED="1750789151623"/>
+</node>
+<node TEXT="趋势线：&#xa;直线连接同侧拐点" ID="ID_1172441519" CREATED="1750789007335" MODIFIED="1750789250075">
+<node TEXT="每次后续拐点都是测试，测试次数越多,&#xa;持续越久，趋势越强" ID="ID_1494786267" CREATED="1750789181925" MODIFIED="1750789220566"/>
+<node TEXT="消息面会导致突变，形成陡峭趋势线，&#xa;不可靠" ID="ID_205419917" CREATED="1750789237580" MODIFIED="1750789269548"/>
+<node TEXT="上升/下降时下/上侧支撑/阻力趋势线更重要" ID="ID_1308472193" CREATED="1750789320649" MODIFIED="1750789352492"/>
+<node TEXT="当突破重要位置时趋势线需要及时更新，&#xa;但旧趋势线仍然有效" ID="ID_191754352" CREATED="1750789361740" MODIFIED="1750789401817"/>
 </node>
 </node>
 </node>
@@ -195,14 +256,6 @@
 </node>
 </node>
 </node>
-<node TEXT="资金流向" POSITION="bottom_or_right" ID="ID_715513396" CREATED="1749653683473" MODIFIED="1749653691473">
-<edge COLOR="#ff0000"/>
-<node TEXT="大单" ID="ID_914956818" CREATED="1749653691903" MODIFIED="1749653696862">
-<node TEXT="连续至少6笔买入/卖出大单&#xa;(无反向单打断，说明主力买入/卖出)" ID="ID_1516530992" CREATED="1749653697190" MODIFIED="1749654023191">
-<node TEXT="\latex 对于市值x亿，大单标准(万)\\&#xa;$\left\{\begin{matrix}100, 2x&lt;100\\&#xa;2x, x&lt;300\end{matrix}\right.$" ID="ID_1965073815" CREATED="1749653714607" MODIFIED="1749653885732"/>
-</node>
-</node>
-</node>
 <node TEXT="基本面" POSITION="top_or_left" ID="ID_813771538" CREATED="1749654280798" MODIFIED="1749654285888">
 <edge COLOR="#0000ff"/>
 <node TEXT="市值分析" ID="ID_1373426903" CREATED="1749654300676" MODIFIED="1749654308619">
@@ -245,6 +298,218 @@
 <node TEXT="持仓分散度管理" ID="ID_987751205" CREATED="1749657560477" MODIFIED="1749657566540"/>
 <node TEXT="保留现金" ID="ID_1308339011" CREATED="1749657568848" MODIFIED="1749657572895">
 <node TEXT="不空仓不满仓" ID="ID_1905757282" CREATED="1749657583288" MODIFIED="1749657588624"/>
+</node>
+</node>
+<node TEXT="数学理论" POSITION="top_or_left" ID="ID_616789456" CREATED="1755310731997" MODIFIED="1755310744464">
+<edge COLOR="#7c0000"/>
+<node TEXT="期权" ID="ID_9897949" CREATED="1755310744775" MODIFIED="1755311377997">
+<node TEXT="\latex Black-Scholes公式（欧式期权定价）\\&#xa;$C=SN(d_1)-Ke^{-rT}N(d_2)$\\&#xa;$P=Ke^{-rT}N(-d_2)-SN(-d_1)$\\&#xa;$d_1=\frac{\ln(S/K)+(r+\sigma^2/2)T}{\sigma\sqrt{T}}$\\ $d_2=\frac{\ln(S/K)+(r-\sigma^2/2)T}{\sigma\sqrt{T}}=d_1-\sigma\sqrt{T}$" ID="ID_628961319" CREATED="1755310828577" MODIFIED="1755316853809">
+<node TEXT="\latex $S:$标的价格, $K:$行权价,$r:$无风险利率,&#xa;$T:$剩余时间, $N(\cdot):$标准正态分布cdf, $\sigma:$波动率" ID="ID_1400249337" CREATED="1755311654950" MODIFIED="1755316889184"/>
+<node TEXT="Greeks (风险敞口)&#xa;(BS公式的核心价值在于&#xa;构建数学模型能求出期权的各种风险敞口)" ID="ID_1311422183" CREATED="1755312275093" MODIFIED="1755325213168">
+<node TEXT="\latex Delta: $\Delta_C=\frac{\partial C}{\partial S}=N(d_1)$\\&#xa;$\Delta_P=\frac{\partial P}{\partial S}=-N(-d_1)=N(d_1)-1$" ID="ID_1715476176" CREATED="1755312302615" MODIFIED="1755312917829"/>
+<node TEXT="\latex Gamma: $\Gamma=\frac{\partial^2C}{\partial S^2}=\frac{\partial^2P}{\partial S^2}=\frac{\phi(d_1)}{S\sigma\sqrt{T}}$" ID="ID_285320061" CREATED="1755312933091" MODIFIED="1755313003004"/>
+<node TEXT="\latex Vega: $\nu=\frac{\partial C}{\partial \sigma}=\frac{\partial C}{\partial \sigma}=S\phi(d_1)\sqrt{T}$\\&#xa;($\phi(\cdot)\equiv N&apos;(\cdot)$标准正态分布pdf)" ID="ID_959287670" CREATED="1755311959081" MODIFIED="1755313116616">
+<node TEXT="波动率随期权定价单调变化，所以&#xa;波动率也可以体现期权的市场需求度" ID="ID_33728144" CREATED="1755325522266" MODIFIED="1755325551048"/>
+</node>
+<node TEXT="\latex Theta: $\Theta_C=\frac{\partial C}{\partial T}=-\frac{S\phi(d_1)\sigma}{2\sqrt{T}}-rKe^{-rT}N(d_2)$\\&#xa;$\Theta_P=\frac{\partial P}{\partial T}=-\frac{S\phi(d_1)\sigma}{2\sqrt{T}}+rKe^{-rT}N(-d_2)$" ID="ID_1976159899" CREATED="1755313138100" MODIFIED="1755314358238"/>
+<node TEXT="\latex Rho: $\rho_C=\frac{\partial C}{\partial r}=TKe^{-rT}N(d_2)$\\&#xa;$\rho_P=\frac{\partial C}{\partial r}=-TKe^{-rT}N(-d_2)$" ID="ID_203365338" CREATED="1755314400463" MODIFIED="1755314492768"/>
+</node>
+<node TEXT="\latex 统计学诠释(金融学基础)" ID="ID_716350069" CREATED="1755314660213" MODIFIED="1755317801686">
+<node TEXT="" ID="ID_147136343" CREATED="1755322756977" MODIFIED="1755322756977">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex 伊藤引理说明期权和股价的布朗运动相同，因此\\delta对冲即为无风险投资组合，在无套利假设下，\\该组合收益率必须等于$r$, 给出Black-Scholes微分方程:\\&#xa;$\partial_tC+rS\partial_SC+\frac12\sigma^2S^2\partial_S^2C=rC$" ID="ID_913012034" CREATED="1755322277081" MODIFIED="1755322545569">
+<node TEXT="\latex 求解需要边界条件, 欧式期权对应:\\&#xa;行权时$C=\max(S(T)-K,0), t=T$" ID="ID_716341332" CREATED="1755322559058" MODIFIED="1755322654243"/>
+</node>
+<node TEXT="\latex 欧式call行权日期望价值为 $E[max(S(T) – K, 0)]$。\\&#xa;$S$满足\textbf{对数正态分布}，在风险中性定价下，$S$的期望收益率为 $r$，且期权折现率也等于$r$。因此，期权当前价格C为：\\&#xa;$C=e^{-rT}E[\max(S(T)-K,0)]$" ID="ID_1436132837" CREATED="1755316621995" MODIFIED="1755316786320">
+<node TEXT="带入对数正态分布，即可得到BS公式" ID="ID_820124119" CREATED="1755316801349" MODIFIED="1755316814463"/>
+<node TEXT="\latex 在理想情况下, $\sigma$是收益率标准差&#xa;（类似历史波动率）" ID="ID_1174491174" CREATED="1755317131415" MODIFIED="1755317180717"/>
+</node>
+<node TEXT="" ID="ID_1762796122" CREATED="1755322756975" MODIFIED="1755322759081">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex 风险中性定价理论可绕过求解微分方程，更方便得到C；\\&#xa;这是因为该理论本身就是BS微分方程中的关键性质：\\&#xa;BS微分方程不涉及任何投资风险偏好(没有漂移率$\mu$),\\&#xa;所以可以直接使用$\mu=r$的中性定价" ID="ID_1748302941" CREATED="1755322756979" MODIFIED="1755322910704" HGAP_QUANTITY="33.8 pt" VSHIFT_QUANTITY="-18 pt"/>
+</node>
+<node TEXT="\latex 期权的价格就是“期望收益”$SN(d_1)$\\减去“期望成本”$Ke^{-rT}N(d_2)$\\&#xa;$N(d_{1/2})$为概率调整因子" ID="ID_1304174674" CREATED="1755315177301" MODIFIED="1755317448925">
+<node TEXT="\latex 由风险中性定价模型, 到期行权概率(call为例)\\&#xa;$P(S_T&gt;K)=N(d_2)$" ID="ID_1459801974" CREATED="1755318240413" MODIFIED="1755318294106"/>
+<node TEXT="\latex $e^{-rT}$为折现，将行权成本K折现到当下" ID="ID_1871638218" CREATED="1755318364660" MODIFIED="1755318397280"/>
+<node TEXT="\latex 期望收益是条件概率，行权为前提\\(也就是不行权记零而不是亏损)\\&#xa;收益折现后为$S(0)N(d_1)=e^{-rT}E[S(T)|S(T)&gt;K]N(d_2)$" ID="ID_135795246" CREATED="1755318984672" MODIFIED="1755319418036">
+<node TEXT="\latex $S(0)=e^{-rT}E[S(T)]\Rightarrow$\\&#xa;$N(d_1)=\frac{E[S(T)|S(T)&gt;K]}{E[S(T)]}N(d_2)&gt;N(d_2)$" ID="ID_1398042297" CREATED="1755323043094" MODIFIED="1755323258129">
+<node TEXT="\latex $N(d_1)$可理解为风险中性世界中，按照股价加权的行权概率" ID="ID_963002597" CREATED="1755323266861" MODIFIED="1755323312661"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex $d_1$和$d_2$数学上的对称性有深刻本质" ID="ID_1602511845" CREATED="1755323366335" MODIFIED="1755323397347">
+<node TEXT="" ID="ID_966260655" CREATED="1755325934139" MODIFIED="1755325934139">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $N(d_2)$是无风险债券为计价单位\\&#xa;(Q-measure,风险中性测度)下的价内概率" ID="ID_1046194916" CREATED="1755323469994" MODIFIED="1755323737957"/>
+<node TEXT="\latex $N(d_1)$是用股票为计价单位(T-measure)时的价内概率" ID="ID_583681194" CREATED="1755323500080" MODIFIED="1755323744819"/>
+<node TEXT="" ID="ID_1219224137" CREATED="1755325934136" MODIFIED="1755325935736">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="期权可拆分为两个两值期权：&#xa;现金或无价值(cash-or-nothing)期权&#xa;+资产或无价值(asset-or-nothing)期权" ID="ID_814658475" CREATED="1755325934140" MODIFIED="1755326113428" HGAP_QUANTITY="21.2 pt" VSHIFT_QUANTITY="-8.4 pt">
+<node TEXT="\latex $N(d_1)$是$\Delta_C$，更进一步也是\textbf{“资产或无” (asset-or-nothing)} \\&#xa;的二元看涨期权到期时价内的概率。\\&#xa;它和$N(d_2)$的不同之处在于考虑了标的资产的预期增长率\\&#xa;（在风险中性世界中，这个增长率也是无风险利率）。" POSITION="top_or_left" ID="ID_353296680" CREATED="1755314798910" MODIFIED="1755326158173"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="BS公式的另一个核心作用是计算标的资产的隐含波动率，&#xa;往往代表市场对于标的资产风险的普遍观点" ID="ID_1611694826" CREATED="1755325232967" MODIFIED="1755325511925"/>
+</node>
+<node TEXT="非对称性" ID="ID_1797670152" CREATED="1755314509524" MODIFIED="1755314522916">
+<node TEXT="根源来自股票的涨是无上限的，而跌是有0作为下限的" ID="ID_1899976954" CREATED="1755314525848" MODIFIED="1755314550533"/>
+<node TEXT="call提前行权可能性低，而put提前行权可能性高" ID="ID_492193657" CREATED="1755314571924" MODIFIED="1755314589804"/>
+</node>
+</node>
+<node TEXT="策略" ID="ID_640888040" CREATED="1756266361466" MODIFIED="1756266364869">
+<node TEXT="数学前提：期权的greeks都是可线性叠加的；&#xa;call，put，正股和现金构成近似的完备基" ID="ID_906163896" CREATED="1756266390378" MODIFIED="1756266454968"/>
+<node TEXT="期权结构框架" ID="ID_42239560" CREATED="1756266463806" MODIFIED="1756267411329">
+<node TEXT="数学分类&#xa;(Greeks分类)" ID="ID_581925795" CREATED="1756270315232" MODIFIED="1756270352524">
+<node TEXT="\latex \Delta\neq0, 方向性策略" ID="ID_186630942" CREATED="1756270339999" MODIFIED="1756270445240"/>
+<node TEXT="" ID="ID_322763276" CREATED="1756271401648" MODIFIED="1756271401648">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex \Gamma\neq0, 凸性策略" ID="ID_1281308901" CREATED="1756270353144" MODIFIED="1756270462654"/>
+<node TEXT="\latex Vega\neq0, 波动率交易" ID="ID_117431832" CREATED="1756270379715" MODIFIED="1756270491894"/>
+<node TEXT="" ID="ID_30176966" CREATED="1756271401647" MODIFIED="1756271403104">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Gamma和Vega敞口同向，&#xa;Gamma对应实际的波动率，&#xa;Vega对应预期的波动率(IV)" ID="ID_832504821" CREATED="1756271401649" MODIFIED="1756271509137" HGAP_QUANTITY="26 pt" VSHIFT_QUANTITY="-10.8 pt">
+<node TEXT="Gamma不存在事先预期的直接计价，&#xa;这部分预期通过IV间接的被计入期权定价" ID="ID_804400424" CREATED="1756271465608" MODIFIED="1756271501245"/>
+</node>
+</node>
+<node TEXT="\latex \Theta&gt;0, 时间价值收割" ID="ID_1666901612" CREATED="1756270385751" MODIFIED="1756270505013"/>
+<node TEXT="更高阶&#xa;/混合型" ID="ID_475182828" CREATED="1756270403145" MODIFIED="1756270421534"/>
+<node TEXT="常用策略举例和理解" FOLDED="true" ID="ID_129494106" CREATED="1756271291298" MODIFIED="1756271303180">
+<node TEXT="对冲保护结构 (风险单边有限)&#xa;Protective / Hedging Structures" POSITION="top_or_left" ID="ID_1986882602" CREATED="1756266676920" MODIFIED="1756266950767">
+<node TEXT="数学特征" ID="ID_1101673552" CREATED="1756267524473" MODIFIED="1756267527535">
+<node TEXT="一个方向风险有限，另一个方向无限" ID="ID_662041760" CREATED="1756267528056" MODIFIED="1756267544121"/>
+<node TEXT="增加反向腿，控制反向损失" ID="ID_51669639" CREATED="1756267559133" MODIFIED="1756267572577"/>
+</node>
+<node TEXT="常见" ID="ID_1816613834" CREATED="1756267576758" MODIFIED="1756267663426">
+<node TEXT="保护性put" ID="ID_1401402688" CREATED="1756267580473" MODIFIED="1756267611723">
+<node TEXT="stock + long put" ID="ID_652384518" CREATED="1756267612711" MODIFIED="1756267613776"/>
+</node>
+<node TEXT="Covered Call" ID="ID_916327845" CREATED="1756267616533" MODIFIED="1756267623823">
+<node TEXT="Stock + Short Call" ID="ID_636277557" CREATED="1756267624106" MODIFIED="1756267630828"/>
+<node TEXT="期权公式可知:&#xa;Covered Call = Short Put" ID="ID_996825051" CREATED="1756267633575" MODIFIED="1756267649207"/>
+</node>
+<node TEXT="Collar(领口)" ID="ID_1152919853" CREATED="1756267662176" MODIFIED="1756267678108">
+<node TEXT="Stock + Long Put + Short Call" ID="ID_994018476" CREATED="1756267678687" MODIFIED="1756267686998"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex 方向性结构(0阶) \\&#xa;Directional Structures" POSITION="top_or_left" ID="ID_1931661968" CREATED="1756266470984" MODIFIED="1756271015001">
+<node TEXT="数学特征" ID="ID_1863239096" CREATED="1756267433632" MODIFIED="1756267439303">
+<node TEXT="\latex $\Delta \neq 0$" ID="ID_1443949224" CREATED="1756267448357" MODIFIED="1756267465011"/>
+<node TEXT="P/L曲线单调" ID="ID_37377826" CREATED="1756267465990" MODIFIED="1756267474109"/>
+</node>
+<node TEXT="常用" ID="ID_1572395004" CREATED="1756267482139" MODIFIED="1756267484587">
+<node TEXT="单腿" POSITION="top_or_left" ID="ID_596779490" CREATED="1756267243873" MODIFIED="1756267268956"/>
+<node TEXT="合成股" POSITION="top_or_left" ID="ID_987825892" CREATED="1756267298309" MODIFIED="1756267302258">
+<node TEXT="long call + short put = long stock,&#xa;反之亦然" ID="ID_1636861655" CREATED="1756267314098" MODIFIED="1756267344491"/>
+</node>
+<node TEXT="杠杆化" POSITION="top_or_left" ID="ID_1691586685" CREATED="1756267307772" MODIFIED="1756267312007">
+<node TEXT="多张合约堆出更大的delta，&#xa;注意delta和杠杆率的计算以及正股价格换算" ID="ID_1921140084" CREATED="1756267348194" MODIFIED="1756267379870"/>
+</node>
+</node>
+</node>
+<node TEXT="价差类(1阶)&#xa;Spread Structures" POSITION="top_or_left" ID="ID_1352012225" CREATED="1756266756667" MODIFIED="1756271021777">
+<node TEXT="数学特征" ID="ID_1636999304" CREATED="1756268519207" MODIFIED="1756268522743">
+<node TEXT="行权价/到期日构造线性差分" ID="ID_1624022329" CREATED="1756268560637" MODIFIED="1756268616404"/>
+<node TEXT="有限差分近似各种风险敞口, 可以限制风险区间" ID="ID_1350577077" CREATED="1756268616937" MODIFIED="1756268838517"/>
+</node>
+<node TEXT="常用" ID="ID_1866335213" CREATED="1756268622088" MODIFIED="1756268625082">
+<node TEXT="垂直价差(vertical spread)" ID="ID_692726634" CREATED="1756268625734" MODIFIED="1756268632875">
+<node TEXT="Bull Call/Bear Put Spread,&#xa;同T不同K" ID="ID_1797719760" CREATED="1756268641258" MODIFIED="1756269640380"/>
+</node>
+<node TEXT="Horizontal/Calendar Spread" ID="ID_987871547" CREATED="1756269610845" MODIFIED="1756269624322">
+<node TEXT="Long near Short far Spread (或反之),&#xa;同K不同T" ID="ID_975955802" CREATED="1756268641258" MODIFIED="1756269679111"/>
+</node>
+<node TEXT="Diagonal Spread" ID="ID_735746780" CREATED="1756269692649" MODIFIED="1756269699678">
+<node TEXT="不同K不同T，根据P/L具体计算" ID="ID_432420158" CREATED="1756269701111" MODIFIED="1756269715873"/>
+</node>
+</node>
+</node>
+<node TEXT="蝶式/多腿结构(&gt;=2阶)&#xa;Higher-Order Combinations" POSITION="top_or_left" ID="ID_511155523" CREATED="1756266821955" MODIFIED="1756271036838">
+<node TEXT="数学特征" ID="ID_1807708252" CREATED="1756269736510" MODIFIED="1756269739605">
+<node TEXT="二阶或更高阶差分" ID="ID_1290892288" CREATED="1756269739980" MODIFIED="1756269749135"/>
+<node TEXT="差分叠加，细化风险控制" ID="ID_53184271" CREATED="1756269750435" MODIFIED="1756269758788"/>
+</node>
+<node TEXT="常用" ID="ID_676270315" CREATED="1756269763264" MODIFIED="1756269775664">
+<node TEXT="Butterfly" ID="ID_274991044" CREATED="1756269775897" MODIFIED="1756269780109">
+<node TEXT="Call(K1)-2Call(K2)+Call(K3),&#xa;构造凸性(Gamma)头寸，中间风险小，两头风险大" ID="ID_392623299" CREATED="1756269780442" MODIFIED="1756269822458"/>
+</node>
+<node TEXT="Iron Condor" ID="ID_896401972" CREATED="1756269829297" MODIFIED="1756269833377">
+<node TEXT="蝶式的保护版" ID="ID_372608193" CREATED="1756269833607" MODIFIED="1756269840229"/>
+</node>
+</node>
+</node>
+<node TEXT="\latex 波动率多/空头\\&#xa;Long/Short Volatility Structures\\&#xa;(波动率空头同时收割$\Theta$)" ID="ID_400571600" CREATED="1756266711440" MODIFIED="1756268495304">
+<node TEXT="数学特征" ID="ID_383501859" CREATED="1756267772258" MODIFIED="1756267776923">
+<node TEXT="\latex 总$Vega\neq 0$" ID="ID_866372516" CREATED="1756267777349" MODIFIED="1756267822513"/>
+<node TEXT="\latex P/L 曲线是\cup型或\cap型" ID="ID_259932492" CREATED="1756267785452" MODIFIED="1756267848781"/>
+</node>
+<node TEXT="常见" ID="ID_1312733292" CREATED="1756267892704" MODIFIED="1756267896291">
+<node TEXT="" ID="ID_617912428" CREATED="1756268232968" MODIFIED="1756268232968">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Straddle(跨式)" ID="ID_114564624" CREATED="1756267896629" MODIFIED="1756268167031">
+<node TEXT="Long/Short Call + Long/Short Put&#xa;(同K，同T)" ID="ID_978865612" CREATED="1756267904622" MODIFIED="1756268122108"/>
+</node>
+<node TEXT="Strangle(宽跨式)" ID="ID_77750612" CREATED="1756267934810" MODIFIED="1756268173100">
+<node TEXT="Long/Short OTM Call + Long/Short OTM Put" ID="ID_599760206" CREATED="1756267945277" MODIFIED="1756268132858"/>
+</node>
+<node TEXT="" ID="ID_331993231" CREATED="1756268232966" MODIFIED="1756268235421">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="由于卖方外侧风险无限，可添加保护腿，&#xa;合成为Iron Condor(铁鹰)/Iron Butterfly(铁蝶)&#xa;(也可以理解为双侧价差合成)" ID="ID_1794677030" CREATED="1756268232968" MODIFIED="1756268437965" HGAP_QUANTITY="26 pt" VSHIFT_QUANTITY="-5.4 pt"/>
+</node>
+<node TEXT="Calendar Spread" ID="ID_1914287177" CREATED="1756267962543" MODIFIED="1756267971876">
+<node TEXT="Long 远期 + Short 近期&#xa;做多远期波动率（反之为做空）" ID="ID_577610624" CREATED="1756267972642" MODIFIED="1756268098821"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="期权策略" POSITION="bottom_or_right" ID="ID_697734933" CREATED="1755570539692" MODIFIED="1756270257539">
+<arrowlink DESTINATION="ID_640888040" STARTINCLINATION="-62.4 pt;-94.8 pt;" ENDINCLINATION="-63.6 pt;-102.6 pt;"/>
+<edge COLOR="#00007c"/>
+<node TEXT="put" ID="ID_391673487" CREATED="1755531333763" MODIFIED="1755531336954">
+<node TEXT="高行权价：做空" ID="ID_867564444" CREATED="1755531337192" MODIFIED="1755531536029"/>
+<node TEXT="低行权价：厚尾风险对冲" ID="ID_1979740601" CREATED="1755531358854" MODIFIED="1755531366161"/>
+</node>
+<node TEXT="call" ID="ID_1899517056" CREATED="1755531504675" MODIFIED="1755531506707">
+<node TEXT="高行权价：暴涨投机" ID="ID_874660546" CREATED="1755531507102" MODIFIED="1755531520399"/>
+<node TEXT="低行权价：做多" ID="ID_464416466" CREATED="1755531521538" MODIFIED="1755531532649"/>
+</node>
+<node TEXT="IV" ID="ID_152046461" CREATED="1755571011905" MODIFIED="1755571013567">
+<node TEXT="波动率微笑曲线" ID="ID_277309424" CREATED="1755571016529" MODIFIED="1755571027648">
+<node TEXT="在理想模型中，波动率微笑应该是平坦的" ID="ID_1065512555" CREATED="1755571028116" MODIFIED="1755571045949"/>
+<node TEXT="实际中相比标准对数正态分布，峰更尖尾更肥，&#xa;极端风险会被定价入两侧的OTM和ITM期权IV" ID="ID_1998626953" CREATED="1755571221741" MODIFIED="1755571286822"/>
+<node TEXT="由于call和put应当是同IV,因此&#xa;总IV曲线和put/call分别的IV曲线基本一致" ID="ID_1560178498" CREATED="1755572376481" MODIFIED="1755572478809">
+<arrowlink DESTINATION="ID_1668886585" STARTINCLINATION="-95.4 pt;-10.8 pt;" ENDINCLINATION="-18 pt;-6 pt;"/>
+</node>
+</node>
+<node TEXT="put和call同行权价的IV理论上应当相等，否则存在套利机会；实际中由于流动性，买卖价差等因素存在微小差别" ID="ID_1668886585" CREATED="1755571447958" MODIFIED="1755571744604">
+<node TEXT="这意味着IV的变化可以是ITM或对侧OTM期权引起" ID="ID_1889635540" CREATED="1755572294533" MODIFIED="1755572327681"/>
+<node TEXT="一般把IV归因于相关的OTM，&#xa;可通过OI来确认" ID="ID_1327512901" CREATED="1755572275492" MODIFIED="1755572497617"/>
+</node>
+<node TEXT="注意标的特性会带来天然差异" ID="ID_1208739427" CREATED="1755572960489" MODIFIED="1755572970110">
+<node TEXT="融券卖空的难易度会影响OTM PUT的需求" ID="ID_474274827" CREATED="1755572970339" MODIFIED="1755572989081"/>
+</node>
+</node>
+<node TEXT="卖方提前行权风险" ID="ID_1853145863" CREATED="1756270095391" MODIFIED="1756270105004">
+<node TEXT="Call" ID="ID_100089221" CREATED="1756270113244" MODIFIED="1756270115460">
+<node TEXT="分红日前一日为最大风险，&#xa;尤其是深度ITM" ID="ID_1074559448" CREATED="1756270115931" MODIFIED="1756270140394"/>
+</node>
+<node TEXT="Put" ID="ID_1671330451" CREATED="1756270151509" MODIFIED="1756270158407">
+<node TEXT="到期前最后几天，深度ITM Put有10-20%提前行权" ID="ID_1487581148" CREATED="1756270158701" MODIFIED="1756270175460"/>
+</node>
+<node TEXT="总体统计上，提前行权概率极低(&lt;2%)" ID="ID_1280728429" CREATED="1756270192847" MODIFIED="1756270209011"/>
 </node>
 </node>
 </node>

@@ -1,9 +1,13 @@
-<map version="freeplane 1.11.5">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks>
+    <bookmark nodeId="ID_452789050" name="Root" opensAsRoot="true"/>
+</bookmarks>
 <node TEXT="Band Theory" FOLDED="false" ID="ID_452789050" CREATED="1603077282276" MODIFIED="1603077287444" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.33">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES" show_icon_for_attributes="true" showTagCategories="false" show_note_icons="true"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -14,6 +18,9 @@
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -65,7 +72,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="出发点:(价)电子不再束缚于个别原子,而是在整个固体运动,称为共有化电子, 讨论电子运动时假定离子实处于平衡位置, 将离子实偏离平衡位置的影响视为微扰." POSITION="top_or_left" ID="ID_921657492" CREATED="1573207503368" MODIFIED="1603077360086">
 <edge COLOR="#0000ff"/>
 <node TEXT="" ID="ID_889717105" CREATED="1573208174369" MODIFIED="1573208174369"/>
@@ -98,6 +105,34 @@
 <node TEXT="phonon band gap" ID="ID_138447459" CREATED="1616482871167" MODIFIED="1616482878008">
 <node TEXT="formed out of the mass diff between diff atoms" ID="ID_556238406" CREATED="1616482878396" MODIFIED="1616482893593"/>
 <node TEXT="could hinder some scattering processes" ID="ID_480668230" CREATED="1616482995071" MODIFIED="1616483310244"/>
+</node>
+</node>
+<node TEXT="电输运物理图像&#xa;(能带包含所有信息)" POSITION="bottom_or_right" ID="ID_370850222" CREATED="1757246366923" MODIFIED="1757246392439">
+<edge COLOR="#007c00"/>
+<node TEXT="外电场" ID="ID_889265169" CREATED="1757246399195" MODIFIED="1757246489559">
+<node TEXT="费米面偏移，电子态沿能带&#xa;在倒空间对应方向移动" ID="ID_1778243779" CREATED="1757246490166" MODIFIED="1757246563474">
+<node TEXT="不考虑散射会持续移动，出现Bloch振荡；&#xa;考虑散射后会稳定在特定位置，通过场强控制" POSITION="bottom_or_right" ID="ID_164667880" CREATED="1757246428391" MODIFIED="1757246473744"/>
+<node TEXT="由于电场的连续性，不可跨带，&#xa;简并点由微扰决定后续" ID="ID_519710945" CREATED="1757246705867" MODIFIED="1757246740957">
+<node TEXT="实际材料无严格简并点，需要隧穿" ID="ID_458008810" CREATED="1757246741330" MODIFIED="1757246757176"/>
+</node>
+</node>
+<node TEXT="外电场破坏势场平移对称性，低强度下能带近似不变，只考虑能带内滑移；高强度下近似破坏，能带出现实空间依赖，不同位置能带结构会改变，比如能隙消失出现Zener隧穿击穿" ID="ID_226643708" CREATED="1757246567612" MODIFIED="1757255151366"/>
+</node>
+<node TEXT="外磁场" ID="ID_1094846932" CREATED="1757246775398" MODIFIED="1757246777764">
+<node TEXT="k空间轨迹弯曲，沿等能面转圈" ID="ID_1231308967" CREATED="1757255117020" MODIFIED="1757255131703">
+<node TEXT="等能面被磁场量子化形成Landau Level" ID="ID_912297432" CREATED="1757255467620" MODIFIED="1757255961594">
+<arrowlink DESTINATION="ID_260322936" STARTINCLINATION="135.6 pt;0 pt;" ENDINCLINATION="-7.2 pt;-67.8 pt;"/>
+</node>
+</node>
+<node TEXT="平移对称性被打破(比电场更根本，因此无法近似)，&#xa;k不再是好量子数" ID="ID_311126137" CREATED="1757255137453" MODIFIED="1757255364146">
+<node TEXT="磁平移对称性取代原先平移对称性，因此Landau Level不再能容纳k网格数的状态数，简并度由磁场决定" ID="ID_260322936" CREATED="1757255842574" MODIFIED="1757255926458"/>
+</node>
+</node>
+<node TEXT="Berry Curvature" ID="ID_1794138226" CREATED="1757256077710" MODIFIED="1757256082296">
+<node TEXT="相当于倒空间磁场(r和k对换),&#xa;但不破坏平移对称性" ID="ID_12298095" CREATED="1757256083468" MODIFIED="1757256274093">
+<node TEXT="" ID="ID_370298482" CREATED="1757256295329" MODIFIED="1757256295329"/>
+</node>
+<node TEXT="通过拓扑数影响边界态的出现" ID="ID_512281419" CREATED="1757256298923" MODIFIED="1757256313044"/>
 </node>
 </node>
 </node>
