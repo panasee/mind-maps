@@ -1,9 +1,11 @@
-<map version="freeplane 1.11.5">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks/>
 <node TEXT="Differential Equation" FOLDED="false" ID="ID_92716989" CREATED="1582171368064" MODIFIED="1582259668849" STYLE="oval">
 <font NAME="TSCu_Times" SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.947">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.1">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES" showTagCategories="false"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -14,6 +16,9 @@
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -90,7 +95,7 @@
 <node TEXT="\latex 二元二阶线性偏微分方程:\\&#xa;$a_{11}u_{xx}+2a_{12}u_{xy}+a_{22}u_{yy}+b_1u_x+b_2u_y+cu+f=0$&#xa;\\引入新变量$(\xi, \eta)$,\\&#xa;保证雅各比行列式非零 \\&#xa;有\[  \left\{  \begin{aligned}&#xa;&amp;u_x=u_\xi\xi_x+u_\eta\eta_x ,\\&#xa;&amp;u_y=u_\xi\xi_y+u_\eta\eta_y ,&#xa;\end{aligned}   \right.  \]" ID="ID_1750606951" CREATED="1582192358720" MODIFIED="1582259656091">
 <font NAME="SimSun"/>
 <node TEXT="\latex 方程化为:\\&#xa;\[ A_{11}u_{\xi\xi}+2A_{12}u_{\xi\eta}+A_{22}u_{\eta\eta}+B_1u_\xi+B_2u_\eta+Cu+F=0 \] &#xa;\[\left\{\begin{aligned} &#xa;&amp;A_{11}=a_{11}\xi^2_x+2a_{12}\xi_x\xi_y+a_{22}\xi^2_y,\\&#xa;&amp;A_{12}=a_{11}\xi_x\eta_x+a_{12}(\xi_x\eta_y+\xi_y\eta_x)+a_{22}\xi_y\eta_y,\\&#xa;&amp;A_{22}=a_{11}\eta_x^2+2a_{12}\eta_x\eta_y+a_{22}\eta_y^2,\\&#xa;&amp;B_1=a_{11}\xi_{xx}+2a_{12}\xi_{xy}+a_{22}\xi_{yy}+b_1\xi_x+b_2\xi_y,\\&#xa;&amp;B_2=a_{11}\eta_{xx}+2a_{12}\eta_{xy}+a_{22}\eta_{yy}+b_1\eta_x+b_2\eta_y,\\&#xa;&amp;C=c,\\&#xa;&amp;F=f.&#xa;  \end{aligned} \right.\]" ID="ID_431856626" CREATED="1582195465323" MODIFIED="1582367392014">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-93 pt;61.5 pt;" ENDINCLINATION="324.74999 pt;15.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_512954798" STARTINCLINATION="-92.4 pt;61.2 pt;" ENDINCLINATION="324.60001 pt;15.6 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SimSun"/>
 <node TEXT="\latex 将$a_{11}z^2_x+2a_{12}z_xz_y+a_{22}z^2_y$&#xa;的一个\\特解作为$\xi$, 可以使$A_{11}=0$ \\&#xa;同理设置$\eta$使$A_{22}=0$" ID="ID_1030845026" CREATED="1582251551891" MODIFIED="1582259656110">
 <font NAME="SimSun"/>
@@ -193,7 +198,7 @@
 </node>
 <node TEXT="\latex Runge-Kutta Method\\&#xa;$\left\{ \begin{aligned} &amp;y_{n+1}=y_n+h\sum_{i=1}^sb_ik_i, \sum^s_{i=1}b_i=1\\&#xa;&amp;k_1=f(t_n,y_n)\\&#xa;&amp;k_2 = f(t_n+c_2h,y_n+h(a_{21}k_1))\\&#xa;&amp;\vdots\,\; (\sum_{j=1}^{i-1}a_{ij}=c_i, for\, i=2,\cdots,s)\\&#xa;&amp;k_s = f(t_n+c_sh,y_n+h(a_{s1}k_1+a_{s2}k_2+\cdots+a_{s,s-1}k_{s-1}))&#xa;&#xa; \end{aligned}  \right.$" ID="ID_914980908" CREATED="1618801650424" MODIFIED="1618803905867">
 <node TEXT="\latex 2-nd order Runge-Kutta Method with 2 stages:\\&#xa;$\lambda_1+\lambda_2=1, \lambda_2p=\frac12$ (2级２阶)" ID="ID_1737645890" CREATED="1618802639888" MODIFIED="1618803321681">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1977852488" MIDDLE_LABEL="special case" STARTINCLINATION="72.75 pt;9.75 pt;" ENDINCLINATION="84 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1977852488" MIDDLE_LABEL="special case" STARTINCLINATION="72.6 pt;9.6 pt;" ENDINCLINATION="84 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="\latex Runge-Kutta Method with 2 stages(2级) \\&#xa;$\left\{ \begin{aligned} &amp;y_{n+1}=y_n+h[\lambda_1K_1+\lambda_2K_2], \lambda_1+\lambda_2=1\\&#xa;&amp;K_1=f(x_n,y_n)\\&#xa;&amp;K_2 = f(x_n+ph,y_n+phK_1), p\in (0,1] \end{aligned}  \right.$" ID="ID_1456559021" CREATED="1618803144108" MODIFIED="1618803304257"/>
 </node>
@@ -208,7 +213,7 @@
 <edge COLOR="#00ffff"/>
 <node TEXT="\latex L为线性微分算子(系数可变),考虑初值问题:\\&#xa;$\left\{   \begin{aligned} &amp;Lu(t,x)=f(t,x)\\&amp;u(0,x)=\varphi(x)  \end{aligned}   \right. $总是可分解为两个问题\\$\left\{   \begin{aligned} &amp;Lu(t,x)=f(t,x)\\&amp;u(0,x)=0  \end{aligned}   \right. $和$\left\{   \begin{aligned} &amp;Lu(t,x)=0\\&amp;u(0,x)=\varphi(x)  \end{aligned}   \right. $\\&#xa;只要给出两个问题的解$u_1$和$u_2$,$u_1+u_2$即为原方程解" ID="ID_1729117206" CREATED="1620117413385" MODIFIED="1620117928554">
 <node TEXT="\latex 令$f=\delta(t-s)\delta(x-y),\varphi=\delta(x-y)$,\\则$u_1$和$u_2$就是2个问题各自的\textbf{格林函数}$G_1(t,x,s,y)$和$G_2(t,x,y)$\\&#xa;原方程的解就可以表示为:\\$u(t,x)=\int_{\mathbb{R}^{d+1}}G_1(t,x,s,y)f(s,y)dsdy+\int_{\mathbb{R}^d}G_2(t,x,y)\varphi(y)dy$" ID="ID_610963888" CREATED="1620117639866" MODIFIED="1713505077030">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_859003991" STARTINCLINATION="11.25 pt;4.5 pt;" ENDINCLINATION="132.75 pt;-48 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_859003991" STARTINCLINATION="11.4 pt;4.2 pt;" ENDINCLINATION="132.6 pt;-47.4 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="\latex 对于常系数线性微分算子L, 令$f=\delta(t)\delta(x),\varphi=\delta(x)$\\此时得到的解为\textbf{基本解},设为$\Delta_1(t,x)$和$\Delta_2(t,x)$\\&#xa;因此$G_1(t,x,s,y)=\Delta_1(t-s,x-y)$,$G_2(t,x,y)=\Delta_2(t,x-y)$\\&#xa;此时的解可以表示为卷积$u=\Delta_1*_{d+1}f+\Delta_2*_d\varphi$" ID="ID_597264773" CREATED="1620117907245" MODIFIED="1620118705628">
 <node TEXT="基本解只适用于常系数线性方程,&#xa;格林函数是更广泛的概念" ID="ID_1883518118" CREATED="1620118731214" MODIFIED="1620118779916"/>
 </node>
@@ -252,10 +257,115 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex some kernels have an inverse kernel $K^{-1}(u,t)$\\&#xa;$f(t) = \int_{u_1}^{u_2}(Tf)(u)K^{-1}(u,t)du$" ID="ID_1989808332" CREATED="1713505764836" MODIFIED="1713505821413"/>
+</node>
+</node>
+<node TEXT="\latex $\partial_t^m u=\lambda\partial_r^n u$\\&#xa;时间演化阶数 = 空间不均匀性阶数" FOLDED="true" POSITION="bottom_or_right" ID="ID_202605300001" CREATED="1780113600000" MODIFIED="1780150578607">
+<edge COLOR="#7c0000"/>
+<node TEXT="核心直觉" ID="ID_202605300004" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="连续介质和场论常在描述: 空间上的不均匀性如何驱动时间演化" ID="ID_202605300005" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="能量是稳定性的核心，因此能量/自由能极小是稳态的基础" ID="ID_202605300006" CREATED="1780113600000" MODIFIED="1780207009313"/>
+<node TEXT="\latex 局域性要求能量密度只能依赖$u,\nabla u, \nabla^2 u$等局域性质" ID="ID_1242846601" CREATED="1780207011964" MODIFIED="1780207041699"/>
+<node TEXT="\latex 对称性限制允许出现的项，比如空间反演对称下不能出现单独的$\nabla u$" ID="ID_1836581340" CREATED="1780207055514" MODIFIED="1780207096485"/>
+</node>
+<node TEXT="\latex 时间导数阶数 $m$" ID="ID_202605300008" CREATED="1780113600000" MODIFIED="1780150783769">
+<node TEXT="m=0: 静态平衡; 无时间演化, 典型为 Laplace/Poisson 型稳定场问题" ID="ID_202605300009" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="\latex Laplace方程: $\nabla^2 u=0$,无源" ID="ID_954436411" CREATED="1780184349265" MODIFIED="1780184410779"/>
+<node TEXT="\latex Poisson方程: $\nabla^2 u=\rho$, 有源" ID="ID_278734509" CREATED="1780184412133" MODIFIED="1780184446860"/>
+</node>
+<node TEXT="m=1: 一阶时间演化; 常见于扩散、输运、弛豫、概率演化" ID="ID_202605300010" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="若系数含虚数单位, 如 Schrodinger 方程, 一阶时间项可表示可逆相位演化而非耗散" ID="ID_202605300011" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="只需要一个边界初始条件，因此&quot;给定现在，就能决定下一瞬间&quot;" ID="ID_144889124" CREATED="1780184543562" MODIFIED="1780184569072"/>
+</node>
+<node TEXT="m=2: 二阶时间演化; 对应加速度、惯性、振荡和波动, 需要初始位移与初始速度" ID="ID_202605300012" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="m&gt;2: 通常表示高阶有效理论、非局域记忆或更复杂动力学修正" ID="ID_202605300013" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="高阶时间导数经常意味着该方程不是基础描述，而是近似或者有效方程" ID="ID_38607446" CREATED="1780193926630" MODIFIED="1780193977589"/>
+<node TEXT="时间高阶导数会引入额外自由度，常常导致不稳定" ID="ID_1881701643" CREATED="1780194170418" MODIFIED="1780194188632"/>
+</node>
+</node>
+<node TEXT="\latex 空间导数阶数 $n$" ID="ID_202605300014" CREATED="1780113600000" MODIFIED="1780150791433">
+<node TEXT="n=1: 梯度与方向性; 常见于平流、漂移、定向输运和连续性方程中的通量项" ID="ID_202605300015" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="不具有反演对称，描述具有明确方向性的不对称运动" ID="ID_1520814871" CREATED="1780184738898" MODIFIED="1780184781565">
+<node TEXT="平流、连续性方程、漂移、波包整体平移" ID="ID_1069632958" CREATED="1780186510641" MODIFIED="1780186575717"/>
+</node>
+</node>
+<node TEXT="n=2: 曲率与 Laplacian; 是各向同性局域不均匀性的最低阶算符" ID="ID_202605300016" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="配合一阶时间导数给出扩散/热传导; 配合二阶时间导数给出波动; 无时间项时给出静态场方程" ID="ID_202605300017" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="曲率描述的是一个点偏离邻域平均值的程度" ID="ID_1973289362" CREATED="1780188075452" MODIFIED="1780188124353">
+<node TEXT="很多系统对单纯的倾斜不敏感(一阶)，而对“弯曲”敏感" ID="ID_967540396" CREATED="1780188251513" MODIFIED="1780188277188"/>
+</node>
+</node>
+<node TEXT="n=3: 奇阶空间导数在空间反演下变号, 常引入传播方向相关的相位变化和色散" ID="ID_202605300018" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="\latex 色散：不同波长的波速不同，只要是非线性$\omega(k)$就会有色散" ID="ID_1037688090" CREATED="1780188449967" MODIFIED="1780189210631"/>
+</node>
+<node TEXT="n=4: 常见于弯曲刚度、薄膜/表面扩散、相分离和短波长惩罚" ID="ID_202605300019" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="n&gt;4: 多为高阶梯度修正、短波稳定化或有效场论中的截断项" ID="ID_202605300020" CREATED="1780113600000" MODIFIED="1780113600000"/>
+</node>
+<node TEXT="典型组合" ID="ID_202605300021" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="\latex $(m,n)=(0,2)$: $\nabla^2u=0$ 或 $\nabla^2u=f$, 对应 Laplace/Poisson 静态场" ID="ID_202605300022" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(1,1)$: $\partial_tu+v\partial_xu=0$, 对应平流、漂移、整体平移" ID="ID_202605300023" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(1,2)$: $\partial_tu=D\nabla^2u$, 对应扩散和热传导" ID="ID_202605300024" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(2,2)$: $\partial_t^2u=v^2\nabla^2u$, 对应惯性回复和波动" ID="ID_202605300025" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(1,2)$ 且含 $i$: $i\hbar\partial_t\psi=-\frac{\hbar^2}{2m}\nabla^2\psi$, 对应量子相位演化" ID="ID_202605300026" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(1,3)$: $\partial_tu+b\partial_x^3u=0$, 对应色散波" ID="ID_202605300027" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(2,4)$: $\partial_t^2u+c^2\partial_x^4u=0$, 对应梁振动和弯曲波" ID="ID_202605300028" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(1,4)$ 或 $(1,2+4)$: 常见于表面平滑、超扩散、Cahn-Hilliard/相场型方程" ID="ID_202605300029" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex $(m,n)=(2+1,2)$: $\tau\partial_t^2T+\partial_tT=\alpha\partial_x^2T$, 对应 Cattaneo/telegraph 型有限传播热传导" ID="ID_202605300030" CREATED="1780113600000" MODIFIED="1780113600000"/>
+</node>
+<node TEXT="用色散关系统一理解" ID="ID_202605300031" CREATED="1780113600000" MODIFIED="1780113600000">
+<node TEXT="\latex 对平面波 $u=u_0e^{i(kx-\omega t)}$, 有 $\partial_x\to ik$, $\partial_t\to -i\omega$" ID="ID_202605300032" CREATED="1780113600000" MODIFIED="1780113600000"/>
+<node TEXT="\latex 因此 $\partial_t^m u=C\partial_x^n u$ 给出 $(-i\omega)^m=C(ik)^n$;\\&#xa;$\omega(k)$ 决定扰动是传播、扩散、振荡、衰减还是不稳定增长\\&#xa;$\omega(k)$系数实数部分振荡，虚数部分耗散" ID="ID_202605300033" CREATED="1780113600000" MODIFIED="1780193274984">
+<node TEXT="\latex $\omega\propto \sqrt[m]{C} i^{n/m-1}k^{n/m}$可以最终确定" ID="ID_898357146" CREATED="1780192910518" MODIFIED="1780194431574"/>
+</node>
+</node>
+<node TEXT="守恒律和本构关系" ID="ID_98664495" CREATED="1780191234130" MODIFIED="1780191242533">
+<node TEXT="\latex 守恒律$\partial_tu+\nabla\cdot j=0$" ID="ID_680716998" CREATED="1780191341633" MODIFIED="1780191363830">
+<node TEXT="提供一阶时间微分和对流的一阶微分" ID="ID_1198836314" CREATED="1780202335507" MODIFIED="1780202361354"/>
+</node>
+<node TEXT="本构关系" ID="ID_1614222359" CREATED="1780191384577" MODIFIED="1780191392126">
+<node TEXT="\latex Fick&apos;s laws (物质扩散，分子随机热运动): $j=-D\nabla u$" ID="ID_1931432594" CREATED="1780200573618" MODIFIED="1780200624765">
+<node TEXT="流本身是浓度的微分" ID="ID_881271648" CREATED="1780202363457" MODIFIED="1780202374158"/>
+</node>
+</node>
+</node>
+<node TEXT="能量/作用量泛函" ID="ID_1915988349" CREATED="1780202397188" MODIFIED="1780205410439">
+<node TEXT="物理上除了时间函数一般是针对线性时间值，能量/作用量往往是针对连续场函数，因此是泛函 (泛函一般都有积分，因为映射函数空间到数空间积分最常用)" ID="ID_462021196" CREATED="1780204063536" MODIFIED="1780205527927"/>
+<node TEXT="系统在能量/作用量结构约束下演化" ID="ID_302801747" CREATED="1780204458618" MODIFIED="1780204477901">
+<node TEXT="能量最小化：偏静态、平衡、耗散" ID="ID_19699440" CREATED="1780204520262" MODIFIED="1780204538334"/>
+<node TEXT="作用量驻值：偏动力学、惯性、波动、可逆演化" ID="ID_635461390" CREATED="1780204539087" MODIFIED="1780204564926"/>
+</node>
+<node TEXT="能量泛函" ID="ID_1624616207" CREATED="1780206465913" MODIFIED="1780206471618">
+<node TEXT="" POSITION="bottom_or_right" ID="ID_1523379470" CREATED="1780206365359" MODIFIED="1780206365359">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $F[u]=\int [\frac{\kappa}{2}|\nabla u|^2+U(u)] dV$ 惩罚空间不均匀性(梯度)" POSITION="bottom_or_right" ID="ID_1933131302" CREATED="1780205444427" MODIFIED="1780206237711">
+<node TEXT="变分过程中分部积分导致出现二阶空间导数" ID="ID_1368588741" CREATED="1780205854221" MODIFIED="1780205873180"/>
+<node TEXT="U=0, 导出拉普拉斯方程(平滑场)" ID="ID_216447684" CREATED="1780205646991" MODIFIED="1780206140148"/>
+<node TEXT="梯度惩罚想让u平滑，局域势能U会把u拉到preferred values，二者相互竞争，产生畴壁、涡旋、界面等结构" ID="ID_1594341196" CREATED="1780206142117" MODIFIED="1780206218037"/>
+</node>
+<node TEXT="\latex $F[u]=\int\frac{B}{2}(\nabla^2 u)^2dV$惩罚空间曲率" POSITION="bottom_or_right" ID="ID_429467194" CREATED="1780206239511" MODIFIED="1780206316711">
+<node TEXT="同理，变分导致四阶空间导数" ID="ID_1298944261" CREATED="1780206317410" MODIFIED="1780206334150"/>
+</node>
+<node TEXT="" POSITION="bottom_or_right" ID="ID_1900394710" CREATED="1780206365356" MODIFIED="1780206367465">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="能量惩罚p阶空间导数，平衡方程就出现2p阶空间导数" ID="ID_1088828797" CREATED="1780206365361" MODIFIED="1780206388096" HGAP_QUANTITY="38.6 pt"/>
+</node>
+<node TEXT="平衡态和动力学" ID="ID_1970580031" CREATED="1780215282439" MODIFIED="1780215287621">
+<node TEXT="\latex $F[u]$只对空间积分，也就是空间构型的能量；\\&#xa;平衡态$\frac{\delta F}{\delta u}=0$，针对静态平衡，耗散弛豫" POSITION="bottom_or_right" ID="ID_51529658" CREATED="1780206576596" MODIFIED="1780206650204"/>
+<node TEXT="如果系统不在平衡态，则是动力学耗散弛豫" ID="ID_1584634111" CREATED="1780215293540" MODIFIED="1780215312254">
+<node TEXT="\latex 如果u不是守恒量(比如磁化方向，序参量)，\\扩展为耗散动力学 $\partial_t u=-\Gamma\frac{\delta F}{\delta u}$\\意味着u会沿着自由能下降最快的方向演化" POSITION="bottom_or_right" ID="ID_695031287" CREATED="1780215140433" MODIFIED="1780215245828"/>
+<node TEXT="\latex 如果u是守恒量(比如浓度，粒子数),\\&#xa;则要结合连续性方程和梯度驱动流等" ID="ID_400689477" CREATED="1780215316289" MODIFIED="1780215480347"/>
+</node>
+</node>
+</node>
+<node TEXT="作用量泛函" ID="ID_921771221" CREATED="1780206655627" MODIFIED="1780206659189">
+<node TEXT="\latex $S[u]=\int dt\int dV \mathcal{L}(u,\partial_tu, \nabla u, \dots)$，对时空都积分\\&#xa;作用量驻值 $\delta S=0$ 给出动力学方程\\&#xa;针对惯性、波动、经典场论" ID="ID_187706669" CREATED="1780206659965" MODIFIED="1780206812796">
+<node TEXT="虽然叫&quot;最小作用量&quot;，但是实际是变分为零的驻值，&#xa;可以最小/最大/鞍点" ID="ID_807827702" CREATED="1780206863866" MODIFIED="1780206897472"/>
+</node>
+</node>
 </node>
 </node>
 </node>
