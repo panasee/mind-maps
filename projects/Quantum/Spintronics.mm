@@ -1,10 +1,12 @@
-<map version="freeplane 1.11.5">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks/>
 <node TEXT="Spin/Valley-tronics&amp;&#xa;Magnetism" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1695262843569" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="MapStyle" zoom="1.001">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1692705696000" fit_to_viewport="false"/>
+<hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1771844082000" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES" showTagCategories="false"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -12,11 +14,14 @@
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="Times New Roman" SIZE="14" BOLD="false" ITALIC="false"/>
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -41,6 +46,7 @@
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
@@ -110,7 +116,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Spin-Orbit Coupling" FOLDED="true" POSITION="top_or_left" ID="ID_291027025" CREATED="1693384944936" MODIFIED="1693384951240">
+<node TEXT="Spin-Orbit Coupling" POSITION="top_or_left" ID="ID_291027025" CREATED="1693384944936" MODIFIED="1693384951240">
 <edge COLOR="#00ff00"/>
 <node TEXT="band structure - splitting&#xa;(typical bandstructure for FM)" ID="ID_136983184" CREATED="1693913672448" MODIFIED="1693914271893">
 <hook URI="quantum-pix/bandsplitting.png" SIZE="0.9360037" NAME="ExternalObject"/>
@@ -150,6 +156,12 @@
 <node TEXT="increase with temperature and tend to equalize partly the spin-up/down currents at RT in most FM metals" ID="ID_14113323" CREATED="1693917080836" MODIFIED="1693917151315"/>
 </node>
 <node TEXT="simplified version: neglect the mixing and assume that the conduction is by two independent channel in parallel" ID="ID_817635345" CREATED="1693921329384" MODIFIED="1693921601318"/>
+</node>
+</node>
+<node TEXT="SOT&#xa;(interface interaction, not intrinsic property)" ID="ID_1128183259" CREATED="1788794854752" MODIFIED="1788794905812">
+<node TEXT="category" ID="ID_555493337" CREATED="1788794859602" MODIFIED="1788794867279">
+<node TEXT="antidamping-like torque" ID="ID_536547151" CREATED="1788794867671" MODIFIED="1788794877590"/>
+<node TEXT="field-like torque" ID="ID_477386057" CREATED="1788794912480" MODIFIED="1788794920524"/>
 </node>
 </node>
 </node>
@@ -591,7 +603,7 @@
 <node TEXT="no need for external magnetic field" ID="ID_1140229130" CREATED="1694618531261" MODIFIED="1694618539752"/>
 <node TEXT="origins" ID="ID_1838191091" CREATED="1694618542168" MODIFIED="1694618544839">
 <node TEXT="intrinsic: Berry Phase effect in k-space" ID="ID_1581076301" CREATED="1694618544991" MODIFIED="1694618613784">
-<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-43.2 pt;35.4 pt;" ENDINCLINATION="69 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_321678220" STARTINCLINATION="-42.75 pt;35.25 pt;" ENDINCLINATION="69 pt;0 pt;"/>
 </node>
 <node TEXT="extrinsic: spin-dependent scattering by disorder" ID="ID_18823152" CREATED="1694618559679" MODIFIED="1694618572802"/>
 </node>
