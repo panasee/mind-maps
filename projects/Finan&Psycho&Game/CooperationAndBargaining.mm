@@ -3,7 +3,7 @@
 <node TEXT="合作与谈判" ID="ID_GT_coop_root" FOLDED="false" STYLE="oval" CREATED="1789314599206" MODIFIED="1789314599206">
 <font SIZE="18" />
 <hook NAME="MapStyle" zoom="1.0">
-<properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" />
+<properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="false" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="false" fit_to_viewport="false" show_icons="HIDE" showTagCategories="false" />
 <tags category_separator="::" />
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -41,7 +41,7 @@
 <font NAME="Liberation Sans" SIZE="10" BOLD="true" />
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
-<icon BUILTIN="yes" />
+
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811" />
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm" />
