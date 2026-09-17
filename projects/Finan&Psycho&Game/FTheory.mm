@@ -1,8 +1,6 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<bookmarks>
-    <bookmark nodeId="ID_696401721" name="Root" opensAsRoot="true"/>
-</bookmarks>
+<bookmarks/>
 <node TEXT="Theories" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1755317847889" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.3310001">
@@ -113,7 +111,7 @@
 </node>
 </node>
 <node TEXT="\latex 几何布朗运动: $dS_t=\mu S_tdt+\sigma S_tdW_t$\\&#xa;使用伊藤引理，$f=\ln S\Rightarrow d(\ln S)=(\mu-\frac{\sigma^2}2)dt+\sigma dW$" ID="ID_1443059666" CREATED="1755317971181" MODIFIED="1755321787570">
-<arrowlink DESTINATION="ID_648799398" STARTINCLINATION="1.5 pt;-26.25 pt;" ENDINCLINATION="-33.75 pt;4.5 pt;"/>
+<arrowlink DESTINATION="ID_648799398" STARTINCLINATION="1.5 pt;-25.5 pt;" ENDINCLINATION="-33 pt;4.5 pt;"/>
 <node TEXT="\latex $\mu$:期望收益率" ID="ID_977313293" CREATED="1755318038431" MODIFIED="1755321759518"/>
 <node TEXT="\latex 漂移系数（增长速率）: $\mu-0.5\sigma^2\neq \mu$\\&#xa;为连续复利期望收益率" ID="ID_1422013865" CREATED="1755321651179" MODIFIED="1755321745570">
 <node TEXT="二者是收益率序列算数平均和几何平均的区别&#xa;(5%, 13%, 9%)对应算数平均增长率为9%，而实际的几何平均增长率为8.95%，差值为波动导致" ID="ID_1877102078" CREATED="1755321878418" MODIFIED="1755322186948" HGAP_QUANTITY="28.4 pt"/>
