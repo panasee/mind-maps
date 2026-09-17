@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks/>
-<node TEXT="Game Theory · 博弈论" FOLDED="false" ID="ID_GT_root" CREATED="1789314599206" MODIFIED="1789314599206" STYLE="oval">
+<node TEXT="博弈论：战略互动、合作与机制" FOLDED="false" ID="ID_GT_root" CREATED="1789314599206" MODIFIED="1789314599206" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.4641001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="false" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="false" fit_to_viewport="false" show_icons="HIDE" showTagCategories="false"/>
@@ -83,85 +83,202 @@
 参考入口：Yale ECON 159 https://oyc.yale.edu/economics/econ-159
 最佳反应：https://oyc.yale.edu/economics/econ-159/lecture-3
 顺序行动与可信性：https://oyc.yale.edu/economics/econ-159/lecture-15</text></richcontent>
+<node TEXT="学习导航：表示 → 最佳反应 → 时序与信息 → 合作与规则" ID="ID_KNOW_20260917_GameTheory_59" FOLDED="true">
+<richcontent TYPE="NOTE"><text>参考：Polak：耶鲁 ECON 159 博弈论课程
+https://oyc.yale.edu/economics/econ-159</text></richcontent>
+<node TEXT="先会求两个参与者的最佳反应，再学习混合策略与逆向归纳" ID="ID_KNOW_20260917_GameTheory_60"/>
+<node TEXT="每个结论都绑定收益、信息和理性假设；改变假设就应重新分析" ID="ID_KNOW_20260917_GameTheory_61"/>
+<node TEXT="经济学中的理性通常指给定信念与偏好的一致选择，不等于自私或道德正确" ID="ID_KNOW_20260917_GameTheory_62"/>
+</node>
 <node TEXT="1. 博弈的基本要素" FOLDED="true" POSITION="top_or_left" ID="ID_GT_elements" CREATED="1789314599206" MODIFIED="1789314599206">
 <edge COLOR="#7c7c00"/>
 <node TEXT="战略相互依赖：结果取决于彼此的选择" ID="ID_GT_root_2" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="参与者与可选行动" ID="ID_GT_root_3" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="参与者与可选行动" ID="ID_GT_root_3" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="参与者是能够独立选择的决策单位；行动集合要包括退出、等待和维持现状等实际选项" ID="ID_KNOW_20260917_GameTheory_75"/>
+</node>
 <node TEXT="策略：针对可能情形的完整行动计划" ID="ID_GT_root_4" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>行动是某一步做什么；策略包括在每个可能到达的决策情形下如何行动。</text></richcontent>
+
+<node TEXT="行动是在某个决策点的选择；策略规定每个可能信息集下如何行动，包括未到达的情形" ID="ID_KNOW_20260917_GameTheory_44"/>
 </node>
-<node TEXT="收益与偏好：金钱、时间、公平与关系" ID="ID_GT_root_5" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="规则、时序与信息" ID="ID_GT_root_6" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="信念：我认为对方会怎么做" ID="ID_GT_root_7" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="收益与偏好：金钱、时间、公平与关系" ID="ID_GT_root_5" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="收益应表达该参与者的偏好，不能把自己的目标投射给对方；金钱收益与效用不必相同" ID="ID_KNOW_20260917_GameTheory_32"/>
+</node>
+<node TEXT="规则、时序与信息" ID="ID_GT_root_6" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="须明确谁先行动、谁观察到什么、承诺能否执行，以及未来是否继续互动" ID="ID_KNOW_20260917_GameTheory_51"/>
+</node>
+<node TEXT="信念：我认为对方会怎么做" ID="ID_GT_root_7" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="信念是对他人类型、策略或历史的概率判断；它与实际事实或口头表态不同" ID="ID_KNOW_20260917_GameTheory_50"/>
+</node>
 </node>
 <node TEXT="2. 表示方式与情境分类" FOLDED="true" POSITION="top_or_left" ID="ID_GT_forms" CREATED="1789314599206" MODIFIED="1789314599206">
 <edge COLOR="#00007c"/>
-<node TEXT="收益矩阵：同时考虑双方选择" ID="ID_GT_root_9" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="博弈树：顺序、观察与回应" ID="ID_GT_root_10" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="收益矩阵：同时考虑双方选择" ID="ID_GT_root_9" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="矩阵每格写完整结果的双方收益，约定顺序为（行参与者，列参与者）" ID="ID_KNOW_20260917_GameTheory_48"/>
+</node>
+<node TEXT="博弈树：顺序、观察与回应" ID="ID_GT_root_10" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="树的节点表示选择点，边表示行动，终端表示结果；信息集表示行动者无法区分的历史" ID="ID_KNOW_20260917_GameTheory_35"/>
+</node>
 <node TEXT="同时行动与顺序行动" ID="ID_GT_root_11" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>“同时”关键在于行动时不能观察对方的当期选择，不一定要求物理时间完全相同。</text></richcontent>
+
+<node TEXT="同时行动强调作决定时不知道对方本轮选择，不要求钟表时间完全相同" ID="ID_KNOW_20260917_GameTheory_43"/>
 </node>
 <node TEXT="零和与非零和" ID="ID_GT_root_12" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>零和博弈的总收益恒为零；固定总和可作等价变换。现实情境可能同时包含共同收益与分配冲突。</text></richcontent>
+
+<node TEXT="零和博弈的收益和恒为零；常和可转化为零和；非零和可同时包含合作与冲突" ID="ID_KNOW_20260917_GameTheory_37"/>
 </node>
 <node TEXT="一次性与重复互动" ID="ID_GT_root_13" CREATED="1789314599206" MODIFIED="1789314599206"/>
 <node TEXT="完全信息 vs 不完全信息" ID="ID_GT_root_14" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>关注参与者对博弈结构、偏好或收益类型等是否拥有共同知识。</text></richcontent>
+
+<node TEXT="完全信息：收益结构等特征为共同知识；不完全信息：至少存在某些私人类型信息" ID="ID_KNOW_20260917_GameTheory_36"/>
 </node>
 <node TEXT="完美信息 vs 不完美信息" ID="ID_GT_root_15" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>关注每次行动时能否知道此前发生的所有行动；与“完全信息”是不同的分类维度。</text></richcontent>
+
+<node TEXT="完美信息：每次行动知道此前历史，即信息集为单点；不等于知道他人的全部偏好" ID="ID_KNOW_20260917_GameTheory_45"/>
 </node>
 <node TEXT="可强制执行的协议与自行履约" ID="ID_GT_root_16" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>实际合作也可以用非合作博弈分析；“合作博弈论”通常以联盟及其可实现收益为分析对象。</text></richcontent>
+
+<node TEXT="合作博弈关注联盟与可行分配；非合作博弈显式描述个人策略，名称不等于是否友善" ID="ID_KNOW_20260917_GameTheory_49"/>
 </node>
 </node>
 <node TEXT="3. 最佳反应与均衡" FOLDED="true" POSITION="top_or_left" ID="ID_GT_equilibrium" CREATED="1789314599206" MODIFIED="1789314599206">
 <edge COLOR="#007c00"/>
-<node TEXT="最佳反应：给定对方策略，我怎样选" ID="ID_GT_root_18" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="最佳反应：给定对方策略，我怎样选" ID="ID_GT_root_18" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="最佳反应是使自身收益最大的策略集合；可能有多个，且依赖对方策略或信念" ID="ID_KNOW_20260917_GameTheory_14"/>
+</node>
 <node TEXT="占优与被支配策略（严格 / 弱）" ID="ID_GT_root_19" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>比较同一个参与者自己的策略，在对方各个可能选择下的收益；不是直接比较谁比谁赚得多。</text></richcontent>
+
+<node TEXT="严格支配在每种对手策略下都更好；弱支配处处不差且至少一处更好" ID="ID_KNOW_20260917_GameTheory_33"/>
 </node>
-<node TEXT="逐步排除严格被支配策略" ID="ID_GT_root_20" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="逐步排除严格被支配策略" ID="ID_GT_root_20" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="有限博弈中严格支配的排除不会删去纳什均衡策略；弱支配的排除可能删去均衡且依赖顺序" ID="ID_KNOW_20260917_GameTheory_8"/>
+</node>
 <node TEXT="纳什均衡：彼此都是最佳反应" ID="ID_GT_root_21" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>给定其他人的策略，任何人都不能仅靠单方面改变自己的策略提高收益。</text></richcontent>
+
+<node TEXT="每个人在其他人策略固定时都不能靠单方面偏离获益；不要求共同最优或合谋" ID="ID_KNOW_20260917_GameTheory_1"/>
+<node TEXT="数学定义：uᵢ(sᵢ*,s₋ᵢ*) ≥ uᵢ(sᵢ,s₋ᵢ*)，对每个 i 和所有可行偏离 sᵢ 成立" ID="ID_KNOW_20260917_GameTheory_2"/>
+<node TEXT="有限博弈至少存在一个混合策略纳什均衡；纯策略均衡不一定存在" ID="ID_KNOW_20260917_GameTheory_3"/>
+<node TEXT="均衡是解概念，不能仅凭“双方理性”保证现实会到达某个均衡" ID="ID_KNOW_20260917_GameTheory_4"/>
 </node>
-<node TEXT="多个均衡与协调问题" ID="ID_GT_root_22" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="多个均衡与协调问题" ID="ID_GT_root_22" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="均衡存在不等于唯一；协调线索、历史、制度与学习过程可能影响选择" ID="ID_KNOW_20260917_GameTheory_9"/>
+</node>
 <node TEXT="纯策略与混合策略" ID="ID_GT_root_23" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>混合策略是对自身纯策略的概率分配，不等同于对他人行为不确定或简单轮流行动。</text></richcontent>
+
+<node TEXT="纯策略选择一个完整计划；混合策略在纯策略之间按概率随机化" ID="ID_KNOW_20260917_GameTheory_19"/>
+<node TEXT="求混合均衡：让对方愿意混合的各纯策略具有相同期望收益" ID="ID_KNOW_20260917_GameTheory_20" FOLDED="true">
+<richcontent TYPE="NOTE"><text>参考：耶鲁第 9 讲：混合策略与无差异条件
+https://oyc.yale.edu/economics/econ-159/lecture-9</text></richcontent>
+<node TEXT="求甲的混合概率时，通常用乙的无差异条件；再核查支持集外策略不更好" ID="ID_KNOW_20260917_GameTheory_21"/>
+<node TEXT="混合不等于犹豫；零概率策略无需与支持集内策略收益相同" ID="ID_KNOW_20260917_GameTheory_22"/>
 </node>
-<node TEXT="零和情境的保底思路（极小极大）" ID="ID_GT_root_24" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="帕累托改进与效率" ID="ID_GT_root_25" CREATED="1789314599206" MODIFIED="1789314599206"/>
+</node>
+<node TEXT="零和情境的保底思路（极小极大）" ID="ID_GT_root_24" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="有限两人零和博弈允许混合策略时，极大极小值等于极小极大值；非零和不能直接套用" ID="ID_KNOW_20260917_GameTheory_15"/>
+</node>
+<node TEXT="帕累托改进与效率" ID="ID_GT_root_25" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="帕累托改进使至少一人更好且无人更差；帕累托有效仍可能极不平等" ID="ID_KNOW_20260917_GameTheory_10"/>
+</node>
 <node TEXT="均衡、效率与公平分别判断" ID="ID_GT_root_26" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>纳什均衡不保证整体收益最高、公平或唯一，也不保证现实参与者会到达该结果。</text></richcontent>
+
+<node TEXT="均衡问单方偏离激励；效率问是否仍有共同改进；公平取决于分配准则" ID="ID_KNOW_20260917_GameTheory_6"/>
 </node>
 </node>
 <node TEXT="4. 顺序行动与可信承诺" FOLDED="true" POSITION="top_or_left" ID="ID_GT_sequence" CREATED="1789314599206" MODIFIED="1789314599206">
 <edge COLOR="#7c007c"/>
 <node TEXT="向前看、向后推（逆向归纳）" ID="ID_GT_root_28" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>先判断后续决策者在其信息与偏好下会如何回应，再比较前面的行动；注意所用的时序和信息假设。</text></richcontent>
+
+<node TEXT="有限完美信息博弈从末端逐层求最优行动；有并列最佳行动时可能有多个解" ID="ID_KNOW_20260917_GameTheory_5"/>
 </node>
 <node TEXT="子博弈精炼：后续选择也要可信" ID="ID_GT_root_29" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>子博弈精炼纳什均衡要求策略在每一个子博弈中都构成纳什均衡，用于排除某些到时不会执行的威胁。</text></richcontent>
+
+<node TEXT="策略在每个子博弈中都构成纳什均衡；排除在真正到达后不会执行的威胁" ID="ID_KNOW_20260917_GameTheory_7"/>
 </node>
-<node TEXT="可信威胁与可信承诺" ID="ID_GT_root_30" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="承诺装置：约束未来选择" ID="ID_GT_root_31" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="可信威胁与可信承诺" ID="ID_GT_root_30" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="可信性取决于到时执行是否符合激励或受到可靠约束，不取决于语气多强硬" ID="ID_KNOW_20260917_GameTheory_34"/>
+</node>
+<node TEXT="承诺装置：约束未来选择" ID="ID_GT_root_31" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="限制未来可选行动或改变偏离代价；承诺必须可观察并可信才可能改变对方反应" ID="ID_KNOW_20260917_GameTheory_46"/>
+</node>
 <node TEXT="先动优势与后动优势" ID="ID_GT_root_32" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>先行动是否有利取决于收益结构、可观察性与能否承诺，不能只看行动顺序。</text></richcontent>
+
+<node TEXT="先动可以承诺，后动可以利用信息；优势取决于收益结构、可观察性与可承诺性" ID="ID_KNOW_20260917_GameTheory_38"/>
 </node>
-<node TEXT="改变规则、选项与行动顺序" ID="ID_GT_root_33" CREATED="1789314599206" MODIFIED="1789314599206"/>
+<node TEXT="改变规则、选项与行动顺序" ID="ID_GT_root_33" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="改变博弈包括改变激励、行动集合、信息结构和执行机制；要重新计算反应" ID="ID_KNOW_20260917_GameTheory_16"/>
+</node>
+
+<node TEXT="进入博弈：怎样识别空洞威胁" ID="ID_KNOW_20260917_GameTheory_39" FOLDED="true">
+<richcontent TYPE="NOTE"><text>参考：耶鲁第 15 讲：策略、逆向归纳与可信威胁
+https://oyc.yale.edu/economics/econ-159/lecture-15</text></richcontent>
+<node TEXT="乙不进入时收益（乙,甲）=(0,2)；进入后甲接纳得（1,1），打击得（−1,−1）" ID="ID_KNOW_20260917_GameTheory_40"/>
+<node TEXT="若进入已经发生，甲会接纳；逆向归纳得到“乙进入、甲接纳”" ID="ID_KNOW_20260917_GameTheory_41"/>
+<node TEXT="“你进入我就打击”可以写成策略，但在此收益下不是可信威胁" ID="ID_KNOW_20260917_GameTheory_42"/>
+</node>
 </node>
 <node TEXT="5. 典型博弈结构" FOLDED="true" POSITION="bottom_or_right" ID="ID_GT_patterns" CREATED="1789314599206" MODIFIED="1789314599206">
 <edge COLOR="#007c7c"/>
 <node TEXT="囚徒困境：个体激励与共同利益冲突" ID="ID_GT_root_35" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>标准单次囚徒困境中，背叛对每方都是严格占优策略，但双方合作优于双方背叛。</text></richcontent>
+
+<node TEXT="例：合作 C、背叛 D；CC=(3,3)，CD=(0,5)，DC=(5,0)，DD=(1,1)" ID="ID_KNOW_20260917_GameTheory_23" FOLDED="true">
+<richcontent TYPE="NOTE"><text>参考：耶鲁第 1 讲：收益、支配与囚徒困境
+https://oyc.yale.edu/economics/econ-159/lecture-1</text></richcontent>
+<node TEXT="不论对方如何行动，D 都比 C 好：5&gt;3，1&gt;0" ID="ID_KNOW_20260917_GameTheory_24"/>
+<node TEXT="唯一纳什均衡是 DD，但 CC 帕累托优于 DD" ID="ID_KNOW_20260917_GameTheory_25"/>
+<node TEXT="结构条件：诱惑 T &gt; 合作 R &gt; 惩罚 P &gt; 受骗 S；改变效用后可能不再是囚徒困境" ID="ID_KNOW_20260917_GameTheory_26"/>
 </node>
-<node TEXT="协调博弈：预期一致与焦点" ID="ID_GT_root_36" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="猎鹿博弈：合作收益与协调风险" ID="ID_GT_root_37" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="鹰鸽 / 胆小鬼博弈：对抗升级与退让" ID="ID_GT_root_38" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="公共品博弈：贡献与搭便车" ID="ID_GT_root_39" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="猜硬币：竞争中的不可预测性" ID="ID_GT_root_40" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="信任博弈：先承担风险、后决定回报" ID="ID_GT_root_41" CREATED="1789314599206" MODIFIED="1789314599206"/>
-<node TEXT="最后通牒：分配、接受与拒绝" ID="ID_GT_root_42" CREATED="1789314599206" MODIFIED="1789314599206"/>
+</node>
+<node TEXT="协调博弈：预期一致与焦点" ID="ID_GT_root_36" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="多种相互匹配的选择都可稳定；协调问题是对彼此预期的不确定，而不必是利益完全冲突" ID="ID_KNOW_20260917_GameTheory_47"/>
+</node>
+<node TEXT="猎鹿博弈：合作收益与协调风险" ID="ID_GT_root_37" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="例：共同猎鹿各得 4；独自猎鹿得 0；猎兔总得 2" ID="ID_KNOW_20260917_GameTheory_52" FOLDED="true">
+<node TEXT="（鹿，鹿）和（兔，兔）是纯策略均衡" ID="ID_KNOW_20260917_GameTheory_53"/>
+<node TEXT="相信对方猎鹿概率 q 时，选鹿收益 4q，选兔收益 2；q&gt;1/2 才严格偏好猎鹿" ID="ID_KNOW_20260917_GameTheory_54"/>
+<node TEXT="这与囚徒困境不同：合作可以是对合作的最佳反应" ID="ID_KNOW_20260917_GameTheory_55"/>
+</node>
+</node>
+<node TEXT="鹰鸽 / 胆小鬼博弈：对抗升级与退让" ID="ID_GT_root_38" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="例：双方强硬各得 −2；一强一退得（3,0）；双方退让各得 1" ID="ID_KNOW_20260917_GameTheory_56" FOLDED="true">
+<node TEXT="存在两个非对称纯策略均衡；双方强硬不是均衡" ID="ID_KNOW_20260917_GameTheory_57"/>
+<node TEXT="对称混合均衡中，各自强硬概率为 1/2；承诺升级也可能增加灾难风险" ID="ID_KNOW_20260917_GameTheory_58"/>
+</node>
+</node>
+<node TEXT="公共品博弈：贡献与搭便车" ID="ID_GT_root_39" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="个人贡献有私人成本，但收益部分外溢；若个人边际回报低于成本，可能产生搭便车" ID="ID_KNOW_20260917_GameTheory_27"/>
+<node TEXT="公共品低排他、低竞争；公共池资源难排他但有竞争，问题结构不同" ID="ID_KNOW_20260917_GameTheory_28"/>
+</node>
+<node TEXT="猜硬币：竞争中的不可预测性" ID="ID_GT_root_40" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="相同面时甲得 +1、乙得 −1，不同面时相反" ID="ID_KNOW_20260917_GameTheory_29" FOLDED="true">
+<node TEXT="没有纯策略均衡；各自独立以 1/2 选正反面时，期望收益为 0" ID="ID_KNOW_20260917_GameTheory_30"/>
+<node TEXT="任何可预测偏向都可能被利用；交替出招并不等于随机" ID="ID_KNOW_20260917_GameTheory_31"/>
+</node>
+</node>
+<node TEXT="信任博弈：先承担风险、后决定回报" ID="ID_GT_root_41" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="甲先转移资源，资源增值后乙决定返还；纯自利预测取决于可执行承诺和重复结构" ID="ID_KNOW_20260917_GameTheory_17"/>
+<node TEXT="现实转移还可能反映利他、风险态度与信任，不能把金额只解释为信任程度" ID="ID_KNOW_20260917_GameTheory_18"/>
+</node>
+<node TEXT="最后通牒：分配、接受与拒绝" ID="ID_GT_root_42" CREATED="1789314599206" MODIFIED="1789314599206">
+<node TEXT="甲报价分配，乙接受则按报价分配，拒绝则双方得零" ID="ID_KNOW_20260917_GameTheory_11" FOLDED="true">
+<richcontent TYPE="NOTE"><text>参考：耶鲁第 17 讲：最后通牒与议价
+https://oyc.yale.edu/economics/econ-159/lecture-17</text></richcontent>
+<node TEXT="最小正报价的预测需要纯金钱自利、离散金额和相应的接受规则等假设" ID="ID_KNOW_20260917_GameTheory_12"/>
+<node TEXT="对不公平的厌恶可使拒绝产生正效用；纳入偏好后不必视为非理性" ID="ID_KNOW_20260917_GameTheory_13"/>
+</node>
+</node>
 </node>
 <node TEXT="6. 合作与谈判" POSITION="bottom_or_right" ID="ID_GT_cooperation" CREATED="1789314599206" MODIFIED="1789314599206" LINK="CooperationAndBargaining.mm">
 <edge COLOR="#cc3300"/>
@@ -182,6 +299,31 @@
 <node TEXT="把模型用于提出可能解释，结合实际反馈修正" ID="ID_GT_root_64" CREATED="1789314599206" MODIFIED="1789314599206"><richcontent TYPE="NOTE">
 <text>先核对双方真实目标、可选行动、信息和可执行的承诺；不要仅凭一次行为推断对方的类型，也不要把所有分歧都当作零和竞争。</text></richcontent>
 </node>
+</node>
+
+
+
+
+<node TEXT="9. 行为、演化与学习视角" ID="ID_KNOW_20260917_GameTheory_63" FOLDED="true">
+<node TEXT="行为博弈：社会偏好、有限推理与信念误差会改变预测" ID="ID_KNOW_20260917_GameTheory_64"/>
+<node TEXT="层级推理模型用有限层次的“我猜你猜你……”描述思考，层数不是人格标签" ID="ID_KNOW_20260917_GameTheory_65"/>
+<node TEXT="演化博弈：策略按相对表现扩散；不要求个体能显式求解最优" ID="ID_KNOW_20260917_GameTheory_66"/>
+<node TEXT="演化稳定策略能抵抗少量突变策略入侵；它比对称纳什均衡要求更强" ID="ID_KNOW_20260917_GameTheory_67"/>
+<node TEXT="学习过程可能趋于均衡，也可能循环；均衡概念本身不保证收敛" ID="ID_KNOW_20260917_GameTheory_68"/>
+</node>
+<node TEXT="10. 分析流程与自测" ID="ID_KNOW_20260917_GameTheory_69" FOLDED="true">
+<node TEXT="先列参与者、行动、时序、信息、收益与可执行约束" ID="ID_KNOW_20260917_GameTheory_70"/>
+<node TEXT="按模型分别求最佳反应、逆向归纳或基于类型的期望收益" ID="ID_KNOW_20260917_GameTheory_71"/>
+<node TEXT="检查多个均衡、偏离激励、效率损失与对关键假设的敏感性" ID="ID_KNOW_20260917_GameTheory_72"/>
+<node TEXT="自测：解释为何囚徒困境、猎鹿和胆小鬼三者需要不同的合作办法" ID="ID_KNOW_20260917_GameTheory_73"/>
+<node TEXT="自测：口头威胁、可验证承诺和偏好变化分别改变博弈的哪部分" ID="ID_KNOW_20260917_GameTheory_74"/>
+</node>
+<node TEXT="资料入口：教材、课程与专题来源" ID="ID_KNOW_20260917_GameTheory_76" FOLDED="true">
+<node TEXT="Polak：耶鲁 ECON 159 博弈论课程" ID="ID_KNOW_20260917_GameTheory_77" LINK="https://oyc.yale.edu/economics/econ-159"/>
+<node TEXT="耶鲁第 1 讲：收益、支配与囚徒困境" ID="ID_KNOW_20260917_GameTheory_78" LINK="https://oyc.yale.edu/economics/econ-159/lecture-1"/>
+<node TEXT="耶鲁第 15 讲：策略、逆向归纳与可信威胁" ID="ID_KNOW_20260917_GameTheory_79" LINK="https://oyc.yale.edu/economics/econ-159/lecture-15"/>
+<node TEXT="耶鲁第 9 讲：混合策略与无差异条件" ID="ID_KNOW_20260917_GameTheory_80" LINK="https://oyc.yale.edu/economics/econ-159/lecture-9"/>
+<node TEXT="耶鲁第 17 讲：最后通牒与议价" ID="ID_KNOW_20260917_GameTheory_81" LINK="https://oyc.yale.edu/economics/econ-159/lecture-17"/>
 </node>
 </node>
 </map>
