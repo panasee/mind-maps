@@ -1,9 +1,9 @@
 <map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks/>
-<node TEXT="心理学：认知、动机&#xa;与社会行为" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1789732280742" STYLE="oval" AI_EDITS="true" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES">
+<node TEXT="心理学：认知、动机&#xa;与社会行为" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1791894113484" STYLE="oval" AI_EDITS="true" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.3310001">
+<hook NAME="MapStyle" zoom="1.4641001">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="false" auto_compact_layout="true" show_tags="UNDER_NODES" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="false" fit_to_viewport="false" show_icons="HIDE" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -74,7 +74,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="34" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="40" RULE="ON_BRANCH_CREATION"/>
 <richcontent TYPE="NOTE">
 <text>组织原则：自下而上分层 —— 基本约束与计算问题 → 知觉 / 学习 / 记忆等底层机制 → 判断与决策 → 社会认知与互动 → 个体差异与发展。
 『0. 方法论与证据』为跳层的证据校验，『8. 理论框架与计算模型』是解释工具而非底层事实。
@@ -82,76 +82,27 @@
 用途：建立理解人类心理与行为的实用框架。分支用于组织知识，不代表单向因果或必修学习顺序；方法论与计算模型按需查阅。
 案例提示：情境与身体状态、需要与目标、信息解释、情绪、选择与行动、结果与人际反馈；考虑它们之间的相互影响。
 填充提示：具体概念的备注可记录知识类型（P/M/T）、日常例子、适用边界及来源；证据状态未核实时留待确认。</text></richcontent>
-<node TEXT="学习导航：先掌握机制，再分析判断与互动" ID="ID_KNOW_20260917_Psychology_12" CREATED="1789705819833" MODIFIED="1789705819833">
-<node TEXT="主线：知觉与注意 → 学习与记忆 → 情绪与动机 → 判断与决策 → 社会互动" ID="ID_KNOW_20260917_Psychology_13" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="横向维度：生物基础、发展、人格、文化与具体情境" ID="ID_KNOW_20260917_Psychology_14" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="学习单位：解释一个机制，区分相邻概念，指出一个适用条件" ID="ID_KNOW_20260917_Psychology_15" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="自测：不看导图，解释一个行为的认知、动机和情境因素" ID="ID_KNOW_20260917_Psychology_16" CREATED="1789705819833" MODIFIED="1789705819833"><richcontent TYPE="NOTE">
-<text>这是本导图的组织与学习建议，不是一套关于心理过程先后顺序的定律。
+<node POSITION="top_or_left" ID="ID_943632683" CREATED="1791890971562" MODIFIED="1791893966907"><richcontent TYPE="NODE">
 
-参考：Dunlosky 等（2013）：有效学习技术综述
-https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html</text></richcontent>
-</node>
-</node>
-<node TEXT="0. 概念与结论的使用边界" FOLDED="true" POSITION="top_or_left" ID="ID_290683121" CREATED="1789309161617" MODIFIED="1789309161621" AI_EDITS="true">
-<edge COLOR="#7c7c00"/>
-<node TEXT="区分现象、解释和模型：观察到某种效应，不意味着某个机制已被唯一确定" ID="ID_KNOW_20260917_Psychology_91" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="心理概念描述机制或倾向；不能由单次行为给他人贴固定标签" ID="ID_KNOW_20260917_Psychology_92" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="相关联系、因果机制与对个人的预测是不同主张，不能相互替代" ID="ID_KNOW_20260917_Psychology_93" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="理论必须连同适用情境理解；群体平均趋势不决定每一个体" ID="ID_KNOW_20260917_Psychology_94" CREATED="1789705819833" MODIFIED="1789705819833"/>
-<node TEXT="各分支资料入口用于按需查证，不要求学习科研流程" ID="ID_KNOW_20260917_Psychology_95" CREATED="1789705819833" MODIFIED="1789705819833"/>
-</node>
-<node TEXT="1. 基本约束与计算问题" FOLDED="true" POSITION="top_or_left" ID="ID_103763563" CREATED="1789306490188" MODIFIED="1789309106700" AI_EDITS="true">
-<edge COLOR="#00007c"/>
-<node TEXT="生物约束" FOLDED="true" ID="ID_839271525" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="神经结构与代谢成本" ID="ID_1238319077" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="脑区在分布式网络中协同；同一脑区参与多种功能，不能由单一区域直接读出心理状态" ID="ID_KNOW_20260917_Psychology_100" CREATED="1789705819833" MODIFIED="1789705819833"/>
-</node>
-<node TEXT="感觉通道的带宽与精度" ID="ID_1574015197" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="进化遗产：准备性与敏感期" ID="ID_1678993105" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-</node>
-<node TEXT="有限认知资源" FOLDED="true" ID="ID_316869936" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="注意容量" ID="ID_1007262065" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="注意选择部分信息进入优先加工；双任务干扰随任务共享的资源与控制需求变化" ID="ID_KNOW_20260917_Psychology_57" CREATED="1789705819833" MODIFIED="1789705819833"/>
-</node>
-<node TEXT="工作记忆容量" ID="ID_816643897" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="工作记忆是在当前任务中维持与操作信息的系统；容量依编码、组块与干扰而变" ID="ID_KNOW_20260917_Psychology_9" CREATED="1789705819833" MODIFIED="1789705819833"/>
-</node>
-<node TEXT="时间与能量预算" ID="ID_1869005134" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-</node>
-<node TEXT="噪声与不确定性" FOLDED="true" ID="ID_1689158840" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="感觉与神经噪声" ID="ID_758683102" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="环境不确定性（偶然性 vs 认识性）" ID="ID_959906697" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="偶然性指过程本身的波动；认识性指知识不足，两者取决于所采用的模型" ID="ID_KNOW_20260917_Psychology_102" CREATED="1789705819834" MODIFIED="1789705819834"/>
-</node>
-</node>
-<node TEXT="信息获取与表征" FOLDED="true" ID="ID_421486251" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="部分可观测与受限采样" ID="ID_1968421494" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="表征的格式、维度与容量" ID="ID_1343119278" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-</node>
-<node TEXT="预测" FOLDED="true" ID="ID_1905006587" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="环境中的可预测结构" ID="ID_549188424" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="预测收益与误预测代价" ID="ID_1187909015" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-</node>
-<node TEXT="学习" FOLDED="true" ID="ID_1703812065" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="从经验中更新表征与价值" ID="ID_1731023617" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="学习速度与稳定性的权衡" ID="ID_1587239325" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-</node>
-<node TEXT="行动选择" ID="ID_1218999924" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
-<node TEXT="在资源与不确定性约束下做选择" ID="ID_1536070591" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="探索—利用权衡" ID="ID_853583890" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-<node TEXT="目标与动机" FOLDED="true" ID="ID_1602031897" CREATED="1789311029348" MODIFIED="1789311034735">
-<node TEXT="需要与目标（Goal）" ID="ID_853059925" CREATED="1789311035647" MODIFIED="1789311037545"/>
-<node TEXT="预期回报（Reward）" ID="ID_1837753840" CREATED="1789311043983" MODIFIED="1789311046436"/>
-<node TEXT="成本与努力（Cost/Effort）" ID="ID_985504442" CREATED="1789311046666" MODIFIED="1789311054893"/>
-<node TEXT="目标冲突与行动选择（Action selection）" ID="ID_1115748259" CREATED="1789311055065" MODIFIED="1789311059090"/>
-<node TEXT="内在动机与外部激励" ID="ID_2109130001" CREATED="1789312326873" MODIFIED="1789312326873"/>
-</node>
-</node>
-<node TEXT="这些约束定义“计算问题”；具体理论是对它们的候选解（见『8. 理论框架与计算模型』）" ID="ID_1378397428" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
-</node>
-<node TEXT="2. 知觉与注意" FOLDED="true" POSITION="top_or_left" ID="ID_1182431059" CREATED="1789306490188" MODIFIED="1789309106701" AI_EDITS="true">
-<edge COLOR="#007c00"/>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">\latex \textbf{感知与认知}\\</span>
+    </p>
+    <p>
+      人如何获得、组织和使用信息？\\
+    </p>
+    <p>
+      \tiny{知觉、注意、记忆、表征、概念、图式、语言、推理}
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#0000ff"/>
+<node TEXT="知觉与注意(信息获取)" FOLDED="true" POSITION="top_or_left" ID="ID_1182431059" CREATED="1789306490188" MODIFIED="1791893804481" AI_EDITS="true">
 <node TEXT="概念界定" FOLDED="true" ID="ID_693365879" CREATED="1789309115071" MODIFIED="1789309115071" AI_EDITS="true">
 <node TEXT="感觉与知觉的区分" ID="ID_792673854" CREATED="1789309115071" MODIFIED="1789309115071" AI_EDITS="true">
 <node TEXT="感觉涉及刺激的编码；知觉涉及组织和解释，二者不是完全分离的流水线" ID="ID_KNOW_20260917_Psychology_61" CREATED="1789705819834" MODIFIED="1789705819834"/>
@@ -183,7 +134,182 @@ https://www.psychologicalscience.org/publications/journals/pspi/learning-techniq
 <node TEXT="边界：判断改变可能来自标准移动，而非感知能力提升" ID="ID_KNOW_20260917_Psychology_66" CREATED="1789705819834" MODIFIED="1789705819834"/>
 </node>
 </node>
-<node TEXT="3. 学习与适应" FOLDED="true" POSITION="top_or_left" ID="ID_283036273" CREATED="1789306490188" MODIFIED="1789309106702" AI_EDITS="true">
+<node TEXT="记忆与表征(信息组织)" FOLDED="true" POSITION="top_or_left" ID="ID_1112705280" CREATED="1789306490188" MODIFIED="1791893847884" AI_EDITS="true">
+<node TEXT="记忆系统划分（工作记忆、情景、语义、程序）" ID="ID_1784910160" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
+<node TEXT="工作记忆维持当前信息；情景记忆保存事件；语义记忆保存知识；程序记忆支持技能" ID="ID_KNOW_20260917_Psychology_62" CREATED="1789705819835" MODIFIED="1789705819835"/>
+</node>
+<node TEXT="编码(encoding)、巩固(consolidation)&#xa;与提取(retrieval)" ID="ID_1646175583" CREATED="1789309124900" MODIFIED="1791880213669" AI_EDITS="true">
+<node TEXT="编码: 建立表征，信息到记忆" ID="ID_125057054" CREATED="1791880905952" MODIFIED="1791880995413">
+<node TEXT="机制：注意、加工、神经活动模式与突触可塑性" ID="ID_89426188" CREATED="1791881016949" MODIFIED="1791881034994"/>
+<node TEXT="加工层次理论" ID="ID_1899228098" CREATED="1791881101704" MODIFIED="1791881105891">
+<node TEXT="语义加工通常比浅层知觉加工记忆表现更好" ID="ID_1455340720" CREATED="1791881115360" MODIFIED="1791881132967"/>
+<node TEXT="也取决于提取任务和编码-提取之间的匹配度，不是加工越深记忆必然越好" ID="ID_141677228" CREATED="1791881143282" MODIFIED="1791881171313"/>
+</node>
+</node>
+<node TEXT="巩固: 记忆随时间稳定" ID="ID_354621661" CREATED="1791880916250" MODIFIED="1791880928278">
+<node TEXT="机制：突触变化、神经活动重放、脑区网络重组" ID="ID_1050510182" CREATED="1791881016949" MODIFIED="1791881057511"/>
+<node TEXT="不等于反复记忆" ID="ID_849772571" CREATED="1791881181638" MODIFIED="1791881189715"/>
+<node TEXT="两层次" ID="ID_1497899818" CREATED="1791881195801" MODIFIED="1791881198502">
+<node TEXT="突触巩固" ID="ID_900134962" CREATED="1791881198778" MODIFIED="1791881202977">
+<node TEXT="通常涉及学习后数小时内发生的细胞和分子过程，例如蛋白质合成及突触连接的持久变化" ID="ID_748607420" CREATED="1791881218751" MODIFIED="1791881219759"/>
+</node>
+<node TEXT="系统巩固" ID="ID_213183595" CREATED="1791881203121" MODIFIED="1791881206320">
+<node TEXT="通常涉及更长时间尺度上脑区之间的功能关系变化，尤其是海马与新皮层网络之间的相互作用" ID="ID_345359970" CREATED="1791881226632" MODIFIED="1791881227436"/>
+</node>
+</node>
+</node>
+<node TEXT="提取: 记忆再次被使用" ID="ID_56493489" CREATED="1791880961802" MODIFIED="1791880971187">
+<node TEXT="机制：线索驱动的表征再激活、模式补全及重建" ID="ID_1075346463" CREATED="1791881016949" MODIFIED="1791881077866"/>
+<node TEXT="通常涉及根据当前线索重新激活部分记忆表征，&#xa;并重建过去的经历(因此可能出现差错)" ID="ID_185204396" CREATED="1791883906917" MODIFIED="1791883943902"/>
+<node TEXT="提取练习效应：提取练习通常能增强长期保持" ID="ID_1685271457" CREATED="1791883952054" MODIFIED="1791883970114">
+<node TEXT="即使提取失败，但只要之后能接触到正确答案，依然会有效应" ID="ID_626518421" CREATED="1791884196440" MODIFIED="1791884216189"/>
+</node>
+</node>
+</node>
+<node TEXT="提取可及性（retrieval accessibility）" ID="ID_1666195786" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
+<node TEXT="相关信息能否被成功提取" ID="ID_1972911581" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true"/>
+<node TEXT="与可得性启发式的关系（见“判断与决策”）" ID="ID_1593816174" CREATED="1789309124900" MODIFIED="1789309124900" LINK="DecisionMaking.mm#ID_982949672" AI_EDITS="true"/>
+</node>
+<node TEXT="提取流畅性（retrieval fluency）" ID="ID_1884726949" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
+<node TEXT="熟悉感判断" ID="ID_189414090" CREATED="1789311228017" MODIFIED="1789311231658"/>
+<node TEXT="频率判断" ID="ID_685894306" CREATED="1789311232548" MODIFIED="1789311234703"/>
+<node TEXT="真实性与确信程度判断" ID="ID_1259476360" CREATED="1789311235558" MODIFIED="1789311241941"/>
+<node TEXT="可得性判断的候选机制之一" ID="ID_502728618" CREATED="1789311242760" MODIFIED="1789311254486"/>
+</node>
+<node TEXT="遗忘与干扰" ID="ID_1421100700" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
+<node TEXT="" ID="ID_1963754823" CREATED="1791884377735" MODIFIED="1791884377735">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="前摄干扰：旧信息妨碍新信息" ID="ID_KNOW_20260917_Psychology_88" CREATED="1789705819835" MODIFIED="1791884346941"/>
+<node TEXT="倒摄干扰：新信息妨碍旧信息" ID="ID_1793640468" CREATED="1791884341425" MODIFIED="1791884342322"/>
+<node TEXT="" ID="ID_225179530" CREATED="1791884377731" MODIFIED="1791884380147" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="竞争理论：相似记忆竞争&#xa;降低正确答案被提取概率" ID="ID_1008903881" CREATED="1791884377737" MODIFIED="1791884465413" HGAP_QUANTITY="26.75 pt">
+<node TEXT="" ID="ID_1517204873" CREATED="1791884399810" MODIFIED="1791884460707"/>
+</node>
+<node TEXT="抑制理论：大脑为了成功提取，&#xa;主动降低其他竞争性记忆" ID="ID_33862017" CREATED="1791884385969" MODIFIED="1791884457296" HGAP_QUANTITY="29 pt" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
+<node TEXT="提取诱发遗忘:提取强化记忆同时抑制相似记忆" ID="ID_782296479" CREATED="1791884424185" MODIFIED="1791884505486" HGAP_QUANTITY="17 pt"/>
+</node>
+</node>
+<node TEXT="提取失败不必等于痕迹消失" ID="ID_184321823" CREATED="1791884347767" MODIFIED="1791884351246"/>
+<node TEXT="时间诱发遗忘---争议！" ID="ID_982040633" CREATED="1791884589520" MODIFIED="1791884601455">
+<node TEXT="时间越久越容易遗忘，现象本身属实" ID="ID_1166090182" CREATED="1791884602412" MODIFIED="1791884641507"/>
+<node TEXT="但是时间单因素是否导致遗忘存在争议，时间遗忘可能是其他因素的作用" ID="ID_737385481" CREATED="1791884643345" MODIFIED="1791884666510"/>
+</node>
+</node>
+<node TEXT="记忆的重构性与虚假记忆" ID="ID_791160470" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
+<node TEXT="回忆会整合痕迹、线索与图式；生动和确信不保证细节准确" ID="ID_KNOW_20260917_Psychology_104" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="两个“自我”：记忆自我与体验自我&#xa;回顾评价可以系统性偏离即时体验，二者衡量内容不同，都对后续行为产生影响" ID="ID_1711224578" CREATED="1789719511368" MODIFIED="1791885334562">
+<node TEXT="" ID="ID_1385796614" CREATED="1789722591289" MODIFIED="1789722591289">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="峰终效应 peak-end rule&#xa;(统计规律，不是必然)" POSITION="top_or_left" ID="ID_1341403312" CREATED="1789719316355" MODIFIED="1791884949346">
+<node TEXT="体验回忆会极大地受到过程峰值以及结尾的影响" ID="ID_1788861777" CREATED="1789719355107" MODIFIED="1789719375964"/>
+<node TEXT="体验与体验的记忆混为一谈，是难以抵御的认知错觉" ID="ID_1365463458" CREATED="1789719394546" MODIFIED="1789719433435"/>
+</node>
+<node TEXT="时长忽视" ID="ID_566750473" CREATED="1789719678606" MODIFIED="1789719687816">
+<node TEXT="系统1(自动系统)通过平均值、常态和原型表示集合，而不是总和" ID="ID_1956935211" CREATED="1789719688846" MODIFIED="1789719788400"/>
+<node TEXT="持续时间对回顾性评价的直接影响较弱，甚至接近零" ID="ID_910385241" CREATED="1789719789317" MODIFIED="1791885160210"/>
+</node>
+<node TEXT="" ID="ID_768414573" CREATED="1789722591286" MODIFIED="1789722593256" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="二者共同导致倾向于强烈的短期快乐，&#xa;而非节制的长期幸福；&#xa;相对的，害怕强烈的短期痛苦，而非较弱的长期痛苦" ID="ID_819655469" CREATED="1789722591292" MODIFIED="1789722661078" HGAP_QUANTITY="26 pt"/>
+</node>
+<node TEXT="对学习过程的影响" ID="ID_1176759507" CREATED="1789719584960" MODIFIED="1791885619114">
+<node TEXT="记忆和记忆自我是不同分类体系的产物，不能等同" ID="ID_830383943" CREATED="1791885619514" MODIFIED="1791885634742">
+<node TEXT="记忆自我主要描述人如何从事后视角回顾和评价过去的经历" ID="ID_1302895269" CREATED="1791885644358" MODIFIED="1791885665407"/>
+<node TEXT="认知神经科学中的“记忆”，远比有意识的回忆广泛" ID="ID_548097321" CREATED="1791885678362" MODIFIED="1791885697545"/>
+</node>
+<node TEXT="人可能从被重构的经验中学习，&#xa;真实经历!=自己对经历的解释" ID="ID_1872135318" CREATED="1791885741910" MODIFIED="1791885898066">
+<node TEXT="事后偏见(hindsight bias)：知道事件结果之后，人们对自己先前预测的回忆和重建可能产生系统性偏差" ID="ID_829555746" CREATED="1791885764340" MODIFIED="1791885783402"/>
+</node>
+<node TEXT="实时的奖赏、痛苦、注意和预测误差就可以驱动学习。这些学习过程未必经过有意识的事后总结，却依然可能持久改变未来行为" ID="ID_1252653614" CREATED="1791885818335" MODIFIED="1791889872582">
+<arrowlink DESTINATION="ID_1923092674" STARTINCLINATION="255.74999 pt;0 pt;" ENDINCLINATION="486.74999 pt;0 pt;"/>
+</node>
+</node>
+</node>
+<node TEXT="聚焦错觉:给当前焦点错误赋予过高的权重" ID="ID_224085639" CREATED="1789722082167" MODIFIED="1791889858616">
+<node TEXT="夸大初期能带来刺激感的商品和体验，忽视时间，低估具有长期注意力价值的体验" ID="ID_576639241" CREATED="1791889842861" MODIFIED="1791889843853"/>
+</node>
+<node TEXT="时间记录(日记等)通过缩短回顾间隔的方式，对体验自我进行逼近，可以提供一个“半即时”的回忆视角" ID="ID_1536737662" CREATED="1791886368405" MODIFIED="1791886425266">
+<node TEXT="注意记录行为本身会对体验造成打断和影响，因此完全的体验自我事后是不可知的" ID="ID_1741906344" CREATED="1791886425719" MODIFIED="1791886470520"/>
+</node>
+</node>
+<node TEXT="内隐与外显记忆" ID="ID_306621927" CREATED="1789309124900" MODIFIED="1791889472723" AI_EDITS="true">
+<node TEXT="启动是先前经验对后续加工的影响；词义或知觉启动不能直接外推为复杂社会行为受控" ID="ID_KNOW_20260917_Psychology_99" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="外显记忆：有意识的回忆" ID="ID_1041749822" CREATED="1791889481722" MODIFIED="1791889487834"/>
+<node TEXT="内隐记忆：无需有意识回忆，过去仍影响当前表现" ID="ID_1923092674" CREATED="1791889489394" MODIFIED="1791889524135">
+<node TEXT="启动(Priming):先前呈现的刺激（Prime）改变了后续目标刺激（Target）的加工" ID="ID_1550575129" CREATED="1791889550482" MODIFIED="1791889570630">
+<node TEXT="促进(发)效应" ID="ID_997274870" CREATED="1791889575351" MODIFIED="1791889637532">
+<node TEXT="社会行为启动，存在可重复性争议" ID="ID_1817681654" CREATED="1791889809043" MODIFIED="1791889823504"/>
+</node>
+<node TEXT="负启动" ID="ID_36553839" CREATED="1791889586896" MODIFIED="1791889591408"/>
+<node TEXT="重复(repetition)启动:与重复接触同一刺激有关" ID="ID_1178505115" CREATED="1791889684306" MODIFIED="1791889748350">
+<node TEXT="之前看过某个单词，之后更快识别它" ID="ID_492429959" CREATED="1791889776188" MODIFIED="1791889776979"/>
+</node>
+<node TEXT="知觉(perceptual)启动:与刺激的知觉特征有关" ID="ID_1523810283" CREATED="1791889699696" MODIFIED="1791889755350">
+<node TEXT="之前见过某种图形，之后更容易辨认它" ID="ID_328439684" CREATED="1791889780353" MODIFIED="1791889781292"/>
+</node>
+<node TEXT="语义(semantic)启动:与意义关联、预期及任务加工有关" ID="ID_430239561" CREATED="1791889710619" MODIFIED="1791889763870">
+<node TEXT="看到“医生”后更快识别“护士”" ID="ID_1238411610" CREATED="1791889785268" MODIFIED="1791889786073"/>
+</node>
+<node TEXT="负(negative)启动:涉及注意选择、提取等可能机制" ID="ID_436777863" CREATED="1791889724777" MODIFIED="1791889773024">
+<node TEXT="之前被要求忽略的刺激，之后可能更难处理" ID="ID_192355854" CREATED="1791889789296" MODIFIED="1791889790036"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="信息组织（概念、图式、语义结构）" ID="ID_976998915" CREATED="1789309124900" MODIFIED="1791890332146" AI_EDITS="true">
+<node TEXT="概念用于类别化，图式组织情境知识；既提高理解效率，也可能使缺失信息被默认补全" ID="ID_KNOW_20260917_Psychology_2" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="概念(concept):对某一类对象、事件、属性或关系的心理表征" ID="ID_173705737" CREATED="1791890002314" MODIFIED="1791890020222">
+<node TEXT="分类、推理、泛化" ID="ID_1832243255" CREATED="1791890023997" MODIFIED="1791890024964"/>
+</node>
+<node TEXT="图式(schema):关于某类情境、事件或知识领域的结构化知识" ID="ID_1636684760" CREATED="1791890029520" MODIFIED="1791890044285">
+<node TEXT="组织信息、形成预期、指导理解" ID="ID_1071421089" CREATED="1791890048590" MODIFIED="1791890049536"/>
+<node TEXT="过去的经验不仅是被回忆出来的，它还可能通过已有图式被重新组织和解释;因此图式可能给记忆掺入虚假认知" ID="ID_615307327" CREATED="1791890275907" MODIFIED="1791890292360"/>
+</node>
+<node TEXT="语义结构(Semantic Structure):概念和知识之间的关系组织" ID="ID_1502204916" CREATED="1791890053720" MODIFIED="1791890078177" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
+<node TEXT="支持联想、语义判断、知识检索" ID="ID_1136150334" CREATED="1791890076493" MODIFIED="1791890077572"/>
+</node>
+</node>
+<node TEXT="元认知与记忆自信" ID="ID_1070739793" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
+<node TEXT="元认知是对自身认知的监控和调节；熟悉感与真正可提取、可迁移的知识不同" ID="ID_KNOW_20260917_Psychology_56" CREATED="1789705819835" MODIFIED="1789705819835"/>
+</node>
+<node TEXT="时间与情境对提取的影响" ID="ID_598100603" CREATED="1789311269865" MODIFIED="1789311280996">
+<node TEXT="近因效应：近期信息可能更容易提取" ID="ID_116051614" CREATED="1789311284945" MODIFIED="1789311289807"/>
+</node>
+<node TEXT="学习与迁移：理解、提取、间隔和应用" ID="ID_KNOW_20260917_Psychology_74" CREATED="1789705819835" MODIFIED="1789705819835"><richcontent TYPE="NOTE">
+<text>参考：Dunlosky 等（2013）：有效学习技术综述
+https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html</text></richcontent>
+<node TEXT="提取练习：闭卷重建概念与理由，再用反馈纠错" ID="ID_KNOW_20260917_Psychology_75" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="间隔练习：跨时间再次提取，区别于连续重读" ID="ID_KNOW_20260917_Psychology_76" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="交错练习：混合相近问题以训练辨别；收益取决于任务类型" ID="ID_KNOW_20260917_Psychology_77" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="迁移：在不同例子中识别共同结构，避免只记住表面题型" ID="ID_KNOW_20260917_Psychology_78" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="自测：用“负强化”解释回避行为，再说明它与惩罚的区别" ID="ID_KNOW_20260917_Psychology_79" CREATED="1789705819835" MODIFIED="1789705819835"/>
+</node>
+</node>
+</node>
+<node FOLDED="true" POSITION="top_or_left" ID="ID_283036273" CREATED="1789306490188" MODIFIED="1791894165690" AI_EDITS="true" HGAP_QUANTITY="35 pt"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">\latex \textbf{学习与适应}\\</span>
+    </p>
+    <p>
+      经验如何改变认知和行为？\\
+    </p>
+    <p>
+      \tiny{条件作用、强化学习、技能学习、知识迁移、适应}
+    </p>
+  </body>
+</html>
+</richcontent>
 <edge COLOR="#7c007c"/>
 <node TEXT="联结学习" ID="ID_815050130" CREATED="1789309115103" MODIFIED="1789309115103" AI_EDITS="true">
 <node TEXT="经典条件作用" ID="ID_1121403605" CREATED="1789309115103" MODIFIED="1789309115103" AI_EDITS="true">
@@ -236,80 +362,80 @@ https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning</text></
 </node>
 </node>
 </node>
-<node TEXT="4. 记忆与表征" POSITION="top_or_left" ID="ID_1112705280" CREATED="1789306490188" MODIFIED="1789309106702" AI_EDITS="true">
-<edge COLOR="#007c7c"/>
-<node TEXT="记忆系统划分（工作记忆、情景、语义、程序）" ID="ID_1784910160" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="工作记忆维持当前信息；情景记忆保存事件；语义记忆保存知识；程序记忆支持技能" ID="ID_KNOW_20260917_Psychology_62" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node POSITION="top_or_left" ID="ID_1167791381" CREATED="1791892947483" MODIFIED="1791893994560"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">\latex \textbf{动机与行为}\\</span>
+    </p>
+    <p>
+      人为什么行动，又如何作出选择？\\
+    </p>
+    <p>
+      \tiny{情绪、动机、价值、判断、决策、自我调节}
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#ff00ff"/>
+<node TEXT="判断与决策(信息使用)" POSITION="top_or_left" ID="ID_189576474" CREATED="1789306490188" MODIFIED="1791893876487" LINK="DecisionMaking.mm" AI_EDITS="true"/>
+<node TEXT="情绪、动机与自我调节" POSITION="top_or_left" ID="ID_KNOW_20260917_Psychology_17" CREATED="1789705819836" MODIFIED="1791890668913">
+<node TEXT="情绪：评价、主观体验、生理变化和行动倾向的耦合" FOLDED="true" ID="ID_KNOW_20260917_Psychology_18" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
+<text>参考：情绪的组成与理论，OpenStax §10.4
+https://openstax.org/books/psychology-2e/pages/10-4-emotion</text></richcontent>
+<node TEXT="情绪通常指向具体事件；心境持续更久、对象可能较模糊" ID="ID_KNOW_20260917_Psychology_19" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="效价与唤醒度描述状态；同为负效价的恐惧和愤怒可有不同倾向" ID="ID_KNOW_20260917_Psychology_20" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="评价理论关注目标关联、责任、可控性等解释维度" ID="ID_KNOW_20260917_Psychology_21" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="基本情绪与建构理论对类别和机制有不同解释，不能直接等同" ID="ID_KNOW_20260917_Psychology_22" CREATED="1789705819836" MODIFIED="1789705819836"/>
 </node>
-<node TEXT="编码、巩固与提取" ID="ID_1646175583" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="编码建立表征；巩固使其相对稳定；提取依赖线索和当前情境，三个环节均可限制表现" ID="ID_KNOW_20260917_Psychology_11" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="动机：行为朝向何处、投入多少、持续多久" FOLDED="true" ID="ID_KNOW_20260917_Psychology_23" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
+<text>参考：动机理论，OpenStax §10.1
+https://openstax.org/books/psychology-2e/pages/10-1-motivation
+参考：Ryan 与 Deci（2000）：自我决定理论
+https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf</text></richcontent>
+<node TEXT="期望—价值：成功预期、目标价值与成本共同影响投入" ID="ID_KNOW_20260917_Psychology_24" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="自我决定理论：自主、胜任与关系需要；自主不等于独自完成" ID="ID_KNOW_20260917_Psychology_25" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="内在动机来自活动本身；外在动机可具有不同程度的内化" ID="ID_KNOW_20260917_Psychology_26" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="外部奖励的影响取决于是否被体验为控制、是否传递能力信息等" ID="ID_KNOW_20260917_Psychology_27" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="需求层次不是必须依序满足的固定台阶" ID="ID_KNOW_20260917_Psychology_28" CREATED="1789705819836" MODIFIED="1789705819836"/>
 </node>
-<node TEXT="提取可及性（retrieval accessibility）" FOLDED="true" ID="ID_1666195786" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="相关信息能否被成功提取" ID="ID_1972911581" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true"/>
-<node TEXT="与可得性启发式的关系（见“判断与决策”）" ID="ID_1593816174" CREATED="1789309124900" MODIFIED="1789309124900" LINK="DecisionMaking.mm#ID_982949672" AI_EDITS="true"/>
+<node TEXT="调节：改变情境、注意、解释或表达" FOLDED="true" ID="ID_KNOW_20260917_Psychology_29" CREATED="1789705819836" MODIFIED="1789705819836">
+<node TEXT="重新评价改变事件含义；表达抑制主要改变外在表现，两者不等价" ID="ID_KNOW_20260917_Psychology_30" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="策略效果取决于目标、可控性、时间与文化，不能给出无条件优劣排名" ID="ID_KNOW_20260917_Psychology_31" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="压力来自要求与应对资源的关系；短时动员与持续负荷应区分" ID="ID_KNOW_20260917_Psychology_32" CREATED="1789705819836" MODIFIED="1789705819836"/>
 </node>
-<node TEXT="提取流畅性（retrieval fluency）" ID="ID_1884726949" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="熟悉感判断" ID="ID_189414090" CREATED="1789311228017" MODIFIED="1789311231658"/>
-<node TEXT="频率判断" ID="ID_685894306" CREATED="1789311232548" MODIFIED="1789311234703"/>
-<node TEXT="真实性与确信程度判断" ID="ID_1259476360" CREATED="1789311235558" MODIFIED="1789311241941"/>
-<node TEXT="可得性判断的候选机制之一" ID="ID_502728618" CREATED="1789311242760" MODIFIED="1789311254486"/>
-</node>
-<node TEXT="遗忘与干扰" ID="ID_1421100700" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="前摄干扰：旧信息妨碍新信息；倒摄干扰：新信息妨碍旧信息；提取失败不必等于痕迹消失" ID="ID_KNOW_20260917_Psychology_88" CREATED="1789705819835" MODIFIED="1789705819835"/>
-</node>
-<node TEXT="记忆的重构性与虚假记忆" ID="ID_791160470" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="回忆会整合痕迹、线索与图式；生动和确信不保证细节准确" ID="ID_KNOW_20260917_Psychology_104" CREATED="1789705819835" MODIFIED="1789705819835"/>
-<node TEXT="两个“自我”：记忆自我与体验自我&#xa;体验自我没有发言权，记忆自我经常是错的，但是后者掌控生活经验以及做最终决策" ID="ID_1711224578" CREATED="1789719511368" MODIFIED="1789719584618">
-<node TEXT="" ID="ID_1385796614" CREATED="1789722591289" MODIFIED="1789722591289">
-<hook NAME="FirstGroupNode"/>
-</node>
-<node TEXT="峰终效应 peak-end rule" POSITION="top_or_left" ID="ID_1341403312" CREATED="1789719316355" MODIFIED="1789720603990">
-<node TEXT="体验回忆会极大地受到过程峰值以及结尾的影响" ID="ID_1788861777" CREATED="1789719355107" MODIFIED="1789719375964"/>
-<node TEXT="体验与体验的记忆混为一谈，是难以抵御的认知错觉" ID="ID_1365463458" CREATED="1789719394546" MODIFIED="1789719433435"/>
-</node>
-<node TEXT="时长忽视" ID="ID_566750473" CREATED="1789719678606" MODIFIED="1789719687816">
-<node TEXT="系统1(自动系统)通过平均值、常态和原型表示集合，而不是总和" ID="ID_1956935211" CREATED="1789719688846" MODIFIED="1789719788400"/>
-<node TEXT="记忆不重视持续时间" ID="ID_910385241" CREATED="1789719789317" MODIFIED="1789719794599"/>
-</node>
-<node TEXT="" ID="ID_768414573" CREATED="1789722591286" MODIFIED="1789722593256" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
-<hook NAME="SummaryNode"/>
-<hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="二者共同导致倾向于强烈的短期快乐，&#xa;而非节制的长期幸福；&#xa;相对的，害怕强烈的短期痛苦，而非较弱的长期痛苦" ID="ID_819655469" CREATED="1789722591292" MODIFIED="1789722661078" HGAP_QUANTITY="26 pt"/>
-</node>
-<node TEXT="学习过往经历的经验，是提高记忆的质量，&#xa;未必是提高体验的质量" ID="ID_1176759507" CREATED="1789719584960" MODIFIED="1789719617969"/>
-</node>
-<node TEXT="聚焦错觉:夸大初期能带来刺激感的商品和体验，忽视时间，低估具有长期注意力价值的体验" ID="ID_224085639" CREATED="1789722082167" MODIFIED="1789722162968"/>
-</node>
-<node TEXT="内隐记忆与启动" ID="ID_306621927" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="启动是先前经验对后续加工的影响；词义或知觉启动不能直接外推为复杂社会行为受控" ID="ID_KNOW_20260917_Psychology_99" CREATED="1789705819835" MODIFIED="1789705819835"/>
-</node>
-<node TEXT="知识表征（概念、图式、语义结构）" ID="ID_976998915" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="概念用于类别化，图式组织情境知识；既提高理解效率，也可能使缺失信息被默认补全" ID="ID_KNOW_20260917_Psychology_2" CREATED="1789705819835" MODIFIED="1789705819835"/>
-</node>
-<node TEXT="元认知与记忆自信" ID="ID_1070739793" CREATED="1789309124900" MODIFIED="1789309124900" AI_EDITS="true">
-<node TEXT="元认知是对自身认知的监控和调节；熟悉感与真正可提取、可迁移的知识不同" ID="ID_KNOW_20260917_Psychology_56" CREATED="1789705819835" MODIFIED="1789705819835"/>
-</node>
-<node TEXT="时间与情境对提取的影响" ID="ID_598100603" CREATED="1789311269865" MODIFIED="1789311280996">
-<node TEXT="近因效应：近期信息可能更容易提取" ID="ID_116051614" CREATED="1789311284945" MODIFIED="1789311289807"/>
-</node>
-<node TEXT="学习与迁移：理解、提取、间隔和应用" ID="ID_KNOW_20260917_Psychology_74" CREATED="1789705819835" MODIFIED="1789705819835"><richcontent TYPE="NOTE">
-<text>参考：Dunlosky 等（2013）：有效学习技术综述
-https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html</text></richcontent>
-<node TEXT="提取练习：闭卷重建概念与理由，再用反馈纠错" ID="ID_KNOW_20260917_Psychology_75" CREATED="1789705819835" MODIFIED="1789705819835"/>
-<node TEXT="间隔练习：跨时间再次提取，区别于连续重读" ID="ID_KNOW_20260917_Psychology_76" CREATED="1789705819835" MODIFIED="1789705819835"/>
-<node TEXT="交错练习：混合相近问题以训练辨别；收益取决于任务类型" ID="ID_KNOW_20260917_Psychology_77" CREATED="1789705819835" MODIFIED="1789705819835"/>
-<node TEXT="迁移：在不同例子中识别共同结构，避免只记住表面题型" ID="ID_KNOW_20260917_Psychology_78" CREATED="1789705819835" MODIFIED="1789705819835"/>
-<node TEXT="自测：用“负强化”解释回避行为，再说明它与惩罚的区别" ID="ID_KNOW_20260917_Psychology_79" CREATED="1789705819835" MODIFIED="1789705819835"/>
+<node TEXT="自我控制：当前诱因与长期目标之间的协调" FOLDED="true" ID="ID_KNOW_20260917_Psychology_33" CREATED="1789705819836" MODIFIED="1789705819836">
+<node TEXT="提前安排情境、降低目标行为成本、设定明确行动线索" ID="ID_KNOW_20260917_Psychology_34" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="执行功能包含抑制、更新与切换，不能用单一“意志力存量”概括" ID="ID_KNOW_20260917_Psychology_35" CREATED="1789705819836" MODIFIED="1789705819836"/>
 </node>
 </node>
-<node TEXT="5. 判断与决策" POSITION="bottom_or_right" ID="ID_189576474" CREATED="1789306490188" MODIFIED="1789309106702" LINK="DecisionMaking.mm" AI_EDITS="true">
-<edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="6. 社会认知与互动" POSITION="bottom_or_right" ID="ID_1686770776" CREATED="1789306490188" MODIFIED="1789313184747" LINK="SocialPsychology.mm" AI_EDITS="true" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt">
-<edge COLOR="#ff0000"/>
-</node>
-<node TEXT="7. 个体差异与发展" FOLDED="true" POSITION="bottom_or_right" ID="ID_1786664602" CREATED="1789306490189" MODIFIED="1789309106702" AI_EDITS="true">
-<edge COLOR="#0000ff"/>
+<node POSITION="bottom_or_right" ID="ID_1654803083" CREATED="1791892957215" MODIFIED="1791894063267"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">\latex \textbf{社会与个体}\\</span>
+    </p>
+    <p>
+      人与人为何不同，又如何相互影响？\\
+    </p>
+    <p>
+      \tiny{社会认知、人际互动、人格、个体差异、发展、社会适应}
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#00ffff"/>
+<node TEXT="社会认知与互动" POSITION="bottom_or_right" ID="ID_1686770776" CREATED="1789306490188" MODIFIED="1791893868516" LINK="SocialPsychology.mm" AI_EDITS="true" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt"/>
+<node TEXT="个体差异与发展" FOLDED="true" POSITION="bottom_or_right" ID="ID_1786664602" CREATED="1789306490189" MODIFIED="1791894139260" AI_EDITS="true">
 <node TEXT="人格（personality）" ID="ID_328175905" CREATED="1789309133647" MODIFIED="1789309133647" AI_EDITS="true">
 <node TEXT="特质结构（大五与 HEXACO）" ID="ID_1365539758" CREATED="1789309133647" MODIFIED="1789309133647" AI_EDITS="true">
 <node TEXT="大五：开放性、尽责性、外向性、宜人性、神经质；是连续维度而非互斥人群" ID="ID_KNOW_20260917_Psychology_89" CREATED="1789705819835" MODIFIED="1789705819835"><richcontent TYPE="NOTE">
@@ -352,8 +478,115 @@ https://openstax.org/books/psychology-2e/pages/9-1-what-is-lifespan-development<
 </node>
 <node TEXT="人格与能力得分是有限信息，不能替代对具体行为和情境的理解" ID="ID_1977007887" CREATED="1789309133647" MODIFIED="1789309133647" AI_EDITS="true"/>
 </node>
-<node TEXT="8. 理论框架与计算模型" FOLDED="true" POSITION="bottom_or_right" ID="ID_991727808" CREATED="1789309161646" MODIFIED="1789309161650" AI_EDITS="true">
-<edge COLOR="#ff0000"/>
+</node>
+<node POSITION="top_or_left" ID="ID_688698209" CREATED="1791892971268" MODIFIED="1791894104368"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">\latex \textbf{生物与意识}\\</span>
+    </p>
+    <p>
+      心理活动由什么机制实现，意识有何特征？\\
+    </p>
+    <p>
+      \tiny{神经系统、神经递质、生理机制、身体与认知、意识}
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#7c0000"/>
+<node TEXT="生物基础、意识与语言" POSITION="top_or_left" ID="ID_KNOW_20260917_Psychology_36" CREATED="1789705819836" MODIFIED="1791890671341">
+<node TEXT="神经与身体：中枢、外周及内分泌系统共同参与行为调节" FOLDED="true" ID="ID_KNOW_20260917_Psychology_37" CREATED="1789705819836" MODIFIED="1789705819836">
+<node TEXT="神经递质的作用取决于受体、通路与时间尺度；多巴胺不是单一“快乐物质”" ID="ID_KNOW_20260917_Psychology_38" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="可塑性意味着功能可随经验改变；并不意味着无限改变或无限补偿" ID="ID_KNOW_20260917_Psychology_39" CREATED="1789705819836" MODIFIED="1789705819836"/>
+</node>
+<node TEXT="意识与睡眠：觉醒水平和可报告的体验内容需要区分" FOLDED="true" ID="ID_KNOW_20260917_Psychology_40" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
+<text>参考：睡眠与觉醒，OpenStax §4.2
+https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep</text></richcontent>
+<node TEXT="昼夜节律与睡眠稳态共同调节睡眠倾向" ID="ID_KNOW_20260917_Psychology_41" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="睡眠与注意、记忆及情绪调节相关；快速眼动与非快速眼动睡眠并非功能完全分离" ID="ID_KNOW_20260917_Psychology_42" CREATED="1789705819836" MODIFIED="1789705819836"/>
+</node>
+<node TEXT="语言：形式、意义与交际意图" FOLDED="true" ID="ID_KNOW_20260917_Psychology_43" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
+<text>参考：语言与思维，OpenStax §7.2
+https://openstax.org/books/psychology-2e/pages/7-2-language</text></richcontent>
+<node TEXT="语音、词法、句法、语义与语用处在不同分析层级" ID="ID_KNOW_20260917_Psychology_44" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="语言能够影响注意和分类，但不能由词汇差异推出思想被完全决定" ID="ID_KNOW_20260917_Psychology_45" CREATED="1789705819836" MODIFIED="1789705819836"/>
+</node>
+</node>
+</node>
+<node POSITION="bottom_or_right" ID="ID_521493861" CREATED="1791892981627" MODIFIED="1791894114157" HGAP_QUANTITY="10.25 pt" VSHIFT_QUANTITY="14.25 pt"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">\latex \textbf{理论与方法}\\</span>
+    </p>
+    <p>
+      如何建立、检验和限定心理学知识？\\
+    </p>
+    <p>
+      \tiny{概念定义、实验与测量、因果推断、理论模型、计算方法}
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#00007c"/>
+<node TEXT="基本约束与计算问题" FOLDED="true" POSITION="bottom_or_right" ID="ID_103763563" CREATED="1789306490188" MODIFIED="1791893905494" AI_EDITS="true">
+<node TEXT="生物约束" FOLDED="true" ID="ID_839271525" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="神经结构与代谢成本" ID="ID_1238319077" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="脑区在分布式网络中协同；同一脑区参与多种功能，不能由单一区域直接读出心理状态" ID="ID_KNOW_20260917_Psychology_100" CREATED="1789705819833" MODIFIED="1789705819833"/>
+</node>
+<node TEXT="感觉通道的带宽与精度" ID="ID_1574015197" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="进化遗产：准备性与敏感期" ID="ID_1678993105" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+</node>
+<node TEXT="有限认知资源" FOLDED="true" ID="ID_316869936" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="注意容量" ID="ID_1007262065" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="注意选择部分信息进入优先加工；双任务干扰随任务共享的资源与控制需求变化" ID="ID_KNOW_20260917_Psychology_57" CREATED="1789705819833" MODIFIED="1789705819833"/>
+</node>
+<node TEXT="工作记忆容量" ID="ID_816643897" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="工作记忆是在当前任务中维持与操作信息的系统；容量依编码、组块与干扰而变" ID="ID_KNOW_20260917_Psychology_9" CREATED="1789705819833" MODIFIED="1789705819833"/>
+</node>
+<node TEXT="时间与能量预算" ID="ID_1869005134" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+</node>
+<node TEXT="噪声与不确定性" ID="ID_1689158840" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="感觉与神经噪声" ID="ID_758683102" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="环境不确定性（偶然性 vs 认识性）" ID="ID_959906697" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="偶然性指过程本身的波动；认识性指知识不足，两者取决于所采用的模型" ID="ID_KNOW_20260917_Psychology_102" CREATED="1789705819834" MODIFIED="1789705819834"/>
+</node>
+</node>
+<node TEXT="信息获取与表征" FOLDED="true" ID="ID_421486251" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="部分可观测与受限采样" ID="ID_1968421494" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="表征的格式、维度与容量" ID="ID_1343119278" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+</node>
+<node TEXT="预测" ID="ID_1905006587" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="环境中的可预测结构" ID="ID_549188424" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="预测收益与误预测代价" ID="ID_1187909015" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+</node>
+<node TEXT="学习" ID="ID_1703812065" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="从经验中更新表征与价值" ID="ID_1731023617" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="学习速度与稳定性的权衡" ID="ID_1587239325" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+</node>
+<node TEXT="行动选择" ID="ID_1218999924" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true">
+<node TEXT="在资源与不确定性约束下做选择" ID="ID_1536070591" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="探索—利用权衡" ID="ID_853583890" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+<node TEXT="目标与动机" ID="ID_1602031897" CREATED="1789311029348" MODIFIED="1789311034735">
+<node TEXT="需要与目标（Goal）" ID="ID_853059925" CREATED="1789311035647" MODIFIED="1789311037545"/>
+<node TEXT="预期回报（Reward）" ID="ID_1837753840" CREATED="1789311043983" MODIFIED="1789311046436"/>
+<node TEXT="成本与努力（Cost/Effort）" ID="ID_985504442" CREATED="1789311046666" MODIFIED="1789311054893"/>
+<node TEXT="目标冲突与行动选择（Action selection）" ID="ID_1115748259" CREATED="1789311055065" MODIFIED="1789311059090"/>
+<node TEXT="内在动机与外部激励" ID="ID_2109130001" CREATED="1789312326873" MODIFIED="1789312326873"/>
+</node>
+</node>
+<node TEXT="这些约束定义“计算问题”；具体理论是对它们的候选解（见『8. 理论框架与计算模型』）" ID="ID_1378397428" CREATED="1789309106727" MODIFIED="1789309106727" AI_EDITS="true"/>
+</node>
+<node TEXT="理论框架与计算模型" FOLDED="true" POSITION="bottom_or_right" ID="ID_991727808" CREATED="1789309161646" MODIFIED="1791894129571" AI_EDITS="true">
 <node TEXT="定位：解释性框架，其地位取决于实证支持，不作为底层事实" ID="ID_99162825" CREATED="1789309096366" MODIFIED="1789309168946" AI_EDITS="true"/>
 <node TEXT="规范性/计算原则" ID="ID_498822840" CREATED="1789311101160" MODIFIED="1789311109927">
 <node TEXT="贝叶斯推断（Bayesian inference）" POSITION="bottom_or_right" ID="ID_1565934616" CREATED="1789309096366" MODIFIED="1789309168949" AI_EDITS="true">
@@ -400,81 +633,13 @@ https://openstax.org/books/psychology-2e/pages/9-1-what-is-lifespan-development<
 </node>
 </node>
 </node>
-<node TEXT="9. 情绪、动机与自我调节" FOLDED="true" ID="ID_KNOW_20260917_Psychology_17" CREATED="1789705819836" MODIFIED="1789705819836">
-<node TEXT="情绪：评价、主观体验、生理变化和行动倾向的耦合" FOLDED="true" ID="ID_KNOW_20260917_Psychology_18" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
-<text>参考：情绪的组成与理论，OpenStax §10.4
-https://openstax.org/books/psychology-2e/pages/10-4-emotion</text></richcontent>
-<node TEXT="情绪通常指向具体事件；心境持续更久、对象可能较模糊" ID="ID_KNOW_20260917_Psychology_19" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="效价与唤醒度描述状态；同为负效价的恐惧和愤怒可有不同倾向" ID="ID_KNOW_20260917_Psychology_20" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="评价理论关注目标关联、责任、可控性等解释维度" ID="ID_KNOW_20260917_Psychology_21" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="基本情绪与建构理论对类别和机制有不同解释，不能直接等同" ID="ID_KNOW_20260917_Psychology_22" CREATED="1789705819836" MODIFIED="1789705819836"/>
+<node TEXT="概念与结论的使用边界" FOLDED="true" POSITION="bottom_or_right" ID="ID_290683121" CREATED="1789309161617" MODIFIED="1791894147220" AI_EDITS="true">
+<node TEXT="区分现象、解释和模型：观察到某种效应，不意味着某个机制已被唯一确定" ID="ID_KNOW_20260917_Psychology_91" CREATED="1789705819833" MODIFIED="1789705819833"/>
+<node TEXT="心理概念描述机制或倾向；不能由单次行为给他人贴固定标签" ID="ID_KNOW_20260917_Psychology_92" CREATED="1789705819833" MODIFIED="1789705819833"/>
+<node TEXT="相关联系、因果机制与对个人的预测是不同主张，不能相互替代" ID="ID_KNOW_20260917_Psychology_93" CREATED="1789705819833" MODIFIED="1789705819833"/>
+<node TEXT="理论必须连同适用情境理解；群体平均趋势不决定每一个体" ID="ID_KNOW_20260917_Psychology_94" CREATED="1789705819833" MODIFIED="1789705819833"/>
+<node TEXT="各分支资料入口用于按需查证，不要求学习科研流程" ID="ID_KNOW_20260917_Psychology_95" CREATED="1789705819833" MODIFIED="1789705819833"/>
 </node>
-<node TEXT="动机：行为朝向何处、投入多少、持续多久" FOLDED="true" ID="ID_KNOW_20260917_Psychology_23" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
-<text>参考：动机理论，OpenStax §10.1
-https://openstax.org/books/psychology-2e/pages/10-1-motivation
-参考：Ryan 与 Deci（2000）：自我决定理论
-https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf</text></richcontent>
-<node TEXT="期望—价值：成功预期、目标价值与成本共同影响投入" ID="ID_KNOW_20260917_Psychology_24" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="自我决定理论：自主、胜任与关系需要；自主不等于独自完成" ID="ID_KNOW_20260917_Psychology_25" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="内在动机来自活动本身；外在动机可具有不同程度的内化" ID="ID_KNOW_20260917_Psychology_26" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="外部奖励的影响取决于是否被体验为控制、是否传递能力信息等" ID="ID_KNOW_20260917_Psychology_27" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="需求层次不是必须依序满足的固定台阶" ID="ID_KNOW_20260917_Psychology_28" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-<node TEXT="调节：改变情境、注意、解释或表达" FOLDED="true" ID="ID_KNOW_20260917_Psychology_29" CREATED="1789705819836" MODIFIED="1789705819836">
-<node TEXT="重新评价改变事件含义；表达抑制主要改变外在表现，两者不等价" ID="ID_KNOW_20260917_Psychology_30" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="策略效果取决于目标、可控性、时间与文化，不能给出无条件优劣排名" ID="ID_KNOW_20260917_Psychology_31" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="压力来自要求与应对资源的关系；短时动员与持续负荷应区分" ID="ID_KNOW_20260917_Psychology_32" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-<node TEXT="自我控制：当前诱因与长期目标之间的协调" FOLDED="true" ID="ID_KNOW_20260917_Psychology_33" CREATED="1789705819836" MODIFIED="1789705819836">
-<node TEXT="提前安排情境、降低目标行为成本、设定明确行动线索" ID="ID_KNOW_20260917_Psychology_34" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="执行功能包含抑制、更新与切换，不能用单一“意志力存量”概括" ID="ID_KNOW_20260917_Psychology_35" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-</node>
-<node TEXT="10. 生物基础、意识与语言" FOLDED="true" ID="ID_KNOW_20260917_Psychology_36" CREATED="1789705819836" MODIFIED="1789705819836">
-<node TEXT="神经与身体：中枢、外周及内分泌系统共同参与行为调节" FOLDED="true" ID="ID_KNOW_20260917_Psychology_37" CREATED="1789705819836" MODIFIED="1789705819836">
-<node TEXT="神经递质的作用取决于受体、通路与时间尺度；多巴胺不是单一“快乐物质”" ID="ID_KNOW_20260917_Psychology_38" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="可塑性意味着功能可随经验改变；并不意味着无限改变或无限补偿" ID="ID_KNOW_20260917_Psychology_39" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-<node TEXT="意识与睡眠：觉醒水平和可报告的体验内容需要区分" FOLDED="true" ID="ID_KNOW_20260917_Psychology_40" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
-<text>参考：睡眠与觉醒，OpenStax §4.2
-https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep</text></richcontent>
-<node TEXT="昼夜节律与睡眠稳态共同调节睡眠倾向" ID="ID_KNOW_20260917_Psychology_41" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="睡眠与注意、记忆及情绪调节相关；快速眼动与非快速眼动睡眠并非功能完全分离" ID="ID_KNOW_20260917_Psychology_42" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-<node TEXT="语言：形式、意义与交际意图" FOLDED="true" ID="ID_KNOW_20260917_Psychology_43" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
-<text>参考：语言与思维，OpenStax §7.2
-https://openstax.org/books/psychology-2e/pages/7-2-language</text></richcontent>
-<node TEXT="语音、词法、句法、语义与语用处在不同分析层级" ID="ID_KNOW_20260917_Psychology_44" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="语言能够影响注意和分类，但不能由词汇差异推出思想被完全决定" ID="ID_KNOW_20260917_Psychology_45" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-</node>
-<node TEXT="11. 心理健康与应用领域的概念地图" FOLDED="true" ID="ID_KNOW_20260917_Psychology_46" CREATED="1789705819836" MODIFIED="1789705819836">
-<node TEXT="心理困扰、功能损害与障碍分类不是同一层次" FOLDED="true" ID="ID_KNOW_20260917_Psychology_47" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
-<text>参考：心理障碍的概念边界，OpenStax §15.1
-https://openstax.org/books/psychology-2e/pages/15-1-what-are-psychological-disorders</text></richcontent>
-<node TEXT="持续时间、严重程度、生活功能与文化情境共同影响理解；普通情绪不能直接诊断化" ID="ID_KNOW_20260917_Psychology_48" CREATED="1789705819836" MODIFIED="1789705819836"/>
-<node TEXT="症状可能跨诊断共享；维度视角与类别视角各有用途" ID="ID_KNOW_20260917_Psychology_49" CREATED="1789705819836" MODIFIED="1789705819836"/>
-</node>
-<node TEXT="治疗取向：认知与行为、人际、心理动力等" FOLDED="true" ID="ID_KNOW_20260917_Psychology_50" CREATED="1789705819836" MODIFIED="1789705819836"><richcontent TYPE="NOTE">
-<text>参考：心理治疗的主要取向，OpenStax §16.2
-https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment</text></richcontent>
-<node TEXT="认知行为取向关注认知、情绪与行为之间可改变的联系" ID="ID_KNOW_20260917_Psychology_51" CREATED="1789705819838" MODIFIED="1789705819838"/>
-<node TEXT="疗法名称不能代替针对具体问题的专业评估，也不能保证对所有人有效" ID="ID_KNOW_20260917_Psychology_52" CREATED="1789705819838" MODIFIED="1789705819838"/>
-</node>
-<node TEXT="应用连接：教育看学习与迁移；组织看激励与协作；健康看行为与适应" ID="ID_KNOW_20260917_Psychology_53" CREATED="1789705819838" MODIFIED="1789705819838"/>
-</node>
-<node TEXT="资料入口：教材、课程与专题来源" FOLDED="true" ID="ID_KNOW_20260917_Psychology_109" CREATED="1789705819838" MODIFIED="1789705819838">
-<node TEXT="人格特质理论，OpenStax §11.7" ID="ID_KNOW_20260917_Psychology_110" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists"/>
-<node TEXT="动机理论，OpenStax §10.1" ID="ID_KNOW_20260917_Psychology_111" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/10-1-motivation"/>
-<node TEXT="毕生发展，OpenStax §9.1" ID="ID_KNOW_20260917_Psychology_112" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/9-1-what-is-lifespan-development"/>
-<node TEXT="Dunlosky 等（2013）：有效学习技术综述" ID="ID_KNOW_20260917_Psychology_113" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html"/>
-<node TEXT="操作性条件作用：强化与惩罚，OpenStax §6.3" ID="ID_KNOW_20260917_Psychology_114" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning"/>
-<node TEXT="情绪的组成与理论，OpenStax §10.4" ID="ID_KNOW_20260917_Psychology_115" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/10-4-emotion"/>
-<node TEXT="心理治疗的主要取向，OpenStax §16.2" ID="ID_KNOW_20260917_Psychology_116" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment"/>
-<node TEXT="睡眠与觉醒，OpenStax §4.2" ID="ID_KNOW_20260917_Psychology_117" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep"/>
-<node TEXT="Ryan 与 Deci（2000）：自我决定理论" ID="ID_KNOW_20260917_Psychology_118" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf"/>
-<node TEXT="语言与思维，OpenStax §7.2" ID="ID_KNOW_20260917_Psychology_119" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/7-2-language"/>
-<node TEXT="心理障碍的概念边界，OpenStax §15.1" ID="ID_KNOW_20260917_Psychology_120" CREATED="1789705819838" MODIFIED="1789705819838" LINK="https://openstax.org/books/psychology-2e/pages/15-1-what-are-psychological-disorders"/>
 </node>
 </node>
 </map>
